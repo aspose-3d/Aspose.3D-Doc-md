@@ -1,0 +1,4 @@
+baseURL = "https://docs2.aspose.com/3d/"
+languageCode = "en-us"
+title = "Aspose.3D"
+theme = "ace-documentation"
