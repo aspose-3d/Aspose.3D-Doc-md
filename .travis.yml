@@ -24,10 +24,10 @@ install:
 - sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
 
 script:
-- travis_wait 60 hugo --minify --config config.toml
+- travis_wait 15 hugo --minify --config config.toml
 
 after_success:
-- travis_wait 60 scp -i ./deploy_key -r $SRC_DIR/* $USER@$HOST:$DEST_DIR/$PRODUCT
+- travis_wait 15 scp -i ./deploy_key -r $SRC_DIR/* $USER@$HOST:$DEST_DIR/$PRODUCT
 
 
 
