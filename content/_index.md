@@ -1,10 +1,11 @@
-+++
-title = "Aspose.3d for Family" 
-description = "" 
-weight = 1
-+++
-
-Aspose.3d Product Family : Home  
+---
+title : "Aspose.3d for Family" 
+description : "" 
+weight : 1
+toc : false
+type: docs
+url: /
+---
 
 # ![Home Page](https://docs2.aspose.com/3d/java/images/icons/contenttypes/home_page_16.png)  Aspose.3d Product Family : Home 
 

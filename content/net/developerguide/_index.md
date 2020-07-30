@@ -1,10 +1,11 @@
-+++
-title = "Developer Guide" 
-description = "" 
-weight = 4010 
-+++
-
-Aspose.3D for .NET : Developer Guide  
+---
+title : "Developer Guide" 
+description : "" 
+weight : 4010 
+toc : false
+type: docs
+url: /net/developerguide/
+---
 
 # Aspose.3D for .NET : Developer Guide
 
@@ -12,16 +13,16 @@ Aspose.3D for .NET : Developer Guide
 ### Developer Guide
 
 &nbsp;&nbsp;&nbsp;&nbsp;[**Detect format of 3D file**](https://docs2.aspose.com/3d/net/developerguide/detect+format+of+3d+file)    
-&nbsp;&nbsp;&nbsp;&nbsp;[**Creating Loading and Saving 3D Scene**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create and Read an Existing 3D Scene**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/create+and+read+an+existing+3d+scene)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save a 3D Document**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/save+a+3d+document)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Load Options**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/specify+3d+file+load+options)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Save Options**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/specify+3d+file+save+options)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Import 3D Scenes and Contents from a PDF**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/import+3d+scenes+and+contents+from+a+pdf)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save a 3D Scene in the PDF**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/save+a+3d+scene+in+the+pdf)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/customize+non-pbr+to+pbr+materials+conversion+before+saving+3d+scenes+to+gltf+2.0+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**CancellationToken while loading a 3D scene**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/cancellationtoken+while+loading+a+3d+scene)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save 3D Scene as HTML**](https://docs2.aspose.com/3d/net/developerguide/creatingloadingandsaving3dscene/save+3d+scene+as+html)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Creating Loading and Saving 3D Scene**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create and Read an Existing 3D Scene**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/create+and+read+an+existing+3d+scene)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save a 3D Document**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/save+a+3d+document)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Load Options**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/specify+3d+file+load+options)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Save Options**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/specify+3d+file+save+options)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Import 3D Scenes and Contents from a PDF**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/import+3d+scenes+and+contents+from+a+pdf)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save a 3D Scene in the PDF**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/save+a+3d+scene+in+the+pdf)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/customize+non-pbr+to+pbr+materials+conversion+before+saving+3d+scenes+to+gltf+2.0+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**CancellationToken while loading a 3D scene**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/cancellationtoken+while+loading+a+3d+scene)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save 3D Scene as HTML**](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/save+3d+scene+as+html)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Geometry**](https://docs2.aspose.com/3d/net/developerguide/geometry/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create 3D Mesh and Scene**](https://docs2.aspose.com/3d/net/developerguide/geometry/create+3d+mesh+and+scene)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Set up normals or UV on the Cube and Add Material to 3D Entities**](https://docs2.aspose.com/3d/net/developerguide/geometry/set+up+normals+or+uv+on+the+cube+and+add+material+to+3d+entities)    
@@ -73,24 +74,24 @@ Aspose.3D for .NET : Developer Guide
 &nbsp;&nbsp;&nbsp;&nbsp;[**Working with Cylinder**](https://docs2.aspose.com/3d/net/developerguide/working+with+cylinder)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Knowledge Base**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**FAQs**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/faqs)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Migrating from Earlier Versions of Aspose.3D**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 17.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d17x/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 17.2.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d17x/public+api+changes+in+aspose.3d+17.2.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 17.01**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d17x/public+api+changes+in+aspose.3d+17.01)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.x.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d16xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.12.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d16xx/public+api+changes+in+aspose.3d+16.12.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.11.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d16xx/public+api+changes+in+aspose.3d+16.11.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.9.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d16xx/public+api+changes+in+aspose.3d+16.9.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 2.x.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d2xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 2.1.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d2xx/public+api+changes+in+aspose.3d+2.1.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 2.0.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d2xx/public+api+changes+in+aspose.3d+2.0.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.x.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.7.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/public+api+changes+in+aspose.3d+1.7.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.5.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/public+api+changes+in+aspose.3d+1.5.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.4.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/public+api+changes+in+aspose.3d+1.4.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.3.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/public+api+changes+in+aspose.3d+1.3.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.2.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/public+api+changes+in+aspose.3d+1.2.0)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.1.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearlierversionsofaspose3d/publicapichangesinaspose3d1xx/public+api+changes+in+aspose.3d+1.1.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Migrating from Earlier Versions of Aspose.3D**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 17.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin17x/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 17.2.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin17x/public+api+changes+in+aspose.3d+17.2.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 17.01**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin17x/public+api+changes+in+aspose.3d+17.01)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.x.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.12.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/public+api+changes+in+aspose.3d+16.12.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.11.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/public+api+changes+in+aspose.3d+16.11.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 16.9.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin16xx/public+api+changes+in+aspose.3d+16.9.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 2.x.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin2xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 2.1.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin2xx/public+api+changes+in+aspose.3d+2.1.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 2.0.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin2xx/public+api+changes+in+aspose.3d+2.0.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.x.x**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.7.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.7.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.5.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.5.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.4.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.4.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.3.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.3.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.2.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.2.0)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.1.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.1.0)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**API Limitations**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/api+limitations)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Working with PointCloud**](https://docs2.aspose.com/3d/net/developerguide/working+with+pointcloud)    
 

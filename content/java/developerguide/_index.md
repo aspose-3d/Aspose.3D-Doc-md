@@ -1,26 +1,27 @@
-+++
-title = "Developer Guide" 
-description = "" 
-weight = 4010 
-+++
-
-Aspose.3D for Java : Developer Guide  
+---
+title : "Developer Guide" 
+description : "" 
+weight : 4010 
+toc : false
+type: docs
+url: /java/developerguide/
+---
 
 # Aspose.3D for Java : Developer Guide
 
 
 ### Developer Guide
 
-&nbsp;&nbsp;&nbsp;&nbsp;[**Creating Loading and Saving 3D Scene**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Detect format of 3D file**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/detect+format+of+3d+file)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create an Empty 3D document**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/create+an+empty+3d+document)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read 3D document**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/read3ddocument/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Load Options**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/read3ddocument/specify+3d+file+load+options)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save 3D Document**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/save3ddocument/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Save Options**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/save3ddocument/specify+3d+file+save+options)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/customize+non-pbr+to+pbr+materials+conversion+before+saving+3d+scenes+to+gltf+2.0+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Export Scene to Compressed AMF Format**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/export+scene+to+compressed+amf+format)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save 3D Scene as HTML**](https://docs2.aspose.com/3d/java/developerguide/creatingloadingandsaving3dscene/save+3d+scene+as+html)    
+&nbsp;&nbsp;&nbsp;&nbsp;[**Creating Loading and Saving 3D Scene**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Detect format of 3D file**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/detect+format+of+3d+file)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create an Empty 3D document**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/create+an+empty+3d+document)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Read 3D document**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/rd3ddoc/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Load Options**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/rd3ddoc/specify+3d+file+load+options)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save 3D Document**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/sv3ddoc/)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Specify 3D File Save Options**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/sv3ddoc/specify+3d+file+save+options)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/customize+non-pbr+to+pbr+materials+conversion+before+saving+3d+scenes+to+gltf+2.0+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Export Scene to Compressed AMF Format**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/export+scene+to+compressed+amf+format)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Save 3D Scene as HTML**](https://docs2.aspose.com/3d/java/developerguide/cr-ld-sv/save+3d+scene+as+html)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**3D Modeling**](https://docs2.aspose.com/3d/java/developerguide/3dmodeling/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Add Asset Information to 3D document**](https://docs2.aspose.com/3d/java/developerguide/3dmodeling/add+asset+information+to+3d+document)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Create Scene with Primitive 3D Shapes**](https://docs2.aspose.com/3d/java/developerguide/3dmodeling/create+scene+with+primitive+3d+shapes)    

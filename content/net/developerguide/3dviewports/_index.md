@@ -1,10 +1,11 @@
-+++
-title = "3D Viewports" 
-description = "" 
-weight = 8061 
-+++
-
-Aspose.3D for .NET : 3D Viewports  
+---
+title : "3D Viewports" 
+description : "" 
+weight : 8061 
+toc : false
+type: docs
+url: /net/developerguide/3dviewports/
+---
 
 # Aspose.3D for .NET : 3D Viewports
 

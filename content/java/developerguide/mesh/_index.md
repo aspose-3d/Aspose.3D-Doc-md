@@ -1,10 +1,11 @@
-+++
-title = "Mesh" 
-description = "" 
-weight = 8043 
-+++
-
-Aspose.3D for Java : Mesh  
+---
+title : "Mesh" 
+description : "" 
+weight : 8043 
+toc : false
+type: docs
+url: /java/developerguide/mesh/
+---
 
 # Aspose.3D for Java : Mesh
 

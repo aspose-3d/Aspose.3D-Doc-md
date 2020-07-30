@@ -1,10 +1,11 @@
-+++
-title = "3D Modeling" 
-description = "" 
-weight = 8051 
-+++
-
-Aspose.3D for .NET : 3D Modeling  
+---
+title : "3D Modeling" 
+description : "" 
+weight : 8051 
+toc : false
+type: docs
+url: /net/developerguide/3dmodeling/
+---
 
 # Aspose.3D for .NET : 3D Modeling
 

@@ -1,0 +1,53 @@
+---
+title : "Working with Cylinder" 
+description : "" 
+weight : 8070 
+toc : false
+type: docs
+url: /net/developerguide/working+with+cylinder/
+---
+
+# Aspose.3D for .NET : Working with Cylinder
+
+
+{{< panel title="Contents Summary" style="primary" >}}
+*   1 [Customize Offset Top](#customize-offset-top)
+*   2 [Customize ShearBottom](#customize-shearbottom)
+*   3 [Create FanCylinder](#create-fancylinder)
+{{< /panel >}}
+ 
+
+ 
+
+This feature is supported by version 19.6 or greater.
+
+# Customize Offset Top
+
+Aspose.3D for .NET allows customizing Offset Top of a cylinder. In order to use this functionality, you can use **Offset** property of **Cylinder** class. The following code snippet shows how to customize Offset Top:
+
+![](https://docs2.aspose.com/3d/net/attachments/92176441/92340227.png)
+
+The left one has OffsetTop set to (5, 3, 0), it's easy to see the top cap has moved and the whole torso also gets affected.
+
+# Customize ShearBottom
+
+Aspose.3D for .NET allows customizing shear bottom of a cylinder. In order to use this functionality, you can use **ShearBottom** property of **Cylinder** class. The following code snippet shows how to customize Shear Bottom:
+
+![](https://docs2.aspose.com/3d/net/attachments/92176441/92340226.png)
+
+The left cylinder has ShearBottom to (0, 0.83) while the right one is an ordinal cylinder.
+
+# Create FanCylinder
+
+Aspose.3D for .NET allows creating a fan cylinder. In order to use this functionality, you can set **GenerateFanCylinder** property of **Cylinder** class to **True.** The following code snippet shows how to use this functionality:
+
+![](https://docs2.aspose.com/3d/net/attachments/92176441/92340225.png)
+
+The left cylinder has GenerateFanCylinder = false and the right one has GenerateFanCylinder = true.
+
+## Attachments:
+
+![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [fan-style.png](https://docs2.aspose.com/3d/net/attachments/92176441/92340225.png) (image/png)  
+![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [shear.png](https://docs2.aspose.com/3d/net/attachments/92176441/92340226.png) (image/png)  
+![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [offset.png](https://docs2.aspose.com/3d/net/attachments/92176441/92340227.png) (image/png)  
+

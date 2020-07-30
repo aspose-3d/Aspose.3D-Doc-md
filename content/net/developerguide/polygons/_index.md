@@ -1,10 +1,11 @@
-+++
-title = "Polygons" 
-description = "" 
-weight = 8064 
-+++
-
-Aspose.3D for .NET : Polygons  
+---
+title : "Polygons" 
+description : "" 
+weight : 8064 
+toc : false
+type: docs
+url: /net/developerguide/polygons/
+---
 
 # Aspose.3D for .NET : Polygons
 

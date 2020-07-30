@@ -1,10 +1,11 @@
-+++
-title = "Geometry" 
-description = "" 
-weight = 8022 
-+++
-
-Aspose.3D for .NET : Geometry  
+---
+title : "Geometry" 
+description : "" 
+weight : 8022 
+toc : false
+type: docs
+url: /net/developerguide/geometry/
+---
 
 # Aspose.3D for .NET : Geometry
 

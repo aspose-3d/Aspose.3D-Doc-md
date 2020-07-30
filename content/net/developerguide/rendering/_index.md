@@ -1,10 +1,11 @@
-+++
-title = "Rendering" 
-description = "" 
-weight = 8053 
-+++
-
-Aspose.3D for .NET : Rendering  
+---
+title : "Rendering" 
+description : "" 
+weight : 8053 
+toc : false
+type: docs
+url: /net/developerguide/rendering/
+---
 
 # Aspose.3D for .NET : Rendering
 

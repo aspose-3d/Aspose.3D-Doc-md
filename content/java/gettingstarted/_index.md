@@ -1,10 +1,11 @@
-+++
-title = "Getting Started" 
-description = "" 
-weight = 4002 
-+++
-
-Aspose.3D for Java : Getting Started  
+---
+title : "Getting Started" 
+description : "" 
+weight : 4002 
+toc : false
+type: docs
+url: /java/gettingstarted/
+---
 
 # Aspose.3D for Java : Getting Started
 

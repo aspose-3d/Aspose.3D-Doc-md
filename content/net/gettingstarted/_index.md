@@ -1,10 +1,11 @@
-+++
-title = "Getting Started" 
-description = "" 
-weight = 4002 
-+++
-
-Aspose.3D for .NET : Getting Started  
+---
+title : "Getting Started" 
+description : "" 
+weight : 4002 
+toc : false
+type: docs
+url: /net/gettingstarted/
+---
 
 # Aspose.3D for .NET : Getting Started
 

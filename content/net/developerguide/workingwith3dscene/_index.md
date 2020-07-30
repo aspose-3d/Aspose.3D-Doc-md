@@ -1,10 +1,11 @@
-+++
-title = "Working with 3D Scene" 
-description = "" 
-weight = 8031 
-+++
-
-Aspose.3D for .NET : Working with 3D Scene  
+---
+title : "Working with 3D Scene" 
+description : "" 
+weight : 8031 
+toc : false
+type: docs
+url: /net/developerguide/workingwith3dscene/
+---
 
 # Aspose.3D for .NET : Working with 3D Scene
 

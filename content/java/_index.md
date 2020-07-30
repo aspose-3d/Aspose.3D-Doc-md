@@ -1,9 +1,11 @@
-+++
-title = "Aspose.3D for Java" 
-description = "" 
-weight = 110 
-+++
-
+---
+title : "Aspose.3D for Java" 
+description : "" 
+weight : 110 
+toc : false
+type: docs
+url: /java/
+---
 
 # ![Home Page](https://docs2.aspose.com/3d/java/images/icons/contenttypes/home_page_16.png) Aspose.3D for Java : Home 
 
