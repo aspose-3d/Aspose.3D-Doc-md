@@ -12,9 +12,8 @@ url: /net/developerguide/3dviewports/
 
 ### Articles in this section
 
+*    [Apply Visual Effects on Saving 3D Views](https://docs2.aspose.com/3d/net/developerguide/3dviewports/apply+visual+effects+on+saving+3d+views/)    
+*    [Capture the Viewports of 3D Scene and Render to a Texture or Window](https://docs2.aspose.com/3d/net/developerguide/3dviewports/capture+the+viewports+of+3d+scene+and+render+to+a+texture+or+window/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Add Node Hierarchy in 3D Scene Document-01.png](https://docs2.aspose.com/3d/net/attachments/19922998/20119572.png) (image/png)  
 

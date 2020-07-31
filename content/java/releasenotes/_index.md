@@ -41,7 +41,6 @@ url: /java/releasenotes/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.3D for Java 18.6 - June 2018**](https://docs2.aspose.com/3d/java/releasenotes/2018/aspose.3d+for+java+18.6+-+june+2018)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Aspose.3D for Java 18.5 - May 2018**](https://docs2.aspose.com/3d/java/releasenotes/2018/aspose.3d+for+java+18.5+-+may+2018)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

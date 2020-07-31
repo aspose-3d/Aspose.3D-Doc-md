@@ -76,7 +76,3 @@ Please check the list of help topics added or updated in the Aspose.3D Wiki docs
 1.  [Create and Read an Existing 3D Scene](https://docs2.aspose.com/3d/net/developerguide/cr-ld-sv/create+and+read+an+existing+3d+scene)
 2.  [Create rectangular Torus in 3D Scene](https://docs2.aspose.com/3d/net/developerguide/3dobjects/create+rectangular+torus+in+3d+scene)
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [rtorus.png](https://docs2.aspose.com/3d/net/attachments/61539005/61767705.png) (image/png)  
-

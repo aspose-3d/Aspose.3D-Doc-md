@@ -152,16 +152,3 @@ s.Save(@"MirroredLShape.obj", FileFormat.WavefrontOBJ);
 
   
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_Circle.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089370.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_CShape.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089371.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_Ellipse.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089372.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_IShape.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089373.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_LShape.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089374.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_Rect.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089375.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_Trapezium.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089376.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_TShape.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089377.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_UShape.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089378.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Profile\_ZShape.png](https://docs2.aspose.com/3d/net/attachments/101122868/101089379.png) (image/png)  
-

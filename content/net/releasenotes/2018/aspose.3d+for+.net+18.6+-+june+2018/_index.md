@@ -45,7 +45,3 @@ The new feature adds support of importing Siemens JT Version 9.
 public static readonly Aspose.ThreeD.FileFormat SiemensJT9;
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [rtorus.png](https://docs2.aspose.com/3d/net/attachments/66946514/67338422.png) (image/png)  
-

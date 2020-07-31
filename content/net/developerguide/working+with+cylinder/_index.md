@@ -45,9 +45,3 @@ Aspose.3D for .NET allows creating a fan cylinder. In order to use this functio
 
 The left cylinder has GenerateFanCylinder = false and the right one has GenerateFanCylinder = true.
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [fan-style.png](https://docs2.aspose.com/3d/net/attachments/92176441/92340225.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [shear.png](https://docs2.aspose.com/3d/net/attachments/92176441/92340226.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [offset.png](https://docs2.aspose.com/3d/net/attachments/92176441/92340227.png) (image/png)  
-

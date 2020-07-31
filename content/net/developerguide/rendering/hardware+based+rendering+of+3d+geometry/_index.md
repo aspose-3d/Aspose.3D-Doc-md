@@ -43,7 +43,3 @@ This code example initializes renderer and Shader for the grid. You can download
 
 This code example initializes the buffer and render state for the grid.
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [RenderPicture.png](https://docs2.aspose.com/3d/net/attachments/19923120/20119573.png) (image/png)  
-

@@ -20,7 +20,6 @@ url: /java/gettingstarted/
 &nbsp;&nbsp;&nbsp;&nbsp;[**Licensing**](https://docs2.aspose.com/3d/java/gettingstarted/licensing)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**How to Run the Examples**](https://docs2.aspose.com/3d/java/gettingstarted/how+to+run+the+examples)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

@@ -33,7 +33,3 @@ The generated rectangular torus looks as follows:
 
 ![](https://docs2.aspose.com/3d/net/attachments/61539825/61767722.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [rtorus.png](https://docs2.aspose.com/3d/net/attachments/61539825/61767722.png) (image/png)  
-

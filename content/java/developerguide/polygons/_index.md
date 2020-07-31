@@ -12,6 +12,9 @@ url: /java/developerguide/polygons/
 
 ### Articles in this section
 
+*    [Convert all Polygons to Triangles in 3D Model](https://docs2.aspose.com/3d/java/developerguide/polygons/convert+all+polygons+to+triangles+in+3d+model/)    
+*    [Generate UV](https://docs2.aspose.com/3d/java/developerguide/polygons/generate+uv/)    
+
            
 
  

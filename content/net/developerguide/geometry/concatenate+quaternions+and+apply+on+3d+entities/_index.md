@@ -25,7 +25,3 @@ Result in 3ds MAX**
 
 ![quat-concat](https://docs2.aspose.com/3d/net/attachments/19923003/20119580.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [quat-concat.png](https://docs2.aspose.com/3d/net/attachments/19923003/20119580.png) (image/png)  
-

@@ -80,9 +80,3 @@ This table lists important Aspose.3D for .NET technical resources:
 |[Aspose.3D for .NET Examples and Plugins](https://github.com/aspose-3d/Aspose.3D-for-.NET)|This repository contains C# Example Project for Aspose.3D for .NET|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Aspose3D-for-NET-94X94.png](https://docs2.aspose.com/3d/net/attachments/19923696/20119560.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Aspose3D-for-NET-90x90.png](https://docs2.aspose.com/3d/net/attachments/19923696/20119561.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Aspose.3d-for-net-100x100.png](https://docs2.aspose.com/3d/net/attachments/19923696/20119558.png) (image/png)  
-

@@ -46,7 +46,3 @@ Demonstration of the example code:
 
 In this example we created 3 cube nodes share the same mesh, each of them have different material with different colors.
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Add Node Hierarchy in 3D Scene Document-01.png](https://docs2.aspose.com/3d/net/attachments/19923744/20119557.png) (image/png)  
-

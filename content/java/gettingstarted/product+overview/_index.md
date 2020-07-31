@@ -106,7 +106,3 @@ This table lists important Aspose.3D for Java technical resources.
 |[Aspose.3D for Java Examples and Plugins](https://github.com/aspose-3d/Aspose.3D-for-Java)|This repository contains C# Example Projects for Aspose.3D for Java.|
 {{< /table >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/java/images/icons/bullet_blue.gif) [Aspose.3D-for-java-100x100.png](https://docs2.aspose.com/3d/java/attachments/64456312/66519066.png) (image/png)  
-

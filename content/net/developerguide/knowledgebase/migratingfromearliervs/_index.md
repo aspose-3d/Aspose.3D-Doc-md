@@ -30,7 +30,6 @@ url: /net/developerguide/knowledgebase/migratingfromearliervs/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.2.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.2.0)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Public API Changes in Aspose.3D 1.1.0**](https://docs2.aspose.com/3d/net/developerguide/knowledgebase/migratingfromearliervs/changesin1xx/public+api+changes+in+aspose.3d+1.1.0)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

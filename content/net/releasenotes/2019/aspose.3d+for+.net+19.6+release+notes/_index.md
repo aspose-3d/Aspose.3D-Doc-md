@@ -147,9 +147,3 @@ Preview:
 
 The left cylinder has ShearBottom to (0, 0.83) while the right one is an ordinal cylinder.
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [offset.png](https://docs2.aspose.com/3d/net/attachments/89981429/90112037.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [fan-style.png](https://docs2.aspose.com/3d/net/attachments/89981429/90112038.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [shear.png](https://docs2.aspose.com/3d/net/attachments/89981429/90112039.png) (image/png)  
-

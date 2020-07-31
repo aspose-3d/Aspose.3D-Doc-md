@@ -111,7 +111,3 @@ var node = new Node()
 };
 {{< /code >}}
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [rtorus.png](https://docs2.aspose.com/3d/net/attachments/61553505/61767887.png) (image/png)  
-

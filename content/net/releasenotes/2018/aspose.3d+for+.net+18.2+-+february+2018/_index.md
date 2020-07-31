@@ -238,7 +238,3 @@ System.Collections.Generic.List<double> KnotVectors{ get;}
 
 IArrayList<double> KnotVectors{ get;}
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [rtorus.png](https://docs2.aspose.com/3d/net/attachments/61541450/61767788.png) (image/png)  
-

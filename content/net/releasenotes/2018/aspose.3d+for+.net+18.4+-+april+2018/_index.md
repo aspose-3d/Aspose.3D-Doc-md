@@ -141,7 +141,3 @@ These methods were marked as obsoleted in version 17.8, the equivalent replaceme
 
 public void Load(Aspose.ThreeD.Render.TextureData bitmap)public void Save(string path, System.Drawing.Imaging.ImageFormat format)public void Save(System.Drawing.Bitmap bitmap)public System.Drawing.Bitmap ToBitmap()
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [rtorus.png](https://docs2.aspose.com/3d/net/attachments/64455821/64716870.png) (image/png)  
-

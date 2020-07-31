@@ -71,8 +71,3 @@ Follow these steps to reference the component using the package manager GUI:
 4.  Type **Aspose.3D** into the search box to find Aspose.3D for .NET.
 5.  Click **Install/Update** next to the latest version of Aspose.3D for .NET.
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Referencing Aspose.3D library in a .NET project.png](https://docs2.aspose.com/3d/net/attachments/19923690/20119563.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [b2rJ8Km.png](https://docs2.aspose.com/3d/net/attachments/19923690/20119553.png) (image/png)  
-

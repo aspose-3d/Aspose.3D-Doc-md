@@ -51,7 +51,3 @@ Please see the following screenshot and its highlighted areas for more help.
 
 ![](https://docs2.aspose.com/3d/java/attachments/64456318/66519067.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/java/images/icons/bullet_blue.gif) [Example-CreateAnEmpty3DDocument.png](https://docs2.aspose.com/3d/java/attachments/64456318/66519067.png) (image/png)  
-

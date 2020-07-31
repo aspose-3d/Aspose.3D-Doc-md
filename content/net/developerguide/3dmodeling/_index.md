@@ -12,9 +12,7 @@ url: /net/developerguide/3dmodeling/
 
 ### Articles in this section
 
+*    [Create Scene with Primitive 3D Shapes](https://docs2.aspose.com/3d/net/developerguide/3dmodeling/create+scene+with+primitive+3d+shapes/)    
+
            
-
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Add Node Hierarchy in 3D Scene Document-01.png](https://docs2.aspose.com/3d/net/attachments/19923257/20119576.png) (image/png)  
 

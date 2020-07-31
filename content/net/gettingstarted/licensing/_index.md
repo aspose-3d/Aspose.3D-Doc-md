@@ -86,8 +86,3 @@ Aspose.3D for .NET API allows developers to apply metered license. It is a new 
 
 A new class [Metered](https://apireference.aspose.com/net/3d/aspose.threed/metered/) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Licensing-1.png](https://docs2.aspose.com/3d/net/attachments/19923450/20119554.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Licensing-2.png](https://docs2.aspose.com/3d/net/attachments/19923450/20119555.png) (image/png)  
-

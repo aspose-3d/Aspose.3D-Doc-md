@@ -55,7 +55,6 @@ url: /java/developerguide/
 &nbsp;&nbsp;&nbsp;&nbsp;[**Working with Cylinder**](https://docs2.aspose.com/3d/java/developerguide/working+with+cylinder)    
 &nbsp;&nbsp;&nbsp;&nbsp;[**Working with PointCloud**](https://docs2.aspose.com/3d/java/developerguide/working+with+pointcloud)    
 
-[Expand all](#)   [Collapse all](#)
 
            
 

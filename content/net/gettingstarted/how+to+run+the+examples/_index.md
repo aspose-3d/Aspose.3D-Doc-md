@@ -50,8 +50,3 @@ If you like to add or improve an example, we encourage you to contribute to the 
 
 To contribute, you can fork the repository, edit the source code and create a pull request. We will review the changes and include it in the repository if found helpful.
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Aspose.3D.png](https://docs2.aspose.com/3d/net/attachments/19922963/20119570.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [Aspose.3D.VS.png](https://docs2.aspose.com/3d/net/attachments/19922963/20119571.png) (image/png)  
-

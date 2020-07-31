@@ -27,8 +27,3 @@ Render Result**
 
 ![RenderPicture](https://docs2.aspose.com/3d/net/attachments/19922993/20119577.png)
 
-## Attachments:
-
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [RenderPicture.png](https://docs2.aspose.com/3d/net/attachments/19922993/20119578.png) (image/png)  
-![](https://docs2.aspose.com/3d/net/images/icons/bullet_blue.gif) [RenderPicture.png](https://docs2.aspose.com/3d/net/attachments/19922993/20119577.png) (image/png)  
-
