@@ -66,7 +66,7 @@ RectangularTorus rt = new RectangularTorus();rt.InnerRadius = 17;rt.OuterRadius 
 
 The generated rtorus.obj looks like:
 
-![](https://docs2.aspose.com/3d/net/attachments/61539005/61767705.png)
+![image](https://docs2.aspose.com/3d/net/attachments/61539005/61767705.png)
 
 ####   
 Usage Examples

@@ -10,7 +10,7 @@ url: /net/
 # ![Home Page](https://docs2.aspose.com/3d/net/images/icons/contenttypes/home_page_16.png) Aspose.3D for .NET : Home 
 
 
-![](https://docs2.aspose.com/3d/net/attachments/19923696/20119558.png)**Welcome to Aspose.3D for .NET API**
+![image](https://docs2.aspose.com/3d/net/attachments/19923696/20119558.png)**Welcome to Aspose.3D for .NET API**
 
 Aspose.3D for .NET is a class library project that empowers .NET applications to connect with 3D formats automatically without 3D modeling and rendering software being installed on the server. The Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 
