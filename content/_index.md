@@ -7,10 +7,10 @@ type: docs
 url: /
 ---
 
-# ![Home Page](https://docs2.aspose.com/3d/java/images/icons/contenttypes/home_page_16.png)  Aspose.3d Product Family : Home 
+# ![Home Page](home_page_16.png)  Aspose.3d Product Family : Home 
 
 
-![image](https://docs2.aspose.com/3d/java/attachments/thumbnails/64456312/66519066)**Welcome to Aspose.3D for Java API**
+![image](66519066)**Welcome to Aspose.3D for Java API**
 
 Aspose.3D for Java API is built to create, edit, manipulate and save 3D formats. It empowers Java applications to connect with 3D documents without?installing any software?package on the computer. Aspose.3D for Java API assist developers to model and create massive worlds in games, superb scenes for design visualization, and engage virtual reality experiences.
 
@@ -30,7 +30,7 @@ Following are the links to some useful resources you may need to accomplish your
 *   [Aspose.3D for Java Free Support Forum](https://forum.aspose.com/c/3d)
 *   [Aspose.3D for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
-![image](https://docs2.aspose.com/3d/net/attachments/19923696/20119558.png)**Welcome to Aspose.3D for .NET API**
+![image](20119558.png)**Welcome to Aspose.3D for .NET API**
 
 Aspose.3D for .NET is a class library project that empowers .NET applications to connect with 3D formats automatically without?3D modeling and rendering software?being installed on the server. The Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 

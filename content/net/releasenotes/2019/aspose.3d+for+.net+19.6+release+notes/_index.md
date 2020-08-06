@@ -66,7 +66,7 @@ scene.Save("test.obj", FileFormat.WavefrontOBJ);
 
 Preview:
 
-![image](https://docs2.aspose.com/3d/net/attachments/89981429/90112037.png)
+![image](90112037.png)
 
 The left one has **OffsetTop** set to (5, 3, 0), it's easy to see the top cap has moved and the whole torso also gets affected.
 
@@ -99,7 +99,7 @@ scene.Save("test.obj", FileFormat.WavefrontOBJ);
 
 Preview:
 
-![image](https://docs2.aspose.com/3d/net/attachments/89981429/90112038.png)
+![image](90112038.png)
 
 The left cylinder has GenerateFanCylinder = false and the right one has GenerateFanCylinder = true.
 
@@ -143,7 +143,7 @@ scene.Save("test.obj", FileFormat.WavefrontOBJ);
 
 Preview:
 
-![image](https://docs2.aspose.com/3d/net/attachments/89981429/90112039.png)
+![image](90112039.png)
 
 The left cylinder has ShearBottom to (0, 0.83) while the right one is an ordinal cylinder.
 

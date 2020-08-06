@@ -25,5 +25,5 @@ This code example casts and Receives shadows on 3D geometries.
 **  
 Render Result**
 
-![RenderPicture](https://docs2.aspose.com/3d/net/attachments/19922993/20119577.png)
+![RenderPicture](20119577.png)
 

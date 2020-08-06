@@ -21,7 +21,7 @@ url: /net/gettingstarted/product+overview/
 
  
 
-![image](https://docs2.aspose.com/3d/net/attachments/19923696/20119558.png)
+![image](20119558.png)
 
 **Welcome to the Aspose.3D for .NET documentation section**
 

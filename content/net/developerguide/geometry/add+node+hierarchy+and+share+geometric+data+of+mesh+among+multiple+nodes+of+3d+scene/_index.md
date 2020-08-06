@@ -28,7 +28,7 @@ Aspose.3D for .NET offers to build a Node hierarchy. The Node is basic building 
 
 A sample scene hierarchy looks like:
 
-![Add Node Hierarchy in 3D Scene Document](https://docs2.aspose.com/3d/net/attachments/19923744/20119557.png)
+![Add Node Hierarchy in 3D Scene Document](20119557.png)
 
 In Aspose.3D, each Node instance can have multiple child nodes, in this example, we created a node with two cube nodes, if we rotate the root node, all child nodes are also get affected:
 

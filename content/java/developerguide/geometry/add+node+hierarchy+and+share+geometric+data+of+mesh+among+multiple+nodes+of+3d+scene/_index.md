@@ -28,7 +28,7 @@ Aspose.3D for Java has support of building a hierarchy of Nodes. The Node is bas
 
 A sample scene hierarchy looks like:
 
-![Add Node Hierarchy in 3D Scene Document](download/attachments/19923744/201369451)
+![Add Node Hierarchy in 3D Scene Document](201369451.png)
 
 In Aspose.3D, each Node instance can have multiple child nodes, in this example, we created a node with two cube nodes, if we rotate the root node, all child nodes are also get affected:
 

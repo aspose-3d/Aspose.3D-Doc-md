@@ -25,5 +25,5 @@ This code example combine two quaternions and apply them to different cylinders.
 
 **Result in 3ds MAX**
 
-![quat-concat](https://docs2.aspose.com/3d/java/attachments/19923003/20119580.png)
+![quat-concat](20119580.png)
 

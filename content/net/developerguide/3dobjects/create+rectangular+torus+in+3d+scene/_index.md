@@ -31,5 +31,5 @@ scene.Save("rtorus.obj", FileFormat.WavefrontOBJ);
 
 The generated rectangular torus looks as follows:
 
-![image](https://docs2.aspose.com/3d/net/attachments/61539825/61767722.png)
+![image](61767722.png)
 

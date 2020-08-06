@@ -7,11 +7,11 @@ type: docs
 url: /java/
 ---
 
-# ![Home Page](https://docs2.aspose.com/3d/java/images/icons/contenttypes/home_page_16.png) Aspose.3D for Java : Home 
+# ![Home Page](home_page_16.png) Aspose.3D for Java : Home 
 
 
   
-![image](https://docs2.aspose.com/3d/java/attachments/thumbnails/64456312/66519066)**Welcome to Aspose.3D for Java API**
+![image](66519066)**Welcome to Aspose.3D for Java API**
 
 Aspose.3D for Java API is built to create, edit, manipulate and save 3D formats. It empowers Java applications to connect with 3D documents without installing any software package on the computer. Aspose.3D for Java API assist developers to model and create massive worlds in games, superb scenes for design visualization, and engage virtual reality experiences.
 

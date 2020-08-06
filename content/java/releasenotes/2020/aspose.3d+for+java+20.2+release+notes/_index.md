@@ -78,61 +78,61 @@ s.save("MirroredLShape.obj", FileFormat.WAVEFRONTOBJ);
 
 Properties of CircleShape can be illustrated in the figure below.
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089370.png)
+![image](101089370.png)
 
 ### Added new class **com.aspose.threed.CShape**
 
 Properties of CShape can be illustrated in the figure below:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089371.png)
+![image](101089371.png)
 
 ### Added new class com.aspose.threed**.EllipseShape**
 
 Properties of EllipseShape can be illustrated in this figure:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089372.png)
+![image](101089372.png)
 
 ### Added new class **com.aspose.threed.HShape**
 
 Properties of HShape can be illustrated in this figure:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089373.png)
+![image](101089373.png)
 
 ### Added new class **com.aspose.threed.LShape**
 
 Properties of LShape can be illustrated in this figure:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089374.png)
+![image](101089374.png)
 
 ### Added new class **com.aspose.threed.RectangleShape**
 
 Properties of RectangleShape can be illustrated in this figure:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089375.png)
+![image](101089375.png)
 
 ### Added new class **com.aspose.threed.TrapeziumShape**
 
 Properties of TrapeziumShape can be illustrated in this figure:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089376.png)
+![image](101089376.png)
 
 ### Added new class **com.aspose.threed.TShape**
 
 Properties of TShape can be illustrated in the figure below:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089377.png)
+![image](101089377.png)
 
 ### Added new class **com.aspose.threed.UShape**
 
 Properties of UShape can be illustrated in the following figure:
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089378.png)
+![image](101089378.png)
 
 ### Added new class **com.aspose.threed.ZShape**
 
 Properties of ZShape can be illustrated in the following figure.
 
-![image](https://docs2.aspose.com/3d/java/attachments/101122868/101089379.png)
+![image](101089379.png)
 
 ### Added new class **com.aspose.threed.MirroredShape**
 
