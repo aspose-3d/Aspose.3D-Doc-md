@@ -1,7 +1,7 @@
 ---
 title: Aspose.3D for .NET 20.8 Release Notes
 type: docs
-weight: 10
+weight: 9
 url: /net/aspose-3d-for-net-20-8-release-notes/
 ---
 

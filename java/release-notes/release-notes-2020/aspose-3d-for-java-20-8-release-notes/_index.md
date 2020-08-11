@@ -1,8 +1,8 @@
 ---
 title: Aspose.3D for Java 20.8 Release Notes
 type: docs
-weight: 10
-url: /net/aspose-3d-for-java-20-8-release-notes/
+weight: 9
+url: /java/aspose-3d-for-java-20-8-release-notes/
 ---
 
 {{% alert color="primary" %}}
