@@ -6,18 +6,18 @@ url: /net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/
 ---
 
 ## **Convert a Mesh to Triangle Mesh with Custom Memory Layout of the Vertex**
-[Aspose.3D for .NET](http://www.aspose.com/3d-component-suite.aspx) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](http://www.aspose.com/api/net/3d/aspose.threed.utilities/vertexdeclaration) class in the code examples.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](http://www.aspose.com/api/net/3d/aspose.threed.utilities/vertexdeclaration) class in the code examples.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-This help topic creates meshes from the box and sphere to keep the code comprehensive and short. Developers may construct a mesh manually as narrated in this help topic: [Create a 3D Cube Mesh](/3d/net/create-3d-mesh-and-scene-html/).
+This help topic creates meshes from the box and sphere to keep the code comprehensive and short. Developers may construct a mesh manually as narrated in this help topic: [Create a 3D Cube Mesh](/3d/net/create-3d-mesh-and-scene/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 These examples show how to:
 
-- [Convert a Sphere to Triangle Mesh with custom memory layout of the vertex (defined in the Struct)](/3d/net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh-html/).
-- [Convert a Box to Triangle Mesh with custom memory layout of the vertex (defined by VertexDeclaration class)](/3d/net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh-html/).
+- [Convert a Sphere to Triangle Mesh with custom memory layout of the vertex (defined in the Struct)](/3d/net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/).
+- [Convert a Box to Triangle Mesh with custom memory layout of the vertex (defined by VertexDeclaration class)](/3d/net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/).
 ### **Convert Mesh**
 Developers may convert mesh to triangle mesh because any complex (surface) structure can be represented as a bunch of triangles. The triangle is the most atomic geometry. Thus it is used as base for almost anything.
 ### **Access Vertices of a Triangle Mesh**
@@ -34,13 +34,13 @@ Below example converts a Box to triangle mesh with custom memory layout.
 
 {{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Working-with-Objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
 ## **Convert the Primitive to a Mesh**
-Using [Aspose.3D for .NET](http://www.aspose.com/3d-component-suite.aspx), developers can convert any primitive object to a mesh. Primitives include many of the most basic and most used objects like box, sphere, plane, cylinder, and torus.
+Using [Aspose.3D for .NET](https://products.aspose.com/3d/net), developers can convert any primitive object to a mesh. Primitives include many of the most basic and most used objects like box, sphere, plane, cylinder, and torus.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Any class that implements an interface IMeshConvertible can be converted to mesh while exporting to any 3D file format.
 
-{{% /alert %}} 
+{{% /alert %}}
 ### **Convert a Sphere to Mesh**
 A sphere is a perfectly round geometrical object in three-dimensional space that appear everywhere from sports balls to planets in space. Let’s use the Sphere primitive to create a mesh.
 The code example below converts a Sphere to mesh.

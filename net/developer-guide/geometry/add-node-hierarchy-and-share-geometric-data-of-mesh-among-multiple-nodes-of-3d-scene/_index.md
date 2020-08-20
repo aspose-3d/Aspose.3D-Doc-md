@@ -20,11 +20,11 @@ To diminish memory necessities, a single instance of [Mesh](http://www.aspose.co
 ### **Instancing example**
 In the RTS (Real-time strategy) games like, we can always see multiple NPCs (Non-Player Character) with same 3D model, maybe in different colors, rendering engine usually share same mesh geometry data across different NPCs, this technique is called Instancing.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene-html/).
+The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Demonstration of the example code:
 

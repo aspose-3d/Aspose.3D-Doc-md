@@ -5,11 +5,11 @@ weight: 60
 url: /net/render-a-panorama-view-of-3d-scene/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET API](https://www.aspose.com/products/3d/net), developers can render a panorama view of 3D scene and save that view into the supported image formats.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net), developers can render a panorama view of 3D scene and save that view into the supported image formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Create a Panorama view**
 In this article, we create a Camera and two Light objects to capture the scene, also create a render target, create a viewport and execute the equirectangular projection post-processing with the cube map as input and finally save the Panorama texture. The Execute method of Renderer class allows to execute the post processing effect and save the result to render target.
 ### **Programming Sample**

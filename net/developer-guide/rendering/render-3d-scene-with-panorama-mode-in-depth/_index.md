@@ -5,11 +5,11 @@ weight: 40
 url: /net/render-3d-scene-with-panorama-mode-in-depth/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET API](https://www.aspose.com/products/3d/net), developers can render a 3D scene with panorama mode in depth instead of the colors.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net), developers can render a 3D scene with panorama mode in depth instead of the colors.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Render 3D Scene with Panorama Mode in Depth**
 In this article, we create a Camera and two Light objects to capture the scene, the ShaderSet class helps to create depth shader.
 ### **Programming Sample**

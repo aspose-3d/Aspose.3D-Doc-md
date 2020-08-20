@@ -5,11 +5,11 @@ weight: 20
 url: /net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET API](https://www.aspose.com/products/3d/net), developers can create a Fisheye lens effect on 3D scene and save that view into the supported image formats.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net), developers can create a Fisheye lens effect on 3D scene and save that view into the supported image formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Create a Fisheye lens effect**
 In this article, we create a Camera and two Light objects to capture the scene, also create a render target, create a viewport and execute the Fisheye projection post-processing with the cube map as input and finally save the Fisheye texture. The Execute method of Renderer class allows to execute the post processing effect and save the result to render target.
 ### **Programming Sample**
@@ -89,7 +89,7 @@ using (var renderer = Renderer.CreateRenderer())
 
     // we can change the fov to 360 instead of the default value 180.
 
-    fisheye.FindProperty("fov").Value = 360.0; 
+    fisheye.FindProperty("fov").Value = 360.0;
 
     //Specify the cube map rendered from the scene as this post processing's input
 

@@ -10,19 +10,19 @@ A [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh) is defi
 
 In order to create a [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh) surface, we need to define control points and polygons as follows:
 
-- [Define the Control Points](/3d/net/create-3d-mesh-and-scene-html/)
-- [Create Polygons with PolygonBuilder Class](/3d/net/create-3d-mesh-and-scene-html/)
-- [Create Polygons](/3d/net/create-3d-mesh-and-scene-html/)
+- [Define the Control Points](/3d/net/create-3d-mesh-and-scene/)
+- [Create Polygons with PolygonBuilder Class](/3d/net/create-3d-mesh-and-scene/)
+- [Create Polygons](/3d/net/create-3d-mesh-and-scene/)
 
 Here’s an example to attach a Phong material to the cube node:
 ### **Define the Control Points**
 A mesh is composed by a set of control points in space, and polygons to describe the mesh surface, to create a mesh, we need to define the control points:
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The control points of all geometries in Aspose.3D use homogeneous coordinate, so it’s Vector4 instead of Vector3 in the example code.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **Example:**
 
@@ -44,11 +44,11 @@ Now it’s finished, to make the mesh visible, we need to prepare a node for it.
 ## **How to Triangulate a Mesh**
 Triangulate mesh is useful for game industry because the triangular is the only supported primitive that GPU hardware supports (non-triangular data are triangulated in driver-level, which is inefficient in real-time rendering)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In this version we only triangulated the polygons since it's required by 3ds file exporting, normals/uvs and other vertex elements are lost during this procedure, we can implement this in the future.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In this example, we triangulate a Mesh by importing FBX file and saved it in FBX format.
 
@@ -58,17 +58,17 @@ This topic demonstrates how to add Mesh geometry to the 3D scene. The example co
 ### **Create a Cube Node**
 A node is invisible, but the geometry attached to the node can be rendered.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](http://www.aspose.com/docs/display/3dnet/Create+a+3D+Cube+Mesh+and+Scene#Createa3DCubeMeshandScene-Createa3DCubeMesh).
+The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](https://docs.aspose.com/3d/net/create-3d-mesh-and-scene/#create-a-3d-cube-mesh).
 
-{{% /alert %}} 
+{{% /alert %}}
 
-**Example:**
+**Example**
 
 {{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-CubeScene-CreateCubeScene.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 NOTE: The entities attached to the root node are usually ignored in CAD/CAM softwares, so we need to create a new node to render the geometry.
 

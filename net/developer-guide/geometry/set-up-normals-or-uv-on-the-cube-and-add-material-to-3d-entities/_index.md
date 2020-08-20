@@ -5,15 +5,15 @@ weight: 20
 url: /net/set-up-normals-or-uv-on-the-cube-and-add-material-to-3d-entities/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.3D for .NET offers to manage normals and UV on the geometric shapes. A mesh stores the key properties for every vertex are its position in space and its normal, a vector perpendicular to the original surface. The normal is major to shading counts. The normals should be unit vectors. Most mesh formats also support some form of UV coordinates which are a separate 2d representation of the mesh "unfolded" to show what portion of a 2-dimensional texture map to apply to different polygons of the mesh.
 
-{{% /alert %}} {{% alert color="primary" %}} 
+{{% /alert %}} {{% alert color="primary" %}}
 
-The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene-html/) and then point node to the Mesh geometry by [Creating a 3D Scene](/3d/net/create-3d-mesh-and-scene-html/).
+The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene/) and then point node to the Mesh geometry by [Creating a 3D Scene](/3d/net/create-3d-mesh-and-scene/).
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Create Normal Vectors**
 To have a good visual look on lighting, we need to specify normals information for each vertex, to have a better details, we can also use normal and diffuse map (sure you can use shadow / specular map) to perform per-pixel normal/color. A per-vertex information like normal or vertex color is achieved by VertexElement. In Aspose.3D we can map extra information to control points/polygon vertex/polygon/edge, a sample to define normals for vertex:
 
@@ -75,7 +75,3 @@ boxNode.Material = mat;
 scene.Save(@"C:\3D\PBR_Material_Box_Out.stl", FileFormat.STLASCII);
 
 {{< /highlight >}}
-
-
-
-

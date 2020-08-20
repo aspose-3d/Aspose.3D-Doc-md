@@ -5,11 +5,11 @@ weight: 50
 url: /net/import-3d-scenes-and-contents-from-a-pdf/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The [Scene](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Scene) class of the Aspose.3D API represents a 3D scene. Developers can extract 3D scenes and contents from a PDF file.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Open Scene from a Password Protected PDF**
 The Open method of the Scene class allows to load the 3D scene from an input PDF file. Developers may also apply password for the protected PDFs using [PdfLoadOptions](http://www.aspose.com/api/net/3d/aspose.threed.formats/pdfloadoptions) class as shown in this code example:
 
@@ -23,8 +23,8 @@ The ExtractScene method of the [PdfFormat](http://www.aspose.com/api/net/3d/aspo
 
 {{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-ExtractAll3DScenes-ExtractAll3DScenes.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-All the supported 3D file formats are listed in the [Product Overview](http://www.aspose.com/docs/display/3dnet/Product+Overview) page.
+All the supported 3D file formats are listed in the [Product Overview](https://docs.aspose.com/3d/net/product-overview/) page.
 
 {{% /alert %}}

@@ -5,11 +5,11 @@ weight: 10
 url: /net/create-scene-with-primitive-3d-shapes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET](http://www.aspose.com/3d-component-suite.aspx), developers can define a scene with primitive 3D shapes. All parameterized primitives will be converted to mesh automatically while saving in any supported output file format.
+Using [Aspose.3D for .NET](https://products.aspose.com/3d/net), developers can define a scene with primitive 3D shapes. All parameterized primitives will be converted to mesh automatically while saving in any supported output file format.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Build Scene from Primitive 3D Shapes**
 Modeling is the process of pure creation and Aspose.3D API supports creating a scene with primitive 3D shapes.
 ### **Programming Sample**

@@ -8,11 +8,11 @@ url: /java/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/
 ## **Convert Mesh to Triangle Mesh with Custom Memory Layout of Vertex**
 Aspose.3D for Java API has support to convert mesh to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined dynamically by **VertexDeclaration** class in the code examples.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-This help topic creates meshes from the box and sphere to keep the code comprehensive and short. Developers may construct a mesh manually as narrated in this help topic: [Create 3D Cube Mesh](/3d/java/create-3d-mesh-and-scene-html/).
+This help topic creates meshes from the box and sphere to keep the code comprehensive and short. Developers may construct a mesh manually as narrated in this help topic: [Create 3D Cube Mesh](/3d/java/create-3d-mesh-and-scene/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Developers may convert mesh to triangle mesh because any complex (surface) structure can be represented as a bunch of triangles. The triangle is the most atomic geometry. Thus it is used as base for almost anything. This code example converts a Box to triangle mesh with custom memory layout.
 
@@ -22,11 +22,11 @@ Developers may convert mesh to triangle mesh because any complex (surface) struc
 ## **Convert Primitive Shape to Mesh**
 Aspose.3D for Java API has support of converting any primitive shape to mesh. Primitive shapes include most basic and used objects like box, sphere, plane, cylinder, and torus.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Any class that implements an interface IMeshConvertible can be converted to mesh while exporting to any 3D file format.
 
-{{% /alert %}} 
+{{% /alert %}}
 ### **Convert Sphere Primitive to Mesh**
 A sphere is a perfectly round geometrical object in three-dimensional space that appear everywhere from sports balls to planets in space. Let’s use the Sphere primitive to create a mesh.
 The code example below converts a Sphere to mesh.
