@@ -8,9 +8,6 @@ url: /java/add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-no
 ## **Add Node Hierarchy in 3D Scene Document**
 Aspose.3D for Java has support of building a hierarchy of Nodes. The Node is basic building block of 3D scene and a hierarchy of nodes defines the logical structure of 3D scene, and provide visible content by attaching geometries, lights, and cameras to nodes.
 ### **Scene Graph Example**
-A sample scene hierarchy looks like:
-
-![todo:image_alt_text](/download/attachments/19923744/1984644058)
 
 In Aspose.3D, each Node instance can have multiple child nodes, in this example, we created a node with two cube nodes, if we rotate the root node, all child nodes are also get affected:
 
