@@ -30,7 +30,7 @@ Aspose.3D for Java allows customizing shear bottom of a cylinder. In order to u
 ![todo:image_alt_text](working-with-cylinder_2.png)
 
 The left cylinder has ShearBottom to (0, 0.83) while the right one is an ordinal cylinder.
-# **Create FanCylinder**
+# **Create Fan-Cylinder**
 Aspose.3D for Java allows creating a fan cylinder. In order to use this functionality, you can **setGenerateFanCylinder()** property of **Cylinder** class to **True.** The following code snippet shows how to use this functionality:
 
 

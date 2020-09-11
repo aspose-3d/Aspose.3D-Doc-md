@@ -240,7 +240,7 @@ Only GLTF 2.0 supports PBR material, so this improvement only affects the GLTF 2
 
 /// The factor should be ranged between 0(0%, fully opaque) and 1(100%, fully transparent)
 
-/// Any invalid factor value will be clampped.
+/// Any invalid factor value will be clamped.
 
 /// </summary>
 

@@ -31,7 +31,7 @@ Furthermore, any operating system that can install Mono(.NET 4.0 Framework suppo
 ### **OpenGL**
 Aspose.3D for .NET requires the system that has OpenGL 4.3 support, according to [Wikipedia](https://en.wikipedia.org/wiki/OpenGL#OpenGL_4.3), the supported hardware:
 
-- Nvidia GeForce 400 series and newer
+- NVIDIA Ge-Force 400 series and newer
 - AMD Radeon HD 5000 Series and newer   
 - Intel HD Graphics in Intel Haswell processors and newer
 ### **Vulkan**

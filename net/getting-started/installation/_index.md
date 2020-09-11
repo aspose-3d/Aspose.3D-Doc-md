@@ -25,14 +25,14 @@ To reference the component using the package manager console:
 
 1. Open your .NET application in Visual Studio.
 1. On the **Tools** menu, select **Library Package Manager** and then **Package Manager Console**.
-1. Type the command “Install-Package Aspose.3D” to install the latest full release, or type the command “Install-Package Aspose.3D -prerelease” to install the latest release including hotfixes.
+1. Type the command “Install-Package Aspose.3D” to install the latest full release, or type the command “Install-Package Aspose.3D -prerelease” to install the latest release including hot-fixes.
 1. Press **Enter**.
 ### **Update package using Package Manager Console**
 If you have already referenced the component through NuGet, follow these steps to update the reference to the latest version:
 
 1. Open your .NET application in Visual Studio.
 1. From the **Tools** menu, select **Library Package Manager**, followed by the **Package Manager Console** to open the Package Manager console.
-1. Type the command “Update-Package Aspose.3D” to reference the latest full release, or type the command “Update-Package Aspose.3D -prerelease” to install the latest release including hotfixes.
+1. Type the command “Update-Package Aspose.3D” to reference the latest full release, or type the command “Update-Package Aspose.3D -prerelease” to install the latest release including hot-fixes.
 1. Press **Enter**.
 ### **Install-Package using the Package Manager GUI**
 Follow these steps to reference the component using the package manager GUI:

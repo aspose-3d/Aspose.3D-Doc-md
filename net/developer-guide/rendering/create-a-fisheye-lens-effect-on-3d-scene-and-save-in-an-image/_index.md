@@ -1,5 +1,5 @@
 ---
-title: Create a Fisheye lens effect on 3D scene and save in an image
+title: Create a Fish-eye lens effect on 3D scene and save in an image
 type: docs
 weight: 20
 url: /net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/

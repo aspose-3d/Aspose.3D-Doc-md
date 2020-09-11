@@ -7,7 +7,7 @@ url: /net/aspose-3d-for-net-20-5-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes information forAspose.3D for .NET 20.5.
+This page contains release notes information for Aspose.3D for .NET 20.5.
 
 {{% /alert %}} 
 ## **Improvements and Changes**

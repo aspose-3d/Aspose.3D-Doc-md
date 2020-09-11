@@ -24,7 +24,7 @@ This version has two major API changes:
   - This version renamed **Curve** to **KeyframeSequence**, and **CurveMapping** to **BindPoint**. The obsoleted interfaces will be removed from Aspose.3D for .NET 20.03. Methods using these classes will provide the replacement as an alternative.
   - While the old names are still existing in 19.12, the code that relies on these changes needs less or even no changes (If you use type infer). 
 - Removed the legacy OpenGL renderer, and refactored the renderer so it works best with the underlying Vulkan driver. Low-level interfaces have been changed while keeping the high-level rendering interfaces intact.
-  - The refactored renderer has better rendering performance, with more flexibility and extensibility.
+  - The refactored renderer has better rendering performance, with more flexibility and extensibilities.
   - The render method in the **Scene** class has no changes. If you use a high-level rendering interface, you don't need to change anything.
   - The low-level API has a breaking change, you may need to contact support for code migration.
 

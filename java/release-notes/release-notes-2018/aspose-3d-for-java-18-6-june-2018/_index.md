@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for Java 18.6](https://repositor
 |FBX to GLTF - the output GLTF loader fails in three.js|Bug|
 |Input FBX - an import error occurred|Bug|
 |Rendering - the wrong operand type error|Bug|
-|RVM to GLFT - an empty document is created|Bug|
+|RVM to glTF - an empty document is created|Bug|
 |RVM to WavefrontOBJ - an empty document is created|Bug|
 |Input FBX - Unsupported VertexElement attribute BinormalsIndex error occurred|Bug|
 ### **Public API and Backwards Incompatible Changes**

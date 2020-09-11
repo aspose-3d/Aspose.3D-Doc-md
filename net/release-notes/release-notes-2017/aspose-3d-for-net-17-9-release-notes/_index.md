@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for .NET 17.9](https://www.nuget
 |THREEDNET-288|Add support to render scene in fully customized shaders|New feature|
 |THREEDNET-284|Improve the memory consumption when writing a large FBX file|Enhancement|
 |THREEDNET-293|Incorrect export OBJ with texture to GLTF and GLB|Bug|
-|THREEDNET-290|Animate properties rotation (euler) and scale for FBX format|Bug|
+|THREEDNET-290|Animate properties rotation (Euler) and scale for FBX format|Bug|
 | | | |
 ### **Public API and Backwards Incompatible Changes**
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
@@ -374,7 +374,7 @@ public class ShaderSet : IDisposable
 }
 
 {{< /highlight >}}
-#### **Renders the scene in Panorama mode with customized shaders with linearize depth instead of colors.**
+#### **Renders the scene in Panorama mode with customized shaders with linearized depth instead of colors.**
 It helps in customizing the ShaderProgram used by each different material to fully take control of the final render result.
 
 **Definition C#**

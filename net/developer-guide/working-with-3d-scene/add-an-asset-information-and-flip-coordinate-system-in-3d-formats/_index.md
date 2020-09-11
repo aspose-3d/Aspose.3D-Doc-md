@@ -8,7 +8,7 @@ url: /net/add-an-asset-information-and-flip-coordinate-system-in-3d-formats/
 ## **Add an Asset Information to 3D Scene**
 Metadata is structured information that describes, explains, locates or makes it easier to retrieve, use or manage an information resource. Aspose.3D for .NET API allows developers to define a Metadata for the scene.
 ### **Define a Metadata for the scene**
-3D shows produce massive qunatities of metadata and picture information. Metadata is an asset and part of the show.
+3D shows produce massive quantities of metadata and picture information. Metadata is an asset and part of the show.
 
 1. Initialize a 3D Scene using [Scene]() class.
 1. Set application/tool name.

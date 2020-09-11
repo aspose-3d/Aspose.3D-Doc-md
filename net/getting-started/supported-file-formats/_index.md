@@ -22,12 +22,11 @@ The following table indicates the file formats that Aspose.3D for .NET can load 
 |[glTF](https://wiki.fileformat.com/3d/glb/)|Khronos Group’s glTF|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including 1.0 ASCII/ Binary, 2.0 ASCII/Binary, 2.0 ASCII/Binary with Draco extension|
 |[OBJ](https://wiki.fileformat.com/3d/obj/)|Wavefront Obj|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including mesh/point cloud support.|
 |[PDF](https://wiki.fileformat.com/view/pdf/)|3D PDF|{{< emoticons/tick >}}|{{< emoticons/tick >}}|<p>Only supports standard U3D embedded 3D content in PDF.</p><p>PRC and U3D with RH Mesh extension are not supported yet.</p>|
-|[HTML](https://wiki.fileformat.com/web/html/)|HyperText Markup Language| |{{< emoticons/tick >}}| |
+|[HTML](https://wiki.fileformat.com/web/html/)|Hyper-Text Markup Language| |{{< emoticons/tick >}}| |
 |[PLY](https://wiki.fileformat.com/3d/ply/)|Polygon File Format or Stanford Triangle Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including mesh/point cloud support.|
 |[JT](https://wiki.fileformat.com/3d/jt/)|Siemens JT File|{{< emoticons/tick >}}| |Only supports version 8 and 9.|
 |[STL](https://wiki.fileformat.com/cad/stl/)|Standard Triangle Language|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[U3D](https://wiki.fileformat.com/3d/u3d/)|Universal3D|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VRML 1.0](https://wiki.fileformat.com/3d/vrml/)|The Virtual Reality Modeling Language|{{< emoticons/tick >}}| |Only supports 1.0 ASCII.|
 |[X](https://wiki.fileformat.com/3d/x/)|DirectX’s X file|{{< emoticons/tick >}}| |Including ASCII/Binary.|
-|ATT|Alphacam Lathe Tool File|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 

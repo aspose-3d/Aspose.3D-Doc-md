@@ -28,5 +28,4 @@ The following table indicates the file formats that Aspose.3D for Java can load 
 |[U3D](https://wiki.fileformat.com/3d/u3d/)|Universal3D|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VRML 1.0](https://wiki.fileformat.com/3d/vrml/)|The Virtual Reality Modeling Language|{{< emoticons/tick >}}| |Only supports 1.0 ASCII.|
 |[X](https://wiki.fileformat.com/3d/x/)|DirectX’s X file|{{< emoticons/tick >}}| |Including ASCII/Binary.|
-|ATT|Alphacam Lathe Tool File|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 

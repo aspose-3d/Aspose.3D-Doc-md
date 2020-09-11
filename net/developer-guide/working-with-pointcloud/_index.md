@@ -11,19 +11,19 @@ This feature is supported by version 19.7 or greater.
 
 {{% /alert %}} 
 # **Decode Mesh**
-Aspose.3D for .NET allows decoding a mesh from a Draco file directly without building a scene using the [Decode](https://apireference.aspose.com/net/3d/aspose.threed.formats.dracoformat/decode/methods/1) method of [DarcoFormat ](https://apireference.aspose.com/net/3d/aspose.threed.formats/dracoformat)class. The following code snippet shows how to use this functionality:
+Aspose.3D for .NET allows decoding a mesh from a Draco file directly without building a scene using the [Decode](https://apireference.aspose.com/net/3d/aspose.threed.formats.dracoformat/decode/methods/1) method of [DracoFormat ](https://apireference.aspose.com/net/3d/aspose.threed.formats/dracoformat)class. The following code snippet shows how to use this functionality:
 
 
 
 {{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-WorkingWithPointCloud-DecodeMesh-1.cs" >}}
 # **Encode Mesh**
-Aspose.3D for .NET allows encoding a sphere mesh to a Draco file directly without building a scene using the [Encode](https://apireference.aspose.com/net/3d/aspose.threed.formats.dracoformat/encode/methods/2) method of [DarcoFormat ](https://apireference.aspose.com/net/3d/aspose.threed.formats/dracoformat)class. The following code snippet shows how to use this functionality:
+Aspose.3D for .NET allows encoding a sphere mesh to a Draco file directly without building a scene using the [Encode](https://apireference.aspose.com/net/3d/aspose.threed.formats.dracoformat/encode/methods/2) method of [DracoFormat ](https://apireference.aspose.com/net/3d/aspose.threed.formats/dracoformat)class. The following code snippet shows how to use this functionality:
 
 
 
 {{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-WorkingWithPointCloud-EncodeMesh-1.cs" >}}
 # **Encode Sphere as PointCloud**
-Aspose.3D for .NET allows encoding a sphere mesh to Draco file as a point cloud using the [Encode](https://apireference.aspose.com/net/3d/aspose.threed.formats.dracoformat/encode/methods/2) method of [DarcoFormat ](https://apireference.aspose.com/net/3d/aspose.threed.formats/dracoformat)class. The following code snippet shows how to use this functionality:
+Aspose.3D for .NET allows encoding a sphere mesh to Draco file as a point cloud using the [Encode](https://apireference.aspose.com/net/3d/aspose.threed.formats.dracoformat/encode/methods/2) method of [DracoFormat ](https://apireference.aspose.com/net/3d/aspose.threed.formats/dracoformat)class. The following code snippet shows how to use this functionality:
 
 
 

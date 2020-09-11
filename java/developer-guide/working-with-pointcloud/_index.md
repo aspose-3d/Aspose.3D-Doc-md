@@ -11,19 +11,19 @@ This feature is supported by version 19.7 or greater.
 
 {{% /alert %}} 
 # **Decode Mesh**
-Aspose.3D for Java allows decoding a mesh from a Draco file directly without building a scene using the [decode](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat#decode-java.lang.String-) method of [DarcoFormat ](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
+Aspose.3D for Java allows decoding a mesh from a Draco file directly without building a scene using the [decode](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat#decode-java.lang.String-) method of [DracoFormat ](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
 
 
 
 {{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "src-java-examples-pointcloud-DecodeMesh-1.java" >}}
 # **Encode Mesh**
-Aspose.3D for Java allows encoding a sphere mesh to a Draco file directly without building a scene using the [encode](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat#encode-com.aspose.threed.Entity-java.lang.String-) method of [DarcoFormat ](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
+Aspose.3D for Java allows encoding a sphere mesh to a Draco file directly without building a scene using the [encode](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat#encode-com.aspose.threed.Entity-java.lang.String-) method of [DracoFormat ](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
 
 
 
 {{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "src-java-examples-pointcloud-EncodeMesh-1.java" >}}
 # **Encode Sphere as PointCloud**
-Aspose.3D for Java allows encoding a sphere mesh to Draco file as a point cloud using the [encode](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat#encode-com.aspose.threed.Entity-java.lang.String-com.aspose.threed.DracoSaveOptions-) method of [DarcoFormat ](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
+Aspose.3D for Java allows encoding a sphere mesh to Draco file as a point cloud using the [encode](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat#encode-com.aspose.threed.Entity-java.lang.String-com.aspose.threed.DracoSaveOptions-) method of [DracoFormat ](https://apireference.aspose.com/java/3d/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
 
 
 

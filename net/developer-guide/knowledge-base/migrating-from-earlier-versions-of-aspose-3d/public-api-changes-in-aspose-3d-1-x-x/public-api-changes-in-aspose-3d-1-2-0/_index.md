@@ -35,7 +35,6 @@ scene.Save("d:\\camera-test.3ds", FileFormat.Discreet3DS);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **Flip Coordinate System in 3D Formats**
 (THREEDNET-123) - Allow user to flip coordinate system in OBJ/3DS/STL. Example code:
 
@@ -51,7 +50,6 @@ scene.Save(@"d:\freehand_shuttle.obj", new ObjConfig() { EnableMaterials = false
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **How to Triangulate a Mesh**
 Triangulate mesh is useful for game industry because the triangular is the only supported primitive that GPU hardware supports(non-triangular data are triangulated in driver-level, which is inefficient in real-time rendering). Example code:
 
@@ -91,4 +89,3 @@ Triangulate mesh is useful for game industry because the triangular is the only 
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang

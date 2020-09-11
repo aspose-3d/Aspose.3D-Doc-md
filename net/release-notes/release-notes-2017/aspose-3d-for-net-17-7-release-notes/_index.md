@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.3D for .NET 17.7](https://www.nuget
 | :- | :- | :- |
 |THREEDNET-265|Add support of exporting 3D scene to PLY format.|New feature|
 |THREEDNET-271|Simplify the creation of transform matrix.|New feature|
-|THREEDNET-270|Allow generate mesh from grayscale image as a height map.|New feature|
+|THREEDNET-270|Allow generate mesh from gray-scale image as a height map.|New feature|
 |THREEDNET-272|The FBX file generated cannot be edited by 3ds max.|Bug|
 |THREEDNET-274|UVs are corrupted when exporting a scene in FBX format.|Bug|
 ### **Public API and Backwards Incompatible Changes**

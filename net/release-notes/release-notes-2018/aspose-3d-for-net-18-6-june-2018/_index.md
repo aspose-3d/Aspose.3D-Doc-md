@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for .NET 18.6](https://www.nuget
 |THREEDNET-393|FBX to GLTF - the output GLTF loader fails in three.js|Bug| |
 |THREEDNET-396|Input FBX - an import error occurred|Bug| |
 |THREEDNET-395|Rendering - the wrong operand type error|Bug| |
-|THREEDNET-399|RVM to GLFT - an empty document is created|Bug| |
+|THREEDNET-399|RVM to glTF - an empty document is created|Bug| |
 |THREEDNET-398|RVM to WavefrontOBJ - an empty document is created|Bug| |
 |THREEDNET-400|Input FBX - Unsupported VertexElement attribute BinormalsIndex error occurred|Bug| |
 ### **Public API and Backwards Incompatible Changes**

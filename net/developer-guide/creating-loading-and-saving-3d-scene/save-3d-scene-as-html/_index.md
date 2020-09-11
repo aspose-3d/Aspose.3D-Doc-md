@@ -19,7 +19,7 @@ Aspose.3D for .NET provides **HTMLSaveOptions** class to save a save 3D scene as
 
 {{% alert color="primary" %}} 
 
-Due to the browser's security limits, the exported HTML file cannot be opened directly, you need to open it through a web server, if you have python3 installed, you can start the webserver in the command line in the exported directory
+Due to the browser's security limits, the exported HTML file cannot be opened directly, you need to open it through a web server, if you have python3 installed, you can start the web server in the command line in the exported directory
 
 {{% /alert %}} 
 

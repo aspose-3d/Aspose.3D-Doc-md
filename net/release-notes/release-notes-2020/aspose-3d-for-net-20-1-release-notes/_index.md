@@ -17,7 +17,7 @@ This page contains release notes information for Aspose.3D for .NET 20.1.
 |THREEDNET-602|Add FBX 6100 Import support |New Feature|
 |THREEDNET-594 |Line and curve rendering |Enhancement|
 |THREEDNET-601 |Improve the normal generation algorithm|Enhancement|
-|THREEDNET-603 |Some nurbs cannot be rendered in Aspose.3D|Bug|
+|THREEDNET-603 |Some NURBS cannot be rendered in Aspose.3D|Bug|
 |THREEDNET-595 |Shadow created when a scene is merged |Bug|
 |THREEDNET-605|Merge scene into mesh may fail. |Bug|
 |THREEDNET-608 |Saving and Loading scene is sometimes losing objects |Bug|

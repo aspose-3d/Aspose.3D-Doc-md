@@ -27,7 +27,7 @@ See the list for any changes made to the public API such as added, renamed, remo
 #### **Adds Export of the Collada format**
 Using this recent version (2.1.0), developers can export Collada 3D files. In the previous version (2.0.0), we have already added its import feature, since developers can also convert a Collada file to other supported 3D file formats.
 ### **Adds Load and Save Options for 3D File Formats**
-We have added load and save options for each file format. They're refactored from the original IOConfig subclasses.
+We have added load and save options for each file format. They're refactored from the original IOConfig sub-classes.
 #### **Adds Aspose.ThreeD.Formats.ColladaSaveOptions/Discreet3DSLoadOptions/Discreet3DSSaveOptions/FBXSaveOptions/ObjLoadOptions/ObjSaveOptions/STLLoadOptions/STLSaveOptions/ U3DLoadOptions/U3DSaveOptions classes**
 1. **ColladaSaveOptions Class** - It defines settings on saving a Collada 3D file.
 1. **Discreet3DSLoadOptions Class** - It defines settings on loading a discreet 3DS file.
@@ -42,7 +42,7 @@ We have added load and save options for each file format. They're refactored fro
 
 {{% alert color="primary" %}} 
 
-The old IOConfig subclasses are marked obsoleted, they'll be removed in the next major version (3.0.0).
+The old IOConfig sub-classes are marked obsoleted, they'll be removed in the next major version (3.0.0).
 
 {{% /alert %}} 
 ### **Adds Methods to Aspose.ThreeD.Scene Class**
@@ -50,7 +50,7 @@ We have overloaded Open and Save methods in the Scene class. Developers can pass
 ### **Removal of FillDummyIndexArray Property from Aspose.ThreeD.Formats.FBXConfig Class**
 This property was not being used.
 ### **Detect the Type of a 3D File**
-The Detect method of the Aspose.ThreeD.FileFormat class can recognise the type of any supported 3D file.
+The Detect method of the Aspose.ThreeD.FileFormat class can recognize the type of any supported 3D file.
 #### **Adds Detect, CreateLoadOptions and CreateSaveOptions Methods in the Aspose.ThreeD.FileFormat Class**
 After the recognition of a 3D file type, developers can create LoadOptions and SaveOptions objects using CreateLoadOptions and CreateSaveOptions methods of the FileFormat class.
 ### **Adds Excluded Property to Aspose.ThreeD.Entity and Aspose.ThreeD.Node Classes**

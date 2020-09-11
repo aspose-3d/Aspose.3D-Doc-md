@@ -28,7 +28,7 @@ This page contains release notes information for Aspose.3D for Java 20.7.
 
  /**
 
-\* A {@link com.aspose.threed.SweptAreaSolid} constructs a geometry by swepting a profile along a directrix.
+\* A {@link com.aspose.threed.SweptAreaSolid} constructs a geometry by sweeping a profile along a directrix.
 
 */
 

@@ -55,7 +55,7 @@ This document describes changes to the Aspose.3D API from version 2.0.0 to 2.1.0
 ### **Adds Export of Collada Files**
 Using this recent version (2.1.0), developers can export Collada 3D files. In the previous version (2.0.0), we have already added its import feature, since developers can also convert a Collada file to other supported 3D file formats.
 ### **Adds Load and Save Options for 3D File Formats**
-We have added load and save options for each file format. They're refactored from the original IOConfig subclasses.
+We have added load and save options for each file format. They're refactored from the original IOConfig sub-classes.
 #### **Adds Aspose.ThreeD.Formats.ColladaSaveOptions class**
 It defines settings on saving a Collada 3D file.
 

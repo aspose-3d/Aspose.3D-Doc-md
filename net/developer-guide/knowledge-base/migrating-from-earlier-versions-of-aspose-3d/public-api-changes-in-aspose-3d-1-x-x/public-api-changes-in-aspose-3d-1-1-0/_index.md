@@ -31,7 +31,6 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7200ASCII);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **FBX7200Binary Saving Option is added in the FileFormat**
 The FBX7200Binary format option has been added in the FileFormat enum. It represents Binary FBX file format, with 7.2.0 version. Example code:
 
@@ -45,7 +44,6 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7200Binary);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **FBX7300ASCII Saving Option is added in the FileFormat**
 The FBX7300ASCII format option has been added in the FileFormat enum. It represents ASCII FBX file format, with 7.3.0 version. Example code:
 
@@ -59,7 +57,6 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7300ASCII);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **FBX7300Binary Saving Option is added in the FileFormat**
 The FBX7300Binary format option has been added in the FileFormat enum. It represents Binary FBX file format, with 7.3.0 version. Example code:
 
@@ -73,7 +70,6 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7300Binary);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **WavefrontOBJ Saving Option is added in the FileFormat and FileFormatType**
 The WavefrontOBJ format option has been added in the FileFormat and FileFormatType enums. It represents Wavefront’s Obj file format. Example code:
 
@@ -87,4 +83,3 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.WavefrontOBJ);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang

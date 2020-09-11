@@ -20,7 +20,7 @@ This document describes changes to the Aspose.3D API from version 1.5.0 to 1.7.0
 
 {{% /alert %}} 
 ### **Adds Aspose.ThreeD.Entities.Frustum class**
-A new class Frustum is added. Camera and Light were the subclasses of Entity class. In the version 1.7.0, these classes are inherited from Frustum and Frustum is inherited from Entity, since the properties Position, Up, LookAt, Direction, Target, NearPlane and FarPlane are extracted into Frustum.
+A new class Frustum is added. Camera and Light were the sub-classes of Entity class. In the version 1.7.0, these classes are inherited from Frustum and Frustum is inherited from Entity, since the properties Position, Up, LookAt, Direction, Target, NearPlane and FarPlane are extracted into Frustum.
 
 **Extracted members from Aspose.ThreeD.Entities.Camera to Aspose.ThreeD.Entities.Frustum** 
 All these properties are extracted to Frustum:

@@ -28,7 +28,7 @@ It allows to access the node's global transform. This is useful to transform the
 #### **Adds Polygons property to Aspose.ThreeD.Entities.Mesh Class**
 It allows to get all polygons inside the mesh, each polygon is an array of polygon vertex index. Before this property, we have to use foreach syntax to enumerate each polygon which is inefficient.
 #### **Removes CreateStream member from Aspose.ThreeD.Formats.IOConfig Class**
-This was marked as obsolete in version 16.11.0, the new interface FileSystem was introduced in version 16.11.0 which provides more extensibility.
+This was marked as obsolete in version 16.11.0, the new interface FileSystem was introduced in version 16.11.0 which provides more extensibilities.
 ### **Usage Examples**
 Please check the list of help topics added in the Aspose.3D Wiki docs:
 

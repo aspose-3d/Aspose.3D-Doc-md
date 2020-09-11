@@ -43,7 +43,6 @@ VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal,
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **Universal 3D Saving Option is added in the FileFormat**
 The Universal 3D format option has been added in the FileFormat enum. Example code:
 
@@ -57,7 +56,6 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.Universal3D);
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **Embed Raw Content to the Texture of FBX**
 The <tt>Content</tt> property has added to the <tt>Texture</tt> class to embed the raw content in the texture of FBX document. Example code:
 
@@ -79,7 +77,6 @@ texture.Content = File.ReadAllBytes("c:\\test.png");
 
 {{< /highlight >}}
 
-Error rendering macro 'code' : Invalid value specified for parameter lang
 ### **Decompose method is added in the Matrix4 class**
 It is a mathematical utility function used to decompose an affine transformation matrix.
 ### **A new constructor in Vector4 class is added to receive a Vector3 object parameter**

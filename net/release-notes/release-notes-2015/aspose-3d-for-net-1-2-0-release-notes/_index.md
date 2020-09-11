@@ -20,7 +20,7 @@ Added property Target/Direction on Light/Camera
 
 Collada/3ds and some other files uses Target/Direction to set Light/Camera's orientation.
 
-Added more member methods and operator overloadings for Vector2/Quaternion.
+Added more member methods and operator overloads for Vector2/Quaternion.
 
 It's used for internal calculation, and also useful for customers.
 
@@ -29,6 +29,6 @@ Added a new class PolygonModifier.
 Some file formats only supports triangle meshes while Aspose.3D support polygon meshes, so we added this class to allow convert a polygon-based meshes into triangle-based meshes.
 We'll add more mesh modifications in the future.
 
-Added several IOConfig subclasses like FBXConfig/OBJConfig/STLConfig/Discreet3DSConfig
+Added several IOConfig sub-classes like FBXConfig/OBJConfig/STLConfig/Discreet3DSConfig
 
-Allow user to set options during the importing/exporting like 3ds max/maya/blender did.
+Allow user to set options during the importing/exporting like 3ds max/Maya/blender did.
