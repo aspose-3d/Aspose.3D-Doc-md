@@ -87,7 +87,7 @@ It defines settings on loading a discreet 3DS file.
 
  Discreet3DSLoadOptions loadOpts = new Discreet3DSLoadOptions();
 
-// sets wheather to use the transformation defined in the first frame of animation track.
+// sets weather to use the transformation defined in the first frame of animation track.
 
 loadOpts.ApplyAnimationTransform = true;
 
