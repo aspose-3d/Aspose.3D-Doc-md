@@ -14,9 +14,9 @@ This page contains release notes information for Aspose.3D for .NET 20.10.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|THREEDNET-737 | Add primitive support in A3DW export/import. | New feature 
-|THREEDNET-732 | Aspose.3d has a texture error when generating GLTF, but there is no problem saving it as fbx | Bug fix 
-|THREEDNET-738 | Add color table support in RVM file. | Improvement 
+|THREEDNET-737 | Add primitive support in A3DW export/import. | New feature
+|THREEDNET-732 | Aspose.3D has a texture error when generating GLTF, but there is no problem saving it as FBX | Bug fix 
+|THREEDNET-738 | Add color table support in RVM file. | Improvement
 |THREEDNET-739 | Support for 7.7/Binary/Autodesk FBX | Improvement
 
 ## API changes ##

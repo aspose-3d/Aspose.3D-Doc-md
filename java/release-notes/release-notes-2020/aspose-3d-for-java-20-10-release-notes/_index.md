@@ -14,8 +14,8 @@ This page contains release notes information for Aspose.3D for Java 20.10.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|THREEDNET-737 | Add primitive support in A3DW export/import. | New feature 
-|THREEDNET-732 | Aspose.3d has a texture error when generating GLTF, but there is no problem saving it as fbx | Bug fix 
+|THREEDNET-737 | Add primitive support in A3DW export/import. | New feature
+|THREEDNET-732 | Aspose.3D has a texture error when generating GLTF, but there is no problem saving it as FBX | Bug fix
 |THREEDNET-738 | Add color table support in RVM file. | Improvement 
 |THREEDNET-739 | Support for 7.7/Binary/Autodesk FBX | Improvement
 
@@ -72,25 +72,25 @@ public class A3DWSaveOptions extends SaveOptions
      * Default value is true
      */
     public boolean getExportMetaData();
-    
+
     /**
      * Export meta data associated with Scene/Node to client
      * Default value is true
      * @param value New value
      */
     public void setExportMetaData(boolean value);
-    
+
     /**
      * If this property is non-null, only the properties of Scene/Node that start with this prefix will be exported, and the prefix will be removed.
      */
     public String getMetaDataPrefix();
-    
+
     /**
      * If this property is non-null, only the properties of Scene/Node that start with this prefix will be exported, and the prefix will be removed.
      * @param value New value
      */
     public void setMetaDataPrefix(String value);
-    
+
     /**
      * Constructor of {@link com.aspose.threed.A3DWSaveOptions}
      */
