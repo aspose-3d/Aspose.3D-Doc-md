@@ -19,10 +19,16 @@ The evaluation version provides all the features except the following:
 - Users will also see an evaluation watermark in the rendered images and all other output files.
 
 {{% alert color="primary" %}} 
+If you're using Aspose.3D without a proper license, there could trigger an **Aspose.ThreeD.TrialException** when the usage reached the unlicensed restrictions, you can turn the exception off by:
 
-If you want to try Aspose.3D without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) For more information.
+* [Buy a full featured license](https://purchase.aspose.com/buy).
+* Request a 30 days temporary license, please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) For more information.
+.
+* Set **Aspose.ThreeD.TrialException.SuppressTrialException** to true, the  TrialException will not be raised during the Open/Save call on Scene, but the above restrictions will not be lifted.
+* Manually use a try/catch block on Scene.Open/Save, this exception is just a notification, ignore it will not affect the scene loading/saving.
 
 {{% /alert %}} 
+
 ## **Apply License using File or Stream Object**
 The license can be loaded from a [file](http://www.aspose.com/docs/display/3dnet/Licensing#Licensing-LoadingaLicensefromFile) or [stream object](http://www.aspose.com/docs/display/3dnet/Licensing#Licensing-LoadingaLicensefromaStreamObject). Aspose.3D for .NET will try to find the license in the following locations:
 

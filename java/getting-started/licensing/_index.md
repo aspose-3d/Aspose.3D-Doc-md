@@ -20,7 +20,13 @@ The evaluation version provides all the features except the following:
 
 {{% alert color="primary" %}} 
 
-If you want to test 'Aspose.3D for Java' without the evaluation version limitations, you can also request a 30-day Temporary License. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license)
+If you're using Aspose.3D without a proper license, there could trigger an **com.aspose.threed.TrialException** when the usage reached the unlicensed restrictions, you can turn the exception off by:
+
+* [Buy a full featured license](https://purchase.aspose.com/buy).
+* Request a 30 days temporary license, please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) For more information.
+.
+* Call **com.aspose.threed.TrialException.setSuppressTrialException(true)** before your open/save methods, the TrialException will not be raised during the open/save call on Scene, but the above restrictions will not be lifted.
+* Manually use a try/catch block on Scene.open/save, this exception is just a notification, ignore it will not affect the scene loading/saving.
 
 {{% /alert %}} 
 ## **Applying a License**
