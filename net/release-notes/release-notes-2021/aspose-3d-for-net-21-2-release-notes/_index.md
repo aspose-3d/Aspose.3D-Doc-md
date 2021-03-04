@@ -1,7 +1,7 @@
 ---
 title: Aspose.3D for .NET 21.2 Release Notes
 type: docs
-weight: 12
+weight: 11
 url: /net/aspose-3d-for-net-21-2-release-notes/
 ---
 

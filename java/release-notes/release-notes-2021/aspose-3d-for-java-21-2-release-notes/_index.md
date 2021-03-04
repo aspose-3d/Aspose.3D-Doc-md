@@ -7,7 +7,7 @@ url: /java/aspose-3d-for-java-21-2-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes information for Aspose.3D for Java 21.1.
+This page contains release notes information for Aspose.3D for Java 21.2.
 
 {{% /alert %}}
 ## **Improvements and Changes**
