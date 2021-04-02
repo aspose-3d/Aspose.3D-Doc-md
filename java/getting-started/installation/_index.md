@@ -40,7 +40,7 @@ Then define Aspose.3D for Java API dependency in your pom.xml as follows:
 
         <artifactId>aspose-3d</artifactId>
 
-        <version>19.6</version>
+        <version>21.4</version>
 
     </dependency>
 

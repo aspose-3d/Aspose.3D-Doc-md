@@ -26,6 +26,8 @@ The following table indicates the file formats that Aspose.3D for Java can load 
 |[JT](https://wiki.fileformat.com/3d/jt/)|Siemens JT File|{{< emoticons/tick >}}| |Only supports version 8 and 9.|
 |[STL](https://wiki.fileformat.com/cad/stl/)|Standard Triangle Language|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[U3D](https://wiki.fileformat.com/3d/u3d/)|Universal3D|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[USD](https://wiki.fileformat.com/3d/usd/)|Universal Scene Description|{{< emoticons/tick >}}|| |
+|[USDZ](https://wiki.fileformat.com/3d/usdz/)|Universal Scene Description Archive|{{< emoticons/tick >}}|| |
 |[VRML 1.0](https://wiki.fileformat.com/3d/vrml/)|The Virtual Reality Modeling Language|{{< emoticons/tick >}}| |Only supports 1.0 ASCII.|
 |[X](https://wiki.fileformat.com/3d/x/)|DirectX’s X file|{{< emoticons/tick >}}| |Including ASCII/Binary.|
 
