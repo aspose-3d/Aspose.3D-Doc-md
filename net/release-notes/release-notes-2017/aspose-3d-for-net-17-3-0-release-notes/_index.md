@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.3D for .NET 17.3.0](https://www.nug
 | :- | :- | :- |
 |THREEDNET-233|Add support of importing Google Draco (.drc) files.|New feature|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds Draco format entry in the Aspose.ThreeD.FileFormat Class**
 This release of Aspose.3D for .NET API has added support of importing Google Draco(.drc) files. Developers can import a Google Draco file, and then save it in any supported 3D format. 
 
@@ -35,7 +35,3 @@ Scene scene = new Scene();
 scene.Open("document.drc", FileFormat.Draco);
 
 {{< /highlight >}}
-### **Usage Examples**
-Please check the list of help topics added in the Aspose.3D Wiki docs:
-
-1. [Read a 3D Scene](https://docs.aspose.com//display/3dnet/Create+and+Read+an+Existing+3D+Scene#CreateandReadanExisting3DScene-Readinga3DScene)

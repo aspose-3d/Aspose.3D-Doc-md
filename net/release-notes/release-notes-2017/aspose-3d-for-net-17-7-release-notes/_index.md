@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.3D for .NET 17.7](https://www.nuget
 |THREEDNET-272|The FBX file generated cannot be edited by 3ds max.|Bug|
 |THREEDNET-274|UVs are corrupted when exporting a scene in FBX format.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds Members to Aspose.ThreeD.Utilities.Matrix4 Class**
 **C#**
 
@@ -239,5 +239,5 @@ FileFormat.PLY.EncodeMesh(new Cylinder(), "cylinder.ply", opt);
 ### **Usage Examples**
 Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Convert Mesh of a single 3D object in PLY file](/3d/net/convert-mesh-of-a-single-3d-object-in-ply-file-html/)
-1. [Simplify the creation of transformation matrix by the chain operations](/3d/net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations-html/)
+1. [Convert Mesh of a single 3D object in PLY file](/3d/net/convert-mesh-of-a-single-3d-object-in-ply-file/)
+1. [Simplify the creation of transformation matrix by the chain operations](/3d/net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/)

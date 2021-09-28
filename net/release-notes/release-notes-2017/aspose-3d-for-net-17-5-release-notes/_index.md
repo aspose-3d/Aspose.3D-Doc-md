@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for .NET 17.5](https://www.nuget
 |THREEDNET-250|Allow Aspose.3D API to import GLTF 2.0 ASCII files|New feature|
 |THREEDNET-253|Allow Aspose.3D API to import GLTF 2.0 Binary files|New feature|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds Aspose.ThreeD.Shading.PbrMaterial Class**
 The recent release of Aspose.3D for .NET API has added support of PBR (Physically Based Rendering) material. Developers can apply PBR material to entities and render into 3D models. 
 
@@ -71,8 +71,4 @@ var s = new Scene();
 s.Open("test.gltf", FileFormat.GLTF2);
 
 {{< /highlight >}}
-### **Usage Examples**
-Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Save a 3D Document](/3d/net/save-a-3d-document/)
-1. [Apply Physically Based Rendering (PBR) Material to a Box](/3d/net/set-up-normals-or-uv-on-the-cube-and-add-material-to-3d-entities/#setupnormalsoruvonthecubeandaddmaterialto3dentities-applyphysicallybasedrendering-pbr-materialtoabox)

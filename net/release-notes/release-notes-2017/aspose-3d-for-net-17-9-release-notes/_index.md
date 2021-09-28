@@ -21,7 +21,7 @@ This page contains release notes for [Aspose.3D for .NET 17.9](https://www.nuget
 |THREEDNET-290|Animate properties rotation (Euler) and scale for FBX format|Bug|
 | | | |
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds CreateAnimationClip member to Aspose.ThreeD.Scene class**
 It helps in creating animations.
 
@@ -539,5 +539,5 @@ Usage Examples
 
 Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Add Animation Property and Setup the Target Camera in 3D File](/3d/net/add-animation-property-and-setup-target-camera-in-3d-document-html/#addanimationpropertyandsetuptargetcamerain3ddocument-addanimationpropertyto3dscenedocument)
-1. [Render 3D Scene with Panorama Mode in Depth](/3d/net/render-3d-scene-with-panorama-mode-in-depth-html/)
+1. [Add Animation Property and Setup the Target Camera in 3D File](/3d/net/add-animation-property-and-setup-target-camera-in-3d-document/#addanimationpropertyandsetuptargetcamerain3ddocument-addanimationpropertyto3dscenedocument)
+1. [Render 3D Scene with Panorama Mode in Depth](/3d/net/render-3d-scene-with-panorama-mode-in-depth/)

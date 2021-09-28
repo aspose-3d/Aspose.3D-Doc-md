@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for .NET 17.11](https://www.nuge
 |THREEDNET-305|Add support of merging meshes|New feature|
 |THREEDNET-306|FBX to GLTF - incorrect material opacity in GLTF|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds RvmText and RvmBinary members to Aspose.ThreeD.FileFormat class**
 **C#**
 
@@ -266,5 +266,5 @@ scene.Save("box.gltf", FileFormat.GLTF2);
 #### **Usage Examples**
 Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Merge Meshes in 3D file](/3d/net/merge-meshes-in-3d-file-html/)
-1. [Use RVM load options](/3d/net/specify-3d-file-load-options-html/#specify3dfileloadoptions-uservmloadoptions)
+1. [Merge Meshes in 3D file](/3d/net/merge-meshes-in-3d-file/)
+1. [Use RVM load options](/3d/net/specify-3d-file-load-options/#specify3dfileloadoptions-uservmloadoptions)

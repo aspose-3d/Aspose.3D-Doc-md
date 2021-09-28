@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.3D for .NET 18.4](https://www.nuget
 |THREEDNET-375|Add skin controller import support in Collada|New Feature|
 |THREEDNET-349|Collada is missing Material ID|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 ### **API changes**
 The new features (Collada animation importing and exporting) in 18.4 do not introduce API changes.
 

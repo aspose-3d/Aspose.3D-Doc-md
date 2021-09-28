@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.3D for .NET 17.6](https://www.nuget
 |THREEDNET-264|Models has tangent but has no bi-normal will not render correctly|Bug|
 |THREEDNET-267|Materials in Collada files may not be loaded correctly.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds MaterialConverter Member to Aspose.ThreeD.Formats.GLTFSaveOptions Class**
 GLTF 2.0 only supports PBR materials, Aspose.3D will internally convert non-PBR materials into PBR materials before exporting into GLTF 2.0 (the materials in the scene will remain unchanged during the export), and the user can provide custom convert function to override the default behavior.
 

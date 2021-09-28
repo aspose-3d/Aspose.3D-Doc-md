@@ -22,7 +22,7 @@ The evaluation version provides all the features except the following:
 If you're using Aspose.3D without a proper license, there could trigger an **Aspose.ThreeD.TrialException** when the usage reached the unlicensed restrictions, you can turn the exception off by:
 
 * [Buy a full featured license](https://purchase.aspose.com/buy).
-* Request a 30 days temporary license, please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) For more information.
+* Request a 30 days temporary license, please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) For more information.
 .
 * Set **Aspose.ThreeD.TrialException.SuppressTrialException** to true, the  TrialException will not be raised during the Open/Save call on Scene, but the above restrictions will not be lifted.
 * Manually use a try/catch block on Scene.Open/Save, this exception is just a notification, ignore it will not affect the scene loading/saving.
@@ -30,7 +30,7 @@ If you're using Aspose.3D without a proper license, there could trigger an **Asp
 {{% /alert %}} 
 
 ## **Apply License using File or Stream Object**
-The license can be loaded from a [file](http://www.aspose.com/docs/display/3dnet/Licensing#Licensing-LoadingaLicensefromFile) or [stream object](http://www.aspose.com/docs/display/3dnet/Licensing#Licensing-LoadingaLicensefromaStreamObject). Aspose.3D for .NET will try to find the license in the following locations:
+The license can be loaded from a [file](https://docs.aspose.com/3d/net/licensing/#Licensing-LoadingaLicensefromFile) or [stream object](https://docs.aspose.com/3d/net/licensing/#Licensing-LoadingaLicensefromaStreamObject). Aspose.3D for .NET will try to find the license in the following locations:
 
 1. Explicit path.
 1. The folder that contains Aspose.3D.dll.
@@ -75,7 +75,7 @@ The following code snippet is used to set the license.
 
 {{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingEmbeddedResource.cs" >}}
 ## **Apply Metered License**
-Aspose.3D for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](http://www.aspose.com/corporate/purchase/policies/Licensing-Faqs/metered-faq.aspx) section.
+Aspose.3D for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 A new class [Metered](https://apireference.aspose.com/net/3d/aspose.threed/metered/) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 

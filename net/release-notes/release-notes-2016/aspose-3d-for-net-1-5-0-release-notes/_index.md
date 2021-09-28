@@ -19,7 +19,7 @@ url: /net/aspose-3d-for-net-1-5-0-release-notes/
 |THREEDNET-145 |Allow flip coordinate system in U3D's load/save configuration class. |Enhancement |
 |THREEDNET-154 |Spell issue: Distreet3DS should be Discreet3DS. |Bug |
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Removal of Distreet3DS format.**
 Distreet3DS format is marked as obsolete due to the incorrect spell.
 #### **Adds Discreet3DS format.**
@@ -52,11 +52,4 @@ It specifies the data policy used in the mesh splitting algorithm, we support tw
 1. Split the given mesh to sub-meshes by material definition.
 #### **Adds property FlipCoordinateSystem in class Aspose.ThreeD.Formats.Universal3DConfig**
 It allows users to flip the coordinate system of U3D during import or export.
-### **Usage Examples**
-Please check the list of help topics added in the Aspose.3D Wiki docs:
 
-- [Convert the Primitive to a Mesh](http://www.aspose.com/docs/display/3dnet/Convert+a+Mesh+to+Triangle+Mesh+and+Primitive+to+a+Mesh#ConvertaMeshtoTriangleMeshandPrimitivetoaMesh-ConvertthePrimitivetoaMesh)
-- [Create a Scene from Primitive 3D Models](/3d/net/create-scene-with-primitive-3d-shapes-html/)
-- [Split a Mesh by Specifying the Material](http://www.aspose.com/docs/display/3dnet/Split+Mesh#SplitMesh-SplitaMeshbySpecifyingtheMaterial)
-- [Split All Meshes of a Scene Per Material](/3d/net/split-mesh-html/)
-- [Convert a Mesh to Triangle Mesh with Custom Memory Layout of the Vertex](/3d/net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh-html/)
