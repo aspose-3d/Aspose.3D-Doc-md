@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.3D for .NET 2.0.0](https://www.nuge
 |THREEDNET-191|Use Vector4 to represent UV coordinates.|Enhancement|
 |THREEDNET-189|Render may crash the application on 64bit platform|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Real-time rendering**
 It allows developers to perform high-performance real-time rendering on a GUI framework like WinForms, it's GUI framework-independent, so the other GUI frameworks should also support this.
 #### **Adds Collada format**
@@ -54,8 +54,3 @@ The VertexElementUV's base class has changed from VertexElementTemplate<Vector2>
 The FileFormat properties are changed from integer to System.Version.
 #### **GetBoundingBox method is added to Aspose.ThreeD.Node**
 It allows developers to get the axis-aligned bounding box.
-#### **Usage Examples**
-Please check the list of help topics added in the Aspose.3D Wiki docs:
-
-- [Apply Visual Effects on Saving 3D Views](http://www.aspose.com/docs/display/3dnet/Apply+Visual+Effects+on+Saving+3D+Views)
-- [Capture the Viewports of 3D Scene and Render to a Texture or Window](http://www.aspose.com/docs/display/3dnet/Capture+the+Viewports+of+3D+Scene+and+Render+to+a+Texture+or+Window)

@@ -78,7 +78,7 @@ Due to the browser's security limits, the exported HTML file cannot be opened di
 
 {{< /highlight >}}
 
-Then open it <http://localhost:8000/test.html>. The web renderer uses WebGL2, you can use <https://get.webgl.org/webgl2/> to check if your browser supports it or not.
+Then open it **http://localhost:8000/test.html**. The web renderer uses WebGL2, you can use <https://get.webgl.org/webgl2/> to check if your browser supports it or not.
 ### **Added new class com.aspose.threed.HTML5SaveOptions**
 This allows you to customize the exported 3D HTML page
 

@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for .NET 17.4.0](https://www.nug
 |THREEDNET-237|Improve camera movement in orthographic projection mode.|Enhancement|
 |THREEDNET-238|Add support to zoom out Camera|Enhancement|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Saving a 3D Model in Google Draco (.drc) format**
 The recent release of Aspose.3D for .NET API has added support of exporting 3D models to Google Draco (.drc) formats. Developers can import any supported 3D files, and then save in a Google Draco format.
 
@@ -227,9 +227,3 @@ Camera camera = new Camera();
 camera.Magnification = new Vector2(2, 2);
 
 {{< /highlight >}}
-### **Usage Examples**
-Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
-
-1. [Save a 3D Document](/3d/net/save-a-3d-document-html/)
-1. [Use of the Google Draco (.drc) Save Options](/3d/net/specify-3d-file-save-options/#specify3dfilesaveoptions-useofthegoogledraco-drc-saveoptions)
-1. [Encoding a 3D Mesh in the Google Draco File](/3d/net/encoding-a-3d-mesh-in-the-google-draco-file/)

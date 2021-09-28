@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.3D for .NET 18.1](https://www.nuget
 |THREEDNET-325|RVM file with sloped cylinder is not supported.|Bug|
 |THREEDNET-324|Cannot import an RVM file|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds ASE member to Aspose.ThreeD.FileFormat class**
 This is used to identify the input format of the file while loading a scene from stream or file name.
 
@@ -194,5 +194,5 @@ The generated rtorus.obj looks like:
 #### **Usage Examples**
 Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Create and Read an Existing 3D Scene](/3d/net/create-and-read-an-existing-3d-scene-html/)
-1. [Create rectangular Torus in 3D Scene](/3d/net/create-rectangular-torus-in-3d-scene-html/)
+1. [Create and Read an Existing 3D Scene](/3d/net/create-and-read-an-existing-3d-scene/)
+1. [Create rectangular Torus in 3D Scene](/3d/net/create-rectangular-torus-in-3d-scene/)

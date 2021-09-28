@@ -65,7 +65,7 @@ If you need help of Aspose.3D for Java API, [**visit the Aspose.Forums**](https
 If you have an issue with Aspose.3D for Java, follow these simple steps to make sure it is resolved in the most efficient way:
 
 - Make sure you use the latest version of Aspose.3D for Java API before reporting the issue. Refer to the [Aspose.3D for Java download page](https://repository.aspose.com/repo/com/aspose/aspose-3d/) to find out about the latest version.
-- Have a look through the [forum](https://forum.aspose.com/c/3d), [this documentation Wiki](/3d/java/home/) and the [API Reference](https://apireference.aspose.com/java/3d) docs for solutions before reporting the issue. Your question might already have an answer.
+- Have a look through the [forum](https://forum.aspose.com/c/3d), [this documentation Wiki](/3d/java/home/) and the [API Reference](https://apireference.aspose.com/3d/java) docs for solutions before reporting the issue. Your question might already have an answer.
 - When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose forums because only you and Aspose staff members will be able to access attachments.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 ## **Resources**

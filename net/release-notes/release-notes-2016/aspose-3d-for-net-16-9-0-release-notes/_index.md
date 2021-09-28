@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.3D for .NET 16.9.0](https://www.nug
 |THREEDNET-182|Export 3D scene to PDF 1.6.|New feature|
 |THREEDNET-205|Import 3D scenes from a PDF file.|New feature|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 ### **Save a 3D Scene in the PDF Format**
 Using the recent version (16.9.0) or higher, developers can save all supported 3D files in the PDF format.
 #### **Adds Aspose.ThreeD.Formats.PdfSaveOptions Class**
@@ -38,10 +38,3 @@ We have added PdfFormat class. It helps to manipulate PDFs.
 We have added another overload of Triangulate method in the PolygonModifier class which takes a Scene class object as a parameter.
 #### **Adds two BuildTangentBinormal Methods in the Aspose.ThreeD.Entities.PolygonModifier Class**
 We have added two BuildTangentBinormal methods in the PolygonModifier class. One method takes the Scene class object as a parameter and another one takes the Mesh class object as a parameter.
-### **Usage Examples**
-Please check the list of help topics added in the Aspose.3D Wiki docs:
-
-- [Import 3D Scenes and Contents from a PDF](http://www.aspose.com/docs/display/3dnet/Import+3D+Scenes+and+Contents+from+a+PDF)
-- [Save a 3D Scene in the PDF](http://www.aspose.com/docs/display/3dnet/Save+a+3D+Scene+in+the+PDF)
-- [Convert All Polygons to Triangles in 3D Files](http://www.aspose.com/docs/display/3dnet/Convert+All+Polygons+to+Triangles+in+3D+Files)
-- [Build Tangent and Binormal Data for All Meshes in 3D Files](http://www.aspose.com/docs/display/3dnet/Build+Tangent+and+Binormal+Data+for+All+Meshes+in+3D+Files)

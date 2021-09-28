@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.3D for .NET 17.12](https://www.nuge
 |THREEDNET-312|Add shorthand way to scale geometries|Improvement|
 |THREEDNET-314|Add support of exporting custom property/ID to nodes in GLTF format|Improvement|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds SaveExtras property to Aspose.ThreeD.Formats.GLTFSaveOptions class**
 The default value of SaveExtras property is false, if you want Aspose.3D for .NET API to export customized properties of the object, you can assign it to true.
 
@@ -116,5 +116,5 @@ Node child = scene.RootNode.FindNode("child");
 #### **Usage Examples**
 Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Manipulate custom properties of a 3D Scene](/3d/net/manipulate-custom-properties-of-a-3d-scene-html/)
-1. [Scale geometries of a 3D Scene](/3d/net/scale-geometries-of-a-3d-scene-html/)
+1. [Manipulate custom properties of a 3D Scene](/3d/net/manipulate-custom-properties-of-a-3d-scene/)
+1. [Scale geometries of a 3D Scene](/3d/net/scale-geometries-of-a-3d-scene/)

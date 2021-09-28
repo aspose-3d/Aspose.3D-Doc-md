@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.3D for .NET 17.8](https://www.nuget
 |THREEDNET-281|Render cube map to fisheye.|New feature|
 |THREEDNET-276|Incorrect conversion of OBJ to GLTF and GLB.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Methods marked as obsoleted and will be removed in the end of this year 2017**
 Before the 17.8 all texture units (used by the renderer) are represented by the interface ITextureUnit but this design is not working well for the cube map and 3D texture in the future (not implemented yet), so these methods are all marked as obsolete, to make sure that the code will not break the compiler, developers should use the methods with same name from ITexture1D/ITexture2D/ITextureCubemap.
 
@@ -537,6 +537,6 @@ Usage Examples
 
 Please check the list of help topics added or updated in the Aspose.3D Wiki docs:
 
-1. [Render a scene into the cubemap with six faces](/3d/net/render-a-scene-into-the-cubemap-with-six-faces-html/)
-1. [Render a Panorama view of 3D scene](/3d/net/render-a-panorama-view-of-3d-scene-html/)
-1. [Create a Fisheye lens effect on 3D scene and save in an image](/3d/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image-html/)
+1. [Render a scene into the cubemap with six faces](/3d/net/render-a-scene-into-the-cubemap-with-six-faces/)
+1. [Render a Panorama view of 3D scene](/3d/net/render-a-panorama-view-of-3d-scene/)
+1. [Create a Fisheye lens effect on 3D scene and save in an image](/3d/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/)

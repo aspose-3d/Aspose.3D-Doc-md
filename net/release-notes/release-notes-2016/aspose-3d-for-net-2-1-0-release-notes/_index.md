@@ -23,7 +23,7 @@ This page contains release notes for [Aspose.3D for .NET 2.1.0](https://www.nuge
 |THREEDNET-197|Polygon triangulate issue.|Bug|
 |THREEDNET-202|Diffuse/Specular/Emissive won't work if no texture is used.|Bug|
 ### **Public API and Backwards Incompatible Changes**
-See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list for any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 #### **Adds Export of the Collada format**
 Using this recent version (2.1.0), developers can export Collada 3D files. In the previous version (2.0.0), we have already added its import feature, since developers can also convert a Collada file to other supported 3D file formats.
 ### **Adds Load and Save Options for 3D File Formats**
@@ -101,9 +101,3 @@ More overloads to simplify the usage of original function.
 ### **Adds CreateVertexBuffer, CreateIndexBuffer, CreateTextureUnit, CreateRenderState and CreateShaderProgram Methods in the Aspose.ThreeD.Render.RenderFactory Class**
 ### **Adds BindRenderState, DrawIndexed, Draw and SubmitRenderTask Methods in the Aspose.ThreeD.Render.Renderer Class**
 ### **Adds RenderStage and Shader Properties in the Aspose.ThreeD.Render.Renderer Class**
-#### **Usage Examples**
-Please check the list of help topics added in the Aspose.3D Wiki docs:
-
-- [Detect the Type of a 3D File](http://www.aspose.com/docs/display/3dnet/Detect+the+Type+of+a+3D+File)
-- [Triangulation of a Simple Polygon](http://www.aspose.com/docs/display/3dnet/Triangulation+of+a+Simple+Polygon)
-- [Hardware Based Rendering of 3D Geometry](http://www.aspose.com/docs/display/3dnet/Hardware+Based+Rendering+of+3D+Geometry)

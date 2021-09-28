@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.3D for .NET 16.11.0](https://www.nu
 |THREEDNET-215|Add support of importing the binary glTF.|New feature|
 |THREEDNET-211|Add support of importing the text-based glTF.|New feature|
 ### **Public API and Backwards Incompatible Changes**
-See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
+See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for .NET. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d/18).
 ### **Adds Aspose.ThreeD.Formats.GLTFLoadOptions Class**
 We have added GLTFLoadOptions class. It defines settings on loading a glTF file.
 ### **Adds Aspose.ThreeD.Formats.GLTFSaveOptions Class**
@@ -39,9 +39,3 @@ We have added an Extension property in the FileFormatType class to get the exten
 We have added a FileSystem property in the IOConfig class to write dependencies.
 ### **Adds AddEntity Method in the Aspose.ThreeD.Node Class**
 A shortcut way for adding an entity to a node
-### **Usage Examples**
-Please check the list of help topics added in the Aspose.3D Wiki docs:
-
-1. [Use of the glTF Load Options](http://www.aspose.com/docs/display/3dnet/Specify+3D+File+Load+Options#Specify3DFileLoadOptions-UseoftheglTFLoadOptions)
-1. [Use of the glTF Save Options](http://www.aspose.com/docs/display/3dnet/Specify+3D+File+Save+Options#Specify3DFileSaveOptions-UseoftheglTFSaveOptions)
-1. [Save Dependencies of a 3D Scene in the File System](http://www.aspose.com/docs/display/3dnet/Specify+3D+File+Save+Options#Specify3DFileSaveOptions-SaveDependenciesofa3DSceneintheRealFileSystem)
