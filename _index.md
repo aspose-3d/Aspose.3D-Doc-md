@@ -22,7 +22,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.3D for .NET Online Documentation](/3d/net/)
 - [Aspose.3D for .NET Features](/3d/net/)
 - [Aspose.3D for .NET Limitations](/3d/net/installation#SystemRequirements)
-- [Aspose.3D for .NET Release Notes](/3d/net/release-notes)
+- [Aspose.3D for .NET Release Notes](/3d/net/release-notes/)
 - [Aspose.3D for .NET Product Page](https://products.aspose.com/3d/net)
 - [Install Aspose.3D for .NET NuGet Package](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API Reference Guide](https://apireference.aspose.com/3d/net)
@@ -46,9 +46,9 @@ The API is user friendly and saves time and money than creating a similar solu
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Aspose.3D for Java Online Documentation](/3d/java/)
-- [Aspose.3D for Java Features](/3d/java/product-overview#RichFeatures)
+- [Aspose.3D for Java Features](/3d/java/product-overview/#rich-features)
 - [Aspose.3D for Java Limitations](/3d/java/installation#SystemRequirements)
-- [Aspose.3D for Java Release Notes](/3d/java/release-notes)
+- [Aspose.3D for Java Release Notes](/3d/java/release-notes/)
 - [Aspose.3D for Java Product Page](https://products.aspose.com/3d/java)
 - [Install Aspose.3D for Java from Aspose Artifactory](/3d/java/installation)
 - [Aspose.3D for Java API Reference Guide](https://apireference.aspose.com/3d/java)

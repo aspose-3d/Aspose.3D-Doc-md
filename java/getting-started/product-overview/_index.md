@@ -65,7 +65,7 @@ If you need help of Aspose.3D for Java API, [**visit the Aspose.Forums**](https
 If you have an issue with Aspose.3D for Java, follow these simple steps to make sure it is resolved in the most efficient way:
 
 - Make sure you use the latest version of Aspose.3D for Java API before reporting the issue. Refer to the [Aspose.3D for Java download page](https://repository.aspose.com/repo/com/aspose/aspose-3d/) to find out about the latest version.
-- Have a look through the [forum](https://forum.aspose.com/c/3d), [this documentation Wiki](/3d/java/home/) and the [API Reference](https://apireference.aspose.com/3d/java) docs for solutions before reporting the issue. Your question might already have an answer.
+- Have a look through the [forum](https://forum.aspose.com/c/3d), [this documentation Wiki](/3d/java/) and the [API Reference](https://apireference.aspose.com/3d/java) docs for solutions before reporting the issue. Your question might already have an answer.
 - When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose forums because only you and Aspose staff members will be able to access attachments.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 ## **Resources**
@@ -74,7 +74,7 @@ This table lists important Aspose.3D for Java technical resources.
 |**Resource**|**Description**|
 | :- | :- |
 |[Aspose.3D home Page](https://products.aspose.com/3d/java)|Product home page.|
-|[Aspose.3D blog](https://blog.aspose.com/category/aspose-products/aspose-3d-product-family/)|Check this often for information about new releases and useful tips about Aspose.3D.|
+|[Aspose.3D blog](https://blog.aspose.com/category/3d/)|Check this often for information about new releases and useful tips about Aspose.3D.|
 |[Aspose.3D for Java download](https://repository.aspose.com/repo/com/aspose/aspose-3d/)|Download the latest version of Aspose.3D from here. We release often.|
 |[Aspose.3D for Java support forum](https://forum.aspose.com/c/3d)|Post your questions and issues here for a speedy resolution.|
 |[Aspose.3D for Java product documentation](/3d/java/home/)|Full online documentation that includes this documentation as well as Aspose.3D API Reference.|
