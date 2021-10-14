@@ -73,10 +73,10 @@ This table lists important Aspose.3D for Java technical resources.
 
 |**Resource**|**Description**|
 | :- | :- |
-|[Aspose.3D home Page](https://products.aspose.com/3d/java)|Product home page.|
+|[Aspose.3D home Page](https://products.aspose.com/3d/java/)|Product home page.|
 |[Aspose.3D blog](https://blog.aspose.com/category/3d/)|Check this often for information about new releases and useful tips about Aspose.3D.|
 |[Aspose.3D for Java download](https://repository.aspose.com/repo/com/aspose/aspose-3d/)|Download the latest version of Aspose.3D from here. We release often.|
-|[Aspose.3D for Java support forum](https://forum.aspose.com/c/3d)|Post your questions and issues here for a speedy resolution.|
-|[Aspose.3D for Java product documentation](/3d/java/home/)|Full online documentation that includes this documentation as well as Aspose.3D API Reference.|
+|[Aspose.3D for Java support forum](https://forum.aspose.com/c/3d/18)|Post your questions and issues here for a speedy resolution.|
+|[Aspose.3D for Java product documentation](/3d/java/)|Full online documentation that includes this documentation as well as Aspose.3D API Reference.|
 |[Aspose.3D for Java Examples and Plugins](https://github.com/aspose-3d/Aspose.3D-for-Java)|This repository contains C# Example Projects for Aspose.3D for Java.|
 
