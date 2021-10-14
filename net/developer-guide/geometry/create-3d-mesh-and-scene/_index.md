@@ -6,9 +6,9 @@ url: /net/create-3d-mesh-and-scene/
 ---
 
 ## **Create a 3D Cube Mesh**
-A [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh) is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh).
+A [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a Mesh.
 
-In order to create a [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh) surface, we need to define control points and polygons as follows:
+In order to create a Mesh surface, we need to define control points and polygons as follows:
 
 - [Define the Control Points](/3d/net/create-3d-mesh-and-scene/)
 - [Create Polygons with PolygonBuilder Class](/3d/net/create-3d-mesh-and-scene/)

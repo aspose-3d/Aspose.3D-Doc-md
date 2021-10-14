@@ -7,7 +7,7 @@ url: /net/capture-the-viewports-of-3d-scene-and-render-to-a-texture-or-window/
 
 {{% alert color="primary" %}}
 
-Each 3D scene can comprise of any number of viewports. Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net), developers can capture one or more viewports in a single screenshot. They may render it in the GUI based .NET application or an image.
+Each 3D scene can comprise of any number of viewports. Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers can capture one or more viewports in a single screenshot. They may render it in the GUI based .NET application or an image.
 
 {{% /alert %}}
 ## **Capturing and Rendering the Viewports of 3D Scene**

@@ -7,7 +7,7 @@ url: /net/create-rectangular-torus-in-3d-scene/
 
 {{% alert color="primary" %}} 
 
-Using [Aspose.3D for .NET](https://products.aspose.com/3d/net) API, developers can create 3D objects, and then save 3D scene in any supported 3D format.
+Using [Aspose.3D for .NET](https://products.aspose.com/3d/net/) API, developers can create 3D objects, and then save 3D scene in any supported 3D format.
 
 {{% /alert %}} 
 ## **Rectangular Torus**

@@ -7,7 +7,7 @@ url: /net/render-a-panorama-view-of-3d-scene/
 
 {{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net), developers can render a panorama view of 3D scene and save that view into the supported image formats.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers can render a panorama view of 3D scene and save that view into the supported image formats.
 
 {{% /alert %}}
 ## **Create a Panorama view**

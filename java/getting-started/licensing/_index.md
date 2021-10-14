@@ -23,7 +23,7 @@ The evaluation version provides all the features except the following:
 If you're using Aspose.3D without a proper license, there could trigger an **com.aspose.threed.TrialException** when the usage reached the unlicensed restrictions, you can turn the exception off by:
 
 * [Buy a full featured license](https://purchase.aspose.com/buy).
-* Request a 30 days temporary license, please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) For more information.
+* Request a 30 days temporary license, please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) For more information.
 .
 * Call **com.aspose.threed.TrialException.setSuppressTrialException(true)** before your open/save methods, the TrialException will not be raised during the open/save call on Scene, but the above restrictions will not be lifted.
 * Manually use a try/catch block on Scene.open/save, this exception is just a notification, ignore it will not affect the scene loading/saving.
@@ -56,7 +56,7 @@ It is possible to validate if the license has been set properly or not. The Lice
 
 {{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
 ## **Apply Metered License**
-Aspose.3D allows developers to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
+Aspose.3D allows developers to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 A new class **Metered** has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private key.
 

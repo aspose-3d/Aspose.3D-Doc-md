@@ -21,7 +21,7 @@ TSR (Translation/Scaling/Rotation) are most commonly used in 3D scenario, we pro
 
 {{% alert color="primary" %}}
 
-The [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh) class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene/).
+The [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene/).
 
 {{% /alert %}}
 ## **Rotate by Quaternion**

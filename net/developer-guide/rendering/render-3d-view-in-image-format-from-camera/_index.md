@@ -7,7 +7,7 @@ url: /net/render-3d-view-in-image-format-from-camera/
 
 {{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET](https://products.aspose.com/3d/net), developers can render an image to view a realistic image of 3D model, with or without the enhanced background, textures, shadows and also adjust the image size.
+Using [Aspose.3D for .NET](https://products.aspose.com/3d/net/), developers can render an image to view a realistic image of 3D model, with or without the enhanced background, textures, shadows and also adjust the image size.
 
 {{% /alert %}}
 ## **Take a Picture of 3D Model from the Camera**

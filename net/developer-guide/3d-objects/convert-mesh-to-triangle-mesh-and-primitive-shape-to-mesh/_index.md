@@ -6,7 +6,7 @@ url: /net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/
 ---
 
 ## **Convert a Mesh to Triangle Mesh with Custom Memory Layout of the Vertex**
-[Aspose.3D for .NET](https://products.aspose.com/3d/net) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](http://www.aspose.com/api/net/3d/aspose.threed.utilities/vertexdeclaration) class in the code examples.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](http://www.aspose.com/api/net/3d/aspose.threed.utilities/vertexdeclaration) class in the code examples.
 
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ Below example converts a Box to triangle mesh with custom memory layout.
 
 {{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Working-with-Objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
 ## **Convert the Primitive to a Mesh**
-Using [Aspose.3D for .NET](https://products.aspose.com/3d/net), developers can convert any primitive object to a mesh. Primitives include many of the most basic and most used objects like box, sphere, plane, cylinder, and torus.
+Using Aspose.3D for .NET, developers can convert any primitive object to a mesh. Primitives include many of the most basic and most used objects like box, sphere, plane, cylinder, and torus.
 
 {{% alert color="primary" %}}
 

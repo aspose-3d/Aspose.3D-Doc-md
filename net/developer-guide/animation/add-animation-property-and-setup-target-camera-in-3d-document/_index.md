@@ -10,7 +10,7 @@ Aspose.3D for .NET supports rendering animated scene. This article explains prer
 ### **Move Cube’s Position**
 {{% alert color="primary" %}}
 
-The [Mesh](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Mesh) class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-and-read-an-existing-3d-scene/) and it's must animate the local translation property of the node too: [Adding the Transformation to the Node](/3d/net/adding-transformation-to-the-node/).
+The [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-and-read-an-existing-3d-scene/) and it's must animate the local translation property of the node too: [Adding the Transformation to the Node](/3d/net/adding-transformation-to-the-node/).
 
 {{% /alert %}}
 

@@ -7,7 +7,7 @@ url: /net/convert-mesh-of-a-single-3d-object-in-ply-file/
 
 {{% alert color="primary" %}}
 
-[Aspose.3D for .NET](https://products.aspose.com/3d/net) API allows developers to convert the Mesh of a single 3D object in the PLY file.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert the Mesh of a single 3D object in the PLY file.
 
 {{% /alert %}}
 ## **Create a 3D object and save it to PLY file**

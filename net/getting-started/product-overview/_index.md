@@ -49,9 +49,9 @@ This table lists important Aspose.3D for .NET technical resources:
 
 |**Resource**|**Description**|
 | :- | :- |
-|[Aspose.3D Home Page](https://products.aspose.com/3d/net)|Product home page.|
+|[Aspose.3D Home Page](https://products.aspose.com/3d/net/)|Product home page.|
 |[Aspose.3D Blog](https://blog.aspose.com/category/3d/)|Check this often for information about new releases and useful tips about Aspose.3D for .NET|
 |[Aspose.3D for .NET Download](https://www.nuget.org/packages/Aspose.3d)|Download the latest version of Aspose.3D for .NET|
-|[Aspose.3D for .NET Support Forum](https://forum.aspose.com/c/3d)|Post your questions and issues here for speedy resolution|
+|[Aspose.3D for .NET Support Forum](https://forum.aspose.com/c/3d/18)|Post your questions and issues here for speedy resolution|
 |[Aspose.3D for .NET Examples and Plugins](https://github.com/aspose-3d/Aspose.3D-for-.NET)|This repository contains C# Example Project for Aspose.3D for .NET|
 

@@ -7,7 +7,7 @@ url: /net/encoding-3d-mesh-in-the-google-draco-file/
 
 {{% alert color="primary" %}}
 
-[Aspose.3D for .NET](https://products.aspose.com/3d/net) API allows developers to [import a 3D model](/3d/net/create-and-read-an-existing-3d-scene/#createandreadanexisting3dscene-readinga3dscene), and then encode meshes in the Google Draco files. Developers can also specify the position, texture coordinates, color and normal bits as well as the compression level before encoding a mesh.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to [import a 3D model](/3d/net/create-and-read-an-existing-3d-scene/#createandreadanexisting3dscene-readinga3dscene), and then encode meshes in the Google Draco files. Developers can also specify the position, texture coordinates, color and normal bits as well as the compression level before encoding a mesh.
 
 {{% /alert %}}
 ## **Retrieve a 3D Mesh and Encode in Google Draco File**

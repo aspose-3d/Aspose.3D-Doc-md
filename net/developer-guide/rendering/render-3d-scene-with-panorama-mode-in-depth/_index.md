@@ -7,7 +7,7 @@ url: /net/render-3d-scene-with-panorama-mode-in-depth/
 
 {{% alert color="primary" %}}
 
-Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net), developers can render a 3D scene with panorama mode in depth instead of the colors.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers can render a 3D scene with panorama mode in depth instead of the colors.
 
 {{% /alert %}}
 ## **Render 3D Scene with Panorama Mode in Depth**
