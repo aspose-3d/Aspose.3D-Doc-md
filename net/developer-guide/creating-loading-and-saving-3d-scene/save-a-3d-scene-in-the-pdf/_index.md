@@ -7,7 +7,7 @@ url: /net/save-a-3d-scene-in-the-pdf/
 
 {{% alert color="primary" %}} 
 
-The [Scene](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Scene) class of the Aspose.3D API represents a 3D scene. Developers can build a 3D scene by adding Camera, Light, polygons and various other entities. They can also now save a 3D scene in the PDF file format.
+The [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class of the Aspose.3D API represents a 3D scene. Developers can build a 3D scene by adding Camera, Light, polygons and various other entities. They can also now save a 3D scene in the PDF file format.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
@@ -17,6 +17,6 @@ Please note that you cannot instruct Aspose.Diagram for .NET API to change or re
 
 {{% /alert %}} 
 ## **Create a 3D PDF with a Cylinder, and Rendered in Shaded Illustration Mode with CAD Optimized Lighting**
-The Save method of the [Scene](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Scene) class allows to save a 3D scene in the PDF format. Developers may load any 3D supported file or build a new 3D scene, they can save a 3D scene in the PDF format as shown in this code example:
+The Save method of the **Scene** class allows to save a 3D scene in the PDF format. Developers may load any 3D supported file or build a new 3D scene, they can save a 3D scene in the PDF format as shown in this code example:
 
 {{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-Save3DInPdf-Save3DInPdf.cs" >}}

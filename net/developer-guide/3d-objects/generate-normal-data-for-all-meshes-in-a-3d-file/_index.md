@@ -11,7 +11,7 @@ Using [Aspose.3D for .NET](https://products.aspose.com/3d/net/), developers can 
 
 {{% /alert %}}
 ## **Generate Normal Data for All Meshes in a 3DS File**
-The GenerateNormal method exposed by the [PolygonModifier](http://www.aspose.com/api/net/3d/aspose.threed.entities/polygonmodifier) class can be used to generate normal data for all meshes in a 3DS file. If VertexElementSmoothingGroup element was defined in the mesh, the generated normal data will get smoothed by the VertexElementSmoothingGroup.
+The GenerateNormal method exposed by the [PolygonModifier](https://apireference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) class can be used to generate normal data for all meshes in a 3DS file. If VertexElementSmoothingGroup element was defined in the mesh, the generated normal data will get smoothed by the VertexElementSmoothingGroup.
 ### **Programming Sample**
 This code example loads a 3DS file, visit all nodes and create normal data for all meshes.
 

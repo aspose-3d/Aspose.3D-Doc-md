@@ -7,11 +7,11 @@ url: /net/adding-transformation-to-the-node/
 
 {{% alert color="primary" %}}
 
-Aspose.3D for .NET offers to rotate objects in 3D space. There are three ways to define object’s rotation in 3D space, Euler angles, Quaternion and Custom Matrix, all of them are supported by the [Transform](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Transform) class.
+Aspose.3D for .NET offers to rotate objects in 3D space. There are three ways to define object’s rotation in 3D space, Euler angles, Quaternion and Custom Matrix, all of them are supported by the [Transform](https://apireference.aspose.com/3d/net/aspose.threed/transform) class.
 
 {{% /alert %}}
 
-TSR (Translation/Scaling/Rotation) are most commonly used in 3D scenario, we provided a class [Transform](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Transform) to access these in Aspose.3D. Affine transformations include:
+TSR (Translation/Scaling/Rotation) are most commonly used in 3D scenario, we provided a class **Transform** to access these in Aspose.3D. Affine transformations include:
 
 - Translation
 - Scaling

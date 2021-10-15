@@ -11,7 +11,7 @@ url: /net/concatenate-quaternions-and-apply-on-3d-entities/
 
 {{% /alert %}} 
 ## **Concatenate Quaternions**
-Quaternions are used to represent an orientation in 3D space. The Concat method exposed by the [Quaternion](http://www.aspose.com/api/net/3d/aspose.threed.utilities/quaternion) class can be used to combine two quaternions. In this code example, we combine two quaternions and get a third resulting quaternion, and then apply these three quaternions to three cylinders.
+Quaternions are used to represent an orientation in 3D space. The Concat method exposed by the [Quaternion](https://apireference.aspose.com/3d/net/aspose.threed.utilities/quaternion) class can be used to combine two quaternions. In this code example, we combine two quaternions and get a third resulting quaternion, and then apply these three quaternions to three cylinders.
 ### **Programming Sample**
 This code example combine two quaternions and apply them to different cylinders.
 

@@ -25,7 +25,7 @@ Aspose.3D for .NET API allows users to flip coordinate system in the OBJ, 3DS, S
 
 {{% alert color="primary" %}} 
 
-To import a 3ds file and save it in OBJ format the [Scene](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Scene) class is being used in the code.
+To import a 3ds file and save it in OBJ format the [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class is being used in the code.
 
 {{% /alert %}} 
 

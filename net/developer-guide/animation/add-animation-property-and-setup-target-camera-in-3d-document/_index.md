@@ -22,7 +22,7 @@ Aspose.3D for .NET offers to setup the target camera in 3D file. In some file fo
 
 {{% alert color="primary" %}}
 
-The [Scene](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Scene), [Camera](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Entities_Camera), [Node](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Node) and [Transform](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_Transform) classes are being used in the code. To save a Scene, [Scene.Save](http://www.aspose.com/api/net/3d/M_Aspose_ThreeD_Scene_Save) method is being used, it accepts a file name with complete path and [FileFormat](http://www.aspose.com/api/net/3d/T_Aspose_ThreeD_FileFormat) parameter.
+The [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene), [Camera](https://apireference.aspose.com/3d/net/aspose.threed.entities/camera), [Node](https://apireference.aspose.com/3d/net/aspose.threed/node) and [Transform](https://apireference.aspose.com/3d/net/aspose.threed/transform) classes are being used in the code. To save a Scene, [Scene.Save](https://apireference.aspose.com/3d/net/aspose.threed/scene/methods/save) method is being used, it accepts a file name with complete path and [FileFormat](https://apireference.aspose.com/3d/net/aspose.threed/fileformat) parameter.
 
 {{% /alert %}}
 
