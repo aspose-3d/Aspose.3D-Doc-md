@@ -5,5 +5,3 @@ weight: 30
 url: /java/3d-objects/
 ---
 
-### **Articles in this section**
-

@@ -5,5 +5,3 @@ weight: 70
 url: /java/polygons/
 ---
 
-### **Articles in this section**
-

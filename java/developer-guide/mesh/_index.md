@@ -5,5 +5,3 @@ weight: 60
 url: /java/mesh/
 ---
 
-### **Articles in this section**
-

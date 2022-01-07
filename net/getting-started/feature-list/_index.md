@@ -6,7 +6,7 @@ url: /net/feature-list/
 ---
 
 Aspose.Page Features
-### **General Features**
+## **General Features**
 - Written completely in C#, works with .NET Framework.
 - .NET environment required.
 - Supports Windows Forms and ASP.NET applications.
@@ -14,7 +14,7 @@ Aspose.Page Features
 - Supported .NET Frameworks (2.0, 3.5, 4.0, 4.0_ClientProfile, 4.5.0, 4.5.1, 4.6.0, 4.6.2, 4.7, 4.7.2).
 - 32-bit OS support.
 - 64-bit OS support.
-### **Feature Matrix**
+## **Feature Matrix**
 
 |**Features** |` `FBX |` `Collada |` `glTF |` `glTF 2.0 |` `U3D |` `PDF |` `STL |` `OBJ |` `PLY |` `3DS |` `ASE |` `X |` `3MF |` `RVM |` `Draco |
 | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
