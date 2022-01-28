@@ -1,6 +1,6 @@
 ---
 title: Aspose.3D for Java
-description:Aspose.3D for Java API is built to create, edit, manipulate and save 3D formats. It empowers Java applications to connect with 3D documents without installing any software package on the computer.
+description: Aspose.3D for Java API is built to create, edit, manipulate and save 3D formats. It empowers Java applications to connect with 3D documents without installing any software package on the computer.
 type: docs
 weight: 20
 url: /java/
