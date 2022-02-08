@@ -15,4 +15,4 @@ The [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class of
 
 The code sample below shows how to save a document to a stream.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}

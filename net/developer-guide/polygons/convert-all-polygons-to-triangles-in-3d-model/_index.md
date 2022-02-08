@@ -13,4 +13,4 @@ Using [Aspose.3D for .NET](http://products.aspose.com/3d/net) API, developers ca
 ## **Convert All Polygons to Triangles**
 We have added another overload of Triangulate method in the [PolygonModifier](https://apireference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) class which takes a [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class object as a parameter as shown in this code example:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.cs" >}}

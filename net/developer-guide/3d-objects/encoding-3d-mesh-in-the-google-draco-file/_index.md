@@ -15,4 +15,4 @@ The Encode method exposed by the [DracoFormat](https://apireference.aspose.com/
 ### **Programming Sample**
 This code example retrieves a Mesh of Sphere, and then encode in the Google Draco file after specifying a compression level.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Working-with-Objects-Encode3DMeshinGoogleDraco-Encode3DMeshinGoogleDraco.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-Encode3DMeshinGoogleDraco-Encode3DMeshinGoogleDraco.cs" >}}

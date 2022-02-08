@@ -13,4 +13,4 @@ Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers
 ## **Load 3D File and Write Meshes in Custom Binary Format Programming Sample**
 Accept method exposed by the RootNode member in the [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class allows to visit each sub node. The code snippet below allows to convert meshes only.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-3DScene-Save3DMeshesInCustomBinaryFormat.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-Save3DMeshesInCustomBinaryFormat.cs" >}}

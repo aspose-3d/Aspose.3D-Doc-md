@@ -15,7 +15,7 @@ Aspose.3D for Java allows customizing Offset Top of a cylinder. In order to use
 
 
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "CustomizedOffsetTopCylinder.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "CustomizedOffsetTopCylinder.java" >}}
 
 ![todo:image_alt_text](working-with-cylinder_1.png)
 
@@ -25,7 +25,7 @@ Aspose.3D for Java allows customizing shear bottom of a cylinder. In order to u
 
 
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "CustomizedShearBottomCylinder.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "CustomizedShearBottomCylinder.java" >}}
 
 ![todo:image_alt_text](working-with-cylinder_2.png)
 
@@ -35,7 +35,7 @@ Aspose.3D for Java allows creating a fan cylinder. In order to use this functio
 
 
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "CreateFanCylinder.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "CreateFanCylinder.java" >}}
 
 ![todo:image_alt_text](working-with-cylinder_3.png)
 

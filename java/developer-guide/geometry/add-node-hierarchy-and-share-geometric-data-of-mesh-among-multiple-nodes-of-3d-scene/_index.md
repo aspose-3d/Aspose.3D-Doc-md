@@ -11,7 +11,7 @@ Aspose.3D for Java has support of building a hierarchy of Nodes. The Node is bas
 
 In Aspose.3D, each Node instance can have multiple child nodes, in this example, we created a node with two cube nodes, if we rotate the root node, all child nodes are also get affected:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-AddNodeHierarchy.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddNodeHierarchy.java" >}}
 ## **Share Mesh’s Geometry Data between Multiple Nodes**
 In order to diminish memory necessities, a single instance of **Mesh** Class can be bound to various instances of **Node** Class. Envision that you require a system where all 3D cubes seemed to be indistinguishable, however you required numerous a large number of them. You could spare memory by making one Mesh object when the system begins up. At that point, each time you required another shape, you make another Node object, then point that node to the one Mesh. This is called instancing. Aspose.3D for Java APIs allow to do instancing.
 ### **Instancing example**
@@ -25,7 +25,7 @@ The Mesh class object is being used in the code. We can [create a Mesh class obj
 
 Demonstration of the example code:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-ShareMeshGeometryData.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-ShareMeshGeometryData.java" >}}
 
 
 In this example we created 3 cube nodes share the same mesh, each of them have different material with different colors.

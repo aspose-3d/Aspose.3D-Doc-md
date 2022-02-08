@@ -13,4 +13,4 @@ This feature is supported by version 19.5 or greater.
 # **Changing Plane Orientation**
 Aspose.3D for .NET allows changing orientation of a scene. In order to change the orientation, **Up** vector property is introduced in **Plane** Class. Following code snippet shows how to change the plane's orientation:
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-3DScene-ChangePlaneOrientation-ChangePlaneOrientation.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ChangePlaneOrientation-ChangePlaneOrientation.cs" >}}

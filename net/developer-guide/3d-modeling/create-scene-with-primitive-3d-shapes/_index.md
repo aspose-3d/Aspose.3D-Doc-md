@@ -15,4 +15,4 @@ Modeling is the process of pure creation and Aspose.3D API supports creating a s
 ### **Programming Sample**
 This code example creates a scene with primitive 3D shapes and save in the FBX file.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-3DModeling-Primitive3DModels-Primitive3DModels.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DModeling-Primitive3DModels-Primitive3DModels.cs" >}}

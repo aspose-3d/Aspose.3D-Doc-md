@@ -52,4 +52,4 @@ or
 
 Following is the sample code to query one or more objects:
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "src-java-examples-objects-XPathLikeObjectQueries-XPathLikeObjectQueries.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-objects-XPathLikeObjectQueries-XPathLikeObjectQueries.java" >}}

@@ -13,4 +13,4 @@ This feature is supported by version 19.4 or greater.
 ## **Working with Radius of Sphere**
 Using Aspose.3D for Java, you can set of get radius of a sphere. In order to get or set radius, you can use **getRadius() and setRadius()** methods of **Sphere** class. The following is the code sample to set radius of a sphere.  
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "src-java-examples-objects-WorkingWithSphereRadius-WorkingWithSphereRadius.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-objects-WorkingWithSphereRadius-WorkingWithSphereRadius.java" >}}

@@ -15,4 +15,4 @@ The GenerateNormal method exposed by the [PolygonModifier](https://apireference.
 ### **Programming Sample**
 This code example loads a 3DS file, visit all nodes and create normal data for all meshes.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Working-with-Objects-GenerateDataForMeshes-GenerateDataForMeshes.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-GenerateDataForMeshes-GenerateDataForMeshes.cs" >}}

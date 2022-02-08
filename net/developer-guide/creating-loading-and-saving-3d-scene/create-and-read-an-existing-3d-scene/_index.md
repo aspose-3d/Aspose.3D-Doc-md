@@ -15,7 +15,7 @@ Please follow these steps to create a 3D Scene document using the Aspose.3D APIs
 #### **Creating a 3D Scene Document: Programming Samples**
 
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
 ## **Reading a 3D Scene**
 Using Aspose.3D API, developers can load all the supported 3D documents. The available constructors of the **Scene** class allow to do so and they accept a valid file path string. The supported readable file formats are as follows:
 
@@ -39,8 +39,8 @@ Using Aspose.3D API, developers can load all the supported 3D documents. The ava
 
 Constructors of the **Scene** class detect 3D document format internally.
 ### **Reading a 3D Scene: Programming Samples**
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-ReadExistingScene-ReadExistingScene.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-ReadExistingScene-ReadExistingScene.cs" >}}
 ## **Working with 3D Scene Properties**
 Aspose.3D API lets you read 3D Scene properties using the scene's child nodes. The following code sample demonstrates the usage of this feature.
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-3DScene-ThreeDProperties-ThreeDProperties.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ThreeDProperties-ThreeDProperties.cs" >}}

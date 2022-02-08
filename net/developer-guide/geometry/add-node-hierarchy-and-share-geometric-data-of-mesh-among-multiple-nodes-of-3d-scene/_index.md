@@ -14,7 +14,7 @@ A sample scene hierarchy looks like:
 
 In Aspose.3D, each Node instance can have multiple child nodes, in this example, we created a node with two cube nodes, if we rotate the root node, all child nodes are also get affected:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-NodeHierarchy-AddNodeHierarchy.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-NodeHierarchy-AddNodeHierarchy.cs" >}}
 ## **Share Mesh’s Geometry Data between Multiple Nodes**
 To diminish memory necessities, a single instance of [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) Class can be bound to various instances of [Node](https://apireference.aspose.com/3d/net/aspose.threed/node) Class. Envision that you require a system where all 3D cubes seemed to be indistinguishable, however you required numerous a large number of them. You could spare memory by making one Mesh object when the system begins up. At that point, each time you required another shape, you make another Node object, then point that node to the one Mesh. This is called instancing. Aspose.3D for .NET APIs allow to do instancing.
 ### **Instancing example**
@@ -28,6 +28,6 @@ The Mesh class object is being used in the code. We can [create a Mesh class obj
 
 Demonstration of the example code:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-MeshGeometryData-ShareMeshGeometryData.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-MeshGeometryData-ShareMeshGeometryData.cs" >}}
 
 In this example we created 3 cube nodes share the same mesh, each of them have different material with different colors.

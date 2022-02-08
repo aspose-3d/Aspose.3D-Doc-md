@@ -15,7 +15,7 @@ Quaternions are used to represent an orientation in 3D space. The Concat method 
 ### **Programming Sample**
 This code example combine two quaternions and apply them to different cylinders.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-ConcatenateQuaternions-ConcatenateQuaternions.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-ConcatenateQuaternions-ConcatenateQuaternions.cs" >}}
 
 
 **Result in 3ds MAX**

@@ -15,7 +15,7 @@ Aspose.3D for .NET provides **HTMLSaveOptions** class to save a save 3D scene as
 
 
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-Loading-and-Saving-SaveOptions-HtmlSaveOption.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-HtmlSaveOption.cs" >}}
 
 {{% alert color="primary" %}} 
 
