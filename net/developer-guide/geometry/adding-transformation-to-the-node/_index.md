@@ -25,10 +25,10 @@ The [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) c
 
 {{% /alert %}}
 ## **Rotate by Quaternion**
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-TransformationToNodeByQuaternion-AddTransformationToNodeByQuaternion.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-TransformationToNodeByQuaternion-AddTransformationToNodeByQuaternion.cs" >}}
 ## **Rotate by Euler Angles**
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-TransformationToNodeByEulerAngles-AddTransformationToNodeByEulerAngles.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-TransformationToNodeByEulerAngles-AddTransformationToNodeByEulerAngles.cs" >}}
 ## **Custom Transformation Matrix**
 We can also use Matrix directly:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-TransformationToNodeByTransformationMatrix-AddTransformationToNodeByTransformationMatrix.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-TransformationToNodeByTransformationMatrix-AddTransformationToNodeByTransformationMatrix.cs" >}}

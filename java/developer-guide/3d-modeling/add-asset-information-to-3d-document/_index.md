@@ -19,4 +19,4 @@ Metadata is structured information that describes, explains, locates or makes it
 
 In this example, we assume the scene is created by a CAD tool called “Egypt” and it’s designed by “Manualdesk”:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-modeling-AddAssetInformationToScene.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-modeling-AddAssetInformationToScene.java" >}}

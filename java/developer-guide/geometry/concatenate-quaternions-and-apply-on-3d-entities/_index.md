@@ -15,7 +15,7 @@ Quaternions are used to represent an orientation in 3D space. The concat metho
 ### **Programming Sample**
 This code example combine two quaternions and apply them to different cylinders.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-ConcatenateQuaternions.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-ConcatenateQuaternions.java" >}}
 
 
 

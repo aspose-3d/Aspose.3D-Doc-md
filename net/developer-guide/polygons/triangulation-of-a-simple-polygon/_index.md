@@ -21,4 +21,4 @@ We have prepared a demo project. Please refer to [this URL](https://github.com/a
 ### **Programming Sample for Triangulation**
 This code example picks vertices from a polygon area, and then apply an algorithm to create triangles. You can download complete working project of this example from [here](https://github.com/aspose-3d/Aspose.3D-for-.NET/).
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "TriangulationSimplePolygon-Triangulate-PolygonCanvas-TriangulationofaSimplePolygon.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "TriangulationSimplePolygon-Triangulate-PolygonCanvas-TriangulationofaSimplePolygon.cs" >}}

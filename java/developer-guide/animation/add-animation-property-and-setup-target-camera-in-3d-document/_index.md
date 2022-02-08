@@ -16,7 +16,7 @@ The **Mesh** class object is being used in the code. We can [create a Mesh clas
 
 In Aspose.3D for Java API, animation instance is actually key-frame animation that animates on properties. In order animate properties, you need a CurveMapping instance which maps components of a property to different curves, for example, a Vector3 property can have 3 components X/Y/Z, which will set up three channels in CurveMapping, every channel can have a set of Curves.
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "src-java-examples-animation-PropertyToDocument-AddAnimationPropertyToDocument.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-animation-PropertyToDocument-AddAnimationPropertyToDocument.java" >}}
 ## **Setup the Target Camera in 3D File**
 Aspose.3D for .NET offers to setup the target camera in 3D file. In some file formats, light/camera supports target, which allows the light/camera always facing a specified node, this is useful in animation.
 
@@ -28,4 +28,4 @@ The **Scene**, **Camera**, **Node** and **Transform** classes are being used in 
 
 In below example, the target and camera is setup in 3D file:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-animation-SetupTargetAndCamera.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-animation-SetupTargetAndCamera.java" >}}

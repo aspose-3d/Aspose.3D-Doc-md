@@ -30,10 +30,10 @@ The constructors of Scene class detect 3D document format internally.
 ## **Import 3D document**
 Aspose.3D for Java API has support of importing various types of 3D document for the modification, addition and processing purposes.
 ### **Reading a 3D Scene: Programming Samples**
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-loadsave-ReadExistingScene.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-ReadExistingScene.java" >}}
 ## **Working with 3D Properties**
 Aspose.3D API lets you read 3D Scene properties using the scene's child nodes. The following code sample demonstrates the usage of this feature.
 
-{{< gist "aspose-com-gists" "0672215ca08d7566bd64d657e2b228a7" "src-java-examples-scene-ThreeDProperties-ThreeDProperties.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-scene-ThreeDProperties-ThreeDProperties.java" >}}
 
 

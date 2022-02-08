@@ -15,4 +15,4 @@ The CreateRenderTexture and CreateRenderWindow methods exposed by the [RenderFac
 ### **Programming Sample**
 This code example captures a viewport of 3D Scene and renders it in two different ways.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-3DViewPorts-CaptureViewPort-CaptureViewPort.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DViewPorts-CaptureViewPort-CaptureViewPort.cs" >}}

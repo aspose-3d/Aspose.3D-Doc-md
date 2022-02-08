@@ -13,7 +13,7 @@ Aspose.3D for Java API has support of detecting 3D supported formats before open
 ## **Detect Format Programming Sample**
 This source code illustrates how to detect the file format (using the file path or stream) and check its extension.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-loadsave-DetectFormat.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-DetectFormat.java" >}}
 
 
 

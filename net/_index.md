@@ -1,6 +1,7 @@
 ---
 title: Aspose.3D for .NET
 type: docs
+description: Aspose.3D for .NET is a class library project that empowers .NET applications to connect with 3D formats automatically without 3D modeling and rendering software being installed on the server. The Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 weight: 10
 url: /net/
 is_root: true

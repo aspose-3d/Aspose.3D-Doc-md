@@ -56,11 +56,11 @@ When you call the SetLicense method, the license name that you pass should be th
 
 **Example:**
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingFile.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingFile.cs" >}}
 ### ` `**Loading a License  from a Stream Object**
 The following example shows how to load a license from a stream.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingStreamObject.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingStreamObject.cs" >}}
 ## **Apply License using Embedded Resource**
 One way of applying a license is to set it [using a file or stream object](). Another neat way of packaging the license with your application and making sure it will not be lost is to include it as an embedded resource into one of the assemblies that calls the component's DLL (included in Aspose.3D).
 
@@ -73,10 +73,10 @@ To include the license file as an embedded resource:
 
 The following code snippet is used to set the license.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingEmbeddedResource.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingEmbeddedResource.cs" >}}
 ## **Apply Metered License**
 Aspose.3D for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 A new class [Metered](https://apireference.aspose.com/3d/net/aspose.threed/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}

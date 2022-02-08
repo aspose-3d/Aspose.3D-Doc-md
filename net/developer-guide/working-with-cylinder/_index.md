@@ -15,7 +15,7 @@ Aspose.3D for .NET allows customizing Offset Top of a cylinder. In order to use
 
 
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-WorkingWithCylinder-CustomizedOffsetTopCylinder-1.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithCylinder-CustomizedOffsetTopCylinder-1.cs" >}}
 
 ![todo:image_alt_text](working-with-cylinder_1.png)
 
@@ -25,7 +25,7 @@ Aspose.3D for .NET allows customizing shear bottom of a cylinder. In order to u
 
 
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-WorkingWithCylinder-CustomizedShearBottomCylinder-1.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithCylinder-CustomizedShearBottomCylinder-1.cs" >}}
 
 ![todo:image_alt_text](working-with-cylinder_2.png)
 
@@ -35,7 +35,7 @@ Aspose.3D for .NET allows creating a fan cylinder. In order to use this functio
 
 
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-WorkingWithCylinder-CustomizedShearBottomCylinder-1.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithCylinder-CustomizedShearBottomCylinder-1.cs" >}}
 
 ![todo:image_alt_text](working-with-cylinder_3.png)
 

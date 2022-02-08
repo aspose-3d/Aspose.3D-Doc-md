@@ -15,4 +15,4 @@ The encode method exposed by the **DracoFormat** class can be used to encode
 ### **Programming Sample**
 This code example retrieves Mesh of Sphere, and then encode in the Google Draco file after specifying a compression level.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-objects-Encode3DMeshinGoogleDraco.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-Encode3DMeshinGoogleDraco.java" >}}

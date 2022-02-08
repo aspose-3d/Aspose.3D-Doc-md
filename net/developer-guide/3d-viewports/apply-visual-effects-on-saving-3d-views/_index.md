@@ -15,4 +15,4 @@ The [GetPostProcessing](https://apireference.aspose.com/3d/net/aspose.threed.ren
 ### **Programming Sample**
 This code example applies visual effect on a 3D view.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-3DViewPorts-ApplyVisualEffects-ApplyVisualEffects.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DViewPorts-ApplyVisualEffects-ApplyVisualEffects.cs" >}}

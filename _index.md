@@ -1,6 +1,7 @@
 ---
 title: Aspose.3D Product Family
 type: docs
+description: Aspose.3D APIs allow programmers to connect their apps with 3D formats automatically without 3D modeling and rendering software being installed on the server. The Aspose.3D APIs facilitate engineers read, convert, build, alter and control the substance of the 3D document formats.
 weight: 10
 url: /
 ---

@@ -25,10 +25,10 @@ The **Mesh** class object is being used in the code. We can [create a Mesh class
 
 {{% /alert %}} 
 ## **Rotate by Quaternion**
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-AddTransformationToNodeByQuaternion.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddTransformationToNodeByQuaternion.java" >}}
 ## **Rotate by Euler Angles**
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-AddTransformationToNodeByEulerAngles.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddTransformationToNodeByEulerAngles.java" >}}
 ## **Custom Transformation Matrix**
 We can also use Matrix directly:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-AddTransformationToNodeByTransformationMatrix.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddTransformationToNodeByTransformationMatrix.java" >}}

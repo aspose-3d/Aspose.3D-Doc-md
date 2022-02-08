@@ -29,8 +29,8 @@ The OpenGL Shading Language (GLSL) is the standard high level shading language f
 ### **Programming Sample for Shader**
 This code example initializes renderer and Shader for the grid. You can download complete working project of this example from [here](https://github.com/aspose-3d/Aspose.3D-for-.NET/tree/master/HardwareBasedRendering).
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "HardwareBasedRendering-Controls-RenderView-RenderView.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "HardwareBasedRendering-Controls-RenderView-RenderView.cs" >}}
 ### **Programming Sample for the Buffer and Render State**
 This code example initializes the buffer and render state for the grid.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "HardwareBasedRendering-Grid-ManualEntity.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "HardwareBasedRendering-Grid-ManualEntity.cs" >}}

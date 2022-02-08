@@ -26,19 +26,19 @@ The control points of all geometries in Aspose.3D use homogeneous coordinate, so
 
 **Example:**
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-Common-DefineControlPoints.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-Common-DefineControlPoints.cs" >}}
 
 
 ### **Create Polygons**
 The control points are not renderable, to make the cube visible, we need to define polygons in each side:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-Common-CreateMeshUsingCreatePolygons.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-Common-CreateMeshUsingCreatePolygons.cs" >}}
 
 
 ### **Create Polygons with PolygonBuilder Class**
 We can also define polygon by vertices with PolygonBuilder class:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-Common-CreateMeshUsingPolygonBuilder.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-Common-CreateMeshUsingPolygonBuilder.cs" >}}
 
 Now it’s finished, to make the mesh visible, we need to prepare a node for it.
 ## **How to Triangulate a Mesh**
@@ -52,7 +52,7 @@ In this version we only triangulated the polygons since it's required by 3ds fil
 
 In this example, we triangulate a Mesh by importing FBX file and saved it in FBX format.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-TriangulateMesh-TriangulateMesh.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-TriangulateMesh-TriangulateMesh.cs" >}}
 ## **Create a 3D Cube Scene**
 This topic demonstrates how to add Mesh geometry to the 3D scene. The example code places a cube and save 3D scene in the supported file formats.
 ### **Create a Cube Node**
@@ -66,7 +66,7 @@ The Mesh class object is being used in the code. We can [create a Mesh class ob
 
 **Example**
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Geometry-and-Hierarchy-CubeScene-CreateCubeScene.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-CubeScene-CreateCubeScene.cs" >}}
 
 {{% alert color="primary" %}}
 

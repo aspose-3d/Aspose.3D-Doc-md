@@ -17,7 +17,7 @@ All geometries has CastShadows = true and ReceiveShadows=true, the shadows of re
 ### **Programming Sample**
 This code example casts and Receives shadows on 3D geometries.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Rendering-CastAndReceiveShadow-CastAndReceiveShadow.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Rendering-CastAndReceiveShadow-CastAndReceiveShadow.cs" >}}
 
 
 **Render Result**

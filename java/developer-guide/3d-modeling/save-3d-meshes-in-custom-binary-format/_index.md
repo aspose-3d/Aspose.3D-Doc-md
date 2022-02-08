@@ -13,4 +13,4 @@ Aspose.3D for Java API has support to open any supported 3D document, and then w
 ## **Load 3D File and Write Meshes in Custom Binary Format Programming Sample**
 Accept method exposed by the RootNode member in the **Scene** class allows to visit each sub node. The code snippet below allows to convert meshes only.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-modeling-Save3DMeshesInCustomBinaryFormat.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-modeling-Save3DMeshesInCustomBinaryFormat.java" >}}

@@ -19,7 +19,7 @@ Metadata is structured information that describes, explains, locates or makes it
 
 In this example, we assume the scene is created by a CAD tool called “Egypt” and it’s designed by “Manualdesk”:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-AssetInformation-InformationToScene-AddAssetInformationToScene.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-AssetInformation-InformationToScene-AddAssetInformationToScene.cs" >}}
 ## **Flip Coordinate System in 3D Formats**
 Aspose.3D for .NET API allows users to flip coordinate system in the OBJ, 3DS, STL and U3D formats.
 

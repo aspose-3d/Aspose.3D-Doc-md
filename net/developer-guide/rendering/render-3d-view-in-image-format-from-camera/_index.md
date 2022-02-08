@@ -15,4 +15,4 @@ The Render method exposed by the [Scene](https://apireference.aspose.com/3d/net/
 ### **Programming Sample**
 This code example creates a camera in a 3D scene, sets its target and render an image.
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Rendering-Render3DModelImageFromCamera-Render3DModelImageFromCamera.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Rendering-Render3DModelImageFromCamera-Render3DModelImageFromCamera.cs" >}}

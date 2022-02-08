@@ -15,4 +15,4 @@ The generateNormal method exposed by the **PolygonModifier** class can be us
 ### **Programming Sample**
 This code example loads a 3DS file, visit all nodes and create normal data for all meshes.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-objects-GenerateDataForMeshes.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-GenerateDataForMeshes.java" >}}

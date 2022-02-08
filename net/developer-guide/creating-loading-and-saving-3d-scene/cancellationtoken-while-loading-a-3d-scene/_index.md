@@ -10,4 +10,4 @@ All open/save methods will have an extra cancellationToken parameter with a defa
 
 You can use the CancellationTokenSource to cancel the save/open task at any time you need, as shown in this code example:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-CancellationToken-CancellationTokenSource.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CancellationToken-CancellationTokenSource.cs" >}}

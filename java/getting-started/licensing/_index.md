@@ -42,25 +42,25 @@ Use the License.setLicense method to license the APIs. Often the easiest way to 
 ### **Apply License using File or Stream Object**
 In this example Aspose.3D will attempt to find the license file in the folder that contain the JARs of your application.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
 
 Initializes a license from a stream.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
 ### **Including the License File as an Embedded Resource**
 You can simply copy the LIC file in the **resources** folder of your project. Rebuilding the project should embed the .lic file into application’s .jar file. After that you can apply license by using the code like below:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
 ### **Validate the License**
 It is possible to validate if the license has been set properly or not. The License class has the isLicensed field that will return true if license has been properly set.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
 ## **Apply Metered License**
 Aspose.3D allows developers to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 A new class **Metered** has been introduced to apply metered key. Following is the sample code demonstrating how to set metered public and private key.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
 ## **When to Apply a License**
 Follow these simple rules:
 

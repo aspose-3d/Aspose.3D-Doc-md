@@ -19,4 +19,4 @@ Please note that you cannot instruct Aspose.Diagram for .NET API to change or re
 ## **Create a 3D PDF with a Cylinder, and Rendered in Shaded Illustration Mode with CAD Optimized Lighting**
 The Save method of the **Scene** class allows to save a 3D scene in the PDF format. Developers may load any 3D supported file or build a new 3D scene, they can save a 3D scene in the PDF format as shown in this code example:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Loading-and-Saving-Save3DInPdf-Save3DInPdf.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DInPdf-Save3DInPdf.cs" >}}

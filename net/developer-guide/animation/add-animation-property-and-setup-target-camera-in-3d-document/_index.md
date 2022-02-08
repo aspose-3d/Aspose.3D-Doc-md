@@ -16,7 +16,7 @@ The [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) c
 
 In Aspose.3D, object animation is actually key-frame animation that animates on properties. To animate properties, you need a CurveMapping instance which maps components of a property to different curves, for example, a Vector3 property can have 3 components X/Y/Z, which will set up three channels in CurveMapping, every channel can have a set of Curves.
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-Animation-PropertyToDocument-AddAnimationPropertyToDocument.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Animation-PropertyToDocument-AddAnimationPropertyToDocument.cs" >}}
 ## **Setup the Target Camera in 3D File**
 Aspose.3D for .NET offers to setup the target camera in 3D file. In some file formats, light/camera supports target, which allows the light/camera always facing a specified node, this is useful in animation.
 
@@ -28,4 +28,4 @@ The [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene), [Camera
 
 In below example, the target and camera is setup in 3D file:
 
-{{< gist "aspose-3d" "631532eeb21c3374f2ed" "Examples-CSharp-Animation-SetupTargetAndCamera-SetupTargetAndCamera.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Animation-SetupTargetAndCamera-SetupTargetAndCamera.cs" >}}

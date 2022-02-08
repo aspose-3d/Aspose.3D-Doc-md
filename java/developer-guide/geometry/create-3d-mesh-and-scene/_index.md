@@ -26,21 +26,21 @@ The control points of all geometries in Aspose.3D use homogeneous coordinate, so
 
 **Example:**
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-DefineControlPoints.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-DefineControlPoints.java" >}}
 
 
 
 ### **Create Polygons**
 The control points are not renderable, to make the cube visible, we need to define polygons in each side:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-CreateMeshUsingCreatePolygons.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-CreateMeshUsingCreatePolygons.java" >}}
 
 
 
 ### **Create Polygons with PolygonBuilder Class**
 We can also define polygon by vertices with PolygonBuilder class:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-CreateMeshUsingPolygonBuilder.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-CreateMeshUsingPolygonBuilder.java" >}}
 
 Now it’s finished, to make the mesh visible, we need to prepare a node for it.
 ## **How to Triangulate a Mesh**
@@ -54,7 +54,7 @@ In this version we only triangulated the polygons since it's required by 3ds fil
 
 In this example, we triangulate a Mesh by importing FBX file and saved it in FBX format.
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-TriangulateMesh.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-TriangulateMesh.java" >}}
 ## **Create a 3D Cube Scene**
 This topic demonstrates how to add Mesh geometry to the 3D scene. The example code places a cube and save 3D scene in the supported file formats.
 ### **Create a Cube Node**
@@ -68,7 +68,7 @@ The Mesh class object is being used in the code. We can [create a Mesh class ob
 
 **Example:**
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-geometry-CreateCubeScene.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-CreateCubeScene.java" >}}
 
 {{% alert color="primary" %}} 
 

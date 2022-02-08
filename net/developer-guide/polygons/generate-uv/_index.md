@@ -10,4 +10,4 @@ Aspose.3D for .NET offers **PolygonModifier** class which exposes GenerateUV 
 
 
 
-{{< gist "aspose-com-gists" "15575b5bc038760ad09b3859ce2e3194" "Examples-CSharp-Polygons-GenerateUV-GenerateUV.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Polygons-GenerateUV-GenerateUV.cs" >}}

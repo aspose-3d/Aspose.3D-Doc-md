@@ -13,4 +13,4 @@ The **Scene** class of the Aspose.3D for Java API represents a 3D scene and deve
 ## **Non-PBR to PBR Material Conversion**
 This code example demonstrates how to convert material to PBR material, and then saves 3D scene in the GLTF format:
 
-{{< gist "aspose-3d" "a10c42b56128eaadb7d7f81e2176306c" "aspose-3d-src-examples-loadsave-Non_PBRtoPBRMaterial.java" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Non_PBRtoPBRMaterial.java" >}}
