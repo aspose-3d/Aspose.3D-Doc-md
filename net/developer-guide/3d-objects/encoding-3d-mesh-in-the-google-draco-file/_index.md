@@ -3,6 +3,7 @@ title: Encoding 3D Mesh in the Google Draco File
 type: docs
 weight: 60
 url: /net/encoding-3d-mesh-in-the-google-draco-file/
+description: Aspose.3D for .NET API allows developers to import a 3D model, and then encode meshes in the Google Draco files. Developers can also specify the position, texture coordinates, color and normal bits as well as the compression level before encoding a mesh.
 ---
 
 {{% alert color="primary" %}}

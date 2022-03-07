@@ -3,6 +3,7 @@ title: Specify 3D File Load Options
 type: docs
 weight: 30
 url: /net/specify-3d-file-load-options/
+description: There are several Scene.Open method overloads or Scene class constructor overloads that accept a LoadOptions object. Each load format has a corresponding class that holds load options for that load format.
 ---
 
 ## **3D File Load Options**

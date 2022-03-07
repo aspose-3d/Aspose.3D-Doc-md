@@ -3,6 +3,7 @@ title: Save a 3D Document
 type: docs
 weight: 20
 url: /net/save-a-3d-document/
+description: The Scene class of the Aspose.3D API represents a 3D document and developers can save its object in any supported file format.
 ---
 
 {{% alert color="primary" %}} 

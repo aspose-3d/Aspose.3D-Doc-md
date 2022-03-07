@@ -3,6 +3,7 @@ title: Working with Linear Extrusion
 type: docs
 weight: 110
 url: /net/working-with-linear-extrusion/
+description: Aspose.3D for .NET offers LinearExtrusion class, which takes a 2D shape as an input and extends the shape in the 3rd dimension.
 ---
 
 # **Performing Linear Extrusion**

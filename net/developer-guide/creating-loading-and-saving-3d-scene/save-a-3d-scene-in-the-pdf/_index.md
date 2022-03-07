@@ -3,6 +3,7 @@ title: Save a 3D Scene in the PDF
 type: docs
 weight: 60
 url: /net/save-a-3d-scene-in-the-pdf/
+description: The Scene class of the Aspose.3D API represents a 3D scene. Developers can build a 3D scene by adding Camera, Light, polygons and various other entities. They can also now save a 3D scene in the PDF file format.
 ---
 
 {{% alert color="primary" %}} 

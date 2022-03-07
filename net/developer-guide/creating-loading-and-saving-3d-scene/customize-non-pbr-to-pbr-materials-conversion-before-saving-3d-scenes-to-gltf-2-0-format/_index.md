@@ -3,6 +3,7 @@ title: Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to 
 type: docs
 weight: 70
 url: /net/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
+description: The Scene class of the Aspose.3D API represents a 3D scene. Developers can already build a 3D scene by adding various entities. GLTF 2.0 only supports PBR (Physically Based Rendering) materials, Aspose.3D API internally converts non-PBR materials into PBR materials before exporting into GLTF 2.0.
 ---
 
 {{% alert color="primary" %}} 

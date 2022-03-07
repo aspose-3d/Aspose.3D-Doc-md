@@ -3,6 +3,7 @@ title: Convert Mesh of a single 3D object in PLY file
 type: docs
 weight: 20
 url: /net/convert-mesh-of-a-single-3d-object-in-ply-file/
+description: The overloaded EncodeMesh members exposed by the PlyFormat class can be used to convert the Mesh of a 3D object to PLY file. The EncodeMesh members take the Mesh, output file name and PlySaveOptions objects as parameters. Using the PLY save options, developers can change the name of coordinate components.
 ---
 
 {{% alert color="primary" %}}

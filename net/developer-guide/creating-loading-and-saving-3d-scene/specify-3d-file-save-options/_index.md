@@ -3,6 +3,7 @@ title: Specify 3D File Save Options
 type: docs
 weight: 40
 url: /net/specify-3d-file-save-options/
+description: There are several Scene.Save method overloads that accept a SaveOptions object. Each save format has a corresponding class that holds save options for that save format.
 ---
 
 ## **3D File Save Options**

@@ -3,6 +3,7 @@ title: Import 3D Scenes and Contents from a PDF
 type: docs
 weight: 50
 url: /net/import-3d-scenes-and-contents-from-a-pdf/
+description: The Scene class of the Aspose.3D API represents a 3D scene. Developers can extract 3D scenes and contents from a PDF file.
 ---
 
 {{% alert color="primary" %}}

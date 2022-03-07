@@ -3,6 +3,7 @@ title: Working with PointCloud
 type: docs
 weight: 150
 url: /net/working-with-pointcloud/
+description: Aspose.3D for .NET allows decoding a mesh from a Draco file directly without building a scene using the Decode method of DracoFormat class.
 ---
 
 {{% alert color="primary" %}} 

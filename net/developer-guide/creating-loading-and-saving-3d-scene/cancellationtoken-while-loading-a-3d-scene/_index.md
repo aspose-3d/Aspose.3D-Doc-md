@@ -3,6 +3,7 @@ title: CancellationToken while loading a 3D scene
 type: docs
 weight: 80
 url: /net/cancellationtoken-while-loading-a-3d-scene/
+description: You can use the CancellationTokenSource to cancel the save/open task at any time you need.
 ---
 
 # **CancellationToken while loading a 3D scene**

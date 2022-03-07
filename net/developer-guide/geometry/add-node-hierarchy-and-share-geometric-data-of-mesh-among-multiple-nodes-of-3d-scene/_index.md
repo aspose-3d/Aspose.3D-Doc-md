@@ -3,6 +3,7 @@ title: Add Node hierarchy and Share Geometric data of Mesh among Multiple Nodes 
 type: docs
 weight: 40
 url: /net/add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-nodes-of-3d-scene/
+description: Aspose.3D for .NET offers to build a Node hierarchy. The Node is basic building block of a scene. A hierarchy of nodes defines the logical structure of a scene, and provide visible content by attaching geometries, lights, and cameras to nodes.
 ---
 
 ## **Add Node Hierarchy in 3D Scene Document**

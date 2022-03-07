@@ -3,6 +3,7 @@ title: Concatenate Quaternions and apply on 3D entities
 type: docs
 weight: 50
 url: /net/concatenate-quaternions-and-apply-on-3d-entities/
+description: Aspose.3D for .NET allows developers to combine two rotation transformation into one represented in a quaternion.
 ---
 
 {{% alert color="primary" %}} 

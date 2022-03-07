@@ -3,6 +3,7 @@ title: Create and Read an Existing 3D Scene
 type: docs
 weight: 10
 url: /net/create-and-read-an-existing-3d-scene/
+description: Aspose.3D API supports creating the new 3D scenes from the scratch and then save in any supported file format. Developers can also load an existing 3D Scene for the modification, addition or processing purposes.
 ---
 
 ## **Create an Empty 3D Scene and Save in Supported 3D File Formats**

@@ -3,6 +3,7 @@ title: Build Tangent and Binormal Data for all Meshes in 3D Model
 type: docs
 weight: 10
 url: /net/build-tangent-and-binormal-data-for-all-meshes-in-3d-model/
+description: Using Aspose.3D for .NET API, developers can build tangent and binormal data for all meshes in any supported 3D file.
 ---
 
 {{% alert color="primary" %}}

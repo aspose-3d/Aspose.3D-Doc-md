@@ -3,6 +3,7 @@ title: Adding Transformation to the Node
 type: docs
 weight: 30
 url: /net/adding-transformation-to-the-node/
+description: TSR (Translation/Scaling/Rotation) are most commonly used in 3D scenario, we provided a class Transform to access these in Aspose.3D.
 ---
 
 {{% alert color="primary" %}}

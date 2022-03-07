@@ -3,6 +3,7 @@ title: Save 3D Meshes in Custom Binary Format
 type: docs
 weight: 20
 url: /net/save-3d-meshes-in-custom-binary-format/
+description: Using Aspose.3D for .NET API, developers can open any supported 3D file, and then write meshes in the custom binary file.
 ---
 
 {{% alert color="primary" %}}
