@@ -3,6 +3,7 @@ title: Render 3D View in Image format from Camera
 type: docs
 weight: 50
 url: /net/render-3d-view-in-image-format-from-camera/
+description: Using Aspose.3D for .NET, developers can render an image to view a realistic image of 3D model, with or without the enhanced background, textures, shadows and also adjust the image size.
 ---
 
 {{% alert color="primary" %}}

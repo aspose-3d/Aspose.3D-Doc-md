@@ -3,6 +3,7 @@ title: Split Mesh
 type: docs
 weight: 100
 url: /net/split-mesh/
+description: Developers may require to split all meshes of a scene into several sub meshes per material. The SplitMesh method will not split a mesh of the scene If it has been assigned a single material. Developers can now achieve this by using Aspose.3D for .NET API.
 ---
 
 ## **Split All Meshes of a Scene Per Material**

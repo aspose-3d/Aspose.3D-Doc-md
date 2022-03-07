@@ -3,6 +3,7 @@ title: Cast and Receive Shadows on 3D Geometries
 type: docs
 weight: 10
 url: /net/cast-and-receive-shadows-on-3d-geometries/
+description: Generally, some 3D file formats can store shadow related settings in geometry like FBX. Using Aspose.3D for .NET, developers can render an image by mapping shadows from the viewpoint of a light source. The image quality depends on the light source, elevation angle and distance between the camera and geometric objects.
 ---
 
 {{% alert color="primary" %}}

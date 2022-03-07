@@ -3,6 +3,7 @@ title: Triangulation of a Simple Polygon
 type: docs
 weight: 30
 url: /net/triangulation-of-a-simple-polygon/
+description: Using Aspose.3D for .NET API, developers can triangulate a simple polygon. Any polygon can be divided into triangles. All of the operations and calculations for triangles can be piecewise applied to the polygon.
 ---
 
 {{% alert color="primary" %}}

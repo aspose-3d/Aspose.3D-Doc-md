@@ -3,6 +3,7 @@ title: Hardware Based Rendering of 3D Geometry
 type: docs
 weight: 30
 url: /net/hardware-based-rendering-of-3d-geometry/
+description: Using Aspose.3D for .NET API, developers can program the GPU (graphics processing unit) and setup the graphics hardware for rendering 3D geometry instead of the fixed function pipeline. 
 ---
 
 {{% alert color="primary" %}}

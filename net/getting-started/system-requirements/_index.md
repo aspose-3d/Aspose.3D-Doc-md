@@ -3,6 +3,7 @@ title: System Requirements
 type: docs
 weight: 50
 url: /net/system-requirements/
+description: The system requirements for the Aspose.3D for .NET.
 ---
 
 ## **Overview**

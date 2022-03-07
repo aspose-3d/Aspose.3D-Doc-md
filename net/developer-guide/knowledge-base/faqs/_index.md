@@ -3,6 +3,7 @@ title: FAQs
 type: docs
 weight: 10
 url: /net/faqs/
+description: Frequently asked questions about Aspose.3D for .net.
 ---
 
 #### **Q: How to animate FBX or other 3D format’s special property that wasn’t defined in Aspose.3D?**

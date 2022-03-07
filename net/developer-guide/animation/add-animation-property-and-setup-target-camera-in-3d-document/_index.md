@@ -3,6 +3,7 @@ title: Add Animation Property and Setup Target Camera in 3D document
 type: docs
 weight: 10
 url: /net/add-animation-property-and-setup-target-camera-in-3d-document/
+description: In Aspose.3D, object animation is actually key-frame animation that animates on properties. To animate properties, you need a CurveMapping instance which maps components of a property to different curves, for example, a Vector3 property can have 3 components X/Y/Z, which will set up three channels in CurveMapping, every channel can have a set of Curves.
 ---
 
 ## **Add Animation property in 3D document**

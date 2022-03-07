@@ -3,6 +3,7 @@ title: Apply Visual Effects on Saving 3D Views
 type: docs
 weight: 10
 url: /net/apply-visual-effects-on-saving-3d-views/
+description: Using Aspose.3D for .NET API, developers may apply visual effects on 3D Views before saving in the image. These visual effects are also known as the post-processing effects or filters those are applied in real-time to everything displayed in the 3D View.
 ---
 
 {{% alert color="primary" %}}

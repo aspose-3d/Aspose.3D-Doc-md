@@ -3,6 +3,7 @@ title: Work with XPath-Like Object Queries
 type: docs
 weight: 120
 url: /net/work-with-xpath-like-object-queries/
+description: Using Aspose.3D for .NET, you can select one or more objects under the current node using XPath-Like query syntax. The query syntax was inspired by XPath, so most concepts and syntax are similar, the query syntax is compatible with URL so it will be used in our cloud version in the future. 
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: Create a Fish-eye lens effect on 3D scene and save in an image
 type: docs
 weight: 20
 url: /net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
+description: Using Aspose.3D for .NET API, developers can create a Fisheye lens effect on 3D scene and save that view into the supported image formats.
 ---
 
 {{% alert color="primary" %}}
