@@ -3,6 +3,7 @@ title: How to Run the Examples
 type: docs
 weight: 70
 url: /java/how-to-run-the-examples/
+description: All examples of Aspose.3D for Java are hosted on GitHub. You can either clone the repository using your favorite GitHub client or download the ZIP file.
 ---
 
 ## **Download from GitHub**

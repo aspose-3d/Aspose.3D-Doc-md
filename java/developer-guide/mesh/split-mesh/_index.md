@@ -3,6 +3,7 @@ title: Split Mesh
 type: docs
 weight: 10
 url: /java/split-mesh/
+description: Aspose.3D for Java API has support to split all meshes of a scene into several sub meshes per material. The SplitMesh method will not split a mesh of the scene, if it has been assigned a single material. It can be achieved by using Aspose.3D for Java API.
 ---
 
 ## **Split all Meshes of Scene Per Material**

@@ -3,6 +3,7 @@ title: Convert Mesh to Triangle Mesh and Primitive Shape to Mesh
 type: docs
 weight: 20
 url: /java/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/
+description: Aspose.3D for Java API has support to convert mesh to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined dynamically by VertexDeclaration class in the code examples.
 ---
 
 ## **Convert Mesh to Triangle Mesh with Custom Memory Layout of Vertex**

@@ -3,6 +3,7 @@ title: Add Animation Property and Setup Target Camera in 3D document
 type: docs
 weight: 10
 url: /java/add-animation-property-and-setup-target-camera-in-3d-document/
+description: Aspose.3D for Java supports rendering animated scene. This article explains prerequisites to move an object.
 ---
 
 ## **Add Animation property in 3D document**

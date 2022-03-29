@@ -3,6 +3,7 @@ title: Add Asset Information to 3D document
 type: docs
 weight: 10
 url: /java/add-asset-information-to-3d-document/
+description: Metadata is structured information that describes, explains, locates or makes it easier to retrieve, use or manage an information resource. Aspose.3D for Java API has support to define Metadata for the scene.
 ---
 
 ## **Add Asset Information to 3D document**

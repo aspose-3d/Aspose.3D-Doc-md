@@ -3,6 +3,7 @@ title: Read 3D document
 type: docs
 weight: 30
 url: /java/read-3d-document/
+description: Aspose.3D for Java API has support of reading various type of 3D documents.
 ---
 
 ## **List of 3D supported formats (import)**

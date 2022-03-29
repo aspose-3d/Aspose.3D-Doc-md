@@ -3,6 +3,7 @@ title: Create an Empty 3D document
 type: docs
 weight: 20
 url: /java/create-an-empty-3d-document/
+description: Aspose.3D for Java API has support of creating 3D scene from scratch, and then save in supported 3D format.
 ---
 
 ## **Create an Empty 3D Scene and save in Supported 3D format**

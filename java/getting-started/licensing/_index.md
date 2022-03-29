@@ -3,6 +3,7 @@ title: Licensing
 type: docs
 weight: 60
 url: /java/licensing/
+description: You can easily download/install Aspose.3D for Java from Aspose Repository for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
 ---
 
 ## **Evaluate Aspose.3D**

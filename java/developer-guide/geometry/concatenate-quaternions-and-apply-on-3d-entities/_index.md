@@ -3,6 +3,7 @@ title: Concatenate Quaternions and apply on 3D entities
 type: docs
 weight: 30
 url: /java/concatenate-quaternions-and-apply-on-3d-entities/
+description: Aspose.3D for Java allows developers to combine two rotation transformation into one represented in a quaternion.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,6 +3,7 @@ title: Create Scene with Primitive 3D Shapes
 type: docs
 weight: 20
 url: /java/create-scene-with-primitive-3d-shapes/
+description: Aspose.3D for Java API has support of primitive 3D shapes. All parameterized primitives will be converted to mesh automatically while saving in any supported output file format.
 ---
 
 {{% alert color="primary" %}} 

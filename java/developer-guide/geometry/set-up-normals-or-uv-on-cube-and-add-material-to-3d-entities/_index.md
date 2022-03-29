@@ -3,6 +3,7 @@ title: Set up normals or UV on Cube and Add Material to 3D Entities
 type: docs
 weight: 60
 url: /java/set-up-normals-or-uv-on-cube-and-add-material-to-3d-entities/
+description: Aspose.3D for Java offers to manage normals and UV on the geometric shapes. A mesh stores the key properties for every vertex, position in space, and its normal, known as a vector perpendicular to the original surface. The normal is major to shading counts and should be a unit vector. Most mesh formats also support some form of UV coordinates which are a separate 2D representation of the mesh "unfolded" to show what portion of a 2-dimensional texture map to apply to different polygons of the mesh.
 ---
 
 {{% alert color="primary" %}}

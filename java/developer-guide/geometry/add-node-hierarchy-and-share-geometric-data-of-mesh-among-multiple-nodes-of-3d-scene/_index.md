@@ -3,6 +3,7 @@ title: Add Node hierarchy and Share Geometric data of Mesh among Multiple Nodes 
 type: docs
 weight: 20
 url: /java/add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-nodes-of-3d-scene/
+description: Aspose.3D for Java has support of building a hierarchy of Nodes. The Node is basic building block of 3D scene and a hierarchy of nodes defines the logical structure of 3D scene, and provide visible content by attaching geometries, lights, and cameras to nodes.
 ---
 
 ## **Add Node Hierarchy in 3D Scene Document**

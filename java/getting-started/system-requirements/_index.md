@@ -3,6 +3,7 @@ title: System Requirements
 type: docs
 weight: 40
 url: /java/system-requirements/
+description: Aspose.3D for Java does not require any other software to be installed on the machine where applications using this API are running.
 ---
 
 ## **Overview**

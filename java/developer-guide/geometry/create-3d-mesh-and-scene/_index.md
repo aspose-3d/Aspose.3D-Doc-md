@@ -3,6 +3,7 @@ title: Create 3D Mesh and Scene
 type: docs
 weight: 40
 url: /java/create-3d-mesh-and-scene/
+description: A Mesh is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a Mesh.
 ---
 
 ## **Create a 3D Cube Mesh**

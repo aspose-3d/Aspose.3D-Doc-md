@@ -3,6 +3,7 @@ title: Specify 3D File Load Options
 type: docs
 weight: 10
 url: /java/specify-3d-file-load-options/
+description: There are several Scene.open method overloads or Scene class constructor overloads that accept LoadOptions instance.
 ---
 
 ## **3D File Load Options**

@@ -3,6 +3,7 @@ title: Installation
 type: docs
 weight: 50
 url: /java/installation/
+description: Aspose hosts all Java APIs on Aspose Repository. You can easily use Aspose.3D for Java API directly in your Maven projects with simple configurations.
 ---
 
 ## **Installing Aspose.3D for Java from Aspose Repository**

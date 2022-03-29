@@ -3,6 +3,7 @@ title: Feature List
 type: docs
 weight: 30
 url: /java/feature-list/
+description: The feature supported by Aspose.3D for Java
 ---
 
 ## **Aspose.3D Features**

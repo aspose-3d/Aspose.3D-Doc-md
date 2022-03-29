@@ -3,13 +3,9 @@ title: Working with PointCloud
 type: docs
 weight: 110
 url: /java/working-with-pointcloud/
+description: Aspose.3D for Java allows decoding a mesh from a Draco file directly without building a scene using the decode method of DracoFormat class.
 ---
 
-{{% alert color="primary" %}} 
-
-This feature is supported by version 19.7 or greater.
-
-{{% /alert %}} 
 # **Decode Mesh**
 Aspose.3D for Java allows decoding a mesh from a Draco file directly without building a scene using the [decode](https://apireference.aspose.com/3d/java/com.aspose.threed/DracoFormat#decode-java.lang.String-) method of [DracoFormat ](https://apireference.aspose.com/3d/java/com.aspose.threed/DracoFormat)class. The following code snippet shows how to use this functionality:
 

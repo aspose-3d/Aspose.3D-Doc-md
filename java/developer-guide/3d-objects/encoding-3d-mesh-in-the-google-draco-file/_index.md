@@ -3,6 +3,7 @@ title: Encoding 3D Mesh in the Google Draco File
 type: docs
 weight: 30
 url: /java/encoding-3d-mesh-in-the-google-draco-file/
+description: Aspose.3D for Java API has support of importing 3D model, retrieve mesh, and then encode mesh in the Google Draco file.
 ---
 
 {{% alert color="primary" %}} 

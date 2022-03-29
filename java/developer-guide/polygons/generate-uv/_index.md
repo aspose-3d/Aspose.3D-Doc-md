@@ -3,6 +3,7 @@ title: Generate UV
 type: docs
 weight: 20
 url: /java/generate-uv/
+description: Aspose.3D for Java offers PolygonModifier class which exposes GenerateUV method, with which you can manually generate UV and associate it with the mesh. 
 ---
 
 # **Generate UV**

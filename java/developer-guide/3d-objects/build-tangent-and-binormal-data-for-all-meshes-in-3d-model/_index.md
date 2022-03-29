@@ -3,6 +3,7 @@ title: Build Tangent and Binormal data for all Meshes in 3D Model
 type: docs
 weight: 10
 url: /java/build-tangent-and-binormal-data-for-all-meshes-in-3d-model/
+description: With Aspose.3D for Java API, developers can build tangent and binormal data for all meshes in any supported 3D document.
 ---
 
 {{% alert color="primary" %}} 

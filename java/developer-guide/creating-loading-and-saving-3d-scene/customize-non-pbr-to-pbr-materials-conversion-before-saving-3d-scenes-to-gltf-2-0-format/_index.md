@@ -3,6 +3,7 @@ title: Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to 
 type: docs
 weight: 50
 url: /java/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
+description: The Scene class of the Aspose.3D for Java API represents a 3D scene and developers can build a 3D scene by adding various entities.
 ---
 
 {{% alert color="primary" %}} 
