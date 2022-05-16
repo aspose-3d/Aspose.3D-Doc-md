@@ -2,18 +2,22 @@
 title: Feature List
 type: docs
 weight: 30
-url: /net/feature-list/
+url: /python-net/feature-list/
 ---
 
 Aspose.3D Features
-## **General Features**
-- Written completely in C#, works with .NET Framework.
-- .NET environment required.
-- Supports Windows Forms and ASP.NET applications.
-- API reference in HTML and Microsoft Help format.
-- Supported .NET Frameworks (2.0, 3.5, 4.0, 4.0_ClientProfile, 4.5.0, 4.5.1, 4.6.0, 4.6.2, 4.7, 4.7.2).
-- 32-bit OS support.
-- 64-bit OS support.
+
+
+## **Supported Platforms**
+
+The platforms Aspose.3D for Python via .NET can be used on Windows x64 or x86 and wide range of Linux distributions with Python 3.5 or later installed. There are additional requirements to the target Linux platform:
+- GCC-6 runtime libraries (or later)
+- Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required
+- For Python 3.5-3.7: The pymalloc build of Python is needed. The --with-pymalloc Python build option is enabled by default. Typically, the pymalloc build of Python is marked with m suffix in the filename.
+- libpython shared Python library. The --enable-shared Python build option is disabled by default, some Python distributions do not contain the libpython shared library. For some linux platforms, the libpython shared library can be installed using the package manager, for example: sudo apt-get install libpython3.7. The common issue is that libpython library is installed in a different location than the standard system location for shared libraries. The issue can be fixed by using the Python build options to set alternate library paths when compiling Python, or fixed by creating a symbolic link to the libpython library file in the system standard location for shared libraries. Typically, the libpython shared library file name is libpythonX.Ym.so.1.0 for Python 3.5-3.7, or libpythonX.Y.so.1.0 for Python 3.8 or later (for example: libpython3.7m.so.1.0, libpython3.9.so.1.0).
+- libgdiplus 6.0.1 or later
+
+
 ## **Feature Matrix**
 
 |**Features** |` `FBX |` `Collada |` `glTF |` `glTF 2.0 |` `U3D |` `PDF |` `STL |` `OBJ |` `PLY |` `3DS |` `ASE |` `X |` `3MF |` `RVM |` `Draco |

@@ -59,3 +59,32 @@ Following are the links to some useful resources you may need to accomplish your
 
 
 
+{{% alert color="primary" %}} 
+
+![todo:image_alt_text](home_2.png)
+
+**Welcome to Aspose.3D for Python via .NET API**
+
+Aspose.3D for Python via .NET API is built to create, edit, manipulate and save 3D formats. It empowers Python applications to connect with 3D documents without installing any software package on the computer. Aspose.3D for Python via .NET API assist developers to model and create massive worlds in games, superb scenes for design visualization, and engage virtual reality experiences.
+
+The API is user friendly and saves time and money than creating a similar solution from scratch.
+
+{{% /alert %}} 
+
+
+## **Aspose.3D for Python via .NET Resources**
+Following are the links to some useful resources you may need to accomplish your tasks.
+
+- [Aspose.3D for Python via .NET Online Documentation](/3d/python-net/)
+- [Aspose.3D for Python via .NET Features](/3d/python-net/product-overview/#rich-features)
+- [Aspose.3D for Python via .NET Limitations](/3d/python-net/installation#SystemRequirements)
+- [Aspose.3D for Python via .NET Release Notes](/3d/python-net/release-notes/)
+- [Aspose.3D for Python via .NET Product Page](https://products.aspose.com/3d/python-net)
+- [Install Aspose.3D for Python via .NET from pip](/3d/python-net/installation)
+- [Aspose.3D for Python via .NET API Reference Guide](https://apireference.aspose.com/3d/python-net)
+- [Aspose.3D for Python via .NET Free Support Forum](https://forum.aspose.com/c/3d)
+- [Aspose.3D for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
+
+
+
