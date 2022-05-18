@@ -8,7 +8,7 @@ description: Aspose.3D for Python via .NET is a cross-platform class library tha
 
 {{% alert color="primary" %}} 
 
-![todo:image_alt_text](product-overview_1.png)
+![todo:image_alt_text](/3d/python-net/home_1.png)
 
 **Welcome to the Aspose.3D for Python via .NET documentation section**
 

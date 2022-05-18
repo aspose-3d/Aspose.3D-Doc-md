@@ -61,7 +61,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 {{% alert color="primary" %}} 
 
-![todo:image_alt_text](home_2.png)
+![todo:image_alt_text](/3d/python-net/home_1.png)
 
 **Welcome to Aspose.3D for Python via .NET API**
 
