@@ -17,10 +17,14 @@ This page contains release notes for [Aspose.3D for Java 18.7](https://repositor
 |Add Draco 2.2 import support|New Feature|
 |Add Draco 2.2 export support|New Feature|
 |Import glTF files with draco compression|New Feature|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
 Please view the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java API. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-### **API changes:**
-#### **3 members removed from class com.aspose.threed.Property:**
+
+## **API changes:**
+
+**3 members removed from class com.aspose.threed.Property:**
+
 {{< highlight java >}}
 
      public void com.aspose.threed.Property.setExtraData(java.lang.String);
@@ -32,7 +36,9 @@ Please view the list of any changes made to the public API such as added, rename
 {{< /highlight >}}
 
 These are removed to synchronize the changes from .NET version. (They are scheduled to be removed since Aspose.3D for .NET 18.2)
-#### **1 property added to class com.aspose.threed.ObjLoadOptions:**
+
+**1 property added to class com.aspose.threed.ObjLoadOptions:**
+
 {{< highlight java >}}
 
      public boolean com.aspose.threed.ObjLoadOptions.getNormalizeNormal();
@@ -42,7 +48,9 @@ These are removed to synchronize the changes from .NET version. (They are schedu
 {{< /highlight >}}
 
 Gets or sets whether to normalize the normal vector during the loading, default value is true.
-##### **Sample code:**
+
+**Sample code:**
+
 {{< highlight java >}}
 
          Scene scene = new Scene();
