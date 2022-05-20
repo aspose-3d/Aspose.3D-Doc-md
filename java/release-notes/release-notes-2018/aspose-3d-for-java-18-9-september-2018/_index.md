@@ -18,10 +18,15 @@ This page contains release notes for [Aspose.3D for Java 18.9](https://repositor
 |FBX ExportException - High Polygon Count|Bug|
 |ImportException while opening huge FBX files|Bug|
 |Not all properties from FBX's global settings are loaded into the AssetInfo|Bug|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 Please view the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java API. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-### **API changes:**
-#### **Class com.aspose.threed.Node added 2 new methods:**
+
+## **API changes:**
+
+**Class com.aspose.threed.Node added 2 new methods:**
+
 {{< highlight java >}}
 
      /**
@@ -69,7 +74,9 @@ In FBX, the AssetInfo property of root node contains the global settings defined
         System.out.println(globalSettings.getProperty("FrontAxis"));
 
 {{< /highlight >}}
-#### **Class com.aspose.threed.Scene added 10 new methods:**
+
+**Class com.aspose.threed.Scene added 10 new methods:**
+
 These are all new overloads to the original save/open methods:
 
 **Old Methods:**
