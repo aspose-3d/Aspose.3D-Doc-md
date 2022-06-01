@@ -15,9 +15,13 @@ This page contains release notes for [Aspose.3D for Java 19.3](https://repositor
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |THREEDNET-471 |XPath like object addressing methods|New feature|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-#### **Added method selectSingleObject in class com.aspose.threed.Node**
+
+**Added method selectSingleObject in class com.aspose.threed.Node**
+
 {{< highlight java >}}
 
  /**
@@ -35,7 +39,9 @@ public A3DObject selectSingleObject(String path)
     throws ParseException;
 
 {{< /highlight >}}
-#### **Added method selectObjects in class com.aspose.threed.Node**
+
+**Added method selectObjects in class com.aspose.threed.Node**
+
 {{< highlight java >}}
 
  /**
@@ -164,8 +170,10 @@ or
  //*[@Type = Node]
 
 {{< /highlight >}}
-#### **Select a second level node with a visible parent:**
-{{< highlight java >}}
+
+ **Select a second level node with a visible parent:**
+
+ {{< highlight java >}}
 
  //<Node>[@Visible]/<Node>
 
