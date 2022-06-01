@@ -17,9 +17,12 @@ This page contains release notes for Aspose.3D for Java 19.1.
 |UV atlas algorithm|New Feature|
 |AMF Exporter|New Feature|
 |Archive-based file format detection |New Feature|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-#### **Added class com.aspose.threed.AMFSaveOptions:**
+
+**Added class com.aspose.threed.AMFSaveOptions:**
+
 {{< highlight java >}}
 
  /**
@@ -57,7 +60,9 @@ public class AMFSaveOptions extends SaveOptions
 }
 
 {{< /highlight >}}
-#### **New member added to the class com.aspose.threed.PolygonModifier:**
+
+**New member added to the class com.aspose.threed.PolygonModifier:**
+
 {{< highlight java >}}
 
      /**
