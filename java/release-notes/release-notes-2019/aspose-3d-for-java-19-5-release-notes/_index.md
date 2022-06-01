@@ -18,9 +18,12 @@ This page contains release notes for [Aspose.3D for Java 19.5](https://repositor
 |THREEDNET-505|Allow change plane's orientation by specifying an up normal|Enhancement|
 |THREEDNET-489|Shadow is not working in Vulkan renderer|Bug|
 |THREEDNET-504|Draco created from STL file is broken|Bug|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-#### **Added new property *Radius* in class com.aspose.threed.Plane**
+
+**Added new property *Radius* in class com.aspose.threed.Plane**
+
 {{< highlight java >}}
 
  /**
@@ -60,7 +63,9 @@ scene.getRootNode().createChildNode(plane);
 scene.save("test.obj", FileFormat.WAVEFRONTOBJ);
 
 {{< /highlight >}}
-#### **Added new method "getConsumptionCredit" in class com.aspose.threed.Metered**
+
+**Added new method "getConsumptionCredit" in class com.aspose.threed.Metered**
+
 {{< highlight java >}}
 
  /**
