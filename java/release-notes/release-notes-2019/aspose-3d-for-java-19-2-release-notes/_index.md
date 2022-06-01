@@ -15,9 +15,12 @@ This page contains release notes for Aspose.3D for Java 19.2.
 |**Summary**|**Category**|
 | :- | :- |
 |Create geometry by extruding shapes|New Feature|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-#### **Added method FromControlPoints in class Aspose.ThreeD.Entities.Shape:**
+
+**Added method FromControlPoints in class Aspose.ThreeD.Entities.Shape:**
+
 {{< highlight java >}}
 
      /**
@@ -31,7 +34,9 @@ See the list of any changes made to the public API such as added, renamed, remov
     public static Shape fromControlPoints(Vector3... controlPoints);
 
 {{< /highlight >}}
-#### **Added new class Aspose.ThreeD.Entities.LinearExtrusion：**
+
+**Added new class Aspose.ThreeD.Entities.LinearExtrusion：**
+
 {{< highlight java >}}
 
  /**
