@@ -26,7 +26,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.3D for .NET Release Notes](/3d/net/release-notes/)
 - [Aspose.3D for .NET Product Page](https://products.aspose.com/3d/net/)
 - [Install Aspose.3D for .NET NuGet Package](https://www.nuget.org/packages/Aspose.3D/)
-- [Aspose.3D for .NET API Reference Guide](https://apireference.aspose.com/3d/net)
+- [Aspose.3D for .NET API Reference Guide](https://reference.aspose.com/3d/net)
 - [Aspose.3D for .NET Free Support Forum](https://forum.aspose.com/c/3d/18)
 - [Aspose.3D for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -52,7 +52,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.3D for Java Release Notes](/3d/java/release-notes/)
 - [Aspose.3D for Java Product Page](https://products.aspose.com/3d/java)
 - [Install Aspose.3D for Java from Aspose Artifactory](/3d/java/installation)
-- [Aspose.3D for Java API Reference Guide](https://apireference.aspose.com/3d/java)
+- [Aspose.3D for Java API Reference Guide](https://reference.aspose.com/3d/java)
 - [Aspose.3D for Java Free Support Forum](https://forum.aspose.com/c/3d)
 - [Aspose.3D for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -81,7 +81,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.3D for Python via .NET Release Notes](/3d/python-net/release-notes/)
 - [Aspose.3D for Python via .NET Product Page](https://products.aspose.com/3d/python-net)
 - [Install Aspose.3D for Python via .NET from pip](/3d/python-net/installation)
-- [Aspose.3D for Python via .NET API Reference Guide](https://apireference.aspose.com/3d/python-net)
+- [Aspose.3D for Python via .NET API Reference Guide](https://reference.aspose.com/3d/python-net)
 - [Aspose.3D for Python via .NET Free Support Forum](https://forum.aspose.com/c/3d)
 - [Aspose.3D for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 

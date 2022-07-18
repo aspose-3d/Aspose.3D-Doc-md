@@ -7,7 +7,7 @@ description: There are several Scene.Save method overloads that accept a SaveOpt
 ---
 
 ## **3D File Save Options**
-There are several [Scene.Save](https://apireference.aspose.com/3d/net/aspose.threed/scene) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is ColladaSaveOptions for the FileFormat.Collada save format.
+There are several [Scene.Save](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is ColladaSaveOptions for the FileFormat.Collada save format.
 ### **Use of the Collada Save Options**
 The code below shows how to set save options before saving a 3D file to Collada format.
 

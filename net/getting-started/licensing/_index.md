@@ -77,6 +77,6 @@ The following code snippet is used to set the license.
 ## **Apply Metered License**
 Aspose.3D for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://apireference.aspose.com/3d/net/aspose.threed/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [Metered](https://reference.aspose.com/3d/net/aspose.threed/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}

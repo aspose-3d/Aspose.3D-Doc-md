@@ -12,7 +12,7 @@ Using [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/
 
 {{% /alert %}}
 ## **Triangulating a Polygon**
-Developers might pick vertices from a polygon area, and then form triangles by calling Triangulate method of the [PolygonModifier](https://apireference.aspose.com/3d/python-net/aspose.threed.entities/polygonmodifier) class, each of the form V{1}, V{i-1}, V{i} with the index i going from 3 to n. The Vertex and PolygonCanvas classes in **Triangulate/PolygonCanvas.py** file under the demo application (name:Triangulate) demonstrates the way of triangulating a polygon using Aspose.3D API.
+Developers might pick vertices from a polygon area, and then form triangles by calling Triangulate method of the [PolygonModifier](https://reference.aspose.com/3d/python-net/aspose.threed.entities/polygonmodifier) class, each of the form V{1}, V{i-1}, V{i} with the index i going from 3 to n. The Vertex and PolygonCanvas classes in **Triangulate/PolygonCanvas.py** file under the demo application (name:Triangulate) demonstrates the way of triangulating a polygon using Aspose.3D API.
 
 {{% alert color="primary" %}}
 

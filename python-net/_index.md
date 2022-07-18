@@ -27,6 +27,6 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.3D for Python via .NET Release Notes](/3d/python-net/release-notes/)
 - [Aspose.3D for Python via .NET Product Page](https://products.aspose.com/3d/python-net/)
 - [Install Aspose.3D for Python via .NET NuGet Package](https://www.nuget.org/packages/Aspose.3D/)
-- [Aspose.3D for Python via .NET API Reference Guide](https://apireference.aspose.com/3d/net)
+- [Aspose.3D for Python via .NET API Reference Guide](https://reference.aspose.com/3d/net)
 - [Aspose.3D for Python via .NET Free Support Forum](https://forum.aspose.com/c/3d/18)
 - [Aspose.3D for Python via .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)

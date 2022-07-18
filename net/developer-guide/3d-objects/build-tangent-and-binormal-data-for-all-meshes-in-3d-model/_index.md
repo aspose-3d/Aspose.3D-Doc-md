@@ -12,6 +12,6 @@ Using [Aspose.3D for .NET](http://products.aspose.com/3d/net) API, developers ca
 
 {{% /alert %}}
 ## **Build Tangent and Binormal data for Mesh**
-We have added two BuildTangentBinormal methods in the [PolygonModifier](https://apireference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) class. One method takes the [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class object as a parameter and another one takes the [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) class object as a parameter as shown in this code example:
+We have added two BuildTangentBinormal methods in the [PolygonModifier](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) class. One method takes the [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class object as a parameter and another one takes the [Mesh](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) class object as a parameter as shown in this code example:
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-BuildTangentAndBinormalData-BuildTangentAndBinormalData.cs" >}}
