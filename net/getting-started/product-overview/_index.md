@@ -42,7 +42,7 @@ If you need help with Aspose.3D for .NET, visit [**Aspose Forums**](https://for
 If you face any issue with Aspose.3D for .NET, please follow these simple steps to make sure it is resolved in the most efficient way:
 
 - Make sure you use the latest Aspose.3D for .NET version before reporting the issue. Refer to the [NuGet Gallery](https://www.nuget.org/packages/Aspose.3D) to find out about the latest version.
-- Have a look through the [forum](https://forum.aspose.com/c/3d), [documentation ](/3d/net/)and the [API Reference](https://apireference.aspose.com/3d/net) for solutions before reporting the issue. Your question might already have an answer.
+- Have a look through the [forum](https://forum.aspose.com/c/3d), [documentation ](/3d/net/)and the [API Reference](https://reference.aspose.com/3d/net) for solutions before reporting the issue. Your question might already have an answer.
 - When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one archive. It is safe to attach your documents in Aspose Forums since only you and Aspose staff members will have access to attached files.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 ## **Resources**

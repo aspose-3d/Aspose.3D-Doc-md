@@ -8,7 +8,7 @@ description: The Scene class of the Aspose.3D API represents a 3D scene. Develop
 
 {{% alert color="primary" %}} 
 
-The [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class of the Aspose.3D API represents a 3D scene. Developers can build a 3D scene by adding Camera, Light, polygons and various other entities. They can also now save a 3D scene in the PDF file format.
+The [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class of the Aspose.3D API represents a 3D scene. Developers can build a 3D scene by adding Camera, Light, polygons and various other entities. They can also now save a 3D scene in the PDF file format.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

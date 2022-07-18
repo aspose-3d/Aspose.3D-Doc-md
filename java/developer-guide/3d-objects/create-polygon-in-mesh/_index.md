@@ -7,7 +7,7 @@ description: Aspose.3D for Java allows creating a polygon in a mesh.
 ---
 
 ## **Create Polygon In Mesh**
-Aspose.3D for Java allows creating a polygon in a mesh. In order to use the functionality, the API offers [createPolygon](https://apireference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-) method of [Mesh ](https://apireference.aspose.com/3d/java/com.aspose.threed/Mesh)class. Using CreatePolygon method you can create an optimized [Triangle ](https://apireference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-)or [Quad ](https://apireference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-int-)polygon without allocating extra memory. The following code snippet shows how to use this functionality. 
+Aspose.3D for Java allows creating a polygon in a mesh. In order to use the functionality, the API offers [createPolygon](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-) method of [Mesh ](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh)class. Using CreatePolygon method you can create an optimized [Triangle ](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-)or [Quad ](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-int-)polygon without allocating extra memory. The following code snippet shows how to use this functionality. 
 
 
 

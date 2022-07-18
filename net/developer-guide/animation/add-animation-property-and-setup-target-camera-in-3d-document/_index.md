@@ -11,7 +11,7 @@ Aspose.3D for .NET supports rendering animated scene. This article explains prer
 ### **Move Cube’s Position**
 {{% alert color="primary" %}}
 
-The [Mesh](https://apireference.aspose.com/3d/net/aspose.threed.entities/mesh) class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-and-read-an-existing-3d-scene/) and it's must animate the local translation property of the node too: [Adding the Transformation to the Node](/3d/net/adding-transformation-to-the-node/).
+The [Mesh](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-and-read-an-existing-3d-scene/) and it's must animate the local translation property of the node too: [Adding the Transformation to the Node](/3d/net/adding-transformation-to-the-node/).
 
 {{% /alert %}}
 
@@ -23,7 +23,7 @@ Aspose.3D for .NET offers to setup the target camera in 3D file. In some file fo
 
 {{% alert color="primary" %}}
 
-The [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene), [Camera](https://apireference.aspose.com/3d/net/aspose.threed.entities/camera), [Node](https://apireference.aspose.com/3d/net/aspose.threed/node) and [Transform](https://apireference.aspose.com/3d/net/aspose.threed/transform) classes are being used in the code. To save a Scene, [Scene.Save](https://apireference.aspose.com/3d/net/aspose.threed/scene/methods/save) method is being used, it accepts a file name with complete path and [FileFormat](https://apireference.aspose.com/3d/net/aspose.threed/fileformat) parameter.
+The [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene), [Camera](https://reference.aspose.com/3d/net/aspose.threed.entities/camera), [Node](https://reference.aspose.com/3d/net/aspose.threed/node) and [Transform](https://reference.aspose.com/3d/net/aspose.threed/transform) classes are being used in the code. To save a Scene, [Scene.Save](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) method is being used, it accepts a file name with complete path and [FileFormat](https://reference.aspose.com/3d/net/aspose.threed/fileformat) parameter.
 
 {{% /alert %}}
 

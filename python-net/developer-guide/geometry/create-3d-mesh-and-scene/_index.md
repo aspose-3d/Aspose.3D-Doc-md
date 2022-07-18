@@ -7,7 +7,7 @@ description: A Mesh is defined by a set of control points and the many n-sided 
 ---
 
 ## **Create a 3D Cube Mesh**
-A [Mesh](https://apireference.aspose.com/3d/python-net/aspose.threed.entities/mesh) is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a Mesh.
+A [Mesh](https://reference.aspose.com/3d/python-net/aspose.threed.entities/mesh) is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a Mesh.
 
 In order to create a Mesh surface, we need to define control points and polygons as follows:
 

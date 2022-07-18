@@ -12,7 +12,7 @@ Using [Aspose.3D for Python via .NET API](https://products.aspose.com/3d/python-
 
 {{% /alert %}}
 ## **Apply Visual Effects on 3D View**
-The [GetPostProcessing](https://apireference.aspose.com/3d/python-net/aspose.threed.render/renderer/methods/getpostprocessing) method of the [Renderer](https://apireference.aspose.com/3d/net/aspose.threed.render/renderer) class allows to create any supported visual effect. The Renderer class offers a [PostProcessings](https://apireference.aspose.com/3d/net/aspose.threed.render/renderer/properties/postprocessings) member to apply various filters, the Add method of the PostProcessings class allows to incorporate a filter before rendering.
+The [GetPostProcessing](https://reference.aspose.com/3d/python-net/aspose.threed.render/renderer/methods/getpostprocessing) method of the [Renderer](https://reference.aspose.com/3d/net/aspose.threed.render/renderer) class allows to create any supported visual effect. The Renderer class offers a [PostProcessings](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/properties/postprocessings) member to apply various filters, the Add method of the PostProcessings class allows to incorporate a filter before rendering.
 ### **Programming Sample**
 This code example applies visual effect on a 3D view.
 
