@@ -3,6 +3,7 @@ title: Create Scene with Primitive 3D Shapes
 type: docs
 weight: 10
 url: /net/create-scene-with-primitive-3d-shapes/
+description: Using Aspose.3D for .NET, developers can define a scene with primitive 3D shapes. All parameterized primitives will be converted to mesh automatically while saving in any supported output file format.
 ---
 
 {{% alert color="primary" %}}

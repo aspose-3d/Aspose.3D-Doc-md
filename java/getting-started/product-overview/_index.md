@@ -3,6 +3,7 @@ title: Product Overview
 type: docs
 weight: 10
 url: /java/product-overview/
+description: Aspose.3D for Java API is built to create, edit, manipulate and save 3D formats. It empowers Java applications to connect with 3D documents without installing any software package on the computer. Aspose.3D for Java API assist developers to model and create massive worlds in games, superb scenes for design visualization, and engage virtual reality experiences.
 ---
 
 {{% alert color="primary" %}} 
@@ -65,7 +66,7 @@ If you need help of Aspose.3D for Java API, [**visit the Aspose.Forums**](https
 If you have an issue with Aspose.3D for Java, follow these simple steps to make sure it is resolved in the most efficient way:
 
 - Make sure you use the latest version of Aspose.3D for Java API before reporting the issue. Refer to the [Aspose.3D for Java download page](https://repository.aspose.com/repo/com/aspose/aspose-3d/) to find out about the latest version.
-- Have a look through the [forum](https://forum.aspose.com/c/3d), [this documentation Wiki](/3d/java/) and the [API Reference](https://apireference.aspose.com/3d/java) docs for solutions before reporting the issue. Your question might already have an answer.
+- Have a look through the [forum](https://forum.aspose.com/c/3d), [this documentation Wiki](/3d/java/) and the [API Reference](https://reference.aspose.com/3d/java) docs for solutions before reporting the issue. Your question might already have an answer.
 - When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents in Aspose forums because only you and Aspose staff members will be able to access attachments.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 ## **Resources**

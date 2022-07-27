@@ -3,6 +3,7 @@ title: Manipulate custom properties of a 3D Scene
 type: docs
 weight: 80
 url: /net/manipulate-custom-properties-of-a-3d-scene/
+description: Developers can Add, retrieve, and remove custom properties of 3D objects. RemoveProperty, GetProperty, SetProperty members of 3D objects are a set of short-handed methods to manipulate customized properties of the object.
 ---
 
 ## **Add, Retrieve and Remove custom properties of a 3D Object**

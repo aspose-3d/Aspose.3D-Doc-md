@@ -3,6 +3,7 @@ title: Convert Mesh to Triangle Mesh and Primitive Shape to Mesh
 type: docs
 weight: 30
 url: /net/convert-mesh-to-triangle-mesh-and-primitive-shape-to-mesh/
+description: Aspose.3D for .NET API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by VertexDeclaration class in the code examples.
 ---
 
 ## **Convert a Mesh to Triangle Mesh with Custom Memory Layout of the Vertex**

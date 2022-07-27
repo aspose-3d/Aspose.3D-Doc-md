@@ -3,6 +3,7 @@ title: Merge Meshes in 3D file
 type: docs
 weight: 90
 url: /net/merge-meshes-in-3d-file/
+description: Developers can merge multiple meshes into a single valid mesh. They might convert all meshes of a 3D scene, a node or a set of nodes into a single mesh. In order to achieve this, there are three MergeMesh members in the Aspose.ThreeD.Entities.PolygonModifier class.
 ---
 
 ## **Merge Meshes into a single valid Mesh**

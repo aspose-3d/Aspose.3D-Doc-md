@@ -3,6 +3,7 @@ title: Set up normals or UV on the Cube and Add Material to 3D Entities
 type: docs
 weight: 20
 url: /net/set-up-normals-or-uv-on-the-cube-and-add-material-to-3d-entities/
+description: How to create normals or uv data on a mesh in Aspose.3D.
 ---
 
 {{% alert color="primary" %}}

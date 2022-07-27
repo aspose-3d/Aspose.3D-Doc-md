@@ -3,13 +3,9 @@ title: Working with Cylinder
 type: docs
 weight: 130
 url: /net/working-with-cylinder/
+description: Aspose.3D for .NET allows customizing Offset Top of a cylinder. In order to use this functionality, you can use Offset property of Cylinder class.
 ---
 
-{{% alert color="primary" %}} 
-
-This feature is supported by version 19.6 or greater.
-
-{{% /alert %}} 
 # **Customize Offset Top**
 Aspose.3D for .NET allows customizing Offset Top of a cylinder. In order to use this functionality, you can use **Offset** property of **Cylinder** class. The following code snippet shows how to customize Offset Top:
 

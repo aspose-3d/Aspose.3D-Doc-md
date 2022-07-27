@@ -18,10 +18,15 @@ This page contains release notes for [Aspose.3D for Java 18.8](https://repositor
 |Optimize memory consumption for mesh indices|Enhancement|
 |Use Aspose.3D with Unity3D|Bug|
 |Read COLLADA files referencing in same folder|Bug|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 Please view the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java API. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-### **API changes:**
-#### **Added a new getter/setter to class com.aspose.threed.GLTFSaveOptions:**
+
+## **API changes:**
+
+**Added a new getter/setter to class com.aspose.threed.GLTFSaveOptions:**
+
 {{< highlight java >}}
 
          public bool getDracoCompression();

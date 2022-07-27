@@ -15,9 +15,13 @@ This page contains release notes for [Aspose.3D for Java 19.3](https://repositor
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |THREEDNET-471 |XPath like object addressing methods|New feature|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-#### **Added method selectSingleObject in class com.aspose.threed.Node**
+
+**Added method selectSingleObject in class com.aspose.threed.Node**
+
 {{< highlight java >}}
 
  /**
@@ -35,7 +39,9 @@ public A3DObject selectSingleObject(String path)
     throws ParseException;
 
 {{< /highlight >}}
-#### **Added method selectObjects in class com.aspose.threed.Node**
+
+**Added method selectObjects in class com.aspose.threed.Node**
+
 {{< highlight java >}}
 
  /**
@@ -142,7 +148,9 @@ The query syntax was inspired by XPath, so most concepts and syntax are similar,
 |/|Root selector, only one ancestor is used to look up |
 |Other |Assume it's a name, and select the object by name in global selector mode |
 The name is a string that matches the object's name, or wildcard '*' is used to match any name. The condition is an expression to decide whether to select the object, boolean operators (not) and or, comparison operators >/</>=/<=/=/!= are supported. To Access a property in the condition expression, '@' prefix is used, e.g. @Name will read the Name property. A shortcut syntax for testing type is supported by <Mesh>, this is equivalent to [@Type = 'Mesh'], identifiers without a quote will be treated as a string.
-#### **Select all nodes using syntax global selector:**
+
+**Select all nodes using syntax global selector:**
+
 {{< highlight java >}}
 
  //<Node>
@@ -164,8 +172,10 @@ or
  //*[@Type = Node]
 
 {{< /highlight >}}
-#### **Select a second level node with a visible parent:**
-{{< highlight java >}}
+
+ **Select a second level node with a visible parent:**
+
+ {{< highlight java >}}
 
  //<Node>[@Visible]/<Node>
 

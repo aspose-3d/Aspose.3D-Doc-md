@@ -3,6 +3,7 @@ title: Save 3D Meshes in Custom Binary Format
 type: docs
 weight: 30
 url: /java/save-3d-meshes-in-custom-binary-format/
+description: Aspose.3D for Java API has support to open any supported 3D document, and then write meshes in the binary file.
 ---
 
 {{% alert color="primary" %}} 

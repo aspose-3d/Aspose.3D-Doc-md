@@ -3,6 +3,7 @@ title: Detect format of 3D file
 type: docs
 weight: 10
 url: /net/detect-format-of-3d-file/
+description: Using Aspose.3D for .NET API, developers may detect the format of supported 3D files before opening it because the file extension does not guarantee that the file content is appropriate.
 ---
 
 {{% alert color="primary" %}} 

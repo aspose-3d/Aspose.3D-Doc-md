@@ -21,11 +21,13 @@ This page contains release notes for [Aspose.3D for Java 18.6](https://repositor
 |RVM to glTF - an empty document is created|Bug|
 |RVM to WavefrontOBJ - an empty document is created|Bug|
 |Input FBX - Unsupported VertexElement attribute BinormalsIndex error occurred|Bug|
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 Please view the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java API. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](http://www.aspose.com/community/forums/aspose.3d-product-family/535/showforum.aspx).
-### **API changes**
+## **API changes**
 The new feature adds support of importing Siemens JT Version 9.
-#### **Adds SIEMENSJT9 member to com.aspose.threed.FileFormat class**
+
+**Adds SIEMENSJT9 member to com.aspose.threed.FileFormat class**
+
 **Definition - Java**
 
 {{< highlight java >}}

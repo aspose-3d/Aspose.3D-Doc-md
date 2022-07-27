@@ -3,6 +3,7 @@ title: Changing Plane Orientation
 type: docs
 weight: 70
 url: /java/changing-plane-orientation/
+description: Aspose.3D for Java allows changing orientation of a scene. In order to change the orientation, getUp() and setUp() methods are introduced in Plane Class. 
 ---
 
 {{% alert color="primary" %}} 

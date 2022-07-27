@@ -3,6 +3,7 @@ title: Convert all Polygons to Triangles in 3D Model
 type: docs
 weight: 10
 url: /java/convert-all-polygons-to-triangles-in-3d-model/
+description: Aspose.3D for Java API has support of converting all polygons to triangles in any supported 3D document.
 ---
 
 {{% alert color="primary" %}} 

@@ -3,13 +3,9 @@ title: Work with XPath-Like Object Queries
 type: docs
 weight: 60
 url: /java/work-with-xpath-like-object-queries/
+description: Using Aspose.3D for Java, you can select one or more objects under the current node using XPath-Like query syntax.
 ---
 
-{{% alert color="primary" %}} 
-
-This feature is supported by version 19.3 or greater.
-
-{{% /alert %}} 
 ## **Work with XPath-Like Object Queries**
 Using Aspose.3D for Java, you can select one or more objects under the current node using XPath-Like query syntax. The query syntax was inspired by XPath, so most concepts and syntax are similar, the query syntax is compatible with URL so it will be used in our cloud version in the future. Usually, a syntax is composed by **Prefix Name Condition** / **Name Condition** /.
 

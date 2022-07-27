@@ -3,6 +3,7 @@ title: Render a Panorama view of 3D scene
 type: docs
 weight: 60
 url: /net/render-a-panorama-view-of-3d-scene/
+description: Using Aspose.3D for .NET API, developers can render a panorama view of 3D scene and save that view into the supported image formats.
 ---
 
 {{% alert color="primary" %}}

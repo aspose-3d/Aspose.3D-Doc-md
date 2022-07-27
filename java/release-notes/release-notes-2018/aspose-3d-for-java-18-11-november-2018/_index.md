@@ -17,10 +17,14 @@ This page contains release notes for Aspose.3D for Java 18.11.
 | :- | :- |
 |Problem with UnitScaleFactor property|Bug|
 |Problem with Embedded Textures|Bug|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
 Please view the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java API. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-### **API changes:**
-#### **Added members to class Aspose.ThreeD.Formats.FBXSaveOptions:**
+
+## **API changes:**
+
+**Added members to class Aspose.ThreeD.Formats.FBXSaveOptions:**
+
 {{< highlight java >}}
 
      /**

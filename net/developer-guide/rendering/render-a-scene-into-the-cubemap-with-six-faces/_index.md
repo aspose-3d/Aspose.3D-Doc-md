@@ -3,6 +3,7 @@ title: Render a scene into the cubemap with six faces
 type: docs
 weight: 70
 url: /net/render-a-scene-into-the-cubemap-with-six-faces/
+description: Using Aspose.3D for .NET API, developers can render a scene into the cubemap with six faces and save all faces into the supported image formats.
 ---
 
 {{% alert color="primary" %}}

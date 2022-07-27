@@ -3,6 +3,7 @@ title: Add an Asset Information and Flip Coordinate System in 3D Formats
 type: docs
 weight: 10
 url: /net/add-an-asset-information-and-flip-coordinate-system-in-3d-formats/
+description: Metadata is structured information that describes, explains, locates or makes it easier to retrieve, use or manage an information resource. Aspose.3D for .NET API allows developers to define a Metadata for the scene.
 ---
 
 ## **Add an Asset Information to 3D Scene**
@@ -25,7 +26,7 @@ Aspose.3D for .NET API allows users to flip coordinate system in the OBJ, 3DS, S
 
 {{% alert color="primary" %}} 
 
-To import a 3ds file and save it in OBJ format the [Scene](https://apireference.aspose.com/3d/net/aspose.threed/scene) class is being used in the code.
+To import a 3ds file and save it in OBJ format the [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class is being used in the code.
 
 {{% /alert %}} 
 

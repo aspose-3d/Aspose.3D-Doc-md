@@ -3,6 +3,7 @@ title: Scale geometries of a 3D Scene
 type: docs
 weight: 70
 url: /net/scale-geometries-of-a-3d-scene/
+description: Developers can scale only geometries of a 3D node or all nodes of 3D Scene. In order to achieve this, developers can call multiple Scale members of the PolygonModifier class instance.
 ---
 
 ## **Scale geometries of a single 3D node or all nodes of 3D Scene**

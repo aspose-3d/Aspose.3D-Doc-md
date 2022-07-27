@@ -3,6 +3,7 @@ title: Hardware Based Rendering of 3D Geometry
 type: docs
 weight: 30
 url: /net/hardware-based-rendering-of-3d-geometry/
+description: Using Aspose.3D for .NET API, developers can program the GPU (graphics processing unit) and setup the graphics hardware for rendering 3D geometry instead of the fixed function pipeline. 
 ---
 
 {{% alert color="primary" %}}
@@ -25,7 +26,7 @@ We have prepared a demo project. Please refer to [this download URL](https://git
 
 The OpenGL Shading Language (GLSL) is the standard high level shading language for the OpenGL graphics API. The **InitRenderer** method in **AssetBrowser/Controls/RenderView.cs** file under the demo application (name:AssetBrowser) demonstrates the simple use of GLSL using Aspose.3D API. There are three shader types commonly used: Vertex Shaders, Fragment Shaders and Geometry Shaders.
 
-[GLSLSource](https://apireference.aspose.com/3d/net/aspose.threed.render/glslsource) class tells the renderer, the source code is for OpenGL shading language, it can be compiled to [ShaderProgram](https://apireference.aspose.com/3d/net/aspose.threed.render/shaderprogram) class. The [ShaderVariable](https://apireference.aspose.com/3d/net/aspose.threed.render/shadervariable) class defines the variables used in the shader. The **VariableSemantic** class is used to identify the shader variable's semantic, Aspose.3D renderer will automatically prepare shader variable values depends on the semantics.
+[GLSLSource](https://reference.aspose.com/3d/net/aspose.threed.render/glslsource) class tells the renderer, the source code is for OpenGL shading language, it can be compiled to [ShaderProgram](https://reference.aspose.com/3d/net/aspose.threed.render/shaderprogram) class. The [ShaderVariable](https://reference.aspose.com/3d/net/aspose.threed.render/shadervariable) class defines the variables used in the shader. The **VariableSemantic** class is used to identify the shader variable's semantic, Aspose.3D renderer will automatically prepare shader variable values depends on the semantics.
 ### **Programming Sample for Shader**
 This code example initializes renderer and Shader for the grid. You can download complete working project of this example from [here](https://github.com/aspose-3d/Aspose.3D-for-.NET/tree/master/HardwareBasedRendering).
 

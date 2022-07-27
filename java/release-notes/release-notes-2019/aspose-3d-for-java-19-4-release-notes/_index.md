@@ -17,9 +17,13 @@ This page contains release notes for [Aspose.3D for Java 19.4](https://repositor
 |THREEDNET-483 |Support for VRML format |New feature|
 |THREEDJAVA-26|Rendering support for Aspose.3D for Java |New feature|
 |THREEDNET-496 |FBX7500Binary Export Corruption Issue |Bug|
-### **Public API and Backwards Incompatible Changes**
+
+## **Public API and Backwards Incompatible Changes**
+
 See the list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.3D for Java. If you have concerns about any change listed, please raise it on the [Aspose.3D support forum](https://forum.aspose.com/c/3d).
-#### **Added new property Radius in class com.aspose.threed.Sphere**
+
+**Added new property Radius in class com.aspose.threed.Sphere**
+
 {{< highlight java >}}
 
  /**
@@ -57,7 +61,9 @@ scene.getRootNode().createChildNode(sphere);
 scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
 
 {{< /highlight >}}
-#### **Added new file format VRML in class com.aspose.threed.FileFormat and com.aspose.threed.FileFormatType**
+
+**Added new file format VRML in class com.aspose.threed.FileFormat and com.aspose.threed.FileFormatType**
+
 {{< highlight java >}}
 
  /**
