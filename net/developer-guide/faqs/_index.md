@@ -1,7 +1,7 @@
 ---
 title: FAQs
 type: docs
-weight: 160
+weight: 190
 url: /net/faqs/
 description: Frequently asked questions about Aspose.3D for .net.
 ---
