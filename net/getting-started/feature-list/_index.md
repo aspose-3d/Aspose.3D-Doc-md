@@ -6,7 +6,7 @@ url: /net/feature-list/
 description: General Features and Feature Matrix for C# .NET 3D File Manipulation and Conversion API.
 ---
 
-Aspose.3D for .NET Features
+Aspose.3D for .NET Features - 3D file manipulation and conversion API built in C#.
 
 ## **General Features**
 - Written completely in C#, works with .NET Framework.
