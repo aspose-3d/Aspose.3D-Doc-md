@@ -3,10 +3,11 @@ title: Supported File Formats
 type: docs
 weight: 20
 url: /net/supported-file-formats/
+description: C# .NET 3D File Manipulation and Conversion API can load and save 3DS, 3MF, AMF, FBX, DFX, OBJ, PLY, STL, USD, U3D and other formats
 ---
 
 ## **Supported File Formats**
-The following table indicates the file formats that Aspose.3D for .NET can load and Save.
+The following table indicates the file formats that Aspose.3D for .NET - C# 3D file manipulation and conversion API can load and save.
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|
 | :- | :- | :- | :- | :- |
