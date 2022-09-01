@@ -3,7 +3,10 @@ title: Licensing
 type: docs
 weight: 60
 url: /net/licensing/
+description: Overview of Licensing Requirements and Evaluation Version Limitations for processing 3D file formats in C#.
 ---
+
+Overview of Licensing Requirements and Evaluation Version Limitations for processing 3D file formats in C#.
 
 ## **Evaluation Version Limitations**
 A free evaluation version of Aspose.3D for .NET can be downloaded from the downloads section of Aspose's website at: [Download Aspose.3D API](https://www.nuget.org/packages/Aspose.3D).
