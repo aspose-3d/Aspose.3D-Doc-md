@@ -42,7 +42,7 @@ If you need help with Aspose.3D for Python via .NET, visit [**Aspose Forums**](
 If you face any issue with Aspose.3D for Python via .NET, please follow these simple steps to make sure it is resolved in the most efficient way:
 
 - Make sure you use the latest Aspose.3D for Python via .NET version before reporting the issue. Refer to the [Python Package Index](https://pypi.org/project/aspose-3d/) to find out about the latest version.
-- Have a look through the [forum](https://forum.aspose.com/c/3d), [documentation ](/3d/python-net/)and the [API Reference](https://reference.aspose.com/3d/python-net) for solutions before reporting the issue. Your question might already have an answer.
+- Have a look through the [forum](https://forum.aspose.com/c/3d), [documentation ](/3d/python-net/)and the [API Reference](https://reference.aspose.com/3d/net) for solutions before reporting the issue. Your question might already have an answer.
 - When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one archive. It is safe to attach your documents in Aspose Forums since only you and Aspose staff members will have access to attached files.
 - Please try to report one issue per thread. If you have another issue, report it in a separate thread.
 ## **Resources**
@@ -54,5 +54,5 @@ This table lists important Aspose.3D for Python via .NET technical resources:
 |[Aspose.3D Blog](https://blog.aspose.com/category/3d/)|Check this often for information about new releases and useful tips about Aspose.3D for Python via .NET|
 |[Aspose.3D for Python via .NET Download](https://pypi.org/project/aspose-3d/)|Download the latest version of Aspose.3D for Python via .NET|
 |[Aspose.3D for Python via .NET Support Forum](https://forum.aspose.com/c/3d/18)|Post your questions and issues here for speedy resolution|
-|[Aspose.3D for Python via .NET Examples and Plugins](https://github.com/aspose-3d/Aspose.3D-for-Python-via-.NET-Public)|This repository contains Python Example Project for Aspose.3D for Python via .NET|
+|[Aspose.3D for Python via .NET Examples and Plugins](https://github.com/aspose-3d/Aspose.3D-for-Python-via-.NET)|This repository contains Python Example Project for Aspose.3D for Python via .NET|
 
