@@ -7,7 +7,7 @@ description: Aspose.3D for .NET API allows developers to convert any mesh obje
 ---
 
 ## **Convert a Mesh to Triangle Mesh with Custom Memory Layout of the Vertex**
-[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](http://www.aspose.com/api/net/3d/aspose.threed.utilities/vertexdeclaration) class in the code examples.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](https://reference.aspose.com/3d/net/aspose.threed.utilities/vertexdeclaration/) class in the code examples.
 
 {{% alert color="primary" %}}
 
