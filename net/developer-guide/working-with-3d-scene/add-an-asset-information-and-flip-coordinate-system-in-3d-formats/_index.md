@@ -11,7 +11,7 @@ Metadata is structured information that describes, explains, locates or makes it
 ### **Define a Metadata for the scene**
 3D shows produce massive quantities of metadata and picture information. Metadata is an asset and part of the show.
 
-1. Initialize a 3D Scene using [Scene]() class.
+1. Initialize a 3D Scene using [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class.
 1. Set application/tool name.
 1. Set application/tool vendor name.
 1. Set measurement unit.
