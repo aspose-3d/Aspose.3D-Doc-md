@@ -1,5 +1,6 @@
 ---
-title: Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format
+title: Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format in C#
+linktitle: Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format
 type: docs
 weight: 70
 url: /net/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
@@ -12,7 +13,7 @@ The [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class of th
 
 {{% /alert %}} 
 ## **Non-PBR to PBR Material Conversion**
-This code example demonstrates how to convert material to PBR material, and then saves 3D scene in the GLTF format:
+This C# code example demonstrates how to convert material to PBR material, and then saves 3D scene in the GLTF format with C# 3D file manipulation and conversion API:
 
 **C#**
 
