@@ -3,11 +3,13 @@ title: System Requirements
 type: docs
 weight: 50
 url: /net/system-requirements/
-description: The system requirements for the Aspose.3D for .NET.
+description: System Requirements and Development Environments for manipulating and converting 3D file formats in C#.
 ---
 
+System Requirements and Development Environments for manipulating and converting 3D file formats in C#.
+
 ## **Overview**
-` `To build and manipulate 3D document formats, the machine that Aspose.3D for .NET runs on doesn't need to have modeling and rendering software installed. Aspose.3D for .NET API also incorporates document generation engine.
+To build and manipulate 3D document formats, the machine that Aspose.3D for .NET runs on doesn't need to have modeling and rendering software installed. Aspose.3D for .NET API also incorporates document generation engine.
 ## **Supported Operating System**
 ### **Windows**
 - Microsoft Windows 2003 Server ( x64, x86)

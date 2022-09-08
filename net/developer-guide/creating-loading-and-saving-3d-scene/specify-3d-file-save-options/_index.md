@@ -1,23 +1,34 @@
 ---
-title: Specify 3D File Save Options
+title: Specify 3D File Save Options in C#
+linktitle: Specify 3D File Save Options
 type: docs
 weight: 40
 url: /net/specify-3d-file-save-options/
 description: There are several Scene.Save method overloads that accept a SaveOptions object. Each save format has a corresponding class that holds save options for that save format.
 ---
 
+## **Overview**
+
+This article explains how you can save 3D files into different formats [after loading them in Scene object](https://docs.aspose.com/3d/net/specify-3d-file-load-options/) using C#. By loading and saving, you can perform number of different conversions e.g.
+
+- Convert FBX to X in C#
+- Convert GLTF to OBJ in C#
+- Convert OBJ to X in C#
+- Convert STL to OBJ in C#
+- Convert RVM to 3DS in C#
+
 ## **3D File Save Options**
 There are several [Scene.Save](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is ColladaSaveOptions for the FileFormat.Collada save format.
 ### **Use of the Collada Save Options**
-The code below shows how to set save options before saving a 3D file to Collada format.
+The C# code below shows how to set save options before saving a 3D file to Collada format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-ColladaSaveOption.cs" >}}
 ### **Use of the Discreet3DS Save Options**
-The code below shows how to set save options before saving a 3D file to a Discreet 3DS format.
+The C# code below shows how to set save options before saving a 3D file to a Discreet 3DS format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-Discreet3DSSaveOption.cs" >}}
 ### **Use of the FBX Save Options**
-The code below shows how to set save options before saving a 3D file to an FBX format.
+The C# code below shows how to set save options before saving a 3D file to an FBX format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-FBXSaveOption.cs" >}}
 
@@ -31,11 +42,11 @@ The code below shows how to set save options before saving a 3D file to an Obj f
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-ObjSaveOption.cs" >}}
 ### **Use of the STL Save Options**
-The code below shows how to set save options before saving a 3D file to STL format.
+The C# code below shows how to set save options before saving a 3D file to STL format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-STLSaveOption.cs" >}}
 ### **Use of the U3D Save Options**
-The code below shows how to set save options before saving a document to U3D format.
+The C# code below shows how to set save options before saving a document to U3D format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-U3DSaveOption.cs" >}}
 ### **Use of the glTF Save Options**
@@ -47,7 +58,7 @@ This feature is supported by version 19.8 or greater.
 
 
 
-The code below shows how to set save options before saving a document to glTF format.
+The C# code below shows how to set save options before saving a document to glTF format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-glTFSaveOptions.cs" >}}
 ### **PrettyPrint in glTF Save Options**
@@ -63,10 +74,10 @@ Developers may require to save all 3D scene dependencies in the real file system
 #### **Save Dependencies in the MemoryFileSystem Object**
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-SavingDependenciesInMemoryFileSystem.cs" >}}
 ### **Use of the Google Draco (.drc) Save Options**
-The code below shows how to set save options before saving a 3D model to DRC format.
+The C# code below shows how to set save options before saving a 3D model to DRC format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-DRCSaveOptions.cs" >}}
 ### **Use of the RVM Save Options**
-The code below shows how to set save options before saving a 3D model to RVM format.
+The C# code below shows how to set save options before saving a 3D model to RVM format.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-RVMSaveOptions.cs" >}}
