@@ -2,7 +2,7 @@
 title: Aspose.3D for Java 22.9 Release Notes
 type: docs
 weight: 4
-url: /java/aspose-3d-for-java-22.9-release-notes/
+url: /java/aspose-3d-for-java-22-9-release-notes/
 description: The release notes of Aspose.3D for Java 22.9.
 ---
 
