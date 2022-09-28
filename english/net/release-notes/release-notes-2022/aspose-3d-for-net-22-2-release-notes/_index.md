@@ -23,7 +23,7 @@ This page contains release notes information for Aspose.3D for .NET 22.2.
 ## API changes ##
 
 
-### Added members to class Aspose.ThreeD.AssetInfo:
+### Added members to class `Aspose.ThreeD.AssetInfo`:
 
 {{< highlight csharp >}}
         public string Copyright{ get;set;}
@@ -35,7 +35,7 @@ Only USDC/USDZ support this property now.
 NOTE: Changes in this property will not change the copyright section of the output 3D file.
 
 
-### Added members to class Aspose.ThreeD.Formats.UsdSaveOptions:
+### Added members to class `Aspose.ThreeD.Formats.UsdSaveOptions`:
 
 {{< highlight csharp >}}
         public bool ExportMetaData{ get;set;}
@@ -45,7 +45,7 @@ Gets or sets whether to export scene's asset info and node's properties to the o
 
 
 
-### Added members to class Aspose.ThreeD.Formats.PdfSaveOptions:
+### Added members to class `Aspose.ThreeD.Formats.PdfSaveOptions`:
 
 {{< highlight csharp >}}
         /// <summary>
@@ -70,7 +70,7 @@ Example code:
 {{< /highlight >}}
 
 
-### Added members to class Aspose.ThreeD.Formats.U3dSaveOptions:
+### Added members to class `Aspose.ThreeD.Formats.U3dSaveOptions`:
 
 {{< highlight csharp >}}
         /// <summary>

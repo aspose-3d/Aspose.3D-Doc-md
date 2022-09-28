@@ -7,7 +7,7 @@ description: Aspose.3D for .NET API allows developers to convert any mesh obje
 ---
 
 ## **Convert a Mesh to Triangle Mesh with Custom Memory Layout of the Vertex**
-[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [VertexDeclaration](https://reference.aspose.com/3d/net/aspose.threed.utilities/vertexdeclaration/) class in the code examples.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert any mesh object to triangle mesh with custom memory layout of the vertex. The custom memory layout of the Vertex is defined using the Struct or dynamically by [`VertexDeclaration`](https://reference.aspose.com/3d/net/aspose.threed.utilities/vertexdeclaration/) class in the code examples.
 
 {{% alert color="primary" %}}
 
@@ -39,7 +39,7 @@ Using Aspose.3D for .NET, developers can convert any primitive object to a mesh.
 
 {{% alert color="primary" %}}
 
-Any class that implements an interface IMeshConvertible can be converted to mesh while exporting to any 3D file format.
+Any class that implements an interface `IMeshConvertible` can be converted to mesh while exporting to any 3D file format.
 
 {{% /alert %}}
 ### **Convert a Sphere to Mesh**
@@ -52,7 +52,7 @@ A Box describes a variety of containers and receptacles for permanent use as sto
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.cs" >}}
 ### **Convert a Plane to Mesh**
-A plane extends infinitely without thickness. An example of a plane is a coordinate plane. Lets use the Plane primitive to create a mesh. The code example below converts a Plane to mesh.
+A plane extends infinitely without thickness. An example of a plane is a coordinate plane. Lets use the `Plane` primitive to create a mesh. The code example below converts a `Plane` to `Mesh`.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.cs" >}}
 ### **Convert a Cylinder to Mesh**

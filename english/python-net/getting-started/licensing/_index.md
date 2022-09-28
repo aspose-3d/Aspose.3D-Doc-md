@@ -29,12 +29,11 @@ The evaluation version provides all the features except the following:
 - Users will also see an evaluation watermark in the rendered images and all other output files.
 
 {{% alert color="primary" %}} 
-If you're using Aspose.3D without a proper license, there could trigger an **Aspose.ThreeD.TrialException** when the usage reached the unlicensed restrictions, you can turn the exception off by:
+If you're using Aspose.3D without a proper license, there could trigger an `aspose.threed.TrialException` when the usage reached the unlicensed restrictions, you can turn the exception off by:
 
 * [Buy a full featured license](https://purchase.aspose.com/buy).
 * Request a 30 days temporary license, please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) For more information.
-.
-* Manually use a try/except block on Scene.open/save, this exception is just a notification, ignore it will not affect the scene loading/saving.
+* Manually use a `try/except` block on `Scene.open/save`, this exception is just a notification, ignore it will not affect the scene loading/saving.
 
 {{% /alert %}} 
 
@@ -75,9 +74,9 @@ Licenses can be applied from various locations:
 
 {{% alert color="primary" %}}
 
-Use the **set_license** method to license a component.
+Use the `set_license` method to license a component.
 
-Calling **set_license** multiple times is not harmful, it just wastes processor time.
+Calling `set_license` multiple times is not harmful, it just wastes processor time.
 
 {{% /alert %}}
 
@@ -98,7 +97,7 @@ license = a3d.License()
 license.set_license("Aspose.3D.lic")
 ```
 
-When calling the SetLicense method, the license name should be same as that of your license file. For example, you can change the license file name to "Aspose.3D.lic.xml". Then, in your code, you have to pass the new license name (Aspose.3D.lic.xml) to the SetLicense method.
+When calling the `set_license` method, the license name should be same as that of your license file. For example, you can change the license file name to "Aspose.3D.lic.xml". Then, in your code, you have to pass the new license name (Aspose.3D.lic.xml) to the SetLicense method.
 
 #### **Applying a License from a Stream**
 You can load a license from a stream. 
@@ -121,7 +120,7 @@ Aspose.3D allows developers to apply a metered key. This is a new licensing mech
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the **Metered** class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the `Metered` class specially introduced for this purpose.
 
 The following code example shows how to set metered public and private keys:
 

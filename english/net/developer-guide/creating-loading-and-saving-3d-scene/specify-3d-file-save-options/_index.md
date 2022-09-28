@@ -18,7 +18,7 @@ This article explains how you can save 3D files into different formats [after lo
 - Convert RVM to 3DS in C#
 
 ## **3D File Save Options**
-There are several [Scene.Save](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is ColladaSaveOptions for the FileFormat.Collada save format.
+There are several [`Scene.Save`](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads that accept a SaveOptions object. This should be an object of a class derived from the `SaveOptions` class. Each save format has a corresponding class that holds save options for that save format, for example, there is `ColladaSaveOptions` for the `FileFormat.Collada` save format.
 ### **Use of the Collada Save Options**
 The C# code below shows how to set save options before saving a 3D file to Collada format.
 
@@ -32,7 +32,7 @@ The C# code below shows how to set save options before saving a 3D file to an FB
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-FBXSaveOption.cs" >}}
 
-FBXSaveOptions also exposes EnableCompression property which can be used to compress large binary data in the FBX file. Default value of this property is true. Below code snippet explains how can you work with this property while saving a scene.
+`FBXSaveOptions` also exposes `EnableCompression` property which can be used to compress large binary data in the FBX file. Default value of this property is true. Below code snippet explains how can you work with this property while saving a scene.
 
 
 
@@ -66,7 +66,7 @@ You can also use PrettyPrint property of GLTFSaveOptions class for human-underst
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-PrettyPrintInGltfSaveOption.cs" >}}
 ### **Save Dependencies of a 3D Scene in the Real File System**
-Developers may require to save all 3D scene dependencies in the real file system. They can define the path of a local directory, save in the MemoryFileSystem object or simply discard dependencies. The FileSystem property is added in the all save option classes.
+Developers may require to save all 3D scene dependencies in the real file system. They can define the path of a local directory, save in the `MemoryFileSystem` object or simply discard dependencies. The `FileSystem` property is added in the all save option classes.
 #### **Discard Saving the Material Files**
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-DiscardSavingMaterial.cs" >}}
 #### **Save Dependencies in the Local Directory**

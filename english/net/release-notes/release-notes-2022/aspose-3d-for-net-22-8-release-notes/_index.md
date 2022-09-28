@@ -51,7 +51,7 @@ This version fixed a lot of bugs and does not have major API changes.
 ## API changes ##
 
 
-### Added new property MaterialConverter in class *Aspose.ThreeD.Formats.UsdSaveOptions*:
+### Added new property MaterialConverter in class `Aspose.ThreeD.Formats.UsdSaveOptions`:
 
 {{< highlight csharp >}}
         /// <summary>

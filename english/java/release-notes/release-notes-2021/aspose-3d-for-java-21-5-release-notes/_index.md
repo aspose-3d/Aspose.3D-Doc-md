@@ -23,7 +23,7 @@ This page contains release notes information for Aspose.3D for Java 21.5.
 ## API changes ##
 
 
-### Added new enum type com.aspose.threed.GltfEmbeddedImageFormat: ###
+### Added new enum type `com.aspose.threed.GltfEmbeddedImageFormat`: ###
 
 {{< highlight java >}}
 /**
@@ -46,7 +46,7 @@ public enum GltfEmbeddedImageFormat
 }
 {{< /highlight >}}
 
-=== Added new property in com.aspose.threed.GltfSaveOptions:
+### Added new property in `com.aspose.threed.GltfSaveOptions`:
 
 {{< highlight java >}}
     public GltfEmbeddedImageFormat getImageFormat();
@@ -59,7 +59,7 @@ Standard glTF only supports PNG/JPG as its texture format, this option will guid
 Default value is GltfEmbeddedImageFormat.PNG, then the embedded texture will be converted into png, usually you don't need to manually modify this.
 
 
-=== Added new property in com.aspose.threed.GltfSaveOptions:
+# Added new property in `com.aspose.threed.GltfSaveOptions`:
 
 {{< highlight java >}}
     public void setFallbackNormal(Vector3 value);

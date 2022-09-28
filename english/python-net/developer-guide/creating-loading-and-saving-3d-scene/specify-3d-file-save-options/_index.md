@@ -7,7 +7,7 @@ description: There are several Scene.Save method overloads that accept a SaveOpt
 ---
 
 ## **3D File Save Options**
-There are several [Scene.Save](https://reference.aspose.com/3d/python-net/aspose.threed/scene) method overloads that accept a SaveOptions object. This should be an object of a class derived from the SaveOptions class. Each save format has a corresponding class that holds save options for that save format, for example, there is ColladaSaveOptions for the FileFormat.Collada save format.
+There are several [`Scene.save`](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads that accept a `SaveOptions` object. This should be an object of a class derived from the `SaveOptions` class. Each save format has a corresponding class that holds save options for that save format, for example, there is `ColladaSaveOptions` for the `FileFormat.Collada` save format.
 ### **Use of the Collada Save Options**
 The code below shows how to set save options before saving a 3D file to Collada format.
 
@@ -21,7 +21,7 @@ The code below shows how to set save options before saving a 3D file to an FBX f
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-SaveOptions-FBXSaveOption.py" >}}
 
-FBXSaveOptions also exposes EnableCompression property which can be used to compress large binary data in the FBX file. Default value of this property is true. Below code snippet explains how can you work with this property while saving a scene.
+`FBXSaveOptions` also exposes `enable_compression` property which can be used to compress large binary data in the FBX file. Default value of this property is true. Below code snippet explains how can you work with this property while saving a scene.
 
 
 

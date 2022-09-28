@@ -24,7 +24,7 @@ This page contains release notes information for Aspose.3D for Java 22.5.
 ## API changes ##
 
 
-### Updated the property type from Map<String, Object> to Object in class com.aspose.threed.VertexElementUserData :
+### Updated the property type from `Map<String, Object>` to `Object` in class `com.aspose.threed.VertexElementUserData` :
 
 {{< highlight java >}}
     /**

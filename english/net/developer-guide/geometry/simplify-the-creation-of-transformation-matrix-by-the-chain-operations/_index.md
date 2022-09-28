@@ -8,7 +8,7 @@ description: Aspose.3D for .NET API offers the TransformBuilder class which simp
 
 {{% alert color="primary" %}} 
 
-Aspose.3D for .NET API offers the TransformBuilder class which simplifies the creation of the transformation matrix by the chain operations.
+Aspose.3D for .NET API offers the `TransformBuilder` class which simplifies the creation of the transformation matrix by the chain operations.
 
 {{% /alert %}} 
 
@@ -110,11 +110,11 @@ var m = (new TransformBuilder(ComposeOrder.Prepend))
 
 {{% alert color="primary" %}} 
 
-The new added methods in the **Matrix4** and **TransformBuilder** classes are the utilities for developers to model the scene by program, so they do not need to manually construct the transform matrix, this is usually used by expert developers. 
+The new added methods in the `Matrix4` and `TransformBuilder` classes are the utilities for developers to model the scene by program, so they do not need to manually construct the transform matrix, this is usually used by expert developers. 
 
-` `Ordinal developers can use the **Transform** property of class **Node** to change the translation/scaling/rotation of an object.
+Ordinal developers can use the `Transform` property of class `Node` to change the translation/scaling/rotation of an object.
 
-Developers can also assign the matrix created by **TransformBuilder** to **Node.Transform**.
+Developers can also assign the matrix created by `TransformBuilder` to `Node.Transform`.
 
 More information about transformation matrix can be found at Wikipedia [Transformation matrix](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) and [Affine Transofrmation](https://en.wikipedia.org/wiki/Affine_transformation)
 

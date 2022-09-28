@@ -12,6 +12,6 @@ Using [Aspose.3D for Python via .NET](http://products.aspose.com/3d/net) API, de
 
 {{% /alert %}}
 ## **Convert All Polygons to Triangles**
-We have added another overload of Triangulate method in the [PolygonModifier](https://reference.aspose.com/3d/python-net/aspose.threed.entities/polygonmodifier) class which takes a [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class object as a parameter as shown in this code example:
+We have added another overload of `triangulate` method in the [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) class which takes a [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class object as a parameter as shown in this code example:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.py" >}}

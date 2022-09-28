@@ -25,7 +25,7 @@ This page contains release notes information for Aspose.3D for Python via .NET 2
 
 ## API changes ##
 
-### Added new method to class aspose.threed.FileFormat
+### Added new method to class `aspose.threed.FileFormat`
 
 {{< highlight python >}}
     
@@ -49,7 +49,7 @@ scene.save(stream, format)
 
 
 
-### Added new method to class aspose.threed.Scene
+### Added new method to class `aspose.threed.Scene`
 
 {{< highlight python >}}
 

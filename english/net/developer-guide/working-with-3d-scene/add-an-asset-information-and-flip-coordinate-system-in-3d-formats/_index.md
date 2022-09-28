@@ -11,7 +11,7 @@ Metadata is structured information that describes, explains, locates or makes it
 ### **Define a Metadata for the scene**
 3D shows produce massive quantities of metadata and picture information. Metadata is an asset and part of the show.
 
-1. Initialize a 3D Scene using [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class.
+1. Initialize a 3D Scene using [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class.
 1. Set application/tool name.
 1. Set application/tool vendor name.
 1. Set measurement unit.
@@ -26,7 +26,7 @@ Aspose.3D for .NET API allows users to flip coordinate system in the OBJ, 3DS, S
 
 {{% alert color="primary" %}} 
 
-To import a 3ds file and save it in OBJ format the [Scene](https://reference.aspose.com/3d/net/aspose.threed/scene) class is being used in the code.
+To import a 3ds file and save it in OBJ format the [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class is being used in the code.
 
 {{% /alert %}} 
 

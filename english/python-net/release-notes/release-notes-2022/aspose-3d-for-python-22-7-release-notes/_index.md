@@ -23,7 +23,7 @@ This page contains release notes information for Aspose.3D for .NET 22.7.
 
 The old A3DW format was used as HTML5's internal format, now it's obsoleted and replaced by the USDZ, which can provide more features and extensibility.
 
-Since 22.7 the aspose.threed.entities.Mesh will have a property `control_points`, it can be used to manually define the vertices of the Mesh.
+Since 22.7 the `aspose.threed.entities.Mesh` will have a property `control_points`, it can be used to manually define the vertices of the Mesh.
 
 Sample code:
 

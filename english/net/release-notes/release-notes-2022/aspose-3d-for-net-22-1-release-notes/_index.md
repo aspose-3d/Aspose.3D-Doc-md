@@ -29,14 +29,14 @@ This page contains release notes information for Aspose.3D for .NET 22.1.
 
 In the 22.1 we've fixed some bugs in FBX and USD, and added primitive export/export to USD.
 
-USD only support a few primitives like Sphere, Cube, Cylinder, we export other primitives through USD's customData, then USD scenes converted from CAD files like RVM can have much smaller file size.
+USD only support a few primitives like `Sphere`, `Cube`, `Cylinder`, we export other primitives through USD's customData, then USD scenes converted from CAD files like RVM can have much smaller file size.
 
 And in 22.1 the web renderer can support USDZ file directly without converting to A3DW format now.
 
 
-### Added class Aspose.ThreeD.Formats.UsdSaveOptions
+### Added class `Aspose.ThreeD.Formats.UsdSaveOptions`
 
-UsdSaveOptions allow you to specify how to treat the primitives during the export, convert it to mesh for best compatibility or save them as parameterized geometries for smallest file size, our web renderer supports the parameterized geometries exported by Aspose.3D USDZ exporter, it's a best option for you to present 3D content using our web renderer.
+`UsdSaveOptions` allow you to specify how to treat the primitives during the export, convert it to mesh for best compatibility or save them as parameterized geometries for smallest file size, our web renderer supports the parameterized geometries exported by Aspose.3D USDZ exporter, it's a best option for you to present 3D content using our web renderer.
 
 
 

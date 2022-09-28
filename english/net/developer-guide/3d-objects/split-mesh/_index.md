@@ -11,7 +11,7 @@ Developers may require to split all meshes of a scene into several sub meshes pe
 
 {{% alert color="primary" %}}
 
-SplitMeshPolicy enum specifies the data policy used in mesh splitting algorithm, it supports two policies, share data between sub-meshes or each sub-mesh has its own data (only used data).
+`SplitMeshPolicy` enum specifies the data policy used in mesh splitting algorithm, it supports two policies, share data between sub-meshes or each sub-mesh has its own data (only used data).
 
 {{% /alert %}}
 

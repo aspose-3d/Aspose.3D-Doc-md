@@ -7,7 +7,7 @@ description: Developers can merge multiple meshes into a single valid mesh. The
 ---
 
 ## **Merge Meshes into a single valid Mesh**
-Developers can merge multiple meshes into a single valid mesh. They might convert all meshes of a 3D scene, a node or a set of nodes into a single mesh. In order to achieve this, there are three MergeMesh members in the Aspose.ThreeD.Entities.PolygonModifier class.
+Developers can merge multiple meshes into a single valid mesh. They might convert all meshes of a 3D scene, a node or a set of nodes into a single mesh. In order to achieve this, there are several `merge_mesh` members in the `aspose.threed.entities.PolygonModifier` class.
 
 The code sample below merge all meshes of a scene in a single valid mesh.
 

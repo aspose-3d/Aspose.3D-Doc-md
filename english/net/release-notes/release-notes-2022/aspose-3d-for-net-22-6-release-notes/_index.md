@@ -27,7 +27,7 @@ This page contains release notes information for Aspose.3D for .NET 22.6.
 
 
 
-### Added new method to class Aspose.ThreeD.FileFormat
+### Added new method to class `Aspose.ThreeD.FileFormat`
 
 {{< highlight csharp >}}
 
@@ -55,7 +55,7 @@ scene.save(Stream.wrap(stream), format);
 
 
 
-### Added new method to class Aspose.ThreeD.Scene
+### Added new method to class `Aspose.ThreeD.Scene`
 
 {{< highlight csharp >}}
         /// <summary>
@@ -77,7 +77,7 @@ scene.Save("Output.usdz);
 {{< /highlight >}}
 
 
-### Added new methods to class Aspose.ThreeD.Transform
+### Added new methods to class `Aspose.ThreeD.Transform`
 
 {{< highlight csharp >}}
         public Transform SetGeometricTranslation(double x, double y, double z)

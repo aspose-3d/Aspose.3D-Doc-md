@@ -12,11 +12,11 @@ Aspose.3D for Python via .NET offers to manage normals and UV on the geometric s
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/python-net/create-3d-mesh-and-scene/) and then point node to the Mesh geometry by [Creating a 3D Scene](/3d/net/create-3d-mesh-and-scene/).
+The `Mesh` class object is being used in the code. We can [create a `Mesh` class object as narrated there](/3d/python-net/create-3d-mesh-and-scene/) and then point node to the Mesh geometry by [Creating a 3D Scene](/3d/net/create-3d-mesh-and-scene/).
 
 {{% /alert %}}
 ## **Create Normal Vectors**
-To have a good visual look on lighting, we need to specify normals information for each vertex, to have a better details, we can also use normal and diffuse map (sure you can use shadow / specular map) to perform per-pixel normal/color. A per-vertex information like normal or vertex color is achieved by VertexElement. In Aspose.3D we can map extra information to control points/polygon vertex/polygon/edge, a sample to define normals for vertex:
+To have a good visual look on lighting, we need to specify normals information for each vertex, to have a better details, we can also use normal and diffuse map (sure you can use shadow / specular map) to perform per-pixel normal/color. A per-vertex information like normal or vertex color is achieved by `VertexElement`. In Aspose.3D we can map extra information to control points/polygon vertex/polygon/edge, a sample to define normals for vertex:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.py" >}}
 
@@ -25,11 +25,11 @@ The 8 normal vectors are mapped to 8 control points directly, in the next exampl
 Here,we only defined 4 UV coordinates, but applied them to 24 polygon vertices (6 face * 4 vertex per polygon) by using indices.
 The Aspose.3D provides 5 mapping modes:
 
-- **ControlPoint** - each data is mapped to the control point of the geometry.
-- **PolygonVertex** - the data is mapped to the polygon’s vertex.
-- **Polygon** - the data is mapped to the polygon.
-- **Edge** - the data is mapped to the edge.
-- **AllSame** - one data mapped to the whole geometry.
+- `CONTROL_POINT` - each data is mapped to the control point of the geometry.
+- `POLYGON_VERTEX` - the data is mapped to the polygon’s vertex.
+- `POLYGON` - the data is mapped to the polygon.
+- `EDGE` - the data is mapped to the edge.
+- `ALL_SAME` - one data mapped to the whole geometry.
 
 
 

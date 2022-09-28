@@ -12,7 +12,7 @@ Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers 
 
 {{% /alert %}}
 ## **Capture a cubemap with six faces**
-In this article, we create a Camera and two Light objects to capture the cubemap, also create a cubemap render target with depth texture, create a viewport and finally get the cubemap texture. The ITextureCubemap class retrieves the cubemap texture and the CubeFaceData class allows to access faces of the cubemap, and then export into the supported image format.
+In this article, we create a Camera and two Light objects to capture the cubemap, also create a cubemap render target with depth texture, create a viewport and finally get the cubemap texture. The `ITextureCubema`p class retrieves the cubemap texture and the `CubeFaceData` class allows to access faces of the cubemap, and then export into the supported image format.
 ### **Programming Sample**
 This code example renders a scene into the cubemap with six faces and export into the image format.
 

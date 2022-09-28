@@ -7,7 +7,7 @@ description: There are several Scene.Open method overloads or Scene class constr
 ---
 
 ## **3D File Load Options**
-There are several [Scene.Open](https://reference.aspose.com/3d/python-net/aspose.threed/scene) method overloads or Scene class constructor overloads that accept a LoadOptions object. This should be an object of a class derived from the LoadOptions class. Each load format has a corresponding class that holds load options for that load format, for example there is ColladaSaveOptions for the FileFormat.Collada save format.
+There are several [`Scene.open`](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads or Scene class constructor overloads that accept a `LoadOptions` object. This should be an object of a class derived from the `LoadOptions` class. Each load format has a corresponding class that holds load options for that load format, for example there is `ColladaSaveOptions` for the `FileFormat.Collada` save format.
 ### **Use of the Discreet 3DS Load Options**
 The code below shows how to set load options before loading a Discreet 3DS file.
 

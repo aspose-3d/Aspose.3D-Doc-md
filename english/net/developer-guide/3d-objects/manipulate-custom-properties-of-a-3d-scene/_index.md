@@ -7,7 +7,7 @@ description: Developers can Add, retrieve, and remove custom properties of 3D o
 ---
 
 ## **Add, Retrieve and Remove custom properties of a 3D Object**
-Developers can Add, retrieve, and remove custom properties of 3D objects. RemoveProperty, GetProperty, SetProperty members of 3D objects are a set of short-handed methods to manipulate customized properties of the object. This is the code example to set, retrieve and remove a custom property:
+Developers can Add, retrieve, and remove custom properties of 3D objects. `RemoveProperty`, `GetProperty`, `SetProperty` members of 3D objects are a set of short-handed methods to manipulate customized properties of the object. This is the code example to set, retrieve and remove a custom property:
 
 **C#**
 

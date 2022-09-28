@@ -12,7 +12,7 @@ Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers 
 
 {{% /alert %}}
 ## **Create a Panorama view**
-In this article, we create a Camera and two Light objects to capture the scene, also create a render target, create a viewport and execute the equirectangular projection post-processing with the cube map as input and finally save the Panorama texture. The Execute method of Renderer class allows to execute the post processing effect and save the result to render target.
+In this article, we create a Camera and two Light objects to capture the scene, also create a render target, create a viewport and execute the equirectangular projection post-processing with the cube map as input and finally save the Panorama texture. The `Execute` method of `Renderer` class allows to execute the post processing effect and save the result to render target.
 ### **Programming Sample**
 This code example renders a Panorama view of 3D scene and save into the image format.
 

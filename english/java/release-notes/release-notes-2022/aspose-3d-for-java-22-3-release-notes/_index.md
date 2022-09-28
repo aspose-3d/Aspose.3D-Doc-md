@@ -23,7 +23,7 @@ This page contains release notes information for Aspose.3D for Java 22.3.
 ## API changes ##
 
 
-### Added new static methods to class Aspose.ThreeD.Scene:
+### Added new static methods to class `com.aspose.threed.Scene`:
 
 {{< highlight java >}}
     /**
@@ -77,7 +77,7 @@ These overloads allow construct a scene directly from a stream, with more option
 {{< /highlight >}}
 
 
-### Added new static methods to class Aspose.ThreeD.Scene:
+### Added new static methods to class `com.aspose.threed.Scene`:
 
 {{< highlight java >}}
     /**
@@ -138,7 +138,7 @@ The old constructor of Scene with a fileName paramter is now marked as obsoleted
 
 
 
-### Added new static methods to class Aspose.ThreeD.Node:       
+### Added new static methods to class `aspose.threed.Node`:
 
 {{< highlight java >}}
     /**

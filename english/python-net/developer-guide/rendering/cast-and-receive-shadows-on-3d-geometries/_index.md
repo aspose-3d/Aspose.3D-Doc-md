@@ -14,7 +14,7 @@ Generally, some 3D file formats can store shadow related settings in geometry li
 ## **Cast and Receive Shadow**
 By default, all objects in the scene cast shadows from a light source. Developers may also receive shadows on a per object basis in the object surface. This code example reveals how to set the position of light and camera objects. It also creates a plane and places three objects with different colors and shadow settings.
 
-All geometries has CastShadows = true and ReceiveShadows=true, the shadows of red box and torus casted to the plane, the red box won't receive shadows and blue box won't cast shadows.
+All geometries has `cast_shadows = True` and `receive_shadows = True`, the shadows of red box and torus casted to the plane, the red box won't receive shadows and blue box won't cast shadows.
 ### **Programming Sample**
 This code example casts and Receives shadows on 3D geometries.
 

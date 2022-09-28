@@ -33,7 +33,7 @@ There's two major changes in 21.1,
 * Renderer's performance improved by separating the preparation and render, also fixed some rendering related bugs.
 * Added support of USDC import
 
-### Added class com.aspose.threed.IRenderQueue
+### Added class `com.aspose.threed.IRenderQueue`
 
 An IRenderQueue instance will be passed to EntityRenderer when renderer is trying to render something, the EntityRenderer will need to prepare for the hardware resources used for rendering and add the render tasks to the render queue in EntityRenderer.PrepareRenderQueue
 
@@ -57,12 +57,12 @@ public interface IRenderQueue
 
 
 
-### Removed class com.aspose.threed.IRenderable
+### Removed class `com.aspose.threed.IRenderable`
 
 This is an obsoleted interface and was useful for a long time, it's safe to remove this.
 
 
-### Added new members to class com.aspose.threed.FileFormat:
+### Added new members to class `com.aspose.threed.FileFormat`:
 
 {{< highlight java >}}
     /**
@@ -80,7 +80,7 @@ This is an obsoleted interface and was useful for a long time, it's safe to remo
 Some formats like USD, GLTF may contains more than one extensions, we introduced a new property to get all extensions.
 
 
-### Refactored class com.aspose.threed.EntityRenderer:
+### Refactored class `com.aspose.threed.EntityRenderer`:
 
 {{< highlight java >}}
         public void prepareRenderQueue(com.aspose.threed.Render.Renderer renderer, Aspose.ThreeD.Node node, Aspose.ThreeD.Entity entity)
@@ -116,7 +116,7 @@ In the old implementation, the hardware resources used by rendering created duri
 So we separate the preparing and rendering, and optimized some internal caches.
 
 
-### Obsoleted member removed from class com.aspose.threed.RenderFactory:
+### Obsoleted member removed from class `com.aspose.threed.RenderFactory`:
 
 
 {{< highlight java >}}

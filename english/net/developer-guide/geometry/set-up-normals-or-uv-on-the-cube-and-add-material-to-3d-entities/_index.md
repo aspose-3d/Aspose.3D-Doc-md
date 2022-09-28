@@ -12,7 +12,7 @@ Aspose.3D for .NET offers to manage normals and UV on the geometric shapes. A me
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene/) and then point node to the Mesh geometry by [Creating a 3D Scene](/3d/net/create-3d-mesh-and-scene/).
+The `Mesh` class object is being used in the code. We can [create a Mesh class object as narrated there](/3d/net/create-3d-mesh-and-scene/) and then point node to the Mesh geometry by [Creating a 3D Scene](/3d/net/create-3d-mesh-and-scene/).
 
 {{% /alert %}}
 ## **Create Normal Vectors**
@@ -25,11 +25,11 @@ The 8 normal vectors are mapped to 8 control points directly, in the next exampl
 Here,we only defined 4 UV coordinates, but applied them to 24 polygon vertices (6 face * 4 vertex per polygon) by using indices.
 The Aspose.3D provides 5 mapping modes:
 
-- **ControlPoint** - each data is mapped to the control point of the geometry.
-- **PolygonVertex** - the data is mapped to the polygon’s vertex.
-- **Polygon** - the data is mapped to the polygon.
-- **Edge** - the data is mapped to the edge.
-- **AllSame** - one data mapped to the whole geometry.
+- `ControlPoint` - each data is mapped to the control point of the geometry.
+- `PolygonVertex` - the data is mapped to the polygon’s vertex.
+- `Polygon` - the data is mapped to the polygon.
+- `Edge` - the data is mapped to the edge.
+- `AllSame` - one data mapped to the whole geometry.
 
 
 

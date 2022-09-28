@@ -24,7 +24,7 @@ This page contains release notes information for Aspose.3D for .NET 22.5.
 ## API changes ##
 
 
-### Updated the property type from Diction<String, Object> to object in class Aspose.ThreeD.Entities.VertexElementUserData :
+### Updated the property type from `Dictionary<String, Object>` to `object` in class `Aspose.ThreeD.Entities.VertexElementUserData`:
 
 {{< highlight csharp >}}
         /// <summary>
@@ -34,9 +34,9 @@ This page contains release notes information for Aspose.3D for .NET 22.5.
 {{< /highlight >}}
 
 
-If old code attaches multiple data in VertexElementUserData, now should use multiple VertexElementUserData.
+If old code attaches multiple data in `VertexElementUserData`, now should use multiple `VertexElementUserData`.
 
-With this API changes, we can support convert VertexElementUserData to TriMesh or even exported to glTF:
+With this API changes, we can support convert `VertexElementUserData` to `TriMesh` or even exported to glTF:
 
 Example code:
 

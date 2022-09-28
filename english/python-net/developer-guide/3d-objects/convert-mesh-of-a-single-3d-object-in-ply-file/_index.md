@@ -12,7 +12,7 @@ description: The overloaded EncodeMesh members exposed by the PlyFormat class 
 
 {{% /alert %}}
 ## **Create a 3D object and save it to PLY file**
-The overloaded EncodeMesh members exposed by the PlyFormat class can be used to convert the Mesh of a 3D object to PLY file. The EncodeMesh members take the Mesh, output file name and PlySaveOptions objects as parameters. Using the PLY save options, developers can change the name of coordinate components.
+The overloaded `encodeMesh` members exposed by the `PlyFormat` class can be used to convert the Mesh of a 3D object to PLY file. The `encodeMesh` members take the `Mesh`, output file name and `PlySaveOptions` objects as parameters. Using the PLY save options, developers can change the name of coordinate components.
 ### **Programming Sample**
 This code example creates a 3D Cylinder object, and then encode in the PLY file.
 

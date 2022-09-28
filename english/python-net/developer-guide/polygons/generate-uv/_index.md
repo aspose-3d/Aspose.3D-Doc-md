@@ -7,7 +7,7 @@ description: Aspose.3D for Python via .NET offers PolygonModifier class which 
 ---
 
 # **Generate UV**
-Aspose.3D for Python via .NET offers **PolygonModifier** class which exposes GenerateUV method, with which you can manually generate UV and associate it with the mesh. Following code snippet shows complete functionality to generate and associate it:
+Aspose.3D for Python via .NET offers `PolygonModifier` class which exposes `generate_uv` method, with which you can manually generate UV and associate it with the mesh. Following code snippet shows complete functionality to generate and associate it:
 
 
 

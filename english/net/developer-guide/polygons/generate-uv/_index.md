@@ -7,7 +7,7 @@ description: Aspose.3D for .NET offers PolygonModifier class which exposes Gen
 ---
 
 # **Generate UV**
-Aspose.3D for .NET offers **PolygonModifier** class which exposes GenerateUV method, with which you can manually generate UV and associate it with the mesh. Following code snippet shows complete functionality to generate and associate it:
+Aspose.3D for .NET offers `PolygonModifier` class which exposes `GenerateUV` method, with which you can manually generate UV and associate it with the mesh. Following code snippet shows complete functionality to generate and associate it:
 
 
 

@@ -28,10 +28,10 @@ This page contains release notes information for Aspose.3D for Java 22.4.
 ## API changes ##
 
 
-All API changes in this version are needed to export user data in glTF through TriMesh, the user data in Mesh and VertexElementUserData will be supported in the next version.
+All API changes in this version are needed to export user data in glTF through `TriMesh`, the user data in `Mesh` and `VertexElementUserData` will be supported in the next version.
 
 
-### Added method AddField in class com.aspose.threed.VertexDeclaration:
+### Added method AddField in class `com.aspose.threed.VertexDeclaration`:
 
 {{< highlight java >}}
     /**
@@ -48,7 +48,7 @@ All API changes in this version are needed to export user data in glTF through T
 The new AddField added a new paramter *alias* to specify the alias name of the field, it works exactly the same as the new added constructor of SemanticAttribute.
 
 
-### Added members to class com.aspose.threed.VertexField:
+### Added members to class `com.aspose.threed.VertexField`:
 
 {{< highlight java >}}
     /**

@@ -28,10 +28,10 @@ This page contains release notes information for Aspose.3D for .NET 22.4.
 ## API changes ##
 
 
-All API changes in this version are needed to export user data in glTF through TriMesh, the user data in Mesh and VertexElementUserData will be supported in the next version.
+All API changes in this version are needed to export user data in glTF through `TriMesh`, the user data in `Mesh` and `VertexElementUserData` will be supported in the next version.
 
 
-### Added new members to class Aspose.ThreeD.Utilities.SemanticAttribute:
+### Added new members to class `Aspose.ThreeD.Utilities.SemanticAttribute`:
 
 {{< highlight csharp >}}
         /// <summary>
@@ -54,7 +54,7 @@ All API changes in this version are needed to export user data in glTF through T
 The new added constructor allows you to specify an alias for the vertex field, which can be used to export custom field name in supported exporters like GLTF.
 
 
-### Update method AddField in class Aspose.ThreeD.Utilities.VertexDeclaration:
+### Update method AddField in class `Aspose.ThreeD.Utilities.VertexDeclaration`:
 
 {{< highlight csharp >}}
         /// <summary>
@@ -70,7 +70,7 @@ The new added constructor allows you to specify an alias for the vertex field, w
 The new AddField added a new paramter *alias* to specify the alias name of the field, it works exactly the same as the new added constructor of SemanticAttribute.
 
 
-### Added members to class Aspose.ThreeD.Utilities.VertexField:
+### Added members to class `Aspose.ThreeD.Utilities.VertexField`:
 
 {{< highlight csharp >}}
         /// <summary>

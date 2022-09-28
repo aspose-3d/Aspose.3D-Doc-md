@@ -23,7 +23,7 @@ This page contains release notes information for Aspose.3D for .NET 22.3.
 ## API changes ##
 
 
-### Added new static methods to class Aspose.ThreeD.Scene:
+### Added new static methods to class `Aspose.ThreeD.Scene`:
 
 {{< highlight csharp >}}
         /// <summary>
@@ -48,7 +48,7 @@ This page contains release notes information for Aspose.3D for .NET 22.3.
         public static Scene FromStream(Stream stream, CancellationToken cancellationToken = default(CancellationToken));
 {{< /highlight >}}
 
-These overloads allow construct a scene directly from a stream, with more options inherited from Scene.Open.
+These overloads allow construct a scene directly from a stream, with more options inherited from `Scene.Open`.
 
 {{< highlight csharp >}}
         //Before 22.3, load a scene from stream:
@@ -60,7 +60,7 @@ These overloads allow construct a scene directly from a stream, with more option
 {{< /highlight >}}
 
 
-### Added new static methods to class Aspose.ThreeD.Scene:
+### Added new static methods to class `Aspose.ThreeD.Scene`:
 
 {{< highlight csharp >}}
         /// <summary>
@@ -89,7 +89,7 @@ These overloads allow construct a scene directly from a stream, with more option
 
 {{< /highlight >}}
 
-These overloads allow construct a scene directly from file name, with more options inherited from Scene.Open.
+These overloads allow construct a scene directly from file name, with more options inherited from `Scene.Open`.
 
 The old constructor of Scene with a fileName paramter is now marked as obsoleted and will be removed in the future.
 
@@ -105,7 +105,7 @@ The old constructor of Scene with a fileName paramter is now marked as obsoleted
 
 
 
-### Added new static methods to class Aspose.ThreeD.Node:       
+### Added new static methods to class `Aspose.ThreeD.Node`:
 
 {{< highlight csharp >}}
         /// <summary>

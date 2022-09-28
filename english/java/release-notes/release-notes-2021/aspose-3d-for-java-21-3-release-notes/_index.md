@@ -44,7 +44,7 @@ This version is mainly a bug-fix version, fixed a lot of bugs, and improved a lo
 
 Only a few minor API changes.
 
-### Added new data type in class com.aspose.threed.VertexFieldDataType:
+### Added new data type in class `com.aspose.threed.VertexFieldDataType`:
 
 {{< highlight java >}}
 
@@ -63,7 +63,7 @@ And from this version, the com.aspose.threed.PointCloud is supported in glTF/glb
 
 
 
-### Added members to class com.aspose.threed.BoundingBox 
+### Added members to class `com.aspose.threed.BoundingBox`
 
 
 {{< highlight java >}}

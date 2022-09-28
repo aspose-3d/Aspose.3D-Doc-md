@@ -7,9 +7,9 @@ description: A Mesh is defined by a set of control points and the many n-sided 
 ---
 
 ## **Create a 3D Cube Mesh**
-A [Mesh](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a Mesh.
+A [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) is defined by a set of control points and the many n-sided polygons as needed. This article explains how to define a `Mesh`.
 
-In order to create a Mesh surface, we need to define control points and polygons as follows:
+In order to create a `Mesh` surface, we need to define control points and polygons as follows:
 
 - [Define the Control Points](/3d/net/create-3d-mesh-and-scene/)
 - [Create Polygons with PolygonBuilder Class](/3d/net/create-3d-mesh-and-scene/)
@@ -21,7 +21,7 @@ A mesh is composed by a set of control points in space, and polygons to describe
 
 {{% alert color="primary" %}}
 
-The control points of all geometries in Aspose.3D use homogeneous coordinate, so it’s Vector4 instead of Vector3 in the example code.
+The control points of all geometries in Aspose.3D use homogeneous coordinate, so it's `Vector4` instead of Vector3 in the example code.
 
 {{% /alert %}}
 
@@ -37,7 +37,7 @@ The control points are not renderable, to make the cube visible, we need to defi
 
 
 ### **Create Polygons with PolygonBuilder Class**
-We can also define polygon by vertices with PolygonBuilder class:
+We can also define polygon by vertices with `PolygonBuilder` class:
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-Common-CreateMeshUsingPolygonBuilder.cs" >}}
 
@@ -61,7 +61,7 @@ A node is invisible, but the geometry attached to the node can be rendered.
 
 {{% alert color="primary" %}}
 
-The Mesh class object is being used in the code. We can [create a Mesh class object as narrated there](https://docs.aspose.com/3d/net/create-3d-mesh-and-scene/#create-a-3d-cube-mesh).
+The `Mesh` class object is being used in the code. We can [create a Mesh class object as narrated there](https://docs.aspose.com/3d/net/create-3d-mesh-and-scene/#create-a-3d-cube-mesh).
 
 {{% /alert %}}
 

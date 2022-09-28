@@ -7,7 +7,7 @@ description: Aspose.3D for Python via .NET allows customizing Offset Top of a c
 ---
 
 # **Customize Offset Top**
-Aspose.3D for Python via .NET allows customizing Offset Top of a cylinder. In order to use this functionality, you can use **Offset** property of **Cylinder** class. The following code snippet shows how to customize Offset Top:
+Aspose.3D for Python via .NET allows customizing Offset Top of a cylinder. In order to use this functionality, you can use `offset` property of `Cylinder` class. The following code snippet shows how to customize Offset Top:
 
 
 
@@ -15,9 +15,9 @@ Aspose.3D for Python via .NET allows customizing Offset Top of a cylinder. In o
 
 ![todo:image_alt_text](working-with-cylinder_1.png)
 
-The left one has OffsetTop set to (5, 3, 0), it's easy to see the top cap has moved and the whole torso also gets affected.
+The left one has `offset_top` set to (5, 3, 0), it's easy to see the top cap has moved and the whole torso also gets affected.
 # **Customize ShearBottom**
-Aspose.3D for Python via .NET allows customizing shear bottom of a cylinder. In order to use this functionality, you can use **ShearBottom** property of **Cylinder** class. The following code snippet shows how to customize Shear Bottom:
+Aspose.3D for Python via .NET allows customizing shear bottom of a cylinder. In order to use this functionality, you can use `shear_bottom` property of `Cylinder` class. The following code snippet shows how to customize Shear Bottom:
 
 
 
@@ -25,9 +25,9 @@ Aspose.3D for Python via .NET allows customizing shear bottom of a cylinder. In
 
 ![todo:image_alt_text](working-with-cylinder_2.png)
 
-The left cylinder has ShearBottom to (0, 0.83) while the right one is an ordinal cylinder.
+The left cylinder has `shear_bottom` to (0, 0.83) while the right one is an ordinal cylinder.
 # **Create Fan-Cylinder**
-Aspose.3D for Python via .NET allows creating a fan cylinder. In order to use this functionality, you can set **GenerateFanCylinder** property of **Cylinder** class to **True.** The following code snippet shows how to use this functionality:
+Aspose.3D for Python via .NET allows creating a fan cylinder. In order to use this functionality, you can set `generate_fan_cylinder` property of `Cylinder` class to `True`. The following code snippet shows how to use this functionality:
 
 
 
@@ -35,4 +35,4 @@ Aspose.3D for Python via .NET allows creating a fan cylinder. In order to use t
 
 ![todo:image_alt_text](working-with-cylinder_3.png)
 
-The left cylinder has GenerateFanCylinder = false and the right one has GenerateFanCylinder = true.
+The left cylinder has `generate_fan_cylinder = False` and the right one has `generate_fan_cylinder = True`.

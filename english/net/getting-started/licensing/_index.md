@@ -22,13 +22,13 @@ The evaluation version provides all the features except the following:
 - Users will also see an evaluation watermark in the rendered images and all other output files.
 
 {{% alert color="primary" %}} 
-If you're using Aspose.3D without a proper license, there could trigger an **Aspose.ThreeD.TrialException** when the usage reached the unlicensed restrictions, you can turn the exception off by:
+If you're using Aspose.3D without a proper license, there could trigger an `Aspose.ThreeD.TrialException` when the usage reached the unlicensed restrictions, you can turn the exception off by:
 
 * [Buy a full featured license](https://purchase.aspose.com/buy).
 * Request a 30 days temporary license, please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license) For more information.
 .
-* Set **Aspose.ThreeD.TrialException.SuppressTrialException** to true, the  TrialException will not be raised during the Open/Save call on Scene, but the above restrictions will not be lifted.
-* Manually use a try/catch block on Scene.Open/Save, this exception is just a notification, ignore it will not affect the scene loading/saving.
+* Set `Aspose.ThreeD.TrialException.SuppressTrialException` to `true`, the `TrialException` will not be raised during the `Open/Save` call on Scene, but the above restrictions will not be lifted.
+* Manually use a `try/catch` block on `Scene.Open/Save`, this exception is just a notification, ignore it will not affect the scene loading/saving.
 
 {{% /alert %}} 
 
@@ -45,7 +45,7 @@ The easiest way to set a license is to put the license file in the same folder a
 
 {{% alert color="primary" %}} 
 
-If you are using any other Aspose for .NET API along with Aspose.3D for .NET, please specify the namespace for the license like Aspose.ThreeD.License.
+If you are using any other Aspose for .NET API along with Aspose.3D for .NET, please specify the namespace for the license like `Aspose.ThreeD.License`.
 
 {{% /alert %}} 
 ### **Loading a License from File**
@@ -53,7 +53,7 @@ The easiest way to apply a license is to put the license file in the same folder
 
 {{% alert color="primary" %}} 
 
-When you call the SetLicense method, the license name that you pass should be that of the license file. For example, if you change the license file name to "Aspose.3D.lic.xml" pass that filename to threeD.SetLicense(…) method.
+When you call the `SetLicense` method, the license name that you pass should be that of the license file. For example, if you change the license file name to "Aspose.3D.lic.xml" pass that filename to `threeD.SetLicense(…)` method.
 
 {{% /alert %}} 
 
@@ -80,6 +80,6 @@ The following code snippet is used to set the license.
 ## **Apply Metered License**
 Aspose.3D for .NET API allows developers to apply metered license. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
-A new class [Metered](https://reference.aspose.com/3d/net/aspose.threed/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
+A new class [`Metered`](https://reference.aspose.com/3d/net/aspose.threed/metered) has been added to apply metered key. This code example demonstrates how to set metered public and private keys:
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}

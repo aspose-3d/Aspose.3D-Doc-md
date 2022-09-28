@@ -16,10 +16,10 @@ Using Aspose.3D for .NET, you can select one or more objects under the current 
 
 |**Prefix=**|**Description=**|
 | :- | :- |
-| |Global selector, any descendant is treated as the root node to perform the selection |
+| // |Global selector, any descendant is treated as the root node to perform the selection |
 |/|Root selector, only one ancestor is used to look up |
 |Other |Assume it's a name, and select the object by name in global selector mode |
-The name is a string that matches the object's name, or wildcard '*' is used to match any name. The condition is an expression to decide whether to select the object, boolean operators (not) and or, comparison operators >/</>=/<=/=/!= are supported. To Access a property in the condition expression, '@' prefix is used, e.g. @Name will read the Name property. A shortcut syntax for testing type is supported by <Mesh>, this is equivalent to [@Type = 'Mesh'], identifiers without a quote will be treated as a string.
+The name is a string that matches the object's name, or wildcard `*` is used to match any name. The condition is an expression to decide whether to select the object, boolean operators (not) and or, comparison operators >/</>=/<=/=/!= are supported. To Access a property in the condition expression, '@' prefix is used, e.g. `@Name` will read the Name property. A shortcut syntax for testing type is supported by `<Mesh>`, this is equivalent to `[@Type = 'Mesh']`, identifiers without a quote will be treated as a string.
 ### **Select all nodes using syntax global selector**
 {{< highlight java >}}
 

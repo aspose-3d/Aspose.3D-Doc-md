@@ -39,7 +39,7 @@ This version is mainly a bug-fix version, fixed a lot of bugs, and improved a lo
 
 Only a few minor API changes.
 
-### Added new property in class com.aspose.threed.GltfSaveOptions:
+### Added new property in class `com.aspose.threed.GltfSaveOptions`:
 
 {{< highlight java >}}
 

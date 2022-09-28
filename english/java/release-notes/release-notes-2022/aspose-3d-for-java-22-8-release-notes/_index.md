@@ -51,7 +51,7 @@ This version fixed a lot of bugs and does not have major API changes.
 ## API changes ##
 
 
-### Added new methods in class *com.aspose.threed.UsdSaveOptions*:
+### Added new methods in class `com.aspose.threed.UsdSaveOptions`:
 
 {{< highlight java >}}
     /**

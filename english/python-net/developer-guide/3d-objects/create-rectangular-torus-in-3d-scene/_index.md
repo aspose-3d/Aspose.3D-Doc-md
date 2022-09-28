@@ -12,7 +12,7 @@ Using [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/
 
 {{% /alert %}} 
 ## **Rectangular Torus**
-We have added RectangularTorus class, it allows developers to place a parameterized rectangular torus into the scene, this can be converted to ordinal mesh/triangle mesh during saving the scene into different supported file formats.
+We have added `RectangularTorus` class, it allows developers to place a parameterized rectangular torus into the scene, this can be converted to ordinal mesh/triangle mesh during saving the scene into different supported file formats.
 
 **Python**
 

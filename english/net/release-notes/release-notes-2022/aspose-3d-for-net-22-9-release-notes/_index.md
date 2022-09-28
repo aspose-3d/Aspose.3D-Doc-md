@@ -29,7 +29,7 @@ This page contains release notes information for Aspose.3D for .NET 22.9.
 ## API changes ##
 
 
-### Added new method in class *Aspose.ThreeD.Shading.PbrMaterial*:
+### Added new method in class `Aspose.ThreeD.Shading.PbrMaterial`:
 
 {{< highlight csharp >}}
         /// <summary>

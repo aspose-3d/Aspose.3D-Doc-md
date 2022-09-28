@@ -34,7 +34,7 @@ This page contains release notes information for Aspose.3D for Java 21.2.
 
 ## API changes ##
 
-### Added class com.aspose.threed.TextureSlot 
+### Added class `com.aspose.threed.TextureSlot` 
 
 This exposed the internal texture slots in materials, in order to access all available texture slots from a material, use foreach statement:
 
@@ -46,7 +46,7 @@ This exposed the internal texture slots in materials, in order to access all ava
         }
 {{< /highlight >}}
 
-### Added class com.aspose.threed.TrialException 
+### Added class `com.aspose.threed.TrialException`
 
 From 21.2, when the unlicensed usage reached the license restriction, a TrialException will be thrown to notify the license restriction, and how to apply for a temporary license.
 
@@ -60,7 +60,7 @@ Turn this message off will not lift the restrictions(Like extra nodes are ignore
 
 In order to get all full feature, please request a temporary license or buy a full feature license.
 
-### Added methods to com.aspose.threed.TriMesh 
+### Added methods to `com.aspose.threed.TriMesh`
 
 
 {{< highlight java >}}
@@ -124,7 +124,7 @@ In order to get all full feature, please request a temporary license or buy a fu
 {{< /highlight >}}
 
 
-These methods allow you to read vertex's field without allocating extra memory, the traditional way of accessing vertex from TriMesh actually generates a lot of temporary object, these can provide fast and low-memory footprint access.
+These methods allow you to read vertex's field without allocating extra memory, the traditional way of accessing vertex from `TriMesh` actually generates a lot of temporary object, these can provide fast and low-memory footprint access.
 
 {{< highlight java >}}
         Scene s = new Scene("test.STL");
@@ -146,7 +146,7 @@ These methods allow you to read vertex's field without allocating extra memory, 
 {{< /highlight >}}
 
 
-### Added new file format in com.aspose.threed.FileFormat 
+### Added new file format in `com.aspose.threed.FileFormat`
 
 {{< highlight java >}}
     /**

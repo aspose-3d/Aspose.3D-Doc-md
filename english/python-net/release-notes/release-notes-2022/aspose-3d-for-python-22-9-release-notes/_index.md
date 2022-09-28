@@ -29,7 +29,7 @@ This page contains release notes information for Aspose.3D for Python via .NET 2
 ## API changes ##
 
 
-### Added new method in class *aspose.threed.shading.PbrMaterial*:
+### Added new method in class `aspose.threed.shading.PbrMaterial`:
 
 {{< highlight java >}}
     /**

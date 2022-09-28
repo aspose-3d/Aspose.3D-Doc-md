@@ -25,7 +25,7 @@ This page contains release notes information for Aspose.3D for Java 22.6.
 
 ## API changes ##
 
-### Added new method to class Aspose.ThreeD.FileFormat
+### Added new method to class `com.aspose.threed.FileFormat`:
 
 {{< highlight csharp >}}
     /**
@@ -50,7 +50,7 @@ scene.save(Stream.wrap(stream), format);
 
 
 
-### Added new method to class Aspose.ThreeD.Scene
+### Added new method to class `com.aspose.threed.Scene`:
 
 {{< highlight java >}}
     /**

@@ -7,11 +7,11 @@ description: Developers may require to split all meshes of a scene into several 
 ---
 
 ## **Split All Meshes of a Scene Per Material**
-Developers may require to split all meshes of a scene into several sub meshes per material. The SplitMesh method will not split a mesh of the scene If it has been assigned a single material. Developers can now achieve this by using [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API.
+Developers may require to split all meshes of a scene into several sub meshes per material. The `split_mesh` method will not split a mesh of the scene If it has been assigned a single material. Developers can now achieve this by using [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API.
 
 {{% alert color="primary" %}}
 
-SplitMeshPolicy enum specifies the data policy used in mesh splitting algorithm, it supports two policies, share data between sub-meshes or each sub-mesh has its own data (only used data).
+`SplitMeshPolicy` enum specifies the data policy used in mesh splitting algorithm, it supports two policies, share data between sub-meshes or each sub-mesh has its own data (only used data).
 
 {{% /alert %}}
 

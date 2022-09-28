@@ -39,7 +39,7 @@ Only USDC/USDZ support this property now.
 NOTE: Changes in this property will not change the copyright section of the output 3D file.
 
 
-### Added members to class com.aspose.threed.UsdSaveOptions:
+### Added members to class `com.aspose.threed.UsdSaveOptions`:
 
 {{< highlight csharp >}}
     /**
@@ -61,7 +61,7 @@ Gets or sets whether to export scene's asset info and node's properties to the o
 
 
 
-### Added members to class com.aspose.threed.PdfSaveOptions:
+### Added members to class `com.aspose.threed.PdfSaveOptions`:
 
 {{< highlight java >}}
     /**
@@ -92,7 +92,7 @@ Example code:
 {{< /highlight >}}
 
 
-### Added members to class com.aspose.threed.U3dSaveOptions:
+### Added members to class `com.aspose.threed.U3dSaveOptions`:
 
 {{< highlight java >}}
     /**
