@@ -36,7 +36,7 @@ Aspose.3D for .NET allows encoding a mesh to PLY file directly without building
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithPointCloud-EncodeMeshToPly-1.cs" >}}
 # **Decode Mesh From PLY**
-Aspose.3D for .NET allows decoding a mesh/point cloud from a PLY file using the [`Decode`](https://reference.aspose.com/net/3d/aspose.threed.formats.plyformat/decode/methods/1) method of [`PlyFormat](https://reference.aspose.com/net/3d/aspose.threed.formats/plyformat) class. The following code snippet shows how to use this functionality:
+Aspose.3D for .NET allows decoding a mesh/point cloud from a PLY file using the [`Decode`](https://reference.aspose.com/net/3d/aspose.threed.formats.plyformat/decode/methods/1) method of [`PlyFormat`](https://reference.aspose.com/net/3d/aspose.threed.formats/plyformat) class. The following code snippet shows how to use this functionality:
 
 
 
