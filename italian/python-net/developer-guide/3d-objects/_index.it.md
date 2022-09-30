@@ -1,0 +1,9 @@
+﻿---
+title: Oggetti 3D
+type: docs
+weight: 60
+url: /it/python-net/3d-objects/
+description: Articoli sulla manipolazione di 3D oggetti in Aspose.3D per Python via .NET.
+---
+### **Articoli in questa sezione**
+
