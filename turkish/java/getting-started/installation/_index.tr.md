@@ -6,7 +6,7 @@ url: /tr/java/installation/
 description: Aspose Java APIs tüm Aspose Repository. You kolayca Aspose.3D 076. 481 076. 481 basit konfigürasyonlarla doğrudan Maven projelerinde kullanabilirsiniz.
 ---
 ## **Installing Aspose.3D for Java Aspose Repository**
-Aspose tüm Java APIs ev sahipliği[Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d). You kolayca Aspose.3D for Java API basit konfigürasyonlarla doğrudan Maven projelerinde kullanabilirsiniz.
+Aspose tüm Java APIs ev sahipliği[Aspose Repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). You kolayca Aspose.3D for Java API basit konfigürasyonlarla doğrudan Maven projelerinde kullanabilirsiniz.
 
 Aşağıdaki gibi Maven `pom.xml` Repository yapılandırma/konumunuzu belirtmeniz gerekir:
 
@@ -17,7 +17,7 @@ Aşağıdaki gibi Maven `pom.xml` Repository yapılandırma/konumunuzu belirtmen
     <repository>
         <id>AsposeJavaAPI</id>
         <name>Aspose Java API</name>
-        <url>http://repository.aspose.com/repo/</url>
+        <url>https://releases.aspose.com/java/repo/</url>
     </repository>
 
 </repositories>

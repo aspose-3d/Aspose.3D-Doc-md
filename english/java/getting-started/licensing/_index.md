@@ -7,7 +7,7 @@ description: You can easily download/install Aspose.3D for Java from Aspose Re
 ---
 
 ## **Evaluate Aspose.3D**
-You can easily download/install Aspose.3D for Java from [Aspose Repository](http://repository.aspose.com/repo/com/aspose/aspose-3d/) for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
+You can easily download/install Aspose.3D for Java from [Aspose Repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/) for evaluation. The evaluation download is the same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
 
 The evaluation version provides all the features except the following:
 

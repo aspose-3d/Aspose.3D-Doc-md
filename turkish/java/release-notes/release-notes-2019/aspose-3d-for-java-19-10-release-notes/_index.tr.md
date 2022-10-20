@@ -6,7 +6,7 @@ url: /tr/java/aspose-3d-for-java-19-10-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-This sayfası için sürüm notları içerir[Aspose.3D for Java 19.10](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d/19.10).
+This sayfası için sürüm notları içerir[Aspose.3D for Java 19.10](https://releases.aspose.com/java/repo/com/aspose/aspose-3d//19.10).
 
 {{% /alert %}} 
 ## **Improvements ve Changes**

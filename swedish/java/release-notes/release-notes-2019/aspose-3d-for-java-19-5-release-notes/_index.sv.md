@@ -6,7 +6,7 @@ url: /sv/java/aspose-3d-for-java-19-5-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Denna sida innehåller utgåvans anteckningar för[Aspose.3D for Java 19,5](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d/19.5)
+Denna sida innehåller utgåvans anteckningar för[Aspose.3D for Java 19,5](https://releases.aspose.com/java/repo/com/aspose/aspose-3d//19.5)
 
 {{% /alert %}} 
 ## **Förbättringar och förändringar**

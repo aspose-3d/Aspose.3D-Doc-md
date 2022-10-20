@@ -6,7 +6,7 @@ url: /tr/java/licensing/
 description: You Aspose.3D for Java Aspose Repository değerlendirme için kolayca indirebilir/kurabilir. The değerlendirme indirme, satın alınan indirme ile aynıdır. To değerlendirme sürümü, lisansı uygulamak için birkaç kod satırı eklediğinizde lisanslanır.
 ---
 ## **E07ate Aspose.3D**
-07ou Aspose.3D for Java 'i kolayca indirebilir/kurabilir[Aspose Repository](http://repository.aspose.com/repo/com/aspose/aspose-3d/)Değerlendirme için. The değerlendirme indirme, satın alınan indirme ile aynıdır. To değerlendirme sürümü, lisansı uygulamak için birkaç kod satırı eklediğinizde lisanslanır.
+07ou Aspose.3D for Java 'i kolayca indirebilir/kurabilir[Aspose Repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)Değerlendirme için. The değerlendirme indirme, satın alınan indirme ile aynıdır. To değerlendirme sürümü, lisansı uygulamak için birkaç kod satırı eklediğinizde lisanslanır.
 
 The değerlendirme sürümü aşağıdakiler hariç tüm özellikleri sağlar:
 

@@ -6,7 +6,7 @@ url: /ar/java/installation/
 description: Aspose تستضيف جميع Java APIs على Aspose مستودع R. You يمكن بسهولة استخدام Aspose.3D for Java API مباشرة في المشاريع الخاصة بك Maven مع تكوينات بسيطة.
 ---
 ## **Instيعادل Aspose.3D for Java من Aspose posepository**
-Aspose تستضيف جميع Java APIs على[Aspose مستودع](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d). You يمكن بسهولة استخدام Aspose.3D for Java API مباشرة في المشاريع الخاصة بك Maven مع تكوينات بسيطة.
+Aspose تستضيف جميع Java APIs على[Aspose مستودع](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). You يمكن بسهولة استخدام Aspose.3D for Java API مباشرة في المشاريع الخاصة بك Maven مع تكوينات بسيطة.
 
 First تحتاج إلى تحديد Aspose تكوين مستودع R/ الموقع في Maven `pom.xml` الخاص بك على النحو التالي:
 
@@ -17,7 +17,7 @@ First تحتاج إلى تحديد Aspose تكوين مستودع R/ الموق�
     <repository>
         <id>AsposeJavaAPI</id>
         <name>Aspose Java API</name>
-        <url>http://repository.aspose.com/repo/</url>
+        <url>https://releases.aspose.com/java/repo/</url>
     </repository>
 
 </repositories>

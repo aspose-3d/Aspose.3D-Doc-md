@@ -6,7 +6,7 @@ url: /sv/java/licensing/
 description: Du kan enkelt ladda ner/installera Aspose.3D for Java från Aspose Arkiv för utvärdering. Nedladdningen av utvärderingen är samma som den köpta nedladdningen. Utvärderingsversionen blir helt enkelt licensierad när du lägger till några rader av kod för att tillämpa licensen.
 ---
 ## **Utvärdera Aspose.3D**
-Du kan enkelt ladda ner/installera Aspose.3D for Java från[Aspose Arkiv](http://repository.aspose.com/repo/com/aspose/aspose-3d/)För utvärdering. Nedladdningen av utvärderingen är samma som den köpta nedladdningen. Utvärderingsversionen blir helt enkelt licensierad när du lägger till några rader av kod för att tillämpa licensen.
+Du kan enkelt ladda ner/installera Aspose.3D for Java från[Aspose Arkiv](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)För utvärdering. Nedladdningen av utvärderingen är samma som den köpta nedladdningen. Utvärderingsversionen blir helt enkelt licensierad när du lägger till några rader av kod för att tillämpa licensen.
 
 Utvärderingsversionen innehåller alla funktioner utom följande:
 

@@ -6,7 +6,7 @@ url: /es/java/aspose-3d-for-java-19-8-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Esta página contiene notas de la versión para[Aspose.3D for Java 19,8](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d/19.8)
+Esta página contiene notas de la versión para[Aspose.3D for Java 19,8](https://releases.aspose.com/java/repo/com/aspose/aspose-3d//19.8)
 
 {{% /alert %}} 
 ## **Mejoras y cambios**

@@ -6,7 +6,7 @@ url: /sv/java/installation/
 description: Aspose värd alla Java APIs på Aspose arkiv. Du kan enkelt använda Aspose.3D for Java API direkt i dina Maven projekt med enkel konfiguration iii).
 ---
 ## **Installera Aspose.3D for Java från Aspose Arkiv**
-Aspose värd för alla Java APIs[Aspose Arkiv](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d). Du kan enkelt använda Aspose.3D for Java API direkt i dina Maven projekt med enkel konfiguration iii).
+Aspose värd för alla Java APIs[Aspose Arkiv](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). Du kan enkelt använda Aspose.3D for Java API direkt i dina Maven projekt med enkel konfiguration iii).
 
 Först måste du ange Aspose arkivkonfiguration / plats i din Maven `pom.xml` enligt nedan:
 
@@ -17,7 +17,7 @@ Först måste du ange Aspose arkivkonfiguration / plats i din Maven `pom.xml` en
     <repository>
         <id>AsposeJavaAPI</id>
         <name>Aspose Java API</name>
-        <url>http://repository.aspose.com/repo/</url>
+        <url>https://releases.aspose.com/java/repo/</url>
     </repository>
 
 </repositories>

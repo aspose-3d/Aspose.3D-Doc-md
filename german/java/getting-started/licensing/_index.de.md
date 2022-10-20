@@ -6,7 +6,7 @@ url: /de/java/licensing/
 description: Sie können ganz einfach Aspose.3D for Java vom Aspose Repository zur Auswertung herunter laden/installieren. Der Bewertungs download entspricht dem gekauften Download. Die Bewertungs version wird einfach lizenziert, wenn Sie einige Code zeilen hinzufügen, um die Lizenz anzuwenden.
 ---
 ## **Bewerten Aspose.3D**
-Sie können ganz einfach herunter laden/installieren Aspose.3D for Java von[Aspose Repository](http://repository.aspose.com/repo/com/aspose/aspose-3d/)Zur Bewertung. Der Bewertungs download entspricht dem gekauften Download. Die Bewertungs version wird einfach lizenziert, wenn Sie einige Code zeilen hinzufügen, um die Lizenz anzuwenden.
+Sie können ganz einfach herunter laden/installieren Aspose.3D for Java von[Aspose Repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)Zur Bewertung. Der Bewertungs download entspricht dem gekauften Download. Die Bewertungs version wird einfach lizenziert, wenn Sie einige Code zeilen hinzufügen, um die Lizenz anzuwenden.
 
 Die Bewertungs version bietet alle Funktionen mit Ausnahme der folgenden:
 

@@ -6,7 +6,7 @@ url: /it/java/aspose-3d-for-java-19-4-release-notes/
 ---
 {{% alert color="primary" %}} 
 
-Questa pagina contiene le note di rilascio per[Aspose.3D for Java 19.4](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d/19.4)
+Questa pagina contiene le note di rilascio per[Aspose.3D for Java 19.4](https://releases.aspose.com/java/repo/com/aspose/aspose-3d//19.4)
 
 {{% /alert %}} 
 ## **Miglioramenti e modifiche**

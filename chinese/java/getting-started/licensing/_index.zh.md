@@ -6,7 +6,7 @@ url: /zh/java/licensing/
 description: 您可以轻松地从Aspose存储库下载/安装Aspose.3D for Java以进行评估。评估下载与购买的下载相同。当您添加几行代码以应用许可证时，评估版本将获得许可。
 ---
 ## **评估Aspose.3D**
-您可以轻松地从下载/安装Aspose.3D for Java[Aspose存储库](http://repository.aspose.com/repo/com/aspose/aspose-3d/)用于评估。评估下载与购买的下载相同。当您添加几行代码以应用许可证时，评估版本将获得许可。
+您可以轻松地从下载/安装Aspose.3D for Java[Aspose存储库](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)用于评估。评估下载与购买的下载相同。当您添加几行代码以应用许可证时，评估版本将获得许可。
 
 评估版本提供了除以下功能外的所有功能:
 
