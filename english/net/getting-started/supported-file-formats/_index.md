@@ -24,12 +24,14 @@ The following table indicates the file formats that Aspose.3D for .NET - C# 3D f
 |[OBJ](https://docs.fileformat.com/3d/obj/)|Wavefront Obj|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including mesh/point cloud support.|
 |[PDF](https://docs.fileformat.com/pdf/)|3D PDF|{{< emoticons/tick >}}|{{< emoticons/tick >}}|<p>Only supports standard U3D embedded 3D content in PDF.</p><p>PRC and U3D with RH Mesh extension are not supported yet.</p>|
 |[HTML](https://docs.fileformat.com/web/html/)|Hyper-Text Markup Language| |{{< emoticons/tick >}}| |
+|[MA](https://docs.fileformat.com/3d/ma/)|Autodesk Maya ASCII format|{{< emoticons/tick >}} | | |
+|[MB](https://docs.fileformat.com/3d/mb/)|Autodesk Maya Binary format|{{< emoticons/tick >}} | | |
 |[PLY](https://docs.fileformat.com/3d/ply/)|Polygon File Format or Stanford Triangle Format|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including mesh/point cloud support.|
 |[JT](https://docs.fileformat.com/3d/jt/)|Siemens JT File|{{< emoticons/tick >}}| |Only supports version 8 and 9.|
 |[STL](https://docs.fileformat.com/cad/stl/)|Standard Triangle Language|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[U3D](https://docs.fileformat.com/3d/u3d/)|Universal3D|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[USD](https://docs.fileformat.com/3d/usd/)|Universal Scene Description|{{< emoticons/tick >}}|| |
-|[USDZ](https://docs.fileformat.com/3d/usdz/)|Universal Scene Description Archive|{{< emoticons/tick >}}|| |
+|[USD](https://docs.fileformat.com/3d/usd/)|Universal Scene Description|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[USDZ](https://docs.fileformat.com/3d/usdz/)|Universal Scene Description Archive|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[VRML 1.0](https://docs.fileformat.com/3d/vrml/)|The Virtual Reality Modeling Language|{{< emoticons/tick >}}| |Only supports 1.0 ASCII.|
 |[X](https://docs.fileformat.com/3d/x/)|DirectX’s X file|{{< emoticons/tick >}}| |Including ASCII/Binary.|
 
