@@ -1,0 +1,85 @@
+﻿---
+title: Licensiering
+type: docs
+weight: 60
+url: /sv/java/licensing/
+description: Du kan enkelt ladda ner/installera Aspose.3D for Java från Aspose Arkiv för utvärdering. Nedladdningen av utvärderingen är samma som den köpta nedladdningen. Utvärderingsversionen blir helt enkelt licensierad när du lägger till några rader av kod för att tillämpa licensen.
+---
+## **Utvärdera Aspose.3D**
+Du kan enkelt ladda ner/installera Aspose.3D for Java från[Aspose Arkiv](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)För utvärdering. Nedladdningen av utvärderingen är samma som den köpta nedladdningen. Utvärderingsversionen blir helt enkelt licensierad när du lägger till några rader av kod för att tillämpa licensen.
+
+Utvärderingsversionen innehåller alla funktioner utom följande:
+
+- Användare kan endast öppna / importera max 50 3D dokument till en Scene.
+- Användare kan endast spara max 50 3D dokument till en Scene.
+- Användarna kommer också att se en utvärdering vattenstämpel i de återgivna bilderna och alla andra utdatafiler.
+- Varje nod får inte ha mer än 5 barnnoder.
+- Varje nod kan inte ha mer än 2 bifogade enheter.
+- Varje geometri kan inte ha mer än 2 bifogade vertex element.
+- Varje nod får inte ha mer än 1 material.
+
+{{% alert color="primary" %}} 
+
+Om du använder Aspose.3D utan rätt licens, kan det utlösa**Com.aspose.3**När användningen nådde de icke-licenserade begränsningarna kan du stänga av undantaget genom att:
+
+* [Köp en fullständig licens](https://purpose.aspose.com/buy).
+* Begär en 30 dagars tillfällig licens, se [Hur får man en tillfällig licens?] (https://köp. Förmodligen. För mer information.
+.
+* Ring 'com. Förmodligen. Tre. Testavvikelse. SetSuppressTrialException(true)' före dina 'öppna'/'spara' metoder, "TrialException" kommer inte att höjas under "öppna"/"spara"-upplysningen på Scene, men ovanstående begränsningar kommer inte att upphävas.
+* Använd manuellt ett "försök/catch"-block på "Scene. Open/save', detta undantag är bara en anmälan, ignorera det kommer inte att påverka laddande/sparande.
+
+{{% /alert %}} 
+## **Använda licens**
+Licensen är en enkel text XML-fil som innehåller detaljer såsom produktnamnet, antal utvecklare den är licensierad till, prenumerationsdatum och så vidare. Filen är digitalt signerad, så ändra inte filen. även oavsiktligt tillägg av en extra radbrytning i filen kommer att ogiltigförklara den. Du måste ställa in en licens innan du utför någon operation med dokument. Se till att du gör detta innan du skapar ett Scene-objekt.
+
+Licenser kan tillämpas från olika platser:
+
+- Explicit sökvägName
+- Mappen som innehåller JAR-filen Aspose.3D.
+- En inbäddad resurs i JAR som kallade Aspose.3D JAR.
+
+Använd `License.setLicense` metoden för att licensiera API:erna. Ofta det enklaste sättet att ställa in en licens är att placera licensfilen i samma mapp som Aspose.3D JAR och anger bara filnamnet utan sökväg.
+### **Använd licens med fil eller strömobjekt**
+I detta exempel kommer Aspose.3D att försöka hitta licensfilen i mappen som innehåller JARs i din ansökan.
+
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+
+Initierar en licens från en ström.
+
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+### **Inklusive licensfilen som en inbäddad resurs.**
+Du kan helt enkelt kopiera LIC-filen i katalogen `resources` i ditt projekt. Att återuppbygga projektet bör inbädda . Lic-fil till applikations . Burkfil. Därefter kan du ansöka om licens genom att använda koden som nedan:
+
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+### **Validera licensen**
+Det är möjligt att validera om licensen har satts ordentligt eller inte. Licensklassen har isLicensed-fältet som kommer att returnera true om licensen har satts ordentligt.
+
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+## **Använd mätt licens**
+Aspose.3D gör det möjligt för utvecklare att tillämpa uppmätta nyckel. Det är en ny licensmekanism. Den nya tillståndsmekanismen kommer att användas tillsammans med befintlig tillståndsmetod. De kunder som vill faktureras baserat på användningen av API funktioner kan använda den mättade licensieringen. För ytterligare upplysningar, se på[Uppmätt licensiering](https://purchase.aspose.com/faqs/licensing/metered)Sektion.
+
+En ny klass `Metered` har införts för att tillämpa mättad nyckel. Följande är urvalskoden som visar hur man ställer in öppen och privat nyckel.
+
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+## **När du ska använda licens**
+Följ dessa enkla regler:
+
+- Licensen behöver bara ställas in en gång per ansökningsdomän.
+- Du måste ställa in licensen innan du använder andra Aspose.3D klasser.
+- Ring licens.SetLicense flera gånger är inte skadligt, men helt enkelt slösar processortid.
+
+Om du utvecklar ett klassbibliotek kan du ringa Licens. SetLicense från en statisk konstruktör av din klass som använder Aspose.3D. Den statiska konstruktören kommer att utföra innan en instans av din klass skapas för att se till att Aspose.3D licens är korrekt inställd.
+## **Du kan ändra licensfilnamn**
+Licensfilnamnet behöver inte vara 'Aspose.3D.LIC'. Du kan byta namn till vad du vill och använda det namnet när du ringer licens.SetLicense.
+## **Undantag kan inte hitta licensfilnamn**
+När du köper och laddar ner en licens, Aspose webbplats namnger Du laddar ner licensfilen med din webbläsare. Vissa webbläsare känner igen licensfilen som XML och lägg till en . Xml tillägg till det så att det fullständiga namnet på filen på din dator blir `Aspose.3D.lic.XML`.
+
+När Microsoft Windows, till exempel, är konfigurerad för att dölja tillägg av kända filtyper (detta är tyvärr standard i de flesta Windows installationer), licensen filen visas som `Aspose.3D.LIC` i Windows Explorer. Du tror sannolikt att detta är det riktiga filnamnet och samtal licens. SetLicense passerar det `Aspose.3D.LIC`, men det finns ingen sådan fil, därav undantaget.
+
+För att lösa problemet, byta namn på filen för att ta bort den osynliga . Xml- utökning. Vi rekommenderar också att du inaktiverar "gömma tillägg" alternativet i Microsoft Windows.
+
+## **Använda flera API från Aspose**
+Om du använder flera Aspose API i din ansökan, till exempel Aspose.3D och Aspose.Cells, Här är några användbara tips.
+
+- Ställ in licensen för varje Aspose API separat. Även om du har en enda licensfil för alla API, till exempel `Aspose.Total.lic`, du behöver fortfarande ringa `License.setLicense` separat för varje Aspose API du använder i din ansökan.
+- Använd fullt kvalificerad licensklass namn. Varje Aspose API har en licensklass i sin namnrymd. Exempelvis har Aspose.3D `com.aspose.3d.License` och Aspose.Cells klass `com.aspose.cells.License`. Genom att använda det fullt kvalificerade klassnamnet kan du undvika all förvirring om vilken licens som tillämpas på vilken produkt.

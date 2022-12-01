@@ -1,0 +1,112 @@
+﻿---
+title: Rendre une scène dans le cube avec six visages
+type: docs
+weight: 70
+url: /fr/net/render-a-scene-into-the-cubemap-with-six-faces/
+description: En utilisant Aspose.3D for .NET API, les développeurs peuvent restituer une scène dans le cubemap avec six visages et enregistrer toutes les faces dans les formats d'image pris en charge.
+---
+{{% alert color="primary" %}}
+
+Utilisation[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Les développeurs peuvent restituer une scène dans le cubemap avec six visages et enregistrer tous les visages dans les formats d'image pris en charge.
+
+{{% /alert %}}
+## **Capturez un cube avec six visages**
+Dans cet article, nous créons une caméra et deux objets Light pour capturer le cubemap, créer également une cible de rendu cubemap avec une texture en profondeur, créer un port de vue et enfin obtenir la texture cubemap. La classe `ITextureCubema`p récupère la texture cubemap et la classe `CubeFaceData` permet d'accéder aux faces du cubemap, puis d'exporter dans le format d'image pris en charge.
+### **Échantillon de programmation**
+Cet exemple de code rend une scène dans le cubemap avec six faces et exporte dans le format d'image.
+
+**C#**
+
+{{< highlight "java" >}}
+
+ string path = @"D:\Projects\glTF-Sample-Models\1.0\VC\glTF-Binary\VC.glb";
+
+//load the scene
+
+Scene scene = new Scene(path);
+
+//create a camera for capturing the cube map
+
+Camera cam = new Camera(ProjectionType.Perspective)
+
+{
+
+    NearPlane = 0.1,
+
+    FarPlane = 200,
+
+    RotationMode = RotationMode.FixedDirection
+
+};
+
+scene.RootNode.CreateChildNode(cam).Transform.Translation = new Vector3(5, 6, 0);
+
+//create two lights to illuminate the scene
+
+scene.RootNode.CreateChildNode(new Light() {LightType = LightType.Point}).Transform.Translation = new Vector3(-10, 7, -10);
+
+scene.RootNode.CreateChildNode(new Light()
+
+{
+
+    Color = new Vector3(Color.CadetBlue)
+
+}).Transform.Translation = new Vector3(49, 0, 49);
+
+
+
+//create a renderer
+
+using (var renderer = Renderer.CreateRenderer())
+
+{
+
+    //Create a cube map render target with depth texture, depth is required when rendering a scene.
+
+    IRenderTexture rt = renderer.RenderFactory.CreateCubeRenderTexture(new RenderParameters(false), 512, 512);
+
+    //a viewport is required on the render target
+
+    rt.CreateViewport(cam, RelativeRectangle.FromScale(0, 0, 1, 1));
+
+    renderer.Render(rt);
+
+    //now lets get the cubemap texture
+
+    ITextureCubemap cubemap = rt.Targets[0] as ITextureCubemap;
+
+    //we can directly save each face to disk by specifing the file name
+
+    CubeFaceData<string> fileNames = new CubeFaceData<string>()
+
+    {
+
+        Right = "right.png",
+
+        Left = "left.png",
+
+        Back = "back.png",
+
+        Front = "front.png",
+
+        Bottom = "bottom.png",
+
+        Top = "top.png"
+
+    };
+
+    //and call Save method
+
+    cubemap.Save(fileNames, ImageFormat.Png);
+
+    //or we just need to use the render result in memory, we can save it to CubeFaceData<Bitmap>
+
+    //CubeFaceData<Bitmap> bitmaps = new CubeFaceData<Bitmap>();
+
+    //cubemap.Save(bitmaps);
+
+    //bitmaps.Back.Save("back.bmp", ImageFormat.Bmp);
+
+}
+
+{{< /highlight >}}

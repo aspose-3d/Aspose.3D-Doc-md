@@ -1,0 +1,18 @@
+﻿---
+title: Применить визуальные эффекты при сохранении просмотров 3D
+type: docs
+weight: 10
+url: /ru/net/apply-visual-effects-on-saving-3d-views/
+description: Используя Aspose.3D for .NET API, разработчики могут применять визуальные эффекты на 3D Просмотры перед сохранением в изображении. Эти визуальные эффекты также известны как эффекты постобработки или фильтры, которые применяются в режиме реального времени ко всему, что отображается в представлении 3D.
+---
+{{% alert color="primary" %}}
+
+Используя[Aspose.3D for .NET 0761234881](https://products.aspose.com/3d/net/), Разработчики могут применять визуальные эффекты на 3D Views перед сохранением в изображении. Эти визуальные эффекты также известны как эффекты постобработки или фильтры, которые применяются в режиме реального времени ко всему, что отображается в представлении 3D.
+
+{{% /alert %}}
+## **Применить визуальные эффекты на 3D View**
+Метод [`GetPostProcessing`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/methods/getpostprocessing) класса [`Renderer`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer) позволяет создавать любой поддерживаемый визуальный эффект. Класс Renderer предлагает член [`PostProcessings`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/properties/postprocessings) для применения различных фильтров, метод Add класса PostProcessings позволяет включать фильтр перед рендерингом.
+### **Образец программирования**
+Этот пример кода применяет визуальный эффект на представлении 3D.
+
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DViewPorts-ApplyVisualEffects-ApplyVisualEffects.cs" >}}
