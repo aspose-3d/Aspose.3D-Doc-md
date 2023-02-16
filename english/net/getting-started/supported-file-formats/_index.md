@@ -4,6 +4,7 @@ type: docs
 weight: 20
 url: /net/supported-file-formats/
 description: C# .NET 3D File Manipulation and Conversion API can load and save 3DS, 3MF, AMF, FBX, DFX, OBJ, PLY, STL, USD, U3D and other formats
+tags: 3ds 3mf amf ase rvm 
 ---
 
 ## **Supported File Formats**
@@ -15,12 +16,12 @@ The following table indicates the file formats that Aspose.3D for .NET - C# 3D f
 |[3MF](https://docs.fileformat.com/3d/3mf/)|Microsoft 3D Manufacturing Format|{{< emoticons/tick >}}| | |
 |[AMF](https://docs.fileformat.com/3d/amf/)|Additive manufacturing file format|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[ASE](https://docs.fileformat.com/3d/ase/)|3D Studio Max's ASCII Scene Exporter format|{{< emoticons/tick >}}| | |
-|[RVM](https://docs.fileformat.com/3d/rvm/)|AVEVA Plant Design Management System Model|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[RVM](https://docs.fileformat.com/3d/rvm/)|Aveva Plant Design Management System Model|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DAE](https://docs.fileformat.com/3d/dae/)|Collada|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DRC](https://docs.fileformat.com/3d/drc/)|Google Draco|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including mesh/point cloud support|
 |[DXF](https://docs.fileformat.com/cad/dxf/)|AutoCAD DXF|{{< emoticons/tick >}}| | |
 |[FBX](https://docs.fileformat.com/3d/fbx/)|Autodesk FBX format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|From 7.2 to 7.5, both ASCII/Binary.|
-|[glTF](https://docs.fileformat.com/3d/glb/)|Khronos Group’s glTF|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including 1.0 ASCII/ Binary, 2.0 ASCII/Binary, 2.0 ASCII/Binary with Draco extension|
+|[glTF](https://docs.fileformat.com/3d/glb/)|Khronos Group's glTF|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including 1.0 ASCII/ Binary, 2.0 ASCII/Binary, 2.0 ASCII/Binary with Draco extension|
 |[OBJ](https://docs.fileformat.com/3d/obj/)|Wavefront Obj|{{< emoticons/tick >}}|{{< emoticons/tick >}}|Including mesh/point cloud support.|
 |[PDF](https://docs.fileformat.com/pdf/)|3D PDF|{{< emoticons/tick >}}|{{< emoticons/tick >}}|<p>Only supports standard U3D embedded 3D content in PDF.</p><p>PRC and U3D with RH Mesh extension are not supported yet.</p>|
 |[HTML](https://docs.fileformat.com/web/html/)|Hyper-Text Markup Language| |{{< emoticons/tick >}}| |
