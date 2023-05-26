@@ -2,7 +2,7 @@
 title: Aspose.3D for .NET 23.5 Release Notes
 type: docs
 weight: 8
-url: /net/aspose-3d-for-net-23.5-release-notes/
+url: /net/aspose-3d-for-net-23-5-release-notes/
 ---
 
 {{% alert color="primary" %}}

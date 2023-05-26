@@ -2,7 +2,7 @@
 title: Aspose.3D for Python via .NET 23.5 Release Notes
 type: docs
 weight: 8
-url: /python-net/aspose-3d-for-python-net-23.5-release-notes/
+url: /python-net/aspose-3d-for-python-net-23-5-release-notes/
 ---
 
 {{% alert color="primary" %}}
