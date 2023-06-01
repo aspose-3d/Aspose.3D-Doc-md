@@ -53,7 +53,7 @@ Since 23.4, System.Drawing is no longer needed, types used from System.Drawing a
 
 Export the scene into obj file and export the texture files:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Examples-CSharp-ExportTextures.py" >}}
+{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Examples-ExportTextures.py" >}}
 
 ### Removed class **aspose.threed.shading.RenderingAPI**
 ### Removed class **aspose.threed.shading.ShadingLanguage**
