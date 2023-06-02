@@ -2,8 +2,8 @@
 title: Aspose.3D Document Object Model (DOM)
 type: docs
 weight: 20
-url: /net/aspose-3d-document-object-model
-description: Each 3D scene can comprise of any number of viewports. Using Aspose.3D for .NET API, developers can capture one or more viewports in a single screenshot. They may render it in the GUI based .NET application or an image.
+url: /java/aspose-3d-document-object-model
+description: Each 3D scene can comprise of any number of viewports. Using Aspose.3D for Java API, developers can capture one or more viewports in a single screenshot. They may render it in the GUI based Java application or an image.
 ---
 
 The Aspose.3D Document Object Model (DOM) is a powerful in-memory representation of a 3D scene. It provides developers with the ability to read, manipulate, and modify the content and formatting of a 3D scene programmatically.
@@ -87,7 +87,7 @@ A `Geometry` consists of control points and `VertexElement` which defined extra 
 
 You can manually create a vertex element and assign data for it. The following code example shows how to do this:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.cs" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-SetupNormalsOnCube.java" >}}
 
 ### Primitive geometry types
 
@@ -111,7 +111,8 @@ By utilizing these predefined primitive types in Aspose.3D, you can easily creat
 
 The following code example shows how to create a sphere with specified radius:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-objects-WorkingWithSphereRadius-WorkingWithSphereRadius.java" >}}
+
 
 ### Extrusion Types
 
@@ -128,7 +129,7 @@ In Aspose.3D we've provided 3 extrusion types:
 
 The following code example shows how to create a linear extrusion from a text profile:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-LinearExtrusion-Text.cs" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-LinearExtrusion-Text.java" >}}
 
 
 ### Curve Types
@@ -174,7 +175,7 @@ With the support for a range of material types and the ability to connect textur
 
 The following code example shows how to apply a PBR material to a geometry:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-ApplyPBRMaterialToBox-ApplyPBRMaterialToBox.cs" >}}
+{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-ApplyPBRMaterialToBox.java" >}}
 
 ## Animation objects relationship
 Aspose.3D provides data-level animation support, and calculation support is currently being developed.
