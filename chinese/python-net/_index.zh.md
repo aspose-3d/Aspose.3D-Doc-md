@@ -6,7 +6,7 @@ weight: 30
 url: /zh/python-net/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo: 图像_alt_文本](home_1.png)
 
@@ -16,14 +16,14 @@ Aspose.3D for Python via .NET是一个类库项目，使您的应用程序能够
 
 该API是用户友好的，比从头开始创建类似的解决方案节省时间和金钱。
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D Python via .NET资源**
 以下是完成任务可能需要的一些有用资源的链接。
 
 - [Aspose.3D Python via .NET在线文档](/3d/zh/python-net/)
 - [Aspose.3D Python via .NET功能](/3d/zh/python-net/product-overview/#productoverview-richfeatures)
 - [Aspose.3D Python via .NET限制](/3d/zh/python-net/installation/#installation-systemrequirements)
-- [Aspose.3D Python via .NET发行说明](/3d/zh/python-net/release-notes/)
+- [Aspose.3D Python via .NET发行说明](https://releases.aspose.com/zh/3d/python-net/release-notes/)
 - [Aspose.3D Python via .NET产品页面](https://products.aspose.com/3d/python-net/)
 - [安装Python via .NET NuGet包的Aspose.3D](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D Python via .NET API参考指南](https://reference.aspose.com/3d/net)

@@ -5,7 +5,7 @@ description: Le API Aspose.3D consentono ai programmatori di connettere automati
 weight: 10
 url: /it/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: immagine_Alt_Testo](home_1.png)
 
@@ -15,21 +15,21 @@ Aspose.3D for .NET è un progetto di libreria di classi che consente alle applic
 
 Lo API è facile da usare e consente di risparmiare tempo e denaro rispetto alla creazione di una soluzione simile da zero.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Risorse Aspose.3D for .NET**
 Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti aver bisogno per svolgere i tuoi compiti.
 
 - [Aspose.3D for .NET Documentazione Online](/3d/it/net/)
 - [Aspose.3D for .NET Caratteristiche](/3d/it/net/)
 - [Aspose.3D for .NET Limitazioni](/3d/it/net/installation/#SystemRequirements)
-- [Aspose.3D for .NET Note di rilascio](/3d/it/net/release-notes/)
+- [Aspose.3D for .NET Note di rilascio](https://releases.aspose.com/3d/net/release-notes/)
 - [Aspose.3D for .NET Pagina del prodotto](https://products.aspose.com/3d/net/)
 - [Installare il pacchetto Aspose.3D for .NET NuGet](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API Guida di riferimento](https://reference.aspose.com/3d/net)
 - [Aspose.3D for .NET Forum di supporto gratuito](https://forum.aspose.com/c/3d/18)
 - [Aspose.3D for .NET Supporto a pagamento Helpdesk](https://helpdesk.aspose.com/)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: immagine_Alt_Testo](home_2.png)
 
@@ -39,7 +39,7 @@ Aspose.3D for Java API è costruito per creare, modificare, manipolare e salvare
 
 Lo API è facile da usare e consente di risparmiare tempo e denaro rispetto alla creazione di una soluzione simile da zero.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Risorse Aspose.3D for Java**
@@ -48,8 +48,9 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 - [Aspose.3D for Java Documentazione Online](/3d/it/java/)
 - [Aspose.3D for Java Caratteristiche](/3d/it/java/product-overview/#rich-features)
 - [Aspose.3D for Java Limitazioni](/3d/it/java/installation#SystemRequirements)
-- [Aspose.3D for Java Note di rilascio](/3d/it/java/release-notes/)
+- [Aspose.3D for Java Note di rilascio](https://releases.aspose.com/3d/java/release-notes/)
 - [Aspose.3D for Java Pagina del prodotto](https://products.aspose.com/3d/java)
+- [Aspose.3D for Java da Aspose Artificale](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
 - [Installare Aspose.3D for Java da Aspose Artificale](/3d/it/java/installation)
 - [Aspose.3D for Java API Guida di riferimento](https://reference.aspose.com/3d/java)
 - [Aspose.3D for Java Forum di supporto gratuito](https://forum.aspose.com/c/3d)
@@ -58,7 +59,7 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 
 
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: immagine_Alt_Testo](/3d/it/python-net/home_1.png)
 
@@ -68,7 +69,7 @@ Aspose.3D per Python via .NET API è costruito per creare, modificare, manipolar
 
 Lo API è facile da usare e consente di risparmiare tempo e denaro rispetto alla creazione di una soluzione simile da zero.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D per Python via .NET Risorse**
@@ -77,13 +78,9 @@ Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti
 - [Aspose.3D per Python via .NET Documentazione online](/3d/it/python-net/)
 - [Aspose.3D per Python via .NET Caratteristiche](/3d/it/python-net/product-overview/#rich-features)
 - [Aspose.3D per Python via .NET Limitazioni](/3d/it/python-net/installation#SystemRequirements)
-- [Aspose.3D per Python via .NET Note di rilascio](/3d/it/python-net/release-notes/)
+- [Aspose.3D per Python via .NET Note di rilascio](https://releases.aspose.com/3d/python-net/release-notes/)
 - [Aspose.3D per Python via .NET Pagina del prodotto](https://products.aspose.com/3d/python-net)
 - [Installare Aspose.3D per Python via .NET da pip](/3d/it/python-net/installation)
 - [Aspose.3D per Python via .NET Guida di riferimento API](https://reference.aspose.com/3d/python-net)
 - [Aspose.3D per Python via .NET Forum di supporto gratuito](https://forum.aspose.com/c/3d)
 - [Aspose.3D per Python via .NET Supporto a pagamento Helpdesk](https://helpdesk.aspose.com/)
-
-
-
-

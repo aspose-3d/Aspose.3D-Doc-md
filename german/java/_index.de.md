@@ -6,7 +6,7 @@ weight: 20
 url: /de/java/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: bild_Alt_Text](home_1)
 
@@ -16,7 +16,7 @@ Aspose.3D for Java API ist gebaut, um 3D Formate zu erstellen, zu bearbeiten, zu
 
 Die API ist benutzer freundlich und spart Zeit und Geld als eine ähnliche Lösung von Grund auf neu zu erstellen.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D for Java Ressourcen**
@@ -25,13 +25,10 @@ Im Folgenden finden Sie die Links zu einigen nützlichen Ressourcen, die Sie mö
 - [Aspose.3D for Java Online-Dokumentation](/3d/de/java/)
 - [Aspose.3D for Java Merkmale](/3d/de/java/product-overview/#productoverview-richfeatures)
 - [Aspose.3D for Java Einschränkungen](/3d/de/java/installation/#installation-systemrequirements)
-- [Aspose.3D for Java Mitteilung hinweise](/3d/de/java/release-notes/)
+- [Aspose.3D for Java Mitteilung hinweise](https://releases.aspose.com/de/3d/java/release-notes/)
 - [Aspose.3D for Java Produkts eite](https://products.aspose.com/3d/java)
+- [Aspose.3D for Java von Aspose artifactory](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
 - [Aspose.3D for Java von Aspose artifactory installieren](/3d/de/java/installation/)
 - [Aspose.3D for Java API Nachschlagewerk](https://reference.aspose.com/3d/java)
 - [Aspose.3D for Java Kostenloses Support-Forum](https://forum.aspose.com/c/3d)
 - [Aspose.3D for Java Bezahlter Support Helpdesk](https://helpdesk.aspose.com/)
-
-
-
-

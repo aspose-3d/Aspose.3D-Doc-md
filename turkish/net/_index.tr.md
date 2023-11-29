@@ -6,7 +6,7 @@ weight: 10
 url: /tr/net/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: görüntü_Alt_Metin](home_1.png)
 
@@ -16,14 +16,14 @@ Aspose.3D for .NET .NET uygulamalarını 3D formatlarına otomatik olarak 076481
 
 The API kullanıcı dostudur ve sıfırdan benzer bir çözüm yaratmaktan zaman ve para tasarrufu sağlar.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D for .NET sources esources**
 Fol., görevlerinizi yerine getirmeniz gereken bazı yararlı kaynakların bağlantılarıdır.
 
 - [Aspose.3D for .NET entation nline entation ocumentation](/3d/tr/net/)
 - [Aspose.3D for .NET tures eatures](/3d/tr/net/product-overview/#productoverview-richfeatures)
 - [Aspose.3D for .NET Ltaklitler](/3d/tr/net/installation/#installation-systemrequirements)
-- [Aspose.3D for .NET lease elease Notes](/3d/tr/net/release-notes/)
+- [Aspose.3D for .NET lease elease Notes](https://releases.aspose.com/tr/3d/net/release-notes/)
 - [Aspose.3D for .NET Product Page](https://products.aspose.com/3d/net/)
 - [Install Aspose.3D for .NET NuGet Package](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API ference eide Guide](https://reference.aspose.com/3d/net)

@@ -5,7 +5,7 @@ description: Aspose.3D API tillåter programmerare att automatiskt ansluta sina 
 weight: 10
 url: /sv/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![TOD:imageName_Av_Text:](home_1.png)
 
@@ -15,21 +15,21 @@ Aspose.3D for .NET är ett klassbiblioteksprojekt som ger befogenhet att ansluta
 
 API är användarvänlig och sparar tid och pengar än att skapa en liknande lösning från grunden.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D for .NET Resurser**
 Följande är länkar till några användbara resurser du kan behöva för att utföra dina uppgifter.
 
 - [Aspose.3D for .NET Dokumentation på nätet](/3d/sv/net/)
 - [Aspose.3D for .NET Egenskaper](/3d/sv/net/)
 - [Aspose.3D for .NET Begränsningar](/3d/sv/net/installation/#SystemRequirements)
-- [Aspose.3D for .NET Utgivning](/3d/sv/net/release-notes/)
+- [Aspose.3D for .NET Utgivning](https://releases.aspose.com/3d/net/release-notes/)
 - [Aspose.3D for .NET Produktsida](https://products.aspose.com/3d/net/)
 - [Installera Aspose.3D for .NET NuGet Paket](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API Referensguider](https://reference.aspose.com/3d/net)
 - [Aspose.3D for .NET Gratis stödforum](https://forum.aspose.com/c/3d/18)
 - [Aspose.3D for .NET Betalda stödhjälpmedel](https://helpdesk.aspose.com/)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![TOD:imageName_Av_Text:](home_2.png)
 
@@ -39,7 +39,7 @@ Aspose.3D for Java API är byggd för att skapa, redigera, manipulera och spara 
 
 API är användarvänlig och sparar tid och pengar än att skapa en liknande lösning från grunden.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D for Java Resurser**
@@ -48,8 +48,9 @@ Följande är länkar till några användbara resurser du kan behöva för att u
 - [Aspose.3D for Java Dokumentation på nätet](/3d/sv/java/)
 - [Aspose.3D for Java Egenskaper](/3d/sv/java/product-overview/#rich-features)
 - [Aspose.3D for Java Begränsningar](/3d/sv/java/installation#SystemRequirements)
-- [Aspose.3D for Java Utgivning](/3d/sv/java/release-notes/)
+- [Aspose.3D for Java Utgivning](https://releases.aspose.com/3d/java/release-notes/)
 - [Aspose.3D for Java Produktsida](https://products.aspose.com/3d/java)
+- [Aspose.3D for Java från Aspose](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
 - [Installera Aspose.3D for Java från Aspose](/3d/sv/java/installation)
 - [Aspose.3D for Java API Referensguider](https://reference.aspose.com/3d/java)
 - [Aspose.3D for Java Gratis stödforum](https://forum.aspose.com/c/3d)
@@ -58,7 +59,7 @@ Följande är länkar till några användbara resurser du kan behöva för att u
 
 
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![TOD:imageName_Av_Text:](/3d/sv/python-net/home_1.png)
 
@@ -68,7 +69,7 @@ Aspose.3D för Python via .NET API är byggd för att skapa, redigera, manipuler
 
 API är användarvänlig och sparar tid och pengar än att skapa en liknande lösning från grunden.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D för Python via .NET Resurser**
@@ -77,13 +78,9 @@ Följande är länkar till några användbara resurser du kan behöva för att u
 - [Aspose.3D för Python via .NET Dokumentation på nätet](/3d/sv/python-net/)
 - [Aspose.3D för Python via .NET Funktioner](/3d/sv/python-net/product-overview/#rich-features)
 - [Aspose.3D för Python via .NET Begränsningar](/3d/sv/python-net/installation#SystemRequirements)
-- [Aspose.3D för Python via .NET Utgivning](/3d/sv/python-net/release-notes/)
+- [Aspose.3D för Python via .NET Utgivning](https://releases.aspose.com/3d/python-net/release-notes/)
 - [Aspose.3D för Python via .NET Produktsidan](https://products.aspose.com/3d/python-net)
 - [Installera Aspose.3D för Python via .NET från pip](/3d/sv/python-net/installation)
 - [Aspose.3D för Python via .NET API Referensguide](https://reference.aspose.com/3d/python-net)
 - [Aspose.3D för Python via .NET Gratis Support Forum](https://forum.aspose.com/c/3d)
 - [Aspose.3D för Python via .NET betalda stödhjälpmedel](https://helpdesk.aspose.com/)
-
-
-
-

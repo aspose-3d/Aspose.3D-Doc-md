@@ -6,7 +6,7 @@ weight: 10
 url: /zh/net/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo: 图像_alt_文本](home_1.png)
 
@@ -16,14 +16,14 @@ Aspose.3D for .NET是一个类库项目，它使.NET应用程序能够自动与3
 
 该API是用户友好的，比从头开始创建类似的解决方案节省时间和金钱。
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D for .NET资源**
 以下是完成任务可能需要的一些有用资源的链接。
 
 - [Aspose.3D for .NET在线文档](/3d/zh/net/)
 - [Aspose.3D for .NET功能](/3d/zh/net/product-overview/#productoverview-richfeatures)
 - [Aspose.3D for .NET限制](/3d/zh/net/installation/#installation-systemrequirements)
-- [Aspose.3D for .NET发行说明](/3d/zh/net/release-notes/)
+- [Aspose.3D for .NET发行说明](https://releases.aspose.com/zh/3d/net/release-notes/)
 - [Aspose.3D for .NET产品页面](https://products.aspose.com/3d/net/)
 - [安装Aspose.3D for .NET NuGet包](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API参考指南](https://reference.aspose.com/3d/net)

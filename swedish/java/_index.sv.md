@@ -6,7 +6,7 @@ weight: 20
 url: /sv/java/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![TOD:imageName_Av_Text:](home_1)
 
@@ -16,7 +16,7 @@ Aspose.3D for Java API är byggd för att skapa, redigera, manipulera och spara 
 
 API är användarvänlig och sparar tid och pengar än att skapa en liknande lösning från grunden.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D for Java Resurser**
@@ -25,13 +25,10 @@ Följande är länkar till några användbara resurser du kan behöva för att u
 - [Aspose.3D for Java Dokumentation på nätet](/3d/sv/java/)
 - [Aspose.3D for Java Egenskaper](/3d/sv/java/product-overview/#productoverview-richfeatures)
 - [Aspose.3D for Java Begränsningar](/3d/sv/java/installation/#installation-systemrequirements)
-- [Aspose.3D for Java Utgivning](/3d/sv/java/release-notes/)
+- [Aspose.3D for Java Utgivning](https://releases.aspose.com/3d/java/release-notes/)
 - [Aspose.3D for Java Produktsida](https://products.aspose.com/3d/java)
+- [Aspose.3D for Java från Aspose](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
 - [Installera Aspose.3D for Java från Aspose](/3d/sv/java/installation/)
 - [Aspose.3D for Java API Referensguider](https://reference.aspose.com/3d/java)
 - [Aspose.3D for Java Gratis stödforum](https://forum.aspose.com/c/3d)
 - [Aspose.3D for Java Betalda stödhjälpmedel](https://helpdesk.aspose.com/)
-
-
-
-
