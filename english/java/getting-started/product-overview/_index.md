@@ -57,6 +57,7 @@ Aspose.3D for Java is designed to perform equally well on the server or client-s
 - 3MF
 - RVM (Text, Binary)
 - ASE
+- USD (USDA, USDC, USDZ)
 - GLB
 ## **Technical Support**
 Aspose gives boundless free specialized support to every one of its APIs. Support is available to all clients, including assessment.

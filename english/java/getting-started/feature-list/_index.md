@@ -11,7 +11,13 @@ description: The feature supported by Aspose.3D for Java
 - Written completely in Java thus works in all Java supported environments
 - Supports Desktop GUI Applications, Web Applications as well as Console Applications.
 - API Reference in JavaDoc format
-- Supports JDK 1.6 - JDK 11
+- Real-time rendering and offscreen rendering <sup>*</sup>.
+- Supports JDK 1.8 - JDK 20
+
+
+
+Note: Renderings are executed using org.lwjgl.vulkan 3.2.1, which necessitates JDK 9 or higher (class version 53), all rendering-related APIs have been removed in the JDK8 version.
+
 ### **Feature Matrix**
 
 |**Features** |` `FBX |` `Collada |` `glTF |` `glTF 2.0 |` `U3D |` `PDF |` `STL |` `OBJ |` `PLY |` `3DS |` `ASE |` `X |` `3MF |` `RVM |` `Draco |

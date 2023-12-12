@@ -26,6 +26,6 @@ Aspose.3D for Java supports any 32-bit or 64-bit operating system that runs the
 ## **Supported Java Versions**
 Aspose.3D for Java supports the following Java versions:
 
-- J2SE 9.0 (1.9+) or above (for example Java 11)
+- J2SE 8 (1.8) or above (for example Java 20)
 
 
