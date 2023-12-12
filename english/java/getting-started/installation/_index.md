@@ -34,7 +34,7 @@ Then define Aspose.3D for Java API dependency in your pom.xml as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>23.11</version>
+        <version>23.11.0</version>
     </dependency>
 
 </dependencies>
@@ -51,7 +51,7 @@ If you're using JDK-8, you can use JDK-8 version as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>23.11</version>
+        <version>23.11.0</version>
         <classifier>jdk8</classifier>
     </dependency>
 
