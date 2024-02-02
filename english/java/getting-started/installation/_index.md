@@ -11,7 +11,7 @@ Aspose hosts all Java APIs on [Aspose Repository](https://releases.aspose.com/j
 
 First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
 
-{{< highlight java >}}
+{{< highlight xml >}}
 
  <repositories>
 
@@ -27,14 +27,32 @@ First you need to specify Aspose Repository configuration / location in your Ma
 
 Then define Aspose.3D for Java API dependency in your pom.xml as follows:
 
-{{< highlight java >}}
+{{< highlight xml >}}
 
  <dependencies>
 
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>21.4</version>
+        <version>23.11.0</version>
+    </dependency>
+
+</dependencies>
+
+{{< /highlight >}}
+
+
+If you're using JDK-8, you can use JDK-8 version as follows:
+
+{{< highlight xml >}}
+
+ <dependencies>
+
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-3d</artifactId>
+        <version>23.11.0</version>
+        <classifier>jdk8</classifier>
     </dependency>
 
 </dependencies>

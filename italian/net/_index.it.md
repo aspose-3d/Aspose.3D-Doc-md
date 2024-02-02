@@ -6,7 +6,7 @@ weight: 10
 url: /it/net/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: immagine_Alt_Testo](home_1.png)
 
@@ -16,14 +16,14 @@ Aspose.3D for .NET è un progetto di libreria di classi che consente alle applic
 
 Lo API è facile da usare e consente di risparmiare tempo e denaro rispetto alla creazione di una soluzione simile da zero.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Risorse Aspose.3D for .NET**
 Di seguito sono riportati i collegamenti ad alcune risorse utili di cui potresti aver bisogno per svolgere i tuoi compiti.
 
 - [Aspose.3D for .NET Documentazione Online](/3d/it/net/)
 - [Aspose.3D for .NET Caratteristiche](/3d/it/net/product-overview/#productoverview-richfeatures)
 - [Aspose.3D for .NET Limitazioni](/3d/it/net/installation/#installation-systemrequirements)
-- [Aspose.3D for .NET Note di rilascio](/3d/it/net/release-notes/)
+- [Aspose.3D for .NET Note di rilascio](https://releases.aspose.com/3d/net/release-notes/)
 - [Aspose.3D for .NET Pagina del prodotto](https://products.aspose.com/3d/net/)
 - [Installare il pacchetto Aspose.3D for .NET NuGet](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API Guida di riferimento](https://reference.aspose.com/3d/net)

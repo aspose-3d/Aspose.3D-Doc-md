@@ -5,7 +5,7 @@ description: Aspose.3D api允许程序员使用3D格式自动连接他们的应�
 weight: 10
 url: /zh/
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo: 图像_alt_文本](home_1.png)
 
@@ -15,21 +15,21 @@ Aspose.3D for .NET是一个类库项目，它使.NET应用程序能够自动与3
 
 该API是用户友好的，比从头开始创建类似的解决方案节省时间和金钱。
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D for .NET资源**
 以下是完成任务可能需要的一些有用资源的链接。
 
 - [Aspose.3D for .NET在线文档](/3d/zh/net/)
 - [Aspose.3D for .NET功能](/3d/zh/net/)
 - [Aspose.3D for .NET限制](/3d/zh/net/installation/#SystemRequirements)
-- [Aspose.3D for .NET发行说明](/3d/zh/net/release-notes/)
+- [Aspose.3D for .NET发行说明](https://releases.aspose.com/zh/3d/net/release-notes/)
 - [Aspose.3D for .NET产品页面](https://products.aspose.com/3d/net/)
 - [安装Aspose.3D for .NET NuGet包](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API参考指南](https://reference.aspose.com/3d/net)
 - [Aspose.3D for .NET免费支持论坛](https://forum.aspose.com/c/3d/18)
 - [Aspose.3D for .NET付费支持服务台](https://helpdesk.aspose.com/)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo: 图像_alt_文本](home_2.png)
 
@@ -39,7 +39,7 @@ Aspose.3D for Java API是为创建、编辑、操作和保存3D格式而构建�
 
 该API是用户友好的，比从头开始创建类似的解决方案节省时间和金钱。
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D for Java资源**
@@ -48,8 +48,9 @@ Aspose.3D for Java API是为创建、编辑、操作和保存3D格式而构建�
 - [Aspose.3D for Java在线文档](/3d/zh/java/)
 - [Aspose.3D for Java功能](/3d/zh/java/product-overview/#rich-features)
 - [Aspose.3D for Java限制](/3d/zh/java/installation#SystemRequirements)
-- [Aspose.3D for Java发行说明](/3d/zh/java/release-notes/)
+- [Aspose.3D for Java发行说明](https://releases.aspose.com/zh/3d/java/release-notes/)
 - [Aspose.3D for Java产品页面](https://products.aspose.com/3d/java)
+- [Artifactory安装Aspose.3D for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
 - [从Aspose Artifactory安装Aspose.3D for Java](/3d/zh/java/installation)
 - [Aspose.3D for Java API参考指南](https://reference.aspose.com/3d/java)
 - [Aspose.3D for Java免费支持论坛](https://forum.aspose.com/c/3d)
@@ -58,7 +59,7 @@ Aspose.3D for Java API是为创建、编辑、操作和保存3D格式而构建�
 
 
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![todo: 图像_alt_文本](/3d/zh/python-net/home_1.png)
 
@@ -68,7 +69,7 @@ Python via .NET API的Aspose.3D是为创建、编辑、操作和保存3D格式�
 
 该API是用户友好的，比从头开始创建类似的解决方案节省时间和金钱。
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## **Aspose.3D Python via .NET资源**
@@ -77,13 +78,9 @@ Python via .NET API的Aspose.3D是为创建、编辑、操作和保存3D格式�
 - [Aspose.3D Python via .NET在线文档](/3d/zh/python-net/)
 - [Aspose.3D Python via .NET功能](/3d/zh/python-net/product-overview/#rich-features)
 - [Aspose.3D Python via .NET限制](/3d/zh/python-net/installation#SystemRequirements)
-- [Aspose.3D Python via .NET发行说明](/3d/zh/python-net/release-notes/)
+- [Aspose.3D Python via .NET发行说明](https://releases.aspose.com/zh/3d/python-net/release-notes/)
 - [Aspose.3D Python via .NET产品页面](https://products.aspose.com/3d/python-net)
 - [从pip安装Python via .NET Aspose.3D](/3d/zh/python-net/installation)
 - [Aspose.3D Python via .NET API参考指南](https://reference.aspose.com/3d/python-net)
 - [Aspose.3D为Python via .NET免费支持论坛](https://forum.aspose.com/c/3d)
 - [Aspose.3D Python via .NET付费支持服务台](https://helpdesk.aspose.com/)
-
-
-
-

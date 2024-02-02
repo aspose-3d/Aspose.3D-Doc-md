@@ -6,7 +6,7 @@ weight: 10
 url: /ar/net/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![تودو: الصورة_البديل_نص](home_1.png)
 
@@ -16,14 +16,14 @@ Aspose.3D for .NET هو مشروع مكتبة فئة التي تمكن .NET ال
 
 The API هو سهل الاستخدام ويوفر الوقت والمال من إنشاء حل مماثل من الصفر.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D for .NET Resources**
 Following هي الروابط إلى بعض الموارد المفيدة التي قد تحتاج إليها لإنجاز المهام الخاصة بك.
 
 - [Aspose.3D for .NET Online التسوية](/3d/ar/net/)
 - [Aspose.3D for .NET الرسوم المتحركة](/3d/ar/net/product-overview/#productoverview-richfeatures)
 - [Aspose.3D for .NET تقليد](/3d/ar/net/installation/#installation-systemrequirements)
-- [Aspose.3D for .NET tes elease ootes](/3d/ar/net/release-notes/)
+- [Aspose.3D for .NET tes elease ootes](https://releases.aspose.com/3d/net/release-notes/)
 - [Aspose.3D for .NET سن الدوران](https://products.aspose.com/3d/net/)
 - [Install Aspose.3D for .NET NuGet ackackage](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D for .NET API ference etvl Guide](https://reference.aspose.com/3d/net)

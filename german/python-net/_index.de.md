@@ -6,7 +6,7 @@ weight: 30
 url: /de/python-net/
 is_root: true
 ---
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Todo: bild_Alt_Text](home_1.png)
 
@@ -16,14 +16,14 @@ Aspose.3D für Python via .NET ist ein Klassen bibliotheks projekt, das es Ihren
 
 Die API ist benutzer freundlich und spart Zeit und Geld als eine ähnliche Lösung von Grund auf neu zu erstellen.
 
-{{% /alert %}} 
+{{% /alert %}}
 ## **Aspose.3D für Ressourcen Python via .NET**
 Im Folgenden finden Sie die Links zu einigen nützlichen Ressourcen, die Sie möglicher weise benötigen, um Ihre Aufgaben zu erfüllen.
 
 - [Aspose.3D für Python via .NET Online-Dokumentation](/3d/de/python-net/)
 - [Aspose.3D für Python via .NET Merkmale](/3d/de/python-net/product-overview/#productoverview-richfeatures)
 - [Aspose.3D für Python via .NET Einschränkungen](/3d/de/python-net/installation/#installation-systemrequirements)
-- [Aspose.3D für Python via .NET Release Notes](/3d/de/python-net/release-notes/)
+- [Aspose.3D für Python via .NET Release Notes](https://releases.aspose.com/de/3d/python-net/release-notes/)
 - [Aspose.3D für Python via .NET Produkts eite](https://products.aspose.com/3d/python-net/)
 - [Aspose.3D für Python via .NET NuGet Paket installieren](https://www.nuget.org/packages/Aspose.3D/)
 - [Aspose.3D für Python via .NET API Referenz handbuch](https://reference.aspose.com/3d/net)
