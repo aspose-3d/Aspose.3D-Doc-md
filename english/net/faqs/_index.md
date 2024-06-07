@@ -12,3 +12,7 @@ description: Frequently asked questions about Aspose.3D for .net.
 **A**: The FBX format doesn’t allow you to access the properties of the root node, so the animation will not work.
 #### **Q: Why I changed the asset info on scene, and try to import the generated FBX file to 3ds max, those information were all lost?**
 **A**: 3Ds MAX or some other softwares can only import FBX file, but not open the FBX file, that means it allows you to import multiple FBX inside one scene, if the asset info can be applied to the current scene, then your original scene info may be overwritten by importing, so that’s 3Ds MAX’s design policy to not import the scene’s asset info.
+
+
+#### **Q: A node consists of multiple meshes (for the glass, the frame, etc). All those meshes are in the entity list of the node. How to add a material to all of those nodes (the material is just the color)?**
+**A**: The best solution should create sub nodes for each mesh, and assign different material to each sub node.

@@ -31,12 +31,16 @@ Using Aspose.3D API, developers can load all the supported 3D documents. The ava
 1. FBX 7.4 (ASCII, Binary)
 1. FBX 7.3 (ASCII, Binary)
 1. FBX 7.2 (ASCII, Binary)
+1. FBX 6.1 (ASCII, Binary)
 1. STL (ASCII, Binary)
 1. WavefrontOBJ
 1. Discreet3DS
 1. Universal3D
 1. Collada
-1. glTF
+1. glTF (ASCII, Binary)
+1. Maya (ASCII, Binary)
+1. OpenUSD  (USD, USDZ)
+1. Blender
 1. DXF
 1. PLY (ASCII, Binary)
 1. X (ASCII, Binary)

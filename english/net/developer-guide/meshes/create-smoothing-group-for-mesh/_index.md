@@ -1,7 +1,7 @@
 ---
 title: Create smoothing group for mesh
 type: docs
-weight: 70
+weight: 16
 url: /net/create-smoothing-group-for-mesh/
 description: Using Aspose.3D for .NET, developers can create smoothing group for mesh.
 ---
