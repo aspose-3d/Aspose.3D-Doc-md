@@ -1,7 +1,7 @@
 ---
 title: Create Polygon In Mesh
 type: docs
-weight: 40
+weight: 14
 url: /net/create-polygon-in-mesh/
 description: Aspose.3D for .NET allows creating a polygon in a mesh. In order to use the functionality, the API offers CreatePolygon method of Mesh class. 
 ---

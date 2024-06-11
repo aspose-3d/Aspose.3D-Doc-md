@@ -31,14 +31,13 @@ GLTFSaveOptions opt = new GLTFSaveOptions(FileFormat.GLTF2);
 
 //Custom material converter to convert PhongMaterial to PbrMaterial
 
-opt.MaterialConverter = delegate(Material material)
-
-{
-
-    PhongMaterial m = (PhongMaterial) material;
-
-    return new PbrMaterial() {Albedo = new Vector3(m.DiffuseColor.x, m.DiffuseColor.y, m.DiffuseColor.z)};
-
+opt.MaterialConverter = (Material material) => {
+    var pbr = PbrMaterial.FromMaterial(material);
+    //customize your own PBR material here, you can get the original OBJ's material from the parameter mat.
+    //to create a compatible material with obj2gltf, use following definition:
+    pbr.MetallicFactor = 0;
+    pbr.RoughnessFactor = 0.98;
+    return pbr;
 };
 
 // save in GLTF 2.0 format
@@ -46,3 +45,8 @@ opt.MaterialConverter = delegate(Material material)
 s.Save("test.gltf", opt);
 
 {{< /highlight >}}
+
+
+## **Resources**
+
+1. [Online Tutorial](https://products.aspose.com/3d/tutorial/use-phong-material-to-pbr-material/)

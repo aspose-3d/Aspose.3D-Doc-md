@@ -1,7 +1,7 @@
 ---
 title: Convert all Polygons to Triangles in 3D Model
 type: docs
-weight: 10
+weight: 50
 url: /net/convert-all-polygons-to-triangles-in-3d-model/
 description: Using Aspose.3D for .NET API, developers can convert all polygons to triangles in any supported 3D file.
 ---
