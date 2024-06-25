@@ -1,38 +1,44 @@
-﻿---
+---
 title: Funktionslista
 type: docs
 weight: 30
 url: /sv/java/feature-list/
 description: Funktionen som stöds av Aspose.3D for Java
 ---
-## **Aspose.3D Egenskaper**
-### **Allmänna egenskaper**
-- Skrivet helt i Java fungerar alltså i alla Java stödda miljöer
+##  **Aspose.3D Funktioner**
+###  **Allmänna egenskaper**
+- Skriven helt i Java fungerar så i alla Java omgivningar som stöds
 - Stöder skrivbordsgränssnittsprogram, webbapplikationer och konsolprogram.
 - API Referens i JavaDoc-format
-- Stöder JDK 1.6 - JDK 11
-### **Funktionsmatris**
+- Realtids rendering och utanför skärmen återgivning<sup>*</sup>.
+- Stöder JDK 1.8 - JDK 20.
 
-|**Egenskaper** |` `FBX1|` `Collada1|` `glTF1|` `glTF 2,0|` `U3D1|` `PDF1|` `STL1|` `OBJ1|` `PLY1|` `3DS1|` `ASE1|` `X|` `3MF1|` `RVM1|` `Draco1|
-|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-|` `Lambert Material|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||
-|` `Fongmaterial|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||
-|` `Shaderbaserat material.|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|||||||||||||
-|` `PBR Material||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||||
-|` `PBR Specifika material||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||||
-|` `Diffus|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|||
-|` `Avancerad textur|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||
-|` `Polygonmaskor|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||
-|` ` Triangelbaserade maskor|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|
-|` `Vertexämnen|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|
-|` `NURBS geometrier|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|||||||||||||||
-|` `Parameteriserade geometrier||||||||||||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||
-|` `Lokal omvandling|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||
-|` `Instans|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||
-|` `Scenegraf|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||
-|` `Anpassad egenskap|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||||
-|` `Skelett|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||||||
-|` `Morf deformerare|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||||||
-|` `Property animation|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||||||||||||
-|` `Mesh-kompression|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|||||||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>||<p>![TOD:imageName_Av_Text:](accept.png)</p><p> </p>|
+
+
+Obs: Renderingar utförs med hjälp av org. Lwjgl. vulkan 3.2.1, vilket kräver JDK 9 eller högre (klassversion 53), alla renderingsrelaterade API har tagits bort i JDK8-versionen. ..
+
+###  **Funktionsmatris**
+
+|**Egenskaper** |` `FBX |` `Collada |` `glTF |` `glTF 2.0 |` `U3D |` `PDF |` `STL |` `OBJ |` `PLY |` `3DS |` `ASE |` `X|` `3MF |` `RVM |` `Draco |
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|` `Lambert MaterialComment|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |
+|` ` Phong|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |
+|` ` Material baserat på skådarer|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | |
+|` `PBR- material:| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | |
+|` `PBR Specifikat| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | |
+|` `Diffuse texturComment|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | |
+|` `Avancerad texturName|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | |
+|` `Polygon mashes|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
+|` ` Triangle-baserade mashes|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|
+|` ` Vertex elementer|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|
+|` `NURBS geometries |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | | |
+|` `Parameterized geometries| | | | | | | | | | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
+|` `Lokal transformation|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
+|` `Instantering|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | |
+|` ` Scene graf|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
+|` `Centifierad egenskap|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | |
+|` `Skelett|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | |
+|` `Morph deformare|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | |
+|` ` Innehållsansvarig|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | |
+|` ` Meesh komprimering|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|
 

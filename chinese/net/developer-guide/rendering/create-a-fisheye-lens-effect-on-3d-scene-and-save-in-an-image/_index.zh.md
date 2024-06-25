@@ -1,19 +1,19 @@
-﻿---
-title: 在3D场景上创建一个鱼眼镜头效果并保存在图像中
+---
+title: 在 3D 场景上创建鱼眼镜头效果并保存在图像中
 type: docs
 weight: 20
 url: /zh/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: 使用Aspose.3D for .NET API，开发人员可以在3D场景上创建鱼眼镜头效果，并将该视图保存为支持的图像格式。
+description: 使用 Aspose.3D for .NET API，开发人员可以在 3D 场景上创建鱼眼镜头效果，并将该视图保存为支持的图像格式。
 ---
 {{% alert color="primary" %}}
 
-使用[Aspose.3D for .NET API](https://products.aspose.com/3d/net/),开发人员可以在3D场景上创建鱼眼镜头效果，并将该视图保存为支持的图像格式。
+使用 [Aspose.3D for .NET API](https://products.aspose.com/3d/net/)，开发人员可以在 3D 场景上创建鱼眼镜头效果，并将该视图保存为支持的图像格式。
 
 {{% /alert %}}
-## **打造鱼眼镜头效果**
-在本文中，我们创建一个相机和两个光对象来捕获场景，还创建一个渲染目标，创建一个视口，并以多维数据集贴图作为输入执行鱼眼投影后处理，最后保存鱼眼纹理。`Renderer`类的`Execute`方法允许执行后处理效果并将结果保存到render target。
-### **编程示例**
-此代码示例在3D场景上创建一个鱼眼镜头效果，并保存为图像格式。
+##  **打造鱼眼镜头效果**
+在本文中，我们创建了一个摄像机和两个灯光对象来捕获场景，还创建了一个渲染目标，创建了一个视口，并以立方体贴图作为输入执行了鱼眼投影后处理，最后保存了鱼眼纹理。`Renderer` 类的 `Execute` 方法允许执行后处理效果并将结果保存到呈现目标。
+###  **编程示例**
+此代码示例在 3D 场景上创建鱼眼镜头效果并保存为图像格式。
 
 **C#**
 

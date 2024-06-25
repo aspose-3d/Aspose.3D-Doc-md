@@ -1,4 +1,4 @@
-﻿---
+---
 title: 开始
 type: docs
 weight: 10

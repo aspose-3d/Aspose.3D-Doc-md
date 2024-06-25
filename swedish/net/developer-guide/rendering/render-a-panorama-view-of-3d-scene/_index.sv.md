@@ -1,19 +1,19 @@
-﻿---
-title: Rendera en Panorama vy av 3D scena
+---
+title: Gör en panoramavy för 3D.
 type: docs
 weight: 60
 url: /sv/net/render-a-panorama-view-of-3d-scene/
-description: Med Aspose.3D for .NET API, utvecklare kan ge en panoramavy av 3D scen och spara den vyn i de bildformat som stöds.
+description: Använder Aspose. 3D for .NET API, Utvecklare kan ge en panoramavy av 3D-scenen och spara den vyn i de bildformat som stöds.
 ---
 {{% alert color="primary" %}}
 
-Användning[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Kan utvecklare återge en panoramavy av 3D scen och spara den vyn i de bildformat som stöds.
+Med [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) kan utvecklare visa en panoramavy av 3D-scenen och spara den i de bildformat som stöds.
 
 {{% /alert %}}
-## **Skapa en panoramavy**
-I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga scenen, också skapa en rendering mål, skapa en visningsport och kör den ekvattangulära projektionen efterbehandling med kubenkartan som inmatning och slutligen spara Panen Orama konsistens. `Execute`-metoden `Renderer`-klass gör det möjligt att utföra efterbehandlingseffekten och spara resultatet för att göra mål.
-### **Programmeringsprova**
-Detta kodexempel ger en Panorama vy av 3D scen och spara i bildformatet.
+##  **Skapa en panoramavy**
+I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga scenen, också skapa en rendering mål, skapa en visningsport och kör den ekvattangulära projektionen efterbehandling med kubenkartan som inmatning och slutligen spara Panen Orama konsistens. `Execute`-metoden för `Renderer`-klassen gör det möjligt att köra efterbehandlingseffekten och spara resultatet för att visa målet.
+###  **Programmeringsprova**
+Det här kodexemplet visar en panoramavy av 3D och spara i bildformatet.
 
 **C#**
 

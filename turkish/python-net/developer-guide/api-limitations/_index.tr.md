@@ -1,9 +1,9 @@
-﻿---
-title: API imitaklitler
+---
+title: API sınırlamalar
 type: docs
 weight: 160
 url: /tr/python-net/api-limitations/
-description: Pvalues cation pplication ve Producer alanlarına karşı değerleri ayarlayamazsınız, çünkü Aspose Ltd. ve Aspose.3D .NET x.x bu alanlara karşı görüntülenecektir.
+description: Please note that you cannot set values against the Application and Producer fields, because Aspose Ltd. and Aspose.3D .NET x.x.x will be displayed against these fields.
 ---
-## **3D model yaratıcısı bilgisi**
-- Pdeğerleri `Application` ve `Producer` alanlarına göre ayarlayamazsınız, çünkü Aspose Ltd. ve Aspose.3D 076. 481 x.x bu alanlara karşı görüntülenecektir.
+##  **3D model yaratıcısı bilgisi**
+- `Application` ve `Producer` alanlarına karşı değerleri ayarlayamazsınız, çünkü Aspose ltd ve Aspose.3D .NET x.x.x bu alanlara karşı görüntülenecektir.

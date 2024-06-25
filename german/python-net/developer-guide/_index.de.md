@@ -1,4 +1,4 @@
-﻿---
+---
 title: Entwickler handbuch
 type: docs
 weight: 20

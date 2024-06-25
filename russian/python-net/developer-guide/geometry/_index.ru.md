@@ -1,7 +1,7 @@
-﻿---
-title: Геометрия
+---
+title: Geometry
 type: docs
 weight: 30
 url: /ru/python-net/geometry/
-description: Статьи о геометрии 3D в Aspose.3D для 0761234881.
+description: Статьи о 3D геометрии в Aspose.3D for Python via .NET.
 ---

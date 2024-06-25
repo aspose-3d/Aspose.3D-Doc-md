@@ -1,82 +1,83 @@
-﻿---
+---
 title: Roرودوكت Oفيرفيو
 type: docs
 weight: 10
 url: /ar/java/product-overview/
-description: Aspose.3D for Java API بنيت لإنشاء وتحرير والتلاعب وحفظ الأشكال 3D. It تمكن Java التطبيقات للاتصال مع وثائق 3D دون تثبيت أي حزمة البرمجيات على الكمبيوتر. Aspose.3D for Java API مساعدة المطورين على نموذج وخلق عوالم هائلة في الألعاب ، مشاهد رائعة للتصور التصميم ، وإشراك تجارب الواقع الافتراضي.
+description: Aspose.3D for Java API مُصمم لإنشاء تنسيقات 3D وتحريرها ومعالجتها وحفظها. إنها تمكن تطبيقات Java من الاتصال بمستندات 3D دون تثبيت أي حزمة برامج على الكمبيوتر. Aspose.3D for Java API مساعدة المطورين على نمذجة وإنشاء عوالم ضخمة في الألعاب ، ومشاهد رائعة لتصميم التصور ، والمشاركة في تجارب الواقع الافتراضي.
 ---
 {{% alert color="primary" %}} 
 
-![تودو: الصورة_البديل_نص](product-overview_1)
+! [Todo: image_ altttext](product-overview_1)
 
-**Welcome إلى قسم الوثائق Aspose.3D for Java**
+**مرحبًا بكم في قسم التوثيق Aspose.3D for Java**
 
-Aspose.3D for Java API بنيت لإنشاء وتحرير والتلاعب وحفظ الأشكال 3D. It تمكن Java التطبيقات للاتصال مع وثائق 3D دون تثبيت أي حزمة البرمجيات على الكمبيوتر. Aspose.3D for Java API مساعدة المطورين على نموذج وخلق عوالم هائلة في الألعاب ، مشاهد رائعة للتصور التصميم ، وإشراك تجارب الواقع الافتراضي.
+Aspose.3D for Java API مُصمم لإنشاء تنسيقات 3D وتحريرها ومعالجتها وحفظها. إنها تمكن تطبيقات Java من الاتصال بمستندات 3D دون تثبيت أي حزمة برامج على الكمبيوتر. Aspose.3D for Java API مساعدة المطورين على نمذجة وإنشاء عوالم ضخمة في الألعاب ، ومشاهد رائعة لتصميم التصور ، والمشاركة في تجارب الواقع الافتراضي.
 
-The API هو سهل الاستخدام ويوفر الوقت والمال من إنشاء حل مماثل من الصفر.
+إن API سهل الاستخدام ويوفر الوقت والمال بدلاً من إنشاء حل مماثل من الصفر.
 
 {{% /alert %}} 
-## **Bene**
-Using Aspose.3D for Java في التطبيقات الخاصة بك يمنحك الفوائد التالية:
+##  **Bene**
+باستخدام Aspose. يمنحك 3D for Java في تطبيقاتك المزايا التالية:
 
 - ميزات Rich.
 - Ererformance و calالتقويم.
-- Supported 3D File ororماتس
-### **Atures ich الرسوم المتحركة**
-Aspose.3D يقدم مجموعة واسعة من الميزات لإنشاء والقراءة والتلاعب وتوفير وثائق 3D:
+- تنسيقات الملفات المدعومة 3D
+###  **Atures ich الرسوم المتحركة**
+Aspose. يقدم 3D مجموعة واسعة من الميزات لإنشاء مستندات 3D وقراءتها ومعالجتها وتوفير لها:
 
-- Build شبكة من مختلف 3D الأشكال الهندسية
-- Create وثيقة المشهد 3D
+- بناء شبكة بأشكال هندسية متنوعة 3D
+- إنشاء مستند مشهد 3D
 - Set up الطبيعية أو normV على Cube
-- عناصر orormat باستخدام 3D
+- عناصر التنسيق باستخدام تحويلات 3D
 - بيانات هندسة are hare esh sh بين العقد المتعددة
-- Property dd nimnimation الملكية إلى 3D وثيقة المشهد
-### **Performance و calالتقويم**
-Aspose.3D for Java مصمم لأداء جيد على قدم المساواة على الخادم أو جانب العميل. It هو مجموعة واحدة Java التي يمكن نشرها مع أي تطبيق Java ببساطة عن طريق إضافة مرجع. لا داعي للقلق بشأن الخدمات أو الوحدات الأخرى.
-### **Supported 3D File ororماتس**
+- إضافة خاصية الرسوم المتحركة إلى مستند مشهد 3D
+###  **Performance و calالتقويم**
+Aspose.3D for Java مصمم لأداء جيد على قدم المساواة على الخادم أو جانب العميل. إنه تجميع واحد Java يمكن نشره مع أي تطبيق Java عن طريق إضافة مرجع ببساطة. لا داعي للقلق بشأن الخدمات أو الوحدات الأخرى.
+###  **تنسيقات الملفات المدعومة 3D**
 - FBX 7.5 ASCII
-- FBX 7.5 Bبولي
+- ثنائي FBX 7.5
 - FBX 7.4 ASCII
-- FBX 7.4 Bالبولي
+- ثنائي FBX 7.4
 - FBX 7.3 ASCII
-- FBX 7.3 البولي يوريثين
+- ثنائي FBX 7.3
 - FBX 7.2 ASCII
-- FBX 7.2 Bبولي
-- STL (ASCII ، البولي يوريثين)
+- ثنائي FBX 7.2
+- STL (ASCII, Binary)
 - WavefrontOBJ
 - Discreet3DS
 - Universal3D
-- COLLDA A
+- COLLADA
 - glTF
 - DXF
-- PLY (ASCII ، البولي يوريثين)
-- X (ASCII ، البولي inary)
+- PLY (ASCII, Binary)
+- X (ASCI I ، inary inary)
 - Draco
-- GLTF 2.0 (ASCII ، البولي يوريثين)
+- GLTF 2.0 (ASCII ، ثنائي)
 - 3MF
-- RVM (Text ، البولي inary)
+- RVM (Text, Binary)
 - ASE
+- USD (USDA, USDC, USDZ)
 - GLB
-## **Technical upupport**
-Aspose يعطي دعم متخصص مجاني لا حدود له لكل واحد من APIs. Support متاح لجميع العملاء ، بما في ذلك التقييم.
+##  **Technical upupport**
+يوفر Aspose دعمًا متخصصًا مجانيًا بلا حدود لكل واحد من APIs الخاص به. يتوفر الدعم لجميع العملاء ، بما في ذلك التقييم.
 
-If تحتاج إلى مساعدة من Aspose.3D for Java API ،[**قم بزيارة Aspose.Forums**](https://forum.aspose.com/). Pالإيجار آخر سؤالك في منتدى الأسرة Aspose.3D وسيتم الرد عليه في غضون ساعات قليلة. Tيتم الرد على الأسئلة مباشرة من قبل خبراء Aspose.3D for Java API. Hen hen تتوقع ردا في المنتديات ، يرجى السماح differences المنطقة الزمنية.
+إذا كنت بحاجة إلى مساعدة من Aspose.3D for Java API ، [**قم بزيارة Aspose. المنتديات**](https://forum.aspose.com/). يرجى نشر سؤالك في منتدى العائلة Aspose.3D وسيتم الرد عليه في غضون ساعات قليلة. يتم الرد على الأسئلة مباشرة من قبل Aspose.3D for Java API. عند انتظار رد في المنتديات ، يرجى السماح باختلاف المنطقة الزمنية.
 
-If لديك مشكلة مع Aspose.3D for Java ، اتبع هذه الخطوات البسيطة للتأكد من حلها بالطريقة الأكثر كفاءة:
+إذا كانت لديك مشكلة مع Aspose.3D for Java ، فاتبع هذه الخطوات البسيطة للتأكد من حلها بأكثر الطرق كفاءة:
 
-- تأكد من استخدام أحدث إصدار من Aspose.3D for Java API قبل الإبلاغ عن المشكلة. Refer إلى[Aspose.3D for Java تحميل الصفحة](https://repository.aspose.com/repo/com/aspose/aspose-3d/)لمعرفة أحدث إصدار.
-- Hافي نظرة من خلال[المنتدى](https://forum.aspose.com/c/3d), [هذه الوثائق Wiki](/3d/ar/java/)كلمات بمعنى: و[API محيط](https://reference.aspose.com/3d/java)مستندات للحلول قبل الإبلاغ عن المسألة. Yسؤالنا قد يكون بالفعل إجابة.
-- When الإبلاغ عن مشكلة ، يرجى تضمين الوثيقة الأصلية وربما جزء من التعليمات البرمجية التي تسبب المشكلة. If تحتاج إلى إرفاق ملفات متعددة ، الرمز البريدي لهم في واحد. It آمن لإرفاق المستندات الخاصة بك في المنتديات Aspose لأنك فقط و Aspose الموظفين سوف تكون قادرة على الوصول إلى المرفقات.
+- تأكد من استخدام أحدث إصدار من Aspose.3D for Java API قبل الإبلاغ عن المشكلة. راجع [Aspose.3D for Java صفحة تنزيل](https://repository.aspose.com/repo/com/aspose/aspose-3d/) للتعرف على أحدث إصدار.
+- يمكنك الاطلاع على مستندات [المنتدى](https://forum.aspose.com/c/3d) و [هذه الوثائق Wiki](/3d/ar/java/) و [مرجع API](https://reference.aspose.com/3d/java) للحصول على حلول قبل الإبلاغ عن المشكلة. قد يكون لسؤالك إجابة بالفعل.
+- عند الإبلاغ عن مشكلة ، يرجى تضمين المستند الأصلي وربما جزء من الرمز الذي يسبب المشكلة. إذا كنت بحاجة إلى إرفاق ملفات متعددة ، فاضغط عليها في واحد. من الآمن إرفاق مستنداتك في منتديات Aspose لأن فقط أنت وموظفو Aspose سيتمكنون من الوصول إلى المرفقات.
 - Pالإيجار محاولة الإبلاغ عن قضية واحدة لكل موضوع. If لديك مشكلة أخرى ، الإبلاغ عنها في موضوع منفصل.
-## **Resources**
-Tجدوله قوائم مهمة Aspose.3D for Java الموارد التقنية.
+##  **Resources**
+يسرد هذا الجدول Aspose مهمة. 3D for Java موارد تقنية.
 
 |**Resource**|**نقل D**|
-|:- |:- |
-|[Aspose.3D سن Pالمنزل](https://products.aspose.com/3d/java/)|Roرودوكت الصفحة الرئيسية.|
-|[Aspose.3D مدونة](https://blog.aspose.com/category/3d/)|Cهيك هذا في كثير من الأحيان للحصول على معلومات حول الإصدارات الجديدة ونصائح مفيدة حول Aspose.3D.|
-|[Aspose.3D for Java تحميل](https://repository.aspose.com/repo/com/aspose/aspose-3d/)|تحميل أحدث إصدار من Aspose.3D من هنا. We الافراج في كثير من الأحيان.|
-|[Aspose.3D for Java دعم المنتدى](https://forum.aspose.com/c/3d/18)|ملاحظة أسئلتكم وقضاياكم هنا من أجل حل سريع.|
-|[Aspose.3D for Java وثائق المنتج](/3d/ar/java/)|Full الوثائق عبر الإنترنت التي تتضمن هذه الوثائق وكذلك Aspose.3D API ference etvl.|
-|[Aspose.3D for Java xxambbs و lulugins](https://github.com/aspose-3d/Aspose.3D-for-Java)|Tمستودع له يحتوي على C# roxample roروكيت ل Aspose.3D for Java.|
+| :- | :- |
+|[Aspose.3D الصفحة الرئيسية](https://products.aspose.com/3d/java/)|Roرودوكت الصفحة الرئيسية.|
+|[Aspose.3D blog](https://blog.aspose.com/category/3d/)|تحقق من هذا كثيرًا للحصول على معلومات عن الإصدارات الجديدة ونصائح مفيدة حول Aspose.3D.|
+|[Aspose.3D for Java تنزيل](https://repository.aspose.com/repo/com/aspose/aspose-3d/)|قم بتنزيل أحدث إصدار من Aspose.3D من هنا. نحن الإفراج في كثير من الأحيان.|
+|[Aspose.3D for Java يدعم المنتدى](https://forum.aspose.com/c/3d/18)|ملاحظة أسئلتكم وقضاياكم هنا من أجل حل سريع.|
+|[Aspose.3D for Java وثائق المنتج](/3d/ar/java/)|مستندات كاملة عبر الإنترنت تتضمن هذه الوثائق بالإضافة إلى Aspose. مرجع 3D API.|
+|[Aspose.3D for Java أمثلة وإضافات](https://github.com/aspose-3d/Aspose.3D-for-Java)|This repository contains C# Example Projects for Aspose.3D for Java.|
 

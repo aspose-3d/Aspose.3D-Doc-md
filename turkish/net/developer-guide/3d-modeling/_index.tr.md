@@ -1,7 +1,7 @@
-﻿---
-title: 3D Modeling
+---
+title: 3D modelleme
 type: docs
 weight: 70
 url: /tr/net/3d-modeling/
-description: Aspose.3D for .NET modelinde yaklaşık 3D modellemesi.
+description: Articles about 3D procedural modeling in Aspose.3D for .NET.
 ---

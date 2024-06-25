@@ -1,16 +1,16 @@
-﻿---
-title: Save 3D hes في Custom inary البولي orormat
+---
+title: وفِّر 3D شبكات بتنسيق ثنائي مخصص
 type: docs
 weight: 30
 url: /ar/java/save-3d-meshes-in-custom-binary-format/
-description: Aspose.3D for Java API لديه دعم لفتح أي مستند معتمد 3D ، ومن ثم كتابة تنسجم في الملف الثنائي.
+description: Aspose.3D for Java API يدعم فتح أي مستند 3D مدعوم ، ثم اكتب الشبكات في الملف الثنائي.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D for Java API لديه دعم لفتح أي مستند معتمد 3D ، ومن ثم كتابة تنسجم في الملف الثنائي.
+Aspose.3D for Java API يدعم فتح أي مستند 3D مدعوم ، ثم اكتب الشبكات في الملف الثنائي.
 
 {{% /alert %}} 
-## **Load 3D ile ile و rrite hes تنسجم في Custom inary البولي orormat roالروغرامينغ ple وافرة**
-طريقة ccسيبت يتعرض من قبل عضو ode ooootNفي الطبقة `Scene` يسمح لزيارة كل عقدة فرعية. Tانه رمز قنص أدناه يسمح لتحويل تنسجم فقط.
+##  **قم بتحميل ملف 3D وكتابة الشبكات في عينة برمجة ثنائية التنسيق مخصصة**
+تقبل الطريقة التي كشفها عضو RootNode في فئة `Scene` تسمح بزيارة كل عقدة فرعية. يسمح مقتطف الرمز أدناه بتحويل الشبكات فقط.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-modeling-Save3DMeshesInCustomBinaryFormat.java" >}}

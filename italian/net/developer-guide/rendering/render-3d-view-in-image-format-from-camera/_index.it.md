@@ -1,5 +1,5 @@
-﻿---
-title: Render 3D Visualizza in formato immagine dalla fotocamera
+---
+title: Visualizza 3D in formato immagine dalla fotocamera
 type: docs
 weight: 50
 url: /it/net/render-3d-view-in-image-format-from-camera/
@@ -7,12 +7,12 @@ description: Utilizzando Aspose.3D for .NET, gli sviluppatori possono eseguire i
 ---
 {{% alert color="primary" %}}
 
-Utilizzo[Aspose.3D for .NET](https://products.aspose.com/3d/net/), Gli sviluppatori possono rendere un'immagine per visualizzare un'immagine realistica del modello 3D, con o senza lo sfondo, le trame e le ombre migliorate e anche regolare la dimensione dell'immagine.
+Utilizzando [Aspose.3D for .NET](https://products.aspose.com/3d/net/), gli sviluppatori possono eseguire il rendering di un'immagine per visualizzare un'immagine realistica del modello 3D, con o senza lo sfondo, le trame e le ombre migliorate e anche regolare le dimensioni dell'immagine.
 
 {{% /alert %}}
-## **Scatta una foto del modello 3D dalla fotocamera**
-Il metodo `Render` esposto dalla classe [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) può essere utilizzato per scattare una foto dalla fotocamera attiva. Gli sviluppatori possono anche utilizzare diversi modi per navigare e posizionare la telecamera nella scena. In questo esempio di codice, creiamo una telecamera in posizione (10,10,10) in una scena 3D esistente e guardiamo il punto di origine per il rendering.
-### **Campione di programmazione**
-Questo esempio di codice crea una fotocamera in una scena 3D, ne imposta l'obiettivo e rende un'immagine.
+##  **Scatta una foto del modello 3D dalla fotocamera**
+Il metodo `Render` esposto dalla classe [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) può essere utilizzato per scattare una foto dalla fotocamera attiva. Gli sviluppatori possono anche utilizzare diversi modi per navigare e posizionare la telecamera nella scena. In questo esempio di codice, creiamo una fotocamera in posizione (10,10,10) in una scena esistente di 3D e guardiamo il punto di origine per il rendering.
+###  **Campione di programmazione**
+Questo esempio di codice crea una fotocamera in una scena 3D, imposta la sua destinazione e rende un'immagine.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Rendering-Render3DModelImageFromCamera-Render3DModelImageFromCamera.cs" >}}

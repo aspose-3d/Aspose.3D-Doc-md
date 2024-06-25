@@ -1,18 +1,18 @@
-﻿---
-title: Render 3D Scena con modalità Panorama in profondità
+---
+title: Render 3D scena con la modalità Panorama in profondità
 type: docs
 weight: 40
 url: /it/net/render-3d-scene-with-panorama-mode-in-depth/
-description: Utilizzando Aspose.3D for .NET API, gli sviluppatori possono eseguire il rendering di una scena 3D con modalità panorama in profondità al posto dei colori.
+description: Utilizzando Aspose.3D for .NET API, gli sviluppatori possono eseguire il rendering di una scena 3D con la modalità panorama in profondità anziché con i colori.
 ---
 {{% alert color="primary" %}}
 
-Utilizzo[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Gli sviluppatori possono eseguire il rendering di una scena 3D con la modalità panorama in profondità anziché i colori.
+Utilizzando [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), gli sviluppatori possono eseguire il rendering di una scena 3D con la modalità panorama in profondità anziché i colori.
 
 {{% /alert %}}
-## **Render 3D Scena con modalità Panorama in profondità**
+##  **Render 3D scena con la modalità Panorama in profondità**
 In questo articolo, creiamo una fotocamera e due oggetti Luce per catturare la scena, la classe ShaderSet aiuta a creare shader di profondità.
-### **Campione di programmazione**
+###  **Campione di programmazione**
 Questo esempio di codice rende la scena 3D con la modalità Panorama in profondità.
 
 **C#**

@@ -1,5 +1,5 @@
-﻿---
-title: Save 3D Scène comme HTML
+---
+title: Enregistrer 3D Scène en HTML
 type: docs
 weight: 90
 url: /fr/python-net/save-3d-scene-as-html/
@@ -9,8 +9,8 @@ url: /fr/python-net/save-3d-scene-as-html/
 Cette fonctionnalité est prise en charge par la version 19.9 ou supérieure.
 
 {{% /alert %}} 
-# **Save 3D Scène comme HTML**
-Aspose.3D pour Python via .NET fournit la classe `Html5SaveOptions` pour enregistrer une scène de sauvegarde 3D comme HTML. Lorsque vous exportez la scène dans le fichier HTML5, le API exportera trois fichiers, un fichier `HTML`, un fichier DWeb Aspose3(*.**A3dw**), Et un fichier «JavaScript» rendu. Afin d'exporter le fichier a3dw seulement, vous pouvez spécifier Aspose3DWeb comme type d'exportation, et réutiliser le fichier JavaScript dans votre propre page HTML. L'extrait de code suivant montre comment enregistrer une scène 3D comme HTML.
+#  **Enregistrer 3D Scène en HTML**
+Aspose.3D for Python via .NET fournit la classe `Html5SaveOptions` pour enregistrer une scène 3D en tant que HTML. Lorsque vous exportez la scène dans le fichier HTML5, API exportera trois fichiers, un fichier `HTML`, un fichier Aspose3DWeb (*.* a3dw **) et un fichier rendu `JavaScript`. Pour exporter uniquement le fichier a3dw, vous pouvez spécifier Aspose3DWeb comme type d'exportation et réutiliser le fichier JavaScript dans votre propre page HTML. L'extrait de code suivant montre comment enregistrer une scène 3D en HTML.
 
 
 
@@ -18,7 +18,7 @@ Aspose.3D pour Python via .NET fournit la classe `Html5SaveOptions` pour enregis
 
 {{% alert color="primary" %}} 
 
-En raison des limites de sécurité du navigateur, le fichier HTML exporté ne peut pas être ouvert directement, vous devez l'ouvrir via un serveur Web, si vous avez python3 installé, vous pouvez démarrer le serveur Web dans la ligne de commande dans le répertoire exporté
+En raison des limites de sécurité du navigateur, le fichier HTML exporté ne peut pas être ouvert directement, vous devez l'ouvrir via un serveur Web, si vous avez installé python3, vous pouvez démarrer le serveur Web dans la ligne de commande dans le répertoire exporté
 
 {{% /alert %}} 
 

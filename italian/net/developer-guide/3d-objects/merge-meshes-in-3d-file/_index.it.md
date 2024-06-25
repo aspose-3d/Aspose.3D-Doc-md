@@ -1,11 +1,11 @@
-﻿---
-title: Unisci le maglie nel file 3D
+---
+title: Unisci mesh in file 3D
 type: docs
 weight: 90
 url: /it/net/merge-meshes-in-3d-file/
 description: Gli sviluppatori possono unire più mesh in un'unica mesh valida. Potrebbero convertire tutte le mesh di una scena 3D, un nodo o un insieme di nodi in una singola mesh. Per raggiungere questo obiettivo, ci sono tre membri MergeMesh nella classe Aspose.ThreeD.Entities.PolygonModifier.
 ---
-## **Unisci le maglie in un'unica mesh valida**
+##  **Unisci le maglie in un'unica mesh valida**
 Gli sviluppatori possono unire più mesh in un'unica mesh valida. Potrebbero convertire tutte le mesh di una scena 3D, un nodo o un insieme di nodi in una singola mesh. Per raggiungere questo obiettivo, ci sono tre `MergeMesh` membri nella classe `Aspose.ThreeD.Entities.PolygonModifier`.
 
 **Definizione**

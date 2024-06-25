@@ -1,31 +1,31 @@
-﻿---
-title: Aspose.3D ل Python via .NET
+---
+title: Aspose.3D for Python via .NET
 type: docs
-description: Aspose.3D ل Python via .NET هو مشروع مكتبة فئة تمكن التطبيقات الخاصة بك للاتصال مع الأشكال 3D تلقائيا دون 3D النمذجة وتقديم البرامج التي يجري تركيبها. The Aspose.3D API يتيح للمهندسين قراءة وتحويل وبناء وتغيير ومراقبة جوهر تنسيقات المستندات 3D.
+description: Aspose.3D for Python via .NET هو مشروع مكتبة فئة يُمكّن تطبيقاتك من الاتصال بتنسيقات 3D تلقائيًا دون تثبيت برنامج النمذجة وتقديم 3D. يتيح Aspose.3D API للمهندسين قراءة تنسيقات مستندات 3D وتحويلها وبنائها وتغييرها والتحكم فيها.
 weight: 30
 url: /ar/python-net/
 is_root: true
 ---
 {{% alert color="primary" %}}
 
-![تودو: الصورة_البديل_نص](home_1.png)
+! [Todo: image_ altttext](home_1.png)
 
-**Welcome إلى Aspose.3D ل Python via .NET API**
+**مرحبًا بـ Aspose.3D for Python via .NET API**
 
-Aspose.3D ل Python via .NET هو مشروع مكتبة فئة تمكن التطبيقات الخاصة بك للاتصال مع الأشكال 3D تلقائيا دون 3D النمذجة وتقديم البرامج التي يجري تركيبها. The Aspose.3D API يتيح للمهندسين قراءة وتحويل وبناء وتغيير ومراقبة جوهر تنسيقات المستندات 3D.
+Aspose.3D for Python via .NET هو مشروع مكتبة فئة يُمكّن تطبيقاتك من الاتصال بتنسيقات 3D تلقائيًا دون تثبيت برنامج النمذجة وتقديم 3D. يتيح Aspose.3D API للمهندسين قراءة تنسيقات مستندات 3D وتحويلها وبنائها وتغييرها والتحكم فيها.
 
-The API هو سهل الاستخدام ويوفر الوقت والمال من إنشاء حل مماثل من الصفر.
+إن API سهل الاستخدام ويوفر الوقت والمال بدلاً من إنشاء حل مماثل من الصفر.
 
 {{% /alert %}}
-## **Aspose.3D ل Python via .NET Resources**
+##  **Aspose.3D for Python via .NET Resources**
 Following هي الروابط إلى بعض الموارد المفيدة التي قد تحتاج إليها لإنجاز المهام الخاصة بك.
 
-- [Aspose.3D ل Python via .NET Online oc](/3d/ar/python-net/)
-- [Aspose.3D ل Python via .NET الرسوم المتحركة](/3d/ar/python-net/product-overview/#productoverview-richfeatures)
-- [Aspose.3D ل Python via .NET تقليد](/3d/ar/python-net/installation/#installation-systemrequirements)
-- [Aspose.3D ل Python via .NET tes elease tes أوتس](https://releases.aspose.com/3d/python-net/release-notes/)
-- [Aspose.3D ل Python via .NET roroducPالعمر](https://products.aspose.com/3d/python-net/)
-- [Install Aspose.3D ل Python via .NET NuGet ackackage](https://www.nuget.org/packages/Aspose.3D/)
-- [Aspose.3D ل Python via .NET API ference etvl Guide](https://reference.aspose.com/3d/net)
-- [Aspose.3D ل Python via .NET Free ree upport ororum](https://forum.aspose.com/c/3d/18)
-- [Aspose.3D ل Python via .NET aid المعونة upupport elelpdesk](https://helpdesk.aspose.com/)
+- [Aspose.3D for Python via .NET مستندات عبر الإنترنت](/3d/ar/python-net/)
+- [ميزات Aspose.3D for Python via .NET](/3d/ar/python-net/product-overview/#productoverview-richfeatures)
+- [قيود Aspose.3D for Python via .NET](/3d/ar/python-net/installation/#installation-systemrequirements)
+- [ملاحظات إصدار Aspose.3D for Python via .NET](https://releases.aspose.com/3d/python-net/release-notes/)
+- [صفحة منتجات Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/)
+- [تثبيت حزمة Aspose.3D for Python via .NET NuGet](https://www.nuget.org/packages/Aspose.3D/)
+- [Aspose.3D for Python via .NET API دليل مرجعي](https://reference.aspose.com/3d/net)
+- [منتدى دعم مجاني Aspose.3D for Python via .NET](https://forum.aspose.com/c/3d/18)
+- [مكتب مساعدة للدعم مدفوع Aspose.3D for Python via .NET](https://helpdesk.aspose.com/)

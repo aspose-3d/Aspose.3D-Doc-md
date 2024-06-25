@@ -1,54 +1,58 @@
-﻿---
-title: Skapa och läsa en existerande scen 3D
+---
+title: Skapa och läsa en existerande 3D Scene
 type: docs
 weight: 10
 url: /sv/net/create-and-read-an-existing-3d-scene/
-description: Aspose.3D API stöder att skapa de nya 3D scener från grunden och sedan spara i någon stödde filformat. Utvecklare kan också ladda en befintlig 3D Scen för ändring, tillägg eller bearbetning.
+description: Aspose.3D API stöder skapandet av nya 3D scener från skrängen och sparas sedan i något filformat som stöds. Utvecklare kan också ladda en befintlig 3D scen för ändring, tillägg eller bearbetning.
 ---
-## **Översikt**
-Artikeln förklarar följande ämnen med hjälp av C# 3D filformat manipulationsbibliotek.
-- Skapa en tom 3D scen i C# från grunden
-- Läs eller ladda existerande 3D scen i C#
-- Spara scenen 3D i stöd 3D Format med hjälp av C#
-- Arbeta med 3D Scen objekt i C#
+##  **Översikt**
+The article explains the following topics using C# 3D file formats manipulation library.
+- Skapa en tom 3D Scene i C# från början.
+- Läs eller ladda existerande 3D Scene i C#
+- Spara 3D i format som stöds med 3D med C#
+- Arbeta med 3D Scenegenskaper i C#
 
-## **Skapa en tom 3D scen och Spara i stödda 3D Filformat**
-Aspose.3D API stöder att skapa de nya 3D scener från grunden och sedan spara i någon stödde filformat. Utvecklare kan också ladda en befintlig 3D Scen för ändring, tillägg eller bearbetning.
+##  **Skapa ett tomt 3D och spara i stödda 3D filformat**
+Aspose.3D API stöder skapandet av nya 3D scener från skrängen och sparas sedan i något filformat som stöds. Utvecklare kan också ladda en befintlig 3D scen för ändring, tillägg eller bearbetning.
 
-### **Skapa ett 3D scendokument**
-Följ dessa steg i C# för att skapa ett 3D Scen-dokument med hjälp av Aspose.3D API:
+###  **Skapa ett dokument i 3D @ info: whatsthis**
+Följ dessa steg i C# för att skapa ett 3D-dokument med Aspose. 3D API:
 
-1. Skapa en instans av klassen [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) som representerar en 3D scene dokument.
-1. Skapa en 3D scen dokument genom att kalla [`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) metoden för Scene klass objekt.
+1. Skapa en instans av klassen [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) som representerar ett 3D scenedokument.
+1. Skapa ett 3D Scene-dokument genom att ringa [`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save)-metoden för Scene-objektet.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
 
-## **Läser en 3D**
-Med hjälp av Aspose.3D API kan utvecklare ladda alla dokument som stöds. De tillgängliga konstruktörerna i klassen `Scene` tillåter att göra det och de accepterar en giltig fil sökvägssträng. De läsbara filformat som stöds är följande:
+##  **Läs en 3D Scene**
+Using Aspose.3D API, developers can load all the supported 3D documents. The available constructors of the `Scene` class allow to do so and they accept a valid file path string. The supported readable file formats are as follows:
 
-1. FBX 7,5 (ASCII, binära)
-1. FBX 7,4 (ASCII, binära)
-1. FBX 7,3 (ASCII, binära)
-1. FBX 7,2 (ASCII, binära)
-1. STL (ASCII, binära)
+1. FBX 7.5 (ASCII, Binära)
+1. FBX 7.4 (ASCII, Binära)
+1. FBX 7.3 (ASCII, Binära)
+1. FBX 7.2 (ASCII, Binära)
+1. FBX 6.1 (ASCII, binär)
+1. STL (ASCII, binär)
 1. WavefrontOBJ
 1. Discreet3DS
 1. Universal3D
 1. Collada
-1. glTF
+1. glTF (ASCII, binär)
+1. Maya (ASCII, binära)
+1. OpenUSD (USD, USDZ)
+1. BlenderName
 1. DXF
-1. PLY (ASCII, binära)
+1. PLY (ASCII, binär)
 1. X (ASCII, binära)
 1. Draco
 1. 3MF
-1. RVM (Text, binära)
+1. RVM (Text, binärt)
 1. ASE
 
-Konstruktörer av `Scene` klass detektera 3D dokumentformat internt.
+Constructors of the `Scene` class detect 3D document format internally.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-ReadExistingScene-ReadExistingScene.cs" >}}
 
-## **Arbeta med 3D Scenegenskaper**
-Aspose.3D API kan du läsa 3D Scenegenskaper som använder scenens barn Noder. Följande kodprov C# visar hur denna funktion används.
+##  **Arbetar med 3D Scenegenskaper**
+Aspose.3D API låter dig läsa 3D Scenegenskaper med hjälp av scenens barnnoder. Följande C# kodprov visar hur denna funktion används.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ThreeDProperties-ThreeDProperties.cs" >}}

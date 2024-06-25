@@ -1,12 +1,12 @@
-﻿---
+---
 title: Geometrías de escala de una escena 3D
 type: docs
 weight: 70
 url: /es/python-net/scale-geometries-of-a-3d-scene/
-description: Los desarrolladores solo pueden escalar geometrías de un nodo 3D o todos los nodos de 3D Escena. Para lograr esto, los desarrolladores pueden llamar a varios miembros de Scale de la instancia de clase PolygonModificer.
+description: Los desarrolladores pueden escalar solo las geometrías de un nodo 3D o todos los nodos de 3D Scene. Para lograr esto, los desarrolladores pueden llamar a varios miembros de Scale de la instancia de la clase PolygonModifier.
 ---
-## **Escala las geometrías de un único nodo 3D o todos los nodos de 3D Escena**
-Los desarrolladores solo pueden escalar geometrías de un nodo 3D o todos los nodos de 3D Escena. Para lograr esto, los desarrolladores pueden llamar a varios miembros de Scale de la instancia de clase `PolygonModifier`. Este es el ejemplo de código para escalar todos los nodos o un solo nodo:
+##  **Geometrías de escala de un solo nodo 3D o de todos los nodos de la escena 3D**
+Los desarrolladores pueden escalar solo las geometrías de un nodo 3D o todos los nodos de 3D Scene. Para lograr esto, los desarrolladores pueden llamar a varios miembros de Scale de la instancia de la clase `PolygonModifier`. Este es el ejemplo de código para escalar todos los nodos o un solo nodo:
 
 
 

@@ -1,12 +1,12 @@
-﻿---
+---
 title: Skapa polygon i mesh
 type: docs
 weight: 80
 url: /sv/java/create-polygon-in-mesh/
-description: Aspose.3D for Java gör det möjligt att skapa en polygon i en mesh.
+description: Aspose.3D for Java tillåter att en polygon skapas i ett mesh.
 ---
-## **Skapa polygon i mesh**
-Aspose.3D for Java gör det möjligt att skapa en polygon i en mesh. För att använda funktionaliteten erbjuder API[CreatePolygonName](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-)Metod[Maska](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh)Klass. Genom att använda CreatePolygon-metoden kan du skapa en optimerad[Triangeln](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-)Eller[Quad](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-int-)Polygon utan att tilldela extra minne. Följande kodsnutt visar hur denna funktionalitet används.
+##  **Skapa polygon i mesh**
+Aspose.3D for Java tillåter att en polygon skapas i ett mesh. För att kunna använda funktionaliteten erbjuder API-metoden [CreatePolygonName](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-) för [Maska](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh)-klass. Genom att använda CreatePolygon-metoden kan du skapa ett optimerat [Triangeln](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-) eller [Quad](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-int-)polygon utan att tilldela extra minne. Följande kodsnutt visar hur denna funktionalitet används.
 
 
 

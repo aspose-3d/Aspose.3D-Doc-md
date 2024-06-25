@@ -1,49 +1,49 @@
-﻿---
+---
 title: Installation
 type: docs
 weight: 40
 url: /ar/net/installation/
-description: Tمقالته يوضح كيفية تثبيت Aspose.3D for.NET - C# 3D File orormat ananipulation و ononedition API باستخدام NuGet و ackackage ananager onononly.
+description: توضح هذه المقالة كيفية تثبيت Aspose.3D fo r.NET - C# 3D معالجة تنسيقات الملفات وتحويلها API باستخدام NuGet ووحدة تحكم إدارة الطرد.
 ---
-Tمقالته يوضح كيفية تثبيت Aspose.3D for.NET - C# 3D File orormat ananipulation و ononedition API باستخدام NuGet و ackackage ananager onononly.
+توضح هذه المقالة كيفية تثبيت Aspose.3D fo r.NET - C# 3D معالجة تنسيقات الملفات وتحويلها API باستخدام NuGet ووحدة تحكم إدارة الطرد.
 
-## **Instيعادل Aspose.3D for .NET من خلال NuGet**
-NuGet هو نظام إدارة حزمة مجاني مفتوح المصدر يركز على المطورين لمنصة .NET التي تهدف إلى تبسيط عملية دمج مكتبات الأطراف الثالثة في تطبيق .NET أثناء التطوير. It هو تمديد Visual Studio الذي يجعل من السهل إضافة وإزالة وتحديث المكتبات والأدوات في مشاريع Visual Studio التي تستخدم .NET rramework. مكتبة A أو أداة يمكن مشاركتها بسهولة مع المطورين الآخرين من خلال إنشاء حزمة NuGet وتخزينها داخل مستودع NuGet. When قمت بتثبيت الحزمة ، NuGet نسخ الملفات إلى الحل الخاص بك تلقائيا إجراء التغييرات اللازمة ، مثل إضافة المراجع وتغيير التطبيق الخاص بك. التكوين أو web.config الملفات. If قررت إزالة المكتبة ، NuGet يزيل الملفات ويعكس كل التغييرات التي أدخلت على مشروعك بحيث لا تترك أي فوضى.
-### **المؤتمرات الإلكترونية Aspose.3D for .NET**
-Tالاستفادة من هذه الميزة الرائعة ، لدينا مجمعة[Aspose.3D for .NET](https://www.nuget.org/packages/Aspose.3D)المكتبات في حزمة NuGet وتحميلها إلى مستودع NuGet. مع هذا الخيار ، يمكنك الاستفادة من استخدام Aspose.3D for .NET دون تثبيت هذا المكون على النظام الخاص بك. NuGet يعمل في Visual Studio 2010 وأعلى نسخة (ق) ، Visual eb eb evelإيفيلوبر 2010 ، و Windows Pهون evelإيفيلوبر Tools 7.1. In اختباراتنا ، قمنا باختباره مع Visual Studio 2015 Ultimate.
+##  **تثبيت Aspose.3D for .NET من خلال NuGet**
+NuGet هو نظام إدارة حزم مجاني ومفتوح المصدر يركز على المطورين لمنصة .NET التي تهدف إلى تبسيط عملية دمج مكتبات الجهات الخارجية في تطبيق .NET أثناء التطوير. إنه امتداد استوديو مرئي يجعل من السهل إضافة المكتبات والأدوات وإزالتها وتحديثها في مشاريع الاستوديو المرئي التي تستخدم إطار عمل .NET. يمكن بسهولة مشاركة مكتبة أو أداة مع مطورين آخرين من خلال إنشاء حزمة NuGet وتخزينها داخل مستودع NuGet. عند تثبيت الحزمة ، يقوم NuGet بنسخ الملفات إلى الحل الخاص بك وإجراء التغييرات اللازمة تلقائيًا ، مثل إضافة المراجع وتغيير ملفات التطبيق. config أو web.config. إذا قررت إزالة المكتبة ، فسيقوم NuGet بإزالة الملفات وعكس أي تغييرات أدخلتها على مشروعك حتى لا تترك فوضى.
+###  **الرجوع إلى Aspose.3D for .NET**
+Taking benefit of this wonderful feature, we have bundled [Aspose.3D for .NET](https://www.nuget.org/packages/Aspose.3D) libraries into a NuGet package and uploaded it into a NuGet repository. With this option, you benefit from using Aspose.3D for .NET without installing this component on your system. NuGet runs in Visual Studio 2010 and higher version(s), Visual Web Developer 2010, and Windows Phone Developer Tools 7.1. In our tests, we have tested it with Visual Studio 2015 Ultimate.
 
 To البدء:
 
-1. Oقلم الحل أو المشروع الخاص بك في Visual Studio.
-1. Add NuGet ackackage ananager كملحق Visual Studio:
+1. Oقلم الحل الخاص بك أو المشروع في Visual tutudio.
+1. أضف مدير حزم NuGet كملحق استوديو مرئي:
 1-انتخاب**Ols أولس**القائمة تليها**Exananager**.
 1-انتخاب S**Online Gallery**للحصول على قائمة كاملة من الباقات المتوفرة عبر الإنترنت.
-1-انتخاب S**NuGet ackأكج anأنيجر**.
+1-انتخاب S**مدير حزم NuGet**.
 1. ick لعق**Ownتحميل**.
-1. Once يتم تثبيت حزمة ananager ، إعادة تشغيل Visual Studio لتحقيق التغييرات حيز التنفيذ.
-يتم تثبيت hen hen NuGet ackackage ananager ، يمكنك العثور على حزم وتثبيتها وإزالتها وتحديثها من**Manage NuGet ack**نافذة ، أو باستخدام commands owerSالجحيم الأوامر سطر الأوامر في**Pأكج anأنيجر Cأونسولي**نافذة مخصصة Visual Studio. You يمكن العثور على كلا الخيارين إذا قمت بتحديد**Ols أولس**تليها:**Liackأحمق ananager**.
-### **Install-ackackage باستخدام ackackage ananager Console**
+1. Once يتم تثبيت حزمة ananager ، إعادة تشغيل tuisual tutudio لجلب التغييرات حيز التنفيذ.
+عند تثبيت مدير الحزم NuGet ، يمكنك العثور على الحزم وتثبيتها وإزالتها وتحديثها من**إدارة حزم NuGet**نافذة ، أو باستخدام commands owerSالجحيم الأوامر سطر الأوامر في**Pأكج anأنيجر Cأونسولي**مخصص Visual Studio نافذة. You يمكن العثور على كلا الخيارين إذا قمت بتحديد**Ols أولس**تليها:**Liackأحمق ananager**.
+###  **Install-ackackage باستخدام ackackage ananager Console**
 Reference o مرجع العنصر باستخدام وحدة التحكم مدير الحزمة:
 
-1. Oقلم التطبيق الخاص بك .NET في Visual Studio.
+1. افتح تطبيق .NET الخاص بك في الاستوديو المرئي.
 1. On the**Ols أولس**القائمة ، حدد**Liackأحمق ananager**وبعد ذلك**Pأكج anأنيجر Cأونسولي**.
-1. Ype ype الأمر "acknstall-ackackage Aspose.3D" لتثبيت أحدث إصدار كامل ، أو اكتب الأمر "acknstall-ackackage Aspose.3D -prerelease" لتثبيت أحدث إصدار بما في ذلك الإصلاحات الساخنة.
+1. اكتب الأمر Install-Package Aspose.3D لتثبيت الإصدار الكامل الأخير ، أو اكتب أمر install-Package Aspose.3D -prerelease لتثبيت أحدث إصدار بما في ذلك الإصلاحات الساخنة.
 1. Ress بريس**Enter**.
-### **حزمة pdate Uباستخدام ackackage ananager Console**
-If لقد قمت بالفعل بالإشارة إلى العنصر من خلال NuGet ، اتبع هذه الخطوات لتحديث الإشارة إلى أحدث إصدار:
+###  **حزمة pdate Uباستخدام ackackage ananager Console**
+إذا كنت قد أشرت بالفعل إلى المكون من خلال NuGet ، فاتبع هذه الخطوات لتحديث المرجع إلى أحدث إصدار:
 
-1. Oقلم التطبيق الخاص بك .NET في Visual Studio.
+1. افتح تطبيق .NET الخاص بك في الاستوديو المرئي.
 1. Rom rom و**Ols أولس**القائمة ، حدد**Liackأحمق ananager**، تليها**Pأكج anأنيجر Cأونسولي**لفتح وحدة التحكم ackanager ack.
-1. Type الأمر "ppdate-ackackage Aspose.3D" للإشارة إلى أحدث إصدار كامل ، أو اكتب الأمر "ackpdate-ackackage Aspose.3D -prerelease" لتثبيت أحدث إصدار بما في ذلك الإصلاحات الساخنة.
+1. اكتب تحديث الأوامر-الحزمة Aspose.3D للإشارة إلى الإصدار الكامل الأخير ، أو اكتب تحديث الأوامر-الحزمة Aspose.3D -prerelease لتثبيت الإصدار الأخير بما في ذلك الإصلاحات الساخنة.
 1. Ress بريس**Enter**.
-### **Install-ackackage باستخدام ackackage ananager anI I**
+###  **Install-ackackage باستخدام ackackage ananager anI I**
 Follow هذه الخطوات للإشارة إلى العنصر باستخدام مدير الحزمة GI I:
 
-1. Oقلم التطبيق الخاص بك .NET في Visual Studio.
-1. Rom rom و**Ols أولس**القائمة ، حدد**Liackأحمق ananager**و**Manage NuGet ack**من ال**Sأوليشن**الخيار.
+1. افتح تطبيق .NET الخاص بك في الاستوديو المرئي.
+1. Rom rom و**Ols أولس**القائمة ، حدد**Liackأحمق ananager**و**إدارة حزم NuGet**من ال**Sأوليشن**الخيار.
 You يمكن أيضا الحصول على خيار مماثل من Solution Explorer:
 1. انقر فوق اسم المشروع.
-1-انتخاب S**Manage NuGet ack**.
+1-انتخاب S**إدارة حزم NuGet**.
 1. Sالمنتخب**عبر الإنترنت**من القائمة اليسرى.
-1. Type**Aspose.3D**في صندوق البحث للعثور على Aspose.3D for .NET.
+1. Type**Aspose.3D**في مربع البحث للعثور على Aspose.3D for .NET.
 1. Cلعق**Install/ppdate**بجانب أحدث إصدار من Aspose.3D for .NET.

@@ -1,19 +1,19 @@
-﻿---
-title: Render 3D Scen med panoramaläge i djupt
+---
+title: Rendera 3D scen med panoramaläge i djupt
 type: docs
 weight: 40
 url: /sv/net/render-3d-scene-with-panorama-mode-in-depth/
-description: Med Aspose.3D for .NET API, utvecklare kan göra en 3D scen med panoramaläge i djup istället för färgerna.
+description: Använder Aspose. 3D for .NET API, utvecklare kan göra en 3D scen med panoramaläge i djup istället för färgerna.
 ---
 {{% alert color="primary" %}}
 
-Användning[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Kan utvecklare göra en 3D scen med panoramaläge i djup istället för färgerna.
+Med [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) kan utvecklare visa en 3D scen med panoramaläge i djup istället för färgerna.
 
 {{% /alert %}}
-## **Render 3D Scen med panoramaläge i djupt**
+##  **Rendera 3D scen med panoramaläge i djupt**
 I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga scenen, ShaderSet-klassen hjälper till att skapa djupskuggare.
-### **Programmeringsprova**
-Detta kodexempel ger 3D scen med Panorama läge i djup.
+###  **Programmeringsprova**
+Det här kodexemplet visar 3D-scenen med Panorama-läge i djup.
 
 **C#**
 

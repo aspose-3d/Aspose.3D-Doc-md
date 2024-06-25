@@ -1,18 +1,18 @@
-﻿---
-title: 在将3D场景保存到GLTF 2.0格式之前，自定义非PBR到C#的PBR材质转换
-linktitle: 在将3D场景保存到GLTF 2.0格式之前，自定义非PBR到PBR材质的转换
+---
+title: 在将 3D 场景保存为 C# 中的 GLTF 2.0格式之前，自定义非PBR到PBR材质转换
+linktitle: 在将 3D 个场景保存为 GLTF 个2.0格式之前，自定义非PBR到PBR材质的转换
 type: docs
 weight: 70
 url: /zh/net/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
-description: Aspose.3D API的场景类表示3D场景。开发人员已经可以通过添加各种实体来构建3D场景。GLTF 2.0仅支持PBR (基于物理的渲染) 材料，Aspose.3D API在内部将非PBR材料转换为PBR材料，然后再导出为GLTF 2.0。
+description: Aspose 的场景类。3D API 表示 3D 场景。开发人员已经可以通过添加各种实体来构建 3D 场景。GLTF 2.0仅支持PBR (基于物理的渲染) 材质，Aspose。3D API 将非PBR材质内部转换为PBR材质，然后导出为 GLTF 2.0。
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D API的[`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene)类表示3D场景。开发人员已经可以通过添加各种实体来构建3D场景。GLTF 2.0只支持PBR (基于物理的渲染) 材质，Aspose.3D API在导出为GLTF 2.0之前，将非PBR材质内部转换为PBR材质 (导出过程中场景中的材质将保持不变)，开发人员可以提供自定义转换功能来覆盖默认行为。
+Aspose.3D API 的 [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) 类表示 3D 场景。开发人员已经可以通过添加各种实体来构建 3D 场景。GLTF 2.0仅支持PBR (物理渲染) 材质，Aspose.3D API 将非PBR材质内部转换为PBR材质，然后导出为 GLTF 2.0 (导出时场景中的材质将保持不变)，并且开发人员可以提供自定义转换函数来覆盖默认行为。
 
 {{% /alert %}} 
-## **非PBR到PBR材料转换**
-此C#代码示例演示了如何将材质转换为PBR材质，然后使用C# 3D文件操作和转换API以GLTF格式保存3D场景:
+##  **非PBR到PBR材料转换**
+此 C# 代码示例演示如何将材质转换为PBR材质，然后使用 C# 3D 文件操作和转换 API 以 GLTF 格式保存 3D 场景:
 
 **C#**
 
@@ -30,14 +30,13 @@ GLTFSaveOptions opt = new GLTFSaveOptions(FileFormat.GLTF2);
 
 //Custom material converter to convert PhongMaterial to PbrMaterial
 
-opt.MaterialConverter = delegate(Material material)
-
-{
-
-    PhongMaterial m = (PhongMaterial) material;
-
-    return new PbrMaterial() {Albedo = new Vector3(m.DiffuseColor.x, m.DiffuseColor.y, m.DiffuseColor.z)};
-
+opt.MaterialConverter = (Material material) => {
+    var pbr = PbrMaterial.FromMaterial(material);
+    //customize your own PBR material here, you can get the original OBJ's material from the parameter mat.
+    //to create a compatible material with obj2gltf, use following definition:
+    pbr.MetallicFactor = 0;
+    pbr.RoughnessFactor = 0.98;
+    return pbr;
 };
 
 // save in GLTF 2.0 format
@@ -45,3 +44,8 @@ opt.MaterialConverter = delegate(Material material)
 s.Save("test.gltf", opt);
 
 {{< /highlight >}}
+
+
+##  **资源**
+
+1. [在线教程](https://products.aspose.com/3d/tutorial/use-phong-material-to-pbr-material/)

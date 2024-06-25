@@ -1,12 +1,12 @@
-﻿---
-title: Mخصائص مخصصة من 3D cenسين
+---
+title: التلاعب بالخصائص المخصصة لمشهد 3D
 type: docs
 weight: 80
 url: /ar/python-net/manipulate-custom-properties-of-a-3d-scene/
-description: Dإيفلين يمكن أن Add ، واسترداد ، وإزالة خصائص مخصصة من 3D الكائنات. RemoveProperty ، GetProperty ، أعضاء etProperty من 3D الكائنات هي مجموعة من طرق قصيرة اليد لمعالجة خصائص مخصصة للكائن.
+description: Developers can Add, retrieve, and remove custom properties of 3D objects. RemoveProperty, GetProperty, SetProperty members of 3D objects are a set of short-handed methods to manipulate customized properties of the object.
 ---
-## **Add ، Retrieve و ememove خصائص مخصصة من 3D O**
-Dإيفلين يمكن أن Add ، واسترداد ، وإزالة خصائص مخصصة من 3D الكائنات. `remove_property`, `get_property`, `set_property` أعضاء 3D الكائنات هي مجموعة من أساليب قصيرة اليد لمعالجة خصائص مخصصة للكائن. Tهو مثال التعليمات البرمجية لتعيين واسترداد وإزالة خاصية مخصصة:
+##  **إضافة واسترداد وإزالة الخصائص المخصصة لكائن 3D**
+Developers can Add, retrieve, and remove custom properties of 3D objects. `remove_property`, `get_property`, `set_property` members of 3D objects are a set of short-handed methods to manipulate customized properties of the object. This is the code example to set, retrieve and remove a custom property:
 
 **Python**
 
@@ -51,6 +51,6 @@ scene.save("test-2.gltf", opt)
 
 {{% alert color="primary" %}} 
 
-In الطلب لحفظ خصائص مخصصة في نماذج GLTF ، تحتاج إلى تعيين `save_extras` إلى `True`. Tالقيمة الافتراضية `save_extras` الملكية هي `False`.
+من أجل حفظ الخصائص المخصصة في طرازات GLTF ، تحتاج إلى تعيين `save_extras` إلى `True`. القيمة الافتراضية للعقار `save_extras` هي `False`.
 
 {{% /alert %}}

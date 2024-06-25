@@ -1,12 +1,12 @@
-﻿---
+---
 title: Géométries d'échelle d'une scène 3D
 type: docs
 weight: 70
 url: /fr/python-net/scale-geometries-of-a-3d-scene/
-description: Les développeurs ne peuvent mettre à l'échelle que les géométries d'un nœud 3D ou de tous les nœuds de 3D Scene. Pour ce faire, les développeurs peuvent appeler plusieurs membres Scale de l'instance de classe PolygonModifier.
+description: Les développeurs ne peuvent mettre à l'échelle que les géométries d'un nœud 3D ou de tous les nœuds de la scène 3D. Pour ce faire, les développeurs peuvent appeler plusieurs membres Scale de l'instance de classe PolygonModifier.
 ---
-## **Géométries d'échelle d'un seul nœud 3D ou de tous les nœuds de 3D Scène**
-Les développeurs ne peuvent mettre à l'échelle que les géométries d'un nœud 3D ou de tous les nœuds de 3D Scene. Pour ce faire, les développeurs peuvent appeler plusieurs membres Scale de l'instance de classe `PolygonModifier`. C'est l'exemple de code pour mettre à l'échelle tous les nœuds ou un seul nœud:
+##  **Géométries d'échelle d'un seul nœud 3D ou de tous les nœuds de la scène 3D**
+Les développeurs ne peuvent mettre à l'échelle que les géométries d'un nœud 3D ou de tous les nœuds de la scène 3D. Pour ce faire, les développeurs peuvent appeler plusieurs membres Scale de l'instance de la classe `PolygonModifier`. Voici l'exemple de code pour mettre à l'échelle tous les nœuds ou un seul nœud:
 
 
 

@@ -1,29 +1,29 @@
-﻿---
-title: Public API Changes Aspose.3D 16.11.0
+---
+title: Kamu API Aspose içinde değişir. 3D 16.11.0
 type: docs
 weight: 20
 url: /tr/net/public-api-changes-in-aspose-3d-16-11-0/
 ---
 **Contents Summary**
 
-- [Aspose.ThreeD.Node lass lass içinde dds dds ddddEntity ethethod](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
-- [Import ve Export glTF Files](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
-  - [Dds dds Aspose.ThreeD.Formats. Glass lass lass ooadlass ptions lass lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. Glass lass aveavelass ptions lass lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
-  - [Dds dds glTF Format try ntry Aspose.ThreeD.FileFormat lass lass](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
-  - [Dds dds Aspose.ThreeD. Filelass ormatlass ype lass lass bir Extension özelliği](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
+- [Addentity yöntemini Aspose. threed. node sınıfında ekler](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
+- [Import and Export of glTF Files](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
+-[Aspose ekler. threed. formats. gltfloadoptions sınıfı](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
+-[Aspose ekler. threed. formats. gltfsaveoptions sınıfı](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
+-[Adds glTF Format Entry in the Aspose.ThreeD.FileFormat Class](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
+-[Adds an Extension property in the Aspose.ThreeD.FileFormatType Class](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
 - [Real pendenpendeneal in the eal eal File System](#PublicAPIChangesinAspose.3D16.11.0-WriteDependenciesintheRealFileSystem) 
-  - [Dds dds Aspose.ThreeD.Utilities. Dummyumilestem ystem lass lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
-  - [Dds dds Aspose.ThreeD.Utilities. Locallass ilestem ystem lass lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
-  - [Dds dds Aspose.ThreeD. lities tilities.MemoryFileSystem lass lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
-- [Aspose.ThreeD.Formats. Ionononfig lass property içinde dds dds Filestem ystem özelliği](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
+-[Aspose ekler. threed. yardımcı programlar. dummyfilesystem sınıfı](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
+-[Aspose ekler. threed. yardımcı programlar. localfilesystem sınıfı](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
+-[Aspose ekler. threed. yardımcı programlar. memoryfilesystem sınıfı](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
+- [Dosya sistemi özelliğini Aspose. threed. formats. ioconfig sınıfında ekler](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Tbelge, 16.9.0 sürümünden 16.11.0 'a kadar Aspose.3D API 'teki değişiklikleri açıklar, bu da modül/uygulama geliştiricilerine ilgi gösterebilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+This document describes changes to the Aspose.3D API from version 16.9.0 to 16.11.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Aspose.ThreeD.Node lass lass içinde dds dds ddddEntity ethethod**
+###  **Addentity yöntemini Aspose. threed. node sınıfında ekler**
 Bir düğüme bir varlık eklemek için shortcut kısayol yolu.
 
 **Ndd bir Node için bir Entity**
@@ -47,10 +47,10 @@ sphere.Entities.Add(new Sphere());
 sphere.AddEntity(new Sphere());
 
 {{< /highlight >}}
-### **Import ve Export glTF Files**
-Developers son sürümü (16.11.0) veya daha yüksek şarkı söyleyen geliştiriciler glTF dosyalarını diğer desteklenen 3D dosyalarına aktarabilir ve aktarabilir.
-#### **Dds dds Aspose.ThreeD.Formats. Glass lass lass ooadlass ptions lass lass**
-We Gptions TFLptions oadptions ptions class ekledi. It glTF dosyalarını Aspose.3D API dosyasına aktarmaya yardımcı olur.
+###  **Import and Export of glTF Files**
+Using the recent version (16.11.0) or higher, developers can import and export glTF files to/from other supported 3D files.
+####  **Aspose ekler. threed. formats. gltfloadoptions sınıfı**
+We have added GLTFLoadOptions class. It helps in importing glTF files into Aspose.3D API.
 
 **Lip lip V/T Texture ordinoordinate**
 
@@ -71,10 +71,10 @@ loadOpt.FlipTexCoordV = true;
 scene.Open("Duck.gltf", loadOpt);
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. Glass lass aveavelass ptions lass lass**
-We, GLTaveaveaveaveptions class ekledi. It, glTF dosyasını kaydetme ayarlarını tanımlar.
+####  **Aspose ekler. threed. formats. gltfsaveoptions sınıfı**
+Gltfsaveoptions sınıfını ekledik. glTF dosyasını kaydetme ayarlarını tanımlar.
 
-**EDDependenpendenside nside the ututput glTF File**
+**Çıktı glTF dosyasının içine bağımlılıklar yerleştirildi**
 
 {{< highlight "java" >}}
 
@@ -134,7 +134,7 @@ scene.Save("d:\\test.gltf", opt);
 
 {{< /highlight >}}
 
-**Creates a Binary glTF File KHR_binary_glTF tension xtension kullanarak**
+**Khr_binary_gltf uzantısını kullanarak ikili glTF dosyası oluşturur**
 
 {{< highlight "java" >}}
 
@@ -152,7 +152,7 @@ scene.Save("d:\\test.glb", FileFormat.GLTF_Binary);
 
 {{< /highlight >}}
 
-**CSaving ptions ptions ile birlikte 07Extension kullanarak glTF File bir Binary reates**
+**Tasarruf seçenekleri ile birlikte khr_binary_gltf uzantısını kullanarak ikili glTF dosyası oluşturur**
 
 {{< highlight "java" >}}
 
@@ -175,13 +175,13 @@ opt.UseCommonMaterials = true;
 scene.Save("d:\\test.glb", opt);
 
 {{< /highlight >}}
-#### **Dds dds glTF Format try ntry Aspose.ThreeD.FileFormat lass lass**
-We, yükleme ve kaydetme amaçlı GLTF ve GLTF_Binary format girişlerini eklemiştir.
-#### **Dds dds Aspose.ThreeD. Filelass ormatlass ype lass lass bir Extension özelliği**
+####  **Adds glTF Format Entry in the Aspose.ThreeD.FileFormat Class**
+We have added a GLTF and GLTF_Binary format entries for loading and saving purposes.
+####  **Adds an Extension property in the Aspose.ThreeD.FileFormatType Class**
 Dosya biçiminin uzantısı adını almak için File. ormat. ype sınıfında bir Extension özelliği ekledik.
-### **Real pendenpendeneal in the eal eal File System**
-Developers son sürümü (16.11.0) veya daha yüksek, geliştiriciler gerçek dosya sisteminde 3D sahne bağımlılıklarını kaydedebilir. Developers, yerel bir dizinin yolunu tanımlayabilir, MemoryFileSystem nesnesine kaydedebilir veya sadece bağımlılıkları atabilir. The Filestem ystem özelliği tüm kaydetme seçeneği sınıflarına eklenir.
-#### **Dds dds Aspose.ThreeD.Utilities. Dummyumilestem ystem lass lass**
+###  **Real pendenpendeneal in the eal eal File System**
+Son sürümü (16.11.0) veya daha yüksek kullanarak, geliştiriciler gerçek dosya sisteminde tüm 3D sahne bağımlılıklarını kaydedebilir. Geliştiriciler yerel bir dizinin yolunu tanımlayabilir, memoryfilesystem nesnesine kaydedebilir veya sadece bağımlılıkları atabilirler. Dosya sistemi özelliği tüm kaydetme seçeneği sınıflarına eklenir.
+####  **Aspose ekler. threed. yardımcı programlar. dummyfilesystem sınıfı**
 **Erial iscard erial aving erial aterial Files**
 
 {{< highlight "java" >}}
@@ -205,7 +205,7 @@ opt.FileSystem = new DummyFileSystem();
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Utilities. Locallass ilestem ystem lass lass**
+####  **Aspose ekler. threed. yardımcı programlar. localfilesystem sınıfı**
 **Local Directory içinde Dave pendenependencies**
 
 {{< highlight "java" >}}
@@ -229,7 +229,7 @@ opt.FileSystem = new LocalFileSystem("E:\\");
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD. lities tilities.MemoryFileSystem lass lass**
+####  **Aspose ekler. threed. yardımcı programlar. memoryfilesystem sınıfı**
 **MemoryFileSystem MemoryFileSystem bject'de pendenave pendenependencies**
 
 {{< highlight "java" >}}
@@ -256,12 +256,12 @@ scene.Save("d:\\test.obj", opt);
 
 //get the test.mtl file content
 
-byte[]mtl = mfs.GetFileContent("test.mtl");
+byte[] mtl = mfs.GetFileContent("test.mtl");
 
 File.WriteAllBytes("material.mtl", mtl);
 
 {{< /highlight >}}
-### **Aspose.ThreeD.Formats. Ionononfig lass property içinde dds dds Filestem ystem özelliği**
+###  **Dosya sistemi özelliğini Aspose. threed. formats. ioconfig sınıfında ekler**
 We, bağımlılıkları yazmak için Ifig fig onfig sınıfında bir File. ystem özelliği eklemiştir.
 
 **Dds dds a stem ilestem ystem özelliği**

@@ -1,19 +1,19 @@
-﻿---
-title: PLY dosyasında tek bir 3D nesnesinin vert onvert Mesh
+---
+title: Tek bir 3D nesnesinin ağını PLY dosyasında dönüştürün
 type: docs
 weight: 20
 url: /tr/net/convert-mesh-of-a-single-3d-object-in-ply-file/
-description: Po aşırı yüklü Encode. esh üyeleri Plylyormat sınıfı tarafından maruz bırakılan bir 3D nesnesinin Mesh PLY dosyasına dönüştürmek için kullanılabilir. The Encode. esh üyeleri Mesh, çıktı dosya adı ve Ply. ave. objects nesnelerini parametreler olarak alır. PLY kaydetme seçeneklerini kaydetme, geliştiriciler koordinat bileşenlerinin adını değiştirebilir.
+description: Plyformat sınıfı tarafından maruz kalan aşırı yüklü encodemesh üyeleri, 3D nesnesinin ağını PLY dosyasına dönüştürmek için kullanılabilir. Encodemesh üyeleri örgü, çıkış dosya adı ve plysaveoptions nesnelerini parametreler olarak alır. PLY kaydetme seçeneklerini kullanarak, geliştiriciler koordinat bileşenlerinin adını değiştirebilir.
 ---
 {{% alert color="primary" %}}
 
-[Aspose.3D for .NET](https://products.aspose.com/3d/net/)API, geliştiricilerin PLY dosyasında tek bir 3D nesnesinin değerini dönüştürmelerine izin verir.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to convert the Mesh of a single 3D object in the PLY file.
 
 {{% /alert %}}
-## **C3D nesnesini yeniden hazırlayın ve PLY dosyasına kaydedin**
-`PlyFormat` sınıfı tarafından maruz kalan `EncodeMesh` üyelerini aşırı yükledi, 3D nesnesinin 076481 481 dosyasına `Mesh` 'ü dönüştürmek için kullanılabilir. The 076. 481 üyeleri `Mesh`, çıkış dosyası adı ve `PlySaveOptions` nesnelerini parametreler olarak alır. 07. 3481 kaydetme seçeneklerini kaydetme, geliştiriciler koordinat bileşenlerinin adını değiştirebilir.
-### **Programming ample ample**
-Tkod örneği 3D Cylinder nesnesini oluşturur ve sonra PLY dosyasında kodlanır.
+##  **3D nesnesi oluşturun ve PLY dosyasına kaydedin**
+The overloaded `EncodeMesh` members exposed by the `PlyFormat` class can be used to convert the `Mesh` of a 3D object to PLY file. The `EncodeMesh` members take the `Mesh`, output file name and `PlySaveOptions` objects as parameters. Using the PLY save options, developers can change the name of coordinate components.
+###  **Programming ample ample**
+Bu kod örneği bir 3D silindir nesnesi oluşturur ve daha sonra PLY dosyasında kodlanır.
 
 **C#**
 

@@ -1,27 +1,27 @@
-﻿---
-title: Aspose.3D中的公共API变化2.0.0
+---
+title: Aspose 中的公共 API 更改。3D 2.0.0
 type: docs
 weight: 20
 url: /zh/net/public-api-changes-in-aspose-3d-2-0-0/
 ---
 **内容摘要**
 
-- [添加Collada格式](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
-- [添加Aspose.ThreeD.Rendertarget/rendertexture/renderwindow/ITextureUnit接口和Aspose.ThreeD.Renderport/InitializationException/rendertype/TextureType/DriverException/RenderFactory/RenderParameters类](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
-- [添加Aspose.ThreeD.Render.PostProcessing类](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
-- [将GetBoundingBox方法添加到Aspose.ThreeD.Node类，添加新类Aspose.ThreeD.Utilities.BoundingBox和Aspose.ThreeD.Utilities.Boundingboxility](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
+- [添加 Collada 格式](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
+- [添加 Aspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit接口和 Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters类](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
+- [添加 Aspose.ThreeD.Render.PostProcessing类](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
+- [将GetBoundingBox方法添加到 Aspose.ThreeD.Node类，添加新类 Aspose.ThreeD.Utilities.BoundingBox和 Aspose.ThreeD.Utilities.BoundingBoxExtent](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
 - [实时渲染](#PublicAPIChangesinAspose.3D2.0.0-Real-timeRendering)
-- [AddData方法被添加到Aspose.ThreeD.Entities.VertexElementUV类](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
+- [AddData方法被添加到 Aspose.ThreeD.Entities.VertexElementUV类](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
 
 {{% alert color="primary" %}} 
 
-本文档介绍了Aspose.3D API从1.7.0版到2.0.0版的更改，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对Aspose.3D幕后行为的任何变化的描述。
+本文档介绍了对 Aspose.3D API 从版本1.7.0到2.0.0的更改，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对 Aspose.3D 中幕后行为的任何更改的描述。
 
 {{% /alert %}} 
-### **添加Collada格式**
-在此版本 (2.0.0) 中，开发人员可以导入Collada 3D文件，因此在Aspose.ThreeD.FileFormat类中添加了Collada属性。
-### **添加Aspose.ThreeD.Rendertarget/rendertexture/renderwindow/ITextureUnit接口和Aspose.ThreeD.Renderport/InitializationException/rendertype/TextureType/DriverException/RenderFactory/RenderParameters类**
-新的Viewport和渲染器类是有助于捕获3D场景的视图并保存到纹理或窗口的主要类。其他帮助课程的所有详细信息如下:
+###  **添加 Collada 格式**
+在此版本 (2.0.0) 中，开发人员可以导入 Collada 3D 文件，因此 Collada 属性被添加到 Aspose.ThreeD.FileFormat类中。
+###  **添加 Aspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit接口和 Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters类**
+新的视口和渲染器类是帮助捕获 3D 场景视图并保存到纹理或窗口的主要类。其他帮助类的所有细节如下:
 
 - **Aspose.ThreeD.Render.DriverException类**-内部渲染器的异常被包装为DriverException。
 - **Aspose.ThreeD.Render.InitializationException类**-在无法初始化渲染器 (例如在不支持OpenGL 4.0的硬件的计算机上初始化渲染器) 时引发此异常。
@@ -33,7 +33,7 @@ url: /zh/net/public-api-changes-in-aspose-3d-2-0-0/
 - **RenderFactory类**-它有助于将场景实时渲染为纹理或窗口。
 - **RenderParameters类**-它定义了有关如何创建渲染目标的参数，例如颜色位，深度位，模板位和双重缓冲。
 
-**捕获3D场景的视口并渲染到纹理或窗口**
+**捕获 3D 场景的视口并渲染到纹理或窗口**
 
 **C#**
 
@@ -124,10 +124,10 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **添加Aspose.ThreeD.Render.PostProcessing类**
+###  **添加 Aspose.ThreeD.Render.PostProcessing类**
 后处理类允许开发人员将实时图像处理过滤器应用于渲染的图像。在此版本2.0.0中，我们提供了4个内置的后处理效果。我们将允许开发人员在将来的版本中拥有自己的自定义后处理算法。
 
-**在保存3D视图上应用视觉效果**
+**在保存 3D 个视图时应用视觉效果**
 
 **C#**
 
@@ -254,9 +254,9 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **将GetBoundingBox方法添加到Aspose.ThreeD.Node类，添加新类Aspose.ThreeD.Utilities.BoundingBox和Aspose.ThreeD.Utilities.Boundingboxility**
-BoundingBox和boundingbox扩展类表示3D节点的边界框。开发人员可以重置相机，并从边界框计算高程。无限或空边界框表示场景没有几何形状，仅在有限时才调整相机的高程。
-### **实时渲染**
+###  **将GetBoundingBox方法添加到 Aspose.ThreeD.Node类，添加新类 Aspose.ThreeD.Utilities.BoundingBox和 Aspose.ThreeD.Utilities.BoundingBoxExtent**
+BoundingBox和BoundingBoxExtent类表示 3D 节点的边界框。开发人员可以重置相机，并从边界框计算高程。无限或空边界框意味着场景没有几何图形，只有在有限的情况下才调整摄影机的高程。
+###  **实时渲染**
 它允许开发人员在像WinForms这样的GUI框架上执行高性能实时渲染，它与GUI框架无关，因此其他GUI框架也应该支持这一点。
-### **AddData方法被添加到Aspose.ThreeD.Entities.VertexElementUV类**
+###  **AddData方法被添加到 Aspose.ThreeD.Entities.VertexElementUV类**
 VertexElementUV的基类已从VertexElementTemplate更改<Vector2>到VertexElementTemplate<Vector4>,它将仅从2.0.0开始存储Vector4，因此添加了两个帮助方法以允许用户将Vector2和Vector3的列表添加到VertexElementUV，它将在内部将Vector2/Vector3扩展到Vector4并将其余字段保持为零:

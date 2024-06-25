@@ -1,5 +1,5 @@
-﻿---
-title: Arbeta med 3D Scene
+---
+title: Arbetar med 3D Scene
 type: docs
 weight: 40
 url: /sv/python-net/working-with-3d-scene/

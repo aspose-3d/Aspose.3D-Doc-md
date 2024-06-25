@@ -1,21 +1,21 @@
-﻿---
-title: Hangublic API hangمعلقة في Aspose.3D 17.2.0
+---
+title: العام API يتغير في Aspose.3D 17.2.0
 type: docs
 weight: 10
 url: /ar/net/public-api-changes-in-aspose-3d-17-2-0/
 ---
 **Contents Sأوماري**
 
-- [Importing DirectX iles iles](#PublicAPIChangesinAspose.3D17.2.0-ImportingDirectXXFiles)
-- [Adds Aspose.ThreeD. orormat. X. Xptions oadOptions lass](#PublicAPIChangesinAspose.3D17.2.0-AddsAspose.ThreeD.Formats.X.XLoadOptionsClass)
+- [Importing Drectiles iles iles](#PublicAPIChangesinAspose.3D17.2.0-ImportingDirectXXFiles)
+- [يضيف Aspose.ThreeD.Formats.X.XLoadOptions Class](#PublicAPIChangesinAspose.3D17.2.0-AddsAspose.ThreeD.Formats.X.XLoadOptionsClass)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 17.1.0 إلى 17.2.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+يوضح هذا المستند التغييرات إلى Aspose.3D API من الإصدار 17.1.0 إلى 17.2.0 ، والتي قد تهم مطوري الوحدات/التطبيقات. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-#### **Importing DirectX iles iles**
-Uالغناء الإصدار الأخير (17.02) أو أعلى ، يمكن للمطورين استيراد ملفات X. يتم إضافة entries he entries inary و entries exext تنسيق إدخالات لاستيراد الملفات الثنائية و ASCII X.
+####  **Importing Drectiles iles iles**
+Uالغناء الإصدار الأخير (17.02) أو أعلى ، يمكن للمطورين استيراد ملفات X. يتم إضافة entries he entries inary و entries exext تنسيق إدخالات لاستيراد ملفات ثنائي و ASfiles I X X.
 
 **C#**
 
@@ -32,8 +32,8 @@ public static readonly Aspose.ThreeD.FileFormat XText;
 Scene Xfile = new Scene("3D.x");
 
 {{< /highlight >}}
-#### **Adds Aspose.ThreeD. orormat. X. Xptions oadOptions lass**
-لقد أضاف We فئة ptions ptions oadO. It يساعد في استيراد ملفات X إلى Aspose.3D API.
+####  **يضيف Aspose.ThreeD.Formats.X.XLoadOptions Class**
+لقد أضفنا فئة XLoadOptions. يساعد في استيراد ملفات X إلى Aspose.3D API.
 
 **C#**
 

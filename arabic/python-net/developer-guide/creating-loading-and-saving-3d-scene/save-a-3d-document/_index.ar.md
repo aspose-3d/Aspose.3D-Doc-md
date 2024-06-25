@@ -1,16 +1,16 @@
-﻿---
-title: Sava 3D Document
+---
+title: توفير مستند 3D
 type: docs
 weight: 20
 url: /ar/python-net/save-a-3d-document/
-description: The Scene فئة من Aspose.3D API يمثل وثيقة 3D والمطورين يمكن حفظ الكائن في أي تنسيق ملف معتمد.
+description: فئة المشهد لـ Aspose. يمثل 3D API مستند 3D ويمكن للمطورين حفظ الكائن الخاص به بأي تنسيق ملف مدعوم.
 ---
 {{% alert color="primary" %}} 
 
-The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) فئة من Aspose.3D API يمثل وثيقة 3D والمطورين يمكن حفظ الكائن في أي تنسيق ملف معتمد. To حفظ 3D cencene ، ببساطة استخدام طريقة [`Scene.save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) ، فإنه يقبل اسم الملف مع مسار كامل أو كائن تيار الملف. Aspose.3D API يقدم آخر `FileFormat` المعلمة لتحديد تنسيق ملف الإخراج.
+فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) من Aspose. يمثل 3D API مستند 3D ويمكن للمطورين حفظ الكائن الخاص به بأي تنسيق ملف مدعوم. لحفظ مشهد 3D ، ما عليك سوى استخدام طريقة [`Scene.save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) ، فهي تقبل اسم ملف بمسار كامل أو كائن دفق ملف. Aspose.3D API يقدم معلمة `FileFormat` أخرى لتحديد تنسيق ملف الإخراج.
 
 {{% /alert %}} 
-## **Save a 3D cencene**
+##  **وفِّر مشهد 3D**
 
 
 Tانه رمز عينة أدناه يظهر كيفية حفظ وثيقة إلى تيار.

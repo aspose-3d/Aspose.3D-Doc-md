@@ -1,28 +1,28 @@
-﻿---
-title: Публичные API Изменения в Aspose.3D 16.9.0
+---
+title: Публичные изменения API в Aspose.3D 16.9.0
 type: docs
 weight: 30
 url: /ru/net/public-api-changes-in-aspose-3d-16-9-0/
 ---
 **Содержание Резюме**
 
-- [Импорт 3D Сцена из источника PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
-  - [Добавляет Aspose.ThreeD. Форматы. Класс PdfLoadOptions](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
-  - [Добавляет Aspose.ThreeD.FileFormat и Aspose.ThreeD. Форматы. Класс PdfFormat](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
-- [Сохранить сцену 3D в формате PDF](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
-  - [Добавляет Aspose.ThreeD. Форматы. Класс PdfSaveOptions и Aspose.ThreeD. Форматы. PdfLightingScheme/PdfRenderMode Enums](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
-- [Добавляет метод триангуляции в класс Aspose.ThreeD.Entities.PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
-- [Добавляет два метода BuildTangentBinormal в класс Aspose.ThreeD.Entities.PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [Импорт сцены 3D из источника PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
+  - [Adds Aspose.ThreeD.Formats.PdfLoadOptions Class](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
+  - [Adds Aspose.ThreeD.FileFormat and Aspose.ThreeD.Formats.PdfFormat Class](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
+- [Сохраните сцену 3D в формате PDF](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
+  - [Adds Aspose.ThreeD.Formats.PdfSaveOptions class and Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode Enums](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
+- [Добавляет метод триангуляции в класс Aspose.ThreeD. Сущности. PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [Добавляет два метода BuildTangentBinormal в класс Aspose.ThreeD. Entity. PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
 
 {{% alert color="primary" %}} 
 
-Этот документ описывает изменения в Aspose.3D API с версии 2.1.0 до 16.9.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, но и описание любых изменений в поведении за кулисами в Aspose.3D.
+Этот документ описывает изменения в Aspose.3D API с версии 2.1.0 до 16.9.0, которые могут представлять интерес для разработчиков модулей/приложений. Она включает в себя не только новые и обновленные публичные методы, но и описание любых изменений в поведении за кулисами в Aspose.3D.
 
 {{% /alert %}} 
-### **Импорт 3D Сцена из источника PDF**
-Используя последнюю версию (16.9.0) или выше, разработчики могут получить 3D сцены из входного файла PDF.
-#### **Добавляет Aspose.ThreeD. Форматы. Класс PdfLoadOptions**
-Мы добавили класс PdfLoadOptions. Это помогает в загрузке контента из входного файла PDF. Разработчики могут применить пароль для защищенных PDF-файлов.
+###  **Импорт сцены 3D из источника PDF**
+Используя последнюю версию (16.9.0) или выше, разработчики могут получать сцены 3D из входного файла PDF.
+####  **Добавляет Aspose.ThreeD. Форматы. Класс PdfLoadOptions**
+Мы добавили класс PdfLoadOptions. Это помогает при загрузке содержимого из входного файла PDF. Разработчики могут применять пароль для защищенных PDF-файлов.
 
 **Открыть сцену из защищенного паролем файла PDF**
 
@@ -45,8 +45,8 @@ PdfLoadOptions opt = new PdfLoadOptions() {Password = Encoding.UTF8.GetBytes("pa
 scene.Open(path, opt);
 
 {{< /highlight >}}
-#### **Добавляет Aspose.ThreeD.FileFormat и Aspose.ThreeD. Форматы. Класс PdfFormat**
-Мы добавили запись формата PDF в классе FileFormat для загрузки и экономии. Класс PdfFormat помогает манипулировать PDF.
+####  **Добавляет Aspose.ThreeD.FileFormat и Aspose.ThreeD. Форматы. Класс PDFFormat**
+Мы добавили запись формата PDF в класс FileFormat для загрузки и сохранения. Класс PdfFormat помогает манипулировать PDF-файлами.
 
 {{< highlight "java" >}}
 
@@ -54,7 +54,7 @@ scene.Open(path, opt);
 
 {{< /highlight >}}
 
-**Извлеките все необработанные содержимое 3D из файла PDF**
+**Извлеките все необработанное содержимое 3D из файла PDF**
 
 {{< highlight "java" >}}
 
@@ -62,7 +62,7 @@ scene.Open(path, opt);
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 // extract 3D contents
 
@@ -72,7 +72,7 @@ int i = 1;
 
 // iterate through the contents and in separate 3D files
 
-foreach (byte[]content in contents)
+foreach (byte[] content in contents)
 
 {
 
@@ -92,7 +92,7 @@ foreach (byte[]content in contents)
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 List<Scene> scenes = FileFormat.PDF.ExtractScene(path, password);
 
@@ -111,12 +111,12 @@ foreach (Scene scene in scenes)
 }
 
 {{< /highlight >}}
-### **Сохранить сцену 3D в формате PDF**
+###  **Сохраните сцену 3D в формате PDF**
 Используя последнюю версию (16.9.0) или выше, разработчики могут сохранять все поддерживаемые файлы 3D в формате PDF.
-#### **Добавляет Aspose.ThreeD. Форматы. Класс PdfSaveOptions и Aspose.ThreeD. Форматы. PdfLightingScheme/PdfRenderMode Enums**
-PdfSaveOptions помогает применять настройки перед сохранением в выходном формате PDF. Разработчики могут установить режим рендеринга и схему освещения перед сохранением сцены 3D в формате PDF, как показано ниже:
+####  **Добавляет Aspose.ThreeD. Форматы. Класс PdfSaveOptions и Aspose.ThreeD. Форматы. Схема PDFLightingScheme/PdfRenderMode Сводки**
+PdfSaveOptions помогает применить настройку перед сохранением в формате вывода PDF. Разработчики могут установить режим рендеринга и схему освещения перед сохранением сцены 3D в формате PDF, как показано ниже:
 
-**Создайте 3D PDF с цилиндром и визуализированный в затененном режиме иллюстрации с оптимизированным освещением CAD**
+**Создайте 3D PDF с цилиндром и отрисовайте в режиме затененной иллюстрации с оптимизированным освещением CAD**
 
 {{< highlight "java" >}}
 
@@ -141,10 +141,10 @@ opt.RenderMode = PdfRenderMode.ShadedIllustration;
 scene.Save("output.pdf", opt);
 
 {{< /highlight >}}
-### **Добавляет метод триангуляции в класс Aspose.ThreeD.Entities.PolygonModifier**
+###  **Добавляет метод триангуляции в класс Aspose.ThreeD. Сущности. PolygonModifier**
 Мы добавили еще одну перегрузку метода Triangulate в класс PolygonModifier, который принимает объект класса Scene в качестве параметра.
 
-**Преобразование всех полигонов в треугольники в файле FBX**
+**Преобразовать все многоугольники в треугольники в файле FBX**
 
 {{< highlight "java" >}}
 
@@ -161,10 +161,10 @@ PolygonModifier.Triangulate(scene);
 scene.Save("triangulated.fbx", FileFormat.FBX7400ASCII);
 
 {{< /highlight >}}
-### **Добавляет два метода BuildTangentBinormal в класс Aspose.ThreeD.Entities.PolygonModifier**
+###  **Добавляет два метода BuildTangentBinormal в класс Aspose.ThreeD. Entity. PolygonModifier**
 Мы добавили два метода BuildTangentBinormal в класс PolygonModifier. Один метод принимает объект класса Scene в качестве параметра, а другой-объект класса Mesh в качестве параметра.
 
-**Построить касательные и бинормальные данные для всех сеток в файле FBX**
+**Построение касательных и бинонормальных данных для всех ячеек в файле FBX**
 
 {{< highlight "java" >}}
 

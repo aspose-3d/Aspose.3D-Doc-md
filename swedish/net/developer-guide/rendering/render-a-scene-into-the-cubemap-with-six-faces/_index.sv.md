@@ -1,18 +1,18 @@
-﻿---
+---
 title: Rensar en scen i kubekartan med sex ansikten
 type: docs
 weight: 70
 url: /sv/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: Med Aspose.3D for .NET API, utvecklare kan göra en scen in i kubemappen med sex ansikten och spara alla ansikten i de bildformat som stöds.
+description: Använder Aspose. 3D for .NET API, utvecklare kan göra en scen in i kubemappen med sex ansikten och spara alla ansikten i de bildformat som stöds.
 ---
 {{% alert color="primary" %}}
 
-Användning[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Kan utvecklare göra en scen in i kubemappen med sex ansikten och spara alla ansikten i de bildformat som stöds.
+Genom att använda [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) kan utvecklare göra en scen in i kubemappen med sex sidor och spara alla ansikten i de bildformat som stöds.
 
 {{% /alert %}}
-## **Fånga en kubekarta med sex ansikten**
-I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga kubemappen, Skapa också en kubemap render mål med djup konsistens, skapa en visning och slutligen få kubemap textur. `ITextureCubema`p klassen hämtar kubemap textur och `CubeFaceData` klassen tillåter att komma åt ansikten av den kubekarta. och sedan exportera till det bildformat som stöds.
-### **Programmeringsprova**
+##  **Fånga en kubekarta med sex ansikten**
+I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga kubemappen, Skapa också en kubemap render mål med djup konsistens, skapa en visning och slutligen få kubemap textur. `ITextureCubema`-klassen hämtar kubemap-texturen och `CubeFaceData`-klassen tillåter åtkomst till kubemappens sidor, och sedan exportera till det bildformat som stöds.
+###  **Programmeringsprova**
 Det här kodexemplet gör en scen in i kubekartan med sex ansikten och exporterar till bildformatet.
 
 **C#**

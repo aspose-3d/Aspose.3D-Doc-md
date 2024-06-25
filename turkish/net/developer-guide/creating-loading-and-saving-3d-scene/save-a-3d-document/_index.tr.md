@@ -1,27 +1,27 @@
-﻿---
-title: 07ave 3D Document farklı 3D using ormats kullanarak C#
-linktitle: Save bir 3D ococument
+---
+title: C# kullanarak farklı 3D formatlarında 3D belgesini kaydedin
+linktitle: 3D belgesini kaydedin
 type: docs
 weight: 20
 url: /tr/net/save-a-3d-document/
-description: To Aspose.3D API cene cene sınıfı 3D belgesini temsil eder ve geliştiriciler nesnesini herhangi bir desteklenen dosya biçiminde kaydedebilir.
+description: Aspose.3D API sahne sınıfı, 3D belgesini temsil eder ve geliştiriciler nesnesini herhangi bir desteklenen dosya biçiminde kaydedebilir.
 ---
-## **Overview**
-The makalesi 3D belgesini C# 3D belge işleme kütüphanesini kullanarak çeşitli formatlarda nasıl kaydedebileceğinizi açıklıyor
+##  **Overview**
+The article explains how you can save 3D document in various formats using C# 3D document processing library, including
 
-- C#-Autoutoesk kullanarak FBX formatında 07ave a 3D ococument
-- C# - Collada kullanarak DAE formatında 07ave a 3D ococument
-- C# - Discreet 3D Studio kullanarak 3DS formatında bir 3D ococument
-- DRC formatında C# - Google 076481 481 kullanarak bir 3D Document
+- 3D belgesini FBX formatında C# -autodesk kullanarak kaydedin
+- 3D belgesini DAE formatında C# - Collada kullanarak kaydedin
+- 3D belgesini 3DS formatında C# -sağduyulu 3D studio kullanarak kaydedin
+- 3D belgesini DRC formatında C# - Google Draco kullanarak kaydedin
 
 {{% alert color="primary" %}} 
 
-The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) Aspose.3D API sınıfı 3D belgesini temsil eder ve geliştiriciler nesnesini herhangi bir desteklenen dosya biçiminde kaydedebilir. To bir 076481 481 Scene kaydedin, sadece 076. 481 yöntemini kullanın, tam yol veya dosya akışı nesnesi olan bir dosya adını kabul eder. Aspose.3D API, çıkış dosyası formatını belirtmek için başka bir 07. 3481 parametresi sunar.
+The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class of the Aspose.3D API represents a 3D document and developers can save its object in any supported file format. To save a 3D Scene, simply use the [`Scene.Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) method, it accepts a file name with complete path or a file stream object. Aspose.3D API offers another `FileFormat` parameter to specify output file format.
 
 {{% /alert %}} 
 
-## **Save 3D cene cene içinde 07upp073D biçimleri**
+##  **Desteklenen 3D formatlarında 3D sahnesini kaydedin**
 
-The C# kod örneği aşağıda 3D cene cene veya belgeyi çeşitli desteklenen 3D formatlarında bir akışa nasıl kaydedeceğinizi gösterir.
+Aşağıdaki C# kod örneği, çeşitli desteklenen 3D formatlarında bir akışa 3D sahnesinin veya belgenin nasıl kaydedileceğini gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}

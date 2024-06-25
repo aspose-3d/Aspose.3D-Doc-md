@@ -1,20 +1,20 @@
-﻿---
-title: Hangublic API hangمعلقة في Aspose.3D 16.12.0
+---
+title: API العام يتغير بـ Aspose.3D 16.12.0
 type: docs
 weight: 10
 url: /ar/net/public-api-changes-in-aspose-3d-16-12-0/
 ---
 **Contents Sأوماري**
 
-- [Adds Aspose.ThreeD. tered tered lass](#PublicAPIChangesinAspose.3D16.12.0-AddsAspose.ThreeD.MeteredClass)
-- [Importing DXF iles](#PublicAPIChangesinAspose.3D16.12.0-ImportingDXFFiles)
+- [تضيف Aspose.ThreeD.Metered Class](#PublicAPIChangesinAspose.3D16.12.0-AddsAspose.ThreeD.MeteredClass)
+- [استيراد ملفات DXF](#PublicAPIChangesinAspose.3D16.12.0-ImportingDXFFiles)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 16.11.0 إلى 16.12.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+يوضح هذا المستند التغييرات إلى Aspose.3D API من الإصدار 16.11.0 إلى 16.12.0 ، والتي قد تهم مطوري الوحدات/التطبيقات. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-### **Adds Aspose.ThreeD. tered tered lass**
+###  **تضيف Aspose.ThreeD.Metered Class**
 A طريقة لتطبيق رخصة المقننة.
 
 **C#**
@@ -32,8 +32,8 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 //Your other code to use Aspose.3D
 
 {{< /highlight >}}
-### **Importing DXF iles**
-Uالغناء الإصدار الأخير (16.12.0) أو أعلى ، يمكن للمطورين استيراد الملفات DXF. يتم إضافة إدخال تنسيق he he DXF لأغراض التحميل.
+###  **استيراد ملفات DXF**
+باستخدام الإصدار الأخير (16.12.0) أو أعلى ، يمكن للمطورين استيراد ملفات DXF. تمت إضافة إدخال تنسيق DXF لأغراض التحميل.
 
 **C#**
 

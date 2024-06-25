@@ -1,17 +1,17 @@
-﻿---
+---
 title: 通过链式操作简化变换矩阵的创建
 type: docs
 weight: 60
 url: /zh/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D Python via .NET API提供了TransformBuilder类，它通过链操作简化了转换矩阵的创建。
+description: Aspose.3D for Python via .NET API 提供了TransformBuilder类，它通过链操作简化了转换矩阵的创建。
 ---
 {{% alert color="primary" %}} 
 
-Python via .NET API的Aspose.3D提供了`TransformBuilder`类，它通过链操作简化了变换矩阵的创建。
+Aspose.3D for Python via .NET API 提供了 `TransformBuilder` 类，它通过链操作简化了变换矩阵的创建。
 
 {{% /alert %}} 
 
-假设，有一个`TransformBuilder`实例**结核病**,以及连锁经营:
+假设有一个 `TransformBuilder` 实例**结核病**,以及连锁经营:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-`Matrix4`和`TransformBuilder`类中新添加的方法是开发人员通过程序对场景进行建模的实用工具，因此他们不需要手动构造变换矩阵，这通常由专家开发人员使用。
+`Matrix4` 和 `TransformBuilder` 类中新添加的方法是开发人员按程序对场景进行建模的实用程序，因此它们不需要手动构造变换矩阵，这通常由专业开发人员使用。
 
-序数开发人员可以使用类`Node`的`Transform`属性来更改对象的平移/缩放/旋转。
+序号开发人员可以使用 `Node` 类的 `Transform` 属性来更改对象的平移/缩放/旋转。
 
-开发人员还可以将`TransformBuilder`创建的矩阵分配给`Node.Transform`。
+开发人员还可以将 `TransformBuilder` 创建的矩阵分配给 `Node.Transform`。
 
-更多关于变换矩阵的信息可以在维基百科找到[变换矩阵](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)和[仿射传输](https://en.wikipedia.org/wiki/Affine_transformation)
+有关转换矩阵的更多信息，请参见维基百科 [变换矩阵](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) 和 [仿射传输](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

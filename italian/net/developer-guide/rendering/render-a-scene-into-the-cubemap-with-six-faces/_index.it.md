@@ -1,18 +1,18 @@
-﻿---
+---
 title: Renderi una scena nella cubemap con sei facce
 type: docs
 weight: 70
 url: /it/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: Utilizzando Aspose.3D for .NET API, gli sviluppatori possono eseguire il rendering di una scena nella cubemap con sei facce e salvare tutti i volti nei formati di immagine supportati.
+description: Utilizzando Aspose.3D for .NET API, gli sviluppatori possono visualizzare una scena nella cubemap con sei facce e salvare tutti i volti nei formati di immagine supportati.
 ---
 {{% alert color="primary" %}}
 
-Utilizzo[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Gli sviluppatori possono eseguire il rendering di una scena nella cubemap con sei facce e salvare tutte le facce nei formati di immagine supportati.
+Utilizzando [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), gli sviluppatori possono eseguire il rendering di una scena nella cubemap con sei facce e salvare tutti i volti nei formati di immagine supportati.
 
 {{% /alert %}}
-## **Cattura una cubemap con sei facce**
-In questo articolo, creiamo una fotocamera e due oggetti Light per catturare la cubemap, creare anche un obiettivo di rendering cubemap con texture di profondità, creare un viewport e infine ottenere la texture cubemap. La classe `ITextureCubema`p recupera la trama della cubemap e la classe `CubeFaceData` consente di accedere ai volti della cubemap e quindi di esportare nel formato immagine supportato.
-### **Campione di programmazione**
+##  **Cattura una cubemap con sei facce**
+In questo articolo, creiamo una fotocamera e due oggetti Light per catturare la cubemap, creare anche un obiettivo di rendering cubemap con texture di profondità, creare un viewport e infine ottenere la texture cubemap. La classe `ITextureCubema`p recupera la texture della cubemap e la classe `CubeFaceData` consente di accedere alle facce della cubemap, quindi di esportare nel formato dell'immagine supportato.
+###  **Campione di programmazione**
 Questo esempio di codice esegue il rendering di una scena nella cubemap con sei facce ed esporta nel formato dell'immagine.
 
 **C#**

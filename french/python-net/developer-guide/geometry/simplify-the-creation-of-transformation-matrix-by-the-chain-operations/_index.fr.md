@@ -1,17 +1,17 @@
-﻿---
+---
 title: Simplifier la création de matrice de transformation par les opérations de la chaîne
 type: docs
 weight: 60
 url: /fr/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D pour Python via .NET API propose la classe TransformBuilder qui simplifie la création de la matrice de transformation par les opérations en chaîne.
+description: Aspose.3D for Python via .NET API offre la classe TransformBuilder qui simplifie la création de la matrice de transformation par les opérations de la chaîne.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D pour Python via .NET API propose la classe `TransformBuilder` qui simplifie la création de la matrice de transformation par les opérations en chaîne.
+Aspose.3D for Python via .NET API offre la classe `TransformBuilder` qui simplifie la création de la matrice de transformation par les opérations de la chaîne.
 
 {{% /alert %}} 
 
-Supposons qu'il y ait une instance `TransformBuilder`**Tb**, Et opérations de chaîne:
+Supposons qu'il existe une instance `TransformBuilder`**Tb**, Et opérations de chaîne:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-Les nouvelles méthodes ajoutées dans les classes `Matrix4` et `TransformBuilder` sont les utilitaires permettant aux développeurs de modéliser la scène par programme, ils n'ont donc pas besoin de construire manuellement la matrice de transformation, cela est généralement utilisé par les développeurs experts.
+Les nouvelles méthodes ajoutées dans les classes `Matrix4` et `TransformBuilder` sont les utilitaires permettant aux développeurs de modéliser la scène par programme, ils n'ont donc pas besoin de construire manuellement la matrice de transformation, celle-ci est généralement utilisée par les développeurs experts.
 
 Les développeurs ordinaux peuvent utiliser la propriété `Transform` de la classe `Node` pour modifier la traduction/mise à l'échelle/rotation d'un objet.
 
-Les développeurs peuvent également attribuer la matrice créée par `TransformBuilder` au `Node.Transform`.
+Les développeurs peuvent également affecter la matrice créée par `TransformBuilder` à `Node.Transform`.
 
-Plus d'informations sur la matrice de transformation peuvent être trouvées sur Wikipedia[Matrice de transformation](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)Et[Affine Transofrmation](https://en.wikipedia.org/wiki/Affine_transformation)
+Vous trouverez plus d'informations sur la matrice de transformation sur Wikipedia [Matrice de transformation](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) et [Affine Transofrmation](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

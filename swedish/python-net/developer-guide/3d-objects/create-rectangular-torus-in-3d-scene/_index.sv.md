@@ -1,16 +1,16 @@
-﻿---
-title: Skapa rektangulär Torus i 3D Scene
+---
+title: Skapa rektangulärt torus i 3D Scene
 type: docs
 weight: 50
 url: /sv/python-net/create-rectangular-torus-in-3d-scene/
-description: Med Aspose.3D för Python via .NET API kan utvecklare skapa 3D objekt, och sedan spara 3D scen i någon som stöds 3D format.
+description: Genom att använda Aspose.3D for Python via .NET API, kan utvecklare skapa 3D objekt, och sedan spara 3D scen i vilket 3D-format som stöds.
 ---
 {{% alert color="primary" %}} 
 
-Användning[Aspose.3D för Python via .NET](https://products.aspose.com/3d/python-net/)API, utvecklare kan skapa 3D objekt, och sedan spara 3D scen i någon som stöds 3D format.
+Genom att använda [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API, kan utvecklare skapa 3D objekt, och sedan spara 3D scen i vilket 3D-format som stöds.
 
 {{% /alert %}} 
-## **Rektangulär torus**
+##  **Rektangulär torus**
 Vi har lagt till `RectangularTorus` klass, det tillåter utvecklare att placera en parameteriserad rektangulär torus i scenen, Detta kan konverteras till ordinarie mesh/triangelt mesh under att spara scenen till olika filformat som stöds.
 
 **Python**
@@ -40,4 +40,4 @@ scene.save("rtorus.obj", FileFormat.WAVEFRONT_OBJ)
 
 Den genererade rektangulära torus ser ut enligt följande:
 
-![TOD:imageName_Av_Text:](create-rectangular-torus-in-3d-scene_1.png)
+![todo:image_alt_text](create-rectangular-torus-in-3d-scene_1.png)

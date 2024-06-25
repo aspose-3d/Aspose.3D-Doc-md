@@ -1,26 +1,26 @@
-﻿---
+---
 title: How إلى Rالأمم المتحدة
 type: docs
 weight: 70
 url: /ar/java/how-to-run-the-examples/
-description: يتم استضافة أمثلة ll من Aspose.3D for Java على GitHub. You يمكن إما استنساخ مستودع باستخدام المفضلة لديك GitHub العميل أو تحميل ملف ZIP.
+description: جميع أمثلة Aspose.3D for Java مستضافة على GitHub. يمكنك إما استنساخ المستودع باستخدام عميل GitHub المفضل لديك أو تنزيل ملف ZIP.
 ---
-## **تحميل ownمن GitHub**
-All أمثلة Aspose.3D for Java يتم استضافتها على[GitHub](https://github.com/aspose-3d/Aspose.3D-for-java). You يمكن إما استنساخ مستودع باستخدام المفضلة لديك GitHub العميل أو تحميل ملف ZIP من[هنا](https://github.com/aspose-3d/Aspose.3D-for-Java/archive/master.zip).
+##  **تحميل ownمن GitHub**
+جميع أمثلة Aspose.3D for Java مستضافة على [GitHub](https://github.com/aspose-3d/Aspose.3D-for-java). يمكنك إما استنساخ المستودع باستخدام عميل GitHub المفضل لديك أو تنزيل ملف ZIP من [هنا](https://github.com/aspose-3d/Aspose.3D-for-Java/archive/master.zip).
 
-Extract محتويات ملف ZIP إلى أي مجلد على جهاز الكمبيوتر الخاص بك. All توجد الأمثلة في مجلد `Examples`.
+استخراج محتويات ملف ZIP إلى أي مجلد على جهاز الكمبيوتر الخاص بك. توجد جميع الأمثلة في مجلد `Examples`.
 
-The `Data` مجلد يحتوي على وثائق الإدخال أو الملفات المستخدمة في الأمثلة.
+يحتوي مجلد `Data` على مستندات إدخال أو ملفات مستخدمة في الأمثلة.
 
 {{% alert color="primary" %}} 
 
-Eamهي في شكل**Eكليبس roالقذف**. Lease الإيجار فتح xxamكل في clipكليبس باستخدام أمر القائمة `File > Open Projects from File System...` واتبع الخطوات. Ow ow ، يجب أن تكون قادرة على تشغيل الأمثلة على ما يرام.
+Eamهي في شكل**Eكليبس roالقذف**. يرجى فتح الأمثلة في الكسوف باستخدام أمر القائمة `File > Open Projects from File System...` واتبع الخطوات. الآن ، يجب أن تكون قادرًا على تشغيل الأمثلة بشكل جيد.
 
 {{% /alert %}} 
-## **Run Example**
-Once ، يمكنك فتح xambbs Eفي clipclipclipE E ، ثم حدد ملف `RunExamples.java` unأي طريقة تشغيل. على سبيل المثال أو المثال ، حدد هذا واحد `CreateEmpty3DDocument.run()` وجدت داخل الدليل `src>java>examples>loadsave` أو داخل الحزمة `examples.loadsave` وتشغيله.
+##  **Run Example**
+مرة واحدة ، يمكنك فتح الأمثلة في ملف الكسوف ، ثم حدد ملف `RunExamples.java` وألغي التعليق على أي طريقة تشغيل. على سبيل المثال ، حدد هذا `CreateEmpty3DDocument.run()` الموجود داخل دليل `src>java>examples>loadsave` أو داخل الحزمة `examples.loadsave` وقم بتشغيله.
 
-## **Creكرينشوت**
+##  **Creكرينشوت**
 Lease الإيجار انظر لقطة الشاشة التالية والمناطق البارزة لمزيد من المساعدة.
 
-![تودو: الصورة_البديل_نص](how-to-run-the-examples_1.png)
+! [Todo: image_ altttext](how-to-run-the-examples_1.png)

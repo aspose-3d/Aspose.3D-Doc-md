@@ -1,28 +1,28 @@
-﻿---
-title: Add Node hiyerarşi ve Share eoeometrik veri 07esh arasında ultiultiple Nodes 3D cene cene
+---
+title: Düğüm hiyerarşisini ekleyin ve 3D sahnesinin birden fazla düğümleri arasında örgü geometrik verilerini paylaşın
 type: docs
 weight: 40
 url: /tr/python-net/add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-nodes-of-3d-scene/
-description: Python via .NET için Aspose.3D, Node hiyerarşi oluşturmayı teklif ediyor. The Node, bir sahnenin temel yapı bloğudur. Düğümlerin hiyerarşi, bir sahnenin mantıksal yapısını tanımlar ve geometrileri, ışıkları ve kameraları düğümlere bağlayarak görünür içerik sağlar.
+description: Aspose.3D for Python via .NET bir düğüm hiyerarşisi oluşturmayı teklif eder. Düğüm, bir sahnenin temel yapı bloğudur. Düğümlerin bir hiyerarşi, bir sahnenin mantıksal yapısını tanımlar ve geometrileri, ışıkları ve kameraları düğümlere bağlayarak görünür içerik sağlar.
 ---
-## **Add Node 07ierarchy 3D Scene ococument**
-Python via .NET için Aspose.3D, Node hiyerarşi oluşturmayı teklif ediyor. The Node, bir sahnenin temel yapı bloğudur. Düğümlerin hiyerarşi, bir sahnenin mantıksal yapısını tanımlar ve geometrileri, ışıkları ve kameraları düğümlere bağlayarak görünür içerik sağlar.
-### **Cene cene Graph ample xample**
+##  **Düğüm hiyerarşisini 3D sahne belgesine ekleyin**
+Aspose.3D for Python via .NET bir düğüm hiyerarşisi oluşturmayı teklif eder. Düğüm, bir sahnenin temel yapı bloğudur. Düğümlerin bir hiyerarşi, bir sahnenin mantıksal yapısını tanımlar ve geometrileri, ışıkları ve kameraları düğümlere bağlayarak görünür içerik sağlar.
+###  **Cene cene Graph ample xample**
 A örnek sahne hiyerarşi gibi görünüyor:
 
-![Todo: görüntü_Alt_Metin](add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-nodes-of-3d-scene_1.png)
+! [Todo: image_alt_text](add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-nodes-of-3d-scene_1.png)
 
-In Aspose.3D, her `Node` örneği birden fazla çocuk düğümüne sahip olabilir, bu örnekte, kök düğümünü döndürürsek, tüm çocuk düğümleri de etkilenir:
+Aspose.3D, her bir `Node` örneği birden fazla çocuk düğümüne sahip olabilir, bu örnekte, kök düğümünü döndürürsek, tüm çocuk düğümleri de etkilenir:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-NodeHierarchy-AddNodeHierarchy.py" >}}
-## **Hare hare Mesh eoeometry ata ata ultiultiple Nodes arasında**
-To bellek gereksinimlerini azaltır, [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) Class tek bir örnek [`Node`](https://reference.aspose.com/3d/net/aspose.threed/node) lass lass çeşitli örneklerine bağlı olabilir. Envision, tüm 3D küplerinin ayırt edilemez göründüğü bir sisteme ihtiyacınız var, ancak çok sayıda çok sayıda ihtiyacınız vardı. You sistem başladığında bir Mesh nesnesi yaparak bellek ayırabilir. At bu nokta, her zaman başka bir şekle ihtiyacınız olduğunda, başka bir Node nesnesi yaparsınız, daha sonra bu düğümün bir Mesh. This instancing olarak adlandırılır. 076481 481 A481 Is için Aspose.3D, anında yanıt vermeye izin verir.
-### **Instancing örneği**
-In RTS (Real-time strategy) gibi oyunlar, biz her zaman aynı 3D modeli ile birden fazla NPCs (Non-Player layer haracter) görebilirsiniz, belki farklı renklerde, işleme motoru genellikle aynı örgü geometri verilerini farklı NCCs arasında paylaşır, bu teknik Instancing olarak adlandırılır.
+##  **Hare hare Mesh eoeometry ata ata ultiultiple Nodes arasında**
+To diminish memory necessities, a single instance of [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) Class can be bound to various instances of [`Node`](https://reference.aspose.com/3d/net/aspose.threed/node) Class. Envision that you require a system where all 3D cubes seemed to be indistinguishable, however you required numerous a large number of them. You could spare memory by making one Mesh object when the system begins up. At that point, each time you required another shape, you make another Node object, then point that node to the one Mesh. This is called instancing. Aspose.3D for Python via .NET APIs allow to do instancing.
+###  **Instancing örneği**
+Rts (gerçek zamanlı strateji) oyunlarında, her zaman aynı 3D modeliyle birden fazla npcs (oyuncu olmayan karakter) görebiliriz, belki farklı renklerde, işleme motoru genellikle farklı npc'lerde aynı örgü geometri verilerini paylaşır, bu tekniğe anında denir.
 
 {{% alert color="primary" %}}
 
-The `Mesh` sınıf nesnesi kodda kullanılıyor. We can[Orada anlatıldığı gibi `Mesh` sınıfı bir nesne oluşturun](/3d/tr/python-net/create-3d-mesh-and-scene/).
+The `Mesh` class object is being used in the code. We can [create a `Mesh` class object as narrated there](/3d/python-net/create-3d-mesh-and-scene/).
 
 {{% /alert %}}
 

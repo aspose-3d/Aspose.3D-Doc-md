@@ -1,17 +1,17 @@
-﻿---
-title: Customize Non-PBR إلى aterateraterالمواد ononقبل aving aving 3D cencenإلى GLTF 2.0 orormat
+---
+title: تخصيص تحويل مواد غير PBR إلى PBR قبل توفير 3D مشاهد إلى تنسيق GLTF 2.0
 type: docs
 weight: 70
 url: /ar/python-net/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
-description: The Scene فئة من Aspose.3D API يمثل مشهد 3D. Dإيفلين يمكن بالفعل بناء مشهد 3D عن طريق إضافة كيانات مختلفة. GLTF 2.0 يدعم فقط PBR (Physally ased ased en) المواد ، Aspose.3D API يحول داخليا المواد غير PBR إلى مواد PBقبل التصدير إلى GLTF 2.0.
+description: فئة المشهد لـ Aspose. يمثل 3D API مشهد 3D. يمكن للمطورين بالفعل بناء مشهد 3D عن طريق إضافة كيانات مختلفة. يدعم GLTF 2.0 فقط مواد PBR (تقديم قائم على أساس مادي) ، Aspose.3D API يحول داخليًا المواد غير المستخدمة في PBR إلى مواد PBR قبل التصدير إلى GLTF 2.0.
 ---
 {{% alert color="primary" %}} 
 
-The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) فئة من Aspose.3D API يمثل مشهد 3D. Dإيفلين يمكن بالفعل بناء مشهد 3D عن طريق إضافة كيانات مختلفة. GLTF 2.0 يدعم فقط PBR (Physally ased ased en) المواد ، Aspose.3D API يحول داخليا المواد غير Pased ased إلى مواد PR قبل التصدير إلى GLTF 2.0 (المواد في المشهد ستبقى دون تغيير أثناء التصدير) ، ويمكن للمطورين توفير وظيفة تحويل مخصصة لتجاوز السلوك الافتراضي.
+فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) من Aspose. يمثل 3D API مشهد 3D. يمكن للمطورين بالفعل بناء مشهد 3D عن طريق إضافة كيانات مختلفة. يدعم GLTF 2.0 فقط مواد PBR (تقديم قائم على أساس مادي) ، Aspose. يحول 3D API داخليًا المواد غير PBR إلى مواد PBR قبل التصدير إلى GLTF 2.0 (ستظل المواد في المشهد دون تغيير أثناء التصدير) ، ويمكن للمطورين توفير وظيفة تحويل مخصصة لتجاوز السلوك الافتراضي.
 
 {{% /alert %}} 
-## **Non-PBR إلى PBateraterateron**
-Tمثال التعليمات البرمجية له يوضح كيفية تحويل المواد إلى المواد PBR ، ومن ثم يحفظ 3D المشهد في تنسيق GLTF:
+##  **Non-PBR إلى PBateraterateron**
+This code example demonstrates how to convert material to PBR material, and then saves 3D scene in the GLTF format:
 
 **C#**
 

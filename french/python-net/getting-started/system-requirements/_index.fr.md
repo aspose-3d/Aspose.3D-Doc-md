@@ -1,14 +1,14 @@
-﻿---
-title: Configuration requise
+---
+title: Exigences système
 type: docs
 weight: 50
 url: /fr/python-net/system-requirements/
-description: Les exigences du système pour le Aspose.3D pour Python via .NET.
+description: La configuration système requise pour le Aspose.3D for Python via .NET.
 ---
-## **Aperçu**
-` `Pour créer et manipuler les formats de documents 3D, la machine sur laquelle s'exécute Aspose.3D pour Python via .NET n'a pas besoin d'installer un logiciel de modélisation et de rendu. Aspose.3D pour Python via .NET API intègre également un moteur de génération de document.
-## **Système d'exploitation pris en charge**
-Aspose.3D pour Python via .NET prend en charge n'importe quel système d'exploitation 64 bits ou 32 bits où Python 3.5 ou version ultérieure est installé.
+##  **Aperçu**
+` ` Pour construire et manipuler les formats de document 3D, la machine sur laquelle Aspose.3D for Python via .NET tourne n'a pas besoin d'avoir un logiciel de modélisation et de rendu installé. Aspose.3D for Python via .NET API intègre également le moteur de génération de documents.
+##  **Système d'exploitation pris en charge**
+Aspose.3D for Python via .NET prend en charge tout système d'exploitation 64 bits ou 32 bits sur lequel Python 3.5 ou une version ultérieure est installé.
 
 <table>  
     <tr>
@@ -19,7 +19,7 @@ Aspose.3D pour Python via .NET prend en charge n'importe quel système d'exploit
         <td>Microsoft Windows</td>
         <td>
             <ul>
-                <li>Windows 2003 Serveur (x64, x86)</li>
+                <li>Serveur Windows 2003 (x64, x86)</li>
                 <li>Windows 2008 Serveur (x64, x86)</li>
                 <li>Windows 2012 Serveur (x64, x86)</li>
                 <li>Windows 2012 R2 Serveur (x64, x86)</li>
@@ -47,24 +47,24 @@ Aspose.3D pour Python via .NET prend en charge n'importe quel système d'exploit
 </table>
 
 
-## Exigences système pour la plate-forme cible Linux
+## Exigences système pour la plate-forme Linux cible
 
 - GCC-6 les bibliothèques d'exécution (ou plus tard).
   
-- [`libgdiplus`](https://github.com/mono/libgdiplus): une implémentation Open Source du GDI API.
+- [`libgdiplus`](https://github.com/mono/libgdiplus): une implémentation Open Source de GDI API.
 
-- Dépendances du .NET Core Runtime. L'installation du .NET Core Runtime n'est PAS requise.
+- Dépendances de .NET Core Runtime. L'installation de .NET Core Runtime elle-même n'est PAS nécessaire.
 
-- Pour Python 3.5-3.7: La construction `pymalloc` de Python est nécessaire. L'option de construction `--with-pymalloc` Python est activée par défaut. En règle générale, la version `pymalloc` de Python est marquée avec le suffixe `m` dans le nom de fichier.
+- Pour Python 3.5-3.7: La build `pymalloc` de Python est nécessaire. L'option de build `--with-pymalloc` Python est activée par défaut. En règle générale, la construction `pymalloc` de Python est marquée avec le suffixe `m` dans le nom du fichier.
 
-- `libpython` a partagé la bibliothèque Python. L'option de construction `--enable-shared` Python est désactivée par défaut, certaines distributions Python ne contiennent pas la bibliothèque partagée `libpython`. Pour certaines plates-formes Linux, la bibliothèque partagée `libpython` peut être installée à l'aide du gestionnaire de packages, par exemple: `sudo apt-get install libpython3.7`. Le problème courant est que la bibliothèque `libpython` est installée dans un emplacement différent de l'emplacement système standard pour les bibliothèques partagées. Le problème peut être résolu en utilisant les options de construction Python pour définir des chemins de bibliothèque alternatifs lors de la compilation de Python, ou en créant un lien symbolique vers le fichier de la bibliothèque `libpython` dans l'emplacement standard du système pour les bibliothèques partagées. En règle générale, le nom de fichier de bibliothèque partagé `libpython` est `libpythonX.Ym.so.1.0` pour Python 3.5-3.7, ou `libpythonX.Y.so.1.0` pour Python 3.8 ou version ultérieure (par exemple: libpython3.7m.so.1.0, libpython3.9.so.1.0).
+- `libpython` bibliothèque partagée Python. L'option de build `--enable-shared` Python est désactivée par défaut, certaines distributions Python ne contiennent pas la bibliothèque partagée `libpython`. Pour certaines plates-formes Linux, la bibliothèque partagée `libpython` peut être installée en utilisant le gestionnaire de paquets, par exemple: `sudo apt-get install libpython3.7`. Le problème commun est que la bibliothèque `libpython` est installée dans un emplacement différent de l'emplacement système standard pour les bibliothèques partagées. Le problème peut être résolu en utilisant les options de construction Python pour définir des chemins de bibliothèque alternatifs lors de la compilation Python, ou en créant un lien symbolique vers le fichier de bibliothèque `libpython` dans l'emplacement standard du système pour les bibliothèques partagées. Typiquement, le nom de fichier de la bibliothèque partagée `libpython` est `libpythonX.Ym.so.1.0` pour Python 3.5-3.7, ou `libpythonX.Y.so.1.0` pour Python 3.8 ou plus (par exemple: libpython3.7m.so.1.0, libpython3.9.so.1.0).
 
 
 
-De plus, tout système d'exploitation pouvant installer Mono (support .NET 4.0 Framework) ou utiliser le cœur .NET peut utiliser le Aspose.3D pour Python via .NET.
-## **Rendu**
-### **Vulkan**
-Aspose.3D pour Python via .NET nécessite la plate-forme Vulkan x64, x86 n'est pas pris en charge.
+De plus, tout système d'exploitation capable d'installer Mono(support du Framework .NET 4.0) ou d'utiliser .NET core peut utiliser Aspose.3D for Python via .NET.
+##  **Rendu**
+###  **Vulkan**
+Aspose.3D for Python via .NET nécessite la plate-forme Vulkan x64, x86 n'est pas pris en charge.
 
 - Série AMD Radeon 7700 et plus récente
 - Série NVIDIA GeForce 600 et plus récente

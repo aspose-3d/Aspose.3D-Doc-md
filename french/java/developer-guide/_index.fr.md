@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guide développeur
 type: docs
 weight: 20

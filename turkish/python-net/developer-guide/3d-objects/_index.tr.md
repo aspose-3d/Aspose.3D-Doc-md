@@ -1,9 +1,9 @@
-﻿---
-title: 3D Objects
+---
+title: 3D nesneler
 type: docs
 weight: 60
 url: /tr/python-net/3d-objects/
-description: Python via .NET için Aspose.3D 'deki 3D nesnelerinin manipüle edilmesiyle ilgili Articles.
+description: Articles about manipulating 3D objects in Aspose.3D for Python via .NET.
 ---
-### **Bu bölümde Articles**
+###  **Bu bölümde Articles**
 

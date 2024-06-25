@@ -1,4 +1,4 @@
-﻿---
+---
 title: Polygons
 type: docs
 weight: 70

@@ -1,19 +1,19 @@
-﻿---
-title: Erstellen Sie einen Fisch-Augen-Objektiv-Effekt auf 3D Szene und speichern Sie in einem Bild
+---
+title: Erstellen Sie einen Fisch-Augen-Objektiv-Effekt in der 3D-Szene und speichern Sie in einem Bild
 type: docs
 weight: 20
 url: /de/python-net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: Mithilfe von Aspose.3D für Python via .NET API können Entwickler einen Fisheye-Objektiv effekt in der 3D-Szene erstellen und diese Ansicht in den unterstützten Bildformaten speichern.
+description: Mit Aspose.3D for Python via .NET API können Entwickler einen Fisheye-Objektiv effekt auf 3D-Szene erstellen und diese Ansicht in den unterstützten Bildformaten speichern.
 ---
 {{% alert color="primary" %}}
 
-Verwendung[Aspose.3D für Python via .NET API](https:#products.aspose.com/3d/python-net/)Entwickler können einen Fisheye-Objektiv effekt in der 3D-Szene erstellen und diese Ansicht in den unterstützten Bildformaten speichern.
+Mit [Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/) können Entwickler einen Fisheye-Objektiv-Effekt für die 3D-Szene erstellen und diese Ansicht in den unterstützten Bildformaten speichern.
 
 {{% /alert %}}
-## **Erstellen Sie einen Fisheye-Linsen effekt**
+##  **Erstellen Sie einen Fisheye-Linsen effekt**
 In diesem Artikel erstellen wir eine Kamera und zwei Licht objekte, um die Szene zu erfassen, erstellen auch ein Render ziel, erstellen ein Ansicht fenster und führen die Nach bearbeitung der Fisheye-Projektion mit der Würfel karte als Eingabe aus und speichern schließlich die Fisheye-Textur. Die `execute`-Methode der `Renderer`-Klasse ermöglicht es, den Nach bearbeitungs effekt auszuführen und das Ergebnis zu speichern, um das Ziel zu rendern.
-### **Programmier probe**
-Dieses Code beispiel erstellt einen Fisheye-Objektiv effekt in der 3D-Szene und speichert im Bildformat.
+###  **Programmier probe**
+Dieses Code beispiel erstellt einen Fisheye-Objektiv effekt auf der 3D-Szene und speichert im Bildformat.
 
 **Python**
 

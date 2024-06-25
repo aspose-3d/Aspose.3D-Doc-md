@@ -1,7 +1,7 @@
-﻿---
-title: 3D对象
+---
+title: 3D 个对象
 type: docs
 weight: 60
 url: /zh/net/3d-objects/
-description: 关于在Aspose.3D for .NET中操纵3D对象的文章。
+description: 有关操作 Aspose.3D for .NET 中的 3D 对象的文章。
 ---

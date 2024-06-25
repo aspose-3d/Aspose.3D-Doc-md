@@ -1,9 +1,9 @@
-﻿---
-title: 3D بكرات O
+---
+title: كائنات 3D
 type: docs
 weight: 60
 url: /ar/python-net/3d-objects/
-description: Rrticles حول التلاعب 3D الكائنات في Aspose.3D ل Python via .NET.
+description: مقالات حول التلاعب بكائنات 3D بـ Aspose.3D for Python via .NET.
 ---
-### **Articles في هذا القسم**
+###  **Articles في هذا القسم**
 

@@ -1,23 +1,23 @@
-﻿---
-title: 创建和读取现有3D场景
+---
+title: 创建并读取现有 3D 场景
 type: docs
 weight: 10
 url: /zh/python-net/create-and-read-an-existing-3d-scene/
-description: Aspose.3D API支持从头开始创建新的3D场景，然后以任何受支持的文件格式保存。开发人员还可以加载现有3D场景以用于修改、添加或处理目的。
+description: Aspose。3D API 支持从头开始创建新的 3D 场景，然后以任何支持的文件格式保存。开发人员还可以加载现有的 3D 场景以进行修改、添加或处理。
 ---
-## **创建一个空3D场景并以支持的3D文件格式保存**
-Aspose.3D API支持从头开始创建新的3D场景，然后以任何受支持的文件格式保存。开发人员还可以加载现有3D场景以用于修改、添加或处理目的。
-### **创建3D场景文档**
-请按照以下步骤使用Aspose.3D api创建3D场景文档:
+##  **创建一个空的 3D 场景并以支持的 3D 文件格式保存**
+Aspose。3D API 支持从头开始创建新的 3D 场景，然后以任何支持的文件格式保存。开发人员还可以加载现有的 3D 场景以进行修改、添加或处理。
+###  **创建 3D 场景文档**
+请按照以下步骤使用 Aspose.3D api创建 3D 场景文档:
 
-1. 创建表示3D场景文档的[`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene)类的实例。
-1. 通过调用场景类对象的[`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save)方法生成3D场景文档。
-#### **创建3D场景文档: 编程示例**
+1. 创建表示 3D 场景文档的 [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) 类的实例。
+1. 通过调用Scene类对象的 [`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) 方法生成 3D Scene文档。
+####  **创建 3D 场景文档: 编程示例**
 
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-CreateEmpty3DDocument.py" >}}
-## **阅读3D场景**
-使用Aspose.3D API，开发人员可以加载所有支持的3D文档。的可用构造函数**场景**类允许这样做，他们接受有效的文件路径字符串。支持的可读文件格式如下:
+##  **正在读取 3D 场景**
+使用 Aspose.3D API，开发人员可以加载所有受支持的 3D 文档。的可用构造函数**场景**类允许这样做，他们接受有效的文件路径字符串。支持的可读文件格式如下:
 
 1. FBX 7.7 (ASCII，二进制)
 1. FBX 7.6 (ASCII，二进制)
@@ -42,6 +42,6 @@ Aspose.3D API支持从头开始创建新的3D场景，然后以任何受支持�
 1. USDZ
 1. USD
 
-`Scene`类的构造函数在内部检测3D文档格式。
-### **阅读3D场景: 编程示例**
+`Scene` 类的构造函数在内部检测 3D 文档格式。
+###  **读取 3D 场景: 编程示例**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-ReadExistingScene.py" >}}

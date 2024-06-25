@@ -1,27 +1,27 @@
-﻿---
-title: Aspose.3D中的公共API变化1.7.0
+---
+title: Aspose 中的公共 API 更改。3D 1.7.0
 type: docs
 weight: 10
 url: /zh/net/public-api-changes-in-aspose-3d-1-7-0/
 ---
 **内容摘要**
 
-- [添加Aspose.ThreeD.Entities.Frustum类](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
-- [添加Aspose.ThreeD.ImageRenderOptions类](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
-- [在Aspose.ThreeD.Entities.Camera类中添加MoveForward方法](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
-- [在Aspose.ThreeD.Entities.Geometry类中添加CastShadows和ReceiveShadows成员](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
-- [在Aspose.ThreeD.Entities.PolygonModifier类中添加generatorenmal方法](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
-- [在Aspose.ThreeD.Utilities.四元数类中添加Concate方法](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
+- [添加 Aspose.ThreeD.Entities.Frustum类](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
+- [添加 Aspose.ThreeD.ImageRenderOptions类](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
+- [在 Aspose.ThreeD.Entities.Camera类中添加MoveForward方法](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
+- [在 Aspose.ThreeD.Entities.Geometry类中添加CastShadows和ReceiveShadows成员](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
+- [在 Aspose.ThreeD.Entities.PolygonModifier类中添加generatenomal方法](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
+- [在 Aspose.ThreeD.Utilities.Quaternion类中添加Concate方法](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
 
 {{% alert color="primary" %}} 
 
-本文档介绍了Aspose.3D API从1.5.0版到1.7.0版的更改，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对Aspose.3D幕后行为的任何变化的描述。
+本文档介绍了对 Aspose.3D API 从版本1.5.0到1.7.0的更改，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对 Aspose.3D 中幕后行为的任何更改的描述。
 
 {{% /alert %}} 
-### **添加Aspose.ThreeD.Entities.Frustum类**
+###  **添加 Aspose.ThreeD.Entities.Frustum类**
 增加了一个新的平截头类。相机和灯光是实体类的子类。在1.7.0版本中，这些类是从截头锥体继承的，而截头锥体是从实体继承的，因为属性Position，Up，LookAt，Direction，Target，NearPlane和FarPlane被提取到截头锥体中。
 
-**从Aspose.ThreeD.Entities.Camera中提取成员到Aspose.ThreeD.Entities.Frustum** 
+**将成员从 Aspose.ThreeD.Entities.Camera提取到 Aspose.ThreeD.Entities.Frustum** 
 所有这些属性都被提取到截头锥体:
 
 **C#**
@@ -44,7 +44,7 @@ double FarPlane{ get;set;}
 
 {{< /highlight >}}
 
-**从类Aspose.ThreeD中提取成员。实体。光到Aspose.ThreeD。实体。截头锥** 
+**从类 Aspose.ThreeD.Entities.Light提取成员到 Aspose.ThreeD.Entities.Frustum** 
 所有这些属性都被提取到截头锥体:
 
 **C#**
@@ -56,8 +56,8 @@ double FarPlane{ get;set;}
 Aspose.ThreeD.Utilities.Vector3 Direction{ get;set;}
 
 {{< /highlight >}}
-### **添加Aspose.ThreeD.ImageRenderOptions类**
-**将3D文件转换为图像文件格式**
+###  **添加 Aspose.ThreeD.ImageRenderOptions类**
+**将 3D 文件转换为图像文件格式**
 
 **C#**
 
@@ -99,7 +99,7 @@ scene.Render(camera, fileName, new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
 
-**将成员添加到类Aspose.ThreeD。场景:**
+**已将成员添加到类 Aspose.ThreeD.Scene:**
 
 **C#**
 
@@ -114,7 +114,7 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
 public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap bitmap, Aspose.ThreeD.ImageRenderOptions options)
 
 {{< /highlight >}}
-### **在Aspose.ThreeD.Entities.Camera类中添加MoveForward方法**
+###  **在 Aspose.ThreeD.Entities.Camera类中添加MoveForward方法**
 它将相机朝其方向向前移动。摄像机的方向由任何目标/方向/外观指定
 
 - **目标:**空间中的目标节点，无论目标/摄像机更改其空间位置，摄像机都将始终看着该目标。
@@ -130,8 +130,8 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
  public void MoveForward(double distance)
 
 {{< /highlight >}}
-### **在Aspose.ThreeD.Entities.Geometry类中添加CastShadows和ReceiveShadows成员**
-一些文件格式可以在FBX等几何图形中存储阴影相关设置，并且它们也用于渲染。在这个代码示例中，红色框和圆环的阴影投射到飞机上，红色框不会接收阴影，蓝色框不会投射阴影。
+###  **在 Aspose.ThreeD.Entities.Geometry类中添加CastShadows和ReceiveShadows成员**
+某些文件格式可以在几何体 (如 FBX) 中存储与阴影相关的设置，并且它们也用于渲染。在此代码示例中，红色框和圆环的阴影投射到平面上，红色框不会接收阴影，蓝色框不会投射阴影。
 
 **C#**
 
@@ -218,7 +218,7 @@ ImageRenderOptions opt = new ImageRenderOptions() {EnableShadows = true};
 scene.Render(camera, "pic.png", new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
-### **在Aspose.ThreeD.Entities.PolygonModifier类中添加generatorenmal方法**
+###  **在 Aspose.ThreeD.Entities.PolygonModifier类中添加generatenomal方法**
 它允许开发人员从网格实例生成正常数据，如果在网格上定义了VertexElementSmoothingGroup元素，则生成的正常数据将由VertexElementSmoothingGroup平滑。
 
 方法签名:
@@ -264,7 +264,7 @@ s.RootNode.Accept(delegate(Node n)
 });
 
 {{< /highlight >}}
-### **在Aspose.ThreeD.Utilities.四元数类中添加Concate方法**
+###  **在 Aspose.ThreeD.Utilities.Quaternion类中添加Concate方法**
 它允许开发人员将两个旋转变换连接成以四元数表示的一个。
 
 方法签名:

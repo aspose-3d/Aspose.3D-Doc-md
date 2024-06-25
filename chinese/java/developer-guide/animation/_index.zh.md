@@ -1,5 +1,5 @@
-﻿---
-title: 动画
+---
+title: Animation
 type: docs
 weight: 40
 url: /zh/java/animation/

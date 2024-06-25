@@ -1,4 +1,4 @@
-﻿---
+---
 title: Public API Changements dans Aspose.3D 16.12.0
 type: docs
 weight: 10
@@ -11,10 +11,10 @@ url: /fr/net/public-api-changes-in-aspose-3d-16-12-0/
 
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.3D API de la version 16.11.0 à 16.12.0, qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, mais également une description de tout changement de comportement dans les coulisses du Aspose.3D.
+Ce document décrit les modifications apportées à Aspose.3D API de la version 16.11.0 à 16.12.0, qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement des méthodes publiques nouvelles et mises à jour, mais aussi une description de tout changement de comportement dans les coulisses de Aspose.3D.
 
 {{% /alert %}} 
-### **Ajoute Aspose.ThreeD. Classe mesurée**
+###  **Ajoute Aspose.ThreeD. Classe mesurée**
 Un moyen d'appliquer une licence au compcompère.
 
 **C#**
@@ -32,8 +32,8 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 //Your other code to use Aspose.3D
 
 {{< /highlight >}}
-### **Importation de fichiers DXF**
-En utilisant la version récente (16.12.0) ou plus, les développeurs peuvent importer des fichiers DXF. L'entrée de format DXF est ajoutée à des fins de chargement.
+###  **Importation de fichiers DXF**
+En utilisant la version récente (16.12.0) ou supérieure, les développeurs peuvent importer des fichiers DXF. L'entrée de format DXF est ajoutée à des fins de chargement.
 
 **C#**
 

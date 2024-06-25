@@ -1,4 +1,4 @@
-﻿---
+---
 title: 3D Objetos
 type: docs
 weight: 30

@@ -1,19 +1,19 @@
-﻿---
-title: Convertir Mesh d'un seul objet 3D dans le fichier PLY
+---
+title: Convertir le maillage d'un seul objet 3D dans un fichier PLY
 type: docs
 weight: 20
 url: /fr/python-net/convert-mesh-of-a-single-3d-object-in-ply-file/
-description: Les membres EncodeMesh surchargés exposés par la classe PlyFormat peuvent être utilisés pour convertir le Mesh d'un objet 3D en fichier PLY. Les membres EncodeMesh prennent le Mesh, le nom du fichier de sortie et les objets PlySaveOptions comme paramètres. En utilisant les options de sauvegarde PLY, les développeurs peuvent modifier le nom des composants de coordonnées.
+description: Les membres EncodeMesh surchargés exposés par la classe PlyFormat peuvent être utilisés pour convertir le maillage d'un objet 3D en fichier PLY. Les membres EncodeMesh prennent les objets Mesh, le nom du fichier de sortie et PlySaveOptions comme paramètres. En utilisant les options de sauvegarde PLY, les développeurs peuvent changer le nom des composants de coordonnées.
 ---
 {{% alert color="primary" %}}
 
-[Aspose.3D pour Python via .NET](https://products.aspose.com/3d/python-net/)API permet aux développeurs de convertir le maillage d'un seul objet 3D dans le fichier PLY.
+[Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API permet aux développeurs de convertir le maillage d'un seul objet 3D dans le fichier PLY.
 
 {{% /alert %}}
-## **Créez un objet 3D et enregistrez-le dans le fichier PLY**
-Les membres `encodeMesh` surchargés exposés par la classe `PlyFormat` peuvent être utilisés pour convertir le maillage d'un objet 3D en fichier PLY. Les membres `encodeMesh` prennent le `Mesh`, le nom du fichier de sortie et les objets `PlySaveOptions` comme paramètres. En utilisant les options de sauvegarde PLY, les développeurs peuvent modifier le nom des composants de coordonnées.
-### **Échantillon de programmation**
-Cet exemple de code crée un objet Cylindre 3D, puis encode dans le fichier PLY.
+##  **Créez un objet 3D et enregistrez-le dans le fichier PLY**
+Les membres `encodeMesh` surchargés exposés par la classe `PlyFormat` peuvent être utilisés pour convertir le maillage d'un objet 3D en fichier PLY. Les membres `encodeMesh` prennent les objets `Mesh`, le nom du fichier de sortie et `PlySaveOptions` comme paramètres. En utilisant les options de sauvegarde PLY, les développeurs peuvent changer le nom des composants de coordonnées.
+###  **Échantillon de programmation**
+Cet exemple de code crée un objet 3D Cylinder, puis l'encode dans le fichier PLY.
 
 **Python**
 

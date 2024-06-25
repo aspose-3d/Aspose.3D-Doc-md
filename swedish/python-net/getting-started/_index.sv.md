@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hur man börjar
 type: docs
 weight: 10

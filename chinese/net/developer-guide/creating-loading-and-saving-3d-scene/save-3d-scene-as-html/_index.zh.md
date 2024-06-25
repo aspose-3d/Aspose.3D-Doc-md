@@ -1,19 +1,19 @@
-﻿---
-title: 将3D场景保存为C#中的HTML
-linktitle: 将3D场景保存为HTML
+---
+title: 在 C# 中将 3D 场景另存为 HTML
+linktitle: 将 3D 场景另存为 HTML
 type: docs
 weight: 90
 url: /zh/net/save-3d-scene-as-html/
 ---
-## **概述**
+##  **概述**
 
-本文介绍了如何将3D文件转换为HTML后[将它们加载到场景对象中](https://docs.aspose.com/3d/net/create-and-read-an-existing-3d-scene/)使用C#并涵盖广泛的主题 (考虑[支持的文件格式](https://docs.aspose.com/3d/net/supported-file-formats/)) 例如
+本文介绍了如何使用 C# 在 [将它们加载到场景对象中](https://docs.aspose.com/3d/net/create-and-read-an-existing-3d-scene/) 之后将 3D 文件转换为 HTML，并涵盖了广泛的主题 (考虑 [支持的文件格式](https://docs.aspose.com/3d/net/supported-file-formats/))。
 
-- 使用C#将3DS转换为HTML
-- 在C#中将FBX转换为HTML
-- 在C#中将STL转换为HTML
-- 在C#中将U3D转换为HTML
-- 在C#中将OBJ转换为HTML
+- 使用 C# 将 3DS 转换为 HTML
+- 在 C# 中将 FBX 转换为 HTML
+- 在 C# 中将 STL 转换为 HTML
+- 在 C# 中将 U3D 转换为 HTML
+- 在 C# 中将 OBJ 转换为 HTML
 
 
 {{% alert color="primary" %}} 
@@ -21,8 +21,8 @@ url: /zh/net/save-3d-scene-as-html/
 19.9或更高版本支持此功能。
 
 {{% /alert %}} 
-## **将3D场景保存为HTML**
-Aspose.3D for .NET提供了`Html5SaveOptions`类来将保存3D场景保存为HTML。当您将场景导出到HTML5文件时，API将导出三个文件，一个`HTML`文件，一个Aspose3DWeb文件 (*。**a3dw**)，以及一个渲染的 “javascript” 文件。为了仅导出a3dw文件，您可以指定Aspose3DWeb作为导出类型，并在您自己的HTML页面中重用JavaScript文件。下面的C#代码片段显示了如何将3D场景保存为HTML。
+##  **将 3D 场景另存为 HTML**
+Aspose。3D for .NET 提供 `Html5SaveOptions` 类将 3D 场景另存为 HTML。将场景导出到 HTML5 文件时，API 将导出三个文件: 一个 `HTML` 文件、一个 Aspose 3dweb文件 (*.* a3dw **) 和一个渲染的 `JavaScript` 文件。为了只导出a3dw文件，您可以指定 Aspose 3dweb作为导出类型，并在您自己的 HTML 页面中重用JavaScript文件。下面的 C# 代码片段显示了如何将 3D 场景保存为 HTML。
 
 
 
@@ -30,7 +30,7 @@ Aspose.3D for .NET提供了`Html5SaveOptions`类来将保存3D场景保存为HTM
 
 {{% alert color="primary" %}} 
 
-由于浏览器的安全限制，导出的HTML文件不能直接打开，您需要通过网络服务器打开它，如果您安装了python3，您可以在导出目录中的命令行中启动网络服务器
+由于浏览器的安全限制，导出的 HTML 文件不能直接打开，您需要通过web服务器打开它，如果您安装了python3，您可以在导出目录中的命令行中启动web服务器
 
 {{% /alert %}} 
 

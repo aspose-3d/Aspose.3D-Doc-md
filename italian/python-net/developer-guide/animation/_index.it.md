@@ -1,8 +1,8 @@
-﻿---
-title: Animazione
+---
+title: Animation
 type: docs
 weight: 50
 url: /it/python-net/animation/
 ---
-### **Articoli in questa sezione**
+###  **Articoli in questa sezione**
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Public API Changements dans Aspose.3D 16.9.0
 type: docs
 weight: 30
@@ -7,24 +7,24 @@ url: /fr/net/public-api-changes-in-aspose-3d-16-9-0/
 **Résumé du contenu**
 
 - [Importer 3D Scène de la Source PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
-  - [Ajoute Aspose.ThreeD.Formats. Classe PdfLoadOptions](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
-  - [Ajoute Aspose.ThreeD.FileFormat et Aspose.ThreeD.Formats. Classe PdfFormat](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
-- [Économisez une scène 3D au format PDF](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
-  - [Ajoute Aspose.ThreeD.Formats. Classe PdfSaveOptions et Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode Enums](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
-- [Ajoute la méthode triangulée dans le Aspose.ThreeD. Entités. Classe de polygonmodificateur](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
-- [Ajoute deux méthodes BuildTangentBinormal dans le Aspose.ThreeD. Entités. Classe de polygonmodificateur](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
+-[Ajoute la classe Aspose.ThreeD.Formats.PdfLoadOptions](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
+-[Ajoute Aspose.ThreeD.FileFormat et Aspose.ThreeD.Formats.PdfFormat Classe](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
+- [Enregistrer une scène 3D dans le format PDF](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
+-[Ajoute Aspose.ThreeD.Formats.PdfSaveOptions classe et Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode Enums](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
+- [Ajoute la méthode Triangulate dans la classe Aspose.ThreeD.Entities.PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [Ajoute deux méthodes BuildTangentBinormal dans la classe Aspose.ThreeD.Entities.PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
 
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.3D API de la version 2.1.0 à 16.9.0, qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, mais également une description de tout changement de comportement dans les coulisses du Aspose.3D.
+Ce document décrit les modifications apportées au Aspose.3D API de la version 2.1.0 à la version 16.9.0, qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement des méthodes publiques nouvelles et mises à jour, mais aussi une description de tout changement de comportement dans les coulisses de Aspose.3D.
 
 {{% /alert %}} 
-### **Importer 3D Scène de la Source PDF**
+###  **Importer 3D Scène de la Source PDF**
 En utilisant la version récente (16.9.0) ou supérieure, les développeurs peuvent récupérer des scènes 3D à partir d'un fichier d'entrée PDF.
-#### **Ajoute Aspose.ThreeD.Formats. Classe PdfLoadOptions**
-Nous avons ajouté la classe PdfLoadOptions. Il aide à charger le contenu à partir du fichier d'entrée PDF. Les développeurs peuvent appliquer un mot de passe pour les PDF protégés.
+####  **Ajoute la classe Aspose.ThreeD.Formats.PdfLoadOptions**
+Nous avons ajouté la classe PdfLoadOptions. Il aide à charger le contenu du fichier d'entrée PDF. Les développeurs peuvent appliquer un mot de passe pour les PDF protégés.
 
-**Scène ouverte à partir d'un fichier PDF protégé par mot de passe**
+**Ouvrir la scène à partir d'un fichier PDF protégé par mot de passe**
 
 {{< highlight "java" >}}
 
@@ -45,8 +45,8 @@ PdfLoadOptions opt = new PdfLoadOptions() {Password = Encoding.UTF8.GetBytes("pa
 scene.Open(path, opt);
 
 {{< /highlight >}}
-#### **Ajoute Aspose.ThreeD.FileFormat et Aspose.ThreeD.Formats. Classe PdfFormat**
-Nous avons ajouté une entrée au format PDF dans la classe FileFormat à des fins de chargement et d'économie. La classe PdfFormat aide à manipuler les PDF.
+####  **Ajoute Aspose.ThreeD.FileFormat et Aspose.ThreeD.Formats.PdfFormat Classe**
+Nous avons ajouté une entrée au format PDF dans la classe FileFormat à des fins de chargement et de sauvegarde. La classe PdfFormat aide à manipuler les PDF.
 
 {{< highlight "java" >}}
 
@@ -62,7 +62,7 @@ Nous avons ajouté une entrée au format PDF dans la classe FileFormat à des fi
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 // extract 3D contents
 
@@ -72,7 +72,7 @@ int i = 1;
 
 // iterate through the contents and in separate 3D files
 
-foreach (byte[]content in contents)
+foreach (byte[] content in contents)
 
 {
 
@@ -84,7 +84,7 @@ foreach (byte[]content in contents)
 
 {{< /highlight >}}
 
-**Extrayez toutes les scènes 3D et enregistrez-les dans le fichier FBX**
+**Extraire toutes les scènes 3D et les enregistrer dans le fichier FBX**
 
 {{< highlight "java" >}}
 
@@ -92,7 +92,7 @@ foreach (byte[]content in contents)
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 List<Scene> scenes = FileFormat.PDF.ExtractScene(path, password);
 
@@ -111,12 +111,12 @@ foreach (Scene scene in scenes)
 }
 
 {{< /highlight >}}
-### **Économisez une scène 3D au format PDF**
+###  **Enregistrer une scène 3D dans le format PDF**
 En utilisant la version récente (16.9.0) ou supérieure, les développeurs peuvent enregistrer tous les fichiers 3D pris en charge au format PDF.
-#### **Ajoute Aspose.ThreeD.Formats. Classe PdfSaveOptions et Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode Enums**
-Le PdfSaveOptions aide à appliquer le réglage avant l'enregistrement au format de sortie PDF. Les développeurs peuvent définir un mode de rendu et un schéma d'éclairage avant d'enregistrer une scène 3D au format PDF comme ci-dessous:
+####  **Ajoute Aspose.ThreeD.Formats.PdfSaveOptions classe et Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode Enums**
+Le PdfSaveOptions aide à appliquer le réglage avant d'enregistrer dans le format de sortie PDF. Les développeurs peuvent définir un mode de rendu et un schéma d'éclairage avant d'enregistrer une scène 3D dans le format PDF comme ci-dessous:
 
-**Créer un 3D PDF avec un cylindre, et rendu en mode illustration ombrée avec un éclairage optimisé CAD**
+**Créez un 3D PDF avec un cylindre, et rendu en mode illustration ombré avec un éclairage optimisé CAD**
 
 {{< highlight "java" >}}
 
@@ -141,7 +141,7 @@ opt.RenderMode = PdfRenderMode.ShadedIllustration;
 scene.Save("output.pdf", opt);
 
 {{< /highlight >}}
-### **Ajoute la méthode triangulée dans le Aspose.ThreeD. Entités. Classe de polygonmodificateur**
+###  **Ajoute la méthode Triangulate dans la classe Aspose.ThreeD.Entities.PolygonModifier**
 Nous avons ajouté une autre surcharge de la méthode Triangulate dans la classe PolygonModifier qui prend un objet de classe Scène comme paramètre.
 
 **Convertir tous les polygones en triangles dans le fichier FBX**
@@ -161,10 +161,10 @@ PolygonModifier.Triangulate(scene);
 scene.Save("triangulated.fbx", FileFormat.FBX7400ASCII);
 
 {{< /highlight >}}
-### **Ajoute deux méthodes BuildTangentBinormal dans le Aspose.ThreeD. Entités. Classe de polygonmodificateur**
+###  **Ajoute deux méthodes BuildTangentBinormal dans la classe Aspose.ThreeD.Entities.PolygonModifier**
 Nous avons ajouté deux méthodes BuildTangentBinormal dans la classe PolygonModifier. Une méthode prend l'objet de classe Scène comme paramètre et une autre prend l'objet de classe Mesh comme paramètre.
 
-**Construire des données tangentes et binormales pour tous les mailles dans le fichier FBX**
+**Construire des données tangentes et binormales pour tous les maillages du fichier FBX**
 
 {{< highlight "java" >}}
 

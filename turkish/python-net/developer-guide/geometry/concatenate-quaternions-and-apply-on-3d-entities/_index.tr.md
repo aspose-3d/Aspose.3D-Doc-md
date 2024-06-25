@@ -1,18 +1,18 @@
-﻿---
-title: Concatenate Quaternions ve 3D varlıkları üzerinde uygulayın
+---
+title: Concatenate Quaternions and apply on 3D entities
 type: docs
 weight: 50
 url: /tr/python-net/concatenate-quaternions-and-apply-on-3d-entities/
-description: Python via .NET için Aspose.3D, geliştiricilerin bir kuaternionda temsil edilen iki rotasyon dönüşümünü birleştirmelerini sağlar.
+description: Aspose.3D for Python via .NET, geliştiricilerin bir kuaternionda temsil edilen iki rotasyon dönüşümünü birleştirmelerine izin verir.
 ---
 {{% alert color="primary" %}} 
 
-[Python via .NET için Aspose.3D](https://www.aspose.com/products/3d)Geliştiricilerin, bir kuaternion'da temsil edilen birine iki dönüş dönüşümünü birleştirmelerine izin verir.
+[Aspose.3D for Python via .NET](https://www.aspose.com/products/3d), geliştiricilerin bir kuaternionda temsil edilen iki rotasyon dönüşümünü birleştirmelerine izin verir.
 
 {{% /alert %}} 
-## **Concatenate Quaternions**
-Quaternions 3D alanında bir oryantasyonu temsil etmek için kullanılır. [`Quaternion`](https://reference.aspose.com/3d/net/aspose.threed.utilities/quaternion) sınıfı tarafından maruz kalan 07he `concat` yöntemi, iki kuaternionu birleştirmek için kullanılabilir. In bu kod örneği, iki kuaternionu birleştiriyoruz ve üçüncü bir kuaternion elde ediyoruz ve daha sonra bu üç kuaternionları üç silindire uyguluyoruz.
-### **Programming ample ample**
+##  **Concatenate Quaternions**
+Quaternions are used to represent an orientation in 3D space. The `concat` method exposed by the [`Quaternion`](https://reference.aspose.com/3d/net/aspose.threed.utilities/quaternion) class can be used to combine two quaternions. In this code example, we combine two quaternions and get a third resulting quaternion, and then apply these three quaternions to three cylinders.
+###  **Programming ample ample**
 Kod örneği iki kuaternionu birleştirir ve bunları farklı silindirlere uygular.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-ConcatenateQuaternions-ConcatenateQuaternions.py" >}}
@@ -20,4 +20,4 @@ Kod örneği iki kuaternionu birleştirir ve bunları farklı silindirlere uygul
 
 **3ds MAX esuesuesuesu**
 
-![Todo: görüntü_Alt_Metin](concatenate-quaternions-and-apply-on-3d-entities_1.png)
+! [Todo: image_alt_text](concatenate-quaternions-and-apply-on-3d-entities_1.png)

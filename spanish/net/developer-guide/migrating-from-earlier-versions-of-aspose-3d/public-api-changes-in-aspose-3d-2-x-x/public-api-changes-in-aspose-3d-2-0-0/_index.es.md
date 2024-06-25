@@ -1,4 +1,4 @@
-﻿---
+---
 title: Público API Cambios en Aspose.3D 2.0.0
 type: docs
 weight: 20
@@ -7,24 +7,24 @@ url: /es/net/public-api-changes-in-aspose-3d-2-0-0/
 **Resumen de contenidos**
 
 - [Agrega el formato Collada](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
-- [Adds Aspose.ThreeD! Render! IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit interfaces y Aspose.ThreeD! Render! Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters clases](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
-- [Agrega Aspose.ThreeD.Render. Clase de postprocesamiento](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
-- [Agrega el método GetBoundingBox a Aspose.ThreeD. Clase de nodo, Agrega nuevas clases Aspose.ThreeD. Utilidades. BoundingBox y Aspose.ThreeD. Utilidades. BoundingBoxExtent](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
+- [Agrega interfaces Aspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit y Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/Renderclasses ParameParameters](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
+- [Agrega la clase Aspose.ThreeD.Render.PostProcessing](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
+- [Agrega el método GetBoundingBox a la clase Aspose.ThreeD.Node, Agrega clases nuevas Aspose.ThreeD.Utilities.BoundingBox y Aspose.ThreeD.Utilities.BoundingBoxExtent](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
 - [Reproducción en tiempo real](#PublicAPIChangesinAspose.3D2.0.0-Real-timeRendering)
-- [Los métodos AddData se añaden a Aspose.ThreeD. Entidades. Clase VertexElementUV](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
+- [Los métodos AddData se agregan a la clase Aspose.ThreeD.Entities.VertexElementUV](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
 
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.3D API de la versión 1.7.0 a 2.0.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.3D.
+This document describes changes to the Aspose.3D API from version 1.7.0 to 2.0.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Agrega el formato Collada**
-En esta versión (2.0.0), los desarrolladores pueden importar archivos Collada 3D, por lo que la propiedad Collada se agrega en Aspose.ThreeD. Clase FileFormat.
-### **Adds Aspose.ThreeD! Render! IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit interfaces y Aspose.ThreeD! Render! Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters clases**
-Las nuevas clases Viewport y Renderer son las clases principales que ayudan a capturar las vistas de una escena 3D y guardarlas en una textura o ventana. Todos los detalles de otras clases de ayuda son los siguientes:
+###  **Agrega el formato Collada**
+En esta versión (2.0.0), los desarrolladores pueden importar archivos Collada 3D, por lo que la propiedad Collada se agrega en la clase Aspose.ThreeD.FileFormat.
+###  **Agrega interfaces Aspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit y Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/Renderclasses ParameParameters**
+Las nuevas clases Viewport y Renderer son las clases principales que ayudan a capturar las vistas de una escena 3D y guardar en una textura o ventana. Todos los detalles de otras clases de ayuda son los siguientes:
 
-- **Aspose.ThreeD! Render! DriverException clase**-Las excepciones del renderizador interno se envuelven como DriverException.
-- **Aspose.ThreeD.Render. InicializaciónClase de excepción**-Esta excepción se lanza mientras no se inicializa el renderizador, por ejemplo, para inicializarlo en un equipo que no tiene soporte de hardware OpenGL 4,0.
+- **Aspose.ThreeD.Render.DriverException (clase)**-Las excepciones del renderizador interno se envuelven como DriverException.
+- **Aspose.ThreeD.Render.InitializationException (clase)**-Esta excepción se lanza mientras no se inicializa el renderizador, por ejemplo, para inicializarlo en un equipo que no tiene soporte de hardware OpenGL 4,0.
 - **Interfaz IRenderTarget**-Es la interfaz base de IRenderTexture/IRenderWindow.
 - **IRenderTexture interfaz**-Permite renderizar la escena a una o más texturas (las texturas se encuentran en la memoria de vídeo y se pueden transferir a la memoria del sistema).
 - **Interfaz IRenderWindow**-Permite renderizar la escena a la ventana en tiempo real.
@@ -33,7 +33,7 @@ Las nuevas clases Viewport y Renderer son las clases principales que ayudan a ca
 - **Clase RenderFactory**-Ayuda a renderizar una escena a texturas o ventanas en tiempo real.
 - **RenderParameters clase**-Define los parámetros sobre cómo crear el objetivo de render como bits de color, bits de profundidad, bits de plantilla y doble búfer.
 
-**Capture las ventanas de un 3D Scene and Render en una textura o ventana**
+**Capturar los Viewports de una escena 3D y render a una textura o ventana**
 
 **C#**
 
@@ -124,10 +124,10 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Agrega Aspose.ThreeD.Render. Clase de postprocesamiento**
+###  **Agrega la clase Aspose.ThreeD.Render.PostProcessing**
 La clase PostProcessing permite a los desarrolladores aplicar un filtro de procesamiento de imágenes en tiempo real a la imagen renderizada. En esta versión 2.0.0, hemos proporcionado 4 efectos de post-procesamiento incorporados. Permitiremos a los desarrolladores tener su propio algoritmo de posprocesamiento personalizado en la versión futura.
 
-**Aplicar efectos visuales al guardar vistas 3D**
+**Aplicar efectos visuales al guardar las vistas 3D**
 
 **C#**
 
@@ -254,9 +254,9 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Agrega el método GetBoundingBox a Aspose.ThreeD. Clase de nodo, Agrega nuevas clases Aspose.ThreeD. Utilidades. BoundingBox y Aspose.ThreeD. Utilidades. BoundingBoxExtent**
+###  **Agrega el método GetBoundingBox a la clase Aspose.ThreeD.Node, Agrega clases nuevas Aspose.ThreeD.Utilities.BoundingBox y Aspose.ThreeD.Utilities.BoundingBoxExtent**
 Las clases BoundingBox y BoundingBoxExtent representan el cuadro delimitador de un nodo 3D. Los desarrolladores pueden restablecer la cámara y calcular la elevación desde el cuadro delimitador. El cuadro delimitador infinito o nulo significa que la escena no tiene geometrías y solo ajusta la elevación de la cámara cuando es finita.
-### **Reproducción en tiempo real**
+###  **Reproducción en tiempo real**
 Permite a los desarrolladores realizar renderizado en tiempo real de alto rendimiento en un marco GUI como WinForms, es independiente del marco GUI, por lo que los otros marcos GUI también deberían admitir esto.
-### **Los métodos AddData se añaden a Aspose.ThreeD. Entidades. Clase VertexElementUV**
+###  **Los métodos AddData se agregan a la clase Aspose.ThreeD.Entities.VertexElementUV**
 La clase base de VertexElementUV ha cambiado de VertexElementTemplate<Vector2>A VertexelementTemplate<Vector4>, Solo almacenará Vector4 desde 2.0.0, por lo que se agregaron dos métodos de ayuda para permitir al usuario agregar una lista de Vector2 y Vector3 a VertexElementUV, expandirá internamente el Vector2/Vector3 a Vector4 y dejará el resto campos cero:

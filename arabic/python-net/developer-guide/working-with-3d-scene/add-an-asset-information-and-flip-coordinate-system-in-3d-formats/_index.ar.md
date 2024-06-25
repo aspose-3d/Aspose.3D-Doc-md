@@ -1,32 +1,32 @@
-﻿---
-title: Add an ssset nnformation و lip الشفاه ordinoordinordinyالجذعية في 3D orormat
+---
+title: إضافة معلومات أصول ونظام إحداثيات الوجه بتنسيقات 3D
 type: docs
 weight: 10
 url: /ar/python-net/add-an-asset-information-and-flip-coordinate-system-in-3d-formats/
-description: Metadata هي معلومات منظمة تصف أو تشرح أو تحدد موقع أو تسهل استرداد أو استخدام أو إدارة مورد معلومات. Aspose.3D ل Python via .NET API يسمح للمطورين لتحديد etadata M.
+description: البيانات الوصفية عبارة عن معلومات منظمة تصف أو توضح أو تحدد أو تجعل استرداد أو استخدام أو إدارة مورد معلومات أسهل. Aspose.3D for Python via .NET API يسمح للمطورين بتحديد بيانات وصفية للمشهد.
 ---
-## **Add و ssset nnformation إلى 3D cencene**
-Metadata هي معلومات منظمة تصف أو تشرح أو تحدد موقع أو تسهل استرداد أو استخدام أو إدارة مورد معلومات. Aspose.3D ل Python via .NET API يسمح للمطورين لتحديد etadata M.
-### **Define أ etetadata للمشهد**
-3D يظهر إنتاج كميات هائلة من البيانات الوصفية والمعلومات الصورة. Metadata هو أصل وجزء من المعرض.
+##  **إضافة معلومات أصل إلى مشهد 3D**
+البيانات الوصفية عبارة عن معلومات منظمة تصف أو توضح أو تحدد أو تجعل استرداد أو استخدام أو إدارة مورد معلومات أسهل. Aspose.3D for Python via .NET API يسمح للمطورين بتحديد بيانات وصفية للمشهد.
+###  **Define أ etetadata للمشهد**
+3D shows produce massive quantities of metadata and picture information. Metadata is an asset and part of the show.
 
-1. Niniعلى 3D cencene باستخدام فئة `Scene`.
+1. قم بتهيئة مشهد 3D باستخدام فئة `Scene`.
 1. تطبيق Set/اسم الأداة.
 1. Set تطبيق/أداة اسم البائع.
 1. وحدة قياس et et.
 1. مقياس وحدة القياس et et.
-1. Save 3D المشهد في تنسيق الملف المعتمد.
+1. وفِّر 3D مشهد في تنسيق الملف المدعوم.
 
-في هذا المثال ، نفترض أن المشهد يتم إنشاؤه من قبل أداة CAD تسمى "gyproma t" وهي مصممة من قبل "Manualdesk":
+في هذا المثال ، نفترض أن المشهد تم إنشاؤه بواسطة أداة CAD تُسمى بمصر ، وقد صممها مكتب Manualdesk:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "AssetInformation-InformationToScene-AddAssetInformationToScene.py" >}}
-## **Fالشفاه ordinordinفي 3D orormat**
-Aspose.3D لPython via .NET API يسمح للمستخدمين الوجه تنسيق النظام في OBJ ، 3DS ، STL و U3D الأشكال.
+##  **نظام تنسيق قابل للطي بتنسيقات 3D**
+Aspose.3D for Python via .NET API يسمح للمستخدمين بقلب نظام الإحداثيات بتنسيقات OBJ و 3DS و STL و U3D.
 
 {{% alert color="primary" %}} 
 
-Import o استيراد ملف 3ds وحفظه بتنسيق OBJ يتم استخدام فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) في الرمز.
+لاستيراد ملف 3ds وحفظه بتنسيق OBJ يتم استخدام فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) في الرمز.
 
 {{% /alert %}} 
 
-In هذا المثال ، قمنا flipنظام التنسيق أثناء استيراد ملف 3ds ، وحفظه بتنسيق OBJ بدون مواد.
+في هذا المثال ، قلبنا نظام الإحداثيات أثناء استيراد ملف 3ds ، وحفظناه بتنسيق OBJ بدون مواد.

@@ -1,26 +1,26 @@
-﻿---
-title: Create 3D Mesh ve Scene
+---
+title: 3D mesh ve sahne oluştur
 type: docs
 weight: 10
 url: /tr/python-net/create-3d-mesh-and-scene/
 description: A Mesh, bir dizi kontrol noktası ve gerektiğinde birçok n taraflı poligonlar tarafından tanımlanır. Tonun makalesi nasıl tanımlanacağını açıklıyor.
 ---
-## **Create a 3D Cube Mesh**
-A [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh), bir kontrol noktası seti ve gerektiğinde birçok n taraflı poligonlar tarafından tanımlanır. Tonun makalesi nasıl tanımlanacağını açıklıyor.
+##  **3D küp mesh oluşturun**
+Bir [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh), bir dizi kontrol noktası ve gerektiğinde birçok n taraflı poligonlar tarafından tanımlanır. Bu makale bir ağın nasıl tanımlanacağını açıklar.
 
 Bir Mesh yüzeyi oluşturmak için In siparişi, aşağıdaki gibi kontrol noktalarını ve poligonları tanımlamamız gerekiyor:
 
 - [Define Control ints oints](/3d/tr/python-net/create-3d-mesh-and-scene/)
-- [PolygonBuilder lass lass ile Preate olyolygons](/3d/tr/python-net/create-3d-mesh-and-scene/)
+- [PolygonBuilder sınıfı ile poligonlar oluşturun](/3d/tr/python-net/create-3d-mesh-and-scene/)
 - [Create olyolygons](/3d/tr/python-net/create-3d-mesh-and-scene/)
 
 Here, küp düğümüne bir Phong malzemesi eklemek için bir örnek:
-### **Define Control ints oints**
+###  **Define Control ints oints**
 A mesh, uzayda bir kontrol noktası seti ve örgü yüzeyini tanımlamak için poligonlar ile oluşur, bir örgü oluşturmak için kontrol noktalarını tanımlamamız gerekir:
 
 {{% alert color="primary" %}}
 
-To Aspose.3D tüm geometrilerin kontrol noktaları homojen koordinat kullanın, bu yüzden örnek kodda `Vector3` yerine `Vector4`.
+The control points of all geometries in Aspose.3D use homogeneous coordinate, so it’s `Vector4` instead of `Vector3` in the example code.
 
 {{% /alert %}}
 
@@ -29,19 +29,19 @@ To Aspose.3D tüm geometrilerin kontrol noktaları homojen koordinat kullanın, 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-Common-DefineControlPoints.py" >}}
 
 
-### **Create olyolygons**
+###  **Create olyolygons**
 The kontrol noktaları renderable değildir, küpü görünür hale getirmek için, her iki tarafta poligonları tanımlamamız gerekir:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-Common-CreateMeshUsingCreatePolygons.py" >}}
 
 
-### **PolygonBuilder lass lass ile Preate olyolygons**
-We ayrıca `PolygonBuilder` sınıfı ile dikeylerle poligon tanımlayabilir:
+###  **PolygonBuilder sınıfı ile poligonlar oluşturun**
+Ayrıca, `PolygonBuilder` sınıfı ile poligon tanımlayabiliriz:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-Common-CreateMeshUsingPolygonBuilder.py" >}}
 
 Now bitti, örgü görünür hale getirmek için, bunun için bir düğüm hazırlamamız gerekiyor.
-## **Ow ow to a riangulate a Mesh**
+##  **Ow ow to a riangulate a Mesh**
 Triangulate mesh, oyun endüstrisi için yararlıdır, çünkü üçgen, Ghardware hardware donanım desteğinin desteklediği tek desteklenen ilkeldir (üçgen olmayan veriler, gerçek zamanlı olarak verimsiz olan sürücü seviyesinde triangulated edilir)
 
 {{% alert color="primary" %}}
@@ -50,17 +50,17 @@ Triangulate mesh, oyun endüstrisi için yararlıdır, çünkü üçgen, Ghardwa
 
 {{% /alert %}}
 
-In bu örnek, FBX dosyasını içe aktararak ve FBX formatında kaydederek bir Mesh triangulate.
+In this example, we triangulate a Mesh by importing FBX file and saved it in FBX format.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TriangulateMesh-TriangulateMesh.py" >}}
-## **Create bir 3D Cube cene cene**
-Tonun konusu 3D sahnesine Mesh geometrisini nasıl ekleyeceğini gösteriyor. To örnek kod bir küp yerleştirir ve desteklenen dosya formatlarında 3D sahnesini kaydeder.
-### **Create a Cube Node**
+##  **3D küp sahne oluştur**
+Bu konu, 3D sahnesine örgü geometrisinin nasıl ekleneceğini gösteriyor. Örnek kod bir küp yerleştirir ve desteklenen dosya formatlarında 3D görüntüsünü kaydeder.
+###  **Create a Cube Node**
 A node görünmezdir, ancak düğüme bağlı geometri işlenebilir.
 
 {{% alert color="primary" %}}
 
-The Mesh sınıfı nesne kodda kullanılıyor. We can[Orada anlatıldığı gibi `Mesh` sınıfı bir nesne oluşturun](https://docs.aspose.com/3d/python-net/create-3d-mesh-and-scene/#create-a-3d-cube-mesh).
+The Mesh class object is being used in the code. We can [create a `Mesh` class object as narrated there](https://docs.aspose.com/3d/python-net/create-3d-mesh-and-scene/#create-a-3d-cube-mesh).
 
 {{% /alert %}}
 
@@ -70,6 +70,6 @@ The Mesh sınıfı nesne kodda kullanılıyor. We can[Orada anlatıldığı gibi
 
 {{% alert color="primary" %}}
 
-NOTroot: kök düğümüne bağlı varlıklar genellikle CAD/Csoftwares softwares yazılımlarında göz ardı edilir, bu yüzden geometriyi işlemek için yeni bir düğüm oluşturmamız gerekir.
+Not: kök düğümüne bağlı varlıklar genellikle CAD/cam yazılımlarında göz ardı edilir, bu yüzden geometriyi işlemek için yeni bir düğüm oluşturmamız gerekir.
 
 {{% /alert %}}

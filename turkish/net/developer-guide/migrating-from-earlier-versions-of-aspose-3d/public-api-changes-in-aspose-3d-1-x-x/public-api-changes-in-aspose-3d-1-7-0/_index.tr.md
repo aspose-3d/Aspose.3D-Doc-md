@@ -1,27 +1,27 @@
-﻿---
-title: Public API Changes Aspose.3D 1.7.0
+---
+title: Kamu API Aspose içinde değişir. 3D 1.7.0
 type: docs
 weight: 10
 url: /tr/net/public-api-changes-in-aspose-3d-1-7-0/
 ---
 **Contents Summary**
 
-- [Dds dds Aspose.ThreeD.Entities. rustrustum sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
-- [Dds dds Aspose.ThreeD. ImageRenderderptions sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
-- [Aspose.ThreeD.Entities.Camera sınıfında dds dds MoveForward yöntemi](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
-- [Dds dds Castasthadows ve Reeve07hamembers üyeleri Aspose.ThreeD.Entities. eoeometry sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
-- [Aspose.ThreeD.Entities. olyolygonModifier sınıfında dds dds enerenerateNormal yöntem](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
-- [Dds dds ononcate yöntemi Aspose.ThreeD. Uti.. Quaternion sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
+- [Aspose ekler. threed. entities. frustum sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
+- [Aspose ekler. threed. imagerenderoptions sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
+- [Adds MoveForward method in Aspose.ThreeD.Entities.Camera class](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
+- [Castshadows ve receivemembers üyelerini Aspose. threed. entities. geometry sınıfında ekler](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
+- [Aspose cinsinden genel enormal yöntem ekler. threed. entities. polygonmodifier sınıfı](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
+- [Adds Concate method in Aspose.ThreeD.Utilities.Quaternion class](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
 
 {{% alert color="primary" %}} 
 
-This belgesi, 1.5.0 sürümünden 1.7.0 'a kadar Aspose.3D API 'teki değişiklikleri, modül/uygulama geliştiricilerine ilgi duyulabilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+Bu belge, Aspose.3D API sürüm 1.5.0 'dan 1.7.0 'a kadar olan değişiklikleri açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. Sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'daki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-### **Dds dds Aspose.ThreeD.Entities. rustrustum sınıfı**
+###  **Aspose ekler. threed. entities. frustum sınıfı**
 A yeni sınıf rustrustum eklenir. Camera ve ight ight, Entity sınıfının alt sınıflarıydı. In 1.7.0 sürümü, bu sınıflar Frustum ve Frustum Entity, özellikleri Poo, Up, Look. t, Direction, Target, Nearearlane ve Farlane lane Frustum içine çıkarılır.
 
-**Extramembers üyeleri Aspose.ThreeD.Entities.Camera Aspose.ThreeD.Entities.Frustum** 
+**Extracted members from Aspose.ThreeD.Entities.Camera to Aspose.ThreeD.Entities.Frustum** 
 All bu özellikler rustpasum'a çıkarılır:
 
 **C#**
@@ -44,7 +44,7 @@ double FarPlane{ get;set;}
 
 {{< /highlight >}}
 
-**Extramembers üyeleri Aspose.ThreeD.Entities. ight ight Aspose.ThreeD.Entities.Frustum** 
+**Extracted members from class Aspose.ThreeD.Entities.Light to Aspose.ThreeD.Entities.Frustum** 
 All bu özellikler rustpasum'a çıkarılır:
 
 **C#**
@@ -56,8 +56,8 @@ All bu özellikler rustpasum'a çıkarılır:
 Aspose.ThreeD.Utilities.Vector3 Direction{ get;set;}
 
 {{< /highlight >}}
-### **Dds dds Aspose.ThreeD. ImageRenderderptions sınıfı**
-**Resim dosya biçimine bir 3D dosyası**
+###  **Aspose ekler. threed. imagerenderoptions sınıfı**
+**Bir 3D dosyasını görüntü dosyası formatına dönüştürün**
 
 **C#**
 
@@ -99,7 +99,7 @@ scene.Render(camera, fileName, new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
 
-**Amembers üyeleri sınıf Aspose.ThreeD. cene cene:**
+**Added members to class Aspose.ThreeD.Scene:**
 
 **C#**
 
@@ -114,7 +114,7 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
 public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap bitmap, Aspose.ThreeD.ImageRenderOptions options)
 
 {{< /highlight >}}
-### **Aspose.ThreeD.Entities.Camera sınıfında dds dds MoveForward yöntemi**
+###  **Adds MoveForward method in Aspose.ThreeD.Entities.Camera class**
 It kamerayı yönüne doğru hareket eder. A kameranın yönlendirmesi, Target/Direction/LookAt tarafından belirtilir.
 
 - **Target:**A hedef düğüm uzayda, kamera her zaman hedef/kamera uzayda konumunu değiştirdiyse bu hedefe bakacaktır.
@@ -130,8 +130,8 @@ Ethethod igignature:
  public void MoveForward(double distance)
 
 {{< /highlight >}}
-### **Dds dds Castasthadows ve Reeve07hamembers üyeleri Aspose.ThreeD.Entities. eoeometry sınıfı**
-Sfile dosya biçimleri, gölge ile ilgili ayarları FBX gibi geometride saklayabilir ve aynı zamanda işlenmesinde de kullanılırlar. In bu kod örneği, kırmızı kutunun gölgeleri ve torus uçağa dökülür, kırmızı kutu gölgeler almaz ve mavi kutu gölgeler atmaz.
+###  **Castshadows ve receivemembers üyelerini Aspose. threed. entities. geometry sınıfında ekler**
+Bazı dosya biçimleri gölgeyle ilgili ayarları FBX gibi geometride saklayabilir ve aynı zamanda renderlemede de kullanılırlar. Bu kod örneğinde, kırmızı kutunun gölgeleri ve torus uçağa dökülür, kırmızı kutu gölgeler almaz ve mavi kutu gölgeler atmaz.
 
 **C#**
 
@@ -218,7 +218,7 @@ ImageRenderOptions opt = new ImageRenderOptions() {EnableShadows = true};
 scene.Render(camera, "pic.png", new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
-### **Aspose.ThreeD.Entities. olyolygonModifier sınıfında dds dds enerenerateNormal yöntem**
+###  **Aspose cinsinden genel enormal yöntem ekler. threed. entities. polygonmodifier sınıfı**
 It, geliştiricilerin Mesh örneğinden normal veri oluşturmasına izin verir, eğer VertexElementSmoothingGroup element ağ üzerinde tanımlanmışsa, üretilen normal veriler VertexElementSmoothingGroup tarafından düzeltilecektir.
 
 Ethethod igignature:
@@ -264,7 +264,7 @@ s.RootNode.Accept(delegate(Node n)
 });
 
 {{< /highlight >}}
-### **Dds dds ononcate yöntemi Aspose.ThreeD. Uti.. Quaternion sınıfı**
+###  **Adds Concate method in Aspose.ThreeD.Utilities.Quaternion class**
 It, geliştiricilerin Quaternion'da temsil edilen birine iki dönüş dönüşümünü birleştirmelerine izin verir.
 
 Ethethod igignature:

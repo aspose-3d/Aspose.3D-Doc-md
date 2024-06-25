@@ -1,18 +1,18 @@
-﻿---
+---
 title: Rendre une scène dans le cube avec six visages
 type: docs
 weight: 70
 url: /fr/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: En utilisant Aspose.3D for .NET API, les développeurs peuvent restituer une scène dans le cubemap avec six visages et enregistrer toutes les faces dans les formats d'image pris en charge.
+description: En utilisant Aspose.3D for .NET API, les développeurs peuvent rendre une scène dans le cubemap avec six visages et enregistrer tous les visages dans les formats d'image pris en charge.
 ---
 {{% alert color="primary" %}}
 
-Utilisation[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Les développeurs peuvent restituer une scène dans le cubemap avec six visages et enregistrer tous les visages dans les formats d'image pris en charge.
+En utilisant [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), les développeurs peuvent rendre une scène dans le cubemap avec six visages et enregistrer tous les visages dans les formats d'image pris en charge.
 
 {{% /alert %}}
-## **Capturez un cube avec six visages**
-Dans cet article, nous créons une caméra et deux objets Light pour capturer le cubemap, créer également une cible de rendu cubemap avec une texture en profondeur, créer un port de vue et enfin obtenir la texture cubemap. La classe `ITextureCubema`p récupère la texture cubemap et la classe `CubeFaceData` permet d'accéder aux faces du cubemap, puis d'exporter dans le format d'image pris en charge.
-### **Échantillon de programmation**
+##  **Capturez un cube avec six visages**
+Dans cet article, nous créons une caméra et deux objets Light pour capturer le cubemap, créons également une cible de rendu cubemap avec une texture de profondeur, créons un viewport et obtenons enfin la texture cubemap. La classe `ITextureCubema`p récupère la texture cubemap et la classe `CubeFaceData` permet d'accéder aux faces du cubemap, puis d'exporter dans le format d'image pris en charge.
+###  **Échantillon de programmation**
 Cet exemple de code rend une scène dans le cubemap avec six faces et exporte dans le format d'image.
 
 **C#**

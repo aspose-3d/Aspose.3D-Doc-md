@@ -1,21 +1,21 @@
-﻿---
-title: 安装
+---
+title: Installation
 type: docs
 weight: 40
 url: /zh/python-net/installation/
 ---
-## **系统要求**
+##  **系统要求**
 
-首先，您必须检查并确认机器的规格是否符合[系统要求](/3d/zh/python-net/system-requirements/)。
+首先，您必须检查并确认机器的规格符合 [系统要求](/3d/zh/python-net/system-requirements/)。
 
-## **为Python via .NET安装Aspose.3D**
-`pip`是下载和安装最简单的方法[Aspose.3D为Python via .NET](https://pypi.org/project/aspose-3d/)。
+##  **正在安装 Aspose.3D for Python via .NET**
+`pip` 是下载和安装 [Aspose.3D for Python via .NET](https://pypi.org/project/aspose-3d/) 的最简单方法。
 
-要安装Aspose.3D，请运行以下命令: pip安装aspose-3d
+若要安装 Aspose.3D，请运行以下命令: pip install aspose-3d
 
-## **使用Aspose.3D进行Python via .NET**
+##  **正在使用 Aspose.3D for Python via .NET**
 
-完成安装模块后，您可以通过以下方式使用python代码中的Aspose.3D:
+一旦你完成安装模块，你可以使用 Aspose。3D 从你的python代码这样:
 
 ```py
 import aspose.threed as a3d

@@ -1,28 +1,28 @@
-﻿---
-title: Публичные API Изменения в Aspose.3D 17,01
+---
+title: Публичные изменения API в Aspose.3D 17,01
 type: docs
 weight: 20
 url: /ru/net/public-api-changes-in-aspose-3d-17-01/
 ---
 **Содержание Резюме**
 
-- [Добавляет в PLY формат входа в класс Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
+- [Добавляет запись формата PLY в класс Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
 - [Импорт файлов PLY](#PublicAPIChangesinAspose.3D17.01-ImportingPLYFiles)
 - [Добавляет класс Aspose.ThreeD.GlobalTransform](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
-- [Добавляет свойство GlobalTransform в Aspose.ThreeD. Класс узла](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
-- [Добавляет свойство Polygons к классу Aspose.ThreeD.Entities.Mesh](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
-- [Загрузка файлов 3D и сеток записи в пользовательском двоичных форматах](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
-- [Удаляет член CreateStream из класса Aspose.ThreeD.Formats.IOConfig](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
+- [Добавляет свойство GlobalTransform в класс Aspose.ThreeD.Node](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
+- [Добавляет свойство полигонов в Aspose.ThreeD. Сущности. Класс сетки](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
+- [Загрузите файл 3D и запишите сетки в настраиваемый двоичный формат](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
+- [Удаляет участника CreateStream из Aspose.ThreeD. Форматы. Класс IOConfig](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Этот документ описывает изменения в Aspose.3D API с версии 16.12.0 до 17.1.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, но и описание любых изменений в поведении за кулисами в Aspose.3D.
+Этот документ описывает изменения в Aspose.3D API с версии 16.12.0 до 17.1.0, которые могут представлять интерес для разработчиков модулей/приложений. Она включает в себя не только новые и обновленные публичные методы, но и описание любых изменений в поведении за кулисами в Aspose.3D.
 
 {{% /alert %}} 
-### **Добавляет в PLY формат входа в класс Aspose.ThreeD.FileFormat**
-Мы добавили запись формата PLY для целей загрузки.
-### **Импорт файлов PLY**
-Используя последнюю версию (17,01) или выше, разработчики могут импортировать файлы PLY. Запись формата PLY добавлена для целей загрузки.
+###  **Добавляет запись формата PLY в класс Aspose.ThreeD.FileFormat**
+Мы добавили запись в формате PLY для целей загрузки.
+###  **Импорт файлов PLY**
+Используя последнюю версию (17,01) или выше, разработчики могут импортировать файлы PLY. Запись в формате PLY добавляется для целей загрузки.
 
 **C#**
 
@@ -49,13 +49,13 @@ loadPLYOpts.FlipCoordinateSystem = true;
 scene.Open( "3DPlyModel.ply", loadPLYOpts);
 
 {{< /highlight >}}
-### **Добавляет класс Aspose.ThreeD.GlobalTransform**
+###  **Добавляет класс Aspose.ThreeD.GlobalTransform**
 Класс GlobalTransform предоставляет точно такой же интерфейс, как Transform, но все его свойства доступны только для чтения. Это полезно для целей глобального преобразования.
-### **Добавляет свойство GlobalTransform в Aspose.ThreeD. Класс узла**
+###  **Добавляет свойство GlobalTransform в класс Aspose.ThreeD.Node**
 Это позволяет получить доступ к глобальному преобразованию узла. Это полезно для преобразования сцены в пользовательский формат файла пользователя.
-### **Добавляет свойство Polygons к классу Aspose.ThreeD.Entities.Mesh**
+###  **Добавляет свойство полигонов в Aspose.ThreeD. Сущности. Класс сетки**
 Это позволяет получить все многоугольники внутри сетки, каждый многоугольник представляет собой массив индекса вершин многоугольника. Перед этим свойством мы должны использовать для каждого синтаксиса, чтобы перечислить каждый многоугольник, который неэффективен.
-### **Загрузка файлов 3D и сеток записи в пользовательском двоичных форматах**
+###  **Загрузите файл 3D и запишите сетки в настраиваемый двоичный формат**
 **C#**
 
 {{< highlight "java" >}}
@@ -199,6 +199,6 @@ using (var writer = new BinaryWriter(new FileStream(output, FileMode.Create, Fil
 }
 
 {{< /highlight >}}
-### **Удаляет член CreateStream из класса Aspose.ThreeD.Formats.IOConfig**
+###  **Удаляет участника CreateStream из Aspose.ThreeD. Форматы. Класс IOConfig**
 Он был отмечен как устаревший в версии 16.11.0, новый интерфейс FileSystem был представлен в версии 16.11.0, что обеспечивает большую расширяемость.
 

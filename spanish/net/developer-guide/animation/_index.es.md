@@ -1,5 +1,5 @@
-﻿---
-title: Animación
+---
+title: Animation
 type: docs
 weight: 50
 url: /es/net/animation/

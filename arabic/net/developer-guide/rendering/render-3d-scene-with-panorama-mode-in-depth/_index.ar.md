@@ -1,19 +1,19 @@
-﻿---
-title: Rأندر 3D cenسين مع Pأنوراما Mode في Depth
+---
+title: تقديم مشهد 3D مع وضع بانوراما في العمق
 type: docs
 weight: 40
 url: /ar/net/render-3d-scene-with-panorama-mode-in-depth/
-description: Sing sing Aspose.3D for .NET API ، يمكن للمطورين تقديم مشهد 3D مع وضع بانوراما في العمق بدلا من الألوان.
+description: باستخدام Aspose.3D for .NET API ، يمكن للمطورين عرض مشهد 3D مع وضع بانوراما بعمق بدلاً من الألوان.
 ---
 {{% alert color="primary" %}}
 
-Uالغناء[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)، يمكن للمطورين تقديم مشهد 3D مع وضع بانوراما في العمق بدلا من الألوان.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers can render a 3D scene with panorama mode in depth instead of the colors.
 
 {{% /alert %}}
-## **Rأندر 3D cenسين مع Pأنوراما Mode في Depth**
+##  **تقديم مشهد 3D مع وضع بانوراما في العمق**
 في هذه المقالة ، نقوم بإنشاء amera Cواثنين من الأشياء الخفيفة لالتقاط المشهد ، فإن فئة hadhaderSet تساعد على خلق shader العمق.
-### **Pروغرامينغ ple وافرة**
-Tله رمز مثال يجعل 3D المشهد مع وضع Panorama في العمق.
+###  **Pروغرامينغ ple وافرة**
+هذا المثال البرمجي يجعل مشهد 3D مع وضع بانوراما في العمق.
 
 **C#**
 

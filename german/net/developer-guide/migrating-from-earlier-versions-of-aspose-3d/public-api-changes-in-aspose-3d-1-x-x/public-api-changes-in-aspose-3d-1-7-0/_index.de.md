@@ -1,4 +1,4 @@
-﻿---
+---
 title: Öffentliche API Änderungen in Aspose.3D 1.7.0
 type: docs
 weight: 10
@@ -6,22 +6,22 @@ url: /de/net/public-api-changes-in-aspose-3d-1-7-0/
 ---
 **Inhalts übersicht**
 
-- [Fügt Aspose.ThreeD. Entitäten. Frustum klasse hinzu](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
-- [Fügt Aspose.ThreeD.Image Render Options klasse hinzu](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
-- [Fügt die MoveForward-Methode in Aspose.ThreeD. Entitäten hinzu. Kamera klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
-- [Fügt Cast Shadows-und ReceiveShadows-Mitglieder in Aspose.ThreeD. Entitäten. Geometrie-Klasse hinzu](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
-- [Fügt Generate Normal-Methode in Aspose.ThreeD. Entitäten hinzu. Polygonmodifier-Klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
-- [Fügt die Concate-Methode in Aspose.ThreeD hinzu. Utilities.Quaternion-Klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
+- [Fügt Aspose hinzu. ThreeD. Entitäten. Frustum-Klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
+- [Fügt Aspose hinzu. ThreeD.Image Render Options klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
+- [Fügt die MoveForward-Methode in Aspose hinzu. ThreeD.Entities. Kamera klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
+- [Fügt Cast Shadows-und ReceiveShadows-Mitglieder in Aspose hinzu. ThreeD.Entities.Geometry-Klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
+- [Fügt GenerateNormal-Methode in Aspose hinzu. ThreeD.Entities.Polygon Modifier-Klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
+- [Fügt die Concate-Methode in Aspose hinzu. ThreeD.Utilities.Quaternion-Klasse](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
 
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt Änderungen an Aspose.3D API von Version 1.5.0 bis 1.7.0, die für Modul-/Anwendungs entwickler von Interesse sein können. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen in Aspose.3D.
+Dieses Dokument beschreibt Änderungen an Aspose.3D API von Version 1.5.0 bis 1.7.0, die für Modul-/Anwendungs entwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.3D.
 
 {{% /alert %}} 
-### **Fügt Aspose.ThreeD. Entitäten. Frustum klasse hinzu**
+###  **Fügt Aspose hinzu. ThreeD. Entitäten. Frustum-Klasse**
 Eine neue Klasse Frustum wird hinzugefügt. Kamera und Licht waren die Unter klassen der Entität klasse. In der Version 1.7.0 werden diese Klassen von Frustum und Frustum von Entity geerbt, da die Eigenschaften Position, Up, LookAt, Direction, Target, NearPlane und Far Plane in Frustum extrahiert werden.
 
-**Ausgezogene Mitglieder ab Aspose.ThreeD. Entitäten. Kamera an Aspose.ThreeD. Entitäten. Frustum** 
+**Mitglieder aus Aspose.ThreeD.Entities.Camera to Aspose.ThreeD.Entities.Frustum** 
 Alle diese Eigenschaften werden zu Frustum extrahiert:
 
 **C#**
@@ -44,7 +44,7 @@ double FarPlane{ get;set;}
 
 {{< /highlight >}}
 
-**Ausgezogene Mitglieder aus der Klasse Aspose.ThreeD. Entitäten. Licht bis Aspose.ThreeD. Entitäten. Frustum** 
+**Ausgezogene Mitglieder aus der Klasse Aspose.ThreeD.Entities.Light bis Aspose.ThreeD.Entities.Frustum** 
 Alle diese Eigenschaften werden zu Frustum extrahiert:
 
 **C#**
@@ -56,8 +56,8 @@ Alle diese Eigenschaften werden zu Frustum extrahiert:
 Aspose.ThreeD.Utilities.Vector3 Direction{ get;set;}
 
 {{< /highlight >}}
-### **Fügt Aspose.ThreeD.Image Render Options klasse hinzu**
-**Konvertieren Sie eine Datei 3D in das Bilddatei format**
+###  **Fügt Aspose hinzu. ThreeD.Image Render Options klasse**
+**Konvertieren Sie eine 3D-Datei in ein Bilddatei format**
 
 **C#**
 
@@ -99,7 +99,7 @@ scene.Render(camera, fileName, new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
 
-**Mitglieder zur Klasse Aspose.ThreeD hinzugefügt. Szene:**
+**Mitglieder zur Klasse Aspose hinzugefügt. ThreeD. Szene:**
 
 **C#**
 
@@ -114,7 +114,7 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
 public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap bitmap, Aspose.ThreeD.ImageRenderOptions options)
 
 {{< /highlight >}}
-### **Fügt die MoveForward-Methode in Aspose.ThreeD. Entitäten hinzu. Kamera klasse**
+###  **Fügt die MoveForward-Methode in Aspose hinzu. ThreeD.Entities. Kamera klasse**
 Es bewegt sich vorwärts die Kamera in Richtung ihrer Ausrichtung. Die Ausrichtung einer Kamera wird durch ein Ziel/Richtung/LookAt angegeben
 
 - **Ziel:**Als Ziel knoten im Raum betrachtet die Kamera dieses Ziel immer, unabhängig davon, was das Ziel/die Kamera seine Position im Raum geändert hat.
@@ -130,8 +130,8 @@ Methode Signatur:
  public void MoveForward(double distance)
 
 {{< /highlight >}}
-### **Fügt Cast Shadows-und ReceiveShadows-Mitglieder in Aspose.ThreeD. Entitäten. Geometrie-Klasse hinzu**
-Einige Dateiformate können schatten bezogene Einstellungen in Geometrie wie FBXspeichern und werden auch beim Rendern verwendet. In diesem Code beispiel werden die Schatten der roten Box und des Torus in die Ebene geworfen, die rote Box erhält keine Schatten und die blaue Box wirft keine Schatten.
+###  **Fügt Cast Shadows-und ReceiveShadows-Mitglieder in Aspose hinzu. ThreeD.Entities.Geometry-Klasse**
+Einige Dateiformate können schatten bezogene Einstellungen in Geometrie wie FBX speichern, und sie werden auch beim Rendern verwendet. In diesem Code beispiel werden die Schatten der roten Box und des Torus in die Ebene geworfen, die rote Box erhält keine Schatten und die blaue Box wirft keine Schatten.
 
 **C#**
 
@@ -218,7 +218,7 @@ ImageRenderOptions opt = new ImageRenderOptions() {EnableShadows = true};
 scene.Render(camera, "pic.png", new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
-### **Fügt Generate Normal-Methode in Aspose.ThreeD. Entitäten hinzu. Polygonmodifier-Klasse**
+###  **Fügt GenerateNormal-Methode in Aspose hinzu. ThreeD.Entities.Polygon Modifier-Klasse**
 Entwickler können normale Daten aus der Mesh-Instanz generieren. Wenn das VertexElementSmoothingGroup-Element im Netz definiert wurde, werden die generierten normalen Daten von der VertexElementSmoothingGroup geglättet.
 
 Methode Signatur:
@@ -264,7 +264,7 @@ s.RootNode.Accept(delegate(Node n)
 });
 
 {{< /highlight >}}
-### **Fügt die Concate-Methode in Aspose.ThreeD hinzu. Utilities.Quaternion-Klasse**
+###  **Fügt die Concate-Methode in Aspose hinzu. ThreeD.Utilities.Quaternion-Klasse**
 Es ermöglicht Entwicklern, zwei Rotations transformationen in eine in Quaternion dargestellte zu verkettieren.
 
 Methode Signatur:

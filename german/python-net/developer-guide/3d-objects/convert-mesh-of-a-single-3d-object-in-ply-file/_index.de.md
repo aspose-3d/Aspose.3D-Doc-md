@@ -1,19 +1,19 @@
-﻿---
-title: Konvertieren Sie Mesh eines einzelnen Objekts 3D in der Datei PLY
+---
+title: Konvertieren Sie Mesh eines einzelnen 3D-Objekts in PLY-Datei
 type: docs
 weight: 20
 url: /de/python-net/convert-mesh-of-a-single-3d-object-in-ply-file/
-description: Die überladenen EncodeMesh-Mitglieder, die von der PlyFormat-Klasse freigelegt werden, können verwendet werden, um das Mesh eines 3D-Objekts in eine PLY-Datei zu konvertieren. Die EncodeMesh-Mitglieder verwenden die Objekte Mesh, Ausgabe datei name und PlySaveOptions als Parameter. Mit den Speicher optionen PLY können Entwickler den Namen der Koordinaten komponenten ändern.
+description: Die überladenen EncodeMesh-Mitglieder, die von der Ply Format-Klasse freigelegt werden, können verwendet werden, um das Mesh eines 3D-Objekts in eine PLY-Datei zu konvertieren. Die EncodeMesh-Mitglieder verwenden die Objekte Mesh, Ausgabe dateiname und PlySaveOptions als Parameter. Mit den Speicher optionen PLY können Entwickler den Namen der Koordinaten komponenten ändern.
 ---
 {{% alert color="primary" %}}
 
-[Aspose.3D für Python via .NET](https://products.aspose.com/3d/python-net/)Mit API können Entwickler das Mesh eines einzelnen 3D-Objekts in der Datei PLY konvertieren.
+[Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API ermöglicht es Entwicklern, das Mesh eines einzelnen 3D-Objekts in der PLY-Datei zu konvertieren.
 
 {{% /alert %}}
-## **Erstellen Sie ein Objekt 3D und speichern Sie es in der Datei PLY**
-Die überladenen `encodeMesh`-Mitglieder, die von der `PlyFormat`-Klasse freigelegt werden, können verwendet werden, um das Mesh eines 3D-Objekts in eine PLY-Datei zu konvertieren. Die `encodeMesh`-Mitglieder nehmen den Namen der Ausgabe datei `Mesh` und die Objekte `PlySaveOptions` als Parameter. Mit den Speicher optionen PLY können Entwickler den Namen der Koordinaten komponenten ändern.
-### **Programmier probe**
-Dieses Code beispiel erstellt ein 3D Cylinder-Objekt und codiert dann in der Datei PLY.
+##  **Erstellen Sie ein 3D-Objekt und speichern Sie es in einer PLY-Datei**
+Die überladenen `encodeMesh`-Mitglieder, die von der `PlyFormat`-Klasse angezeigt werden, können verwendet werden, um das Mesh eines 3D-Objekts in eine PLY-Datei zu konvertieren. Die `encodeMesh`-Mitglieder nehmen die `Mesh`-, Ausgabe dateiname und `PlySaveOptions`-Objekte als Parameter. Mit den Speicher optionen PLY können Entwickler den Namen der Koordinaten komponenten ändern.
+###  **Programmier probe**
+In diesem Code beispiel wird ein 3D-Cylinder-Objekt erstellt und dann in der PLY-Datei codiert.
 
 **Python**
 

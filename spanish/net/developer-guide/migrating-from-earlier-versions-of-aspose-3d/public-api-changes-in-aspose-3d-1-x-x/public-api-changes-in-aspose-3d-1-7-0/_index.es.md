@@ -1,4 +1,4 @@
-﻿---
+---
 title: Público API Cambios en Aspose.3D 1.7.0
 type: docs
 weight: 10
@@ -6,22 +6,22 @@ url: /es/net/public-api-changes-in-aspose-3d-1-7-0/
 ---
 **Resumen de contenidos**
 
-- [Añade Aspose.ThreeD. Entidades. Clase de frustum](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
-- [Agrega Aspose.ThreeD.ImageRenderOptions clase](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
-- [Agrega el método MoveForward en Aspose.ThreeD. Entidades. Clase de cámara](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
-- [Agrega miembros CastShadows y ReceiveShadows en Aspose.ThreeD. Entidades. Clase de geometría](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
-- [Agrega el método GenerateNormal en Aspose.ThreeD. Entidades. PolygonModifier clase](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
-- [Agrega el método Concate en Aspose.ThreeD.Utilities. Clase de cuaternión](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
+- [Agrega la clase Aspose.ThreeD.Entities.Frustum](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
+- [Agrega la clase Aspose.ThreeD.ImageRenderOptions](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
+- [Agrega el método MoveForward en la clase Aspose.ThreeD.Entities.Camera](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
+- [Agrega los miembros CastShadows y ReceiveShadows en la clase Aspose.ThreeD.Entities.Geometry](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
+- [Agrega el método GenerateNormal en la clase Aspose.ThreeD.Entities.PolygonModifier](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
+- [Agrega el método Concate en la clase Aspose.ThreeD.Utilities.Quaternion](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
 
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.3D API de la versión 1.5.0 a 1.7.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.3D.
+This document describes changes to the Aspose.3D API from version 1.5.0 to 1.7.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Añade Aspose.ThreeD. Entidades. Clase de frustum**
+###  **Agrega la clase Aspose.ThreeD.Entities.Frustum**
 Se añade una nueva clase Frustum. Camera y Light fueron las subclases de la clase Entity. En la versión 1.7.0, estas clases se heredan de Frustum y Frustum se hereda de Entity, ya que las propiedades Position, Up, LookAt, Direction, Target, NearPlane y FarPlane se extraen en Frustum.
 
-**Miembros extraídos de Aspose.ThreeD. Entidades. Cámara a Aspose.ThreeD. Entidades. Frustum** 
+**Miembros extraídos de Aspose.ThreeD.Entities.Camera a Aspose.ThreeD.Entities.Frustum** 
 Todas estas propiedades se extraen a Frustum:
 
 **C#**
@@ -44,7 +44,7 @@ double FarPlane{ get;set;}
 
 {{< /highlight >}}
 
-**Miembros extraídos de la clase Aspose.ThreeD. Entidades. Ligero a Aspose.ThreeD. Entidades. Frustum** 
+**Miembros extraídos de la clase Aspose.ThreeD.Entities.Light a Aspose.ThreeD.Entities.Frustum** 
 Todas estas propiedades se extraen a Frustum:
 
 **C#**
@@ -56,7 +56,7 @@ Todas estas propiedades se extraen a Frustum:
 Aspose.ThreeD.Utilities.Vector3 Direction{ get;set;}
 
 {{< /highlight >}}
-### **Agrega Aspose.ThreeD.ImageRenderOptions clase**
+###  **Agrega la clase Aspose.ThreeD.ImageRenderOptions**
 **Convertir un archivo 3D al formato de archivo de imagen**
 
 **C#**
@@ -99,7 +99,7 @@ scene.Render(camera, fileName, new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
 
-**Miembros añadidos a la clase Aspose.ThreeD. Escena:**
+**Miembros agregados a la clase Aspose.ThreeD. Escena:**
 
 **C#**
 
@@ -114,7 +114,7 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
 public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap bitmap, Aspose.ThreeD.ImageRenderOptions options)
 
 {{< /highlight >}}
-### **Agrega el método MoveForward en Aspose.ThreeD. Entidades. Clase de cámara**
+###  **Agrega el método MoveForward en la clase Aspose.ThreeD.Entities.Camera**
 Avanza la cámara hacia su orientación. La orientación de una cámara está especificada por cualquiera de los objetivos/dirección/mirador
 
 - **Objetivo:**Un nodo objetivo en el espacio, la cámara siempre mirará este objetivo sea cual sea el objetivo/cámara que haya cambiado su posición en el espacio.
@@ -130,8 +130,8 @@ Método Firma:
  public void MoveForward(double distance)
 
 {{< /highlight >}}
-### **Agrega miembros CastShadows y ReceiveShadows en Aspose.ThreeD. Entidades. Clase de geometría**
-Algunos formatos de archivo pueden almacenar configuraciones relacionadas con la sombra en geometría como FBX, y también se utilizan en el renderizado. En este ejemplo de código, las sombras del cuadro rojo y el toro arrojadas al plano, el cuadro rojo no recibirá sombras y el cuadro azul no proyectará sombras.
+###  **Agrega los miembros CastShadows y ReceiveShadows en la clase Aspose.ThreeD.Entities.Geometry**
+Algunos formatos de archivo pueden almacenar configuraciones relacionadas con sombras en geometría como FBX, y también se usan en renderizado. En este ejemplo de código, las sombras del cuadro rojo y el toro se proyectan en el plano, el cuadro rojo no recibirá sombras y el cuadro azul no proyectará sombras.
 
 **C#**
 
@@ -218,7 +218,7 @@ ImageRenderOptions opt = new ImageRenderOptions() {EnableShadows = true};
 scene.Render(camera, "pic.png", new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
-### **Agrega el método GenerateNormal en Aspose.ThreeD. Entidades. PolygonModifier clase**
+###  **Agrega el método GenerateNormal en la clase Aspose.ThreeD.Entities.PolygonModifier**
 Permite a los desarrolladores generar datos normales a partir de la instancia de Mesh, si el elemento VertexElementSmoothingGroup se definió en la malla, los datos normales generados serán suavizados por VertexElementSmoothingGroup.
 
 Método Firma:
@@ -264,7 +264,7 @@ s.RootNode.Accept(delegate(Node n)
 });
 
 {{< /highlight >}}
-### **Agrega el método Concate en Aspose.ThreeD.Utilities. Clase de cuaternión**
+###  **Agrega el método Concate en la clase Aspose.ThreeD.Utilities.Quaternion**
 Permite a los desarrolladores concatenar dos transformaciones de rotación en una representada en Quaternion.
 
 Método Firma:

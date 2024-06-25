@@ -1,19 +1,19 @@
-﻿---
-title: Skapa en Fish-eye linseffekt på 3D scen och spara i en bild
+---
+title: Skapa en objektiveffekt på 3D och spara i en bild
 type: docs
 weight: 20
 url: /sv/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: Med Aspose.3D for .NET API, utvecklare kan skapa en Fisheye linseffekt på 3D scen och spara den vyn i de bildformat som stöds.
+description: Använder Aspose. 3D for .NET API, Utvecklare kan skapa en Fisheye-linseffekt på 3D-scenen och spara den vyn i de bildformat som stöds.
 ---
 {{% alert color="primary" %}}
 
-Användning[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Kan utvecklare skapa en Fisheye linseffekt på 3D scen och spara den vyn i de bildformat som stöds.
+Genom att använda [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) kan utvecklare skapa en Fisheye-linseffekt på 3D-scenen och spara den vyn i de bildformat som stöds.
 
 {{% /alert %}}
-## **Skapa en Fisheye-linseffekt**
-I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga scenen, också skapa en rendering mål, skapa en visningsplats och utför Fisheye projektion efter bearbetning med kubenkartan som inmatning och slutligen spara texten Fisheye. - Ja, jag vet inte. `Execute`-metoden `Renderer`-klass gör det möjligt att utföra efterbehandlingseffekten och spara resultatet för att göra mål.
-### **Programmeringsprova**
-Detta kodexempel skapar en Fisheye linseffekt på 3D scen och spara i bildformat.
+##  **Skapa en Fisheye-linseffekt**
+I den här artikeln skapar vi en kamera och två Ljus objekt för att fånga scenen, också skapa en rendering mål, skapa en visningsplats och utför Fisheye projektion efter bearbetning med kubenkartan som inmatning och slutligen spara texten Fisheye. - Ja, jag vet inte. `Execute`-metoden för `Renderer`-klassen gör det möjligt att köra efterbehandlingseffekten och spara resultatet för att visa målet.
+###  **Programmeringsprova**
+Det här kodexemplet skapar en Fisheye linseffekt på 3D-scenen och sparar i bildformatet.
 
 **C#**
 

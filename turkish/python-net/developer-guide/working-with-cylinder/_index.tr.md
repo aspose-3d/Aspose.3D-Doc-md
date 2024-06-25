@@ -1,37 +1,37 @@
-﻿---
+---
 title: Cylinder ile king orking
 type: docs
 weight: 130
 url: /tr/python-net/working-with-cylinder/
-description: Python via .NET için Aspose.3D, bir silindirin Offset op op'unu özelleştirmeye izin verir. In bu işlevselliği kullanmak için Cylinder sınıfının Offset özelliğini kullanabilirsiniz.
+description: Aspose.3D for Python via .NET, bir silindirin ofset üstünü özelleştirmeye izin verir. Bu işlevselliği kullanmak için silindir sınıfının ofset özelliğini kullanabilirsiniz.
 ---
-# **Oustomize ffffset Top**
-Python via .NET için Aspose.3D, bir silindirin Offset op op'unu özelleştirmeye izin verir. In bu işlevselliği kullanmak için `Cylinder` sınıfının `offset` özelliğini kullanabilirsiniz. Kod snippet'i takip eden Tffset Top'u nasıl özelleştireceğinizi gösterir:
+#  **Oustomize ffffset Top**
+Aspose.3D for Python via .NET allows customizing Offset Top of a cylinder. In order to use this functionality, you can use `offset` property of `Cylinder` class. The following code snippet shows how to customize Offset Top:
 
 
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithCylinder-CustomizedOffsetTopCylinder-1.py" >}}
 
-![Todo: görüntü_Alt_Metin](working-with-cylinder_1.png)
+! [Todo: image_alt_text](working-with-cylinder_1.png)
 
-To sol bir `offset_top` set (5, 3, 0), üst kapak taşındı ve tüm gövde de etkilenir görmek kolaydır.
-# **Customize hearhearhearottom**
-Python via .NET için Aspose.3D, bir silindirin kesme tabanını özelleştirmeye izin verir. In bu işlevselliği kullanmak için `Cylinder` sınıfının `shear_bottom` özelliğini kullanabilirsiniz. Kod parçacığını takip eden Thear ottom nasıl özelleştirileceğini gösterir:
-
-
-
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithCylinder-CustomizedShearBottomCylinder-1.py" >}}
-
-![Todo: görüntü_Alt_Metin](working-with-cylinder_2.png)
-
-To sol silindir `shear_bottom` ila (0, 0.83) iken sağ bir sıra silindir.
-# **Create Fan-Cylinder**
-Python via .NET için Aspose.3D, bir fan silindiri oluşturmaya izin verir. In bu işlevselliği kullanmak için `Cylinder` sınıfının 076481 481 özelliğini `generate_fan_cylinder` olarak ayarlayabilirsiniz. Kod parçacığını takip eden T, bu işlevselliğin nasıl kullanılacağını gösterir:
+The left one has `offset_top` set to (5, 3, 0), it's easy to see the top cap has moved and the whole torso also gets affected.
+#  **Customize hearhearhearottom**
+Aspose.3D for Python via .NET allows customizing shear bottom of a cylinder. In order to use this functionality, you can use `shear_bottom` property of `Cylinder` class. The following code snippet shows how to customize Shear Bottom:
 
 
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithCylinder-CustomizedShearBottomCylinder-1.py" >}}
 
-![Todo: görüntü_Alt_Metin](working-with-cylinder_3.png)
+! [Todo: image_alt_text](working-with-cylinder_2.png)
 
-To sol silindir `generate_fan_cylinder = False` ve sağ olan `generate_fan_cylinder = True` vardır.
+The left cylinder has `shear_bottom` to (0, 0.83) while the right one is an ordinal cylinder.
+#  **Create Fan-Cylinder**
+Aspose.3D for Python via .NET allows creating a fan cylinder. In order to use this functionality, you can set `generate_fan_cylinder` property of `Cylinder` class to `True`. The following code snippet shows how to use this functionality:
+
+
+
+{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithCylinder-CustomizedShearBottomCylinder-1.py" >}}
+
+! [Todo: image_alt_text](working-with-cylinder_3.png)
+
+The left cylinder has `generate_fan_cylinder = False` and the right one has `generate_fan_cylinder = True`.

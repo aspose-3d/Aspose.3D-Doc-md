@@ -1,4 +1,4 @@
-﻿---
+---
 title: Etحفر et
 type: docs
 weight: 10

@@ -1,52 +1,52 @@
-﻿---
-title: Specify 3D File Load ptions ptions in C#
-linktitle: Specify 3D File ptions oad ptions ptions
+---
+title: 3D dosya yükleme seçeneklerini C# olarak belirtin
+linktitle: 3D dosya yükleme seçeneklerini belirtin
 type: docs
 weight: 30
 url: /tr/net/specify-3d-file-load-options/
 description: Tburada birkaç Scene vardır. Open yöntemi aşırı yükler veya bir Load. ptions nesnesini kabul eden aşırı yükler. Each yük formatı, bu yük formatı için yük seçeneklerini tutan ilgili bir sınıfa sahiptir.
 ---
-## **Overview**
+##  **Overview**
 
-Tonun makalesi, ilgili yük seçeneği sınıflarını C# 'de Scene nesnesinin içine kullanarak 3D dosyalarının farklı türlerini nasıl yükleyebileceğinizi açıklıyor ve sonra yapabilirsiniz[Farklı 3D desteklenen dosya formatlarında kaydedin](https://docs.aspose.com/3d/net/specify-3d-file-save-options/). By yükleme ve kaydetme, örneğin farklı dönüşüm sayısını gerçekleştirebilirsiniz
+This article explains how you can load different types of 3D files using their respective load option classes in C# inside the Scene object and then you can [save it in different 3D supported file formats](https://docs.aspose.com/3d/net/specify-3d-file-save-options/). By loading and saving, you can perform number of different conversions e.g.
 
-- Convert FBX OBJ C#
-- Convert 3DS FBX C#
-- Convert U3D OBJ C#
-- Convert OBJ 3DS C#
-- C# yılında 07onvert X to 3DS
+- Convert FBX to OBJ in C#
+- Convert 3DS to FBX in C#
+- Convert U3D to OBJ in C#
+- Convert OBJ to 3DS in C#
+- Convert X to 3DS in C#
 
-## **3D File Load ptions ptions**
-Tburada [`Scene.Open`](https://reference.aspose.com/3d/net/aspose.threed/scene) yöntemi aşırı yükler veya `LoadOptions` nesnesini kabul eden Scene sınıfı oluşturucu aşırı yükler vardır. This `LoadOptions` sınıfından türetilen bir sınıfın nesnesi olmalıdır. Each yük formatı, bu yük formatı için yük seçeneklerini tutan ilgili bir sınıfa sahiptir, örneğin 076. 481 kaydetme formatı için `ColladaSaveOptions` vardır.
-### **Discreet 3DS Load ptions ptions ptions**
-The C# kodu aşağıda, bir 07iscreet 3DS dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+##  **3D dosya yükleme seçenekleri**
+There are several [`Scene.Open`](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads or Scene class constructor overloads that accept a `LoadOptions` object. This should be an object of a class derived from the `LoadOptions` class. Each load format has a corresponding class that holds load options for that load format, for example there is `ColladaSaveOptions` for the `FileFormat.Collada` save format.
+###  **Gizli 3DS yük seçeneklerinin kullanımı**
+Aşağıdaki C# kodu, gizli bir 3DS dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-Discreet3DSOption.cs" >}}
-### **Bj bj ptions oad ptions ptions**
-The C# kod aşağıda bir 3D Obj dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **Bj bj ptions oad ptions ptions**
+Aşağıdaki C# kodu, 3D obj dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-ObjLoadOption.cs" >}}
-### **Use of STL ptions oad ptions ptions**
-The C# kodu aşağıda, STL dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **STL yük seçeneklerinin kullanımı**
+Aşağıdaki C# kodu, STL dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-STLLoadOption.cs" >}}
-### **Use of U3D ptions oad ptions ptions**
-The C# kodu aşağıda, U3D dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **U3D yük seçeneklerinin kullanımı**
+Aşağıdaki C# kodu, U3D dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-U3DLoadOption.cs" >}}
-### **Use of glTF ptions oad ptions ptions**
-The C# kodu aşağıda, glTF dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
-#### **Lip lip V/T Texture ordinoordinate**
+###  **glTF yük seçeneklerinin kullanımı**
+Aşağıdaki C# kodu, glTF dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+####  **Lip lip V/T Texture ordinoordinate**
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-glTFLoadOptions.cs" >}}
-### **Pse of Ply Load ptions ptions**
-The C# kodu aşağıda, PLY modelini yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **Pse of Ply Load ptions ptions**
+Aşağıdaki C# kodu, PLY modelini yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-PlyLoadOptions.cs" >}}
-### **Use of DirectX X Load ptions ptions**
-The C# kod aşağıda, DirectX X dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **DirectiX LLoad ptions ptions se**
+Aşağıdaki C# kodu, directx dosyası yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-XLoadOptions.cs" >}}
-### **Use RVM yük seçenekleri**
+###  **Use RVM load options**
 **C#**
 
 {{< highlight "java" >}}
@@ -78,5 +78,5 @@ scene.Open("LAD-TOP.rvm", opt);
 scene.Save("LAD-TOP.obj", FileFormat.WavefrontOBJ);
 
 {{< /highlight >}}
-### **Using FBX Load ptions ptions**
+###  **Using FBX Load Options**
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-FBXLoadOptions.cs" >}}

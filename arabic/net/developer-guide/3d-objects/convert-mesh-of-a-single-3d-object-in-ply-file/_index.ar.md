@@ -1,19 +1,19 @@
-﻿---
-title: Convert esh esh من كائن واحد 3D في ملف PLY
+---
+title: تحويل شبكة لكائن واحد 3D في ملف PLY
 type: docs
 weight: 20
 url: /ar/net/convert-mesh-of-a-single-3d-object-in-ply-file/
-description: Tانه تحميل الزائد أعضاء EncodeMsh يتعرض من قبل فئة lylyFormat يمكن استخدامها لتحويل esh esh من كائن 3D إلى ملف PLY. The Eأعضاء ncodeMsh تأخذ Mesh ، اسم ملف الإخراج والأشياء ptions lySaveOكما المعلمات. Uالغناء PLY حفظ الخيارات ، يمكن للمطورين تغيير اسم مكونات التنسيق.
+description: يمكن استخدام أعضاء EncodeMesh الذين تم تعريضهم من قبل فئة plysformat لتحويل شبكة اعتراض 3D إلى ملف PLY. يأخذ أعضاء EncodeMesh الشبكة ، اسم ملف الإخراج وكائنات PlySaveOptions كمعاملات. باستخدام خيارات الحفظ PLY ، يمكن للمطورين تغيير اسم مكونات الإحداثيات.
 ---
 {{% alert color="primary" %}}
 
-[Aspose.3D for .NET](https://products.aspose.com/3d/net/)API يسمح للمطورين لتحويل esh esh من كائن واحد 3D في ملف PLY.
+يسمح [Aspose.3D for .NET](https://products.aspose.com/3d/net/) API للمطورين بتحويل شبكة كائن 3D واحد في ملف PLY.
 
 {{% /alert %}}
-## **Rereate كائن 3D وحفظه إلى ملف PLY**
-Tانه فوق تحميل `EncodeMesh` أعضاء يتعرض من قبل فئة `PlyFormat` يمكن استخدامها لتحويل `Mesh` من كائن 3D إلى ملف PLY. The `EncodeMesh` أعضاء تأخذ `Mesh` ، اسم ملف الإخراج و `PlySaveOptions` الكائنات كمعلمات. Uالغناء PLY حفظ الخيارات ، يمكن للمطورين تغيير اسم مكونات التنسيق.
-### **Pروغرامينغ ple وافرة**
-Tمثال التعليمات البرمجية له يخلق كائن ylinder 3D C، ثم ترميز في ملف PLY.
+##  **إنشاء كائن 3D وحفظه في ملف PLY**
+يمكن استخدام أعضاء `EncodeMesh` الذين تم تعريضهم فوق طاتهم من فئة `PlyFormat` لتحويل `Mesh` من 3D إلى ملف PLY. يأخذ أعضاء `EncodeMesh` `Mesh` واسم ملف الإخراج وكائنات `PlySaveOptions` كمعلمات. باستخدام خيارات الحفظ PLY ، يمكن للمطورين تغيير اسم مكونات الإحداثيات.
+###  **Pروغرامينغ ple وافرة**
+يُنشئ مثال الرمز هذا كائن أسطواني 3D ، ثم يُشفر في ملف PLY.
 
 **C#**
 

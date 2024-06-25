@@ -1,19 +1,19 @@
-﻿---
-title: 用全景模式深度渲染3D场景
+---
+title: 在深度中使用全景模式渲染 3D 场景
 type: docs
 weight: 40
 url: /zh/net/render-3d-scene-with-panorama-mode-in-depth/
-description: 使用Aspose.3D for .NET API，开发人员可以用全景模式在深度而不是颜色上渲染3D场景。
+description: 使用 Aspose.3D for .NET API，开发人员可以使用全景模式以深度而不是颜色来渲染 3D 场景。
 ---
 {{% alert color="primary" %}}
 
-使用[Aspose.3D for .NET API](https://products.aspose.com/3d/net/),开发人员可以用全景模式渲染3D场景，而不是颜色。
+使用 [Aspose.3D for .NET API](https://products.aspose.com/3d/net/)，开发人员可以使用全景模式以深度而不是颜色渲染 3D 场景。
 
 {{% /alert %}}
-## **用全景模式深度渲染3D场景**
+##  **在深度中使用全景模式渲染 3D 场景**
 在本文中，我们创建了一个摄像机和两个光对象来捕获场景，ShaderSet类有助于创建深度着色器。
-### **编程示例**
-此代码示例以全景模式深度呈现3D场景。
+###  **编程示例**
+此代码示例使用全景模式在深度中呈现 3D 场景。
 
 **C#**
 

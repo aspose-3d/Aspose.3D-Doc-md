@@ -1,19 +1,19 @@
-﻿---
-title: C3D sahnesinde Fish-eye lens etkisi yapın ve bir görüntüde kaydedin
+---
+title: 3D sahnesinde balık gözü lens efekti oluşturun ve bir görüntüde kaydedin
 type: docs
 weight: 20
 url: /tr/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: Using Aspose.3D for .NET API, geliştiriciler 3D sahnesinde Fisheye lens etkisi oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
+description: Aspose.3D for .NET API kullanarak, geliştiriciler 3D sahnesinde balıkgözü lens etkisi oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
 ---
 {{% alert color="primary" %}}
 
-Using[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)Geliştiriciler, 3D sahnesinde bir Fisheye lens efekti oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
+Using [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), developers can create a Fisheye lens effect on 3D scene and save that view into the supported image formats.
 
 {{% /alert %}}
-## **Create bir Fisheye lens etkisi**
-In bu makalede, sahneyi yakalamak için bir Camera ve iki ight ight nesnesi oluşturuyoruz, ayrıca bir render hedefi oluşturuyoruz, bir bakış açısı oluşturuyoruz ve küp haritasıyla Fisheye projeksiyon işlemini giriş olarak gerçekleştiriyoruz ve son olarak ishisheye dokusunu kaydediyoruz. The `Execute` `Renderer` sınıfı yöntemi, işlem sonrası etkiyi yürütmeyi ve hedefe ulaşmak için sonucu kaydetmeyi sağlar.
-### **Programming ample ample**
-Tkod örneği 3D sahnesinde bir Fisheye lens etkisi yaratır ve görüntü formatına kaydeder.
+##  **Create bir Fisheye lens etkisi**
+Bu makalede, sahneyi yakalamak için bir kamera ve iki ışık nesnesi oluşturuyoruz, aynı zamanda bir render hedefi oluşturuyoruz, bir bakış açısı oluşturuyoruz ve küp haritasıyla balık gözü projeksiyon işlemini giriş olarak gerçekleştiriyoruz ve sonunda balık gözü dokusunu kaydediyoruz. `Execute` `Renderer` sınıfı yöntemi, posta işleme etkisini çalıştırmayı ve hedefi işlemek için sonucu kaydetmeyi sağlar.
+###  **Programming ample ample**
+Bu kod örneği, 3D sahnesinde balıkgözü lens etkisi yaratır ve görüntü formatına kaydeder.
 
 **C#**
 

@@ -1,18 +1,18 @@
-﻿---
+---
 title: Raltı yüzü ile cubemap içine bir sahne ender
 type: docs
 weight: 70
 url: /tr/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: Using Aspose.3D for .NET API, geliştiriciler altı yüz ile cubemap içine bir sahne oluşturabilir ve tüm yüzleri desteklenen görüntü formatlarına kaydedebilirler.
+description: Aspose.3D for .NET API kullanarak, geliştiriciler altı yüz ile cubemap içine bir sahne oluşturabilir ve tüm yüzleri desteklenen görüntü formatlarına kaydedebilir.
 ---
 {{% alert color="primary" %}}
 
-Using[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)Geliştiriciler, altı yüz ile cubemap içine bir sahne oluşturabilir ve tüm yüzleri desteklenen görüntü formatlarına kaydedebilir.
+[Aspose.3D for .NET API](https://products.aspose.com/3d/net/) kullanarak, geliştiriciler altı yüz ile cubemap içine bir sahne oluşturabilir ve tüm yüzleri desteklenen görüntü formatlarına kaydedebilir.
 
 {{% /alert %}}
-## **Capture altı yüzlü bir cubemap**
-In bu makalede, cubemap'ı yakalamak için bir Camera ve iki ight ight nesnesi oluşturuyoruz, ayrıca derinlik dokusu ile bir cubemap oluşturma hedefi oluşturuyoruz, bir bakış açısı oluşturuyoruz ve sonunda cubemap dokusunu alıyoruz. The `ITextureCubema`p sınıfı, cubemap dokusunu alır ve `CubeFaceData` sınıfı, cubemap'ın yüzlerine erişmeyi ve daha sonra desteklenen görüntü formatına aktarmayı sağlar.
-### **Programming ample ample**
+##  **Capture altı yüzlü bir cubemap**
+Bu makalede, cubemap'ı yakalamak için bir kamera ve iki ışık nesnesi oluşturuyoruz, ayrıca derinlik dokusu ile bir cubemap oluşturma hedefi oluşturuyoruz, bir bakış açısı oluşturuyoruz ve sonunda cubemap dokusunu alıyoruz. `ITextureCubema`p sınıfı, cubemap dokusunu ve `CubeFaceData` sınıfını alır ve daha sonra desteklenen görüntü formatına dışa aktarır.
+###  **Programming ample ample**
 Tkod örneği, altı yüz ile cubemap içine bir sahne oluşturur ve görüntü formatına aktarır.
 
 **C#**

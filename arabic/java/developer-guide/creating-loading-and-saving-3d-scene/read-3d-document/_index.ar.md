@@ -1,38 +1,38 @@
-﻿---
-title: Read 3D وثيقة
+---
+title: اقرأ مستند 3D
 type: docs
 weight: 30
 url: /ar/java/read-3d-document/
-description: Aspose.3D for Java API لديه دعم قراءة نوع مختلف من الوثائق 3D.
+description: Aspose.3D for Java API يدعم قراءة أنواع مختلفة من مستندات 3D.
 ---
-## **Ist ist من 3D الأشكال المدعومة (استيراد)**
-Aspose.3D for Java API لديه دعم قراءة نوع مختلف من الوثائق 3D. Tانه متاح منشئين من فئة `Scene` يساعد على القيام بذلك وأنها تقبل سلسلة مسار ملف صالح. Tكان يدعم تنسيقات الملفات القابلة للقراءة هي كما يلي:
+##  **قائمة التنسيقات المدعومة بقيمة 3D (استيراد)**
+Aspose.3D for Java API يدعم قراءة أنواع مختلفة من مستندات 3D. تساعد المنشئات المتوفرة لفئة `Scene` في القيام بذلك وتقبل سلسلة مسار ملف صالحة. تنسيقات الملفات المقروءة المدعومة هي كما يلي:
 
-1. FBX 7.5 (ASCII ، البولي يوريثين)
-1. FBX 7.4 (ASCII ، البولي يوريثين)
-1. FBX 7.3 (ASCII ، البولي يوريثين)
-1. FBX 7.2 (ASCII ، البولي يوريثين)
-1. STL (ASCII ، البولي يوريثين)
+1. FBX 7.5 (ASCII ، ثنائي)
+1. FBX 7.4 (ASCII ، ثنائي)
+1. FBX 7.3 (ASCII ، ثنائي)
+1. FBX 7.2 (ASCII ، ثنائي)
+1. STL (ASCII, Binary)
 1. WavefrontOBJ
 1. Discreet3DS
 1. Universal3D
 1. Collada
 1. glTF
 1. DXF
-1. PLY (ASCII ، البولي يوريثين)
-1. X (ASCII ، البولي inary)
+1. PLY (ASCII, Binary)
+1. X (ASCI I ، inary inary)
 1. Draco
 1. 3MF
-1. RVM (Text ، البولي inary)
+1. RVM (Text, Binary)
 1. ASE
 
-Tانه منشئ من فئة Scene كشف 3D تنسيق وثيقة داخليا.
-## **Import 3D وثيقة**
-Aspose.3D for Java API يدعم استيراد أنواع مختلفة من 3D مستند لأغراض التعديل والإضافة والمعالجة.
-### **Reading a 3D cencene: gramروغرامينغ am**
+تكتشف مُنشئات فئة المشهد تنسيق المستند 3D داخليًا.
+##  **استيراد مستند 3D**
+Aspose.3D for Java API يدعم استيراد أنواع مختلفة من مستندات 3D لأغراض التعديل والإضافة والمعالجة.
+###  **قراءة مشهد 3D: عينات برمجة**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-ReadExistingScene.java" >}}
-## **Working مع 3D roroperties**
-Aspose.3D API يتيح لك قراءة 3D خصائص cencene باستخدام العقد الطفل المشهد. Tانه يتبع عينة رمز يوضح استخدام هذه الميزة.
+##  **العمل مع خصائص 3D**
+Aspose.3D API يتيح لك قراءة خصائص المشهد 3D باستخدام عقد الطفل للمشهد. توضح عينة الكود التالية استخدام هذه الميزة.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-scene-ThreeDProperties-ThreeDProperties.java" >}}
 

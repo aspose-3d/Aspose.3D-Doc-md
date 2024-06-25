@@ -1,16 +1,16 @@
-﻿---
+---
 title: Sphere Radius ile orking
 type: docs
 weight: 110
 url: /tr/python-net/working-with-radius-of-sphere/
-description: Python via .NET için 07sing Aspose.3D, bir kürenin yarıçapını alabilirsiniz. Radius n yarıçapı almak veya ayarlamak için Sphere sınıfının Radius özelliğini kullanabilirsiniz. To, bir kürenin yarıçapını ayarlamak için kod örneğidir.
+description: Using Aspose.3D for Python via .NET, you can set of get radius of a sphere. In order to get or set radius, you can use Radius property of Sphere class. The following is the code sample to set radius of a sphere.  
 ---
 {{% alert color="primary" %}} 
 
 This özelliği 19.4 veya daha büyük sürümle desteklenir.
 
 {{% /alert %}} 
-## **Sphere Radius ile Work**
-Python via .NET için 07sing Aspose.3D, bir kürenin yarıçapını alabilirsiniz. Radius n yarıçapı almak veya ayarlamak için sipariş, `Sphere` sınıfının `radius` özelliğini kullanabilirsiniz. To, bir kürenin yarıçapını ayarlamak için kod örneğidir.
+##  **Sphere Radius ile Work**
+Using Aspose.3D for Python via .NET, you can set of get radius of a sphere. In order to get or set radius, you can use `radius` property of `Sphere` class. The following is the code sample to set radius of a sphere.  
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.py" >}}

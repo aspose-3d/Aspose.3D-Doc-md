@@ -1,4 +1,4 @@
-﻿---
+---
 title: Création, chargement et économie de scène 3D
 type: docs
 weight: 20

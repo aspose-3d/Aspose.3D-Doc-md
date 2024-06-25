@@ -1,17 +1,17 @@
-﻿---
+---
 title: Lägga till omvandling i noden
 type: docs
 weight: 30
 url: /sv/python-net/adding-transformation-to-the-node/
-description: TSR (översättning/Scaling/Rotation) används oftast i 3D scenario, vi tillhandahöll en klass Transform för att komma åt dessa i Aspose.3D.
+description: TSR (översättning/skalning/rotation) används oftast i 3D scenario, vi tillhandahöll en klass Transform för att komma åt dessa i Aspose. 3D.
 ---
 {{% alert color="primary" %}}
 
-Aspose.3D för Python via .NET erbjuder att rotera objekt i 3D utrymme. Det finns tre sätt att definiera objekts rotation i 3D utrymme, Euler vinklar, Quaternion och Custom Matrix, Alla stöds av klassen [`Transform`](https://reference.aspose.com/3d/net/aspose.threed/transform).
+Aspose.3D for Python via .NET erbjuder att rotera objekt i 3D mellanslag. Det finns tre sätt att definiera objekts rotation i 3D utrymme, Euler vinklar, Quaternion och Custom Matrix, Alla stöds av klassen [`Transform`](https://reference.aspose.com/3d/net/aspose.threed/transform).
 
 {{% /alert %}}
 
-TSR (översättning/Scaling/Rotation) används oftast i 3D scenario, Vi tillhandahöll en klass `Transform` för att komma åt dessa i Aspose.3D. Affina transformationer omfattar:
+TSR (översättning/skalning/rotation) används oftast i 3D scenario, vi tillhandahöll en klass `Transform` för att komma åt dessa i Aspose. 3D. Affina transformationer omfattar:
 
 - Översättning
 - Skalning
@@ -21,14 +21,14 @@ TSR (översättning/Scaling/Rotation) används oftast i 3D scenario, Vi tillhand
 
 {{% alert color="primary" %}}
 
-Klassobjektet [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) används i koden. Vi kan det.[Skapa ett klassobjekt `Mesh` som berättas där.](/3d/sv/net/create-3d-mesh-and-scene/).
+The [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) class object is being used in the code. We can [create a `Mesh` class object as narrated there](/3d/net/create-3d-mesh-and-scene/).
 
 {{% /alert %}}
-## **Rotera med kvittering**
+##  **Rotera med kvittering**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TransformationToNodeByQuaternion-AddTransformationToNodeByQuaternion.py" >}}
-## **Rotera med Euler vinklar**
+##  **Rotera med Euler vinklar**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TransformationToNodeByEulerAngles-AddTransformationToNodeByEulerAngles.py" >}}
-## **Egen omvandlingsmatris**
+##  **Egen omvandlingsmatris**
 Vi kan också använda Matrix direkt:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TransformationToNodeByTransformationMatrix-AddTransformationToNodeByTransformationMatrix.py" >}}

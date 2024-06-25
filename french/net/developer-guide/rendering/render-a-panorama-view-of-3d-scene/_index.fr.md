@@ -1,5 +1,5 @@
-﻿---
-title: Rendre une vue panoramique de 3D scène
+---
+title: Rendre une vue Panorama de 3D scène
 type: docs
 weight: 60
 url: /fr/net/render-a-panorama-view-of-3d-scene/
@@ -7,13 +7,13 @@ description: En utilisant Aspose.3D for .NET API, les développeurs peuvent rend
 ---
 {{% alert color="primary" %}}
 
-Utilisation[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Les développeurs peuvent rendre une vue panoramique de la scène 3D et enregistrer cette vue dans les formats d'image pris en charge.
+En utilisant [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), les développeurs peuvent rendre une vue panoramique de la scène 3D et enregistrer cette vue dans les formats d'image pris en charge.
 
 {{% /alert %}}
-## **Créer une vue Panorama**
-Dans cet article, nous créons une caméra et deux objets Light pour capturer la scène, créer également une cible de rendu, créer un viewport et exécuter le post-traitement de projection équirectangulaire avec la carte de cube en entrée et enfin enregistrer la texture Panorama. La méthode `Execute` de la classe `Renderer` permet d'exécuter l'effet de post-traitement et d'enregistrer le résultat pour rendre la cible.
-### **Échantillon de programmation**
-Cet exemple de code rend une vue Panorama de la scène 3D et enregistre dans le format d'image.
+##  **Créer une vue Panorama**
+Dans cet article, nous créons une caméra et deux objets Light pour capturer la scène, également créer une cible de rendu, créer un viewport et exécuter le post-traitement de projection équirectangulaire avec la carte cube en entrée et enfin enregistrer la texture Panorama. La méthode `Execute` de la classe `Renderer` permet d'exécuter l'effet de post-traitement et de sauvegarder le résultat dans la cible de rendu.
+###  **Échantillon de programmation**
+Cet exemple de code rend une vue Panorama de la scène 3D et la sauvegarde dans le format d'image.
 
 **C#**
 

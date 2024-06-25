@@ -1,7 +1,7 @@
-﻿---
-title: مقياس القياسات
+---
+title: Geometry
 type: docs
 weight: 30
 url: /ar/python-net/geometry/
-description: Articles حول 3D هندسي في Aspose.3D ل Python via .NET.
+description: مقالات حول 3D أشكال شكلية بقيمة Aspose.3D for Python via .NET.
 ---

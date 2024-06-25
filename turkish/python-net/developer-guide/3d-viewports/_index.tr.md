@@ -1,7 +1,7 @@
-﻿---
-title: 3D Viewports
+---
+title: 3D görüntüleme noktaları
 type: docs
 weight: 90
 url: /tr/python-net/3d-viewports/
-description: Aspose.3D Python via .NET için 3D viewports hakkında Articles.
+description: 3D görünümleri hakkında makaleler Aspose.3D for Python via .NET.
 ---

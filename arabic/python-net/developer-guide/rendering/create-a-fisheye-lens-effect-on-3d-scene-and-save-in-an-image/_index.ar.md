@@ -1,19 +1,19 @@
-﻿---
-title: Create تأثير عدسة العين Fعلى 3D المشهد وحفظ في صورة
+---
+title: إنشاء تأثير عدسة عين السمكة على مشهد 3D وحفظ في صورة
 type: docs
 weight: 20
 url: /ar/python-net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: Using Aspose.3D ل Python via .NET API ، يمكن للمطورين إنشاء تأثير عدسة ishisheye على المشهد 3D وحفظ هذا العرض في صيغ الصورة المدعومة.
+description: Using Aspose.3D for Python via .NET API, developers can create a Fisheye lens effect on 3D scene and save that view into the supported image formats.
 ---
 {{% alert color="primary" %}}
 
-Uالغناء[Aspose.3D ل Python via .NET API](https:#products.aspose.com/3d/python-net/)، يمكن للمطورين إنشاء تأثير عدسة ishisheye على مشهد 3D وحفظ هذا العرض في تنسيقات الصور المدعومة.
+باستخدام [Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/) ، يمكن للمطورين إنشاء تأثير عدسة عين السمكة على مشهد 3D وحفظ هذا العرض في تنسيقات الصور المدعومة.
 
 {{% /alert %}}
-## **Rereate تأثير عدسة ishisheye**
-في هذه المقالة ، نقوم بإنشاء amera Cواثنين من الأشياء ight ight لالتقاط المشهد ، وأيضا إنشاء هدف تقديم ، وخلق وجهة نظر وتنفيذ الإسقاط ishisheye بعد المعالجة مع خريطة مكعب كمدخل وأخيرا حفظ نسيج ishisheye. The `execute` طريقة `Renderer` فئة يسمح لتنفيذ تأثير معالجة آخر وحفظ النتيجة لتقديم الهدف.
-### **Pروغرامينغ ple وافرة**
-Tله مثال رمز يخلق تأثير عدسة ishisheye على المشهد 3D وحفظ في تنسيق الصورة.
+##  **Rereate تأثير عدسة ishisheye**
+في هذه المقالة ، نقوم بإنشاء كاميرا واثنين من الأجسام الخفيفة لالتقاط المشهد ، وكذلك إنشاء هدف تقديم ، وإنشاء منفذ عرض وتنفيذ إسقاط السمكة بعد المعالجة مع خريطة المكعب كمدخل وأخيرا حفظ نسيج السمكة. تسمح طريقة `execute` لفئة `Renderer` بتنفيذ تأثير معالجة النشر وحفظ النتيجة لتقديم الهدف.
+###  **Pروغرامينغ ple وافرة**
+This code example creates a Fisheye lens effect on 3D scene and save into the image format.
 
 **Python**
 

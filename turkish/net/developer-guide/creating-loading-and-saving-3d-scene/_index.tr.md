@@ -1,8 +1,8 @@
-﻿---
-title: C# yılında 07reating, Loading ve Saving 3D cene cene gramrogrammatically
-linktitle: Creating, oaoading ve Saving 3D cene cene
+---
+title: Creating, Loading and Saving 3D Scene Programmatically in C#
+linktitle: Creating, Loading and Saving 3D Scene
 type: docs
-weight: 20
+weight: 80
 url: /tr/net/creating-loading-and-saving-3d-scene/
-description: Creating, Loading ve Saving 3D cene cene 07rogrammatically C#. Read, Import ve 3D Scenes PDF ve 076481 481 076481 481.
+description: Creating, Loading and Saving 3D Scene Programmatically in C#. Read, Import and save 3D Scenes in PDF and HTML in C#. 
 ---

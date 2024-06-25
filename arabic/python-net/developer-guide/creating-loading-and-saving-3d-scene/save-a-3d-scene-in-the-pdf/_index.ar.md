@@ -1,22 +1,22 @@
-﻿---
-title: Save a 3D cencene في PDF
+---
+title: وفِّر مشهد 3D في PDF
 type: docs
 weight: 60
 url: /ar/python-net/save-a-3d-scene-in-the-pdf/
-description: The Scene فئة من Aspose.3D API يمثل مشهد 3D. Dإيفليرز يمكن بناء مشهد 3D عن طريق إضافة amأميرا ، ight ight ، المضلعات ومختلف الكيانات الأخرى. Hey يا يمكن أيضا الآن حفظ المشهد 3D في تنسيق ملف PDF.
+description: فئة المشهد لـ Aspose. يمثل 3D API مشهد 3D. يمكن للمطورين بناء مشهد 3D عن طريق إضافة الكاميرا والضوء والمضلعات ومختلف الكيانات الأخرى. يمكنهم أيضًا الآن حفظ مشهد 3D بتنسيق الملف PDF.
 ---
 {{% alert color="primary" %}} 
 
-The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) فئة من Aspose.3D API يمثل مشهد 3D. Dإيفلين يمكن بناء مشهد 3D عن طريق إضافة amأميرا ، ight ight ، المضلعات ومختلف الكيانات الأخرى. Hey يا يمكن أيضا الآن حفظ المشهد 3D في تنسيق ملف PDF.
+فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) من Aspose. يمثل 3D API مشهد 3D. يمكن للمطورين بناء مشهد 3D بإضافة الكاميرا والضوء والمضلعات ومختلف الكيانات الأخرى. كما يمكنهم الآن حفظ مشهد 3D بتنسيق الملف PDF.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-Aspose.3D ل Python via .NET يكتب مباشرة المعلومات حول API و Version Number في وثائق الإخراج. على سبيل المثال ، عند تقديم سحب Dإلى PDF ، Aspose.3D للحقل Python via .NET شعبية `Application` بقيمة 'Aspose.3D و `PDF Producer` مع القيمة ، على سبيل المثال ، g 'Aspose.3D 17.9 '.
+يكتب Aspose.3D for Python via .NET مباشرةً المعلومات حول API ورقم الإصدار في مستندات الإخراج. على سبيل المثال ، عند تحويل السحب إلى PDF ، يقوم Aspose.3D for Python via .NET بملء حقل `Application` بقيمة Aspose. حقل 3D "و `PDF Producer` مع القيمة ، هـ. g Aspose.3D 17.9".
 
-Note الإيجار لاحظ أنه لا يمكنك توجيه Aspose.Diagram ل Python via .NET API لتغيير أو إزالة هذه المعلومات من المكافآت الناتج D.
+يرجى ملاحظة أنه لا يمكنك طلب Aspose. رسم بياني لـ Python via .NET API لتغيير هذه المعلومات أو إزالتها من مستندات الإخراج.
 
 {{% /alert %}} 
-## **Ate reate a 3D PDF مع ylinder C، و dered في hhading hllustration oode مع CAD ighptimized رؤية**
-Tانه Sطريقة ave من الطبقة `Scene` يسمح لحفظ مشهد 3D في شكل PDF. Dإيفليرز قد تحميل أي 3D ملف معتمد أو بناء مشهد جديد 3D ، فإنها يمكن حفظ مشهد 3D في تنسيق PDF كما هو مبين في هذا المثال رمز:
+##  **Create a 3D PDF with a Cylinder, and Rendered in Shaded Illustration Mode with CAD Optimized Lighting**
+تتيح طريقة التوفير لفئة `Scene` حفظ مشهد 3D بتنسيق PDF. يمكن للمطورين تحميل أي ملف مدعوم بمبلغ 3D أو إنشاء مشهد 3D جديد ، ويمكنهم توفير مشهد 3D بتنسيق PDF كما هو موضح في مثال الرمز هذا:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-Save3DInPdf-Save3DInPdf.py" >}}

@@ -1,31 +1,31 @@
-﻿---
-title: Add nimnimation roroperty و tup etop ararget amamera في 3D وثيقة
+---
+title: إضافة خاصية الرسوم المتحركة وإعداد الكاميرا المستهدفة في مستند 3D
 type: docs
 weight: 10
 url: /ar/python-net/add-animation-property-and-setup-target-camera-in-3d-document/
-description: In Aspose.3D ، الرسوم المتحركة الكائن هو في الواقع الرسوم المتحركة الرئيسية الإطار الذي ينعش على الخصائص. To خصائص متحركة ، تحتاج إلى مثال الربط urveMالذي خرائط مكونات خاصية إلى منحنيات مختلفة ، على سبيل المثال ، خاصية ecector3 يمكن أن تحتوي على 3 مكونات ur/ Y/Z ، والتي ستقوم بإعداد ثلاث قنوات في الربط urveM، كل قناة يمكن أن يكون لها مجموعة من ururves.
+description: في Aspose.3D ، الرسوم المتحركة للكائن هي في الواقع رسوم متحركة بإطار رئيسي يتم حركتها على الخصائص. لتنشيط الخصائص ، تحتاج إلى مثيل انحناء يحدد مكونات خاصية إلى منحنيات مختلفة ، على سبيل المثال ، يمكن أن تحتوي خاصية Vector3 على 3 مكونات X/Y/Z ، والتي ستضع ثلاث قنوات في رسم الخرائط المنحنية ، يمكن أن تحتوي كل قناة على مجموعة من المنحنيات.
 ---
-## **Property dd nimnimation الملكية في 3D وثيقة**
-Aspose.3D ل Python via .NET يدعم تقديم مشهد الرسوم المتحركة. Tمقالته يفسر المتطلبات الأساسية لنقل كائن.
-### **Sition ove sition sition sition**
+##  **إضافة خاصية الرسوم المتحركة في مستند 3D**
+يدعم Aspose.3D for Python via .NET عرض مشهد متحرك. تشرح هذه المقالة المتطلبات الأساسية لنقل كائن ما.
+###  **Sition ove sition sition sition**
 {{% alert color="primary" %}}
 
-Tهو [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) يتم استخدام كائن فئة في التعليمات البرمجية. We يمكن[إنشاء كائن فئة Mesh كما روى هناك](/3d/ar/net/create-and-read-an-existing-3d-scene/)ويجب أن تحريك خاصية الترجمة المحلية للعقدة أيضا:[Aدينغ رانسوفورميشن إلى oode](/3d/ar/net/adding-transformation-to-the-node/).
+كائن الفئة [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) قيد الاستخدام في الرمز. يمكننا [إنشاء كائن فئة Mesh كما روى هناك](/3d/ar/net/create-and-read-an-existing-3d-scene/) ويجب أن نتحرك خاصية الترجمة المحلية للعقدة أيضًا: [Aدينغ رانسوفورميشن إلى oode](/3d/ar/net/adding-transformation-to-the-node/).
 
 {{% /alert %}}
 
-In Aspose.3D ، الرسوم المتحركة الكائن هو في الواقع الرسوم المتحركة الرئيسية الإطار الذي ينعش على الخصائص. To خصائص متحركة ، تحتاج إلى مثيل `CurveMapping` الذي خرائط مكونات خاصية إلى منحنيات مختلفة ، على سبيل المثال ، خاصية `Vector3` يمكن أن يكون لها 3 مكونات `X`/`Y`/`Z` ، والتي سيتم إعداد ثلاث قنوات في `CurveMapping` ، كل قناة يمكن أن يكون لها مجموعة من `Curve`.
+In Aspose.3D, object animation is actually key-frame animation that animates on properties. To animate properties, you need a `CurveMapping` instance which maps components of a property to different curves, for example, a `Vector3` property can have 3 components `X`/`Y`/`Z`, which will set up three channels in `CurveMapping`, every channel can have a set of `Curve`.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Animation-PropertyToDocument-AddAnimationPropertyToDocument.py" >}}
-## **Tup etop Target amamera في 3D ile ile**
-Aspose.3D لعروض Python via .NET لإعداد الكاميرا المستهدفة في ملف 3D. In بعض صيغ الملفات ، الضوء/الكاميرا يدعم الهدف ، والذي يسمح للضوء/الكاميرا تواجه دائما عقدة محددة ، وهذا مفيد في الرسوم المتحركة.
+##  **إعداد الكاميرا المستهدفة في ملف 3D**
+يعرض Aspose.3D for Python via .NET إعداد الكاميرا المستهدفة في ملف 3D. في بعض تنسيقات الملفات ، يدعم الضوء/الكاميرا الهدف ، مما يسمح للضوء/الكاميرا دائمًا بمواجهة عقدة محددة ، وهذا مفيد في الرسوم المتحركة.
 
 {{% alert color="primary" %}}
 
-The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) ، [`Camera`](https://reference.aspose.com/3d/net/aspose.threed.entities/camera) ، [`Node`](https://reference.aspose.com/3d/net/aspose.threed/node) و [`Transform`](https://reference.aspose.com/3d/net/aspose.threed/transform) يتم استخدام الطبقات في الرمز. To حفظ cencene ، يتم استخدام طريقة [`Scene.Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) ، فإنه يقبل اسم ملف مع مسار كامل ومعلمة [`FileFormat`](https://reference.aspose.com/3d/net/aspose.threed/fileformat).
+يتم استخدام فئات [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) و [`Camera`](https://reference.aspose.com/3d/net/aspose.threed.entities/camera) و [`Node`](https://reference.aspose.com/3d/net/aspose.threed/node) و [`Transform`](https://reference.aspose.com/3d/net/aspose.threed/transform) في الرمز. لحفظ مشهد ، يتم استخدام طريقة [`Scene.Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) ، وهي تقبل اسم ملف بمسار كامل ومعلمة [`FileFormat`](https://reference.aspose.com/3d/net/aspose.threed/fileformat).
 
 {{% /alert %}}
 
-In أدناه المثال ، يتم إعداد الهدف والكاميرا في ملف 3D:
+في المثال أدناه ، تم إعداد الهدف والكاميرا في ملف 3D:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Animation-SetupTargetAndCamera-SetupTargetAndCamera.py" >}}

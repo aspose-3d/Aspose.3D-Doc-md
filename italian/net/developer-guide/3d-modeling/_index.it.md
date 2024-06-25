@@ -1,7 +1,7 @@
-﻿---
-title: 3D Modellistica
+---
+title: Modellazione 3D
 type: docs
 weight: 70
 url: /it/net/3d-modeling/
-description: Articoli circa 3D modellazione in Aspose.3D for .NET.
+description: Articoli su 3D di modellazione procedurale in Aspose.3D for .NET.
 ---

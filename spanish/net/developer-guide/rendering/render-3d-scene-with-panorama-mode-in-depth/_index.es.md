@@ -1,18 +1,18 @@
-﻿---
-title: Escena Render 3D con modo Panorama en profundidad
+---
+title: Render 3D Escena con modo Panorama en profundidad
 type: docs
 weight: 40
 url: /es/net/render-3d-scene-with-panorama-mode-in-depth/
-description: Usando Aspose.3D for .NET API, los desarrolladores pueden representar una escena 3D con el modo panorama en profundidad en lugar de los colores.
+description: Usando Aspose.3D for .NET API, los desarrolladores pueden renderizar una escena 3D con el modo panorama en profundidad en lugar de los colores.
 ---
 {{% alert color="primary" %}}
 
-Uso[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Los desarrolladores pueden renderizar una escena 3D con el modo panorama en profundidad en lugar de los colores.
+Usando [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), los desarrolladores pueden renderizar una escena 3D con el modo panorama en profundidad en lugar de los colores.
 
 {{% /alert %}}
-## **Escena Render 3D con modo Panorama en profundidad**
+##  **Render 3D Escena con modo Panorama en profundidad**
 En este artículo, creamos una cámara y dos objetos de luz para capturar la escena, la clase ShaderSet ayuda a crear sombreadores de profundidad.
-### **Muestra de programación**
+###  **Muestra de programación**
 Este ejemplo de código representa la escena 3D con el modo Panorama en profundidad.
 
 **C#**

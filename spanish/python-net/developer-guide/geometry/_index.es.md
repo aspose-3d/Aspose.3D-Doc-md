@@ -1,7 +1,7 @@
-﻿---
-title: Geometría
+---
+title: Geometry
 type: docs
 weight: 30
 url: /es/python-net/geometry/
-description: Artículos sobre 3D geometrías en Aspose.3D por Python via .NET.
+description: Artículos sobre geometrías 3D en Aspose.3D for Python via .NET.
 ---

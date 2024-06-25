@@ -1,4 +1,4 @@
-﻿---
+---
 title: Iniziare
 type: docs
 weight: 10

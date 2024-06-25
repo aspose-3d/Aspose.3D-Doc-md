@@ -1,18 +1,18 @@
-﻿---
-title: Apply ffisual ffffects على aving aving 3D ieiews
+---
+title: تطبيق تأثيرات بصرية على توفير 3D مشاهدة
 type: docs
 weight: 10
 url: /ar/python-net/apply-visual-effects-on-saving-3d-views/
-description: Using Aspose.3D ل Python via .NET API ، يمكن للمطورين تطبيق تأثيرات بصرية على 3D ieiews قبل الحفظ في الصورة. ومن المعروف أيضا التأثيرات البصرية ese hese باسم تأثيرات ما بعد المعالجة أو عوامل التصفية التي يتم تطبيقها في الوقت الحقيقي على كل ما هو معروض في 3D ieiew.
+description: باستخدام Aspose.3D for Python via .NET API ، يمكن للمطورين تطبيق تأثيرات بصرية على مشاهدات 3D قبل الحفظ في الصورة. تُعرف هذه التأثيرات المرئية أيضًا بتأثيرات ما بعد المعالجة أو الفلاتر التي يتم تطبيقها في الوقت الفعلي على كل شيء معروض في طريقة العرض 3D.
 ---
 {{% alert color="primary" %}}
 
-Uالغناء[Aspose.3D ل Python via .NET API](https://products.aspose.com/3d/python-net/)، يمكن للمطورين تطبيق تأثيرات بصرية على 3D ieiews قبل الحفظ في الصورة. تعرف التأثيرات البصرية These أيضًا باسم تأثيرات ما بعد المعالجة أو عوامل التصفية التي يتم تطبيقها في الوقت الحقيقي على كل ما يتم عرضه في 3D ieiew.
+Using [Aspose.3D for Python via .NET API](https://products.aspose.com/3d/python-net/), developers may apply visual effects on 3D Views before saving in the image. These visual effects are also known as the post-processing effects or filters those are applied in real-time to everything displayed in the 3D View.
 
 {{% /alert %}}
-## **Apply ffisual ffffects على 3D ieiew**
-The [`get_post_processing`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/methods/getpostprocessing) طريقة من فئة [`Renderer`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer) يسمح لخلق أي تأثير بصري معتمد. The `Renderer` فئة يقدم عضو [`post_processings`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/properties/postprocessings) لتطبيق مختلف الفلاتر ، وطريقة Add من فئة `PostProcessings` يسمح لدمج مرشح قبل تقديم.
-### **Pروغرامينغ ple وافرة**
-Tله رمز المثال ينطبق التأثير البصري على عرض 3D.
+##  **تطبيق تأثيرات بصرية على عرض 3D**
+تسمح طريقة [`get_post_processing`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/methods/getpostprocessing) لفئة [`Renderer`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer) بإنشاء أي تأثير مرئي مدعوم. فئة `Renderer` تقدم عضوًا [`post_processings`](https://reference.aspose.com/3d/net/aspose.threed.render/renderer/properties/postprocessings) لتطبيق فلاتر متعددة ، وتسمح طريقة إضافة فئة `PostProcessings` بدمج فلتر قبل العرض.
+###  **Pروغرامينغ ple وافرة**
+يُطبق مثال الرمز هذا تأثير مرئي على عرض 3D.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DViewPorts-ApplyVisualEffects-ApplyVisualEffects.py" >}}

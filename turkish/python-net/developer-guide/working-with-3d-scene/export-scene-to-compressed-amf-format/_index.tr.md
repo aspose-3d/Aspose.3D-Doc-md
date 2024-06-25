@@ -1,11 +1,11 @@
-﻿---
-title: 07xport cene cene to 07ompressed AMF Format
+---
+title: Sahneyi sıkıştırılmış AMF formatına aktar
 type: docs
 weight: 30
 url: /tr/python-net/export-scene-to-compressed-amf-format/
-description: Python via .NET için Aspose.3D, gereksinimlerinize göre sıkıştırma için bool değerini ayarlamanızı sağlayan AmfSaveOptions sınıfı sunar. By varsayılan değeri doğrudur.
+description: Aspose.3D for Python via .NET, gereksinimlerinize göre sıkıştırma için bool değerini ayarlamanızı sağlayan amfsaveoptions sınıfı sunar. Varsayılan olarak değer doğrudur.
 ---
-# **07xport cene cene to 07ompressed AMF Format**
-Aspose.3D Python via .NET için `AmfSaveOptions` sınıfı, gereksinimlerinize göre sıkıştırma için bool değerini ayarlamanızı sağlar. By varsayılan değeri doğrudur. Following kod snippet sıkıştırılmış AMF format dosyası oluşturmak için tam işlevsellik gösterir:
+#  **Sahneyi sıkıştırılmış AMF formatına aktar**
+Aspose.3D for Python via .NET offers `AmfSaveOptions` class which allows you to set bool value for compression as per your requirements. By default the value is set to true. Following code snippet shows complete functionality to generate compressed AMF format file:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DScene-ExportSceneToCompressedAMF -CompressedAMF.py" >}}

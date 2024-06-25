@@ -1,25 +1,25 @@
-﻿---
-title: Cast ve Reeve hahadows 3D eoeometries üzerinde
+---
+title: Cast and Receive Shadows on 3D Geometries
 type: docs
 weight: 10
 url: /tr/net/cast-and-receive-shadows-on-3d-geometries/
-description: Generally, bazı 3D dosya biçimleri FBX gibi geometride gölge ile ilgili ayarları saklayabilir. 07sing Aspose.3D for .NET, geliştiriciler bir ışık kaynağının bakış açısından gölgeleri haritalandırarak bir görüntü oluşturabilirler. The görüntü kalitesi, kamera ve geometrik nesneler arasındaki ışık kaynağına, yükseklik açısına ve mesafeye bağlıdır.
+description: Generally, some 3D file formats can store shadow related settings in geometry like FBX. Using Aspose.3D for .NET, developers can render an image by mapping shadows from the viewpoint of a light source. The image quality depends on the light source, elevation angle and distance between the camera and geometric objects.
 ---
 {{% alert color="primary" %}}
 
-Generally, bazı 3D dosya biçimleri FBX gibi geometride gölge ile ilgili ayarları saklayabilir. Using[Aspose.3D for .NET](https://products.aspose.com/3d/net/)Geliştiriciler, bir ışık kaynağının bakış açısından gölgeleri haritalandırarak bir görüntü oluşturabilirler. The görüntü kalitesi, kamera ve geometrik nesneler arasındaki ışık kaynağına, yükseklik açısına ve mesafeye bağlıdır.
+Generally, some 3D file formats can store shadow related settings in geometry like FBX. Using [Aspose.3D for .NET](https://products.aspose.com/3d/net/), developers can render an image by mapping shadows from the viewpoint of a light source. The image quality depends on the light source, elevation angle and distance between the camera and geometric objects.
 
 {{% /alert %}}
-## **Cast ve Reeve Shadow**
+##  **Cast ve Reeve Shadow**
 Varsayılan olarak, sahnedeki tüm nesneler bir ışık kaynağından gölgeler döküyor. Developers, nesne yüzeyinde nesne bazında da gölgeler alabilir. Tkod örneği, ışık ve kamera nesnelerinin konumunu nasıl ayarlayacağını gösterir. It ayrıca bir uçak oluşturur ve farklı renkler ve gölge ayarları ile üç nesne yerleştirir.
 
-All geometrileri `CastShadows = true` ve `ReceiveShadows=true`, kırmızı kutu ve torus gölgeleri uçağa dökülür, kırmızı kutu gölgeler almaz ve mavi kutu gölgeleri atmaz.
-### **Programming ample ample**
-Code kod örneği 3D geometrilerinde gölgeleri ve gölgeleri çıkarır.
+All geometries has `CastShadows = true` and `ReceiveShadows=true`, the shadows of red box and torus casted to the plane, the red box won't receive shadows and blue box won't cast shadows.
+###  **Programming ample ample**
+This code example casts and Receives shadows on 3D geometries.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Rendering-CastAndReceiveShadow-CastAndReceiveShadow.cs" >}}
 
 
 **Render esuesult**
 
-![Todo: görüntü_Alt_Metin](cast-and-receive-shadows-on-3d-geometries_1.png)
+! [Todo: image_alt_text](cast-and-receive-shadows-on-3d-geometries_1.png)

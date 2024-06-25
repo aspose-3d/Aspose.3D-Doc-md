@@ -1,11 +1,11 @@
-﻿---
-title: VRML Format ile Working
+---
+title: VRML formatı ile çalışmak
 type: docs
 weight: 90
 url: /tr/java/working-with-vrml-format/
-description: Aspose.3D for Java VRML sürüm 1.0 ile çalışmayı sağlar. File. ormat sınıfına VRML dosya formatı eklendi. 076. 481 076481 481 formatını otomatik olarak algılayabilir, bu nedenle Filepen ormat genellikle Open yönteminde göz ardı edilir.
+description: Aspose.3D for Java allows working with VRML version 1.0. VRML file format has been added to the FileFormat class. Aspose.3D can auto detect VRML format, so the FileFormat is usually ignored in Open method.
 ---
-# **Open VRML File Format**
-Aspose.3D for Java VRML sürüm 1.0 ile çalışmayı sağlar. `VRML` dosya formatı 076. 481 sınıfına eklenmiştir. 076. 481 otomatik olarak `VRML` formatını algılayabilir, bu nedenle `FileFormat` genellikle Open yönteminde göz ardı edilir. Kod parçacığını takip eden T, 07. 3481 dosya formatının nasıl açık olduğunu gösterir.
+#  **Open VRML File Format**
+Aspose.3D for Java allows working with VRML version 1.0. `VRML` file format has been added to the `FileFormat` class. Aspose.3D can auto detect `VRML` format, so the `FileFormat` is usually ignored in Open method. The following code snippet shows how open VRML file format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-workingwithVRML-OpenVRML-OpenVRML.java" >}}

@@ -1,21 +1,21 @@
-﻿---
-title: Public API Changes Aspose.3D 17.2.0
+---
+title: Kamu API Aspose içinde değişir. 3D 17.2.0
 type: docs
 weight: 10
 url: /tr/net/public-api-changes-in-aspose-3d-17-2-0/
 ---
 **Contents Summary**
 
-- [07mporting DirectX X Files](#PublicAPIChangesinAspose.3D17.2.0-ImportingDirectXXFiles)
-- [Dds dds Aspose.ThreeD.Formats.X. Xooadlass ptions lass lass](#PublicAPIChangesinAspose.3D17.2.0-AddsAspose.ThreeD.Formats.X.XLoadOptionsClass)
+- [Mpmporting DirectX FFiles](#PublicAPIChangesinAspose.3D17.2.0-ImportingDirectXXFiles)
+- [Aspose ekler. threed. formats. x. xloadodosınıfı](#PublicAPIChangesinAspose.3D17.2.0-AddsAspose.ThreeD.Formats.X.XLoadOptionsClass)
 
 {{% alert color="primary" %}} 
 
-This belgesi, 17.1.0 sürümünden 17.2.0 'a kadar Aspose.3D API 'teki değişiklikleri açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+This document describes changes to the Aspose.3D API from version 17.1.0 to 17.2.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-#### **07mporting DirectX X Files**
-Son sürümü (17.02) veya daha yüksek olan developers sing, geliştiriciler X dosyalarını içe aktarabilir. Binary he binary ininary ve Xbinary ext format girişleri, ikili ve ASCII X dosyalarını içe aktarmaya eklenir.
+####  **Mpmporting DirectX FFiles**
+Son sürümü (17.02) veya daha yüksek olan developers sing, geliştiriciler X dosyalarını içe aktarabilir. Binary he binary ininary ve Xbinary ext format girişleri, ikili ve Afiles files files files dosyaları içe aktarmaya eklenir.
 
 **C#**
 
@@ -32,8 +32,8 @@ public static readonly Aspose.ThreeD.FileFormat XText;
 Scene Xfile = new Scene("3D.x");
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats.X. Xooadlass ptions lass lass**
-We Xptions oadOptions sınıfı eklemiştir. It, X dosyalarını Aspose.3D API 'e aktarmaya yardımcı olur.
+####  **Aspose ekler. threed. formats. x. xloadodosınıfı**
+We have added XLoadOptions class. It helps in importing X files into Aspose.3D API.
 
 **C#**
 

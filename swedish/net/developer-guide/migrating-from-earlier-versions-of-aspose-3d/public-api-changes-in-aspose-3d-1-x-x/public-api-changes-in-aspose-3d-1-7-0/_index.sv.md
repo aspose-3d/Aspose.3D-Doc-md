@@ -1,27 +1,27 @@
-﻿---
-title: Offentlig API Förändringar Aspose.3D 1,7,0
+---
+title: Offentlig API Ändrar i Aspose.3D 1.7.0
 type: docs
 weight: 10
 url: /sv/net/public-api-changes-in-aspose-3d-1-7-0/
 ---
 **Innehåll**
 
-- [Lägger till Aspose.ThreeD.Enheter.Frustum klass](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
-- [Lägger till Aspose.ThreeD.ImageRenderOptions klass](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
-- [Lägger till MoveForward metod i Aspose.ThreeD.Enheter.Kamerklass](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
-- [Lägger till CastShadows and ReceiveShadows medlemmar i Aspose.ThreeD.Enheter.Geometry klass](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
-- [Lägger till GenereraNormal metod i Aspose.ThreeD.Enheter.PolygonModifier klass](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
-- [Lägger till Kontratmetod i Aspose.ThreeD.Utiliteter.Quaternion klass](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
+- [Adds Aspose.ThreeD.Entities.Frustum class](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
+- [Adds Aspose.ThreeD.ImageRenderOptions class](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
+- [Adds MoveForward method in Aspose.ThreeD.Entities.Camera class](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
+- [Adds CastShadows and ReceiveShadows members in Aspose.ThreeD.Entities.Geometry class](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
+- [Adds GenerateNormal method in Aspose.ThreeD.Entities.PolygonModifier class](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
+- [Adds Concate method in Aspose.ThreeD.Utilities.Quaternion class](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
 
 {{% alert color="primary" %}} 
 
-Detta dokument beskriver ändringar av Aspose.3D API från version 1.5.0 till 1.7. 0, som kan vara av intresse för modul / applikationsutvecklare. Det omfattar inte bara nya och uppdaterade offentliga metoder. men också en beskrivning av eventuella förändringar i beteende bakom kulisserna i Aspose.3D.
+Det här dokumentet beskriver ändringar i Aspose. 3D API från version 1.5.0 till 1.7. 0, som kan vara av intresse för modul / applikationsutvecklare. Det omfattar inte bara nya och uppdaterade offentliga metoder. men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose. 3D.
 
 {{% /alert %}} 
-### **Lägger till Aspose.ThreeD.Enheter.Frustum klass**
+###  **Lägger till Aspose.ThreeD.Entiteter.Frustum klass**
 En ny klass Frustum läggs till. Kamera och Ljus var underklasserna i enhetsklass. I version 1.7. Dessa klasser är ärvda från Frustum och Frustum ärvs från Entity, eftersom egenskaperna Position, Up, LookAt, Riktning, Target, NearPlane och FarPlane extraheras till Frustum.
 
-**Utdragna medlemmar från Aspose.ThreeD Enheter.Kamera till Aspose.ThreeD** 
+**Extraherade medlemmar från Aspose ThreeD.Entites.Camera till Aspose.** 
 Alla dessa egenskaper är extraherade till Frustum:
 
 **C#**
@@ -44,7 +44,7 @@ double FarPlane{ get;set;}
 
 {{< /highlight >}}
 
-**Utdragna medlemmar från klass Aspose.ThreeD Enheter.Ljus till Aspose.ThreeD** 
+**Extraherade medlemmar från klassen Aspose ThreeD.Entites.Ljus till Aspose.** 
 Alla dessa egenskaper är extraherade till Frustum:
 
 **C#**
@@ -56,8 +56,8 @@ Alla dessa egenskaper är extraherade till Frustum:
 Aspose.ThreeD.Utilities.Vector3 Direction{ get;set;}
 
 {{< /highlight >}}
-### **Lägger till Aspose.ThreeD.ImageRenderOptions klass**
-**Konvertera en 3D fil till bildfilformat**
+###  **Lägger till Aspose.ThreeD.ImageRenderOptions Class.**
+**Konvertera en 3D fil till bildfilformat.**
 
 **C#**
 
@@ -99,7 +99,7 @@ scene.Render(camera, fileName, new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
 
-**Lagt till medlemmar i klass Aspose.ThreeD.Scene:**
+**Lagt till medlemmar i klassen Aspose.ThreeD.Scene:**
 
 **C#**
 
@@ -114,7 +114,7 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
 public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap bitmap, Aspose.ThreeD.ImageRenderOptions options)
 
 {{< /highlight >}}
-### **Lägger till MoveForward metod i Aspose.ThreeD.Enheter.Kamerklass**
+###  **Lägger till MoveForward-metoden i Aspose.ThreeD.Entites.Camerklass**
 Den går framåt kameran mot sin orientering. Kamerans orientering anges av något av Target/Direction/LookAt
 
 - **Mål:**En målnod i rymden kommer kameran alltid att titta på detta mål oavsett mål/kameran har ändrat sin position i rymden.
@@ -130,7 +130,7 @@ Metodsignatur:
  public void MoveForward(double distance)
 
 {{< /highlight >}}
-### **Lägger till CastShadows and ReceiveShadows medlemmar i Aspose.ThreeD.Enheter.Geometry klass**
+###  **Lägger till CastShadows och mottagandeShadows medlemmar i Aspose.ThreeD.Entites.Geometry klass**
 Vissa filformat kan lagra skuggrelaterade inställningar i geometri som FBX, och de används också i rendering. I detta kodexempel, skuggorna av den röda lådan och torus kastas till planet, Den röda lådan tar inte emot skuggor och blå lådan kastar inte skuggor.
 
 **C#**
@@ -218,7 +218,7 @@ ImageRenderOptions opt = new ImageRenderOptions() {EnableShadows = true};
 scene.Render(camera, "pic.png", new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
-### **Lägger till GenereraNormal metod i Aspose.ThreeD.Enheter.PolygonModifier klass**
+###  **Lägger till GenereraNormal metod i Aspose. ThreeD.Entites.PolygonModifier Class.**
 Det gör det möjligt för utvecklare att generera normala data från Mesh instans, om VertexElementSmoothingGroup element definierades på mesh, den genererade normala data kommer att jämnas ut av VertexElementSmoothingGroup.
 
 Metodsignatur:
@@ -264,7 +264,7 @@ s.RootNode.Accept(delegate(Node n)
 });
 
 {{< /highlight >}}
-### **Lägger till Kontratmetod i Aspose.ThreeD.Utiliteter.Quaternion klass**
+###  **Lägger till Concate-metoden i Aspose.ThreeD.Utilities.Quaternion-klass**
 Det tillåter utvecklare att sammanföra två rotationsomvandling till en representerad i Quaternion.
 
 Metodsignatur:

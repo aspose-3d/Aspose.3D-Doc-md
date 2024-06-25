@@ -1,19 +1,19 @@
-﻿---
-title: Depth içinde anoranorama Mode ile 07ender 3D cene cene
+---
+title: Panorama modu ile 3D sahne derinliği
 type: docs
 weight: 40
 url: /tr/net/render-3d-scene-with-panorama-mode-in-depth/
-description: Using Aspose.3D for .NET API, geliştiriciler renkler yerine derinlik içinde panorama modu ile 3D sahne yapabilir.
+description: Using Aspose.3D for .NET API, developers can render a 3D scene with panorama mode in depth instead of the colors.
 ---
 {{% alert color="primary" %}}
 
-Using[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)Geliştiriciler, renkler yerine 3D sahnesini panorama modu ile derinlemesine işleyebilir.
+[Aspose.3D for .NET API](https://products.aspose.com/3d/net/) kullanarak, geliştiriciler renkler yerine derinlik içinde panorama modu ile 3D sahne oluşturabilir.
 
 {{% /alert %}}
-## **Depth içinde anoranorama Mode ile 07ender 3D cene cene**
+##  **Panorama modu ile 3D sahne derinliği**
 In bu makalede, sahneyi yakalamak için bir Camera ve iki Light nesnesi oluşturuyoruz, Shader. et sınıfı derinlik gölgelendirici oluşturmaya yardımcı oluyor.
-### **Programming ample ample**
-Tkod örneği, 3D sahnesini anoranorama modu ile derinlemesine işler.
+###  **Programming ample ample**
+Bu kod örneği, panorama modu ile 3D sahnesini derinlemesine işler.
 
 **C#**
 

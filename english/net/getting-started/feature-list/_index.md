@@ -18,26 +18,26 @@ Aspose.3D for .NET Features - 3D file manipulation and conversion API built in C
 - 64-bit OS support.
 ## **Feature Matrix**
 
-|**Features** |` `FBX |` `Collada |` `glTF |` `glTF 2.0 |` `U3D |` `PDF |` `STL |` `OBJ |` `PLY |` `3DS |` `ASE |` `X |` `3MF |` `RVM |` `Draco |
+|**Features** |`FBX` | `Collada` | `glTF` | `glTF 2.0` | `U3D` | `PDF` | `STL` | `OBJ` | `PLY` | `3DS` | `ASE` | `X` | `3MF` | `RVM` | `Draco` |
 | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
-|` `Lambert Material |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |
-|` `Phong Material |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |
-|` `Shader-based Material |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | |
-|` `PBR Material | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | |
-|` `PBR Specular Material | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | |
-|` `Diffuse texture |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | |
-|` `Advanced texture |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | |
-|` `Polygon meshes |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
-|` `Triangle-based meshes |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|
-|` `Vertex elements |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|
-|` `NURBS geometries |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | | |
-|` `Parameterized geometries | | | | | | | | | | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
-|` `Local transformation |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
-|` `Instancing |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | |
-|` `Scene graph |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |
-|` `Custom property |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | |
-|` `Skeleton |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | |
-|` `Morph deformer |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | |
-|` `Property animation |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | | | | | | | | |
-|` `Mesh Compression |<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>|<p>![todo:image_alt_text](accept.png)</p><p> </p>| | | | | | |<p>![todo:image_alt_text](accept.png)</p><p> </p>| |<p>![todo:image_alt_text](accept.png)</p><p> </p>|
+|` `Lambert Material |![](accept.png) |![](accept.png) |![](accept.png) | |![](accept.png) |![](accept.png) | |![](accept.png) | |![](accept.png) |![](accept.png) |![](accept.png) | | | |
+|` `Phong Material |![](accept.png) |![](accept.png) |![](accept.png) | |![](accept.png) |![](accept.png) | |![](accept.png) | | |![](accept.png) |![](accept.png) | | | |
+|` `Shader-based Material |![](accept.png) | |![](accept.png) | | | | | | | | | | | | |
+|` `PBR Material | | | |![](accept.png) | | | | | | | | | | | |
+|` `PBR Specular Material | | | |![](accept.png) | | | | | | | | | | | |
+|` `Diffuse texture |![](accept.png) |![](accept.png) | |![](accept.png) |![](accept.png) |![](accept.png) | |![](accept.png) | |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) | | |
+|` `Advanced texture |![](accept.png) |![](accept.png) | |![](accept.png) |![](accept.png) |![](accept.png) | |![](accept.png) | | | | | | | |
+|` `Polygon meshes |![](accept.png) |![](accept.png) | | | | | |![](accept.png) | | | | | |![](accept.png) | |
+|` `Triangle-based meshes |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |
+|` `Vertex elements |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) | |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) | | |![](accept.png) |
+|` `NURBS geometries |![](accept.png) | | | | | | | | | | | | | | |
+|` `Parameterized geometries | | | | | | | | | | | | | |![](accept.png) | |
+|` `Local transformation |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) | | | |![](accept.png) |![](accept.png) |![](accept.png) | |![](accept.png) | |
+|` `Instancing |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) | | | | | | | | | |
+|` `Scene graph |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) |![](accept.png) | | | |![](accept.png) | |![](accept.png) | |![](accept.png) | |
+|` `Custom property |![](accept.png) | |![](accept.png) |![](accept.png) | | | | | | | | | | | |
+|` `Skeleton |![](accept.png) |![](accept.png) | | | | | | | | | | | | | |
+|` `Morph deformer |![](accept.png) |![](accept.png) | | | | | | | | | | | | | |
+|` `Property animation |![](accept.png) |![](accept.png) | | | | | | | | | | | | | |
+|` `Mesh Compression |![](accept.png) | | | |![](accept.png) |![](accept.png) | | | | | | |![](accept.png) | |![](accept.png) |
 

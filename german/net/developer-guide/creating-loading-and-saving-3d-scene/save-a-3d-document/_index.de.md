@@ -1,27 +1,27 @@
-﻿---
-title: Speichern Sie ein 3D Dokument in verschiedenen 3D Formaten unter Verwendung von C#
-linktitle: Speichern Sie ein Dokument 3D
+---
+title: Speichern Sie ein 3D-Dokument in verschiedenen 3D-Formaten mit C#
+linktitle: Sparen Sie ein 3D-Dokument
 type: docs
 weight: 20
 url: /de/net/save-a-3d-document/
-description: Die Scene-Klasse der Aspose.3D API repräsentiert ein 3D-Dokument, und Entwickler können sein Objekt in jedem unterstützten Dateiformat speichern.
+description: Die Scene-Klasse der Aspose.3D API stellt ein 3D-Dokument dar, und Entwickler können sein Objekt in jedem unterstützten Dateiformat speichern.
 ---
-## **Übersicht**
-Der Artikel erklärt, wie Sie 3D Dokumente in verschiedenen Formaten mit C# 3D Dokumenten verarbeitung Bibliothek speichern können, einschl ießlich
+##  **Übersicht**
+Der Artikel erklärt, wie Sie 3D-Dokumente in verschiedenen Formaten mit einer C# 3D-Dokument verarbeitung bibliothek speichern können, einschl ießlich
 
-- Speichern Sie ein 3D Dokument im Format FBX mit C# - AutoDesk
-- Speichern Sie ein 3D Dokument im Format DAE mit C#-Collada
-- Speichern Sie ein 3D Dokument im Format 3DS mit C#-Diskretes 3D Studio
-- Speichern Sie ein 3D Dokument im Format DRC unter Verwendung von C#-Google Draco
+- Sparen Sie ein 3D-Dokument im FBX-Format mit C# - AutoDesk
+- Sparen Sie ein 3D-Dokument im DAE-Format mit C# - Collada
+- Sparen Sie ein 3D-Dokument im 3DS-Format mit C# - Discreet 3D Studio
+- Sparen Sie ein 3D-Dokument im DRC-Format mit C# - Google Draco
 
 {{% alert color="primary" %}} 
 
-Die [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene)-Klasse der Aspose.3D API repräsentiert ein 3D-Dokument, und Entwickler können ihr Objekt in jedem unterstützten Dateiformat speichern. Um eine 3D-Szene zu speichern, verwenden Sie einfach die [`Scene.Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save)-Methode, die einen Dateinamen mit vollständigem Pfad oder ein Dateistream-Objekt akzeptiert. Aspose.3D API bietet einen weiteren Parameter `FileFormat`, um das Ausgabe dateiformat anzugeben.
+Die [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene)-Klasse der Aspose.3D API stellt ein 3D-Dokument dar, und Entwickler können sein Objekt in jedem unterstützten Dateiformat speichern. Um eine 3D-Szene zu speichern, verwenden Sie einfach die [`Scene.Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save)-Methode. Sie akzeptiert einen Dateinamen mit vollständigem Pfad oder ein Dateistream-Objekt. Aspose.3D API bietet einen weiteren `FileFormat` Parameter, um das Ausgabe dateiformat anzugeben.
 
 {{% /alert %}} 
 
-## **Speichern Sie eine Szene 3D in den unterstützten Formaten 3D**
+##  **Sparen Sie eine 3D-Szene in den unterstützten 3D-Formaten**
 
-Das folgende Code beispiel C# zeigt, wie eine 3D Szene oder ein Dokument in verschiedenen unterstützten 3D-Formaten in einem Stream gespeichert werden.
+Das unten stehende Code-Beispiel für C# zeigt, wie Sie eine 3D-Szene oder ein Dokument in einem Stream in verschiedenen unterstützten 3D-Formaten speichern.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}

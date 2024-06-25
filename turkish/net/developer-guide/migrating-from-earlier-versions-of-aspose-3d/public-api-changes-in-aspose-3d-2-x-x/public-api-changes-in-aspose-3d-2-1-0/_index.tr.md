@@ -1,62 +1,62 @@
-﻿---
-title: Public API Changes Aspose.3D 2.1.0
+---
+title: Kamu API Aspose içinde değişir. 3D 2.1.0
 type: docs
 weight: 10
 url: /tr/net/public-api-changes-in-aspose-3d-2-1-0/
 ---
 **Contents Summary**
 
-- [Collada Files dds dds Export](#PublicAPIChangesinAspose.3D2.1.0-AddsExportofColladaFiles)
-- [3D File Formats için dds dds Load ve Save ptions ptions](#PublicAPIChangesinAspose.3D2.1.0-AddsLoadandSaveOptionsfor3DFileFormats) 
-  - [Dds dds Aspose.ThreeD.Formats. ColladaSaveptions ptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.ColladaSaveOptionsclass)
-  - [Dds dds Aspose.ThreeD.Formats.Discreet3DSLoadOptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.Discreet3DSLoadOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats.Discreet3DSSaveOptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.Discreet3DSSaveOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. Flass aveaveavelass ptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.FBXSaveOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. bjbjLoadlass ptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.ObjLoadOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. bjbjSavelass ptions lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.ObjSaveOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. Slass lass ooadlass ptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.STLLoadOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. Slass aveaveavelass ptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.STLSaveOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. U3Dooadlass ptions lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.U3DLoadOptionsClass)
-  - [Dds dds Aspose.ThreeD.Formats. U3Daveavelass ptions lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.U3DSaveOptionsClass)
-- [Dds dds Methods Aspose.ThreeD.Scene lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsMethodstoAspose.ThreeD.SceneClass)
-- [Removal of 0707roperty from Aspose.ThreeD.Formats. Flass onononfig lass lass](#PublicAPIChangesinAspose.3D2.1.0-RemovalofFillDummyIndexArrayPropertyfromAspose.ThreeD.Formats.FBXConfigClass)
-- [Detect bir 3D File Type](#PublicAPIChangesinAspose.3D2.1.0-DetecttheTypeofa3DFile) 
-  - [Dds dds Detect, CreateLoadOptions ve Createreave07ptions eethods Aspose.ThreeD. Fileiormat lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsDetect,CreateLoadOptionsandCreateSaveOptionsMethodsintheAspose.ThreeD.FileFormatClass)
-- [Dds dds Excluded Property Aspose.ThreeD.Entity ve Aspose.ThreeD.Node sses lasses](#PublicAPIChangesinAspose.3D2.1.0-AddsExcludedPropertytoAspose.ThreeD.EntityandAspose.ThreeD.NodeClasses)
-- [Dds dds Aspose.ThreeD.Render. Rendertate tate lass lass ve Aspose.ThreeD.Render. actor lendactor actor/Compareununction/Cullulaceoode/Frontnumace/Polygongonode/StencilAction/Stenciltate tate numnums](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.RenderStateClassandAspose.ThreeD.Render.BlendFactor/CompareFunction/CullFaceMode/FrontFace/PolygonMode/StencilAction/StencilStateEnums)
+- [Collada dosyalarının ihracatını ekler](#PublicAPIChangesinAspose.3D2.1.0-AddsExportofColladaFiles)
+- [Yükleme ve kaydetme seçeneklerini 3D dosya biçimleri için ekler](#PublicAPIChangesinAspose.3D2.1.0-AddsLoadandSaveOptionsfor3DFileFormats) 
+-[Aspose ekler. threed. formats. colladasaveoptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.ColladaSaveOptionsclass)
+-[Aspose ekler. threed. formats. discreet3dslotions tions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.Discreet3DSLoadOptionsClass)
+-[Aspose ekler. threed. formats. discreet3dssaveoptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.Discreet3DSSaveOptionsClass)
+-[Aspose ekler. threed. formats. fbxsaveoptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.FBXSaveOptionsClass)
+-[Aspose ekler. threed. formats. objobdodosınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.ObjLoadOptionsClass)
+-[Aspose ekler. threed. formats. objsaveoptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.ObjSaveOptionsClass)
+-[Aspose ekler. threed. formats. stlloadodosınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.STLLoadOptionsClass)
+-[Aspose ekler. threed. formats. stlsaveoptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.STLSaveOptionsClass)
+-[Aspose ekler. threed. formats. u3dloadoclass sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.U3DLoadOptionsClass)
+-[Aspose ekler. threed. formats. u3dsaveoptions sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Formats.U3DSaveOptionsClass)
+- [Adds Methods to Aspose.ThreeD.Scene Class](#PublicAPIChangesinAspose.3D2.1.0-AddsMethodstoAspose.ThreeD.SceneClass)
+- [Removal of FillDummyIndexArray Property from Aspose.ThreeD.Formats.FBXConfig Class](#PublicAPIChangesinAspose.3D2.1.0-RemovalofFillDummyIndexArrayPropertyfromAspose.ThreeD.Formats.FBXConfigClass)
+- [3D dosyasının türünü tespit et](#PublicAPIChangesinAspose.3D2.1.0-DetecttheTypeofa3DFile) 
+-[Adds Detect, CreateLoadOptions and CreateSaveOptions Methods in the Aspose.ThreeD.FileFormat Class](#PublicAPIChangesinAspose.3D2.1.0-AddsDetect,CreateLoadOptionsandCreateSaveOptionsMethodsintheAspose.ThreeD.FileFormatClass)
+- [Adds Excluded Property to Aspose.ThreeD.Entity and Aspose.ThreeD.Node Classes](#PublicAPIChangesinAspose.3D2.1.0-AddsExcludedPropertytoAspose.ThreeD.EntityandAspose.ThreeD.NodeClasses)
+- [Aspose ekler. threed. ren. renderstate sınıfı ve Aspose. threed. blen. blendfactor/comparefunction/cullfacemode/frontface/polygonmode/stencilaction/stencilstate enums](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.RenderStateClassandAspose.ThreeD.Render.BlendFactor/CompareFunction/CullFaceMode/FrontFace/PolygonMode/StencilAction/StencilStateEnums)
 - [Dds dds Shader AIIs](#PublicAPIChangesinAspose.3D2.1.0-AddsShaderAPIs) 
-  - [Dds dds bir soyut sınıf Aspose.ThreeD.Render. Shaderourource ve alt sınıf Aspose.ThreeD.Render. GLourourourource](#PublicAPIChangesinAspose.3D2.1.0-AddsanabstractclassAspose.ThreeD.Render.ShaderSourceandsubclassAspose.ThreeD.Render.GLSLSource)
-  - [Dds dds Aspose.ThreeD.Render. Shaderhaxception lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.ShaderExceptionClass)
-  - [Dds dds Aspose.ThreeD.Render. Shaderharogram lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.ShaderProgramClass)
-  - [Add Aspose.ThreeD.Render. Shaderariariable lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddAspose.ThreeD.Render.ShaderVariableClass)
-  - [Dds dds bir Enum lass 07Aspose.ThreeD. Render. Variableariemantic](#PublicAPIChangesinAspose.3D2.1.0-AddsanEnumClassAspose.ThreeD.Render.VariableSemantic)
+-[Soyut bir sınıf Aspose ekler. threed. render. shsource kaynak ve alt sınıf Aspose. threed. gl. glslsource](#PublicAPIChangesinAspose.3D2.1.0-AddsanabstractclassAspose.ThreeD.Render.ShaderSourceandsubclassAspose.ThreeD.Render.GLSLSource)
+-[Aspose ekler. threed. render. shaderexception sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.ShaderExceptionClass)
+-[Adds Aspose.ThreeD.Render.ShaderProgram Class](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.ShaderProgramClass)
+-[Add Aspose.ThreeD.Render.ShaderVariable Class](#PublicAPIChangesinAspose.3D2.1.0-AddAspose.ThreeD.Render.ShaderVariableClass)
+-[Adds an Enum Class Aspose.ThreeD.Render.VariableSemantic](#PublicAPIChangesinAspose.3D2.1.0-AddsanEnumClassAspose.ThreeD.Render.VariableSemantic)
 - [Dds dds ffer uffer AIIs](#PublicAPIChangesinAspose.3D2.1.0-AddsBufferAPIs) 
-  - [Dds dds an Interface Aspose.ThreeD.Render. Iffer uffer](#PublicAPIChangesinAspose.3D2.1.0-AddsanInterfaceAspose.ThreeD.Render.IBuffer)
-  - [Dds dds Interfaces Aspose.ThreeD.Render. Inndexnuffer/IVertexBuffer](#PublicAPIChangesinAspose.3D2.1.0-AddsInterfacesAspose.ThreeD.Render.IIndexBuffer/IVertexBuffer)
-  - [Dds dds bir Enum Aspose.ThreeD.Render. Indexnatayype](#PublicAPIChangesinAspose.3D2.1.0-AddsanEnumAspose.ThreeD.Render.IndexDataType)
+-[Adds an Interface Aspose.ThreeD.Render.IBuffer](#PublicAPIChangesinAspose.3D2.1.0-AddsanInterfaceAspose.ThreeD.Render.IBuffer)
+-[Adds Interfaces Aspose.ThreeD.Render.IIndexBuffer/IVertexBuffer](#PublicAPIChangesinAspose.3D2.1.0-AddsInterfacesAspose.ThreeD.Render.IIndexBuffer/IVertexBuffer)
+-[Bir enum Aspose ekler. threed. render. indexdatatype](#PublicAPIChangesinAspose.3D2.1.0-AddsanEnumAspose.ThreeD.Render.IndexDataType)
 - [Dds dds Render AIIs](#PublicAPIChangesinAspose.3D2.1.0-AddsRenderAPIs) 
-  - [Dds dds an Interface Aspose.ThreeD.Render. Iderenderable](#PublicAPIChangesinAspose.3D2.1.0-AddsanInterfaceAspose.ThreeD.Render.IRenderable)
-  - [Abir Enum Aspose.ThreeD.Render.DrawOperation](#PublicAPIChangesinAspose.3D2.1.0-AddedanEnumAspose.ThreeD.Render.DrawOperation)
-  - [Dds dds bir Enum Aspose.ThreeD.Render.RenderQueueGroupId](#PublicAPIChangesinAspose.3D2.1.0-AddsanEnumAspose.ThreeD.Render.RenderQueueGroupId)
-  - [Dds dds Aspose.ThreeD.Render. Rendersource esource lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.RenderResourceClass)
-  - [Dds dds Aspose.ThreeD.Render. Renderablesource esource lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.RenderableResourceClass)
-  - [Dds dds Aspose.ThreeD.Entities.ManualEntity lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Entities.ManualEntityClass)
-- [Dds dds ultiultiple 07riangulate 07ethods Aspose.ThreeD.Entities. olyolygongonodifier lass lass](#PublicAPIChangesinAspose.3D2.1.0-AddsMultipleTriangulateMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
-- [Dds dds CreateVertexBuffer, Createnndex. uffer, Createreexturenit nit, Createreendertate tate ve Createrehaderrorogram Methods Aspose.ThreeD.Render. Rendertory actory lass lass ffer uffer](#PublicAPIChangesinAspose.3D2.1.0-AddsCreateVertexBuffer,CreateIndexBuffer,CreateTextureUnit,CreateRenderStateandCreateShaderProgramMethodsintheAspose.ThreeD.Render.RenderFactoryClass)
-- [Dds dds BindRendertate tate, DrawInderaw, Draw ve Submit07enderask ask ask ethods Aspose.ThreeD.Render.Renderer lass lass ask](#PublicAPIChangesinAspose.3D2.1.0-AddsBindRenderState,DrawIndexed,DrawandSubmitRenderTaskMethodsintheAspose.ThreeD.Render.RendererClass)
-- [Aspose.ThreeD.Render. enenderer lass lass içinde dds dds Rendertage tage ve Shader Properties](#PublicAPIChangesinAspose.3D2.1.0-AddsRenderStageandShaderPropertiesintheAspose.ThreeD.Render.RendererClass)
+-[Adds an Interface Aspose.ThreeD.Render.IRenderable](#PublicAPIChangesinAspose.3D2.1.0-AddsanInterfaceAspose.ThreeD.Render.IRenderable)
+-[Bir enum Aspose eklendi. threed. render. drawoperation](#PublicAPIChangesinAspose.3D2.1.0-AddedanEnumAspose.ThreeD.Render.DrawOperation)
+-[Bir enum Aspose ekler. threed. render. renderqueuegroupid](#PublicAPIChangesinAspose.3D2.1.0-AddsanEnumAspose.ThreeD.Render.RenderQueueGroupId)
+-[Adds Aspose.ThreeD.Render.RenderResource Class](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.RenderResourceClass)
+-[Aspose ekler. threed. render. renderableresource sınıfı](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Render.RenderableResourceClass)
+-[Adds Aspose.ThreeD.Entities.ManualEntity Class](#PublicAPIChangesinAspose.3D2.1.0-AddsAspose.ThreeD.Entities.ManualEntityClass)
+- [Aspose. threed. entities. polygonmodifier sınıfında çoklu üçgenleme yöntemleri ekler](#PublicAPIChangesinAspose.3D2.1.0-AddsMultipleTriangulateMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [Adds CreateVertexBuffer, CreateIndexBuffer, CreateTextureUnit, CreateRenderState and CreateShaderProgram Methods in the Aspose.ThreeD.Render.RenderFactory Class](#PublicAPIChangesinAspose.3D2.1.0-AddsCreateVertexBuffer,CreateIndexBuffer,CreateTextureUnit,CreateRenderStateandCreateShaderProgramMethodsintheAspose.ThreeD.Render.RenderFactoryClass)
+- [Bindrenderstate, drawindexed, draw ve submitrendertask yöntemlerini Aspose. threed. render. renderer sınıfında ekler](#PublicAPIChangesinAspose.3D2.1.0-AddsBindRenderState,DrawIndexed,DrawandSubmitRenderTaskMethodsintheAspose.ThreeD.Render.RendererClass)
+- [Aspose. threed. render. renderer sınıfında renderstage ve gölgelendirici özellikleri ekler](#PublicAPIChangesinAspose.3D2.1.0-AddsRenderStageandShaderPropertiesintheAspose.ThreeD.Render.RendererClass)
 
 {{% alert color="primary" %}} 
 
-This belgesi, 2.0.0 sürümünden 2.1.0 'a kadar Aspose.3D API 'teki değişiklikleri açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+Bu belge, Aspose.3D API sürüm 2.0.0 'den 2.1.0 'a kadar olan değişiklikleri açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. Sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'daki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-### **Collada Files dds dds Export**
-Ubu son sürümü (2.1.0) söyleyin, geliştiriciler Collada 3D dosyalarını ihraç edebilir. In önceki sürümü (2.0.0), zaten ithalat özelliğini ekledik, çünkü geliştiriciler Collada dosyasını desteklenen diğer 3D dosya formatlarına da dönüştürebilirler.
-### **3D File Formats için dds dds Load ve Save ptions ptions**
+###  **Collada dosyalarının ihracatını ekler**
+Using this recent version (2.1.0), developers can export Collada 3D files. In the previous version (2.0.0), we have already added its import feature, since developers can also convert a Collada file to other supported 3D file formats.
+###  **Yükleme ve kaydetme seçeneklerini 3D dosya biçimleri için ekler**
 We, her dosya formatı için yükleme ve kaydetme seçenekleri ekledi. They, orijinal IOfig onfig alt sınıflarından yeniden üretildi.
-#### **Dds dds Aspose.ThreeD.Formats. ColladaSaveptions ptions sınıfı**
-It, Collada 3D dosyasını kaydetme ayarlarını tanımlar.
+####  **Aspose ekler. threed. formats. colladasaveoptions sınıfı**
+Collada 3D dosyasını kaydetme ayarlarını tanımlar.
 
 **C#**
 
@@ -74,11 +74,11 @@ opts.TransformStyle = ColladaTransformStyle.Matrix;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-opts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+opts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats.Discreet3DSLoadOptions lass lass**
-It, gizli bir 3DS dosyası yüklemede ayarları tanımlar.
+####  **Aspose ekler. threed. formats. discreet3dslotions tions sınıfı**
+Gizli bir 3DS dosyası yüklemede ayarları tanımlar.
 
 **C#**
 
@@ -100,11 +100,11 @@ loadOpts.GammaCorrectedColor = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-loadOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+loadOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats.Discreet3DSSaveOptions lass lass**
-It, gizli bir 3DS dosyasını kaydetme ayarlarını tanımlar.
+####  **Aspose ekler. threed. formats. discreet3dssaveoptions sınıfı**
+Gizli bir 3DS dosyasını kaydetme ayarlarını tanımlar.
 
 **C#**
 
@@ -148,15 +148,15 @@ saveOpts.HighPreciseColor = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-saveOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+saveOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 // set the master scale
 
 saveOpts.MasterScale = 1;
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. Flass aveaveavelass ptions lass lass**
-It, FBX dosyasını kaydetme ayarlarını tanımlar.
+####  **Aspose ekler. threed. formats. fbxsaveoptions sınıfı**
+FBX dosyasını kaydetme ayarlarını tanımlar.
 
 **C#**
 
@@ -180,14 +180,14 @@ saveOpts.GenerateVertexElementMaterial = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-saveOpts.LookupPaths = new List< string > (new string[]{ @"c:\temp\" });
+saveOpts.LookupPaths = new List< string > (new string[] { @"c:\temp\" });
 
 // generates a video object for texture.
 
 saveOpts.VideoForTexture = true;
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. bjbjLoadlass ptions lass lass**
+####  **Aspose ekler. threed. formats. objobdodosınıfı**
 It, bir Obj dosyası yüklemede ayarları tanımlar.
 
 **C#**
@@ -208,10 +208,10 @@ loadObjOpts.FlipCoordinateSystem = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-loadObjOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+loadObjOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. bjbjSavelass ptions lass**
+####  **Aspose ekler. threed. formats. objsaveoptions sınıfı**
 It, bir Obj dosyasını kaydetme ayarlarını tanımlar.
 
 **C#**
@@ -232,7 +232,7 @@ saveObjOpts.FlipCoordinateSystem = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-saveObjOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+saveObjOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 // serialize W component in model's vertex position
 
@@ -243,8 +243,8 @@ saveObjOpts.SerializeW = true;
 saveObjOpts.Verbose = true;
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. Slass lass ooadlass ptions lass lass**
-It STL dosyası yüklemede ayarları tanımlar.
+####  **Aspose ekler. threed. formats. stlloadodosınıfı**
+STL dosyasını yüklemede ayarları tanımlar.
 
 **C#**
 
@@ -260,11 +260,11 @@ loadSTLOpts.FlipCoordinateSystem = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-loadSTLOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+loadSTLOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. Slass aveaveavelass ptions lass lass**
-It, STL dosyasını kaydetme ayarlarını tanımlar.
+####  **Aspose ekler. threed. formats. stlsaveoptions sınıfı**
+STL dosyasını kaydetme ayarlarını tanımlar.
 
 **C#**
 
@@ -280,11 +280,11 @@ saveSTLOpts.FlipCoordinateSystem = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-saveSTLOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+saveSTLOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. U3Dooadlass ptions lass lass**
-It U3D dosyası yüklemede ayarları tanımlar.
+####  **Aspose ekler. threed. formats. u3dloadoclass sınıfı**
+U3D dosyasını yüklemede ayarları tanımlar.
 
 **C#**
 
@@ -300,11 +300,11 @@ loadU3DOpts.FlipCoordinateSystem = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-loadU3DOpts.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+loadU3DOpts.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD.Formats. U3Daveavelass ptions lass**
-It, U3D dosyasını kaydetme ayarlarını tanımlar.
+####  **Aspose ekler. threed. formats. u3dsaveoptions sınıfı**
+U3D dosyasını kaydetme ayarlarını tanımlar.
 
 **C#**
 
@@ -336,15 +336,15 @@ saveU3DOptions.FlipCoordinateSystem = true;
 
 // configure the look up paths to allow importer to find external dependencies.
 
-saveU3DOptions.LookupPaths = new List<string>(new string[]{ @"c:\temp\" });
+saveU3DOptions.LookupPaths = new List<string>(new string[] { @"c:\temp\" });
 
 // compress the mesh data
 
 saveU3DOptions.MeshCompression = true;
 
 {{< /highlight >}}
-### **Dds dds Methods Aspose.ThreeD.Scene lass lass**
-We, cene cene sınıfında aşırı yüklü Open ve Save yöntemlerine sahiptir. Developers, çeşitli yükleme/kaydetme seçeneklerini kullanarak bir 3D dosyasını içe aktarmak/ihraç etmek için bir akış nesnesi veya doğrudan dosya adını geçebilir.
+###  **Adds Methods to Aspose.ThreeD.Scene Class**
+We have overloaded Open and Save methods in the Scene class. Developers can pass a stream object or direct file name to import/export a 3D file using the various loading/saving options.
 
 **C#**
 
@@ -359,7 +359,7 @@ public void Save(System.IO.Stream stream, Aspose.ThreeD.Formats.SaveOptions opti
 public void Save(string fileName, Aspose.ThreeD.Formats.SaveOptions options);
 
 {{< /highlight >}}
-### **Removal of 0707roperty from Aspose.ThreeD.Formats. Flass onononfig lass lass**
+###  **Removal of FillDummyIndexArray Property from Aspose.ThreeD.Formats.FBXConfig Class**
 Tonun mülkü kullanılmadı.
 
 **C#**
@@ -369,8 +369,8 @@ Tonun mülkü kullanılmadı.
  System.Nullable<Boolean> FillDummyIndexArray{ get;set;}
 
 {{< /highlight >}}
-### **Detect bir 3D File Type**
-To Aspose.ThreeD. File. ormat sınıfı, desteklenen herhangi bir 3D dosyasının türünü tanıyabilir.
+###  **3D dosyasının türünü tespit et**
+The Detect method of the Aspose.ThreeD.FileFormat class can recognise the type of any supported 3D file.
 
 **C#**
 
@@ -381,8 +381,8 @@ To Aspose.ThreeD. File. ormat sınıfı, desteklenen herhangi bir 3D dosyasını
 Console.WriteLine("File Format: " + inputFormat.ToString());
 
 {{< /highlight >}}
-#### **Dds dds Detect, CreateLoadOptions ve Createreave07ptions eethods Aspose.ThreeD. Fileiormat lass lass**
-A3D dosya türünün tanınmasını sağlayan geliştiriciler, daha fazla manipülasyon görevi için Load. ptions ve aveave. ptions nesneleri oluşturabilirler.
+####  **Adds Detect, CreateLoadOptions and CreateSaveOptions Methods in the Aspose.ThreeD.FileFormat Class**
+3D dosya türünün tanınmasından sonra, geliştiriciler daha fazla manipülasyon görevi için ptions do. ve saveoptions nesneleri oluşturabilirler.
 
 **C#**
 
@@ -405,7 +405,7 @@ Aspose.ThreeD.Formats.LoadOptions CreateLoadOptions()
 Aspose.ThreeD.Formats.SaveOptions CreateSaveOptions()
 
 {{< /highlight >}}
-### **Dds dds Excluded Property Aspose.ThreeD.Entity ve Aspose.ThreeD.Node sses lasses**
+###  **Adds Excluded Property to Aspose.ThreeD.Entity and Aspose.ThreeD.Node Classes**
 It, ihracat sırasında bir varlığın kaldırılmasını sağlar.
 
 **C#**
@@ -415,62 +415,62 @@ It, ihracat sırasında bir varlığın kaldırılmasını sağlar.
  bool Excluded{ get;set;}
 
 {{< /highlight >}}
-### **Dds dds Aspose.ThreeD.Render. Rendertate tate lass lass ve Aspose.ThreeD.Render. actor lendactor actor/Compareununction/Cullulaceoode/Frontnumace/Polygongonode/StencilAction/Stenciltate tate numnums**
+###  **Aspose ekler. threed. ren. renderstate sınıfı ve Aspose. threed. blen. blendfactor/comparefunction/cullfacemode/frontface/polygonmode/stencilaction/stencilstate enums**
 To, üçgenleri piksellere dönüştürmek için GPU için parametreler sağlar.
 
 {{% alert color="primary" %}} 
 
-Donanım capsudurumlarının kapsüllenmesi, detay bilgileri belgelerinde bulunabilir[OpenGL 4.0](https://www.opengl.org/sdk/docs/man/html/glEnable.xhtml), [DirectX 11](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404489\(v=vs.85\). Aspx),[DirectX 9](https://msdn.microsoft.com/en-us/library/windows/desktop/bb147327\(v=vs.85\). Aspx) ve[Vulkan](https://www.khronos.org/registry/vulkan/specs/1.0/xhtml/vkspec.html#VkPipelineRasterizationStateCreateInfo)
+Donanım render durumlarının kapsüllenmesi, detay bilgileri [OpenGL 4.0](https://www.opengl.org/sdk/docs/man/html/glEnable.xhtml), [Direct11 11](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404489\(v=vs.85\).aspx), [DirectX 9](https://msdn.microsoft.com/en-us/library/windows/desktop/bb147327\(v=vs.85\).aspx) ve [Vulkan](https://www.khronos.org/registry/vulkan/specs/1.0/xhtml/vkspec.html#VkPipelineRasterizationStateCreateInfo) belgelerinde bulunabilir.
 
 {{% /alert %}} 
-### **Dds dds Shader AIIs**
+###  **Dds dds Shader AIIs**
 The Shader AIIs, üçgenleri dünya alanından ekran alanına nasıl dönüştüreceğini ve GPU side 'daki son piksel rengini nasıl hesaplayacağını tanımlıyor.
-#### **Dds dds bir soyut sınıf Aspose.ThreeD.Render. Shaderourource ve alt sınıf Aspose.ThreeD.Render. GLourourourource**
-The GLrenourourource, kaynak kodu OpenGL gölgeleme dili içindir, Aspose.ThreeD.Render. ShaderProgram'a derlenebilir.
-#### **Dds dds Aspose.ThreeD.Render. Shaderhaxception lass lass**
+####  **Soyut bir sınıf Aspose ekler. threed. render. shsource kaynak ve alt sınıf Aspose. threed. gl. glslsource**
+The GLSLSource tells renderer, the source code is for OpenGL shading language, it can be compiled to Aspose.ThreeD.Render.ShaderProgram.
+####  **Aspose ekler. threed. render. shaderexception sınıfı**
 Shader he shader hader ile ilgili istisnalar, esas olarak gölgelendirici dilinde derleme ve bağlama aşamasında kullanılır.
-#### **Dds dds Aspose.ThreeD.Render. Shaderharogram lass lass**
+####  **Adds Aspose.ThreeD.Render.ShaderProgram Class**
 It derlenmiş gölgelendirici programıdır.
-#### **Add Aspose.ThreeD.Render. Shaderariariable lass lass**
+####  **Add Aspose.ThreeD.Render.ShaderVariable Class**
 It gölgelendiricide kullanılan değişkenleri tanımlar.
-#### **Dds dds bir Enum lass 07Aspose.ThreeD. Render. Variableariemantic**
-Shader t, gölgelendirici değişkeninin anlamlılığını tanımlamak için kullanılır, Aspose.3D renderer otomatik olarak gölgelendirici değişken değerlerini semantiklere göre hazırlayacaktır.
-### **Dds dds ffer uffer AIIs**
+####  **Adds an Enum Class Aspose.ThreeD.Render.VariableSemantic**
+Gölgelendirici değişkeninin semantik, Aspose.3D renderer otomatik olarak gölgelendirici değişken değerlerini semantiklere göre hazırlayacaktır.
+###  **Dds dds ffer uffer AIIs**
 Buffo tamponlar üçgenlerin tanımını ve verilerini sağlar.
-#### **Dds dds an Interface Aspose.ThreeD.Render. Iffer uffer**
+####  **Adds an Interface Aspose.ThreeD.Render.IBuffer**
 It, IIndex. uffer ve IVertex. uffer için temel arabirimdir.
-#### **Dds dds Interfaces Aspose.ThreeD.Render. Inndexnuffer/IVertexBuffer**
+####  **Adds Interfaces Aspose.ThreeD.Render.IIndexBuffer/IVertexBuffer**
 Geometry hey geometri endekslerini saklamak için mevcut donanım tamponları.
-#### **Dds dds bir Enum Aspose.ThreeD.Render. Indexnatayype**
+####  **Bir enum Aspose ekler. threed. render. indexdatatype**
 Geometry o geometri endeksleri datatype.
-### **Dds dds Render AIIs**
-#### **Dds dds an Interface Aspose.ThreeD.Render. Iderenderable**
+###  **Dds dds Render AIIs**
+####  **Adds an Interface Aspose.ThreeD.Render.IRenderable**
 Rendering n görüntülemeyi destekleyen nesne bu arayüzü uygulamalıdır.
-#### **Abir Enum Aspose.ThreeD.Render.DrawOperation**
+####  **Bir enum Aspose eklendi. threed. render. drawoperation**
 To İlkel tip çizmek için.
-#### **Dds dds bir Enum Aspose.ThreeD.Render.RenderQueueGroupId**
-Aspose.3D API, render iş akışını yönetmek için render kuyruğunu kullanır, bu, belirtilen render kuyruğuna işlem yapmak için kullanılır.
-#### **Dds dds Aspose.ThreeD.Render. Rendersource esource lass lass**
-Aspose.3D'in API modelini donanım kaynaklarına köprülemek için Base sınıfı, bu Aspose.3D dahili olarak kullanılır, ancak Aspose.3D renginin tam gücünü açığa çıkarır.
-#### **Dds dds Aspose.ThreeD.Render. Renderablesource esource lass lass**
+####  **Bir enum Aspose ekler. threed. render. renderqueuegroupid**
+Aspose.3D API render iş akışını yönetmek için render kuyruğunu kullanır, bu, belirtilen render kuyruğuna işlem yapmak için kullanılır.
+####  **Adds Aspose.ThreeD.Render.RenderResource Class**
+Base class for bridging the Aspose.3D's model API to hardware resources, this is used by Aspose.3D internally, but exposed to unleash the full power of Aspose.3D rendering.
+####  **Aspose ekler. threed. render. renderableresource sınıfı**
 Rendersource esource'ın A ub ub sınıfı, ancak render üzerine yoğunlaşın.
-#### **Dds dds Aspose.ThreeD.Entities.ManualEntity lass lass**
+####  **Adds Aspose.ThreeD.Entities.ManualEntity Class**
 Tkullanıcı, bu sınıfı, render işlemini destekleyen kendi varlıklarını uygulamak için kullanmalı, bu sınıf işlem işlemlerinin ve kaynak yönetiminin ayrıntılarını kapsüllemektedir.
-### **Dds dds ultiultiple 07riangulate 07ethods Aspose.ThreeD.Entities. olyolygongonodifier lass lass**
+###  **Aspose. threed. entities. polygonmodifier sınıfında çoklu üçgenleme yöntemleri ekler**
 Orijinal fonksiyonun kullanımını kolaylaştırmak için aşırı yükler.
 
 **C#**
 
 {{< highlight "csharp" >}}
 
- public static int[][]Triangulate(IList<[Aspose.ThreeD.Utilities.Vector4> controlPoints, IList<int[]> polygons);
+ public static int[][] Triangulate(IList<[Aspose.ThreeD.Utilities.Vector4> controlPoints, IList<int[]> polygons);
 
-public static int[][]Triangulate(IList<[Aspose.ThreeD.Utilities.Vector4> controlPoints, Int32[]polygon);
+public static int[][] Triangulate(IList<[Aspose.ThreeD.Utilities.Vector4> controlPoints, Int32[] polygon);
 
-public static int[][]Triangulate(IList<Aspose.ThreeD.Utilities.Vector4> controlPoints);
+public static int[][] Triangulate(IList<Aspose.ThreeD.Utilities.Vector4> controlPoints);
 
 {{< /highlight >}}
-### **Dds dds CreateVertexBuffer, Createnndex. uffer, Createreexturenit nit, Createreendertate tate ve Createrehaderrorogram Methods Aspose.ThreeD.Render. Rendertory actory lass lass ffer uffer**
+###  **Adds CreateVertexBuffer, CreateIndexBuffer, CreateTextureUnit, CreateRenderState and CreateShaderProgram Methods in the Aspose.ThreeD.Render.RenderFactory Class**
 **C#**
 
 {{< highlight "csharp" >}}
@@ -488,7 +488,7 @@ public Aspose.ThreeD.Render.ShaderProgram CreateShaderProgram(Aspose.ThreeD.Rend
 public Aspose.ThreeD.Render.ShaderProgram CreateShaderProgram(Aspose.ThreeD.Render.ShaderSource shaderSource, Aspose.ThreeD.Utilities.VertexDeclaration vertexDeclaration)
 
 {{< /highlight >}}
-### **Dds dds BindRendertate tate, DrawInderaw, Draw ve Submit07enderask ask ask ethods Aspose.ThreeD.Render.Renderer lass lass ask**
+###  **Bindrenderstate, drawindexed, draw ve submitrendertask yöntemlerini Aspose. threed. render. renderer sınıfında ekler**
 **C#**
 
 {{< highlight "csharp" >}}
@@ -506,7 +506,7 @@ public void DrawIndexed(Aspose.ThreeD.Render.DrawOperation drawOperation, Aspose
 public void SubmitRenderTask(Aspose.ThreeD.Render.RenderQueueGroupId groupId, Int32 priority, Aspose.ThreeD.Render.IRenderable renderableTask)
 
 {{< /highlight >}}
-### **Aspose.ThreeD.Render. enenderer lass lass içinde dds dds Rendertage tage ve Shader Properties**
+###  **Aspose. threed. render. renderer sınıfında renderstage ve gölgelendirici özellikleri ekler**
 **C#**
 
 {{< highlight "csharp" >}}

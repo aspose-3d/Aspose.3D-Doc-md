@@ -1,16 +1,16 @@
-﻿---
-title: VRML Format ile Working
+---
+title: VRML formatı ile çalışmak
 type: docs
 weight: 120
 url: /tr/python-net/working-with-vrml-format/
-description: Python via .NET için Aspose.3D VRML sürüm 1.0 ile çalışmayı sağlar. File. ormat sınıfına VRML dosya formatı eklendi. 076. 481 formatı otomatik olarak algılayabilir, böylece File. ormat genellikle Open yönteminde göz ardı edilir. Kod parçacığını takip eden The, 076. 481 dosya formatının nasıl açık olduğunu gösterir.
+description: Aspose.3D for Python via .NET allows working with VRML version 1.0. VRML file format has been added to the FileFormat class. Aspose.3D can auto detect the format, so the FileFormat is usually ignored in Open method. The following code snippet shows how open VRML file format.
 ---
 {{% alert color="primary" %}} 
 
 This özelliği 19.4 veya daha büyük sürümle desteklenir.
 
 {{% /alert %}} 
-# **Open VRML File Format**
-Python via .NET için Aspose.3D VRML sürüm 1.0 ile çalışmayı sağlar. `VRML` dosya formatı 076. 481 sınıfına eklenmiştir. 076. 481 formatı otomatik olarak algılayabilir, bu nedenle `FileFormat` genellikle `open` yönteminde göz ardı edilir. Kod parçacığını takip eden T, 07. 3481 dosya formatının nasıl açık olduğunu gösterir.
+#  **Open VRML File Format**
+Aspose.3D for Python via .NET allows working with VRML version 1.0. `VRML` file format has been added to the `FileFormat` class. Aspose.3D can auto detect the format, so the `FileFormat` is usually ignored in `open` method. The following code snippet shows how open VRML file format.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithVRML-OpenVRML-OpenVRML.py" >}}

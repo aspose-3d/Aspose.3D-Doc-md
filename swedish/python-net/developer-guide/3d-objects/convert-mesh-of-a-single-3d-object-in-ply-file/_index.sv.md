@@ -1,19 +1,19 @@
-﻿---
-title: Konvertera Mesh för ett enda 3D objekt i PLY
+---
+title: Konvertera ett enda objekt i 3D fil i PLY
 type: docs
 weight: 20
 url: /sv/python-net/convert-mesh-of-a-single-3d-object-in-ply-file/
-description: Den överbelastade EncodeMesh medlemmar som exponeras av PlyFormat klassen kan användas för att konvertera mesh av en 3D objekt. till PLY. EncodeMesh medlemmar tar Mesh, utdatafilnamn och PlySaveOptions objekt som parametrar. Med hjälp av PLY sparalternativ kan utvecklare ändra namnet på koordinatkomponenter.
+description: De överbelastade EncodeMesh-medlemmarna som exponeras av PlyFormat-klassen kan användas för att konvertera mesh för ett 3D-objekt till PLY fil. EncodeMesh medlemmar tar Mesh, utdatafilnamn och PlySaveOptions objekt som parametrar. Med PLY sparningsalternativ kan utvecklare ändra namnet på koordinatkomponenter.
 ---
 {{% alert color="primary" %}}
 
-[Aspose.3D för Python via .NET](https://products.aspose.com/3d/python-net/)API tillåter utvecklare att konvertera Mesh av en enda 3D objekt i filen PLY.
+[Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API tillåter utvecklare att konvertera mesh för ett enda 3D objekt i filen PLY.
 
 {{% /alert %}}
-## **Skapa ett 3D objekt och spara det till PLY-fil.**
-De överbelastade `encodeMesh` medlemmar som exponeras av klassen `PlyFormat` kan användas för att konvertera Mesh av en 076123488 1 objekt till PLY-fil. De `encodeMesh` medlemmar tar `Mesh`, utdata filnamn och `PlySaveOptions` objekt som parametrar. Med hjälp av PLY sparalternativ kan utvecklare ändra namnet på koordinatkomponenter.
-### **Programmeringsprova**
-Detta kodexempel skapar ett 3D Cylinderobjekt, och sedan koda i filen PLY.
+##  **Skapa ett 3D-objekt och spara det i PLY-filen**
+De överbelastade `encodeMesh` medlemmar som exponerats av klassen `PlyFormat` kan användas för att konvertera mesh i ett 3D objekt till PLY filen .. `encodeMesh` medlemmarna tar `Mesh`, utfilnamnet och `PlySaveOptions` objekt som parametrar. Med PLY sparningsalternativ kan utvecklare ändra namnet på koordinatkomponenter.
+###  **Programmeringsprova**
+Det här kodexemplet skapar ett 3D Cylinderobjekt och kodar sedan i filen PLY.
 
 **Python**
 

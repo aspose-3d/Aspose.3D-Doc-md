@@ -1,21 +1,21 @@
-﻿---
+---
 title: Installation
 type: docs
 weight: 40
 url: /ar/python-net/installation/
 ---
-## **متطلبات النظام**
+##  **متطلبات النظام**
 
-First ، عليك التحقق والتأكد من أن مواصفات الجهاز تلبي[متطلبات النظام](/3d/ar/python-net/system-requirements/).
+أولاً ، يجب عليك التحقق والتأكد من أن مواصفات الجهاز تفي بسعر [متطلبات النظام](/3d/ar/python-net/system-requirements/).
 
-## **Instيعادل Aspose.3D ل Python via .NET**
-`pip` هي أسهل طريقة لتحميل وتركيب[Aspose.3D ل Python via .NET](https://pypi.org/project/aspose-3d/).
+##  **تثبيت Aspose.3D for Python via .NET**
+`pip` هو أسهل طريقة لتنزيل وتثبيت [Aspose.3D for Python via .NET](https://pypi.org/project/aspose-3d/).
 
-To تثبيت Aspose.3D ، قم بتشغيل هذا الأمر: تثبيت pip aspose-3d
+لتثبيت Aspose.3D تشغيل هذا الأمر: تثبيت نقطة
 
-## **Using Aspose.3D ل Python via .NET**
+##  **Using Aspose.3D for Python via .NET**
 
-Once يمكنك الانتهاء من تثبيت الوحدة النمطية ، يمكنك استخدام Aspose.3D من رمز بايثون الخاص بك بهذه الطريقة:
+بمجرد الانتهاء من تثبيت الوحدة ، يمكنك استخدام Aspose.3D من رمز بايثون بهذه الطريقة:
 
 ```py
 import aspose.threed as a3d

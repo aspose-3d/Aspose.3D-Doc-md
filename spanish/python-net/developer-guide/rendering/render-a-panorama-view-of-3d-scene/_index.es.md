@@ -1,19 +1,19 @@
-﻿---
+---
 title: Render una vista panorámica de la escena 3D
 type: docs
 weight: 60
 url: /es/python-net/render-a-panorama-view-of-3d-scene/
-description: Usando Aspose.3D para Python via .NET API, los desarrolladores pueden representar una vista panorámica de la escena 3D y guardar esa vista en los formatos de imagen compatibles.
+description: Con Aspose.3D for Python via .NET API, los desarrolladores pueden representar una vista panorámica de la escena 3D y guardar esa vista en los formatos de imagen compatibles.
 ---
 {{% alert color="primary" %}}
 
-Uso[Aspose.3D para Python via .NET API](https:#products.aspose.com/3d/python-net/), Los desarrolladores pueden representar una vista panorámica de la escena 3D y guardar esa vista en los formatos de imagen compatibles.
+Usando [Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/), los desarrolladores pueden representar una vista panorámica de la escena 3D y guardar esa vista en los formatos de imagen compatibles.
 
 {{% /alert %}}
-## **Crear una vista panorámica**
-En este artículo, creamos una cámara y dos objetos de luz para capturar la escena, también creamos un objetivo de renderizado, creamos una ventana gráfica y ejecutamos el procesamiento posterior de proyección equirectangular con el mapa de cubo como entrada y finalmente guardamos la textura Panorama. El método `execute` de la clase `Renderer` permite ejecutar el efecto de procesamiento posterior y guardar el resultado para representar el objetivo.
-### **Muestra de programación**
-Este ejemplo de código representa una vista Panorama de la escena 3D y guarde en el formato de imagen.
+##  **Crear una vista panorámica**
+En este artículo, creamos una cámara y dos objetos de luz para capturar la escena, también creamos un destino de render, creamos una ventana gráfica y ejecutamos el post-procesamiento de proyección equirectangular con el mapa de cubo como entrada y, finalmente, guardamos la textura Panorama. El método `execute` de la clase `Renderer` permite ejecutar el efecto posterior al procesamiento y guardar el resultado para representar el destino.
+###  **Muestra de programación**
+Este ejemplo de código representa una vista panorámica de la escena 3D y la guarda en el formato de imagen.
 
 **Python**
 

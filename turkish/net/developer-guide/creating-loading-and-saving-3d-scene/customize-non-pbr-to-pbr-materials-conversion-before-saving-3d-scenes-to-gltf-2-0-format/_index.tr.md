@@ -1,18 +1,18 @@
-﻿---
-title: 07ustomize on on-PBR to PBatataterials 07onversion önce 3D cencenes GLTF 2.0 Format C#
-linktitle: 07ustomize on on-PBR to 07Batataterials 07onversion önce 07aving 3D Scenes to GLTF 2.0 Format
+---
+title: 3D sahnelerini GLTF 2.0 formatında C# 'dan tasarruf etmeden önce pbr olmayan malzemeleri dönüştürmeye özelleştirin
+linktitle: Customize Non-PBR to PBR Materials Conversion before Saving 3D Scenes to GLTF 2.0 Format
 type: docs
 weight: 70
 url: /tr/net/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
-description: To Aspose.3D API cene cene sınıfı 3D sahnesini temsil eder. Developers zaten çeşitli varlıklar ekleyerek bir 3D sahne inşa edebilirsiniz. 076. 481 2.0 sadece PBR (hyhysically Based dering enen) malzemeleri destekler, 076481 481 API dahili olarak GLTF 2.0 ihracat yapmadan önce Pmaterials materials malzemeler içine Pmaterials converts malzemeler dönüştürür.
+description: The Scene class of the Aspose.3D API represents a 3D scene. Developers can already build a 3D scene by adding various entities. GLTF 2.0 only supports PBR (Physically Based Rendering) materials, Aspose.3D API internally converts non-PBR materials into PBR materials before exporting into GLTF 2.0.
 ---
 {{% alert color="primary" %}} 
 
-The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) Aspose.3D API sınıfı 3D sahnesini temsil eder. Developers zaten çeşitli varlıklar ekleyerek bir 076. 481 sahne inşa edebilirsiniz. 076. 481 2.0 sadece PBR (Physically Based dering en.) malzemelerini destekler, Aspose.3D API dahili olarak 07481 3481 2.0 (sahnedeki malzemeler ihracat sırasında değişmeden önce Pmaterials materials malzemelere dönüştürür) ve geliştiriciler varsayılan davranışı geçersiz kılmak için özel dönüştürme işlevi sağlayabilir.
+The [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class of the Aspose.3D API represents a 3D scene. Developers can already build a 3D scene by adding various entities. GLTF 2.0 only supports PBR (Physically Based Rendering) materials, Aspose.3D API internally converts non-PBR materials into PBR materials before exporting into GLTF 2.0 (the materials in the scene will remain unchanged during the export), and the developers can provide custom convert function to override the default behavior.
 
 {{% /alert %}} 
-## **Non-PBto to PBerial erial aterial erial onversion**
-This C# kod örneği, malzemeyi PBmaterial malzemeye nasıl dönüştüreceğinizi gösterir ve 3D görüntüsünü GLTF formatında C# 076481 481 dosya manipülasyonu ve dönüşüm 076481 481 ile kaydeder:
+##  **Non-PBto to PBerial erial aterial erial onversion**
+Bu C# kod örneği, malzemeyi pbr malzemesine nasıl dönüştüreceğinizi gösterir ve daha sonra 3D görüntüsünü GLTF formatında C# 3D dosya manipülasyonu ve dönüştürme API ile kaydeder:
 
 **C#**
 
@@ -30,14 +30,13 @@ GLTFSaveOptions opt = new GLTFSaveOptions(FileFormat.GLTF2);
 
 //Custom material converter to convert PhongMaterial to PbrMaterial
 
-opt.MaterialConverter = delegate(Material material)
-
-{
-
-    PhongMaterial m = (PhongMaterial) material;
-
-    return new PbrMaterial() {Albedo = new Vector3(m.DiffuseColor.x, m.DiffuseColor.y, m.DiffuseColor.z)};
-
+opt.MaterialConverter = (Material material) => {
+    var pbr = PbrMaterial.FromMaterial(material);
+    //customize your own PBR material here, you can get the original OBJ's material from the parameter mat.
+    //to create a compatible material with obj2gltf, use following definition:
+    pbr.MetallicFactor = 0;
+    pbr.RoughnessFactor = 0.98;
+    return pbr;
 };
 
 // save in GLTF 2.0 format
@@ -45,3 +44,8 @@ opt.MaterialConverter = delegate(Material material)
 s.Save("test.gltf", opt);
 
 {{< /highlight >}}
+
+
+##  **Resources**
+
+1. [Çevrimiçi öğretici](https://products.aspose.com/3d/tutorial/use-phong-material-to-pbr-material/)

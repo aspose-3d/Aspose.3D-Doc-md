@@ -1,5 +1,5 @@
-﻿---
-title: Pubblico API Modifiche nel Aspose.3D 17.01
+---
+title: Modifiche pubbliche di API in Aspose.3D 17.01
 type: docs
 weight: 20
 url: /it/net/public-api-changes-in-aspose-3d-17-01/
@@ -8,21 +8,21 @@ url: /it/net/public-api-changes-in-aspose-3d-17-01/
 
 - [Aggiunge la voce del formato PLY nella classe Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
 - [Importazione di file PLY](#PublicAPIChangesinAspose.3D17.01-ImportingPLYFiles)
-- [Aggiunge Aspose.ThreeD. Classe GlobalTransform](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
-- [Aggiunge una proprietà GlobalTransform a Aspose.ThreeD.Node Class](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
-- [Aggiunge la proprietà Polygons a Aspose.ThreeD.Entities.Mesh Class](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
-- [Caricare il file 3D e scrivere le maglie in formato binario personalizzato](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
+- [Aggiunge Aspose.ThreeD.GlobalTransform Class](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
+- [Aggiunge una proprietà GlobalTransform a Aspose. Classe ThreeD.Node](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
+- [Aggiunge la proprietà Polygons a Aspose. Classe ThreeD.Entities.Mesh](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
+- [Carica 3D file e scrivi mesh in formato binario personalizzato](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
 - [Rimuove il membro CreateStream da Aspose.ThreeD.Formats.IOConfig Class](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.3D API dalla versione 16.12.0 alla 17.1.0, che potrebbero essere di interesse per gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte nello Aspose.3D.
+Questo documento descrive le modifiche a Aspose.3D API dalla versione 16.12.0 alla 17.1.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.3D.
 
 {{% /alert %}} 
-### **Aggiunge la voce del formato PLY nella classe Aspose.ThreeD.FileFormat**
-Abbiamo aggiunto una voce in formato PLY a scopo di caricamento.
-### **Importazione di file PLY**
-Utilizzando la versione recente (17.01) o superiore, gli sviluppatori possono importare i file PLY. La voce del formato PLY viene aggiunta ai fini del caricamento.
+###  **Aggiunge la voce del formato PLY nella classe Aspose.ThreeD.FileFormat**
+Abbiamo aggiunto una voce in formato PLY ai fini del caricamento.
+###  **Importazione di file PLY**
+Utilizzando la versione recente (17.01) o superiore, gli sviluppatori possono importare file PLY. La voce del formato PLY viene aggiunta ai fini del caricamento.
 
 **C#**
 
@@ -49,13 +49,13 @@ loadPLYOpts.FlipCoordinateSystem = true;
 scene.Open( "3DPlyModel.ply", loadPLYOpts);
 
 {{< /highlight >}}
-### **Aggiunge Aspose.ThreeD. Classe GlobalTransform**
+###  **Aggiunge Aspose.ThreeD.GlobalTransform Class**
 La classe GlobalTransform fornisce esattamente la stessa interfaccia come Transform, ma tutte le sue proprietà sono di sola lettura. È utile per gli scopi della trasformazione globale.
-### **Aggiunge una proprietà GlobalTransform a Aspose.ThreeD.Node Class**
+###  **Aggiunge una proprietà GlobalTransform a Aspose. Classe ThreeD.Node**
 Permette di accedere alla trasformazione globale del nodo. Questo è utile per trasformare la scena nel formato di file personalizzato dell'utente.
-### **Aggiunge la proprietà Polygons a Aspose.ThreeD.Entities.Mesh Class**
+###  **Aggiunge la proprietà Polygons a Aspose. Classe ThreeD.Entities.Mesh**
 Permette di ottenere tutti i poligoni all'interno della mesh, ogni poligono è un array di indice dei vertici poligonali. Prima di questa proprietà, dobbiamo usare la sintassi foreach per enumerare ogni poligono che è inefficiente.
-### **Caricare il file 3D e scrivere le maglie in formato binario personalizzato**
+###  **Carica 3D file e scrivi mesh in formato binario personalizzato**
 **C#**
 
 {{< highlight "java" >}}
@@ -199,6 +199,6 @@ using (var writer = new BinaryWriter(new FileStream(output, FileMode.Create, Fil
 }
 
 {{< /highlight >}}
-### **Rimuove il membro CreateStream da Aspose.ThreeD.Formats.IOConfig Class**
+###  **Rimuove il membro CreateStream da Aspose.ThreeD.Formats.IOConfig Class**
 Questo è stato contrassegnato come obsoleto nella versione 16.11.0, la nuova interfaccia FileSystem è stata introdotta nella versione 16.11.0 che fornisce maggiore estensibilità.
 

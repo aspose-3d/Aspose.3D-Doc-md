@@ -1,5 +1,5 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.3D 2.x. x
+---
+title: Öffentliche API Änderungen in Aspose.3D 2.x. x
 type: docs
 weight: 30
 url: /de/net/public-api-changes-in-aspose-3d-2-x-x/

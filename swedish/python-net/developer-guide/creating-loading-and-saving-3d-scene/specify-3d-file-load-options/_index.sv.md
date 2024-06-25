@@ -1,41 +1,41 @@
-﻿---
-title: Ange 3D Filladdningsalternativ
+---
+title: Ange 3D Ladda alternativ för filName
 type: docs
 weight: 30
 url: /sv/python-net/specify-3d-file-load-options/
 description: Det finns flera Scene.Öppen metod överbelastning eller Scene klass konstruktor överbelastning som accepterar ett LoadOptions objekt. Varje lastformat har en motsvarande klass som innehåller belastningsalternativ för det belastningsformatet.
 ---
-## **3D Filladdningsalternativ**
-Det finns flera metodöverbelastningar [`Scene.open`](https://reference.aspose.com/3d/net/aspose.threed/scene) eller Scene klass konstruktor överbelastningar som accepterar ett `LoadOptions` objekt. Detta bör vara föremål för en klass som härrör från klassen `LoadOptions`. Varje belastningsformat har en motsvarande klass som innehåller belastningsalternativ för det belastningsformatet. till exempel finns det `ColladaSaveOptions` för `FileFormat.Collada` sparformat.
-### **Användning av diskret 3DS lastalternativ**
-Koden nedan visar hur man ställer in lastalternativ innan man laddar en diskret 3DS-fil.
+##  **3D Ladda ner filer**
+Det finns flera överbelastningar av [`Scene.open`](https://reference.aspose.com/3d/net/aspose.threed/scene) metoden eller överbelastningar av konstruktörsklass som accepterar ett `LoadOptions`-objekt. Detta bör vara ett föremål för en klass som härrör från klassen `LoadOptions`. Varje belastningsformat har en motsvarande klass som innehåller belastningsalternativ för det belastningsformatet. till exempel finns `ColladaSaveOptions` för `FileFormat.Collada` spara formatet.
+###  **Use of the Discreet 3DS Load Options**
+Koden nedan visar hur laddningsalternativ ska ställas innan en diskret 3DS-fil lads in.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-Discreet3DSOption.py" >}}
-### **Användning av Obj-lastalternativ**
-Koden nedan visar hur man ställer in belastningsalternativ innan man laddar en 3D Obj-fil.
+###  **Användning av Obj-lastalternativ**
+Koden nedan visar hur laddningsalternativ ska ställas innan du laddar en 3D Obj-fil.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-ObjLoadOption.py" >}}
-### **Användning av belastningsalternativ STL**
-Koden nedan visar hur man ställer in belastningsalternativ innan man laddar en STL-fil.
+###  **Användning av laddandealternativ för STLName**
+Koden nedan visar hur laddningsalternativ ska ställas innan du laddar en STL-fil.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-STLLoadOption.py" >}}
-### **Användning av belastningsalternativ U3D**
-Koden nedan visar hur man ställer in belastningsalternativ innan man laddar en U3D-fil.
+###  **Användning av laddandealternativ för U3DName**
+Koden nedan visar hur laddningsalternativ ska ställas innan du laddar en U3D-fil.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-U3DLoadOption.py" >}}
-### **Användning av belastningsalternativ glTF**
-Koden nedan visar hur man ställer in belastningsalternativ innan man laddar en glTF-fil.
-#### **Vänd V/T texturkoordinat**
+###  **Användning av laddandealternativ för glTFName**
+Koden nedan visar hur laddningsalternativ ska ställas innan du laddar en glTF-fil.
+####  **Vänd V/T texturkoordinat**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-glTFLoadOptions.py" >}}
-### **Användning av Ply-lastalternativ**
-Koden nedan visar hur man ställer in belastningsalternativ innan man laddar en PLY modell.
+###  **Användning av Ply-lastalternativ**
+Koden nedan visar hur laddningsalternativ ska anges innan du laddar en PLY-modell.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-PlyLoadOptions.py" >}}
-### **Användning av DirectX X-lastalternativ**
-Koden nedan visar hur man ställer in belastningsalternativ innan man laddar en DirectX X-fil.
+###  **Användning av DirectX X-lastalternativ**
+Koden nedan visar hur man ställer in laddningsalternativ innan man laddar en DirectX-fil.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-XLoadOptions.py" >}}
-### **Använd RVM belastningsalternativ**
+###  **Use RVM load options**
 **C#**
 
 ```py
@@ -62,5 +62,5 @@ scene.save("LAD-TOP.obj", a3d.FileFormat.WAVEFRONT_OBJ);
 
 ```
 
-### **Använda FBX lastalternativ**
+###  **Using FBX Load Options**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-FBXLoadOptions.py" >}}

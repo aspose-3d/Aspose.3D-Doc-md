@@ -1,18 +1,18 @@
-﻿---
+---
 title: Rinde una escena en el cubemap con seis caras
 type: docs
 weight: 70
 url: /es/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: Usando Aspose.3D for .NET API, los desarrolladores pueden representar una escena en el cubemap con seis caras y guardar todas las caras en los formatos de imagen compatibles.
+description: Usando Aspose.3D for .NET API, los desarrolladores pueden renderizar una escena en el mapa de cubos con seis caras y guardar todas las caras en los formatos de imagen compatibles.
 ---
 {{% alert color="primary" %}}
 
-Uso[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Los desarrolladores pueden renderizar una escena en el cubemap con seis caras y guardar todas las caras en los formatos de imagen compatibles.
+Con [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), los desarrolladores pueden renderizar una escena en el cubeMap con seis caras y guardar todas las caras en los formatos de imagen compatibles.
 
 {{% /alert %}}
-## **Captura un cubemap con seis caras**
-En este artículo, creamos una cámara y dos objetos de luz para capturar el cubemap, también creamos un objetivo de representación de cubemap con textura de profundidad, creamos una ventana gráfica y finalmente obtenemos la textura del cubemap. La clase `ITextureCubema`p recupera la textura cubemap y la clase `CubeFaceData` permite acceder a las caras del cubemap y luego exportar al formato de imagen admitido.
-### **Muestra de programación**
+##  **Captura un cubemap con seis caras**
+En este artículo, creamos una cámara y dos objetos de luz para capturar el mapa de cubos, también creamos un objetivo de renderizado de mapa de cubos con textura de profundidad, creamos una ventana gráfica y finalmente obtenemos la textura de mapa de cubos. La clase `ITextureCubema`p recupera la textura cubeMap y la clase `CubeFaceData` permite acceder a las caras del cubeMap y, a continuación, exportar al formato de imagen compatible.
+###  **Muestra de programación**
 Este ejemplo de código representa una escena en el cubemap con seis caras y la exportación al formato de imagen.
 
 **C#**
