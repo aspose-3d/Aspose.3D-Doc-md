@@ -16,7 +16,7 @@ First you need to create a 3d scene from a 3d file.The following code snippet sh
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-Create3DScene.cs" >}}
 
 # **Encode Watermark**
-Aspose.3D for .NET adds watermark text information and watermark password to 3d files through the EncodeWatermark method. The following code snippet shows how to use this functionality:
+Aspose.3D for .NET adds watermark text information and watermark password to 3d files through the ``EncodeWatermark`` method. The following code snippet shows how to use this functionality:
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-EncodeWatermark.cs" >}}
 
