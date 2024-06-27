@@ -1,7 +1,7 @@
-﻿---
-title: 3D Modellistica
+---
+title: Modellazione 3D
 type: docs
 weight: 70
 url: /it/python-net/3d-modeling/
-description: Articoli sulla modellazione 3D nel Aspose.3D per Python via .NET.
+description: Articoli sulla modellazione di 3D in Aspose.3D for Python via .NET.
 ---

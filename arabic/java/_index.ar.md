@@ -1,6 +1,6 @@
-﻿---
+---
 title: Aspose.3D for Java
-description: Aspose.3D for Java API بنيت لإنشاء وتحرير والتلاعب وحفظ الأشكال 3D. It تمكن Java التطبيقات للاتصال مع وثائق 3D دون تثبيت أي حزمة البرمجيات على الكمبيوتر.
+description: Aspose.3D for Java API مُصمم لإنشاء تنسيقات 3D وتحريرها ومعالجتها وحفظها. إنها تمكن تطبيقات Java من الاتصال بمستندات 3D دون تثبيت أي حزمة برامج على الكمبيوتر.
 type: docs
 weight: 20
 url: /ar/java/
@@ -8,27 +8,27 @@ is_root: true
 ---
 {{% alert color="primary" %}}
 
-![تودو: الصورة_البديل_نص](home_1)
+! [Todo: image_ altttext](home_1)
 
-**Welcome إلى Aspose.3D for Java API**
+**Welcome to Aspose.3D for Java API**
 
-Aspose.3D for Java API بنيت لإنشاء وتحرير والتلاعب وحفظ الأشكال 3D. It تمكن Java التطبيقات للاتصال مع وثائق 3D دون تثبيت أي حزمة البرمجيات على الكمبيوتر. Aspose.3D for Java API مساعدة المطورين على نموذج وخلق عوالم هائلة في الألعاب ، مشاهد رائعة للتصور التصميم ، وإشراك تجارب الواقع الافتراضي.
+Aspose.3D for Java API مُصمم لإنشاء تنسيقات 3D وتحريرها ومعالجتها وحفظها. إنها تمكن تطبيقات Java من الاتصال بمستندات 3D دون تثبيت أي حزمة برامج على الكمبيوتر. Aspose.3D for Java API مساعدة المطورين على نمذجة وإنشاء عوالم ضخمة في الألعاب ، ومشاهد رائعة لتصميم التصور ، والمشاركة في تجارب الواقع الافتراضي.
 
-The API هو سهل الاستخدام ويوفر الوقت والمال من إنشاء حل مماثل من الصفر.
+إن API سهل الاستخدام ويوفر الوقت والمال بدلاً من إنشاء حل مماثل من الصفر.
 
 {{% /alert %}}
 
 
-## **Aspose.3D for Java Resources**
+##  **Aspose.3D for Java موارد**
 Following هي الروابط إلى بعض الموارد المفيدة التي قد تحتاج إليها لإنجاز المهام الخاصة بك.
 
-- [Aspose.3D for Java Online التسوية](/3d/ar/java/)
-- [Aspose.3D for Java الرسوم المتحركة](/3d/ar/java/product-overview/#productoverview-richfeatures)
-- [Aspose.3D for Java تقليد](/3d/ar/java/installation/#installation-systemrequirements)
-- [Aspose.3D for Java tes elease ootes](https://releases.aspose.com/3d/java/release-notes/)
-- [Aspose.3D for Java سن الدوران](https://products.aspose.com/3d/java)
-- [Aspose.3D for Java من Aspose Artifactory](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
-- [Install Aspose.3D for Java من Aspose Artifactory](/3d/ar/java/installation/)
-- [Aspose.3D for Java API ference etvl Guide](https://reference.aspose.com/3d/java)
-- [Aspose.3D for Java Free ree upport ororum](https://forum.aspose.com/c/3d)
-- [Aspose.3D for Java aid المعونة upupport elelpdesk](https://helpdesk.aspose.com/)
+- [Aspose.3D for Java مستندات عبر الإنترنت](/3d/ar/java/)
+- [Aspose. ميزات 3D for Java](/3d/ar/java/product-overview/#productoverview-richfeatures)
+- [Aspose.3D for Java قيود](/3d/ar/java/installation/#installation-systemrequirements)
+- [Aspose.3D for Java ملاحظات إصدار](https://releases.aspose.com/3d/java/release-notes/)
+- [Aspose. صفحة منتجات 3D for Java](https://products.aspose.com/3d/java)
+- [Aspose.3D for Java إصدارات جديدة](https://releases.aspose.com/3d/java/)
+- [Aspose.3D for Java من مستودع Aspose Java](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/)
+- [Aspose.3D for Java API دليل مرجعي](https://reference.aspose.com/3d/java)
+- [Aspose.3D for Java منتدى دعم مجاني](https://forum.aspose.com/c/3d)
+- [Aspose.3D for Java مكتب دعم مدفوع](https://helpdesk.aspose.com/)

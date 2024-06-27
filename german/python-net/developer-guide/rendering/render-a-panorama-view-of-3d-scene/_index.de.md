@@ -1,19 +1,19 @@
-﻿---
-title: Rendern Sie eine Panorama ansicht der Szene 3D
+---
+title: Erstellen Sie eine Panorama ansicht der 3D-Szene
 type: docs
 weight: 60
 url: /de/python-net/render-a-panorama-view-of-3d-scene/
-description: Mithilfe von Aspose.3D für Python via .NET APIkönnen Entwickler eine Panorama ansicht der 3D-Szene rendern und diese Ansicht in den unterstützten Bildformaten speichern.
+description: Mit Aspose.3D for Python via .NET API können Entwickler eine Panorama ansicht der 3D-Szene rendern und diese Ansicht in den unterstützten Bildformaten speichern.
 ---
 {{% alert color="primary" %}}
 
-Verwendung[Aspose.3D für Python via .NET API](https:#products.aspose.com/3d/python-net/)Entwickler können eine Panorama ansicht der 3D-Szene rendern und diese Ansicht in den unterstützten Bildformaten speichern.
+Mit [Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/) können Entwickler eine Panorama ansicht der 3D-Szene rendern und diese Ansicht in den unterstützten Bildformaten speichern.
 
 {{% /alert %}}
-## **Erstellen Sie eine Panorama-Ansicht**
+##  **Erstellen Sie eine Panorama-Ansicht**
 In diesem Artikel erstellen wir eine Kamera und zwei Licht objekte, um die Szene zu erfassen, erstellen auch ein Render ziel, erstellen ein Ansicht fenster und führen die äqui rechteckige Projektions post verarbeitung mit der Würfel karte als Eingabe aus und speichern schließlich die Panorama-Textur. Die `execute`-Methode der `Renderer`-Klasse ermöglicht es, den Nach bearbeitungs effekt auszuführen und das Ergebnis zu speichern, um das Ziel zu rendern.
-### **Programmier probe**
-Dieses Code beispiel bietet eine Panorama ansicht der Szene 3D und speichert im Bildformat.
+###  **Programmier probe**
+In diesem Code beispiel wird eine Panorama ansicht der 3D-Szene angezeigt und im Bildformat gespeichert.
 
 **Python**
 

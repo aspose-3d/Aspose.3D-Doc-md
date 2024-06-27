@@ -1,19 +1,19 @@
-﻿---
-title: Render 3D Szene mit Panorama-Modus in der Tiefe
+---
+title: Rendern 3D Szene mit Panorama-Modus in der Tiefe
 type: docs
 weight: 40
 url: /de/net/render-3d-scene-with-panorama-mode-in-depth/
-description: Mithilfe der Aspose.3D for .NET APIkönnen Entwickler anstelle der Farben eine 3D-Szene mit Panorama modus in der Tiefe rendern.
+description: Mit Aspose.3D for .NET API können Entwickler anstelle der Farben eine 3D-Szene mit Panorama modus in der Tiefe rendern.
 ---
 {{% alert color="primary" %}}
 
-Verwendung[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)Entwickler können eine 3D-Szene mit Panorama modus in der Tiefe anstelle der Farben rendern.
+Mit [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) können Entwickler anstelle der Farben eine 3D-Szene mit Panorama-Modus in der Tiefe rendern.
 
 {{% /alert %}}
-## **Render 3D Szene mit Panorama-Modus in der Tiefe**
+##  **Rendern 3D Szene mit Panorama-Modus in der Tiefe**
 In diesem Artikel erstellen wir eine Kamera und zwei Licht objekte, um die Szene zu erfassen. Die ShaderSet-Klasse hilft beim Erstellen von Tiefen-Shader.
-### **Programmier probe**
-Dieses Code beispiel macht 3D Szene mit Panorama-Modus in der Tiefe.
+###  **Programmier probe**
+Dieses Code beispiel rendert 3D Szene mit Panorama-Modus in der Tiefe.
 
 **C#**
 

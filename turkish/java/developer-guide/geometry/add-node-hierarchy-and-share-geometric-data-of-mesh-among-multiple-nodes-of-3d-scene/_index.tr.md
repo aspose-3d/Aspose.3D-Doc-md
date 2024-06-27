@@ -1,25 +1,25 @@
-﻿---
-title: Add Node hiyerarşi ve Share eoeometrik veri 07esh arasında ultiultiple Nodes 3D cene cene
+---
+title: Düğüm hiyerarşisini ekleyin ve 3D sahnesinin birden fazla düğümleri arasında örgü geometrik verilerini paylaşın
 type: docs
 weight: 20
 url: /tr/java/add-node-hierarchy-and-share-geometric-data-of-mesh-among-multiple-nodes-of-3d-scene/
-description: Aspose.3D for Java, Nodes hiyerarşisini oluşturmayı desteklemektedir. The Node, 3D sahnesinin temel yapı bloğudur ve düğümlerin bir hiyerarşi 3D sahnesinin mantıksal yapısını tanımlar ve geometrileri, ışıkları ve kameraları düğümlere bağlayarak görünür içerik sağlar.
+description: Aspose.3D for Java has support of building a hierarchy of Nodes. The Node is basic building block of 3D scene and a hierarchy of nodes defines the logical structure of 3D scene, and provide visible content by attaching geometries, lights, and cameras to nodes.
 ---
-## **Add Node 07ierarchy 3D Scene ococument**
-Aspose.3D for Java, Nodes hiyerarşisini oluşturmayı desteklemektedir. The `Node`, 3D sahnesinin temel yapı bloğudur ve düğümlerin hiyerarşi 076. 481 sahnesinin mantıksal yapısını tanımlar ve geometrileri, ışıkları ve kameraları düğümlere bağlayarak görünür içerik sağlar.
-### **Cene cene Graph ample xample**
+##  **Düğüm hiyerarşisini 3D sahne belgesine ekleyin**
+Aspose.3D for Java has support of building a hierarchy of Nodes. The `Node` is basic building block of 3D scene and a hierarchy of nodes defines the logical structure of 3D scene, and provide visible content by attaching geometries, lights, and cameras to nodes.
+###  **Cene cene Graph ample xample**
 
-In Aspose.3D, her `Node` örneği birden fazla çocuk düğümüne sahip olabilir, bu örnekte, kök düğümünü döndürürsek, tüm çocuk düğümleri de etkilenir:
+Aspose.3D, her bir `Node` örneği birden fazla çocuk düğümüne sahip olabilir, bu örnekte, kök düğümünü döndürürsek, tüm çocuk düğümleri de etkilenir:
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddNodeHierarchy.java" >}}
-## **Hare hare Mesh eoeometry ata ata ultiultiple Nodes arasında**
-In hafıza gereksinimlerini azaltmak için sipariş, `Mesh` Class tek bir örnek `Node` lass lass çeşitli örneklerine bağlı olabilir. Envision, tüm 3D küplerinin ayırt edilemez göründüğü bir sisteme ihtiyacınız var, ancak çok sayıda çok sayıda ihtiyacınız vardı. You sistem başladığında bir Mesh nesnesi yaparak bellek ayırabilir. At bu nokta, her zaman başka bir şekle ihtiyacınız olduğunda, başka bir Node nesnesi yaparsınız, sonra o düğmeyi bir `Mesh` olarak işaret edersiniz. This instancing olarak adlandırılır. 076. 481 076. 481 APIs instancing yapmak için izin verir.
-### **Instancing örneği**
-In RTS (Real-time strategy) gibi oyunlar, biz her zaman aynı 3D modeli ile birden fazla NPCs (Non-Player layer haracter) görebilirsiniz, belki farklı renklerde, işleme motoru genellikle aynı örgü geometri verilerini farklı NCCs arasında paylaşır, bu teknik Instancing olarak adlandırılır.
+##  **Hare hare Mesh eoeometry ata ata ultiultiple Nodes arasında**
+In order to diminish memory necessities, a single instance of `Mesh` Class can be bound to various instances of `Node` Class. Envision that you require a system where all 3D cubes seemed to be indistinguishable, however you required numerous a large number of them. You could spare memory by making one Mesh object when the system begins up. At that point, each time you required another shape, you make another Node object, then point that node to the one `Mesh`. This is called instancing. Aspose.3D for Java APIs allow to do instancing.
+###  **Instancing örneği**
+Rts (gerçek zamanlı strateji) oyunlarında, her zaman aynı 3D modeliyle birden fazla npcs (oyuncu olmayan karakter) görebiliriz, belki farklı renklerde, işleme motoru genellikle farklı npc'lerde aynı örgü geometri verilerini paylaşır, bu tekniğe anında denir.
 
 {{% alert color="primary" %}} 
 
-The `Mesh` sınıf nesnesi kodda kullanılıyor. We can[Orada anlatılan Mesh sınıfı bir nesne oluşturun](https://docs.dynabic.com/display/3djava/Create+3D+Mesh+and+Scene).
+The `Mesh` class object is being used in the code. We can [create a Mesh class object as narrated there](https://docs.dynabic.com/display/3djava/Create+3D+Mesh+and+Scene).
 
 {{% /alert %}} 
 

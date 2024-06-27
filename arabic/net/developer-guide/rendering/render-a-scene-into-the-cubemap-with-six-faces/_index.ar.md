@@ -1,18 +1,18 @@
-﻿---
+---
 title: Render مشهد في cubemap مع ستة وجوه
 type: docs
 weight: 70
 url: /ar/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: Using Aspose.3D for .NET API ، يمكن للمطورين تقديم مشهد في cubemap مع ستة وجوه وحفظ جميع الوجوه في تنسيقات الصور المدعومة.
+description: باستخدام Aspose.3D for .NET API ، يمكن للمطورين عرض مشهد في ملف cubemap بستة وجوه وحفظ جميع الوجوه في تنسيقات الصور المدعومة.
 ---
 {{% alert color="primary" %}}
 
-Uالغناء[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)، يمكن للمطورين تقديم مشهد في cubemap مع ستة وجوه وحفظ جميع الوجوه في تنسيقات الصور المدعومة.
+باستخدام [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) ، يمكن للمطورين عرض مشهد في ملف cubemap بستة وجوه وحفظ جميع الوجوه في تنسيقات الصور المدعومة.
 
 {{% /alert %}}
-## **Capture خريطة مع ستة وجوه**
-في هذه المقالة ، نقوم بإنشاء amera Cو اثنين من الأشياء ight ight لالتقاط cubemap ، وأيضا إنشاء cubemap جعل الهدف مع نسيج عمق ، وخلق وجهة نظر وأخيرا الحصول على نسيج cubemap. The `ITextureCubema`p الفئة يسترد نسيج cubemap وفئة `CubeFaceData` يسمح بالوصول إلى وجوه cubemap ، ومن ثم التصدير إلى تنسيق الصورة المدعومة.
-### **Pروغرامينغ ple وافرة**
+##  **Capture خريطة مع ستة وجوه**
+في هذه المقالة ، نقوم بإنشاء كاميرا وجسمان ضوئيان لالتقاط خريطة الموقع ، وكذلك إنشاء هدف عرض cubemap مع نسيج عميق ، وإنشاء منفذ عرض ، والحصول في النهاية على نسيج cubemap. تسترد فئة `ITextureCubema`p نسيج cubemap وتسمح فئة `CubeFaceData` بالوصول إلى وجوه ملف cubemap ، ثم التصدير إلى تنسيق الصورة المدعوم.
+###  **Pروغرامينغ ple وافرة**
 Tله مثال رمز يجعل مشهد في cubemap مع ستة وجوه والتصدير في شكل الصورة.
 
 **C#**

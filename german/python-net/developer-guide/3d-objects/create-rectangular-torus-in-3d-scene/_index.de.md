@@ -1,17 +1,17 @@
-﻿---
-title: Erstellen Sie rechteckige Torus in der Szene 3D
+---
+title: Erstellen Sie rechteckige Torus in 3D Szene
 type: docs
 weight: 50
 url: /de/python-net/create-rectangular-torus-in-3d-scene/
-description: Mithilfe von Aspose.3D für Python via .NET APIkönnen Entwickler 3D-Objekte erstellen und dann die 3D-Szene in einem beliebigen unterstützten 3D-Format speichern.
+description: Mit Aspose.3D for Python via .NET API können Entwickler 3D-Objekte erstellen und dann 3D-Szene in jedem unterstützten 3D-Format speichern.
 ---
 {{% alert color="primary" %}} 
 
-Verwendung[Aspose.3D für Python via .NET](https://products.aspose.com/3d/python-net/)API können Entwickler 3D Objekte erstellen und dann die 3D-Szene in einem beliebigen unterstützten 3D-Format speichern.
+Mit [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API können Entwickler 3D-Objekte erstellen und dann 3D-Szene in jedem unterstützten 3D-Format speichern.
 
 {{% /alert %}} 
-## **Rechteckiger Torus**
-Wir haben die `RectangularTorus`-Klasse hinzugefügt, mit der Entwickler einen param etrisierten rechteckigen Torus in die Szene einbauen können. Dies kann in ein Ordnungsnetz/Dreiecks netz umgewandelt werden, während die Szene in verschiedene unterstützte Dateiformate gespeichert wird.
+##  **Rechteckiger Torus**
+Wir haben eine `RectangularTorus`-Klasse hinzugefügt, mit der Entwickler einen param etrisierten rechteckigen Torus in die Szene einbauen können. Dies kann in ein Ordnungsnetz/Dreiecks netz umgewandelt werden, während die Szene in verschiedene unterstützte Dateiformate gespeichert wird.
 
 **Python**
 
@@ -40,4 +40,4 @@ scene.save("rtorus.obj", FileFormat.WAVEFRONT_OBJ)
 
 Der erzeugte rechteckige Torus sieht wie folgt aus:
 
-![Todo: bild_Alt_Text](create-rectangular-torus-in-3d-scene_1.png)
+! [Todo: image_alt_text](create-rectangular-torus-in-3d-scene_1.png)

@@ -1,12 +1,12 @@
-﻿---
-title: 合并3D文件中的网格
+---
+title: 合并 3D 文件中的网格
 type: docs
 weight: 90
 url: /zh/net/merge-meshes-in-3d-file/
-description: 开发人员可以将多个网格合并为一个有效网格。它们可以将3D场景、节点或一组节点的所有网格转换为单个网格。为了实现这一点，在Aspose.ThreeD.Entities.PolygonModifier类中有三个MergeMesh成员。
+description: 开发人员可以将多个网格合并为一个有效的网格。它们可能会将 3D 场景的所有网格、一个节点或一组节点转换为单个网格。为了实现这一点，在 Aspose.ThreeD.Entities.PolygonModifier类中有三个MergeMesh成员。
 ---
-## **将网格合并为单个有效网格**
-开发人员可以将多个网格合并为一个有效网格。它们可以将3D场景、节点或一组节点的所有网格转换为单个网格。为了实现这一点，`Aspose.ThreeD.Entities.PolygonModifier`类中有三个`MergeMesh`成员。
+##  **将网格合并为单个有效网格**
+开发人员可以将多个网格合并为一个有效的网格。它们可能会将 3D 场景的所有网格、一个节点或一组节点转换为单个网格。为了实现这一点，在 `Aspose.ThreeD.Entities.PolygonModifier` 类中有三个 `MergeMesh` 成员。
 
 **定义**
 

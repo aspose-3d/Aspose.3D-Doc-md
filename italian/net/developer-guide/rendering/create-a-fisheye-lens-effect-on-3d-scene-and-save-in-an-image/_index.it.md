@@ -1,19 +1,19 @@
-﻿---
-title: Creare un effetto lente Fish-eye sulla scena 3D e salvare in un'immagine
+---
+title: Crea un effetto lente Fish-eye sulla scena 3D e salva in un'immagine
 type: docs
 weight: 20
 url: /it/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: Utilizzando Aspose.3D for .NET API, gli sviluppatori possono creare un effetto obiettivo Fisheye sulla scena 3D e salvare quella visualizzazione nei formati di immagine supportati.
+description: Utilizzando Aspose.3D for .NET API, gli sviluppatori possono creare un effetto obiettivo Fisheye sulla scena 3D e salvare la visualizzazione nei formati di immagine supportati.
 ---
 {{% alert color="primary" %}}
 
-Utilizzo[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Gli sviluppatori possono creare un effetto obiettivo Fisheye sulla scena 3D e salvare tale visualizzazione nei formati di immagine supportati.
+Utilizzando [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), gli sviluppatori possono creare un effetto obiettivo Fisheye sulla scena 3D e salvare tale visualizzazione nei formati di immagine supportati.
 
 {{% /alert %}}
-## **Crea un effetto obiettivo Fisheye**
-In questo articolo, creiamo una fotocamera e due oggetti Light per catturare la scena, creare anche un target di rendering, creare un viewport ed eseguire la post-elaborazione della proiezione di Fisheye con la mappa del cubo come input e infine salvare la texture Fisheye. Il metodo `Execute` della classe `Renderer` consente di eseguire l'effetto post-elaborazione e salvare il risultato per rendere il target.
-### **Campione di programmazione**
-Questo esempio di codice crea un effetto obiettivo Fisheye sulla scena 3D e salva nel formato dell'immagine.
+##  **Crea un effetto obiettivo Fisheye**
+In questo articolo, creiamo una fotocamera e due oggetti Light per catturare la scena, creare anche un target di rendering, creare un viewport ed eseguire la post-elaborazione della proiezione di Fisheye con la mappa del cubo come input e infine salvare la texture Fisheye. Il metodo `Execute` della classe `Renderer` consente di eseguire l'effetto post-elaborazione e salvare il risultato per il rendering del target.
+###  **Campione di programmazione**
+Questo esempio di codice crea un effetto obiettivo Fisheye sulla scena 3D e salva nel formato immagine.
 
 **C#**
 

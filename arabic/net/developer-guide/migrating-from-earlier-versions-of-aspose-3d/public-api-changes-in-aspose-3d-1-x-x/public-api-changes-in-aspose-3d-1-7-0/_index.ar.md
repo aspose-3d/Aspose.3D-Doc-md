@@ -1,27 +1,27 @@
-﻿---
-title: Hangublic API hangمعلقة في Aspose.3D 1.7.0
+---
+title: العام API يتغير بـ Aspose.3D 1.7.0
 type: docs
 weight: 10
 url: /ar/net/public-api-changes-in-aspose-3d-1-7-0/
 ---
 **Contents Sأوماري**
 
-- [Adds Aspose.ThreeD. nntities. فئة rurustum](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
-- [Adds Aspose.ThreeD. فئة مستحضرات التجميل](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
-- [Adds MoveFطريقة orward في Aspose.ThreeD. nntities. Camera الفئة](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
-- [أعضاء في Aspose.ThreeD. nntities. class eometry الفئة](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
-- [Adds enerenerateNطريقة أورمال في Aspose.ThreeD. nntities.](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
-- [طريقة ondds ononcate في Aspose.ThreeD.](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
+- [يضيف Aspose.ThreeD.Entities.Frustum class](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.Entities.Frustumclass)
+- [تضيف Aspose.ThreeD.ImageRenderOptions class](#PublicAPIChangesinAspose.3D1.7.0-AddsAspose.ThreeD.ImageRenderOptionsclass)
+- [تضيف طريقة نقل إلى الأمام بـ Aspose.ThreeD. Enability. Camera class](#PublicAPIChangesinAspose.3D1.7.0-AddsMoveForwardmethodinAspose.ThreeD.Entities.Cameraclass)
+- [يضيف CastShadows وأعضاء ReceiveShadows بـ Aspose.ThreeD.Entities.Geometry class](#PublicAPIChangesinAspose.3D1.7.0-AddsCastShadowsandReceiveShadowsmembersinAspose.ThreeD.Entities.Geometryclass)
+- [يضيف طريقة GenerateNormal في Aspose.ThreeD. Enties. PolygonModifier class](#PublicAPIChangesinAspose.3D1.7.0-AddsGenerateNormalmethodinAspose.ThreeD.Entities.PolygonModifierclass)
+- [تضيف طريقة كونكيت في Aspose.ThreeD. Utility. Quaternion class](#PublicAPIChangesinAspose.3D1.7.0-AddsConcatemethodinAspose.ThreeD.Utilities.Quaternionclass)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 1.5.0 إلى 1.7.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+يوضح هذا المستند التغييرات إلى Aspose.3D API من الإصدار 1.5.0 إلى 1.7.0 ، والتي قد تهم مطوري الوحدة/التطبيق. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-### **Adds Aspose.ThreeD. nntities. فئة rurustum**
+###  **يضيف Aspose.ThreeD.Entities.Frustum class**
 يتم إضافة A فئة جديدة rurustum. كانت amamera و ight ight الطبقات الفرعية من فئة Entity. In الإصدار 1.7.0 ، يتم inherهذه الطبقات من rurustum و rurustum من Entity ، حيث يتم استخراج خصائص sition osition ، Up ، ooookAt ، Direction ، ararget ، lane earPlane و FarPlane في rurustum.
 
-**أعضاء Extracted من Aspose.ThreeD. nntities. Camera إلى Aspose.ThreeD. nntities. rurustum** 
+**الأعضاء المستخرجون من Aspose.ThreeD. Entials. Camera إلى Aspose.ThreeD. Entials. Frustum** 
 All يتم استخراج هذه الخصائص إلى الصدأ F:
 
 **C#**
@@ -44,7 +44,7 @@ double FarPlane{ get;set;}
 
 {{< /highlight >}}
 
-**أعضاء Extracted من الفئة Aspose.ThreeD. nntities. ight ight إلى Aspose.ThreeD. nntities. rurustum** 
+**الأعضاء المستخرجون من الفئة Aspose.ThreeD. Enabilies. Light إلى Aspose.ThreeD.Entities.Frustum** 
 All يتم استخراج هذه الخصائص إلى الصدأ F:
 
 **C#**
@@ -56,8 +56,8 @@ All يتم استخراج هذه الخصائص إلى الصدأ F:
 Aspose.ThreeD.Utilities.Vector3 Direction{ get;set;}
 
 {{< /highlight >}}
-### **Adds Aspose.ThreeD. فئة مستحضرات التجميل**
-**Convert ملف 3D لتنسيق ملف الصورة**
+###  **تضيف Aspose.ThreeD.ImageRenderOptions class**
+**تحويل ملف 3D إلى تنسيق ملف صورة**
 
 **C#**
 
@@ -99,7 +99,7 @@ scene.Render(camera, fileName, new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
 
-**أعضاء Added إلى الفئة Aspose.ThreeD.**
+**أضاف أعضاء إلى الفصل Aspose.ThreeD.Scene:**
 
 **C#**
 
@@ -114,7 +114,7 @@ public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap b
 public void Render(Aspose.ThreeD.Entities.Camera camera, System.Drawing.Bitmap bitmap, Aspose.ThreeD.ImageRenderOptions options)
 
 {{< /highlight >}}
-### **Adds MoveFطريقة orward في Aspose.ThreeD. nntities. Camera الفئة**
+###  **تضيف طريقة نقل إلى الأمام بـ Aspose.ThreeD. Enability. Camera class**
 It يتحرك إلى الأمام الكاميرا نحو اتجاهها. يتم تحديد اتجاه الكاميرا A من قبل أي من ararget/Direction/ooookAt
 
 - **Target:**A الهدف عقدة في الفضاء ، فإن الكاميرا ننظر دائما إلى هذا الهدف مهما كان الهدف/الكاميرا قد غيرت موقعها في الفضاء.
@@ -130,8 +130,8 @@ Method Signature:
  public void MoveForward(double distance)
 
 {{< /highlight >}}
-### **أعضاء في Aspose.ThreeD. nntities. class eometry الفئة**
-يمكن formats تنسيقات ملفات ome تخزين إعدادات الظل ذات الصلة في الهندسة مثل FBX ، كما أنها تستخدم في تقديم. على سبيل المثال هذا الرمز ، ظلال الصندوق الأحمر وتوروس يلقي إلى الطائرة ، فإن الصندوق الأحمر لن تتلقى الظلال و صندوق أزرق لن يلقي الظلال.
+###  **يضيف CastShadows وأعضاء ReceiveShadows بـ Aspose.ThreeD.Entities.Geometry class**
+يمكن لبعض تنسيقات الملفات تخزين الإعدادات المتعلقة بالظل في الهندسة مثل FBX ، ويتم استخدامها أيضًا في العرض. في هذا المثال الرمزي ، ظلال الصندوق الأحمر والحنجرة الملقاة على الطائرة ، لن يتلقى الصندوق الأحمر الظلال ولن يلقي الصندوق الأزرق ظلالاً.
 
 **C#**
 
@@ -218,7 +218,7 @@ ImageRenderOptions opt = new ImageRenderOptions() {EnableShadows = true};
 scene.Render(camera, "pic.png", new Size(1024, 1024), ImageFormat.Png, opt);
 
 {{< /highlight >}}
-### **Adds enerenerateNطريقة أورمال في Aspose.ThreeD. nntities.**
+###  **يضيف طريقة GenerateNormal في Aspose.ThreeD. Enties. PolygonModifier class**
 It يسمح للمطورين لتوليد البيانات العادية من Mesh على سبيل المثال ، إذا تم تعريف عنصر mooertexEleالقابل moomoothingGroup على الشبكة ، فإن البيانات العادية التي تم إنشاؤها سوف تحصل على تمهيد من قبل erertexEleالقابل moomoothingGroup.
 
 Method Signature:
@@ -264,7 +264,7 @@ s.RootNode.Accept(delegate(Node n)
 });
 
 {{< /highlight >}}
-### **طريقة ondds ononcate في Aspose.ThreeD.**
+###  **تضيف طريقة كونكيت في Aspose.ThreeD. Utility. Quaternion class**
 It يسمح للمطورين لربط اثنين من التحول دوران إلى واحد ممثلة في Quaternion.
 
 Method Signature:

@@ -1,5 +1,5 @@
-﻿---
-title: 渲染
+---
+title: Rendering
 type: docs
 weight: 80
 url: /zh/net/rendering/

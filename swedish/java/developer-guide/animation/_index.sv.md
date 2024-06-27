@@ -1,5 +1,5 @@
-﻿---
-title: Animering
+---
+title: Animation
 type: docs
 weight: 40
 url: /sv/java/animation/

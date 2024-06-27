@@ -1,21 +1,21 @@
-﻿---
-title: Stalnstallation
+---
+title: Installation
 type: docs
 weight: 40
 url: /tr/python-net/installation/
 ---
-## **sistem gereksinimleri**
+##  **Sistem gereksinimleri**
 
-First, makinenin özelliklerinin karşılandığını kontrol etmeli ve onaylamalısınız.[Sistem gereksinimleri](/3d/tr/python-net/system-requirements/).
+First, you have to check and confirm that machine’s specifications meet the [system requirements](/3d/python-net/system-requirements/).
 
-## **Python via .NET için 07nstalling Aspose.3D**
-`pip` indirmek ve yüklemek için en kolay yoldur[Python via .NET için Aspose.3D](https://pypi.org/project/aspose-3d/).
+##  **Aspose.3D for Python via .NET kurulumu**
+`pip` is the easiest way to download and install [Aspose.3D for Python via .NET](https://pypi.org/project/aspose-3d/).
 
-To Aspose.3D yükleyin, bu komutu çalıştırın: pip yükle aspose-3d
+To install Aspose.3D, run this command: pip install aspose-3d
 
-## **Python via .NET için 07sing Aspose.3D**
+##  **Using Aspose.3D for Python via .NET**
 
-Modülü yüklemeyi bitirdiğinizde, python kodunuzdan Aspose.3D kullanabilirsiniz:
+Once you finish installing the module, you can use Aspose.3D from your python code this way:
 
 ```py
 import aspose.threed as a3d

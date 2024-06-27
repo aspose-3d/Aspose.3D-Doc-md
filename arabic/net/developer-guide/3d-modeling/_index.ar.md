@@ -1,7 +1,7 @@
-﻿---
-title: 3D Modeling
+---
+title: 3D النمذجة
 type: docs
 weight: 70
 url: /ar/net/3d-modeling/
-description: Rrticles حول 3D النمذجة في Aspose.3D for .NET.
+description: مقالات حول 3D النمذجة الإجرائية بـ Aspose.3D for .NET.
 ---

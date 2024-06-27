@@ -1,12 +1,12 @@
-﻿---
-title: 阅读3D文档
+---
+title: 阅读 3D 文档
 type: docs
 weight: 30
 url: /zh/java/read-3d-document/
-description: Aspose.3D for Java API支持阅读各种类型的3D文档。
+description: Aspose.3D for Java API 支持阅读各种类型的 3D 文档。
 ---
-## **3D支持的格式列表 (导入)**
-Aspose.3D for Java API支持阅读各种类型的3D文档。`Scene`类的可用构造函数有助于这样做，它们接受有效的文件路径字符串。支持的可读文件格式如下:
+##  **3D 支持的格式列表 (导入)**
+Aspose.3D for Java API 支持阅读各种类型的 3D 文档。`Scene` 类的可用构造函数有助于这样做，它们接受有效的文件路径字符串。支持的可读文件格式如下:
 
 1. FBX 7.5 (ASCII，二进制)
 1. FBX 7.4 (ASCII，二进制)
@@ -26,13 +26,13 @@ Aspose.3D for Java API支持阅读各种类型的3D文档。`Scene`类的可用�
 1. RVM (文本，二进制)
 1. ASE
 
-场景类的构造函数在内部检测3D文档格式。
-## **导入3D文档**
-Aspose.3D for Java API支持为修改、添加和处理目的导入各种类型的3D文档。
-### **阅读3D场景: 编程示例**
+Scene类的构造函数在内部检测 3D 文档格式。
+##  **导入 3D 文档**
+Aspose.3D for Java API 支持导入各种类型的 3D 文档，用于修改、添加和处理。
+###  **读取 3D 场景: 编程示例**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-ReadExistingScene.java" >}}
-## **使用3D属性**
-Aspose.3D API使您可以使用场景的子节点读取3D场景属性。下面的代码示例演示了此功能的用法。
+##  **使用 3D 属性**
+Aspose.3D API 允许您使用场景的子节点读取 3D 场景属性。下面的代码示例演示了此功能的用法。
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-scene-ThreeDProperties-ThreeDProperties.java" >}}
 

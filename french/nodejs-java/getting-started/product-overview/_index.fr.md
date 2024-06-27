@@ -1,0 +1,56 @@
+---
+title: Aperçu du produit
+type: docs
+weight: 10
+url: /fr/nodejs-java/product-overview/
+description: Aspose.3D for Node.js via Java est une bibliothèque de classes multiplateforme qui permet à vos applications de se connecter automatiquement avec les formats de document 3D courants sans que le logiciel de modélisation et de rendu 3D ne soit installé sur le serveur. Aspose.3D API permet aux ingénieurs de lire, convertir, construire, modifier et contrôler la substance des formats de documents 3D.
+---
+{{% alert color="primary" %}} 
+
+! [Tout le monde: image_alt_text](product-overview_1.png)
+
+**Bienvenue dans la section de la documentation Aspose.3D for Node.js via Java**
+
+Aspose.3D for Node.js via Java est une bibliothèque de classes multiplateforme qui permet à vos applications de se connecter automatiquement avec les formats de document 3D courants sans que le logiciel de modélisation et de rendu 3D ne soit installé sur le serveur. Aspose.3D API permet aux ingénieurs de lire, convertir, construire, modifier et contrôler la substance des formats de documents 3D.
+
+Le API est convivial, il permet d'économiser du temps et de l'argent que de créer une solution similaire à partir de zéro.
+
+{{% /alert %}} 
+##  **Avantages**
+L'utilisation de Aspose.3D for Node.js via Java dans vos applications vous donne les avantages suivants:
+
+- Caractéristiques riches
+- Performance et évolutivité
+- Prise en charge des formats de fichier 3D
+###  **Caractéristiques riches**
+Aspose.3D offre un large éventail de fonctionnalités pour créer, lire, manipuler et enregistrer des fichiers 3D:
+
+- Construire le maillage de différentes formes géométriques 3D
+- Créer un document de scène 3D
+- Mettre en place des normales ou des UV sur le Cube
+- Mettre en forme les éléments en utilisant 3D Transformations
+- Partagez les données de géométrie de Mesh entre les multiples nœuds
+- Ajouter une propriété Animation au document de scène 3D
+###  **Performance et évolutivité**
+Aspose.3D for Node.js via Java est conçu pour fonctionner aussi bien du côté serveur que du côté client. Aspose.3D for Node.js via Java est une bibliothèque unique Node.js qui peut être déployée avec n'importe quelle application Node.js en la copiant simplement. Vous n'avez pas à vous soucier d'autres services ou modules.
+###  **Support technique**
+Aspose offre un support spécialisé gratuit et illimité à chacune de ses API. Le support est disponible pour tous les clients, même pendant leur évaluation du API.
+
+Si vous avez besoin d'aide avec Aspose.3D for Node.js via Java, visitez [**Aspose Forums**](https://forum.aspose.com/). Postez votre question dans le forum Aspose.3D for Node.js via Java et elle recevra une réponse dans quelques heures. Les questions sont répondues directement par l'équipe de bonheur client Aspose.3D for Node.js via Java. Lorsque vous attendez une réponse dans les forums, veuillez tenir compte des différences de fuseau horaire.
+
+Si vous rencontrez un problème avec Aspose.3D for Node.js via Java, veuillez suivre ces étapes simples pour vous assurer qu'il est résolu de la manière la plus efficace:
+
+- Assurez-vous d'utiliser la dernière version Aspose.3D for Node.js via Java avant de signaler le problème. Reportez-vous au [Index des packages Node.js](https://www.npmjs.com/package/aspose.3d) pour connaître la dernière version.
+- Jetez un coup d'œil à [Forum](https://forum.aspose.com/c/3d), [Documentation](/3d/fr/nodejs-java/) et [API Référence](https://reference.aspose.com/3d/java) pour trouver des solutions avant de signaler le problème. Votre question a peut-être déjà une réponse.
+- Lorsque vous signalez un problème, veuillez inclure le document original et éventuellement un fragment du code à l'origine du problème. Si vous devez joindre plusieurs fichiers, compressez-les dans une archive. Vous pouvez joindre vos documents en toute sécurité dans Aspose Forums puisque seuls vous et les membres du personnel de Aspose aurez accès aux fichiers joints.
+- Veuillez essayer de signaler un problème par thread. Si vous avez un autre problème, signalez-le dans un thread séparé.
+##  **Ressources**
+Ce tableau répertorie les ressources techniques importantes de Aspose.3D for Node.js via Java:
+
+|**Ressource**|**Description**|
+| :- | :- |
+|[Aspose.3D Page d'accueil](https://products.aspose.com/3d/nodejs-java/)|Page d'accueil du produit.|
+|[Blog Aspose.3D](https://blog.aspose.com/category/3d/)|Vérifiez cela souvent pour obtenir des informations sur les nouvelles versions et des conseils utiles sur Aspose.3D for Node.js via Java|
+|[Aspose.3D for Node.js via Java Télécharger](https://www.npmjs.com/package/aspose.3d)|Téléchargez la dernière version de Aspose.3D for Node.js via Java|
+|[Aspose.3D for Node.js via Java Forum de soutien](https://forum.aspose.com/c/3d/18)|Postez vos questions et problèmes ici pour une résolution rapide|
+

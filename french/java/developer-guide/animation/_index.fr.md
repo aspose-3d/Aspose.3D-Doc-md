@@ -1,4 +1,4 @@
-﻿---
+---
 title: Animation
 type: docs
 weight: 40

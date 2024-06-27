@@ -1,11 +1,11 @@
-﻿---
-title: 将场景导出为压缩AMF格式
+---
+title: 将场景导出为压缩的 AMF 格式
 type: docs
 weight: 30
 url: /zh/python-net/export-scene-to-compressed-amf-format/
-description: Aspose.3D for Python via .NET提供AmfSaveOptions类，它允许您根据您的要求设置bool值进行压缩。默认情况下，该值设置为true。
+description: Aspose.3D for Python via .NET 提供AmfSaveOptions类，允许您根据您的要求设置压缩的bool值。默认情况下，该值设置为true。
 ---
-# **将场景导出为压缩AMF格式**
-Aspose.3D for Python via .NET提供了`AmfSaveOptions`类，它允许您根据您的要求设置bool值进行压缩。默认情况下，该值设置为true。以下代码片段显示了生成压缩AMF格式文件的完整功能:
+#  **将场景导出为压缩的 AMF 格式**
+Aspose.3D for Python via .NET 提供 `AmfSaveOptions` 类，允许您根据需要设置压缩的bool值。默认情况下，该值设置为true。以下代码段显示了生成压缩的 AMF 格式文件的完整功能:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DScene-ExportSceneToCompressedAMF -CompressedAMF.py" >}}

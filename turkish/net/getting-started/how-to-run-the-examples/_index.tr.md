@@ -1,32 +1,32 @@
-﻿---
+---
 title: Eow to Eun the ampxamples
 type: docs
 weight: 70
 url: /tr/net/how-to-run-the-examples/
-description: Here Aspose.3D for .NET örneklerini nasıl çalıştıracağınızı size rehberlik edeceğiz.
+description: Here we will guide you how to run the examples of Aspose.3D for .NET.
 ---
-## **Tware oftware rements equirements**
+##  **Tware oftware rements equirements**
 Please örnekleri indirmeden ve çalıştırmadan önce aşağıdaki gereksinimleri karşıladığınızdan emin olun.
 
-1. Visual Studio 2010 veya daha yüksek
-1. Visual Studio yılında NuGet Package anaanager kuruldu. Men son NuGet API sürümünün Visual Studio yılında kurulduğundan emin olun. Fveya 076481 481 paket yöneticisinin nasıl kurulacağına dair detaylar lütfen kontrol edin<https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools>
-1. To Tools-> ptions ptions->NuGet Package anaanager->Package ourources ve seçeneği emin olun**nuget.org**Kontrol edilir
-1. Ex. projesi NuGet Automatic Pac. Restore özelliğini kullanır, bu nedenle aktif bir internet bağlantısına sahip olmanız gerekir. If örneklerin yürütüleceği makinede aktif bir internet bağlantınız yok lütfen kontrol edin[Stalnstallation](/3d/tr/net/installation/)Ve örnek projede Aspose.3D.dll referansını manuel olarak ekleyin.
-## **Gload load from ititub ub**
-All örnekleri Aspose.3D for .NET üzerinde barındırılmıştır[Gitub ub](https://github.com/aspose-3d/Aspose.3D-for-.NET).
+1. ViiStudio 2010 veya üstü
+1. NuGet Package Manager installed in Visual Studio. Make sure that latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check <https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools>
+1. Araçlara git-> seçenekler->NuGet paket yöneticisi-> paket kaynakları ve seçeneğin olduğundan emin olun**nuget.org**Kontrol edilir
+1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/3d/net/installation/) and manually add reference to Aspose.3D.dll in the example project.
+##  **Gload load from ititub ub**
+All examples of Aspose.3D for .NET are hosted on [GitHub](https://github.com/aspose-3d/Aspose.3D-for-.NET).
 
-- You, depoyu en sevdiğiniz Gitub ub istemcisini kullanarak klonlayabilir veya ZIP dosyasını indirebilir[Burada](https://github.com/aspose-3d/Aspose.3D-for-.NET/archive/master.zip).
-- 07ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre ekleyin. All örnekler `Examples` klasöründe bulunur.
-- Tburada C# örnekleri içeren Project'de bir Solution ile ile.
-- The projeleri Visual Studio 2013 yılında oluşturulur, ancak çözüm dosyaları Visual Studio 2010 SP1 ve üstü ile uyumludur.
-- Çözüm dosyasını Visual Studio 'te kalemle ve projeyi oluşturun.
-- On ilk önce bağımlılıkları otomatik olarak NuGet üzerinden indirilecektir.
-- `Examples` kök klasöründe `Data` klasörü, kullanılan input harp harp örneklerini içeren giriş dosyalarını içerir. It, `Data` klasörünü örnek proje ile birlikte indirmeniz zorunludur.
-- Open `RunExamples.cs` dosyası, tüm örnekler buradan adlandırılır.
+- Depoyu favori github istemcinizi kullanarak klonlayabilir veya ZIP dosyasını [Burada](https://github.com/aspose-3d/Aspose.3D-for-.NET/archive/master.zip) adresinden indirebilirsiniz.
+- ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre ayıklayın. Tüm örnekler `Examples` klasöründe bulunur.
+- Projede C# örnekleri içeren bir çözüm dosyası var.
+- To projeleri Vi. Studio 2013 yılında oluşturulur, ancak çözüm dosyaları Viitutudio 2010 S1 1 ve üstü ile uyumludur.
+- Solution çözüm dosyasını Visual Studio'da kalemle ve projeyi oluşturun.
+- On first run the dependencies will automatically be downloaded via NuGet.
+- `Data` klasöründe `Examples` kök klasöründe csharp örnekleri kullanılan giriş dosyaları içerir. Örnek proje ile birlikte `Data` klasörünü indirmeniz zorunludur.
+- Open `RunExamples.cs` file, all the examples are called from here.
 - Uprojeden çalıştırmak istediğiniz örnekleri yorumlayın.
 
 Pherhangi bir sorununuz varsa veya örnekleri çalıştırırsanız, Forumlarımızı kullanarak ulaşmaktan çekinmeyin.
-## **Contribute**
+##  **Contribute**
 Bir örnek eklemek veya geliştirmek isterseniz, projeye katkıda bulunmanızı öneririz. Bu depodaki All örnekleri ve vitrin projeleri açık kaynaktır ve kendi uygulamalarınızda serbestçe kullanılabilir.
 
 To contribute, depoyu çatallayabilir, kaynak kodunu düzenleyebilir ve bir çekme isteği oluşturabilirsiniz. We değişiklikleri gözden geçirecek ve yararlı bulunursa depoya ekleyecektir.

@@ -1,19 +1,19 @@
-﻿---
+---
 title: Sparen Sie 3D Szene als HTML in C#
 linktitle: Sparen Sie 3D Szene als HTML
 type: docs
 weight: 90
 url: /de/net/save-3d-scene-as-html/
 ---
-## **Übersicht**
+##  **Übersicht**
 
-Dieser Artikel erklärt, wie Sie 3D-Dateien nach HTML konvertieren können[Laden sie in Szene Objekt](https://docs.aspose.com/3d/net/create-and-read-an-existing-3d-scene/)Unter Verwendung von C# und deckt ein breites Spektrum von Themen ab (unter Berücksichtigung[Unterstützte Dateiformate](https://docs.aspose.com/3d/net/supported-file-formats/)) Z.B.
+Dieser Artikel erklärt, wie Sie 3D-Dateien nach [Laden sie in Szene Objekt](https://docs.aspose.com/3d/net/create-and-read-an-existing-3d-scene/) mit C# in HTML konvertieren können, und deckt eine breite Palette von Themen ab (unter Berücksichtigung von [Unterstützte Dateiformate](https://docs.aspose.com/3d/net/supported-file-formats/)), z.
 
-- 3DS zu HTML unter Verwendung von C# konvertieren
-- C# FBX auf HTML umrechnen
-- C# STL auf HTML umrechnen
-- C# U3D auf HTML umrechnen
-- C# OBJ auf HTML umrechnen
+- Konvertieren Sie 3DS in HTML mit C#
+- FBX zu HTML in C# umrechnen
+- STL zu HTML in C# umrechnen
+- U3D zu HTML in C# umrechnen
+- OBJ zu HTML in C# umrechnen
 
 
 {{% alert color="primary" %}} 
@@ -21,8 +21,8 @@ Dieser Artikel erklärt, wie Sie 3D-Dateien nach HTML konvertieren können[Laden
 Diese Funktion wird von Version 19.9 oder höher unterstützt.
 
 {{% /alert %}} 
-## **Sparen Sie 3D Szene als HTML**
-Aspose.3D for .NET bietet `Html5SaveOptions` Klasse, um eine Save 3D Szene als HTML zu speichern. Wenn Sie die Szene in die Datei HTML5 exportieren, exportiert API drei Dateien, eine Datei `HTML`, eine Datei Aspose3DWeb (*.**A3dw**) Und eine gerenderte 'JavaScript'-Datei. Um nur a3dw-Datei zu exportieren, können Sie Aspose3DWeb als Export typ angeben und die JavaScript-Datei auf Ihrer eigenen HTML-Seite wieder verwenden. Das folgende C#-Code-Snippet zeigt, wie Sie eine 3D-Szene als HTML speichern.
+##  **Sparen Sie 3D Szene als HTML**
+Aspose.3D for .NET bietet `Html5SaveOptions` Klasse, um eine Spar-3D-Szene als HTML zu sparen. Wenn Sie die Szene in HTML5-Datei exportieren, exportieren API drei Dateien, eine `HTML`-Datei, eine Aspose3DWeb-Datei (*.* a3dw **) und eine gerenderte `JavaScript`-Datei. Um nur a3dw-Datei zu exportieren, können Sie Aspose3DWeb als Export typ angeben und die JavaScript-Datei innerhalb Ihrer eigenen HTML-Seite wieder verwenden. Das folgende C#-Code-Snippet zeigt, wie Sie eine 3D-Szene als HTML speichern.
 
 
 
@@ -30,7 +30,7 @@ Aspose.3D for .NET bietet `Html5SaveOptions` Klasse, um eine Save 3D Szene als H
 
 {{% alert color="primary" %}} 
 
-Aufgrund der Sicherheits grenzen des Browsers kann die exportierte Datei HTML nicht direkt geöffnet werden. Sie müssen sie über einen Webserver öffnen. Wenn Sie python3 installiert haben, können Sie den Webserver in der Befehlszeile im exportierten Verzeichnis starten
+Aufgrund der Sicherheits grenzen des Browsers kann die exportierte HTML-Datei nicht direkt geöffnet werden. Sie müssen sie über einen Webserver öffnen. Wenn Sie python3 installiert haben, können Sie den Webserver in der Befehlszeile im exportierten Verzeichnis starten
 
 {{% /alert %}} 
 

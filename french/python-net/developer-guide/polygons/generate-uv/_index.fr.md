@@ -1,12 +1,12 @@
-﻿---
+---
 title: Générer des UV
 type: docs
 weight: 20
 url: /fr/python-net/generate-uv/
-description: Aspose.3D pour Python via .NET offre la classe de polygonmodificateur qui expose la méthode GenerateUV, avec laquelle vous pouvez générer manuellement UV et l'associer avec le maillage. L'extrait de code suivant montre une fonctionnalité complète pour le générer et l'associer.
+description: Aspose.3D for Python via .NET offre la classe PolygonModifier qui expose la méthode GenerateUV, avec laquelle vous pouvez générer manuellement UV et l'associer au maillage. L'extrait de code suivant montre la fonctionnalité complète pour le générer et l'associer.
 ---
-# **Générer des UV**
-Aspose.3D pour Python via .NET offre `PolygonModifier` classe qui expose `generate_uv` méthode, avec laquelle vous pouvez générer manuellement UV et l'associer avec le maillage. L'extrait de code suivant montre une fonctionnalité complète pour le générer et l'associer:
+#  **Générer des UV**
+Aspose.3D for Python via .NET propose la classe `PolygonModifier` qui expose la méthode `generate_uv`, avec laquelle vous pouvez générer manuellement UV et l'associer au maillage. L'extrait de code suivant montre la fonctionnalité complète pour le générer et l'associer:
 
 
 

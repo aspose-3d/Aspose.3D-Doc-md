@@ -1,17 +1,17 @@
-﻿---
+---
 title: Упростить создание матрицы преобразования цепными операциями
 type: docs
 weight: 60
 url: /ru/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D для Python via .NET API предлагает класс TransformBuilder, который упрощает создание матрицы преобразования с помощью цепных операций.
+description: Aspose.3D for Python via .NET API предлагает класс TransformBuilder, который упрощает создание матрицы преобразования операциями цепочки.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D для Python via .NET API предлагает класс `TransformBuilder`, который упрощает создание матрицы преобразования цепными операциями.
+Aspose.3D for Python via .NET API предлагает класс `TransformBuilder`, который упрощает создание матрицы преобразования операциями цепочки.
 
 {{% /alert %}} 
 
-Предположим, есть экземпляр `TransformBuilder`**Тб**, И цепные операции:
+Предположим, что есть экземпляр `TransformBuilder`**Тб**, И цепные операции:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-Новые добавленные методы в классах `Matrix4` и `TransformBuilder`-это утилиты для разработчиков для моделирования сцены за программой, поэтому им не нужно вручную строить матрицу преобразования, ее обычно используют опытные разработчики.
+Новые методы в классах `Matrix4` и `TransformBuilder` являются утилитами для разработчиков для моделирования сцены по программе, поэтому им не нужно вручную создавать матрицу преобразования, это обычно используется опытными разработчиками.
 
-Порядковые разработчики могут использовать свойство `Transform` класса `Node` для изменения преобразования/масштабирования/вращения объекта.
+Обычные разработчики могут использовать свойство `Transform` класса `Node` для изменения трансляции/масштабирования/вращения объекта.
 
-Разработчики также могут присвоить матрицу, созданную `TransformBuilder`, `Node.Transform`.
+Разработчики также могут назначить матрицу, созданную `TransformBuilder`, `Node.Transform`.
 
-Более подробную информацию о матрице трансформации можно найти в Википедии[Матрица трансформации](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)И[Аффинная трансформация](https://en.wikipedia.org/wiki/Affine_transformation)
+Более подробную информацию о матрице преобразования можно найти в Википедии [Матрица трансформации](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) и [Аффинная трансформация](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

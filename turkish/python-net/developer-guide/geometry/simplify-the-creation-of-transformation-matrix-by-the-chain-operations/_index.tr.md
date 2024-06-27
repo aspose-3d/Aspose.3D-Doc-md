@@ -1,17 +1,17 @@
-﻿---
+---
 title: Szincir işlemleri ile dönüşüm matrisinin oluşturulmasını içerir
 type: docs
 weight: 60
 url: /tr/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Python via .NET API için Aspose.3D, dönüşüm matrisinin zincir işlemleri tarafından oluşturulmasını kolaylaştıran TransformBuilder sınıfını sunar.
+description: Aspose.3D for Python via .NET API, dönüşüm matrisinin zincir işlemleri tarafından oluşturulmasını kolaylaştıran transformbuilder sınıfını sunar.
 ---
 {{% alert color="primary" %}} 
 
-Python via .NET Aspose.3D API için `TransformBuilder` sınıfı, zincir işlemleri ile dönüşüm matrisinin oluşturulmasını basitleştirir.
+Aspose.3D for Python via .NET API, dönüşüm matrisinin zincir işlemleri tarafından oluşturulmasını kolaylaştıran `TransformBuilder` sınıfını sunar.
 
 {{% /alert %}} 
 
-Suppose, `TransformBuilder` örneği var**Tb**Ve zincir işlemleri:
+Varsayalım, bir `TransformBuilder` örneği var**Tb**Ve zincir işlemleri:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-07o `Matrix4` ve `TransformBuilder` sınıflarında yeni eklenen yöntemler, geliştiricilerin sahneyi programa göre modellemesi için yardımcı programlardır, bu yüzden dönüşüm matrisini manuel olarak oluşturmalarına gerek yoktur, bu genellikle uzman geliştiriciler tarafından kullanılır.
+`Matrix4` ve `TransformBuilder` sınıflarındaki yeni eklenen yöntemler, geliştiricilerin sahneyi programa göre modellemesi için yardımcı programlardır, bu nedenle dönüşüm matrisini manuel olarak oluşturmalarına gerek yoktur, bu genellikle uzman geliştiriciler tarafından kullanılır.
 
-Dinal r. geliştiricileri, bir nesnenin çeviri/ölçekleme/dönüşünü değiştirmek için `Transform` sınıfı `Node` özelliğini kullanabilir.
+Ordinal developers can use the `Transform` property of class `Node` to change the translation/scaling/rotation of an object.
 
-Developers ayrıca `TransformBuilder` ile `Node.Transform` arasında oluşturulan matrisi atayabilir.
+Developers can also assign the matrix created by `TransformBuilder` to `Node.Transform`.
 
-Dönüşüm matrisi hakkında cevher bilgisi Wikipedia'da bulunabilir[Transformation matrisi](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)Ve[Affine Transofrmation](https://en.wikipedia.org/wiki/Affine_transformation)
+Dönüşüm matrisi hakkında daha fazla bilgi vikipedi [Transformation matrisi](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) ve [Affine Transofrmation](https://en.wikipedia.org/wiki/Affine_transformation) adresinde bulunabilir.
 
 {{% /alert %}}

@@ -1,30 +1,30 @@
-﻿---
-title: Hangublic API hangمعلقة في Aspose.3D 16.9.0
+---
+title: العام API التغييرات في Aspose.3D 16.9.0
 type: docs
 weight: 30
 url: /ar/net/public-api-changes-in-aspose-3d-16-9-0/
 ---
 **Contents Sأوماري**
 
-- [Import 3D cencene من 07ource PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
-  - [Adds Aspose.ThreeD. orormat. dfdfLoadOptions lass](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
-  - [Adds Aspose.ThreeD. orileFormat و Aspose.ThreeD. orormat. dfdfFormat C](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
-- [Save a 3D cencene في PDF orormat](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
-  - [Adds Aspose.ThreeD](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
-- [Adds riريانغولي Method في Aspose.ThreeD. nntities.](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
-- [Adds اثنين من thouildTangentBالأمراض غير الطبيعية في Aspose.ThreeD.](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [استورد مشهد 3D من المصدر PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
+-[يضيف Aspose.ThreeD. Formules. PdfLoadOptions Class](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
+-[تضيف Aspose.ThreeD.FileFormat و Aspose.ThreeD.Formats.PdfFormat Class](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
+- [توفير مشهد 3D بتنسيق PDF](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
+-[يضيف Aspose.ThreeD.Formats.PdfSaveOptions class و Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
+- [تضيف طريقة التثليث في فئة Aspose.ThreeD. Enties. PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [يضيف طريقتين buildtanentbinormal في فئة Aspose.ThreeD.Entities.PolygonModifier](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 2.1.0 إلى 16.9.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+يوضح هذا المستند التغييرات إلى Aspose.3D API من الإصدار 2.1.0 إلى 16.9.0 ، والتي قد تكون ذات فائدة لمطوري الوحدة/التطبيق. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-### **Import 3D cencene من 07ource PDF**
-Uالغناء الإصدار الأخير (16.9.0) أو أعلى ، يمكن للمطورين استرداد 3D مشاهد من ملف الإدخال PDF.
-#### **Adds Aspose.ThreeD. orormat. dfdfLoadOptions lass**
-لقد أضاف We فئة ptions dfLoadO. It يساعد في تحميل المحتوى من ملف الإدخال PDF. قد تطبق opers evelكلمة المرور ل protected protected protected المحمية s.
+###  **استورد مشهد 3D من المصدر PDF**
+باستخدام الإصدار الأخير (16.9.0) أو أعلى ، يمكن للمطورين استرداد مشاهد 3D من ملف إدخال PDF.
+####  **يضيف Aspose.ThreeD. Formules. PdfLoadOptions Class**
+لقد أضفنا فئة PdfLoadOptions. يساعد في تحميل المحتوى من ملف الإدخال PDF. يمكن للمطورين تطبيق كلمة مرور لـ PDFs المحمية.
 
-**Oمشهد القلم من ملف PDF محمية بكلمة مرور**
+**مشهد مفتوح من ملف PDF المحمي بكلمة مرور**
 
 {{< highlight "java" >}}
 
@@ -45,8 +45,8 @@ PdfLoadOptions opt = new PdfLoadOptions() {Password = Encoding.UTF8.GetBytes("pa
 scene.Open(path, opt);
 
 {{< /highlight >}}
-#### **Adds Aspose.ThreeD. orileFormat و Aspose.ThreeD. orormat. dfdfFormat C**
-لقد أضاف We إدخال تنسيق PDF في فئة orileFormat لأغراض التحميل saving. Tانه PdfFormat الطبقة يساعد على التلاعب PPFs.
+####  **تضيف Aspose.ThreeD.FileFormat و Aspose.ThreeD.Formats.PdfFormat Class**
+لقد أضفنا إدخال بتنسيق PDF في فئة تنسيق الملفات لأغراض التحميل والتوفير. تساعد فئة PdfFormat على التلاعب بملفات PDFs.
 
 {{< highlight "java" >}}
 
@@ -54,7 +54,7 @@ scene.Open(path, opt);
 
 {{< /highlight >}}
 
-**Extract جميع المحتويات الخام 3D من ملف PDF**
+**استخراج كل محتويات 3D الخام من ملف PDF**
 
 {{< highlight "java" >}}
 
@@ -62,7 +62,7 @@ scene.Open(path, opt);
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 // extract 3D contents
 
@@ -72,7 +72,7 @@ int i = 1;
 
 // iterate through the contents and in separate 3D files
 
-foreach (byte[]content in contents)
+foreach (byte[] content in contents)
 
 {
 
@@ -84,7 +84,7 @@ foreach (byte[]content in contents)
 
 {{< /highlight >}}
 
-**Extract جميع مشاهد 3D وحفظها في ملف FBX**
+**استخرج جميع مشاهد 3D وحفظها في ملف FBX**
 
 {{< highlight "java" >}}
 
@@ -92,7 +92,7 @@ foreach (byte[]content in contents)
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 List<Scene> scenes = FileFormat.PDF.ExtractScene(path, password);
 
@@ -111,12 +111,12 @@ foreach (Scene scene in scenes)
 }
 
 {{< /highlight >}}
-### **Save a 3D cencene في PDF orormat**
-Uالغناء الإصدار الأخير (16.9.0) أو أعلى ، يمكن للمطورين حفظ جميع الملفات المدعومة 3D في تنسيق PDF.
-#### **Adds Aspose.ThreeD**
-يساعد ptions he dfdfSaveOفي تطبيق الإعداد قبل الحفظ في تنسيق الإخراج PDF. Dإيفليرز يمكن تعيين وضع تقديم ونظام الإضاءة قبل توفير مشهد 3D في تنسيق PDF على النحو التالي:
+###  **توفير مشهد 3D بتنسيق PDF**
+باستخدام الإصدار الأخير (16.9.0) أو أعلى ، يمكن للمطورين حفظ جميع ملفات 3D المدعومة بتنسيق PDF.
+####  **يضيف Aspose.ThreeD.Formats.PdfSaveOptions class و Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode**
+يساعد PdfSaveOptions في تطبيق الإعداد قبل الحفظ في تنسيق الإخراج PDF. يمكن للمطورين تعيين وضع تقديم ونظام إضاءة قبل حفظ مشهد 3D في تنسيق PDF على النحو التالي:
 
-**Rereate 3D PDF مع اسطوانة ، وقدمت في وضع التوضيح المظلل مع CAD الإضاءة الأمثل**
+**Create a 3D PDF with a cylinder, and rendered in shaded illustration mode with CAD optimized lighting**
 
 {{< highlight "java" >}}
 
@@ -141,10 +141,10 @@ opt.RenderMode = PdfRenderMode.ShadedIllustration;
 scene.Save("output.pdf", opt);
 
 {{< /highlight >}}
-### **Adds riريانغولي Method في Aspose.ThreeD. nntities.**
+###  **تضيف طريقة التثليث في فئة Aspose.ThreeD. Enties. PolygonModifier**
 وقد أضاف We الزائد آخر من طريقة ريانغويتي في فئة أوديفييه أوليغونغونغ التي تأخذ كائن فئة cenسين كمعلمة.
 
-**Convert جميع المضلعات إلى مثلثات في ملف FBX**
+**تحويل جميع المضلعات إلى مثلثات في ملف FBX**
 
 {{< highlight "java" >}}
 
@@ -161,10 +161,10 @@ PolygonModifier.Triangulate(scene);
 scene.Save("triangulated.fbx", FileFormat.FBX7400ASCII);
 
 {{< /highlight >}}
-### **Adds اثنين من thouildTangentBالأمراض غير الطبيعية في Aspose.ThreeD.**
+###  **يضيف طريقتين buildtanentbinormal في فئة Aspose.ThreeD.Entities.PolygonModifier**
 لقد أضاف We اثنين من الطرق غير الطبيعية في الطرق غير الطبيعية في فئة أوديفير أوليغونديفير. طريقة ne ne تأخذ كائن فئة cencene كمعلمة وآخر يأخذ كائن فئة Mesh كمعلمة.
 
-**Build بيانات متشابكة وبينورمال لجميع تنسجم في ملف FBX**
+**إنشاء بيانات ظلالية وثنائية الشكل لجميع الشبكات في ملف FBX**
 
 {{< highlight "java" >}}
 

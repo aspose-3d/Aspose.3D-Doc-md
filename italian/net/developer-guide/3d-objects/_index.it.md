@@ -1,4 +1,4 @@
-﻿---
+---
 title: Oggetti 3D
 type: docs
 weight: 60

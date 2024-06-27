@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guardar 3D Escena como HTML
 type: docs
 weight: 70
@@ -10,8 +10,8 @@ description: Aspose.3D for Java proporciona la clase ** HtmlSaveOptions ** para 
 Esta característica es compatible con la versión 19,9 o superior.
 
 {{% /alert %}} 
-# **Guardar 3D Escena como HTML**
-Aspose.3D for Java proporciona la clase `HtmlSaveOptions` para guardar una escena de guardado 3D como HTML. Al exportar la escena al archivo HTML5, API exportará tres archivos, un archivo `HTML`, un archivo DWeb Aspose3 (*.**A3dw**) Y un archivo 'JavaScript' renderizado. Para exportar el archivo a3dw solamente, usted puede especificar el DWeb Aspose3 como el tipo de la exportación, y reutilizar el archivo de JavaScript dentro de su página HTML. El siguiente fragmento de código muestra cómo guardar una escena 3D como HTML.
+#  **Guardar 3D Escena como HTML**
+Aspose.3D for Java proporciona la clase `HtmlSaveOptions` para guardar una escena 3D guardada como HTML. Cuando exporte la escena en un archivo HTML5, API exportará tres archivos, un archivo `HTML`, un archivo Aspose3DWeb (*.* a3dw **) y un archivo `JavaScript` representado. Para exportar sólo el archivo a3dw, puede especificar Aspose3DWeb como el tipo de exportación y reutilizar el archivo JavaScript dentro de su propia página HTML. El siguiente fragmento de código muestra cómo guardar una escena 3D como HTML.
 
 
 
@@ -19,7 +19,7 @@ Aspose.3D for Java proporciona la clase `HtmlSaveOptions` para guardar una escen
 
 {{% alert color="primary" %}} 
 
-Debido a los límites de seguridad del navegador, el archivo exportado HTML no se puede abrir directamente, debe abrirlo a través de un servidor web, si tiene python3 instalado, puede iniciar el servidor web en la línea de comandos en el directorio exportado
+Debido a los límites de seguridad del navegador, el archivo HTML exportado no se puede abrir directamente, debe abrirlo a través de un servidor web, si tiene instalado python3, puede iniciar el servidor web en la línea de comandos en el directorio exportado
 
 {{% /alert %}} 
 

@@ -1,37 +1,37 @@
-﻿---
-title: Ange 3D Arkiv Spara inställningar
+---
+title: Ange 3D Filspararalternativ
 type: docs
 weight: 10
 url: /sv/java/specify-3d-file-save-options/
 description: Det finns flera Scene.save metod överbelastningar som accepterar en SaveOptions instans.
 ---
-## **3D Arkiv Spara inställningar**
+##  **3D Filspararalternativ**
 Det finns flera Scene.save metod överbelastningar som accepterar en SaveOptions instans. Detta bör vara en instans av en klass som härrör från SparaOptions-klassen. Varje spara format har en motsvarande klass som innehar spara alternativ för att spara formatet, till exempel det finns ColladaSaveOptions för FileFormat. COLLADA spara format.
-### **Användning av Collada Spara alternativa**
-Koden nedan visar hur man ställer in spara alternativ innan man sparar en 3D fil i Collada format.
+###  **Användning av Collada Spara inställningar**
+Koden nedan visar hur sparalternativ ska ställas innan en 3D-fil sparas i Collada-format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-ColladaSaveOption.java" >}}
-### **Användning av Discreet3DS Spara alternativa**
-Koden nedan visar hur man ställer in sparalternativ innan man sparar en 3D fil till ett diskret 3DS format.
+###  **Användning av Discreet3DS Spara inställningar**
+Koden nedan visar hur man ställer in sparalternativ innan en 3D fil sparas till ett Discreet 3DS-format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Discreet3DSSaveOption.java" >}}
-### **Användning av FBX Spara alternativa**
-Koden nedan visar hur man ställer in spara alternativ innan man sparar en 3D fil till ett FBX format.
+###  **Användning av FBX Spara inställningarna**
+Koden nedan visar hur sparalternativ ska ställas innan en 3D-fil sparas till ett FBX-format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-FBXSaveOption.java" >}}
-### **Användning av OBJ Spara alternativa**
-Koden nedan visar hur man ställer in spara alternativ innan man sparar en 3D fil till ett Obj-format.
+###  **Användning av OBJ Spara inställningar**
+Koden nedan visar hur sparalternativ ska anges innan en 3D fil sparas till ett Obj-format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-OBJSaveOption.java" >}}
-### **Användning av STL Spara alternativa**
-Koden nedan visar hur man ställer in spara alternativ innan man sparar en 3D fil till STL format.
+###  **Användning av STL Spara inställningar**
+Koden nedan visar hur man ställer in sparalternativ innan en 3D-fil sparas till STL-format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-STLSaveOption.java" >}}
-### **Användning av U3D Spara alternativa**
-Koden nedan visar hur man ställer in spara alternativ innan man sparar ett dokument till U3D format.
+###  **Användning av U3D Spara inställningarna**
+Koden nedan visar hur sparalternativ ska anges innan ett dokument sparas till U3D format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-U3DSaveOption.java" >}}
-### **Användning av glTF Spara alternativa**
+###  **Användning av glTF Spara inställningarna**
 {{% alert color="primary" %}} 
 
 Denna funktion stöds av version 19.8 eller större.
@@ -40,26 +40,26 @@ Denna funktion stöds av version 19.8 eller större.
 
 
 
-Koden nedan visar hur man ställer in spara alternativ innan man sparar ett dokument till glTF format.
+Koden nedan visar hur sparalternativ ska anges innan ett dokument sparas till glTF format.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-glTFSaveOption.java" >}}
-### **PrettyPrint i glTF Spara inställningar**
+###  **PrettyPrint i glTF Spara inställningar**
 Du kan också använda setPrettyPrint metod för GLTFSaveOptions klass för människans förståelig JSON-utskrift. Koden nedan visar hur denna funktionalitet används.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-loadsave-SaveOptions-prettyPrintInGltfSaveOption.java" >}}
-### **Spara beroende på en 3D scen i det verkliga filsystemet**
-Utvecklare kan behöva spara alla beroenden av 3D scen i det riktiga filsystemet. De kan definiera sökvägen för en lokal katalog, spara i objektet `MemoryFileSystem` eller helt enkelt förkasta beroenden. Egenskapen FileSystem läggs till i alla spara alternativklasser.
-#### **Kasta sparande av materialfiler**
+###  **Spara beroenden för en 3D i det verkliga filsystemet**
+Utvecklare kan behöva spara alla beroenden av 3D i det riktiga filsystemet. De kan definiera sökvägen för en lokal katalog, spara i `MemoryFileSystem`- objektet eller helt enkelt förkasta beroenden. Egenskapen FileSystem läggs till i alla spara alternativklasser.
+####  **Kasta sparande av materialfiler**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-DiscardSavingMaterial.java" >}}
-#### **Spara beroende i lokalkatalog**
+####  **Spara beroende i lokalkatalog**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-SavingDependenciesInLocalDirectory.java" >}}
-#### **Spara beroende i MemoryFileSystem Instans**
+####  **Spara beroende i MemoryFileSystem Instans**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-SavingDependenciesInMemoryFileSystem.java" >}}
-### **Användning av Google Draco (.DRC) Spara alternativ.**
-Koden nedan visar hur man ställer in sparalternativ innan man sparar en 3D modell till DRC format.
+###  **Användning av Google Draco (.DRC) Spara inställningar**
+Koden nedan visar hur sparalternativ ska ställas innan en 3D-modell sparas till DRC-formatet.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-DRCSaveOption.java" >}}
-### **Användning av RVM Spara alternativa**
-Koden nedan visar hur man ställer in sparalternativ innan man sparar en 3D modell till RVM format.
+###  **Användning av RVM Spara inställningar**
+Koden nedan visar hur sparalternativ ska ställas innan en 3D-modell sparas till RVM-formatet.
 
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-loadsave-SaveOptions-RVMSaveOptions.java" >}}

@@ -1,12 +1,12 @@
-﻿---
-title: Manipulieren Sie benutzer definierte Eigenschaften einer Szene 3D
+---
+title: Benutzer definierte Eigenschaften einer 3D-Szene manipulieren
 type: docs
 weight: 80
 url: /de/python-net/manipulate-custom-properties-of-a-3d-scene/
 description: Entwickler können benutzer definierte Eigenschaften von 3D-Objekten hinzufügen, abrufen und entfernen. Remove Property, Get Property, SetProperty-Mitglieder von 3D-Objekten sind eine Reihe von Shorthanded-Methoden zum Bearbeiten angepasster Eigenschaften des Objekts.
 ---
-## **Hinzufügen, Abrufen und Entfernen von benutzer definierten Eigenschaften eines Objekts 3D**
-Entwickler können benutzer definierte Eigenschaften von 3D-Objekten hinzufügen, abrufen und entfernen. `remove_property`, `get_property`, `set_property`-Mitglieder von 3D-Objekten sind eine Reihe von Shorthanded-Methoden zur Manipulation angepasster Eigenschaften des Objekts. Dies ist das Code beispiel, um eine benutzer definierte Eigenschaft festzulegen, abzurufen und zu entfernen:
+##  **Hinzufügen, Abrufen und Entfernen von benutzer definierten Eigenschaften eines 3D-Objekts**
+Entwickler können benutzer definierte Eigenschaften von 3D-Objekten hinzufügen, abrufen und entfernen. `remove_property`, `get_property`, `set_property` Mitglieder von 3D Objekten sind eine Reihe von Shorthanded-Methoden, um angepasste Eigenschaften des Objekts zu manipulieren. Dies ist das Code beispiel, um eine benutzer definierte Eigenschaft festzulegen, abzurufen und zu entfernen:
 
 **Python**
 
@@ -51,6 +51,6 @@ scene.save("test-2.gltf", opt)
 
 {{% alert color="primary" %}} 
 
-Um benutzer definierte Eigenschaften in die Modelle GLTF zu speichern, müssen Sie `save_extras` auf `True` einstellen. Der Standardwert der Eigenschaft `save_extras` ist `False`.
+Um benutzer definierte Eigenschaften in den GLTF-Modellen zu speichern, müssen Sie `save_extras` auf `True` festlegen. Der Standardwert der Eigenschaft `save_extras` beträgt `False`.
 
 {{% /alert %}}

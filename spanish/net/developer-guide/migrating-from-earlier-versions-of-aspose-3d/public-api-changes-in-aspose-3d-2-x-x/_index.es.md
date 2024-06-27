@@ -1,4 +1,4 @@
-﻿---
+---
 title: Público API Cambios en Aspose.3D 2.x. x
 type: docs
 weight: 30

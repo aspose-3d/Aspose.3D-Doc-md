@@ -1,7 +1,7 @@
-﻿---
-title: 3D建模
+---
+title: 3D 建模
 type: docs
 weight: 70
 url: /zh/python-net/3d-modeling/
-description: 关于3D建模的文章在Aspose.3D Python via .NET。
+description: 有关 Aspose.3D for Python via .NET 中 3D 建模的文章。
 ---

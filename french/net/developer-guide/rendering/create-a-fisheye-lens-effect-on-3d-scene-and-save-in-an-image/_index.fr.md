@@ -1,5 +1,5 @@
-﻿---
-title: Créer un effet de lentille Fish-eye sur la scène 3D et enregistrer dans une image
+---
+title: Créez un effet d'objectif Fish-eye sur la scène 3D et enregistrez dans une image
 type: docs
 weight: 20
 url: /fr/net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
@@ -7,13 +7,13 @@ description: En utilisant Aspose.3D for .NET API, les développeurs peuvent cré
 ---
 {{% alert color="primary" %}}
 
-Utilisation[Aspose.3D for .NET API](https://products.aspose.com/3d/net/), Les développeurs peuvent créer un effet d'objectif Fisheye sur la scène 3D et enregistrer cette vue dans les formats d'image pris en charge.
+En utilisant [Aspose.3D for .NET API](https://products.aspose.com/3d/net/), les développeurs peuvent créer un effet d'objectif Fisheye sur la scène 3D et enregistrer cette vue dans les formats d'image pris en charge.
 
 {{% /alert %}}
-## **Créer un effet de lentille Fisheye**
-Dans cet article, nous créons une caméra et deux objets Light pour capturer la scène, créer également une cible de rendu, créer un viewport et exécuter le post-traitement de projection Fisheye avec la carte de cube en entrée et enfin enregistrer la texture Fisheye. La méthode `Execute` de la classe `Renderer` permet d'exécuter l'effet de post-traitement et d'enregistrer le résultat pour rendre la cible.
-### **Échantillon de programmation**
-Cet exemple de code crée un effet d'objectif Fisheye sur la scène 3D et enregistre dans le format d'image.
+##  **Créer un effet de lentille Fisheye**
+Dans cet article, nous créons une caméra et deux objets Light pour capturer la scène, également créer une cible de rendu, créer un viewport et exécuter le post-traitement de la projection Fisheye avec la carte cube en entrée et enfin enregistrer la texture Fisheye. La méthode `Execute` de la classe `Renderer` permet d'exécuter l'effet de post-traitement et de sauvegarder le résultat dans la cible de rendu.
+###  **Échantillon de programmation**
+Cet exemple de code crée un effet de lentille Fisheye sur 3D scène et enregistrer dans le format de l'image.
 
 **C#**
 

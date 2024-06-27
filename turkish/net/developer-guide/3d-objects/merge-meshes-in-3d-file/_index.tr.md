@@ -1,12 +1,12 @@
-﻿---
-title: M07M3D dosyasında eshes
+---
+title: 3D dosyasında mesh'leri birleştirin
 type: docs
 weight: 90
 url: /tr/net/merge-meshes-in-3d-file/
-description: Developers, birden fazla mesh'i tek bir geçerli ağa birleştirebilir. They, 3D sahnesinin, bir düğümün veya düğümlerin tümünü tek bir ağa dönüştürebilir. In bunu başarmak için, Aspose.ThreeD.Entities. olyolygon. odifier sınıfında üç MergeMesh üyesi vardır.
+description: Developers can merge multiple meshes into a single valid mesh. They might convert all meshes of a 3D scene, a node or a set of nodes into a single mesh. In order to achieve this, there are three MergeMesh members in the Aspose.ThreeD.Entities.PolygonModifier class.
 ---
-## **Mvalid tek bir geçerli Mesh içine eshes**
-Developers, birden fazla mesh'i tek bir geçerli ağa birleştirebilir. They, 3D sahnesinin, bir düğümün veya düğümlerin tümünü tek bir ağa dönüştürebilir. In bunu başarmak için, `Aspose.ThreeD.Entities.PolygonModifier` sınıfında üç `MergeMesh` üyesi vardır.
+##  **Mvalid tek bir geçerli Mesh içine eshes**
+Developers can merge multiple meshes into a single valid mesh. They might convert all meshes of a 3D scene, a node or a set of nodes into a single mesh. In order to achieve this, there are three `MergeMesh` members in the `Aspose.ThreeD.Entities.PolygonModifier` class.
 
 **Definition**
 

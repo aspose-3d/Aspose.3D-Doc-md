@@ -1,17 +1,17 @@
-﻿---
-title: Create dikdörtgen Torus 3D cene cene
+---
+title: 3D sahnesinde dikdörtgen torus oluştur
 type: docs
 weight: 50
 url: /tr/python-net/create-rectangular-torus-in-3d-scene/
-description: Python via .NET API için sing sing Aspose.3D, geliştiriciler 3D nesnelerini oluşturabilir ve sonra 076. 481 formatındaki herhangi bir sahneyi kaydedebilir.
+description: Using Aspose.3D for Python via .NET API, developers can create 3D objects, and then save 3D scene in any supported 3D format.
 ---
 {{% alert color="primary" %}} 
 
-Using[Python via .NET için Aspose.3D](https://products.aspose.com/3d/python-net/)API, geliştiriciler 3D nesnelerini oluşturabilir ve 3D sahnesini desteklenen herhangi bir 3D formatında kaydedebilir.
+Using [Aspose.3D for Python via .NET](https://products.aspose.com/3d/python-net/) API, developers can create 3D objects, and then save 3D scene in any supported 3D format.
 
 {{% /alert %}} 
-## **Angular ectangular Torus**
-We `RectangularTorus` sınıfı ekledi, geliştiricilerin sahne içine parametreli dikdörtgen bir torus yerleştirmelerine izin veriyor, bu, sahneyi farklı desteklenen dosya formatlarına kaydederken sıra dışı örgü/üçgen örgüye dönüştürülebilir.
+##  **Angular ectangular Torus**
+We have added `RectangularTorus` class, it allows developers to place a parameterized rectangular torus into the scene, this can be converted to ordinal mesh/triangle mesh during saving the scene into different supported file formats.
 
 **Python**
 
@@ -40,4 +40,4 @@ scene.save("rtorus.obj", FileFormat.WAVEFRONT_OBJ)
 
 To dikdörtgen torus aşağıdaki gibi görünüyor:
 
-![Todo: görüntü_Alt_Metin](create-rectangular-torus-in-3d-scene_1.png)
+! [Todo: image_alt_text](create-rectangular-torus-in-3d-scene_1.png)

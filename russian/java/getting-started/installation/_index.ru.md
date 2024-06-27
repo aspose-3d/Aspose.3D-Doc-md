@@ -1,16 +1,16 @@
-﻿---
-title: Установка
+---
+title: Installation
 type: docs
 weight: 50
 url: /ru/java/installation/
-description: Aspose размещает все API Java в Репозитории Aspose. Вы можете легко использовать Aspose.3D for Java API непосредственно в ваших проектах Maven с простыми конфигурациями.
+description: Aspose размещает все API Java в репозитории Aspose. Вы можете легко использовать Aspose.3D for Java API непосредственно в ваших проектах Maven с простыми конфигурациями.
 ---
-## **Установка Aspose.3D for Java из Репозитория Aspose**
-Aspose размещает все API Java на[Aspose Репозиторий](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). Вы можете легко использовать Aspose.3D for Java API непосредственно в ваших проектах Maven с простыми конфигурациями.
+##  **Установка Aspose.3D for Java из репозитория Aspose**
+Aspose размещает все API Java на [Репозиторий Aspose](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). Вы можете легко использовать Aspose.3D for Java API непосредственно в ваших проектах Maven с простыми конфигурациями.
 
-Сначала вам нужно указать конфигурацию/местоположение репозитория Aspose `pom.xml`, как показано ниже:
+Сначала вам нужно указать конфигурацию/расположение репозитория Aspose в вашем Maven `pom.xml`, как показано ниже:
 
-{{< highlight "java" >}}
+{{< highlight "xml" >}}
 
  <repositories>
 
@@ -24,16 +24,34 @@ Aspose размещает все API Java на[Aspose Репозиторий](ht
 
 {{< /highlight >}}
 
-Затем определите Aspose.3D for Java API зависимость в вашем pom.xml следующим образом:
+Затем определите зависимость Aspose.3D for Java API в вашем pom.xml следующим образом:
 
-{{< highlight "java" >}}
+{{< highlight "xml" >}}
 
  <dependencies>
 
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>21.4</version>
+        <version>23.11.0</version>
+    </dependency>
+
+</dependencies>
+
+{{< /highlight >}}
+
+
+Если вы используете JDK-8, вы можете использовать JDK-8 версию следующим образом:
+
+{{< highlight "xml" >}}
+
+ <dependencies>
+
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-3d</artifactId>
+        <version>23.11.0</version>
+        <classifier>jdk8</classifier>
     </dependency>
 
 </dependencies>

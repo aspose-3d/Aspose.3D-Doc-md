@@ -1,4 +1,4 @@
-﻿---
+---
 title: Öffentliche API Änderungen in Aspose.3D 1.2.0
 type: docs
 weight: 50
@@ -6,16 +6,16 @@ url: /de/net/public-api-changes-in-aspose-3d-1-2-0/
 ---
 **Inhalts übersicht**
 
-- [Richten Sie das Ziel und die Kamera in der Datei 3D ein](#PublicAPIChangesinAspose.3D1.2.0-SetuptheTargetandCamerain3DFile)
-- [Flip-Koordinaten system in den Formaten 3D](#PublicAPIChangesinAspose.3D1.2.0-FlipCoordinateSystemin3DFormats)
+- [Richten Sie das Ziel und die Kamera in 3D-Datei ein](#PublicAPIChangesinAspose.3D1.2.0-SetuptheTargetandCamerain3DFile)
+- [Flip Coordinate System in 3D Formaten](#PublicAPIChangesinAspose.3D1.2.0-FlipCoordinateSystemin3DFormats)
 - [Wie man ein Netz trianguliert](#PublicAPIChangesinAspose.3D1.2.0-HowtoTriangulateaMesh)
 
 {{% alert color="primary" %}} 
 
-In diesem Dokument werden Änderungen an Aspose.3D API von Version 1.1.0 zu 1.2.0 beschrieben, die für Modul-/Anwendungs entwickler von Interesse sein können. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen in Aspose.3D.
+Dieses Dokument beschreibt Änderungen an Aspose.3D API von Version 1.1.0 bis 1.2.0, die für Modul-/Anwendungs entwickler von Interesse sein können. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.3D.
 
 {{% /alert %}} 
-### **Richten Sie das Ziel und die Kamera in der Datei 3D ein**
+###  **Richten Sie das Ziel und die Kamera in 3D-Datei ein**
 In einigen Dateiformaten unterstützt Licht/Kamera das Ziel, wodurch das Licht/die Kamera immer einem bestimmten Knoten zugewandt ist. Dies ist in der Animation nützlich. Beispiel code:
 
 **C#**
@@ -34,7 +34,7 @@ scene.Save("d:\\camera-test.3ds", FileFormat.Discreet3DS);
 
 {{< /highlight >}}
 
-### **Flip-Koordinaten system in den Formaten 3D**
+###  **Flip Coordinate System in 3D Formaten**
 (THREEDNET-123) -Erlauben Sie dem Benutzer, das Koordinaten system in OBJ/3DS/STL umzudrehen. Beispiel code:
 
 **C#**
@@ -49,7 +49,7 @@ scene.Save(@"d:\freehand_shuttle.obj", new ObjConfig() { EnableMaterials = false
 
 {{< /highlight >}}
 
-### **Wie man ein Netz trianguliert**
+###  **Wie man ein Netz trianguliert**
 Triangulate Mesh ist für die Spiele industrie nützlich, da das Dreiecksnetz das einzige unterstützte Primitiv ist, das die GPU-Hardware unterstützt (nicht dreieckige Daten werden auf Treiber ebene trianguliert, was beim Echtzeit-Rendering ineffizient ist). Beispiel code:
 
 **C#**

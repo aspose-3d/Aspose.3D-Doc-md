@@ -1,21 +1,21 @@
-﻿---
-title: Installazione
+---
+title: Installation
 type: docs
 weight: 40
 url: /it/python-net/installation/
 ---
-## **Requisiti di sistema**
+##  **Requisiti di sistema**
 
-In primo luogo, dovete controllare e confermare che le specifiche della macchina soddisfino[Requisiti di sistema](/3d/it/python-net/system-requirements/).
+Innanzitutto, devi controllare e confermare che le specifiche della macchina soddisfano [Requisiti di sistema](/3d/it/python-net/system-requirements/).
 
-## **Installazione di Aspose.3D per Python via .NET**
-`pip` è il modo più semplice per scaricare e installare[Aspose.3D per Python via .NET](https://pypi.org/project/aspose-3d/).
+##  **Installazione di Aspose.3D for Python via .NET**
+`pip` è il modo più semplice per scaricare e installare [Aspose.3D for Python via .NET](https://pypi.org/project/aspose-3d/).
 
 Per installare Aspose.3D, esegui questo comando: aspose-3d di installazione pip
 
-## **Utilizzo di Aspose.3D per Python via .NET**
+##  **Utilizzo di Aspose.3D for Python via .NET**
 
-Una volta terminata l'installazione del modulo, puoi utilizzare Aspose.3D dal tuo codice python in questo modo:
+Una volta completata l'installazione del modulo, puoi utilizzare Aspose.3D dal tuo codice python in questo modo:
 
 ```py
 import aspose.threed as a3d

@@ -1,12 +1,12 @@
-﻿---
-title: Scale geometrileri 3D cene cene
+---
+title: 3D sahnesinin ölçekli geometrileri
 type: docs
 weight: 70
 url: /tr/python-net/scale-geometries-of-a-3d-scene/
-description: Developers sadece 3D düğümünün veya 3D cene cene tüm düğümlerinin geometrilerini ölçebilir. In bunu başarmak için, geliştiriciler olyolygongonodifier sınıf örneğinin birden fazla Scale üyesini arayabilir.
+description: Geliştiriciler sadece 3D düğümünün veya 3D sahnesinin tüm düğümlerinin geometrilerini ölçebilir. Bunu başarmak için, geliştiriciler polygonmodifier sınıf örneğinin birden fazla ölçekli üyesini arayabilir.
 ---
-## **Tek bir 3D düğümünün veya 3D Scene tüm düğümlerinin Scale geometrileri**
-Developers sadece 3D düğümünün veya 3D cene cene tüm düğümlerinin geometrilerini ölçebilir. In bunu başarmak için, geliştiriciler `PolygonModifier` sınıf örneğinin birden fazla Scale üyesini arayabilir. This, tüm düğümleri veya tek düğümleri ölçeklendirmek için kod örneğidir:
+##  **Tek bir 3D düğümünün veya 3D sahnesinin tüm düğümlerinin ölçekli geometrileri**
+Developers can scale only geometries of a 3D node or all nodes of 3D Scene. In order to achieve this, developers can call multiple Scale members of the `PolygonModifier` class instance. This is the code example to scale all nodes or single node:
 
 
 

@@ -1,57 +1,57 @@
-﻿---
+---
 title: Product Overview
 type: docs
 weight: 10
 url: /tr/python-net/product-overview/
-description: Python via .NET için Aspose.3D, uygulamalarınızın 3D modellemesi ve sunucuya yüklenen rendering yazılımı olmadan otomatik olarak 3D belge formatlarıyla bağlanmasını sağlayan çapraz platform sınıfı bir kitaplıktır. 076. 481 076. 481, mühendislerin 3D belge formatlarının maddesini okumasını, dönüştürmesini, oluşturmasını, değiştirmesini ve kontrol etmesini sağlar.
+description: Aspose.3D for Python via .NET is a cross-platform class library that enables your applications to connect with prevalent 3D document formats automatically without the 3D modeling and rendering software being installed on the server. Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 ---
 {{% alert color="primary" %}} 
 
-![Todo: görüntü_Alt_Metin](/3d/tr/python-net/home_1.png)
+! [Todo: image_alt_text](/3d/tr/python-net/home_1.png)
 
-**WPython via .NET dokümantasyon bölümü için Aspose.3D adresine gelin**
+**Aspose.3D for Python via .NET dokümantasyon bölümüne hoşgeldiniz**
 
-Python via .NET için Aspose.3D, uygulamalarınızın 3D modellemesi ve sunucuya yüklenen rendering yazılımı olmadan otomatik olarak 3D belge formatlarıyla bağlanmasını sağlayan çapraz platform sınıfı bir kitaplıktır. 076. 481 076. 481, mühendislerin 3D belge formatlarının maddesini okumasını, dönüştürmesini, oluşturmasını, değiştirmesini ve kontrol etmesini sağlar.
+Aspose.3D for Python via .NET is a cross-platform class library that enables your applications to connect with prevalent 3D document formats automatically without the 3D modeling and rendering software being installed on the server. Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 
-The API kullanıcı dostudur, sıfırdan benzer bir çözüm oluşturmaktan zaman ve para tasarrufu sağlar.
+API kullanıcı dostudur, sıfırdan benzer bir çözüm oluşturmaktan zaman ve para tasarrufu sağlar.
 
 {{% /alert %}} 
-## **Benefits**
-Uygulamalarınızda Python via .NET için Aspose.3D sing sing size aşağıdaki faydaları sağlar:
+##  **Benefits**
+Using Aspose.3D for Python via .NET in your applications gives you the following benefits:
 
 - Rich özellikleri
 - Performans ve uygunluk
 - Supports 3D File Formats
-### **Rich tures eatures**
-Aspose.3D 3D dosyalarını oluşturmak, okumak, manipüle etmek ve kaydetmek için geniş bir özellik yelpazesi sunar:
+###  **Rich tures eatures**
+Aspose.3D, 3D dosyalarını oluşturmak, okumak, manipüle etmek ve kaydetmek için geniş bir özellik yelpazesi sunar:
 
-- Çeşitli 3D geometrik şekillerin örgüsü
-- Cbir 3D sahne belgesi reate
+- Çeşitli 3D geometrik şekillerin örgüsünü oluşturun
+- 3D sahne belgesi oluşturun
 - Cet up normals veya Con on the Cube
-- 3D Transformations kullanarak Format elemanları
+- Format elements using 3D Transformations
 - Share Mesh çoklu düğümler arasındaki geometri verileri
-- Add Animation özelliği 3D sahne belgesine
-### **Performans ve uygunluk**
-Python via .NET için Aspose.3D, sunucu veya istemci tarafında eşit derecede iyi performans gösterecek şekilde tasarlanmıştır. Aspose.3D için Python via .NET, herhangi bir 076. 481 uygulamasıyla dağıtılabilen tek bir 076. 481 kütüphanesidir. Ydiğer hizmetler veya modüller hakkında endişelenmenize gerek yok.
-### **Nical echnical Support**
-Aspose, her birine sınırsız ücretsiz özel destek verir. Support, API değerlendirmesi sırasında bile tüm müşteriler için kullanılabilir.
+- Animasyon özelliğini 3D sahne belgesine ekleyin
+###  **Performans ve uygunluk**
+Aspose.3D for Python via .NET is designed to perform equally well on the server or client-side. Aspose.3D for Python via .NET is a single .NET library that can be deployed with any .NET application by simply copying it. You do not have to worry about other services or modules.
+###  **Nical echnical Support**
+Aspose gives boundless free specialized support to every one of its APIs. Support is available to all clients, even during their assessment of the API.
 
-If Python via .NET için Aspose.3D ile yardıma ihtiyacınız var, ziyaret[**Aspose Forums**](https://forum.aspose.com/). PAspose.3D forumunda sorunuzu yanıtlayın ve birkaç saat içinde cevaplandırılacaktır. To soruları doğrudan Aspose.3D müşteri mutluluk ekibi tarafından cevaplandırılır. When forumlarda bir cevap bekliyor, lütfen zaman dilimi farklılıklarına izin verin.
+If you need help with Aspose.3D for Python via .NET, visit [**Aspose Forums**](https://forum.aspose.com/). Post your question in the Aspose.3D forum and it will be answered within few hours. The questions are answered directly by the Aspose.3D customer happiness team. When expecting a reply in the forums, please allow for time zone differences.
 
-If Python via .NET için Aspose.3D ile ilgili herhangi bir sorunla karşılaşırsınız, lütfen en verimli şekilde çözüldüğünden emin olmak için bu basit adımları izleyin:
+If you face any issue with Aspose.3D for Python via .NET, please follow these simple steps to make sure it is resolved in the most efficient way:
 
-- Msorunu bildirmeden önce Python via .NET sürümü için en son Aspose.3D kullandığınızdan emin olun. Refer to the[Python kage ackage Index](https://pypi.org/project/aspose-3d/)En son sürümü öğrenmek için.
-- Have bir göz atın[Forum](https://forum.aspose.com/c/3d), [Dokümantasyon](/3d/tr/python-net/)Ve[API ference eference](https://reference.aspose.com/3d/net)Sorunu bildirmeden önce çözümler için. Ysorumuzun zaten bir cevabı olabilir.
-- When bir sorun bildiriyor, lütfen orijinal belgeyi ve muhtemelen soruna neden olan kodun bir parçasını ekleyin. If birden fazla dosya eklemeniz, bunları bir arşive sıkıştırmanız gerekir. It, belgelerinizi Aspose Forum'a eklemeniz güvenlidir, çünkü sadece siz ve Aspose personeli ekli dosyalara erişebilecektir.
+- Sorunu bildirmeden önce en son Aspose.3D for Python via .NET sürümünü kullandığınızdan emin olun. En son sürümü öğrenmek için [Python paket endeksi](https://pypi.org/project/aspose-3d/) 'a bakın.
+- Have a look through the [forum](https://forum.aspose.com/c/3d), [documentation ](/3d/python-net/)and the [API Reference](https://reference.aspose.com/3d/net) for solutions before reporting the issue. Your question might already have an answer.
+- When reporting an issue, please include the original document and possibly a fragment of the code that causes the problem. If you need to attach multiple files, zip them into one archive. It is safe to attach your documents in Aspose Forums since only you and Aspose staff members will have access to attached files.
 - Lease lease konu başına bir sorunu bildirmeye çalışın. If başka bir you var, ayrı bir iplikte rapor et.
-## **Resources**
-This tablosu Python via .NET teknik kaynaklar için önemli Aspose.3D listeler:
+##  **Resources**
+Bu tablo önemli Aspose.3D for Python via .NET teknik kaynakları listeler:
 
 |**Resource**|**Description**|
-|:- |:- |
-|[Aspose.3D ome ome Page](https://products.aspose.com/3d/python-net/)|Prohome ana sayfası.|
-|[Aspose.3D Blog](https://blog.aspose.com/category/3d/)|Check bu genellikle yeni sürümler ve Python via .NET için Aspose.3D hakkında yararlı ipuçları hakkında bilgi için|
-|[Python via .NET Dload load için Aspose.3D](https://pypi.org/project/aspose-3d/)|DPython via .NET için Aspose.3D son sürümünü load load|
-|[Python via .NET Support Forum için Aspose.3D](https://forum.aspose.com/c/3d/18)|Hızlı çözüm için sorularınızı ve sorunlarınızı buradan yanıtlayın|
-|[Python via .NET Examples ve Plugins için Aspose.3D](https://github.com/aspose-3d/Aspose.3D-for-Python-via-.NET)|This deposu Python Ex0707roject Aspose.3D Python via .NET için içerir|
+| :- | :- |
+|[Aspose.3D ana sayfa](https://products.aspose.com/3d/python-net/)|Prohome ana sayfası.|
+|[Aspose.3D blog](https://blog.aspose.com/category/3d/)|Yeni sürümler ve Aspose.3D for Python via .NET hakkında yararlı ipuçları hakkında bilgi için sık sık kontrol edin|
+|[Aspose.3D for Python via .NET indir](https://pypi.org/project/aspose-3d/)|Aspose.3D for Python via .NET 'ın en son sürümünü indirin|
+|[Aspose.3D for Python via .NET destek forumu](https://forum.aspose.com/c/3d/18)|Hızlı çözüm için sorularınızı ve sorunlarınızı buradan yanıtlayın|
+|[Aspose.3D for Python via .NET örnekler ve eklentiler](https://github.com/aspose-3d/Aspose.3D-for-Python-via-.NET)|This repository contains Python Example Project for Aspose.3D for Python via .NET|
 

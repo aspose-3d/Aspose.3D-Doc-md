@@ -1,5 +1,5 @@
-﻿---
-title: Pubblico API Modifiche nel Aspose.3D 17.2.0
+---
+title: Variazioni pubbliche di API in Aspose.3D 17.2.0
 type: docs
 weight: 10
 url: /it/net/public-api-changes-in-aspose-3d-17-2-0/
@@ -11,11 +11,11 @@ url: /it/net/public-api-changes-in-aspose-3d-17-2-0/
 
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.3D API dalla versione 17.1.0 alla 17.2.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte nello Aspose.3D.
+Questo documento descrive le modifiche a Aspose.3D API dalla versione 17.1.0 alla 17.2.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.3D.
 
 {{% /alert %}} 
-#### **Importazione di file DirectX X**
-Utilizzando la versione recente (17.02) o superiore, gli sviluppatori possono importare file X. Le voci in formato XBinary e XText vengono aggiunte per importare file binari e ASCII X.
+####  **Importazione di file DirectX X**
+Utilizzando la versione recente (17.02) o superiore, gli sviluppatori possono importare file X. Le voci in formato XBinary e XText vengono aggiunte per importare i file X binari e ASCII.
 
 **C#**
 
@@ -32,8 +32,8 @@ public static readonly Aspose.ThreeD.FileFormat XText;
 Scene Xfile = new Scene("3D.x");
 
 {{< /highlight >}}
-#### **Aggiunge Aspose.ThreeD.Formats.X.XLoadOptions Class**
-Abbiamo aggiunto XLoadOptions class. Aiuta a importare file X in Aspose.3D API.
+####  **Aggiunge Aspose.ThreeD.Formats.X.XLoadOptions Class**
+Abbiamo aggiunto XLoadOptions class. Aiuta a importare i file X in Aspose.3D API.
 
 **C#**
 

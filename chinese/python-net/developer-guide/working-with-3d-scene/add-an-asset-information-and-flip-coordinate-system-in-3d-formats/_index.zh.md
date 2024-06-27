@@ -1,32 +1,32 @@
-﻿---
-title: 添加3D格式的资产信息和翻转坐标系
+---
+title: 以 3D 格式添加资产信息和翻转坐标系
 type: docs
 weight: 10
 url: /zh/python-net/add-an-asset-information-and-flip-coordinate-system-in-3d-formats/
-description: 元数据是描述、解释、定位或更容易检索、使用或管理信息资源的结构化信息。Aspose.3D Python via .NET API允许开发人员定义场景的元数据。
+description: 元数据是描述、解释、定位或使其更容易检索、使用或管理信息资源的结构化信息。Aspose.3D for Python via .NET API 允许开发人员为场景定义元数据。
 ---
-## **将资产信息添加到3D场景**
-元数据是描述、解释、定位或更容易检索、使用或管理信息资源的结构化信息。Aspose.3D Python via .NET API允许开发人员定义场景的元数据。
-### **为场景定义元数据**
-3D显示产生大量的元数据和图片信息。元数据是一种资产，也是节目的一部分。
+##  **将资产信息添加到 3D 场景**
+元数据是描述、解释、定位或使其更容易检索、使用或管理信息资源的结构化信息。Aspose.3D for Python via .NET API 允许开发人员为场景定义元数据。
+###  **为场景定义元数据**
+3D 显示产生大量元数据和图片信息。元数据是一种资产，也是节目的一部分。
 
-1. 使用`Scene`类初始化3D场景。
+1. 使用 `Scene` 类初始化 3D 场景。
 1. 设置应用程序/工具名称。
 1. 设置应用程序/工具供应商名称。
 1. 设置测量单位。
 1. 设置测量单位比例系数。
-1. 以支持的文件格式保存3D场景。
+1. 以支持的文件格式保存 3D 场景。
 
-在这个例子中，我们假设场景是由一个名为 “埃及” 的CAD工具创建的，它是由 “Manualdesk” 设计的:
+在此示例中，我们假设场景是由名为 “Egypt” 的 CAD 工具创建的，并且由 “Manualdesk” 设计:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "AssetInformation-InformationToScene-AddAssetInformationToScene.py" >}}
-## **3D格式的翻转坐标系**
-Python via .NET API的Aspose.3D允许用户以OBJ、3DS、STL和U3D格式翻转坐标系。
+##  **以 3D 格式翻转坐标系**
+Aspose.3D for Python via .NET API 允许用户以 OBJ 、 3DS 、 STL 和 U3D 格式翻转坐标系。
 
 {{% alert color="primary" %}} 
 
-要导入3ds文件并将其保存为OBJ格式，代码中使用了[`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene)类。
+要导入3ds文件并将其保存为 OBJ 格式，代码中将使用 [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) 类。
 
 {{% /alert %}} 
 
-在此示例中，我们在导入3ds文件时翻转了坐标系，并将其保存为OBJ格式，而没有材料。
+在此示例中，我们在导入3ds文件时翻转了坐标系，并将其保存为 OBJ 格式，而不使用材质。

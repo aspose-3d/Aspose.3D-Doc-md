@@ -1,28 +1,28 @@
-﻿---
-title: Public API Changes Aspose.3D 17.01
+---
+title: Kamu API Aspose içinde değişir. 3D 17.01
 type: docs
 weight: 20
 url: /tr/net/public-api-changes-in-aspose-3d-17-01/
 ---
 **Contents Summary**
 
-- [Dds dds PLY Format try ntry Aspose.ThreeD.FileFormat lass lass](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
-- [07mporting PLY Files](#PublicAPIChangesinAspose.3D17.01-ImportingPLYFiles)
-- [Dds dds Aspose.ThreeD.GlobalTransform lass lass](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
-- [Dds dds a GlobalTransform özelliği Aspose.ThreeD.Node lass lass](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
-- [Dds dds olyolygons özelliği Aspose.ThreeD.Entities.Mesh lass lass](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
-- [Load 3D File ve Wushes eshes in uustom Binary Format](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
-- [Removes 07reateStream üyesi Aspose.ThreeD.Formats. Ionononfig lass member](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
+- [Adds PLY Format Entry in the Aspose.ThreeD.FileFormat Class](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
+- [PLY dosyalarını içe aktarma](#PublicAPIChangesinAspose.3D17.01-ImportingPLYFiles)
+- [Adds Aspose.ThreeD.GlobalTransform Class](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
+- [Globaltransform özelliğini Aspose 'a ekler. threed. node sınıfı](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
+- [Adds Polygons property to Aspose.ThreeD.Entities.Mesh Class](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
+- [3D dosyasını yükleyin ve özel ikili formatta kafesler yazın](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
+- [Removes CreateStream member from Aspose.ThreeD.Formats.IOConfig Class](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Tonun belgesi, 16.12.0 sürümünden 17.1.0 'a kadar Aspose.3D API 'teki değişiklikleri açıklar, bu da modül/uygulama geliştiricilerine ilgi gösterebilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+This document describes changes to the Aspose.3D API from version 16.12.0 to 17.1.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Dds dds PLY Format try ntry Aspose.ThreeD.FileFormat lass lass**
-We yükleme amacıyla PLY formatlı bir giriş ekledi.
-### **07mporting PLY Files**
-Son sürümü (17.01) veya daha yüksek olan developers sing, geliştiriciler PLY dosyalarını içe aktarabilir. Yükleme amacıyla 07he PLY format girişi eklenir.
+###  **Adds PLY Format Entry in the Aspose.ThreeD.FileFormat Class**
+Yükleme amacıyla PLY format girişi ekledik.
+###  **PLY dosyalarını içe aktarma**
+Using the recent version (17.01) or higher, developers can import PLY files. The PLY format entry is added for loading purposes.
 
 **C#**
 
@@ -49,13 +49,13 @@ loadPLYOpts.FlipCoordinateSystem = true;
 scene.Open( "3DPlyModel.ply", loadPLYOpts);
 
 {{< /highlight >}}
-### **Dds dds Aspose.ThreeD.GlobalTransform lass lass**
+###  **Adds Aspose.ThreeD.GlobalTransform Class**
 He he GlobalTransform sınıfı, Transform gibi tam olarak aynı arayüzü sağlar, ancak tüm özellikleri okunur. It küresel dönüşüm amaçları için yararlıdır.
-### **Dds dds a GlobalTransform özelliği Aspose.ThreeD.Node lass lass**
+###  **Globaltransform özelliğini Aspose 'a ekler. threed. node sınıfı**
 It, düğümün küresel dönüşümüne erişime izin verir. This, sahneyi kullanıcının özel dosya formatına dönüştürmek için yararlıdır.
-### **Dds dds olyolygons özelliği Aspose.ThreeD.Entities.Mesh lass lass**
+###  **Adds Polygons property to Aspose.ThreeD.Entities.Mesh Class**
 It, ağın içindeki tüm poligonları almasına izin verir, her çokgen poligon bir dizi poligon vertex indeksidir. Bbu özellik için, verimsiz olan her poligonu numaralandırmak için foreach sözdizimini kullanmalıyız.
-### **Load 3D File ve Wushes eshes in uustom Binary Format**
+###  **3D dosyasını yükleyin ve özel ikili formatta kafesler yazın**
 **C#**
 
 {{< highlight "java" >}}
@@ -199,6 +199,6 @@ using (var writer = new BinaryWriter(new FileStream(output, FileMode.Create, Fil
 }
 
 {{< /highlight >}}
-### **Removes 07reateStream üyesi Aspose.ThreeD.Formats. Ionononfig lass member**
+###  **Removes CreateStream member from Aspose.ThreeD.Formats.IOConfig Class**
 This 16.11.0 sürümünde eski olarak işaretlendi, yeni arayüz 16.ile. ystem 16.11.0 sürümünde daha fazla genişletilebilirlik sağlayan tanıtıldı.
 

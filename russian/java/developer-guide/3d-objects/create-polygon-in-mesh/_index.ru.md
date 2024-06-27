@@ -1,12 +1,12 @@
-﻿---
+---
 title: Создать многоугольник в сетке
 type: docs
 weight: 80
 url: /ru/java/create-polygon-in-mesh/
-description: Aspose.3D for Java позволяет создавать многоугольник в сетке.
+description: Aspose.3D for Java позволяет создать многоугольник в сетке.
 ---
-## **Создать многоугольник в сетке**
-Aspose.3D for Java позволяет создавать многоугольник в сетке. Чтобы использовать функциональность, API предлагает[Creategon](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-)Метод[Сетка](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh)Класс. Используя метод CreatePolygon, вы можете создать оптимизированный[Треугольник](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-)Или[Квад](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-int-)Многоугольник без выделения дополнительной памяти. Следующий фрагмент кода показывает, как использовать эту функциональность.
+##  **Создать многоугольник в сетке**
+Aspose.3D for Java позволяет создать многоугольник в сетке. Чтобы использовать эту функциональность, API предлагает метод [Creategon](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-) класса [Сетка](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh). Используя метод CreatePolygon, вы можете создать оптимизированный полигон [Треугольник](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-) или [Квад](https://reference.aspose.com/3d/java/com.aspose.threed/Mesh#createPolygon-int-int-int-int-) без выделения дополнительной памяти. Следующий фрагмент кода показывает, как использовать эту функциональность.
 
 
 

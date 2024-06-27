@@ -1,8 +1,8 @@
-﻿---
-title: 在C#中以编程方式创建、加载和保存3D场景
-linktitle: 创建、加载和保存3D场景
+---
+title: 在 C# 中以编程方式创建、加载和保存 3D 场景
+linktitle: 创建、加载和保存 3D 场景
 type: docs
-weight: 20
+weight: 80
 url: /zh/net/creating-loading-and-saving-3d-scene/
-description: 在C#中以编程方式创建、加载和保存3D场景。在PDF中读取、导入和保存3D场景，在C#中HTML。
+description: 在 C# 中以编程方式创建、加载和保存 3D 场景。读取、导入和保存 PDF 中的 3D 场景和 C# 中的 HTML 场景。
 ---

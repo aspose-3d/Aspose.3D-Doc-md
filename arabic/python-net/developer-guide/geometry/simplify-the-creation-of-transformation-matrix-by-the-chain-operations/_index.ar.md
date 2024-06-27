@@ -1,17 +1,17 @@
-﻿---
+---
 title: Impيمس إنشاء مصفوفة التحول من قبل عمليات السلسلة
 type: docs
 weight: 60
 url: /ar/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D ل Python via .NET API يقدم فئة ranransformBuilder الذي يبسط إنشاء مصفوفة التحول من خلال عمليات السلسلة.
+description: يقدم Aspose.3D for Python via .NET API فئة TransformBuilder التي تبسط إنشاء مصفوفة التحويل بواسطة عمليات السلسلة.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D Python via .NET API يقدم فئة `TransformBuilder` الذي يبسط إنشاء مصفوفة التحول من خلال عمليات السلسلة.
+يوفر Aspose.3D for Python via .NET API فئة `TransformBuilder` التي تبسط إنشاء مصفوفة التحويل بواسطة عمليات السلسلة.
 
 {{% /alert %}} 
 
-Suppose ، هناك `TransformBuilder` مثيل**السل**، وعمليات السلسلة:
+افترض أن هناك مثيل `TransformBuilder`**السل**، وعمليات السلسلة:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-Tوأضاف أساليب جديدة في الطبقات `Matrix4` و `TransformBuilder` هي المرافق للمطورين لنموذج المشهد عن طريق البرنامج ، لذلك لا تحتاج إلى بناء يدويا مصفوفة التحويل ، وعادة ما يستخدم هذا من قبل المطورين الخبراء.
+الطرق الجديدة المضافة في فئات `Matrix4` و `TransformBuilder` هي الأدوات المساعدة للمطورين لنموذج المشهد حسب البرنامج ، لذلك لا يحتاجون إلى إنشاء مصفوفة التحويل يدويًا ، وعادة ما يستخدم المطورون الخبراء هذا.
 
-يمكن للمطورين dinal rdial استخدام خاصية `Transform` من الفئة `Node` لتغيير الترجمة/التحجيم/دوران الكائن.
+يمكن للمطورين الترتيبيين استخدام خاصية `Transform` لفئة `Node` لتغيير ترجمة/تحجيم/تدوير كائن ما.
 
-Dإيفلين يمكن أيضا تعيين مصفوفة التي أنشأتها `TransformBuilder` إلى `Node.Transform`.
+يمكن للمطورين أيضًا تعيين المصفوفة التي أنشأها `TransformBuilder` إلى `Node.Transform`.
 
-يمكن العثور على معلومات خام Mحول مصفوفة التحول في Wikipedia[مصفوفة رانسفورميشن](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)و[Aفين ranransofrmation](https://en.wikipedia.org/wiki/Affine_transformation)
+يمكن العثور على مزيد من المعلومات حول مصفوفة التحويل على Wikipedia [مصفوفة رانسفورميشن](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) و [Aفين ranransofrmation](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

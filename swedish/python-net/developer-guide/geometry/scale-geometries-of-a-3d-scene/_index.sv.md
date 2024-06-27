@@ -1,12 +1,12 @@
-﻿---
-title: Skala geometrier för en 3D Scene
+---
+title: Skal geometrier för en 3D Scene
 type: docs
 weight: 70
 url: /sv/python-net/scale-geometries-of-a-3d-scene/
-description: Utvecklare kan endast skala geometrier av en 3D nod eller alla noder av 3D Scene. För att uppnå detta, kan utvecklare ringa flera Scale medlemmar av PolygonModifier klass instans.
+description: Utvecklare kan endast skala geometrier för en 3D nod eller alla noder i 3D Scen. För att uppnå detta, kan utvecklare ringa flera Scale medlemmar av PolygonModifier klass instans.
 ---
-## **Skala geometrier av en enda 3D nod eller alla noder av 3D Scene**
-Utvecklare kan endast skala geometrier av en 3D nod eller alla noder av 3D Scene. För att uppnå detta kan utvecklare kalla flera Scale medlemmar av klassen `PolygonModifier` instans. Detta är kodexemplet för att skala alla noder eller enstaka nod:
+##  **Skala geometrier för en enda 3D nod eller alla noder för 3D Scene**
+Utvecklare kan endast skala geometrier för en 3D nod eller alla noder i 3D Scen. För att uppnå detta, kan utvecklare ringa flera Scale-medlemmar i `PolygonModifier` klassinstansen. Detta är kodexemplet för att skala alla noder eller enstaka nod:
 
 
 

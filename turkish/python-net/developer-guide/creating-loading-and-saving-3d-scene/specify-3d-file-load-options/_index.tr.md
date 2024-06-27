@@ -1,41 +1,41 @@
-﻿---
-title: Specify 3D File ptions oad ptions ptions
+---
+title: 3D dosya yükleme seçeneklerini belirtin
 type: docs
 weight: 30
 url: /tr/python-net/specify-3d-file-load-options/
 description: Tburada birkaç Scene vardır. Open yöntemi aşırı yükler veya bir Load. ptions nesnesini kabul eden aşırı yükler. Each yük formatı, bu yük formatı için yük seçeneklerini tutan ilgili bir sınıfa sahiptir.
 ---
-## **3D File Load ptions ptions**
-Tburada [`Scene.open`](https://reference.aspose.com/3d/net/aspose.threed/scene) yöntemi aşırı yükler veya `LoadOptions` nesnesini kabul eden Scene sınıfı oluşturucu aşırı yükler vardır. This `LoadOptions` sınıfından türetilen bir sınıfın nesnesi olmalıdır. Each yük formatı, bu yük formatı için yük seçeneklerini tutan ilgili bir sınıfa sahiptir, örneğin 076. 481 kaydetme formatı için `ColladaSaveOptions` vardır.
-### **Discreet 3DS Load ptions ptions ptions**
-To kodu aşağıda, bir Discreet 3DS dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+##  **3D dosya yükleme seçenekleri**
+There are several [`Scene.open`](https://reference.aspose.com/3d/net/aspose.threed/scene) method overloads or Scene class constructor overloads that accept a `LoadOptions` object. This should be an object of a class derived from the `LoadOptions` class. Each load format has a corresponding class that holds load options for that load format, for example there is `ColladaSaveOptions` for the `FileFormat.Collada` save format.
+###  **Gizli 3DS yük seçeneklerinin kullanımı**
+Aşağıdaki kod, gizli bir 3DS dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-Discreet3DSOption.py" >}}
-### **Bj bj ptions oad ptions ptions**
-Aşağıdaki kod, 3D Obj dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **Bj bj ptions oad ptions ptions**
+Aşağıdaki kod, 3D obj dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-ObjLoadOption.py" >}}
-### **Use of STL ptions oad ptions ptions**
-The kodu, STL dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **STL yük seçeneklerinin kullanımı**
+Aşağıdaki kod, STL dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-STLLoadOption.py" >}}
-### **Use of U3D ptions oad ptions ptions**
-The kodu, U3D dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **U3D yük seçeneklerinin kullanımı**
+Aşağıdaki kod, U3D dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-U3DLoadOption.py" >}}
-### **Use of glTF ptions oad ptions ptions**
-The kodu, glTF dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
-#### **Lip lip V/T Texture ordinoordinate**
+###  **glTF yük seçeneklerinin kullanımı**
+Aşağıdaki kod, glTF dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+####  **Lip lip V/T Texture ordinoordinate**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-glTFLoadOptions.py" >}}
-### **Pse of Ply Load ptions ptions**
-The kodu, PLY modelini yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **Pse of Ply Load ptions ptions**
+Aşağıdaki kod, PLY modelini yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-PlyLoadOptions.py" >}}
-### **Use of DirectX X Load ptions ptions**
-The kodu, DirectX X dosyasını yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
+###  **DirectiX LLoad ptions ptions se**
+To kodu aşağıda bir Directfile dosya yüklemeden önce yük seçeneklerinin nasıl ayarlanacağını gösterir.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-XLoadOptions.py" >}}
-### **Use RVM yük seçenekleri**
+###  **Use RVM load options**
 **C#**
 
 ```py
@@ -62,5 +62,5 @@ scene.save("LAD-TOP.obj", a3d.FileFormat.WAVEFRONT_OBJ);
 
 ```
 
-### **Using FBX Load ptions ptions**
+###  **Using FBX Load Options**
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-FBXLoadOptions.py" >}}

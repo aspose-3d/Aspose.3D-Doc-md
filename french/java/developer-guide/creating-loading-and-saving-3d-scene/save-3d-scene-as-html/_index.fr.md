@@ -1,17 +1,17 @@
-﻿---
-title: Save 3D Scène comme HTML
+---
+title: Enregistrer 3D Scène en HTML
 type: docs
 weight: 70
 url: /fr/java/save-3d-scene-as-html/
-description: Aspose.3D for Java fournit la classe ** HtmlSaveOptions ** pour enregistrer une scène de sauvegarde 3D comme HTML.
+description: Aspose.3D for Java fournit une classe ** HtmlSaveOptions ** pour enregistrer une scène de sauvegarde 3D en HTML.
 ---
 {{% alert color="primary" %}} 
 
 Cette fonctionnalité est prise en charge par la version 19.9 ou supérieure.
 
 {{% /alert %}} 
-# **Save 3D Scène comme HTML**
-Aspose.3D for Java fournit la classe `HtmlSaveOptions` pour enregistrer une scène de sauvegarde 3D comme HTML. Lorsque vous exportez la scène dans le fichier HTML5, le API exportera trois fichiers, un fichier `HTML`, un fichier DWeb Aspose3(*.**A3dw**), Et un fichier «JavaScript» rendu. Afin d'exporter le fichier a3dw seulement, vous pouvez spécifier Aspose3DWeb comme type d'exportation, et réutiliser le fichier JavaScript dans votre propre page HTML. L'extrait de code suivant montre comment enregistrer une scène 3D comme HTML.
+#  **Enregistrer 3D Scène en HTML**
+Aspose.3D for Java fournit la classe `HtmlSaveOptions` pour enregistrer une scène 3D en HTML. Lorsque vous exportez la scène dans un fichier HTML5, API exportera trois fichiers, un fichier `HTML`, un fichier Aspose3DWeb (*.* a3dw **) et un fichier rendu `JavaScript`. Pour exporter uniquement le fichier a3dw, vous pouvez spécifier Aspose3DWeb comme type d'exportation et réutiliser le fichier JavaScript dans votre propre page HTML. L'extrait de code suivant montre comment enregistrer une scène 3D en HTML.
 
 
 

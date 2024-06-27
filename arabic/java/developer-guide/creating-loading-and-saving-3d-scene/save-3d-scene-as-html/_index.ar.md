@@ -1,17 +1,17 @@
-﻿---
-title: Save 3D cencene as HTML
+---
+title: وفِّر 3D مشهد بـ HTML
 type: docs
 weight: 70
 url: /ar/java/save-3d-scene-as-html/
-description: Aspose.3D for Java يوفر ** ptions tmlSaveOوصفات ** فئة لحفظ 3D المشهد كما HTML.
+description: Aspose.3D for Java يوفر * HtmlSaveOptions * class لتوفير مشهد 3D على أنه HTML.
 ---
 {{% alert color="primary" %}} 
 
 Tويدعم ميزة له من قبل الإصدار 19.9 أو أكبر.
 
 {{% /alert %}} 
-# **Save 3D cencene as HTML**
-Aspose.3D for Java يوفر `HtmlSaveOptions` فئة لإنقاذ 3D المشهد كما HTML. Hen hen يمكنك تصدير المشهد إلى ملف HTML5 ، سوف API تصدير ثلاثة ملفات ، ملف `HTML` ، ملف Aspose3 eb eb eb (*.**A3dw**) ، وتقديم ملف 'JavaScript'. In الطلب على تصدير ملف a3dw فقط ، يمكنك تحديد Aspose3 eb eb eb كنوع التصدير ، وإعادة استخدام ملف criavaScript داخل صفحة HTML الخاصة بك. Tانه يتبع رمز قنص يظهر كيفية حفظ مشهد 3D كما HTML.
+#  **وفِّر 3D مشهد بـ HTML**
+Aspose.3D for Java provides `HtmlSaveOptions` class to save a save 3D scene as HTML. When you export the scene into HTML5 file, API will export three files, an `HTML` file, an Aspose3DWeb file(*.*a3dw**), and a rendered `JavaScript` file. In order to export a3dw file only, you can specify Aspose3DWeb as the export type, and reuse the JavaScript file within your own HTML page. The following code snippet shows how to save a 3D scene as HTML. 
 
 
 
@@ -19,7 +19,7 @@ Aspose.3D for Java يوفر `HtmlSaveOptions` فئة لإنقاذ 3D المشه�
 
 {{% alert color="primary" %}} 
 
-Due إلى الحدود الأمنية للمتصفح ، لا يمكن فتح ملف HTML المصدرة مباشرة ، تحتاج إلى فتحه من خلال خادم ويب ، إذا كان لديك python3 مثبت ، يمكنك بدء تشغيل خادم الويب في سطر الأوامر في الدليل المصدرة
+نظرًا لحدود أمان المتصفح ، لا يمكن فتح ملف HTML الذي تم تصديره مباشرة ، تحتاج إلى فتحه من خلال خادم ويب ، إذا كان لديك تثبيت python3 ، يمكنك بدء تشغيل خادم الويب في سطر الأوامر في الدليل الذي تم تصديره
 
 {{% /alert %}} 
 

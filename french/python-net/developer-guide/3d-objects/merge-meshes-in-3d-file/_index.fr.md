@@ -1,12 +1,12 @@
-﻿---
-title: Fusionner les mailles dans le fichier 3D
+---
+title: Fusionner les maillages dans le fichier 3D
 type: docs
 weight: 90
 url: /fr/python-net/merge-meshes-in-3d-file/
-description: Les développeurs peuvent fusionner plusieurs maillages en un seul maillage valide. Ils peuvent convertir tous les maillages d'une scène 3D, d'un nœud ou d'un ensemble de nœuds en un seul maillage. Pour y parvenir, il y a trois membres MergeMesh dans la classe Aspose.ThreeD.Entities.PolygonModifier.
+description: Les développeurs peuvent fusionner plusieurs maillages en un seul maillage valide. Ils peuvent convertir tous les maillages d'une scène 3D, d'un nœud ou d'un ensemble de nœuds en un seul maillage. Pour ce faire, il y a trois membres MergeMesh dans la classe Aspose.ThreeD.Entities.PolygonModifier.
 ---
-## **Fusionner les mailles en un seul maillage valide**
-Les développeurs peuvent fusionner plusieurs maillages en un seul maillage valide. Ils peuvent convertir tous les maillages d'une scène 3D, d'un nœud ou d'un ensemble de nœuds en un seul maillage. Pour y parvenir, il y a plusieurs membres `merge_mesh` dans la classe `aspose.threed.entities.PolygonModifier`.
+##  **Fusionner les mailles en un seul maillage valide**
+Les développeurs peuvent fusionner plusieurs maillages en un seul maillage valide. Ils peuvent convertir tous les maillages d'une scène 3D, d'un nœud ou d'un ensemble de nœuds en un seul maillage. Pour ce faire, il y a plusieurs membres `merge_mesh` dans la classe `aspose.threed.entities.PolygonModifier`.
 
 L'exemple de code ci-dessous fusionne tous les maillages d'une scène dans un seul maillage valide.
 

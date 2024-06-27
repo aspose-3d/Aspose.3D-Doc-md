@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skapa, ladda och spara 3D Scene
 type: docs
 weight: 10

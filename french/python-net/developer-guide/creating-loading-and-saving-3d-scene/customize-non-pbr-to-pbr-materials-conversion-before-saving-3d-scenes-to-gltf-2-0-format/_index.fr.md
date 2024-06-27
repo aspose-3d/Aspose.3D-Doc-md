@@ -1,17 +1,17 @@
-﻿---
-title: Personnaliser la conversion de matériaux non-PBR en PBR avant de sauver les scènes 3D au format GLTF 2.0
+---
+title: Personnaliser la conversion des matériaux non-PBR en PBR avant de sauvegarder les scènes 3D au format GLTF 2.0
 type: docs
 weight: 70
 url: /fr/python-net/customize-non-pbr-to-pbr-materials-conversion-before-saving-3d-scenes-to-gltf-2-0-format/
-description: La classe Scène du Aspose.3D API représente une scène 3D. Les développeurs peuvent déjà construire une scène 3D en ajoutant diverses entités. Le GLTF 2.0 prend uniquement en charge les matériaux PBR (rendu à base physique), le Aspose.3D API convertit en interne les matériaux non PBR en matériaux PBR avant l'exportation en GLTF 2.0.
+description: La classe Scene de Aspose.3D API représente une scène 3D. Les développeurs peuvent déjà construire une scène 3D en ajoutant diverses entités. GLTF 2.0 prend uniquement en charge les matériaux PBR (Physically Based Rendering), Aspose.3D API convertit en interne les matériaux non-PBR en matériaux PBR avant d'exporter vers GLTF 2.0.
 ---
 {{% alert color="primary" %}} 
 
-La classe [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) du Aspose.3D API représente une scène 3D. Les développeurs peuvent déjà construire une scène 3D en ajoutant diverses entités. GLTF 2.0 prend uniquement en charge les matériaux PBR (rendu à base physique), Aspose.3D API convertit en interne les matériaux non PBR en matériaux PBR avant d'exporter en GLTF 2.0 (les matériaux de la scène resteront inchangés pendant l'exportation), et les développeurs peuvent fournir une fonction de conversion personnalisée pour remplacer le comportement par défaut.
+La classe [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) de la scène Aspose.3D API représente une scène 3D. Les développeurs peuvent déjà construire une scène 3D en ajoutant diverses entités. GLTF 2.0 ne prend en charge que les matériaux PBR (Physically Based Rendering), Aspose.3D API convertit en interne les matériaux non-PBR en matériaux PBR avant d'exporter en GLTF 2.0 (les matériaux de la scène resteront inchangés pendant l'exportation), et les développeurs peuvent fournir une fonction de conversion personnalisée pour remplacer le comportement par défaut.
 
 {{% /alert %}} 
-## **Conversion de matériaux non-PBR vers PBR**
-Cet exemple de code montre comment convertir du matériel en matériel PBR, puis enregistre la scène 3D au format GLTF:
+##  **Conversion de matériaux non-PBR vers PBR**
+Cet exemple de code montre comment convertir du matériau en matériau PBR, puis enregistre la scène 3D au format GLTF:
 
 **C#**
 

@@ -1,12 +1,12 @@
-﻿---
-title: Sammanfoga maskor i 3D- filen
+---
+title: Sammanfoga maskor i 3D file
 type: docs
 weight: 90
 url: /sv/python-net/merge-meshes-in-3d-file/
-description: Utvecklare kan slå ihop flera maskor till en enda giltig mask. De kan omvandla alla maskor i en 3D scen, en nod eller en uppsättning noder till ett enda nät. För att uppnå detta, det finns tre MergeMesh medlemmar i Aspose.ThreeD.Enheter.PolygonModifier klass.
+description: Utvecklare kan slå ihop flera maskor till en enda giltig mask. De kan konvertera alla maskor i en 3D-scen, en nod eller en uppsättning noder till ett enda mesh. För att uppnå detta finns det tre MergeMesh medlemmar i Aspose. 3D. Enheter. PolygonModifier- klass.
 ---
-## **Sammanfoga maskor till en enda giltig mesh**
-Utvecklare kan slå ihop flera maskor till en enda giltig mask. De kan omvandla alla maskor i en 3D scen, en nod eller en uppsättning noder till ett enda nät. För att uppnå detta finns det flera `merge_mesh` medlemmar i klassen `aspose.threed.entities.PolygonModifier`.
+##  **Sammanfoga maskor till en enda giltig mesh**
+Utvecklare kan slå ihop flera maskor till en enda giltig mask. De kan konvertera alla maskor i en 3D-scen, en nod eller en uppsättning noder till ett enda mesh. För att uppnå detta finns det flera `merge_mesh` medlemmar i `aspose.threed.entities.PolygonModifier` klassen.
 
 Kodprovet nedan sammanfogar alla maskor i en scen i ett enda giltigt maskor.
 

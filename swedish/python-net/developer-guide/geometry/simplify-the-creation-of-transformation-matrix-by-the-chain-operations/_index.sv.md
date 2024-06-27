@@ -1,17 +1,17 @@
-﻿---
+---
 title: Förenkla skapandet av transformationsmatris med kedjans åtgärder
 type: docs
 weight: 60
 url: /sv/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D för Python via .NET API erbjuder TransformBuilder-klassen som förenklar skapandet av transformationsmatrisen. x av kedjans verksamhet.
+description: Aspose.3D for Python via .NET API erbjuder Transformbuilder- klassen som förenklar skapandet av transformationsmatrisen med kedjan.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D för Python via .NET API erbjuder klassen `TransformBuilder` som förenklar skapandet av omvandlingen matris av kedjans verksamhet.
+Aspose.3D for Python via .NET API erbjuder klassen `TransformBuilder` som förenklar skapandet av transformationsmatrisen med kedjan.
 
 {{% /alert %}} 
 
-Anta att det finns en `TransformBuilder` instans**Tb**, Och kedjans verksamhet:
+Antag att det finns en `TransformBuilder` instans**Tb**, Och kedjans verksamhet:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-De nya metoderna i klasserna `Matrix4` och `TransformBuilder` är verktyg för utvecklare att modellera scenen per program, så de behöver inte manuellt konstruera transforma matrisen, detta brukar användas av expertutvecklare.
+De nya metoderna i klasserna `Matrix4` och `TransformBuilder` är verktyg för utvecklare att modellera scenen genom program, så de behöver inte manuellt konstruera transforma matrisen, detta brukar användas av expertutvecklare.
 
-Vanliga utvecklare kan använda `Transform` egenskapen av klass `Node` för att ändra översättning/skala/rotation av ett objekt.
+Vanliga utvecklare kan använda egenskapen `Transform` för klassen `Node` för att ändra översättning/skalning/rotation av ett objekt.
 
-Utvecklare kan också tilldela matrisen som skapats av `TransformBuilder` till `Node.Transform`.
+Utvecklare kan också tilldela matrisen skapad av `TransformBuilder` till `Node.Transform`.
 
-Mer information om transformationsmatris finns på Wikipedia.[Transformationsmatris](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)Och och[Affin överföring](https://en.wikipedia.org/wiki/Affine_transformation)
+Mer information om transformationsmatris finns på Wikipedia [Transformationsmatris](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) och [Affin överföring](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

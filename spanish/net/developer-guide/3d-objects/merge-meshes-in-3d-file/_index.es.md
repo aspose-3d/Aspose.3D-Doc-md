@@ -1,12 +1,12 @@
-﻿---
-title: Fusionar mallas en archivo 3D
+---
+title: Combinar mallas en el archivo 3D
 type: docs
 weight: 90
 url: /es/net/merge-meshes-in-3d-file/
-description: Los desarrolladores pueden fusionar múltiples mallas en una sola malla válida. Pueden convertir todas las mallas de una escena 3D, un nodo o un conjunto de nodos en una sola malla. Para conseguirlo, hay tres miembros MergeMesh en la clase Aspose.ThreeD. Entidades. PolygonModificer.
+description: Los desarrolladores pueden combinar varias mallas en una sola malla válida. Podrían convertir todas las mallas de una escena 3D, un nodo o un conjunto de nodos en una sola malla. Para lograr esto, hay tres miembros de MergeMesh en la clase Aspose.ThreeD.Entities.PolygonModifier.
 ---
-## **Combinar mallas en una sola malla válida**
-Los desarrolladores pueden fusionar múltiples mallas en una sola malla válida. Pueden convertir todas las mallas de una escena 3D, un nodo o un conjunto de nodos en una sola malla. Para lograr esto, hay tres miembros `MergeMesh` en la clase `Aspose.ThreeD.Entities.PolygonModifier`.
+##  **Combinar mallas en una sola malla válida**
+Los desarrolladores pueden combinar varias mallas en una sola malla válida. Podrían convertir todas las mallas de una escena 3D, un nodo o un conjunto de nodos en una sola malla. Para lograr esto, hay tres miembros `MergeMesh` en la clase `Aspose.ThreeD.Entities.PolygonModifier`.
 
 **Definición**
 

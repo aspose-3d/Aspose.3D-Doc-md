@@ -1,54 +1,58 @@
-﻿---
-title: 07reate ve Read bir Existing 3D cene cene
+---
+title: Mevcut bir 3D sahne oluşturun ve okuyun
 type: docs
 weight: 10
 url: /tr/net/create-and-read-an-existing-3d-scene/
-description: Aspose.3D API, yeni 3D sahnelerini sıfırdan yaratmayı ve daha sonra desteklenen herhangi bir dosya biçiminde kaydetmeyi destekler. Developers ayrıca değişiklik, ekleme veya işleme amaçları için mevcut bir 3D cene cene yükleyebilir.
+description: Aspose.3D API yeni 3D sahnelerini sıfırdan oluşturmayı ve ardından desteklenen herhangi bir dosya biçiminde kaydetmeyi destekler. Geliştiriciler ayrıca değişiklik, ekleme veya işleme amaçları için mevcut bir 3D sahne yükleyebilir.
 ---
-## **Overview**
-To makale C# 3D dosya biçimleri manipülasyon kütüphanesi kullanarak aşağıdaki konuları açıklar.
-- 07C# yılında sıfırdan bir Empty 3D cene cene reate
-- C# yılında 07ead veya Load xixisting 3D cene cene
-- Save 3D cene cene içinde 07upp073D Formats kullanarak C#
-- C# yılında 3D cene cene roroperties ile Work
+##  **Overview**
+The article explains the following topics using C# 3D file formats manipulation library.
+- Sıfırdan C# içinde boş bir 3D sahne oluşturun
+- Mevcut 3D sahnesini C# olarak okuyun veya yükleyin
+- 3D sahnesini C# kullanarak desteklenen 3D formatlarında kaydedin
+- Work with 3D Scene Properties in C#
 
-## **Cbir Empty 3D cene cene ve Save içinde 07upp073D File Formats**
-Aspose.3D API, yeni 3D sahnelerini sıfırdan yaratmayı ve daha sonra desteklenen herhangi bir dosya biçiminde kaydetmeyi destekler. Developers ayrıca değişiklik, ekleme veya işleme amaçları için mevcut bir 3D cene cene yükleyebilir.
+##  **Boş bir 3D sahne oluşturun ve desteklenen 3D dosya formatlarında kaydedin**
+Aspose.3D API yeni 3D sahnelerini sıfırdan oluşturmayı ve ardından desteklenen herhangi bir dosya biçiminde kaydetmeyi destekler. Geliştiriciler ayrıca değişiklik, ekleme veya işleme amaçları için mevcut bir 3D sahne yükleyebilir.
 
-### **Creating bir 3D cene cene ococument**
-Lease C# yılında 3D cene cene belgesini kullanarak Aspose.3D AIIs kullanarak bu adımları izleyin:
+###  **3D sahne belgesi oluşturma**
+Please follow these steps in C# to create a 3D Scene document using the Aspose.3D APIs:
 
-1. 3D sahne belgesini temsil eden [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) sınıfının bir örneğini gözden geçirin.
-1. 07cene cene sınıfı nesnenin [`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) yöntemini arayarak 3D Scene belgesini enerate.
+1. 3D sahne belgesini temsil eden [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) sınıfının bir örneğini oluşturun.
+1. Generate a 3D Scene document by calling the [`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) method of the Scene class object.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
 
-## **07eading bir 3D cene cene**
-Using Aspose.3D API, geliştiriciler desteklenen tüm 3D belgelerini yükleyebilir. To `Scene` sınıfının mevcut yapıcıları bunu yapmaya izin veriyor ve geçerli bir dosya yolu dizesini kabul ediyorlar. To okunabilir dosya formatlarını aşağıdaki gibi destekledi:
+##  **3D sahnesini okumak**
+Using Aspose.3D API, developers can load all the supported 3D documents. The available constructors of the `Scene` class allow to do so and they accept a valid file path string. The supported readable file formats are as follows:
 
-1. FBX 7.5 (ASCII, Binary)
-1. FBX 7.4 (ASCII, Binary)
-1. FBX 7.3 (ASCII, Binary)
-1. FBX 7.2 (ASCII, Binary)
-1. STL (ASCII, Binary)
+1. FBX 7.5 (ascii, ikili)
+1. FBX 7.4 (ascii, ikili)
+1. FBX 7.3 (ascii, İkili)
+1. FBX 7.2 (ascii, ikili)
+1. FBX 6.1 (ascii, ikili)
+1. STL (ascii, ikili)
 1. WavefrontOBJ
 1. Discreet3DS
 1. Universal3D
 1. Collada
-1. glTF
+1. glTF (ascii, ikili)
+1. Maya (ascii, ikili)
+1. Openusd (USD, USDZ)
+1. Blender
 1. DXF
-1. PLY (ASCII, Binary)
-1. X (ASCII, Binary)
+1. PLY (ascii, ikili)
+1. X (ASCI I, Binary)
 1. Draco
 1. 3MF
-1. RVM (Text, Binary)
+1. RVM (metin, ikili)
 1. ASE
 
-`Scene` sınıfı 07onstructors 3D belge formatı dahili olarak tespit edilir.
+Constructors of the `Scene` class detect 3D document format internally.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-ReadExistingScene-ReadExistingScene.cs" >}}
 
-## **Working 3D cene cene roroperties ile**
-Aspose.3D API, sahnenin çocuk düğümlerini kullanarak 3D Scene özelliklerini okumanızı sağlar. To C# kod örneğini takip ederek bu özelliğin kullanımını gösterir.
+##  **3D sahne özellikleri ile çalışmak**
+Aspose.3D API, sahnenin çocuk düğümlerini kullanarak 3D sahne özelliklerini okumanızı sağlar. Aşağıdaki C# kod örneği bu özelliğin kullanımını gösterir.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ThreeDProperties-ThreeDProperties.cs" >}}

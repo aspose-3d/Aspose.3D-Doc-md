@@ -1,8 +1,8 @@
-﻿---
-title: Rereating ، ooading و aving aving 3D cencene Pفي C#
-linktitle: Rereating ، ooading و aving aving 3D cencene
+---
+title: إنشاء مشهد 3D وتحميله وادخاره برمجياً بـ C#
+linktitle: إنشاء مشهد 3D وتحميله وتوفير
 type: docs
-weight: 20
+weight: 80
 url: /ar/net/creating-loading-and-saving-3d-scene/
-description: Rereating ، ooading و aving aving 3D cencene Pبشكل متجدد في C#. Read ، Import وحفظ 3D cenفي PDF و HTML في C#.
+description: إنشاء مشهد 3D وتحميله وتوفير برمجيا بـ C#. قراءة واستيراد وتوفير 3D مشاهد بـ PDF و HTML بـ C#.
 ---

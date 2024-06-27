@@ -1,18 +1,18 @@
-﻿---
-title: Save 3D ococument
+---
+title: Save 3D Document
 type: docs
 weight: 40
 url: /tr/java/save-3d-document/
-description: Aspose.3D for Java API, 3D belgelerinin çeşitli tiplerinde 3D sahne tasarrufu desteğine sahiptir.
+description: Aspose.3D for Java API has support of saving 3D scene in various type of 3D documents.
 ---
-## **3D desteklenen formatların List (ihracat)**
-Aspose.3D for Java API, 3D belgelerinin çeşitli tiplerinde 3D sahne tasarrufu desteğine sahiptir. To desteklenen yazılabilir dosya biçimleri aşağıdaki gibidir:
+##  **3D desteklenen formatların listesi (İhracat)**
+Aspose.3D for Java API has support of saving 3D scene in various type of 3D documents. The supported writable file formats are as follows:
 
-1. FBX 7.2 (ASCII, Binary)
-1. FBX 7.3 (ASCII, Binary)
-1. FBX 7.4 (ASCII, Binary)
-1. FBX 7.5 (ASCII, Binary)
-1. STL (ASCII, Binary)
+1. FBX 7.2 (ascii, ikili)
+1. FBX 7.3 (ascii, İkili)
+1. FBX 7.4 (ascii, ikili)
+1. FBX 7.5 (ascii, ikili)
+1. STL (ascii, ikili)
 1. WavefrontOBJ
 1. Discreet3DS
 1. Universal3D
@@ -20,9 +20,9 @@ Aspose.3D for Java API, 3D belgelerinin çeşitli tiplerinde 3D sahne tasarrufu 
 1. glTF
 1. GLB
 1. Draco
-1. GLTF 2.0 (ASCII, Binary)
-1. RVM (Text, Binary)
-## **Export 3D belgesi**
-Aspose.3D for Java API, 076481 481 belgesinin çeşitli türlerinde 3D sahnesini kaydetme desteğine sahiptir.
-### **Saving a 3D cene cene: Programming ampamples**
+1. GLTF 2.0 (ascii, ikili)
+1. RVM (metin, ikili)
+##  **Export 3D document**
+Aspose.3D for Java API has support of saving a 3D scene in various types of 3D document.
+###  **3D sahne tasarrufu: programlama örnekleri**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Save3DScene.java" >}}

@@ -1,12 +1,12 @@
-﻿---
-title: Bir 3D cene cene MManipulate özel özellikleri
+---
+title: 3D sahnesinin özel özelliklerini işlemek
 type: docs
 weight: 80
 url: /tr/python-net/manipulate-custom-properties-of-a-3d-scene/
-description: Developers, 3D nesnelerinin özel özelliklerini alabilir, alabilir ve kaldırabilir. RemoveProperty, Get. roperty, Set. roperty üyeleri 3D nesneleri, nesnenin özelleştirilmiş özelliklerini işlemek için kısa teslim yöntemlerden oluşan bir kümedir.
+description: Developers can Add, retrieve, and remove custom properties of 3D objects. RemoveProperty, GetProperty, SetProperty members of 3D objects are a set of short-handed methods to manipulate customized properties of the object.
 ---
-## **Add, Retrieve ve Remove 3D Object özel özellikleri**
-Developers, 3D nesnelerinin özel özelliklerini alabilir, alabilir ve kaldırabilir. `remove_property`, `get_property`, `set_property` 076. 481 nesnelerinin üyeleri, nesnenin özelleştirilmiş özelliklerini işlemek için bir dizi kısa teslim yöntemidir. This, özel bir özelliği ayarlamak, almak ve kaldırmak için kod örneğidir:
+##  **3D nesnesinin özel özelliklerini ekleyin, alın ve kaldırın**
+Developers can Add, retrieve, and remove custom properties of 3D objects. `remove_property`, `get_property`, `set_property` members of 3D objects are a set of short-handed methods to manipulate customized properties of the object. This is the code example to set, retrieve and remove a custom property:
 
 **Python**
 
@@ -51,6 +51,6 @@ scene.save("test-2.gltf", opt)
 
 {{% alert color="primary" %}} 
 
-Özel özellikleri GLTF modellerine kaydetmek için In siparişi, `save_extras` ila `True` olarak ayarlamanız gerekir. To `save_extras` özelliğinin varsayılan değeri 076481 481 'dir.
+In order to save custom properties into the GLTF models, you need to set `save_extras` to `True`. The default value of `save_extras` property is `False`.
 
 {{% /alert %}}

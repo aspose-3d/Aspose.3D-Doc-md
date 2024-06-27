@@ -1,18 +1,18 @@
-﻿---
+---
 title: Rendern Sie eine Szene in die Cubemap mit sechs Gesichtern
 type: docs
 weight: 70
 url: /de/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: Mithilfe der Aspose.3D for .NET APIkönnen Entwickler eine Szene mit sechs Gesichtern in die Cubemap rendern und alle Gesichter in den unterstützten Bildformaten speichern.
+description: Mit Aspose.3D for .NET API können Entwickler eine Szene mit sechs Gesichtern in die Cubemap rendern und alle Gesichter in den unterstützten Bildformaten speichern.
 ---
 {{% alert color="primary" %}}
 
-Verwendung[Aspose.3D for .NET API](https://products.aspose.com/3d/net/)Entwickler können eine Szene mit sechs Gesichtern in die Cubemap rendern und alle Gesichter in den unterstützten Bildformaten speichern.
+Mit [Aspose.3D for .NET API](https://products.aspose.com/3d/net/) können Entwickler eine Szene mit sechs Gesichtern in die Cubemap rendern und alle Gesichter in den unterstützten Bildformaten speichern.
 
 {{% /alert %}}
-## **Erfassen Sie eine Cubemap mit sechs Gesichtern**
+##  **Erfassen Sie eine Cubemap mit sechs Gesichtern**
 In diesem Artikel erstellen wir eine Kamera und zwei Licht objekte, um die Cubemap zu erfassen, erstellen auch ein Cubemap-Render ziel mit Tiefen textur, erstellen ein Ansicht fenster und erhalten schließlich die Cubemap-Textur. Die `ITextureCubema`p-Klasse ruft die Cubemap-Textur ab und die `CubeFaceData`-Klasse ermöglicht den Zugriff auf Flächen der Cubemap und den Export in das unterstützte Bildformat.
-### **Programmier probe**
+###  **Programmier probe**
 In diesem Code beispiel wird eine Szene mit sechs Flächen in die Cubemap gerendert und in das Bildformat exportiert.
 
 **C#**

@@ -1,30 +1,30 @@
-﻿---
-title: Offentlig API Förändringar Aspose.3D 2,0
+---
+title: Offentlig API Ändrar i Aspose.3D 2.0.00
 type: docs
 weight: 20
 url: /sv/net/public-api-changes-in-aspose-3d-2-0-0/
 ---
 **Innehåll**
 
-- [Lägger till Collada format](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
-- [Lägger till Aspose.ThreeD. Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureEngränssnitt och Aspose.ThreeD. Render.Viewport/initialiseringException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters klass](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
-- [Lägger till Aspose.ThreeD.Render.PostProcessing klass](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
-- [Lägger till GetBoundingBox metod till Aspose.ThreeD. Nod klass, Lägger till nya klasser Aspose.ThreeD. -Det är det. BoundingBox och Aspose.ThreeD. -Det är det. BoundingBoxExtentName](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
-- [Rendering i realtid](#PublicAPIChangesinAspose.3D2.0.0-Real-timeRendering)
-- [AddData metoder läggs till Aspose.ThreeD.Enheter.VertexElementUV klass](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
+- [Adds Collada format](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
+- [Adds Aspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit interfaces and Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters classes](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
+- [Adds Aspose.ThreeD.Render.PostProcessing class](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
+- [Adds GetBoundingBox method to Aspose.ThreeD.Node class, Adds new classes Aspose.ThreeD.Utilities.BoundingBox and Aspose.ThreeD.Utilities.BoundingBoxExtent](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
+- [Real-time Rendering](#PublicAPIChangesinAspose.3D2.0.0-Real-timeRendering)
+- [AddData methods are added to Aspose.ThreeD.Entities.VertexElementUV class](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
 
 {{% alert color="primary" %}} 
 
-Detta dokument beskriver ändringar i Aspose.3D API från version 1.7. 0 till 2.0.0, som kan vara av intresse för modul / applikationsutvecklare. Det omfattar inte bara nya och uppdaterade offentliga metoder. men också en beskrivning av eventuella förändringar i beteende bakom kulisserna i Aspose.3D.
+Det här dokumentet beskriver ändringar i Aspose. 3D API från version 1.7. 0 till 2.0.0, som kan vara av intresse för modul / applikationsutvecklare. Det omfattar inte bara nya och uppdaterade offentliga metoder. men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose. 3D.
 
 {{% /alert %}} 
-### **Lägger till Collada format**
-I denna version (2.0.0), utvecklare kan importera Collada 3D filer, så fastigheten Collada läggs till Aspose.ThreeD. Filformatklassen.
-### **Lägger till Aspose.ThreeD. Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureEngränssnitt och Aspose.ThreeD. Render.Viewport/initialiseringException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters klass**
-De nya Viewport och Renderer klasserna är de viktigaste klasserna som hjälper till att fånga utsikterna på en 3D scen och spara till en textur eller fönster. Alla uppgifter om andra hjälpklasser är följande:
+###  **Lägger till formatet ColladaName**
+I denna version (2.0.0), utvecklare kan importera Collada 3D filer, så egenskapen Collada läggs till i Aspose. 3D. Filformatklassen.
+###  **Lägger till Aspose. 3D. Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnit gränssnitt och Aspose. 3D. Render.Viewport/initialiseringException/Renderer/TextureType/DriverException/RenderFactory/RenderParameters klass**
+De nya klasserna Viewport och Renderer är de viktigaste klasserna som hjälper till att fånga vyerna på en 3D-scen och spara till en text. eller fönster. Alla uppgifter om andra hjälpklasser är följande:
 
-- **Aspose.ThreeD.Render.DriverException-klass**- Undantagen för den interna återgivaren är lindade som DriverException.
-- **Aspose.ThreeD.**- Detta undantag kastas utan att initialisera återgivningen, till exempel att initiera den på en dator som inte har någon hårdvaruporter på OpenGL 4.0.
+- **Aspose.ThreeD.Render.DriverException Class.**- Undantagen för den interna återgivaren är lindade som DriverException.
+- **Aspose.ThreeD.Render.InitializationException-klass**- Detta undantag kastas utan att initialisera återgivningen, till exempel att initiera det på en dator som inte har något hårdvaruporter av OpenGL 4.0.
 - **IRenderTarget-gränssnitt**- Det är basgränssnittet för IRenderTexture/IRenderWindow.
 - **IRenderTexturgränssnitt**- Det gör det möjligt att återge scenen till en eller flera texturer (texturer finns i videominnet och kan överföras till systemminnet.
 - **IRender- fönstergränssnitt**- Det gör det möjligt att göra scenen till fönster i realtid.
@@ -33,7 +33,7 @@ De nya Viewport och Renderer klasserna är de viktigaste klasserna som hjälper 
 - **RenderFactory Classy**- Det hjälper med att göra en scen till texturer eller fönster i realtid.
 - **RenderParameters klass**- Det definierar parametrarna om hur man skapar renderingen mål som färg bitar, djup bitar, stencil bitar och dubbel buffert.
 
-**Fånga vyerna av en 3D Scen och Render till en textur eller fönster.**
+**Fånga vyer för en 3D Scene och teckning till en textur eller fönster**
 
 **C#**
 
@@ -124,10 +124,10 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Lägger till Aspose.ThreeD.Render.PostProcessing klass**
+###  **Lägger till Aspose.ThreeD.Render.PostProcessing klass**
 PostProcessing klass tillåter utvecklare att använda realtidsfilter för bildbearbetning på den återgivna bilden. I denna version 2.0.0, har vi tillhandahållit 4 inbyggda efterbehandlingseffekter. Vi tillåter utvecklare att ha en egen egna efterbehandlingsalgoritm i den framtida versionen.
 
-**Applicera visuella effekter vid att spara 3D vyer**
+**Använd visuella effekter vid sparning av 3D Visningar**
 
 **C#**
 
@@ -254,9 +254,9 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Lägger till GetBoundingBox metod till Aspose.ThreeD. Nod klass, Lägger till nya klasser Aspose.ThreeD. -Det är det. BoundingBox och Aspose.ThreeD. -Det är det. BoundingBoxExtentName**
-De BoundingBox och BoundingBoxExtent klasserna representerar avgränsande ruta av en 3D nod. Utvecklare kan återställa kameran och beräkna höjden från avgränsande ruta. Den oändliga eller noll avgränsande lådan innebär att scenen inte har några geometrier och bara justera kamerans höjd när den är ändlig.
-### **Rendering i realtid**
+###  **Lägger till GetBoundingBox- metoden till Aspose. 3D. Nodklass, Lägger till nya klasser Aspose. 3D. -Det är det. Boundingbox och Aspose. 3D. -Det är det. BoundingBoxExtentName**
+Gränsrutan och BoundingBoxExtent- klasserna representerar avgränsande ruta i en 3D-nod. Utvecklare kan återställa kameran och beräkna höjden från avgränsande ruta. Den oändliga eller noll avgränsande lådan innebär att scenen inte har några geometrier och bara justera kamerans höjd när den är ändlig.
+###  **Rendering i realtid**
 Det gör det möjligt för utvecklare att utföra högpresterande realtids rendering på ett GUI ramverk som WinForms, det är ramverket oberoende, så de andra GUI-ramverken bör också stödja detta.
-### **AddData metoder läggs till Aspose.ThreeD.Enheter.VertexElementUV klass**
+###  **AddData metoder läggs till i Aspose ThreeD.Entites.VertexElementUV klass**
 VertexElementUV:s basklass har ändrats från VertexElementTemplate<Vector2>Till VertexElementTemplate<Vector4>, Det kommer bara att lagra Vector4 sedan 2.0.0, så två hjälpmedel metoder lades till för att användaren kunde lägga till en lista över Vector2 och Vector3 till VertexElementUV, det kommer att internt expandera Vector2/Vector3 till Vector4 och lämna restens fält noll:

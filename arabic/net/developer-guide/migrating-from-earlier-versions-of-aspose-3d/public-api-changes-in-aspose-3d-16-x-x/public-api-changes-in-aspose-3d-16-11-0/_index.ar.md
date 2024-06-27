@@ -1,29 +1,29 @@
-﻿---
-title: Hangublic API hangمعلقة في Aspose.3D 16.11.0
+---
+title: العام API التغييرات في Aspose.3D 16.11.0
 type: docs
 weight: 20
 url: /ar/net/public-api-changes-in-aspose-3d-16-11-0/
 ---
 **Contents Sأوماري**
 
-- [Adds ddddEntity Method في Aspose.ThreeD.](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
-- [Import و Export من glTF iles](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
-  - [Adds Aspose.ThreeD. ororالحصير. GLTptions ptions oadOptions lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
-  - [Adds Aspose.ThreeD. ororالحصير. GLTptions ptions aveOptions lass](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
-  - [Adds glTF orormat nntry في Aspose.ThreeD.FileFormat lass](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
-  - [Adds خاصية Eفي Aspose.ThreeD.FileFormatType lass](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
+- [تضيف طريقة addenity في فئة Aspose.ThreeD.Node](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
+- [استيراد وتصدير ملفات glTF](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
+-[تضيف Aspose.ThreeD.Formats.GLTFLoadOptions Class](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
+-[يضيف Aspose.ThreeD.Formats.GLTFSaveOptions Class](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
+-[يضيف إدخال تنسيق glTF في فئة Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
+-[إضافة خاصية تمديد في فئة Aspose.ThreeD.FileFormatType](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
 - [Rطقوس النتوءات في Rial ile ile Syالجذعية](#PublicAPIChangesinAspose.3D16.11.0-WriteDependenciesintheRealFileSystem) 
-  - [Adds Aspose.ThreeD.](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
-  - [Adds Aspose.ThreeD. tiliتيليتيز.](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
-  - [Adds Aspose.ThreeD.](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
-- [Property dds property ileSyالجذعية الملكية في Aspose.ThreeD. orormat. IOononfig lass](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
+-[تضيف Aspose.ThreeD. Utility. DummyFileSystem Class](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
+-[تضيف Aspose.ThreeD. Ulevitors. LocalFileSystem Class](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
+-[تضيف Aspose.ThreeD. فائدة. فئة MemoryFileSystem](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
+- [تضيف خاصية نظام الملفات في فئة Aspose.ThreeD. Formes. Iofig](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 16.9.0 إلى 16.11.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+توضح هذه الوثيقة التغييرات إلى Aspose.3D API من الإصدار 16.9.0 إلى 16.11.0 ، والتي قد تكون ذات فائدة لمطوري الوحدة/التطبيقات. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-### **Adds ddddEntity Method في Aspose.ThreeD.**
+###  **تضيف طريقة addenity في فئة Aspose.ThreeD.Node**
 طريقة اختصار A لإضافة كيان إلى عقدة.
 
 **Add Entity إلى قصيدة N**
@@ -47,10 +47,10 @@ sphere.Entities.Add(new Sphere());
 sphere.AddEntity(new Sphere());
 
 {{< /highlight >}}
-### **Import و Export من glTF iles**
-Uالغناء الإصدار الأخير (16.11.0) أو أعلى ، يمكن للمطورين استيراد وتصدير الملفات glTF إلى/من الملفات الأخرى المدعومة 3D.
-#### **Adds Aspose.ThreeD. ororالحصير. GLTptions ptions oadOptions lass**
-لقد أضاف We فئة ptions ptions ptions ptions ptions. It يساعد في استيراد الملفات glTF إلى Aspose.3D API.
+###  **استيراد وتصدير ملفات glTF**
+باستخدام الإصدار الأخير (16.11.0) أو أعلى ، يمكن للمطورين استيراد وتصدير ملفات glTF إلى/من ملفات 3D المعتمدة الأخرى.
+####  **تضيف Aspose.ThreeD.Formats.GLTFLoadOptions Class**
+لقد أضفنا فئة GLTFLoadOptions. يساعد في استيراد ملفات glTF إلى Aspose.3D API.
 
 **Lip الشفاه V/T exexture ordinالمرؤوس**
 
@@ -71,10 +71,10 @@ loadOpt.FlipTexCoordV = true;
 scene.Open("Duck.gltf", loadOpt);
 
 {{< /highlight >}}
-#### **Adds Aspose.ThreeD. ororالحصير. GLTptions ptions aveOptions lass**
-لقد أضاف We فئة ptions ptions ptions ptions ptions aveO. It يحدد الإعدادات على حفظ ملف glTF.
+####  **يضيف Aspose.ThreeD.Formats.GLTFSaveOptions Class**
+لقد أضفنا فئة GLTFSaveOptions. يحدد الإعدادات عند حفظ ملف glTF.
 
-**Embed epependennnside ututplace glTF ile ile**
+**تضمين التبعيات داخل ملف الإخراج glTF**
 
 {{< highlight "java" >}}
 
@@ -134,7 +134,7 @@ scene.Save("d:\\test.gltf", opt);
 
 {{< /highlight >}}
 
-**Cيعيد 07البولي glTF ile ile باستخدام KHR_binary_glTF xx**
+**إنشاء ملف ثنائي glTF باستخدام ملحق khrybinarye-gltf**
 
 {{< highlight "java" >}}
 
@@ -152,7 +152,7 @@ scene.Save("d:\\test.glb", FileFormat.GLTF_Binary);
 
 {{< /highlight >}}
 
-**Cيعيد 07البولي glTF ile ile باستخدام KHR_binary_glTF xxtension جنبا إلى جنب مع ptions aving ptions**
+**إنشاء ملف ثنائي glTF باستخدام ملحق khrbinary-gltf جنبا إلى جنب مع خيارات التوفير**
 
 {{< highlight "java" >}}
 
@@ -175,13 +175,13 @@ opt.UseCommonMaterials = true;
 scene.Save("d:\\test.glb", opt);
 
 {{< /highlight >}}
-#### **Adds glTF orormat nntry في Aspose.ThreeD.FileFormat lass**
-وأضاف We إدخالات تنسيق البولي GLTF و GLTF_Bلأغراض التحميل وحفظ.
-#### **Adds خاصية Eفي Aspose.ThreeD.FileFormatType lass**
+####  **يضيف إدخال تنسيق glTF في فئة Aspose.ThreeD.FileFormat**
+لقد أضفنا إدخالات تنسيق ثنائية بقيمة GLTF و gltf-binary لأغراض التحميل والتوفير.
+####  **إضافة خاصية تمديد في فئة Aspose.ThreeD.FileFormatType**
 وأضاف We خاصية Extension في فئة ype ileFormatType للحصول على اسم تمديد تنسيق الملف.
-### **Rطقوس النتوءات في Rial ile ile Syالجذعية**
-Uالغناء الإصدار الأخير (16.11.0) أو أعلى ، يمكن للمطورين حفظ جميع التبعيات المشهد 3D في نظام الملفات الحقيقي. قد Dإيفليورز تحديد مسار الدليل المحلي ، حفظ في الكائن إيموريس إيليستيم أو ببساطة تجاهل التبعيات. يتم إضافة property he ilileSyالجذعية الملكية في جميع الطبقات خيار حفظ.
-#### **Adds Aspose.ThreeD.**
+###  **Rطقوس النتوءات في Rial ile ile Syالجذعية**
+باستخدام الإصدار الأخير (16.11.0) أو أعلى ، يمكن للمطورين حفظ جميع تبعيات المشهد 3D في نظام الملفات الحقيقي. يمكن للمطورين تحديد مسار دليل محلي ، أو حفظ كائن نظام الذاكرة أو تجاهل التبعيات ببساطة. تتم إضافة خاصية نظام الملفات في جميع فئات خيارات الحفظ.
+####  **تضيف Aspose.ThreeD. Utility. DummyFileSystem Class**
 **Discard aving aving المواد iles iles**
 
 {{< highlight "java" >}}
@@ -205,7 +205,7 @@ opt.FileSystem = new DummyFileSystem();
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Adds Aspose.ThreeD. tiliتيليتيز.**
+####  **تضيف Aspose.ThreeD. Ulevitors. LocalFileSystem Class**
 **Cies ave epفي Lثماني D**
 
 {{< highlight "java" >}}
@@ -229,7 +229,7 @@ opt.FileSystem = new LocalFileSystem("E:\\");
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Adds Aspose.ThreeD.**
+####  **تضيف Aspose.ThreeD. فائدة. فئة MemoryFileSystem**
 **Cies افي epependenفي ememoryFileSyالجذعية bحقن**
 
 {{< highlight "java" >}}
@@ -256,12 +256,12 @@ scene.Save("d:\\test.obj", opt);
 
 //get the test.mtl file content
 
-byte[]mtl = mfs.GetFileContent("test.mtl");
+byte[] mtl = mfs.GetFileContent("test.mtl");
 
 File.WriteAllBytes("material.mtl", mtl);
 
 {{< /highlight >}}
-### **Property dds property ileSyالجذعية الملكية في Aspose.ThreeD. orormat. IOononfig lass**
+###  **تضيف خاصية نظام الملفات في فئة Aspose.ThreeD. Formes. Iofig**
 لقد أضاف We خاصية ileSyالجذعية في فئة Ionononfig لكتابة التبعيات.
 
 **Adds خاصية غير سامة**

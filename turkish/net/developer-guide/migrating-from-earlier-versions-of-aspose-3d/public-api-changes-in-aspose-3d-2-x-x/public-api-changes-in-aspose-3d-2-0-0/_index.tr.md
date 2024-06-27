@@ -1,30 +1,30 @@
-﻿---
-title: Public API Changes Aspose.3D 2.0.0
+---
+title: Kamu API Aspose içinde değişir. 3D 2.0.0
 type: docs
 weight: 20
 url: /tr/net/public-api-changes-in-aspose-3d-2-0-0/
 ---
 **Contents Summary**
 
-- [Dds dds Collada formatı](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
-- [Dds dds Aspose.ThreeD.Render. Ienenderararget/Ienenderexexture/IRenderinindow/Iexexturenit nit arayüzleri ve Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/Textureyype/riverriverriverxception/Renderaraactory/Renderaraarameters sınıfları](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
-- [Dds dds Aspose.ThreeD.Render. Postorocessing sınıfı](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
-- [Dds dds Getetoundingox ox yöntemi Aspose.ThreeD.Node sınıfı, dds dds yeni sınıflar Aspose.ThreeD.Utilities. ounoundingox ox ve Aspose.ThreeD. lities ti.. ounoundingoxoxExtent](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
+- [Collada formatı ekler](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
+- [Aspose ekler. threed. render. irendertarget/irenderwindow/irenderwindow/itextureunit arabirimleri ve Aspose. threed. view. viewport/initializationexception/renderer/texturetype/driverexception/renderfactory/renderparameters sınıfları](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
+- [Adds Aspose.ThreeD.Render.PostProcessing class](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
+- [Adds GetBoundingBox method to Aspose.ThreeD.Node class, Adds new classes Aspose.ThreeD.Utilities.BoundingBox and Aspose.ThreeD.Utilities.BoundingBoxExtent](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
 - [Real-zaman dering endering](#PublicAPIChangesinAspose.3D2.0.0-Real-timeRendering)
-- [AddData yöntemleri Aspose.ThreeD.Entities. VertexElementUclass class eklenir](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
+- [AddData methods are added to Aspose.ThreeD.Entities.VertexElementUV class](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
 
 {{% alert color="primary" %}} 
 
-This belgesi, 1.7.0 sürümünden 2.0.0 sürümüne Aspose.3D API değişikliklerini açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+Bu belge, Aspose.3D API sürüm 1.7.0 'dan 2.0.0 'e kadar olan değişiklikleri açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. Sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'daki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-### **Dds dds Collada formatı**
-In bu sürümü (2.0.0), geliştiriciler Collada 3D dosyalarını içe aktarabilirler, bu nedenle Collada özelliği Aspose.ThreeD. File. ormat sınıfına eklenir.
-### **Dds dds Aspose.ThreeD.Render. Ienenderararget/Ienenderexexture/IRenderinindow/Iexexturenit nit arayüzleri ve Aspose.ThreeD.Render.Viewport/InitializationException/Renderer/Textureyype/riverriverriverxception/Renderaraactory/Renderaraarameters sınıfları**
-The yeni Viewport ve Renderer sınıfları, 3D sahnesinin görüşlerini yakalamanıza ve bir doku veya pencereye kaydetmenize yardımcı olan ana sınıflardır. Diğer yardım sınıflarının All detayları aşağıdaki gibidir:
+###  **Collada formatı ekler**
+In this version (2.0.0), developers can import Collada 3D files, so the Collada property is added in Aspose.ThreeD.FileFormat class.
+###  **Aspose ekler. threed. render. irendertarget/irenderwindow/irenderwindow/itextureunit arabirimleri ve Aspose. threed. view. viewport/initializationexception/renderer/texturetype/driverexception/renderfactory/renderparameters sınıfları**
+Yeni bakış açısı ve renderer sınıfları, 3D sahnesinin görüşlerini yakalamanıza ve bir doku veya pencereye kaydetmenize yardımcı olan ana sınıflardır. Diğer yardım sınıflarının tüm detayları aşağıdaki gibidir:
 
-- **Aspose.ThreeD.Render. riverriverriverxception sınıfı**-İç kiracının istisnaları Driverriverxception olarak sarılır.
-- **Aspose.ThreeD.Render.InitializationException sınıfı**-Bu istisna, işleyiciyi başlatamazken atılır, örneğin OpenGL 4.0 donanım desteği olmayan bir bilgisayarda başlatır.
+- **Aspose. threed. render. driverexception sınıfı**-İç kiracının istisnaları Driverriverxception olarak sarılır.
+- **Aspose. threed. render. initializationexception sınıfı**-Bu istisna, kiracıyı başlatamazken atılır, örneğin Openpen4.0 4.0 donanım desteği olmayan bir bilgisayarda başlatır.
 - **IRenderararget arayüzü**-It, Ienender. exture/Ienender. indow'un temel arayüzüdür.
 - **IRenderexexture arayüzü**-It, sahneyi bir veya daha fazla dokuya dönüştürmeye izin verir (dokular video belleğinde bulunur ve sistem belleğine aktarılabilir).
 - **IRenderinindow arayüzü**-It, sahneyi gerçek zamanlı olarak pencereye dönüştürmeye izin verir.
@@ -33,7 +33,7 @@ The yeni Viewport ve Renderer sınıfları, 3D sahnesinin görüşlerini yakalam
 - **Rendertory actory sınıfı**-It, bir sahneyi dokulara veya pencereye gerçek zamanlı olarak oluşturmaya yardımcı olur.
 - **Renderenarameters sınıfı**-It, renk bitleri, derinlik bitleri, şablon bitleri ve çift tamponlama gibi render hedefinin nasıl oluşturulacağı ile ilgili parametreleri tanımlar.
 
-**07apture bir 3D cene cene ve Render bir doku veya pencere Viewports**
+**3D sahnesinin görüntülerini yakalayın ve bir doku veya pencereye dönüştürün**
 
 **C#**
 
@@ -124,10 +124,10 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Dds dds Aspose.ThreeD.Render. Postorocessing sınıfı**
+###  **Adds Aspose.ThreeD.Render.PostProcessing class**
 Post. rocessing sınıfı, geliştiricilerin gerçek zamanlı görüntü işleme filtresini işlenmiş görüntüye uygulamasına izin verir. In bu sürüm 2.0.0, 4 dahili işlem sonrası efekt sağladık. We, geliştiricilerin gelecekteki sürümde kendi özel işlem sonrası algoritmalarına sahip olmasına izin verecektir.
 
-**0707aving 3D Views üzerinde Vpply iiEffects**
+**3D görünümlerini kaydetme üzerine görsel efektler uygulayın**
 
 **C#**
 
@@ -254,9 +254,9 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Dds dds Getetoundingox ox yöntemi Aspose.ThreeD.Node sınıfı, dds dds yeni sınıflar Aspose.ThreeD.Utilities. ounoundingox ox ve Aspose.ThreeD. lities ti.. ounoundingoxoxExtent**
-The ounoundingox ox ve Bounding. oxExtent sınıfları 3D düğümünün sınırlama kutusunu temsil eder. Developers kamerayı sıfırlayabilir ve sınırlama kutusundan yüksekliği hesaplayabilir. The sonsuz veya boş sınırlama kutusu, sahnenin geometrisi olmadığı ve sadece sonlu olduğunda kameranın yüksekliğini ayarladığı anlamına gelir.
-### **Real-zaman dering endering**
+###  **Adds GetBoundingBox method to Aspose.ThreeD.Node class, Adds new classes Aspose.ThreeD.Utilities.BoundingBox and Aspose.ThreeD.Utilities.BoundingBoxExtent**
+Boundingbox ve boundingbox. sınıfları, 3D düğümünün sınırlama kutusunu temsil eder. Geliştiriciler kamerayı sıfırlayabilir ve sınırlama kutusundan yüksekliği hesaplayabilir. Sonsuz veya boş sınırlama kutusu, sahnenin geometrisi olmadığı ve sonlu olduğunda sadece kameranın yüksekliğini ayarladığı anlamına gelir.
+###  **Real-zaman dering endering**
 It, geliştiricilerin Wininorms gibi bir Ginçerçeve üzerinde yüksek performanslı gerçek zamanlı işleme gerçekleştirmelerine izin verir, Gframework çerçeve-bağımsız, bu yüzden diğer frameframeframeçerçeveler de bunu desteklemelidir.
-### **AddData yöntemleri Aspose.ThreeD.Entities. VertexElementUclass class eklenir**
+###  **AddData methods are added to Aspose.ThreeD.Entities.VertexElementUV class**
 The VertexElementUV 'in temel sınıfı VertexElementTemplate 'den değişti<Vector2>VertexElementTemplate için<Vector4>2.ector4'ü 2.0.0 'dan beri saklayacak, bu yüzden kullanıcının Vector2 ve Vector3'ün bir listesini erertexElementUV 'e eklemesine izin vermek için iki yardımcı yöntem eklendi, dahili olarak Vector2/Vector3'ü Vector4'e genişletecek ve dinlenme alanlarını sıfır bırakacak:

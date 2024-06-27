@@ -1,71 +1,71 @@
-﻿---
-title: sistem gereksinimleri
+---
+title: Sistem gereksinimleri
 type: docs
 weight: 50
 url: /tr/net/system-requirements/
-description: C# yılında 3D dosya formatlarını manipüle etmek ve dönüştürmek için System equiequiequive Develo. nvinvironments.
+description: System Requirements and Development Environments for manipulating and converting 3D file formats in C#.
 ---
-C# yılında 3D dosya formatlarını manipüle etmek ve dönüştürmek için System equiequiequive Develo. nvinvironments.
+System Requirements and Development Environments for manipulating and converting 3D file formats in C#.
 
-## **Overview**
-To 3D belge formatlarını oluşturun ve manipüle edin, Aspose.3D for .NET çalıştıran makinenin modelleme ve işleme yazılımına sahip olması gerekmez. Aspose.3D 076. 481 076. 481 ayrıca belge üretim motorunu da içerir.
-## **Orted upported ating perating stem ystem**
-### **Windows**
-- Microsoft Windows 2003 Server ( x64, x86)
-- Microsoft Windows 2008 Server ( x64, x86)
-- Microsoft Windows 2012 Server ( x64, x86)
-- Microsoft Windows 2012 R2 Server ( x64, x86)
-- Microsoft Windows 2016 Server ( x64, x86)
-- Microsoft Windows 2019 Server ( x64, x86)
-- Microsoft Windows Vista ( x64, x86)
-- Microsoft Windows XP ( x64, x86)
+##  **Overview**
+To build and manipulate 3D document formats, the machine that Aspose.3D for .NET runs on doesn't need to have modeling and rendering software installed. Aspose.3D for .NET API also incorporates document generation engine.
+##  **Orted upported ating perating stem ystem**
+###  **Windows**
+- Microsoft Windows 2003 sunucu (x86, x86)
+- Microsoft Windows 2008 sunucu (x86, x86)
+- Microsoft Windows 2012 sunucu (x86, x86)
+- Microsoft Windows 2012 r2 sunucusu (x64, x86)
+- Microsoft Windows 2016 sunucu (x86, x86)
+- Microsoft Windows 2019 sunucusu (x86, x86)
+- Microsoft Windows vista (x64, x86)
+- Microsoft Windows xp (x64, x86)
 - Microsoft Windows 7 ( x64, x86)
 - Microsoft Windows 8, 8.1 ( x64, x86)
 - Microsoft Windows 10 ( x64, x86)
-- Microsoft Azure
-### **MacOS**
+- Microsoft azure
+###  **MacOS**
 - Mac OS x64 x64 (10.12)
-### **Linux**
-- Linuxx64 (6, 7 ,27, 9, 8.7 , 18.04, 16.04, 14.04, 18, 17, 42.3 , 12 SP2)
+###  **Linux**
+- Linux x64 ( 6, 7 ,27, 9, 8.7 , 18.04, 16.04, 14.04, 18, 17, 42.3 , 12 SP2)
 
-Furthermore, Mono(.NET 4.0 Framework desteği) kurabilen veya .NET çekirdeği kullanabilen herhangi bir işletim sistemi Aspose.3D 076481 481 kullanabilir.
-## **Rendering**
-### **OpenGL**
-Aspose.3D for .NET, OpenGL 4.3 desteğine sahip sistemi gerektirir.[Wikipedia](https://en.wikipedia.org/wiki/OpenGL#OpenGL_4.3), Desteklenen donanım:
+Furthermore, any operating system that can install Mono(.NET 4.0 Framework support) or use .NET core can use Aspose.3D for .NET.
+##  **Rendering**
+###  **OpenGL**
+Aspose.3D for .NET, [Wikipedia](https://en.wikipedia.org/wiki/OpenGL#OpenGL_4.3) 'a göre opengl 4.3 desteğine sahip olan sistemi gerektirir, desteklenen donanım:
 
 - NVI400 400 400 e e-Force 400 serisi ve daha yeni
 - AMD adeadeon 5000 5000 5000 Series ve daha yeni
 - Intel processors aswell işlemcilerinde ve daha yenisinde Intel processors Graphics
-### **Vulkan**
-Aspose.3D for .NET Vulkan platform platformunu gerektirir, x86 desteklenmez.
+###  **Vulkan**
+Aspose.3D for .NET vulkan x64 platformunu gerektirir, x86 desteklenmez.
 
 - AMD adeadeon 7700 serisi ve daha yeni
 - NV600 600 600 600 600 eForce 600 serisi ve daha yeni
 - Intel Skylake ve daha yeni
-## **Development nvinvironments**
-You Aspose.3D for .NET platformunu hedef alan herhangi bir geliştirme ortamında uygulama geliştirmek için Aspose.3D for .NET kullanabilir, ancak aşağıdaki ortamlar açıkça desteklenir:
+##  **Development nvinvironments**
+Aspose.3D for .NET kullanarak .NET platformunu hedefleyen herhangi bir geliştirme ortamında uygulamalar geliştirebilirsiniz, ancak aşağıdaki ortamlar açıkça desteklenir:
 
-- Microsoft Visual Studio 2010
-- Microsoft Visual Studio 2011
-- Microsoft Visual Studio 2012
-- Microsoft Visual Studio 2013
-- Microsoft Visual Studio 2015
-- Microsoft Visual Studio 2017
-- Microsoft Visual Studio 2019
-## **Supp07.NET Framework sions ersions**
-To .NET Framework sürümlerini takip ediyor:
+- Microsoft görsel stüdyo 2010
+- Microsoft görsel stüdyo 2011
+- Microsoft görsel stüdyo 2012
+- Microsoft görsel stüdyo 2013
+- Microsoft görsel stüdyo 2015
+- Microsoft görsel stüdyo 2017
+- Microsoft görsel stüdyo 2019
+##  **Desteklenen .NET çerçeve sürümleri**
+Aşağıdaki .NET çerçeve sürümleri desteklenir:
 
-- .NET Framework 4.0
-- .NET Framework 4.0 _ Clientfile rofile
-- .NET Framework 4.5.0
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6.0
-- .NET Framework 4.6.2
-- .NET Framework 4.5.0
-- .NET Framework 4.5.1
-- .NET Framework 4.6.0
-- .NET Framework 4.6.2
-- .NET Framework 4.7
-- .NET Framework 4.7.2
-- .NET Standard 2.0 (.NET Core 2.0/2.1)
+- .NET çerçeve 4.0
+- .NET çerçeve 4.0 _ müşteri profili
+- .NET çerçeve 4.5.0
+- .NET çerçeve 4.5.1
+- .NET çerçeve 4.5.2
+- .NET çerçeve 4.6.0
+- .NET çerçeve 4.6.2
+- .NET çerçeve 4.5.0
+- .NET çerçeve 4.5.1
+- .NET çerçeve 4.6.0
+- .NET çerçeve 4.6.2
+- .NET çerçeve 4.7
+- .NET çerçeve 4.7.2
+- .NET standart 2.0 (.NET çekirdek 2.0/2.1)

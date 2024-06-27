@@ -1,17 +1,17 @@
-﻿---
+---
 title: Simplificar la creación de la matriz de transformación por las operaciones de la cadena
 type: docs
 weight: 60
 url: /es/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D para Python via .NET API ofrece la clase TransformBuilder que simplifica la creación de la matriz de transformación por las operaciones de la cadena.
+description: Aspose.3D for Python via .NET API ofrece la clase TransformBuilder que simplifica la creación de la matriz de transformación mediante las operaciones de la cadena.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D para Python via .NET API ofrece la clase `TransformBuilder` que simplifica la creación de la matriz de transformación por las operaciones de la cadena.
+Aspose.3D for Python via .NET API ofrece la clase `TransformBuilder` que simplifica la creación de la matriz de transformación mediante las operaciones de la cadena.
 
 {{% /alert %}} 
 
-Supongamos que hay una instancia `TransformBuilder`**Tb**, Y operaciones de la cadena:
+Suppose, there is a `TransformBuilder` instance **Tb**, Y operaciones de la cadena:
 
 **Python**
 
@@ -73,12 +73,12 @@ m = (a3d.utilities.TransformBuilder(a3d.utilities.ComposeOrder.PREPEND))
 
 {{% alert color="primary" %}} 
 
-Los nuevos métodos agregados en las clases `Matrix4` y `TransformBuilder` son las utilidades para que los desarrolladores modelen la escena por programa, por lo que no necesitan construir manualmente la matriz de transformación, esto generalmente lo usan desarrolladores expertos.
+Los nuevos métodos agregados en las clases `Matrix4` y `TransformBuilder` son las utilidades para que los desarrolladores modelen la escena por programa, por lo que no necesitan construir manualmente la matriz de transformación, esto generalmente es utilizado por desarrolladores expertos.
 
-Los desarrolladores ordinales pueden usar la propiedad `Transform` de la clase `Node` para cambiar la traducción/escalado/rotación de un objeto.
+Los desarrolladores ordinales pueden usar la propiedad `Transform` de la clase `Node` para cambiar la traducción/escala/rotación de un objeto.
 
-Los desarrolladores también pueden asignar la matriz creada por `TransformBuilder` al `Node.Transform`.
+Los desarrolladores también pueden asignar la matriz creada por `TransformBuilder` a `Node.Transform`.
 
-Puede encontrar más información sobre la matriz de transformación en Wikipedia[Matriz de transformación](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)Y[Transofrmación afín](https://en.wikipedia.org/wiki/Affine_transformation)
+Se puede encontrar más información sobre la matriz de transformación en Wikipedia [Matriz de transformación](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) y [Transofrmación afín](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

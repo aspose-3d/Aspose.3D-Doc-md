@@ -1,12 +1,12 @@
-﻿---
-title: Maßstab Geometrien einer 3D Szene
+---
+title: Geometrien einer 3D-Szene skalieren
 type: docs
 weight: 70
 url: /de/python-net/scale-geometries-of-a-3d-scene/
-description: Entwickler können nur Geometrien eines Knotens 3D oder aller Knoten der Szene 3D skalieren. Um dies zu erreichen, können Entwickler mehrere Scale-Mitglieder der PolygonModifier-Klassen instanz aufrufen.
+description: Entwickler können nur Geometrien eines 3D-Knotens oder aller Knoten der 3D-Szene skalieren. Um dies zu erreichen, können Entwickler mehrere Scale-Mitglieder der PolygonModifier-Klassen instanz aufrufen.
 ---
-## **Skalierung geometrien eines einzelnen Knotens 3D oder aller Knoten der Szene 3D**
-Entwickler können nur Geometrien eines Knotens 3D oder aller Knoten der Szene 3D skalieren. Um dies zu erreichen, können Entwickler mehrere Scale-Mitglieder der Klassen instanz `PolygonModifier` aufrufen. Dies ist das Code beispiel, um alle Knoten oder einzelnen Knoten zu skalieren:
+##  **Skalieren Sie Geometrien eines einzelnen 3D-Knotens oder aller Knoten der 3D-Szene**
+Entwickler können nur Geometrien eines 3D-Knotens oder aller Knoten der 3D-Szene skalieren. Um dies zu erreichen, können Entwickler mehrere Scale-Mitglieder der `PolygonModifier`-Klassen instanz aufrufen. Dies ist das Code beispiel, um alle Knoten oder einzelnen Knoten zu skalieren:
 
 
 

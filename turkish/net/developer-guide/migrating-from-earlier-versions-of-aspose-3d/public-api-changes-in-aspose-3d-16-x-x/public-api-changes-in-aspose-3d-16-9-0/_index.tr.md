@@ -1,30 +1,30 @@
-﻿---
-title: Public API Changes Aspose.3D 16.9.0
+---
+title: Kamu API Aspose içinde değişir. 3D 16.9.0
 type: docs
 weight: 30
 url: /tr/net/public-api-changes-in-aspose-3d-16-9-0/
 ---
 **Contents Summary**
 
-- [Smport 3D cene cene 07ourource PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
-  - [Dds dds Aspose.ThreeD.Formats. dfdfdfoadlass ptions lass lass](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
-  - [Dds dds Aspose.ThreeD. Fileiormat ve Aspose.ThreeD.Formats. dfdfdformat lass lass](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
-- [PDF Format içinde 07ave bir 3D cene cene](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
-  - [Dds dds Aspose.ThreeD.Formats. dfdfSaveOptions class ve Aspose.ThreeD.Formats. dfdfdftingtingchecheme/dfdfdfenderoode Enums](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
-- [Aspose.ThreeD.Entities. olyolygongonodifier lass lass içinde dds dds Triangulate Method](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
-- [Aspose.ThreeD.Entities. olyolygonModifier lass lass içinde dds dds iki BuildTangentBinormal Methods](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [Import 3D Scene from the Source PDF](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
+-[Aspose ekler. threed. formats. pdfloadoptions sınıfı](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
+-[Aspose ekler. threed. fileformat ve Aspose. threed. formats. pdfformat sınıfı](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
+- [PDF formatında 3D sahnesini kaydedin](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
+-[Aspose ekler. threed. formats. pdfsaveoptions sınıfı ve Aspose. threed. formats. pdflightingscheme/pdfrendermode enums](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
+- [Aspose. threed. entities. polygonmodifier sınıfında triangulate yöntemi ekler](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [Adds two BuildTangentBinormal Methods in the Aspose.ThreeD.Entities.PolygonModifier Class](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
 
 {{% alert color="primary" %}} 
 
-Tbelge, 2.1.0 sürümünden 16.9.0 sürümüne Aspose.3D API değişikliklerini açıklar, bu modül/uygulama geliştiricilerine ilgi gösterebilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+This document describes changes to the Aspose.3D API from version 2.1.0 to 16.9.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Smport 3D cene cene 07ourource PDF**
-Developers son sürümü (16.9.0) veya daha yüksek, geliştiriciler 3D görüntülerini PDF dosyasından alabilir.
-#### **Dds dds Aspose.ThreeD.Formats. dfdfdfoadlass ptions lass lass**
-We Pdfdfoadptions ptions class ekledi. It, PDF dosyasından içerik yüklemede yardımcı olur. Developers korumalı PFs için şifre uygulayabilir.
+###  **Import 3D Scene from the Source PDF**
+Using the recent version (16.9.0) or higher, developers can retrieve 3D scenes from an input PDF file.
+####  **Aspose ekler. threed. formats. pdfloadoptions sınıfı**
+Pdfloadoptions sınıfını ekledik. İçeriğin PDF dosyasından yüklenmesine yardımcı olur. Geliştiriciler korumalı pdf'ler için şifre uygulayabilir.
 
-**Şifre korumalı PDF dosyasından Open sahne**
+**Şifre korumalı PDF dosyasından açık sahne**
 
 {{< highlight "java" >}}
 
@@ -45,8 +45,8 @@ PdfLoadOptions opt = new PdfLoadOptions() {Password = Encoding.UTF8.GetBytes("pa
 scene.Open(path, opt);
 
 {{< /highlight >}}
-#### **Dds dds Aspose.ThreeD. Fileiormat ve Aspose.ThreeD.Formats. dfdfdformat lass lass**
-We, yükleme ve kaydetme amaçlı 07ile. ormat sınıfında PDF formatının bir girişini eklemiştir. The dfdfdformat sınıfı PDFs işlemek için yardımcı olur.
+####  **Aspose ekler. threed. fileformat ve Aspose. threed. formats. pdfformat sınıfı**
+We have added an entry of PDF format in the FileFormat class for loading and saving purposes. The PdfFormat class helps to manipulate PDFs.
 
 {{< highlight "java" >}}
 
@@ -54,7 +54,7 @@ We, yükleme ve kaydetme amaçlı 07ile. ormat sınıfında PDF formatının bir
 
 {{< /highlight >}}
 
-**Extract PDF dosyasından tüm ham 3D içerikleri**
+**Tüm ham 3D içeriğini PDF dosyasından ayıklayın**
 
 {{< highlight "java" >}}
 
@@ -62,7 +62,7 @@ We, yükleme ve kaydetme amaçlı 07ile. ormat sınıfında PDF formatının bir
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 // extract 3D contents
 
@@ -72,7 +72,7 @@ int i = 1;
 
 // iterate through the contents and in separate 3D files
 
-foreach (byte[]content in contents)
+foreach (byte[] content in contents)
 
 {
 
@@ -84,7 +84,7 @@ foreach (byte[]content in contents)
 
 {{< /highlight >}}
 
-**07xtract tüm 3D sahneler ve FBX dosyasına kaydedin**
+**Extract all 3D scenes and save them into FBX file**
 
 {{< highlight "java" >}}
 
@@ -92,7 +92,7 @@ foreach (byte[]content in contents)
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 List<Scene> scenes = FileFormat.PDF.ExtractScene(path, password);
 
@@ -111,12 +111,12 @@ foreach (Scene scene in scenes)
 }
 
 {{< /highlight >}}
-### **PDF Format içinde 07ave bir 3D cene cene**
-Developers son sürümü (16.9.0) veya daha yüksek, geliştiriciler PDF formatında desteklenen tüm 3D dosyalarını kaydedebilir.
-#### **Dds dds Aspose.ThreeD.Formats. dfdfSaveOptions class ve Aspose.ThreeD.Formats. dfdfdftingtingchecheme/dfdfdfenderoode Enums**
-To dfdfdfaveOptions PDF formatında çıktıdan tasarruf etmeden önce ayarı uygulamada yardımcı olur. Developers, 3D sahnesini aşağıdaki gibi PDF formatına kaydetmeden önce bir rendering modu ve aydınlatma şeması ayarlayabilir:
+###  **PDF formatında 3D sahnesini kaydedin**
+Son sürümü (16.9.0) veya daha yüksek kullanarak, geliştiriciler tüm desteklenen 3D dosyalarını PDF formatında kaydedebilir.
+####  **Aspose ekler. threed. formats. pdfsaveoptions sınıfı ve Aspose. threed. formats. pdflightingscheme/pdfrendermode enums**
+The PdfSaveOptions helps in applying setting before saving in the output PDF format. Developers can set a rendering mode and lighting scheme before saving a 3D scene into the PDF format as below:
 
-**07bir silindir ile 3D PDF reate ve CAD optimize edilmiş aydınlatma ile gölgeli illüstrasyon modunda işlendi**
+**Bir silindir ile 3D PDF oluşturun ve CAD optimize edilmiş aydınlatma ile gölgeli illüstrasyon modunda işleyin**
 
 {{< highlight "java" >}}
 
@@ -141,10 +141,10 @@ opt.RenderMode = PdfRenderMode.ShadedIllustration;
 scene.Save("output.pdf", opt);
 
 {{< /highlight >}}
-### **Aspose.ThreeD.Entities. olyolygongonodifier lass lass içinde dds dds Triangulate Method**
+###  **Aspose. threed. entities. polygonmodifier sınıfında triangulate yöntemi ekler**
 We, bir parametre olarak bir cene cene sınıfı nesneyi alan olyolygongonodifier sınıfında başka bir aşırı yük eklemiştir.
 
-**FBX dosyasında tüm poligonları üçgenlere yönlendirin**
+**Tüm poligonları FBX dosyasında üçgenlere dönüştürün**
 
 {{< highlight "java" >}}
 
@@ -161,10 +161,10 @@ PolygonModifier.Triangulate(scene);
 scene.Save("triangulated.fbx", FileFormat.FBX7400ASCII);
 
 {{< /highlight >}}
-### **Aspose.ThreeD.Entities. olyolygonModifier lass lass içinde dds dds iki BuildTangentBinormal Methods**
+###  **Adds two BuildTangentBinormal Methods in the Aspose.ThreeD.Entities.PolygonModifier Class**
 We, olyolygongonodifier sınıfında iki BuildTangentBinormal yöntemi eklemiştir. One yöntemi Scene sınıfı nesneyi bir parametre olarak alır ve diğeri Mesh sınıfı nesnesini bir parametre olarak alır.
 
-**FBX dosyasındaki tüm ağlar için tangent uild tanjant ve binormal veriler**
+**FBX dosyasındaki tüm ağlar için tanjant ve binormal veriler oluşturun**
 
 {{< highlight "java" >}}
 

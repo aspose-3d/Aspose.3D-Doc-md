@@ -1,21 +1,21 @@
-﻿---
-title: Public API Changes Aspose.3D 1.2.0
+---
+title: Kamu API Aspose içinde değişir. 3D 1.2.0
 type: docs
 weight: 50
 url: /tr/net/public-api-changes-in-aspose-3d-1-2-0/
 ---
 **Contents Summary**
 
-- [Setup 3D File Target ve Camera](#PublicAPIChangesinAspose.3D1.2.0-SetuptheTargetandCamerain3DFile)
-- [Lip lip ordinoate ate 07ystem 3D Formats](#PublicAPIChangesinAspose.3D1.2.0-FlipCoordinateSystemin3DFormats)
+- [Hedef ve kamerayı 3D dosyasında kur](#PublicAPIChangesinAspose.3D1.2.0-SetuptheTargetandCamerain3DFile)
+- [Koordinat sistemini 3D formatlarında çevir](#PublicAPIChangesinAspose.3D1.2.0-FlipCoordinateSystemin3DFormats)
 - [Ow ow to a riangulate a Mesh](#PublicAPIChangesinAspose.3D1.2.0-HowtoTriangulateaMesh)
 
 {{% alert color="primary" %}} 
 
-This belgesi, 1.1.0 sürümünden 1.2.0 'a kadar Aspose.3D API 'teki değişiklikleri, modül/uygulama geliştiricilerine ilgi duyulabilir. It sadece yeni ve güncellenmiş kamu yöntemlerini değil, aynı zamanda Aspose.3D 'deki sahnelerin arkasındaki davranıştaki herhangi bir değişikliğin açıklamasını da içerir.
+This document describes changes to the Aspose.3D API from version 1.1.0 to 1.2.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Setup 3D File Target ve Camera**
+###  **Hedef ve kamerayı 3D dosyasında kur**
 In bazı dosya biçimleri, ışık/kamera, ışık/kameranın her zaman belirtilen bir düğüme bakmasını sağlayan hedefi destekler, bu animasyonda yararlıdır. Example kodu:
 
 **C#**
@@ -34,8 +34,8 @@ scene.Save("d:\\camera-test.3ds", FileFormat.Discreet3DS);
 
 {{< /highlight >}}
 
-### **Lip lip ordinoate ate 07ystem 3D Formats**
-(THREEDNET-123) - Allow kullanıcı OBJ/3DS/STL koordinat sistemini çevirmek için. Example kodu:
+###  **Koordinat sistemini 3D formatlarında çevir**
+(THREEDNET-123) - Allow user to flip coordinate system in OBJ/3DS/STL. Example code:
 
 **C#**
 
@@ -49,7 +49,7 @@ scene.Save(@"d:\freehand_shuttle.obj", new ObjConfig() { EnableMaterials = false
 
 {{< /highlight >}}
 
-### **Ow ow to a riangulate a Mesh**
+###  **Ow ow to a riangulate a Mesh**
 Triangulate mesh, oyun endüstrisi için yararlıdır, çünkü üçgen, Ghardware hardware donanım desteğinin desteklediği tek desteklenen ilkeldir (üçgen olmayan veriler, gerçek zamanlı olarak verimsiz olan sürücü seviyesinde üçgendir). Example kodu:
 
 **C#**

@@ -1,19 +1,19 @@
-﻿---
-title: Render 3D sahne bir anoranorama görünümü
+---
+title: 3D sahnesinin panorama görünümünü oluşturun
 type: docs
 weight: 60
 url: /tr/python-net/render-a-panorama-view-of-3d-scene/
-description: Python via .NET API için sing sing Aspose.3D, geliştiriciler 3D sahnesinin panorama görüntüsünü oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
+description: Aspose.3D for Python via .NET API kullanarak, geliştiriciler 3D sahnesinin panorama görünümünü oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
 ---
 {{% alert color="primary" %}}
 
-Using[Python via .NET API için Aspose.3D](https:#products.aspose.com/3d/python-net/)Geliştiriciler 3D sahnesinin panorama görünümünü oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
+[Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/) kullanarak, geliştiriciler 3D sahnesinin panorama görünümünü oluşturabilir ve bu görünümü desteklenen görüntü formatlarına kaydedebilir.
 
 {{% /alert %}}
-## **Create a anoranorama görünümü**
-In bu makalede, sahneyi yakalamak için bir Camera ve iki ight ight nesnesi oluşturuyoruz, aynı zamanda bir render hedefi oluşturuyoruz, bir bakış açısı oluşturuyoruz ve küp haritası ile equirectangular projeksiyon işlemini giriş olarak gerçekleştiriyoruz ve son olarak anoranorama dokusunu kaydediyoruz. The `execute` `Renderer` sınıfı yöntemi, işlem sonrası etkiyi yürütmeyi ve hedefe ulaşmak için sonucu kaydetmeyi sağlar.
-### **Programming ample ample**
-Kod örneği, 3D sahnesinin bir anoranorama görünümünü oluşturur ve görüntü formatına kaydeder.
+##  **Create a anoranorama görünümü**
+Bu makalede, sahneyi yakalamak için bir kamera ve iki ışık nesnesi oluşturuyoruz, aynı zamanda bir render hedefi oluşturuyoruz, bir bakış açısı oluşturuyoruz ve küp haritasıyla eşit dikdörtgen projeksiyon işlemini giriş olarak gerçekleştiriyoruz ve son olarak panorama dokusunu kaydediyoruz. `execute` `Renderer` sınıfı yöntemi, posta işleme etkisini çalıştırmayı ve hedefi işlemek için sonucu kaydetmeyi sağlar.
+###  **Programming ample ample**
+Bu kod örneği, 3D sahnesinin panorama görünümünü oluşturur ve görüntü formatına kaydeder.
 
 **Python**
 

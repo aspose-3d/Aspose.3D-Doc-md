@@ -1,4 +1,4 @@
-﻿---
+---
 title: Guida per gli sviluppatori
 type: docs
 weight: 20

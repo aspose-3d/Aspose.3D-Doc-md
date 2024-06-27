@@ -1,17 +1,17 @@
-﻿---
+---
 title: Semplificare la creazione della matrice di trasformazione dalle operazioni della catena
 type: docs
 weight: 60
 url: /it/python-net/simplify-the-creation-of-transformation-matrix-by-the-chain-operations/
-description: Aspose.3D per Python via .NET API offre la classe TransformBuilder che semplifica la creazione della matrice di trasformazione mediante le operazioni della catena.
+description: Aspose.3D for Python via .NET API offre la classe TransformBuilder che semplifica la creazione della matrice di trasformazione in base alle operazioni della catena.
 ---
 {{% alert color="primary" %}} 
 
-Aspose.3D per Python via .NET API offre la classe `TransformBuilder` che semplifica la creazione della matrice di trasformazione da parte delle operazioni di catena.
+Aspose.3D for Python via .NET API offre la classe `TransformBuilder` che semplifica la creazione della matrice di trasformazione in base alle operazioni della catena.
 
 {{% /alert %}} 
 
-Supponiamo che esista un'istanza `TransformBuilder`**Tb**E operazioni a catena:
+Supponiamo che ci sia un'istanza di `TransformBuilder`**Tb**E operazioni a catena:
 
 **Python**
 
@@ -79,6 +79,6 @@ Gli sviluppatori ordinali possono utilizzare la proprietà `Transform` della cla
 
 Gli sviluppatori possono anche assegnare la matrice creata da `TransformBuilder` a `Node.Transform`.
 
-Ulteriori informazioni sulla matrice di trasformazione sono disponibili su Wikipedia[Matrice di trasformazione](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics)E[Transofrmation affine](https://en.wikipedia.org/wiki/Affine_transformation)
+Ulteriori informazioni sulla matrice di trasformazione sono disponibili su Wikipedia [Matrice di trasformazione](https://en.wikipedia.org/wiki/Transformation_matrix#Examples_in_3D_computer_graphics) e [Transofrmation affine](https://en.wikipedia.org/wiki/Affine_transformation)
 
 {{% /alert %}}

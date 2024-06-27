@@ -1,19 +1,19 @@
-﻿---
-title: Crear un efecto de lente ojo de pez en la escena 3D y guardar en una imagen
+---
+title: Crear un efecto de lente ojo de pez en la escena 3D y guardarlo en una imagen
 type: docs
 weight: 20
 url: /es/python-net/create-a-fisheye-lens-effect-on-3d-scene-and-save-in-an-image/
-description: Usando Aspose.3D para Python via .NET API, los desarrolladores pueden crear un efecto de lente de ojo de pez en la escena 3D y guardar esa vista en los formatos de imagen compatibles.
+description: Usando Aspose.3D for Python via .NET API, los desarrolladores pueden crear un efecto de lente Fisheye en la escena 3D y guardar esa vista en los formatos de imagen compatibles.
 ---
 {{% alert color="primary" %}}
 
-Uso[Aspose.3D para Python via .NET API](https:#products.aspose.com/3d/python-net/), Los desarrolladores pueden crear un efecto de lente Fisheye en la escena 3D y guardar esa vista en los formatos de imagen compatibles.
+Usando [Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/), los desarrolladores pueden crear un efecto de lente Fisheye en la escena 3D y guardar esa vista en los formatos de imagen compatibles.
 
 {{% /alert %}}
-## **Crea un efecto de lente de ojo de pez**
-En este artículo, creamos una cámara y dos objetos de luz para capturar la escena, también creamos un objetivo de renderizado, creamos una ventana gráfica y ejecutamos el postprocesamiento de proyección de ojo de pez con el mapa de cubo como entrada y finalmente guardamos la textura de ojo de pez. El método `execute` de la clase `Renderer` permite ejecutar el efecto de procesamiento posterior y guardar el resultado para representar el objetivo.
-### **Muestra de programación**
-Este ejemplo de código crea un efecto de lente Fisheye en la escena 3D y guárdelo en el formato de imagen.
+##  **Crea un efecto de lente de ojo de pez**
+En este artículo, creamos una cámara y dos objetos de luz para capturar la escena, también creamos un objetivo de render, creamos una ventana gráfica y ejecutamos el post-procesamiento de la proyección de ojo de pez con el mapa de cubo como entrada y finalmente guardamos la textura de ojo de pez. El método `execute` de la clase `Renderer` permite ejecutar el efecto posterior al procesamiento y guardar el resultado para representar el destino.
+###  **Muestra de programación**
+En este ejemplo de código se crea un efecto de lente Fisheye en la escena 3D y se guarda en el formato de imagen.
 
 **Python**
 

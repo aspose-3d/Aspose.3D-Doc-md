@@ -1,5 +1,5 @@
-﻿---
-title: Public API hangمعلقة في Aspose.3D 1.1.0
+---
+title: العام API يتغير بـ Aspose.3D 1.1.0
 type: docs
 weight: 60
 url: /ar/net/public-api-changes-in-aspose-3d-1-1-0/
@@ -10,15 +10,15 @@ url: /ar/net/public-api-changes-in-aspose-3d-1-1-0/
 - [يتم إضافة ption BX7200Binary aving ption ption في orileFormat](#PublicAPIChangesinAspose.3D1.1.0-FBX7200BinarySavingOptionisaddedintheFileFormat)
 - [يتم إضافة FBX7300ASCaving aving aving ption في orileFormat](#PublicAPIChangesinAspose.3D1.1.0-FBX7300ASCIISavingOptionisaddedintheFileFormat)
 - [يتم إضافة ption BX7300Binary aving ption ption في orileFormat](#PublicAPIChangesinAspose.3D1.1.0-FBX7300BinarySavingOptionisaddedintheFileFormat)
-- [WavefrontOBJ يتم إضافة ption aving ption في orileFormat و ilileFormatType](#PublicAPIChangesinAspose.3D1.1.0-WavefrontOBJSavingOptionisaddedintheFileFormatandFileFormatType)
+- [تمت إضافة خيار التوفير WavefrontOBJ بتنسيق الملف ونوع الملف](#PublicAPIChangesinAspose.3D1.1.0-WavefrontOBJSavingOptionisaddedintheFileFormatandFileFormatType)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 1.0.0 إلى 1.1.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+توضح هذه الوثيقة التغييرات إلى Aspose.3D API من الإصدار 1.0.0 إلى 1.1.0 ، والتي قد تهم مطوري الوحدات/التطبيقات. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-### **يتم إضافة FBX7200ASCaving aving aving ption ption في orileFormat**
-تم إضافة خيار تنسيق Fhe he he X7200ASformat في FileFormat enum. It يمثل ASCII FBX تنسيق الملف ، مع إصدار 7.2.0. Eرمز xample:
+###  **يتم إضافة FBX7200ASCaving aving aving ption ption في orileFormat**
+تمت إضافة خيار تنسيق FBX7200ASCII في قائمة الملفات. يمثل تنسيق ملف ASCII FBX ، مع إصدار 7.2.0. رمز المثال:
 
 **C#**
 
@@ -30,8 +30,8 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7200ASCII);
 
 {{< /highlight >}}
 
-### **يتم إضافة ption BX7200Binary aving ption ption في orileFormat**
-تم إضافة الخيار inary he he B7200Bتنسيق البولي في orileFormat enum. It يمثل تنسيق ملف البولي FBX ، مع إصدار 7.2.0. Eرمز xample:
+###  **يتم إضافة ption BX7200Binary aving ption ption في orileFormat**
+تمت إضافة خيار تنسيق FBX7200Binary في قائمة الملفات. إنه يمثل تنسيق ملف FBX ثنائي ، مع إصدار 7.2.0. رمز المثال:
 
 **C#**
 
@@ -43,8 +43,8 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7200Binary);
 
 {{< /highlight >}}
 
-### **يتم إضافة FBX7300ASCaving aving aving ption في orileFormat**
-تم إضافة خيار تنسيق Fhe he he 77300ASformat في FileFormat enum. It يمثل ASCII FBX تنسيق الملف ، مع إصدار 7.3.0. Eرمز xample:
+###  **يتم إضافة FBX7300ASCaving aving aving ption في orileFormat**
+تمت إضافة خيار تنسيق FBX7300ASCII في قائمة الملفات. إنه يمثل تنسيق ملف ASCII FBX ، مع إصدار 7.3.0. رمز المثال:
 
 **C#**
 
@@ -56,8 +56,8 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7300ASCII);
 
 {{< /highlight >}}
 
-### **يتم إضافة ption BX7300Binary aving ption ption في orileFormat**
-تم إضافة الخيار inary he he B7300Bتنسيق البولي في orileFormat enum. It يمثل تنسيق ملف البولي FBX ، مع إصدار 7.3.0. Eرمز xample:
+###  **يتم إضافة ption BX7300Binary aving ption ption في orileFormat**
+تمت إضافة خيار تنسيق FBX7300Binary في الشمول. يمثل تنسيق الملف الثنائي FBX ، مع إصدار 7.3.0. رمز المثال:
 
 **C#**
 
@@ -69,8 +69,8 @@ scene.Save("C:\\temp\\Output.fbx", FileFormat.FBX7300Binary);
 
 {{< /highlight >}}
 
-### **WavefrontOBJ يتم إضافة ption aving ption في orileFormat و ilileFormatType**
-تم إضافة خيار تنسيق he he WavefrontOBJ في orileFormat و ilileFormatType enams. It يمثل Wavefront تنسيق ملف Obj. Eرمز xample:
+###  **تمت إضافة خيار التوفير WavefrontOBJ بتنسيق الملف ونوع الملف**
+تمت إضافة خيار التنسيق WavefrontOBJ في تنسيقات الملفات وتعداد FileFormatType. يمثل تنسيق ملف Obj Wavefront. رمز المثال:
 
 **C#**
 

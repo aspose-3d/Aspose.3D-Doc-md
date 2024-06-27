@@ -1,5 +1,5 @@
-﻿---
-title: 几何
+---
+title: Geometry
 type: docs
 weight: 50
 url: /zh/java/geometry/

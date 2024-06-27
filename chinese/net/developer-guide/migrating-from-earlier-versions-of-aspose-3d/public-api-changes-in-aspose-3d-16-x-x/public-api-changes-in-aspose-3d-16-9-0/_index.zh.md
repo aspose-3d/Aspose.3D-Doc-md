@@ -1,30 +1,30 @@
-﻿---
-title: Aspose.3D中的公共API变化16.9.0
+---
+title: Aspose.3D 16.9.0中的公共 API 更改
 type: docs
 weight: 30
 url: /zh/net/public-api-changes-in-aspose-3d-16-9-0/
 ---
 **内容摘要**
 
-- [从源PDF导入3D场景](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
-  - [添加Aspose.ThreeD.Formats.Pdfloadopions类](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
-  - [添加Aspose.ThreeD.FileFormat和Aspose.ThreeD.Formats.PdfFormat类](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
-- [以PDF格式保存3D场景](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
-  - [添加Aspose.ThreeD.Formats.PdfSaveOptions类和Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode枚举](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
-- [在Aspose.ThreeD.Entities.Polygonmodiament类中添加三角方法](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
-- [在Aspose.ThreeD.Entities.PolygonModifier类中添加两个BuildTangentBinormal方法](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [从源 PDF 导入 3D 场景](#PublicAPIChangesinAspose.3D16.9.0-Import3DScenefromtheSourcePDF) 
+-[添加 Aspose.ThreeD.Formats.PdfLoadOptions类](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfLoadOptionsClass)
+-[添加 Aspose.ThreeD.FileFormat和 Aspose.ThreeD.Formats.PdfFormat类](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.FileFormatandAspose.ThreeD.Formats.PdfFormatClass)
+- [以 PDF 格式保存 3D 场景](#PublicAPIChangesinAspose.3D16.9.0-Savea3DSceneinthePDFFormat) 
+-[添加 Aspose.ThreeD.Formats.PdfSaveOptions类和 Aspose.ThreeD.PdfLightingScheme/PdfRenderMode枚举](#PublicAPIChangesinAspose.3D16.9.0-AddsAspose.ThreeD.Formats.PdfSaveOptionsclassandAspose.ThreeD.Formats.PdfLightingScheme/PdfRenderModeEnums)
+- [在 Aspose.ThreeD.Entities.PolygonModifier类中添加三角化方法](#PublicAPIChangesinAspose.3D16.9.0-AddsTriangulateMethodintheAspose.ThreeD.Entities.PolygonModifierClass)
+- [在 Aspose.ThreeD.Entities.PolygonModifier类中添加两个BuildTangentBinormal方法](#PublicAPIChangesinAspose.3D16.9.0-AddstwoBuildTangentBinormalMethodsintheAspose.ThreeD.Entities.PolygonModifierClass)
 
 {{% alert color="primary" %}} 
 
-本文档介绍了从版本2.1.0到16.9.0的Aspose.3D API的更改，这些更改可能是模块/应用程序开发人员感兴趣的。它不仅包括新的和更新的公共方法，还包括对Aspose.3D幕后行为的任何变化的描述。
+本文档介绍了对 Aspose.3D API 从版本2.1.0到16.9.0的更改，模块/应用程序开发人员可能会感兴趣。它不仅包括新的和更新的公共方法，还包括对 Aspose.3D 中幕后行为的任何更改的描述。
 
 {{% /alert %}} 
-### **从源PDF导入3D场景**
-使用最新版本 (16.9.0) 或更高版本，开发人员可以从输入PDF文件中检索3D场景。
-#### **添加Aspose.ThreeD.Formats.Pdfloadopions类**
-我们添加了pdfloadopions类。它有助于从输入PDF文件加载内容。开发人员可以为受保护的pdf应用密码。
+###  **从源 PDF 导入 3D 场景**
+使用最新版本 (16.9.0) 或更高版本，开发人员可以从输入 PDF 文件检索 3D 场景。
+####  **添加 Aspose.ThreeD.Formats.PdfLoadOptions类**
+我们添加了PdfLoadOptions类。它有助于从输入 PDF 文件加载内容。开发人员可以为受保护的pdf应用密码。
 
-**从受密码保护的PDF文件中打开场景**
+**从受密码保护的 PDF 文件中打开场景**
 
 {{< highlight "java" >}}
 
@@ -45,8 +45,8 @@ PdfLoadOptions opt = new PdfLoadOptions() {Password = Encoding.UTF8.GetBytes("pa
 scene.Open(path, opt);
 
 {{< /highlight >}}
-#### **添加Aspose.ThreeD.FileFormat和Aspose.ThreeD.Formats.PdfFormat类**
-为了加载和保存的目的，我们在FileFormat类中添加了PDF格式的条目。PdfFormat类有助于操纵pdf。
+####  **添加 Aspose.ThreeD.FileFormat和 Aspose.ThreeD.Formats.PdfFormat类**
+我们在FileFormat类中添加了 PDF 格式的条目，用于加载和保存目的。PdfFormat类有助于操作pdf。
 
 {{< highlight "java" >}}
 
@@ -54,7 +54,7 @@ scene.Open(path, opt);
 
 {{< /highlight >}}
 
-**从PDF文件中提取所有原始3D内容**
+**从 PDF 文件中提取所有原始 3D 内容**
 
 {{< highlight "java" >}}
 
@@ -62,7 +62,7 @@ scene.Open(path, opt);
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 // extract 3D contents
 
@@ -72,7 +72,7 @@ int i = 1;
 
 // iterate through the contents and in separate 3D files
 
-foreach (byte[]content in contents)
+foreach (byte[] content in contents)
 
 {
 
@@ -84,7 +84,7 @@ foreach (byte[]content in contents)
 
 {{< /highlight >}}
 
-**提取所有3D场景并将其保存到FBX文件中**
+**提取所有 3D 场景并将其保存到 FBX 文件中**
 
 {{< highlight "java" >}}
 
@@ -92,7 +92,7 @@ foreach (byte[]content in contents)
 
 string path = @"House_Design.pdf";
 
-byte[]password = null;
+byte[] password = null;
 
 List<Scene> scenes = FileFormat.PDF.ExtractScene(path, password);
 
@@ -111,12 +111,12 @@ foreach (Scene scene in scenes)
 }
 
 {{< /highlight >}}
-### **以PDF格式保存3D场景**
-使用最新版本 (16.9.0) 或更高版本，开发人员可以以PDF格式保存所有受支持的3D文件。
-#### **添加Aspose.ThreeD.Formats.PdfSaveOptions类和Aspose.ThreeD.Formats.PdfLightingScheme/PdfRenderMode枚举**
-PdfSaveOptions有助于在保存为输出PDF格式之前应用设置。开发人员可以在将3D场景保存为PDF格式之前设置渲染模式和照明方案，如下所示:
+###  **以 PDF 格式保存 3D 场景**
+使用最新版本 (16.9.0) 或更高版本，开发人员可以以 PDF 格式保存所有受支持的 3D 文件。
+####  **添加 Aspose.ThreeD.Formats.PdfSaveOptions类和 Aspose.ThreeD.PdfLightingScheme/PdfRenderMode枚举**
+PdfSaveOptions有助于在保存为输出 PDF 格式之前应用设置。在将 3D 场景保存为 PDF 格式之前，开发人员可以设置渲染模式和照明方案，如下所示:
 
-**创建带有圆柱体的3D PDF，并以阴影插图模式渲染，并使用CAD优化的照明**
+**创建带有圆柱体的 3D PDF，并使用 CAD 优化的照明以阴影插图模式渲染**
 
 {{< highlight "java" >}}
 
@@ -141,10 +141,10 @@ opt.RenderMode = PdfRenderMode.ShadedIllustration;
 scene.Save("output.pdf", opt);
 
 {{< /highlight >}}
-### **在Aspose.ThreeD.Entities.Polygonmodiament类中添加三角方法**
+###  **在 Aspose.ThreeD.Entities.PolygonModifier类中添加三角化方法**
 我们在polygonmodifidifier类中添加了另一个重载三角测量方法，该方法将场景类对象作为参数。
 
-**将FBX文件中的所有多边形转换为三角形**
+**将 FBX 文件中的所有多边形转换为三角形**
 
 {{< highlight "java" >}}
 
@@ -161,10 +161,10 @@ PolygonModifier.Triangulate(scene);
 scene.Save("triangulated.fbx", FileFormat.FBX7400ASCII);
 
 {{< /highlight >}}
-### **在Aspose.ThreeD.Entities.PolygonModifier类中添加两个BuildTangentBinormal方法**
+###  **在 Aspose.ThreeD.Entities.PolygonModifier类中添加两个BuildTangentBinormal方法**
 我们在PolygonModifier类中添加了两个BuildTangentBinormal方法。一种方法将场景类对象作为参数，另一种方法将网格类对象作为参数。
 
-**为FBX文件中的所有网格构建切线和双正数据**
+**为 FBX 文件中的所有网格构建切线和二项式数据**
 
 {{< highlight "java" >}}
 

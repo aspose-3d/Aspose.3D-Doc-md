@@ -1,16 +1,16 @@
-﻿---
-title: Installazione
+---
+title: Installation
 type: docs
 weight: 50
 url: /it/java/installation/
 description: Aspose ospita tutte le API Java sul repository Aspose. Puoi facilmente utilizzare Aspose.3D for Java API direttamente nei tuoi progetti Maven con semplici configurazioni.
 ---
-## **Installazione di Aspose.3D for Java dal repository Aspose**
-Aspose ospita tutte le API Java su[Aspose Repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). Puoi facilmente utilizzare Aspose.3D for Java API direttamente nei tuoi progetti Maven con semplici configurazioni.
+##  **Installazione di Aspose.3D for Java da Aspose repository**
+Aspose ospita tutte le API Java su [Aspose repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). Puoi facilmente utilizzare Aspose.3D for Java API direttamente nei tuoi progetti Maven con semplici configurazioni.
 
-Per prima cosa devi specificare la configurazione/posizione del repository Maven `pom.xml` come di seguito:
+First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
 
-{{< highlight "java" >}}
+{{< highlight "xml" >}}
 
  <repositories>
 
@@ -24,16 +24,34 @@ Per prima cosa devi specificare la configurazione/posizione del repository Maven
 
 {{< /highlight >}}
 
-Quindi definisci la dipendenza Aspose.3D for Java API nel tuo pom.xml come segue:
+Quindi definisci Aspose.3D for Java API dipendenza nel tuo pom.xml come segue:
 
-{{< highlight "java" >}}
+{{< highlight "xml" >}}
 
  <dependencies>
 
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>21.4</version>
+        <version>23.11.0</version>
+    </dependency>
+
+</dependencies>
+
+{{< /highlight >}}
+
+
+Se JDK-8 usi, puoi utilizzare JDK-8 versione come segue:
+
+{{< highlight "xml" >}}
+
+ <dependencies>
+
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-3d</artifactId>
+        <version>23.11.0</version>
+        <classifier>jdk8</classifier>
     </dependency>
 
 </dependencies>

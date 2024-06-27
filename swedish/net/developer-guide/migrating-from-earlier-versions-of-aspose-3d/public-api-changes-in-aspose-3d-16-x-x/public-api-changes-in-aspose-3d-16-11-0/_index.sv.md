@@ -1,29 +1,29 @@
-﻿---
-title: Offentlig API Förändringar Aspose.3D 16.11.0
+---
+title: Offentlig API Ändrar i Aspose.3D 16.11.0
 type: docs
 weight: 20
 url: /sv/net/public-api-changes-in-aspose-3d-16-11-0/
 ---
 **Innehåll**
 
-- [Lägger till enhetsmetod i Aspose.ThreeD.Nod klass](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
-- [Import och export av glTF filer](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
-  - [Lägger till Aspose.ThreeD. Format.GLTFLoadOptions ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
-  - [Lägger till Aspose.ThreeD. Format.GLTFSaveOptions ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
-  - [Lägger till glTF Format Post i Aspose.ThreeD.FileFormat Class.](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
-  - [Lägger till en tilläggsegenskap i Aspose.ThreeD.FileFormatType ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
-- [Skriv beroende i det verkliga filsystemet](#PublicAPIChangesinAspose.3D16.11.0-WriteDependenciesintheRealFileSystem) 
-  - [Lägger till Aspose.ThreeD.Användare.DummyFileSystem ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
-  - [Lägger till Aspose.ThreeD.Användare.LokalfilSystem ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
-  - [Lägger till Aspose.ThreeD.Användningar.MinneFileSystem ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
-- [Lägger till egenskapen FileSystem i Aspose.ThreeD.Formats.IOConfig](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
+- [Adds AddEntity Method in the Aspose.ThreeD.Node Class](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
+- [Import and Export of glTF Files](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
+- [Lägger till Aspose.ThreeD.Formats.GLTFLoadOptions ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)e
+- [Lägger till Aspose.ThreeD.Formats.GLTFSaveOptions ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)e
+- [Lägger till glTF Format Post i Aspose.ThreeD.FileFormat klass](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)e
+- [Lägger till en egenskap för tillägg i Aspose ThreeD.FileFormatType ClassName](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)e
+- [Write Dependencies in the Real File System](#PublicAPIChangesinAspose.3D16.11.0-WriteDependenciesintheRealFileSystem) 
+- [Lägger till Aspose.ThreeD.Utilities.DummyFileSystem Class.](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)e
+- [Lägger till Aspose.ThreeD.Utilities.LocalFileSystem Class.](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)e
+- [Lägger till Aspose.ThreeD.Utilities.MemoryFileSystem Class.](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)e
+- [Adds FileSystem property in the Aspose.ThreeD.Formats.IOConfig Class](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Detta dokument beskriver ändringar i Aspose.3D API från version 16.9. 0-16.11. 0, som kan vara av intresse för modul / applikationsutvecklare. Det omfattar inte bara nya och uppdaterade offentliga metoder. men också en beskrivning av eventuella förändringar i beteende bakom kulisserna i Aspose.3D.
+Det här dokumentet beskriver ändringar i Aspose. 3D API från version 16. 9. 0-16.11. 0, som kan vara av intresse för modul / applikationsutvecklare. Det omfattar inte bara nya och uppdaterade offentliga metoder. men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose. 3D.
 
 {{% /alert %}} 
-### **Lägger till enhetsmetod i Aspose.ThreeD.Nod klass**
+###  **Lägger tilläggEntity-metoden i Aspose ThreeD.Node Class.**
 En genväg för att lägga till en enhet i en nod.
 
 **Lägg till en enhet i en nod**
@@ -47,10 +47,10 @@ sphere.Entities.Add(new Sphere());
 sphere.AddEntity(new Sphere());
 
 {{< /highlight >}}
-### **Import och export av glTF filer**
-Använder den senaste versionen (16. 11.0) eller högre, kan utvecklare importera och exportera glTF filer till/från andra stödda 3D filer.
-#### **Lägger till Aspose.ThreeD. Format.GLTFLoadOptions ClassName**
-Vi har lagt till GLTFLoadOptions klass. Det hjälper till att importera glTF filer till Aspose.3D API.
+###  **Import och export av glTF Filer**
+Genom att använda den senaste versionen (16.11.0) eller högre, kan utvecklare importera och exportera glTF filer till/från andra 3D-filer som stöds.
+####  **Lägger till Aspose.ThreeD.Formats.GLTFLoadOptions ClassName**
+Vi har lagt till GLTFLoadOptions klass. Det hjälper till att importera glTF-filer till Aspose.3D API.
 
 **Vänd V/T texturkoordinat**
 
@@ -71,10 +71,10 @@ loadOpt.FlipTexCoordV = true;
 scene.Open("Duck.gltf", loadOpt);
 
 {{< /highlight >}}
-#### **Lägger till Aspose.ThreeD. Format.GLTFSaveOptions ClassName**
-Vi har lagt till GLTFSaveOptions klass. Det definierar inställningar för att spara en glTF fil.
+####  **Lägger till Aspose.ThreeD.Formats.GLTFSaveOptions ClassName**
+Vi har lagt till GLTFSaveOptions klass. Den definierar inställningar vid sparande av en glTF-fil.
 
-**Bädda in beroende inne i utmatningen glTF fil**
+**Inbädda beroenden i utdatan glTF fil**
 
 {{< highlight "java" >}}
 
@@ -134,7 +134,7 @@ scene.Save("d:\\test.gltf", opt);
 
 {{< /highlight >}}
 
-**Skapar en binär fil glTF med KHR_binary_ glTF- tillägg**
+**Skapar en binära glTF fil med KHR_binary_ glTF-ändelsen**
 
 {{< highlight "java" >}}
 
@@ -152,7 +152,7 @@ scene.Save("d:\\test.glb", FileFormat.GLTF_Binary);
 
 {{< /highlight >}}
 
-**Skapar en binär fil glTF med KHR_binary_glTF- utökning tillsammans med sparalternativ**
+**Skapar en binära glTF fil med KHR_binary_ glTF tillsammans med sparningsalternativ**
 
 {{< highlight "java" >}}
 
@@ -175,13 +175,13 @@ opt.UseCommonMaterials = true;
 scene.Save("d:\\test.glb", opt);
 
 {{< /highlight >}}
-#### **Lägger till glTF Format Post i Aspose.ThreeD.FileFormat Class.**
-Vi har lagt till en GLTF och GLTF_Binary format poster för lastning och sparande.
-#### **Lägger till en tilläggsegenskap i Aspose.ThreeD.FileFormatType ClassName**
+####  **Lägger till glTF Format Post i Aspose.ThreeD.FileFormat klass**
+Vi har lagt till poster med GLTF och GLTF_Binary-format för laddning och sparande.
+####  **Lägger till en egenskap för tillägg i Aspose ThreeD.FileFormatType ClassName**
 Vi har lagt till en Extensions egenskap i FileFormatType-klassen för att få filformatets tilläggsnamn.
-### **Skriv beroende i det verkliga filsystemet**
-Med den senaste versionen (16.11.0) eller högre kan utvecklare spara alla 3D sceneberoenden i det riktiga filsystemet. Utvecklare kan definiera sökvägen för en lokal katalog, spara i MemoryFileSystem- objektet eller helt enkelt förkasta beroenden. Egenskapen FileSystem läggs till i alla spara alternativklasser.
-#### **Lägger till Aspose.ThreeD.Användare.DummyFileSystem ClassName**
+###  **Skriv beroende i det verkliga filsystemet**
+Genom att använda den senaste versionen (16.11.0) eller högre, kan utvecklare spara alla beroenden 3D i det riktiga filsystemet. Utvecklare kan definiera sökvägen för en lokal katalog, spara i MemoryFileSystem- objektet eller helt enkelt förkasta beroenden. Egenskapen FileSystem läggs till i alla spara alternativklasser.
+####  **Lägger till Aspose.ThreeD.Utilities.DummyFileSystem Class.**
 **Kasta sparande av materialfiler**
 
 {{< highlight "java" >}}
@@ -205,7 +205,7 @@ opt.FileSystem = new DummyFileSystem();
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Lägger till Aspose.ThreeD.Användare.LokalfilSystem ClassName**
+####  **Lägger till Aspose.ThreeD.Utilities.LocalFileSystem Class.**
 **Spara beroende i lokalkatalog**
 
 {{< highlight "java" >}}
@@ -229,7 +229,7 @@ opt.FileSystem = new LocalFileSystem("E:\\");
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Lägger till Aspose.ThreeD.Användningar.MinneFileSystem ClassName**
+####  **Lägger till Aspose.ThreeD.Utilities.MemoryFileSystem Class.**
 **Spara beroende i MemoryFileSystem- objekt**
 
 {{< highlight "java" >}}
@@ -256,12 +256,12 @@ scene.Save("d:\\test.obj", opt);
 
 //get the test.mtl file content
 
-byte[]mtl = mfs.GetFileContent("test.mtl");
+byte[] mtl = mfs.GetFileContent("test.mtl");
 
 File.WriteAllBytes("material.mtl", mtl);
 
 {{< /highlight >}}
-### **Lägger till egenskapen FileSystem i Aspose.ThreeD.Formats.IOConfig**
+###  **Lägger till egenskapen FileSystem i Aspose.ThreeD.Formats.IOConfig Class.**
 Vi har lagt till en FileSystem i IOConfig-klassen för att skriva beroenden.
 
 **Lägger till en FileSystem- egenskap**

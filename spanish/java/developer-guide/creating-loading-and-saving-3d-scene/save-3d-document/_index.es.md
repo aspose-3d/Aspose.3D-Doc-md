@@ -1,11 +1,11 @@
-﻿---
+---
 title: Guardar documento 3D
 type: docs
 weight: 40
 url: /es/java/save-3d-document/
 description: Aspose.3D for Java API tiene soporte para guardar la escena 3D en varios tipos de documentos 3D.
 ---
-## **Lista de formatos compatibles con 3D (exportación)**
+##  **Lista de formatos compatibles con 3D (export)**
 Aspose.3D for Java API tiene soporte para guardar la escena 3D en varios tipos de documentos 3D. Los formatos de archivo de escritura admitidos son los siguientes:
 
 1. FBX 7,2 (ASCII, binario)
@@ -21,8 +21,8 @@ Aspose.3D for Java API tiene soporte para guardar la escena 3D en varios tipos d
 1. GLB
 1. Draco
 1. GLTF 2,0 (ASCII, binario)
-1. RVM (texto, binario)
-## **Documento de exportación 3D**
+1. RVM (Texto, binario)
+##  **Exportar documento 3D**
 Aspose.3D for Java API tiene soporte para guardar una escena 3D en varios tipos de documentos 3D.
-### **Guardar una escena 3D: Muestras de programación**
+###  **Guardar una escena 3D: Muestras de programación**
 {{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Save3DScene.java" >}}

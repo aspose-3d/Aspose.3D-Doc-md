@@ -1,12 +1,12 @@
-﻿---
-title: Meshes in der Datei 3D zusammenführen
+---
+title: Meshes in 3D-Datei zusammenführen
 type: docs
 weight: 90
 url: /de/net/merge-meshes-in-3d-file/
-description: Entwickler können mehrere Netze zu einem einzigen gültigen Netz zusammenführen. Sie können alle Netze einer 3D-Szene, eines Knotens oder einer Gruppe von Knoten in ein einzelnes Netz konvertieren. Um dies zu erreichen, gibt es drei MergeMesh-Mitglieder in der Klasse Aspose.ThreeD.Entities.Polygon Modifier.
+description: Entwickler können mehrere Netze zu einem einzigen gültigen Netz zusammenführen. Sie können alle Maschen einer 3D-Szene, eines Knotens oder einer Gruppe von Knoten in ein einzelnes Netz konvertieren. Um dies zu erreichen, gibt es drei MergeMesh-Mitglieder in der Klasse Aspose.ThreeD.Entities.Polygon Modifier.
 ---
-## **Meshes zu einem einzigen gültigen Netz zusammenführen**
-Entwickler können mehrere Netze zu einem einzigen gültigen Netz zusammenführen. Sie können alle Netze einer 3D-Szene, eines Knotens oder einer Gruppe von Knoten in ein einzelnes Netz konvertieren. Um dies zu erreichen, gibt es in der Klasse `Aspose.ThreeD.Entities.PolygonModifier` drei `MergeMesh` Mitglieder.
+##  **Meshes zu einem einzigen gültigen Netz zusammenführen**
+Entwickler können mehrere Netze zu einem einzigen gültigen Netz zusammenführen. Sie können alle Maschen einer 3D-Szene, eines Knotens oder einer Gruppe von Knoten in ein einzelnes Netz konvertieren. Um dies zu erreichen, gibt es drei `MergeMesh`-Mitglieder in der `Aspose.ThreeD.Entities.PolygonModifier`-Klasse.
 
 **Definition**
 

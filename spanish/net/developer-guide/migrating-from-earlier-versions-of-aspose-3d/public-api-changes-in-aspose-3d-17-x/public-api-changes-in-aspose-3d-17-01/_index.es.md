@@ -1,4 +1,4 @@
-﻿---
+---
 title: Público API Cambios en Aspose.3D 17,01
 type: docs
 weight: 20
@@ -6,23 +6,23 @@ url: /es/net/public-api-changes-in-aspose-3d-17-01/
 ---
 **Resumen de contenidos**
 
-- [Agrega la entrada de formato PLY en la clase Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
+- [Agrega una entrada de formato PLY en la clase Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D17.01-AddsPLYFormatEntryintheAspose.ThreeD.FileFormatClass)
 - [Importación de archivos PLY](#PublicAPIChangesinAspose.3D17.01-ImportingPLYFiles)
-- [Agrega Aspose.ThreeD. Clase GlobalTransform](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
-- [Agrega una propiedad GlobalTransform a Aspose.ThreeD. Clase de nodo](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
-- [Agrega la propiedad Polygons a Aspose.ThreeD. Entidades. Clase de malla](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
-- [Carga 3D archivos y mallas de escritura en formato binario personalizado](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
-- [Quita el miembro de CreateStream de Aspose.ThreeD. Formatos. Clase IOConfig](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
+- [Agrega Aspose.ThreeD.GlobalTransform Class](#PublicAPIChangesinAspose.3D17.01-AddsAspose.ThreeD.GlobalTransformClass)
+- [Agrega una propiedad GlobalTransform a la clase Aspose.ThreeD.Node](#PublicAPIChangesinAspose.3D17.01-AddsaGlobalTransformpropertytoAspose.ThreeD.NodeClass)
+- [Agrega la propiedad Polygons a Aspose.ThreeD.Entities.Mesh Class](#PublicAPIChangesinAspose.3D17.01-AddsPolygonspropertytoAspose.ThreeD.Entities.MeshClass)
+- [Cargar mallas de archivo y escritura 3D en formato binario personalizado](#PublicAPIChangesinAspose.3D17.01-Load3DFileandWriteMeshesinCustomBinaryFormat)
+- [Elimina el miembro CreateStream de la clase Aspose.ThreeD.Formats.IOConfig](#PublicAPIChangesinAspose.3D17.01-RemovesCreateStreammemberfromAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.3D API de la versión 16.12.0 a 17.1.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.3D.
+This document describes changes to the Aspose.3D API from version 16.12.0 to 17.1.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Agrega la entrada de formato PLY en la clase Aspose.ThreeD.FileFormat**
-Hemos agregado una entrada de formato PLY para fines de carga.
-### **Importación de archivos PLY**
-Usando la versión reciente (17,01) o superior, los desarrolladores pueden importar archivos PLY. La entrada de formato PLY se añade con fines de carga.
+###  **Agrega una entrada de formato PLY en la clase Aspose.ThreeD.FileFormat**
+Hemos añadido una entrada de formato PLY para fines de carga.
+###  **Importación de archivos PLY**
+Con la versión reciente (17,01) o superior, los desarrolladores pueden importar archivos PLY. La entrada de formato PLY se agrega para fines de carga.
 
 **C#**
 
@@ -49,13 +49,13 @@ loadPLYOpts.FlipCoordinateSystem = true;
 scene.Open( "3DPlyModel.ply", loadPLYOpts);
 
 {{< /highlight >}}
-### **Agrega Aspose.ThreeD. Clase GlobalTransform**
+###  **Agrega Aspose.ThreeD.GlobalTransform Class**
 La clase GlobalTransform proporciona exactamente la misma interfaz como Transform, pero todas sus propiedades son de solo lectura. Es útil para los propósitos de transformación global.
-### **Agrega una propiedad GlobalTransform a Aspose.ThreeD. Clase de nodo**
+###  **Agrega una propiedad GlobalTransform a la clase Aspose.ThreeD.Node**
 Permite acceder a la transformación global del nodo. Esto es útil para transformar la escena en el formato de archivo personalizado del usuario.
-### **Agrega la propiedad Polygons a Aspose.ThreeD. Entidades. Clase de malla**
+###  **Agrega la propiedad Polygons a Aspose.ThreeD.Entities.Mesh Class**
 Permite que todos los polígonos entren en la malla, cada polígono es una matriz de índice de vértice de polígono. Antes de esta propiedad, tenemos que usar la sintaxis de foreach para enumerar cada polígono que es ineficiente.
-### **Carga 3D archivos y mallas de escritura en formato binario personalizado**
+###  **Cargar mallas de archivo y escritura 3D en formato binario personalizado**
 **C#**
 
 {{< highlight "java" >}}
@@ -199,6 +199,6 @@ using (var writer = new BinaryWriter(new FileStream(output, FileMode.Create, Fil
 }
 
 {{< /highlight >}}
-### **Quita el miembro de CreateStream de Aspose.ThreeD. Formatos. Clase IOConfig**
+###  **Elimina el miembro CreateStream de la clase Aspose.ThreeD.Formats.IOConfig**
 Esto se marcó como obsoleto en la versión 16.11.0, la nueva interfaz FileSystem se introdujo en la versión 16.11.0 que proporciona más extensibilidad.
 

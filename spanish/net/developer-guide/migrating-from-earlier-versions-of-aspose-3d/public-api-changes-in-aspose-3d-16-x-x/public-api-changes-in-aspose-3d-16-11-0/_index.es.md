@@ -1,4 +1,4 @@
-﻿---
+---
 title: Público API Cambios en Aspose.3D 16.11.0
 type: docs
 weight: 20
@@ -8,22 +8,22 @@ url: /es/net/public-api-changes-in-aspose-3d-16-11-0/
 
 - [Agrega el método AddEntity en la clase Aspose.ThreeD.Node](#PublicAPIChangesinAspose.3D16.11.0-AddsAddEntityMethodintheAspose.ThreeD.NodeClass)
 - [Importación y exportación de archivos glTF](#PublicAPIChangesinAspose.3D16.11.0-ImportandExportofglTFFiles) 
-  - [Añade Aspose.ThreeD. Formatos. Clase GLTFLoadOptions](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
-  - [Añade Aspose.ThreeD. Formatos. Clase GLTFSaveOptions](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
-  - [Agrega la entrada de formato glTF en la clase Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
-  - [Agrega una propiedad Extension en la clase Aspose.ThreeD.FileFormatType](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
+[Agrega la clase Aspose.ThreeD.Formats. GlTFLoadOptions](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFLoadOptionsClass)
+[Agrega la clase Aspose.ThreeD.Formats. GSTFSaveOptions](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Formats.GLTFSaveOptionsClass)
+[Agrega una entrada de formato glTF en la clase Aspose.ThreeD.FileFormat](#PublicAPIChangesinAspose.3D16.11.0-AddsglTFFormatEntryintheAspose.ThreeD.FileFormatClass)
+[Agrega una propiedad Extension en la clase Aspose.ThreeD.FileFormatType](#PublicAPIChangesinAspose.3D16.11.0-AddsanExtensionpropertyintheAspose.ThreeD.FileFormatTypeClass)
 - [Escribir dependencias en el sistema de archivos reales](#PublicAPIChangesinAspose.3D16.11.0-WriteDependenciesintheRealFileSystem) 
-  - [Agrega Aspose.ThreeD.Utilities.DummyFileSystem Clase](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
-  - [Agrega Aspose.ThreeD.Utilities. Clase LocalFileSystem](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
-  - [Agrega Aspose.ThreeD.Utilities.MemoryFileSystem Clase](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
+[Agrega la clase Aspose.ThreeD.Utilities.DummyFileSystem](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.DummyFileSystemClass)
+[Agrega la clase Aspose.ThreeD.Utilities.LocalFileSystem](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.LocalFileSystemClass)
+[Agrega la clase Aspose.ThreeD.Utilities.MemoryFileSystem](#PublicAPIChangesinAspose.3D16.11.0-AddsAspose.ThreeD.Utilities.MemoryFileSystemClass)
 - [Agrega la propiedad FileSystem en la clase Aspose.ThreeD.Formats.IOConfig](#PublicAPIChangesinAspose.3D16.11.0-AddsFileSystempropertyintheAspose.ThreeD.Formats.IOConfigClass)
 
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.3D API de la versión 16.9.0 a 16.11.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.3D.
+This document describes changes to the Aspose.3D API from version 16.9.0 to 16.11.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Agrega el método AddEntity en la clase Aspose.ThreeD.Node**
+###  **Agrega el método AddEntity en la clase Aspose.ThreeD.Node**
 Una vía de acceso directo para agregar una entidad a un nodo.
 
 **Agregar una entidad a un nodo**
@@ -47,10 +47,10 @@ sphere.Entities.Add(new Sphere());
 sphere.AddEntity(new Sphere());
 
 {{< /highlight >}}
-### **Importación y exportación de archivos glTF**
-Usando la versión reciente (16.11.0) o superior, los desarrolladores pueden importar y exportar archivos glTF a/desde otros archivos compatibles con 3D.
-#### **Añade Aspose.ThreeD. Formatos. Clase GLTFLoadOptions**
-Hemos añadido GLTFLoadOptions clase. Ayuda a importar archivos glTF en Aspose.3D API.
+###  **Importación y exportación de archivos glTF**
+Utilizando la versión reciente (16.11.0) o superior, los desarrolladores pueden importar y exportar archivos glTF a/desde otros archivos 3D compatibles.
+####  **Agrega la clase Aspose.ThreeD.Formats. GlTFLoadOptions**
+Hemos añadido la clase de GlTFLoadOptions. Ayuda a importar archivos glTF en Aspose.3D API.
 
 **Voltear la coordenadas de textura V/T**
 
@@ -71,10 +71,10 @@ loadOpt.FlipTexCoordV = true;
 scene.Open("Duck.gltf", loadOpt);
 
 {{< /highlight >}}
-#### **Añade Aspose.ThreeD. Formatos. Clase GLTFSaveOptions**
-Hemos añadido la clase GLTFSaveOptions. Define la configuración de guardar un archivo glTF.
+####  **Agrega la clase Aspose.ThreeD.Formats. GSTFSaveOptions**
+Hemos añadido la clase de GlTFSaveOptions. Define la configuración para guardar un archivo glTF.
 
-**Incrustar dependencias dentro del archivo de salida glTF**
+**Incrustar dependencias dentro del archivo glTF de salida**
 
 {{< highlight "java" >}}
 
@@ -134,7 +134,7 @@ scene.Save("d:\\test.gltf", opt);
 
 {{< /highlight >}}
 
-**Crea un archivo binario glTF usando KHR_binary_glTF Extension**
+**Crea un archivo glTF binario usando la extensión KHR_binary_glTF**
 
 {{< highlight "java" >}}
 
@@ -152,7 +152,7 @@ scene.Save("d:\\test.glb", FileFormat.GLTF_Binary);
 
 {{< /highlight >}}
 
-**Crea un archivo binario glTF usando la extensión KHR_binary_glTF junto con las opciones de guardado**
+**Crea un archivo glTF binario usando la extensión KHR_binary_glTF junto con las opciones de guardado**
 
 {{< highlight "java" >}}
 
@@ -175,13 +175,13 @@ opt.UseCommonMaterials = true;
 scene.Save("d:\\test.glb", opt);
 
 {{< /highlight >}}
-#### **Agrega la entrada de formato glTF en la clase Aspose.ThreeD.FileFormat**
-Hemos añadido un GLTF y GLTF _ entradas de formato binario para la carga y el ahorro.
-#### **Agrega una propiedad Extension en la clase Aspose.ThreeD.FileFormatType**
+####  **Agrega una entrada de formato glTF en la clase Aspose.ThreeD.FileFormat**
+Hemos añadido entradas en formato GLTF y GLTF_Binary para cargar y guardar.
+####  **Agrega una propiedad Extension en la clase Aspose.ThreeD.FileFormatType**
 Hemos agregado una propiedad Extension en la clase FileFormatType para obtener el nombre de la extensión del formato de archivo.
-### **Escribir dependencias en el sistema de archivos reales**
-Usando la versión reciente (16.11.0) o superior, los desarrolladores pueden guardar todas las dependencias de escena 3D en el sistema de archivos real. Los desarrolladores pueden definir la ruta de un directorio local, guardar en el objeto MemoryFileSystem o simplemente descartar las dependencias. La propiedad FileSystem se agrega en todas las clases de opción de guardar.
-#### **Agrega Aspose.ThreeD.Utilities.DummyFileSystem Clase**
+###  **Escribir dependencias en el sistema de archivos reales**
+Con la versión reciente (16.11.0) o superior, los desarrolladores pueden guardar todas las dependencias de escena 3D en el sistema de archivos real. Los desarrolladores pueden definir la ruta de un directorio local, guardar en el objeto MemoryFileSystem o simplemente descartar dependencias. La propiedad FileSystem se agrega en las clases de opción all save.
+####  **Agrega la clase Aspose.ThreeD.Utilities.DummyFileSystem**
 **Descarte guardar los archivos de material**
 
 {{< highlight "java" >}}
@@ -205,7 +205,7 @@ opt.FileSystem = new DummyFileSystem();
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Agrega Aspose.ThreeD.Utilities. Clase LocalFileSystem**
+####  **Agrega la clase Aspose.ThreeD.Utilities.LocalFileSystem**
 **Guardar dependencias en el directorio local**
 
 {{< highlight "java" >}}
@@ -229,7 +229,7 @@ opt.FileSystem = new LocalFileSystem("E:\\");
 scene.Save("d:\\test.obj", opt);
 
 {{< /highlight >}}
-#### **Agrega Aspose.ThreeD.Utilities.MemoryFileSystem Clase**
+####  **Agrega la clase Aspose.ThreeD.Utilities.MemoryFileSystem**
 **Guardar dependencias en el objeto MemoryFileSystem**
 
 {{< highlight "java" >}}
@@ -256,12 +256,12 @@ scene.Save("d:\\test.obj", opt);
 
 //get the test.mtl file content
 
-byte[]mtl = mfs.GetFileContent("test.mtl");
+byte[] mtl = mfs.GetFileContent("test.mtl");
 
 File.WriteAllBytes("material.mtl", mtl);
 
 {{< /highlight >}}
-### **Agrega la propiedad FileSystem en la clase Aspose.ThreeD.Formats.IOConfig**
+###  **Agrega la propiedad FileSystem en la clase Aspose.ThreeD.Formats.IOConfig**
 Hemos agregado una propiedad FileSystem en la clase IOConfig para escribir dependencias.
 
 **Agrega una propiedad FileSystem**

@@ -1,5 +1,5 @@
-﻿---
-title: Guida per lo sviluppatore-3D Formati di file Manipolazione e conversione in C#
+---
+title: Guida per gli sviluppatori-3D Formati di file Manipolazione e conversione in C#
 linktitle: Guida per gli sviluppatori
 type: docs
 weight: 20

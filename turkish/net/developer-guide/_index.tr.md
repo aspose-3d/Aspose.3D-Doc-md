@@ -1,8 +1,8 @@
-﻿---
-title: Developer Guide - 3D File Formats anianipulation ve Conversion C#
+---
+title: Geliştirici kılavuzu-3D dosya biçimleri manipülasyon ve dönüşüm C#
 linktitle: Developer Guide
 type: docs
 weight: 20
 url: /tr/net/developer-guide/
-description: C# .NET 'de 3D dosya formatlarını algılamak, oluşturmak, okumak, dönüştürmek ve değiştirmek için Developer Guide bölümü.
+description: Developer Guide section to detect, create, read, convert and modify 3D file formats in C# .NET.
 ---

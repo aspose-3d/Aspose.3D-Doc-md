@@ -1,16 +1,16 @@
-﻿---
-title: 07uild 07angent ve Binormal 07ata 3D Model tüm shes eshes için
+---
+title: Build Tangent and Binormal Data for all Meshes in 3D Model
 type: docs
 weight: 10
 url: /tr/python-net/build-tangent-and-binormal-data-for-all-meshes-in-3d-model/
-description: Python via .NET API için 07sing Aspose.3D, geliştiriciler herhangi bir desteklenen 3D dosyasında tüm ağlar için tanjant ve binormal veri oluşturabilir.
+description: Aspose.3D for Python via .NET API kullanarak, geliştiriciler herhangi bir desteklenen 3D dosyasında tüm ağlar için teğet ve binormal veri oluşturabilir.
 ---
 {{% alert color="primary" %}}
 
-Using[Python via .NET için Aspose.3D](http://products.aspose.com/3d/net)API, geliştiriciler desteklenen 3D dosyasındaki tüm ağlar için teğet ve binormal veriler oluşturabilirler.
+[Aspose.3D for Python via .NET](http://products.aspose.com/3d/net) API kullanarak, geliştiriciler herhangi bir desteklenen 3D dosyasında tüm ağlar için teğet ve binormal veri oluşturabilir.
 
 {{% /alert %}}
-## **Mesh için Tangangent ve Binormal veri**
-We [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) sınıfında iki BuildTangentBinormal yöntemi ekledi. One yöntemi [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) sınıf nesnesini bir parametre olarak alır ve diğeri [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) sınıf nesnesini bu kod örneğinde gösterildiği gibi bir parametre olarak alır:
+##  **Mesh için Tangangent ve Binormal veri**
+We have added two BuildTangentBinormal methods in the [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) class. One method takes the [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class object as a parameter and another one takes the [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) class object as a parameter as shown in this code example:
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-BuildTangentAndBinormalData-BuildTangentAndBinormalData.py" >}}

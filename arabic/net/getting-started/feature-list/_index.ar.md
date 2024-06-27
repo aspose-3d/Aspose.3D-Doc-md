@@ -1,42 +1,42 @@
-﻿---
+---
 title: Feature List
 type: docs
 weight: 30
 url: /ar/net/feature-list/
-description: Gإنرال Fالمنمنمات و Feature Matrix ل C# .NET 3D Fإيل Mأنيباتيون و Cأونريدج API.
+description: الميزات العامة ومصفوفة الميزات لـ C# .NET 3D معالجة الملفات وتحويلها API.
 ---
-Aspose.3D for .NET atures eatures - 3D ملف التلاعب والتحويل API بنيت في C#.
+Aspose. ميزات 3D for .NET-معالجة وتحويل الملفات 3D API مدمجة في C#.
 
-## **الرسوم المتحركة الحرفية**
-- Wريتن تماما في C# ، يعمل مع .NET rramework.
-- .NET البيئة المطلوبة.
-- Upupport Windows ororms و AS07.NET التطبيقات.
-- API مرجع في HTML و Microsoft Help تنسيق.
-- Supported .NET rrameworks (2.0 ، 3.5 ، 4.0 ، 4.0_ClientProfile ، 4.5.0 ، 4.5.1 ، 4.6.0 ، 4.6.2 ، 4.7 ، 4.7.2).
+##  **الرسوم المتحركة الحرفية**
+- مكتوب بالكامل C# ، يعمل مع إطار .NET.
+- .NET environment required.
+- يدعم نماذج Windows ويثبت .NET من التطبيقات.
+- مرجع API بتنسيق المساعدة HTML و Microsoft.
+- دعم إطارات عمل .NET (2.0 ، 3.5 ، 4.0 ، 4.0-clientprofile ، 4.5.0 ، 4.5.1 ، 4.6.0 ، 4.6.2 ، 4.7.2).
 - دعم OS 32 بت.
 - 64 بت OS الدعم.
-## **Feature Matrix**
+##  **Feature Matrix**
 
-|**الرسوم المتحركة** |` `FBX|` `Collada|` `glTF|` `glTF 2.0|` `U3D|` `PDF|` `STL|` `OBJ|` `PLY|` `3DS|` `ASE|` `X|` `3MF|` `RVM|` `Draco|
-|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-|` `Lambert ateraterial|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||
-|` ` Pهونغ كونغ المواد|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||
-|` `Sمواد التشحيم القائمة على الظل|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|||||||||||||
-|` `Paterateraterالمواد||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||||
-|` `Paterateraterالميكانيكية المواد||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||||
-|` ` texture نسيج iffuse|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|||
-|` ` texture نسيج dvanced|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||
-|` ` شبكات البولي إيثيلين|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||
-|` `Tشبكات ريانغلي القائمة|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|
-|` ` elements عناصر ertex|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|
-|` ` geomegeomegeomegeomegeomeهندسي|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|||||||||||||||
-|` ` هندسية هندسية||||||||||||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||
-|` ` Lأوكال التحول|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||
-|` ` ancing|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||
-|` ` رسم بياني|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||
-|` ` مكان إقامة في ustom|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||||
-|` `Skeleton|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||||||
-|` ` Mأورف ديفورم|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||||||
-|` `Property الرسوم المتحركة|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||||||||||||
-|` ` بدون ضغط|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|||||||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>||<p>![تودو: الصورة_البديل_نص](accept.png)</p><p> </p>|
+|**الرسوم المتحركة** |`FBX` | `Collada` | `glTF` | `glTF 2.0` | `U3D` | `PDF` | `STL` | `OBJ` | `PLY` | `3DS` | `ASE` | `X` | `3MF` | `RVM` | `Draco` |
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|مادة لامبرت ` `|! [](accept.png) |! [](accept.png) |! [](accept.png) | |! [](accept.png) |! [](accept.png) | |! [](accept.png) | |! [](accept.png) |! [](accept.png) |! [](accept.png) | | | |
+|` ` مادة فونق|! [](accept.png) |! [](accept.png) |! [](accept.png) | |! [](accept.png) |! [](accept.png) | |! [](accept.png) | | |! [](accept.png) |! [](accept.png) | | | |
+|مادة قائمة على التظليل ` `|! [](accept.png) | |! [](accept.png) | | | | | | | | | | | | |
+|` ` مادة PBR| | | |! [](accept.png) | | | | | | | | | | | |
+|مادة مرقعة ` `PBR| | | |! [](accept.png) | | | | | | | | | | | |
+|نسيج منتشر ` `|! [](accept.png) |! [](accept.png) | |! [](accept.png) |! [](accept.png) |! [](accept.png) | |! [](accept.png) | |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) | | |
+|` ` نسيج متقدم|! [](accept.png) |! [](accept.png) | |! [](accept.png) |! [](accept.png) |! [](accept.png) | |! [](accept.png) | | | | | | | |
+|شبكات مضلعة ` `|! [](accept.png) |! [](accept.png) | | | | | |! [](accept.png) | | | | | |! [](accept.png) | |
+|شبكات قائمة على المثلث ` `|! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |
+|عناصر قمة ` `|! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) | |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) | | |! [](accept.png) |
+|` ` حوامل هندسية|! [](accept.png) | | | | | | | | | | | | | | |
+|هندسي معلمات ` `| | | | | | | | | | | | | |! [](accept.png) | |
+|` ` تحويل محلي|! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) | | | |! [](accept.png) |! [](accept.png) |! [](accept.png) | |! [](accept.png) | |
+|تثبيت ` `|! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) | | | | | | | | | |
+|رسم بياني لمشهد ` `|! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) |! [](accept.png) | | | |! [](accept.png) | |! [](accept.png) | |! [](accept.png) | |
+|خاصية مخصصة ` `|! [](accept.png) | |! [](accept.png) |! [](accept.png) | | | | | | | | | | | |
+|هيكل عظمي ` `|! [](accept.png) |! [](accept.png) | | | | | | | | | | | | | |
+|مصور مورف ` `|! [](accept.png) |! [](accept.png) | | | | | | | | | | | | | |
+|الرسوم المتحركة للعقارات ` `|! [](accept.png) |! [](accept.png) | | | | | | | | | | | | | |
+|ضغط شبكي ` `|! [](accept.png) | | | |! [](accept.png) |! [](accept.png) | | | | | | |! [](accept.png) | |! [](accept.png) |
 

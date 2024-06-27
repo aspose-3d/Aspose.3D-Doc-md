@@ -1,31 +1,31 @@
-﻿---
-title: Python via .NET için Aspose.3D
+---
+title: Aspose.3D for Python via .NET
 type: docs
-description: Aspose.3D için Python via .NET, uygulamalarınızın 3D modelleme ve rendering yazılımı yüklenmeden otomatik olarak 3D formatlarına bağlanmasını sağlayan bir sınıf kütüphane projesidir. The 076. 481 076481 481 mühendislerin 3D belge formatlarının maddesini okumasını, dönüştürmesini, oluşturmasını, değiştirmesini ve kontrol etmesini sağlar.
+description: Aspose.3D for Python via .NET is a class library project that enables your applications to connect with 3D formats automatically without 3D modeling and rendering software being installed. The Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 weight: 30
 url: /tr/python-net/
 is_root: true
 ---
 {{% alert color="primary" %}}
 
-![Todo: görüntü_Alt_Metin](home_1.png)
+! [Todo: image_alt_text](home_1.png)
 
-**Welcome Python via .NET API için Aspose.3D**
+**Welcome to Aspose.3D for Python via .NET API**
 
-Aspose.3D için Python via .NET, uygulamalarınızın 3D modelleme ve rendering yazılımı yüklenmeden otomatik olarak 3D formatlarına bağlanmasını sağlayan bir sınıf kütüphane projesidir. The 076. 481 076481 481 mühendislerin 3D belge formatlarının maddesini okumasını, dönüştürmesini, oluşturmasını, değiştirmesini ve kontrol etmesini sağlar.
+Aspose.3D for Python via .NET is a class library project that enables your applications to connect with 3D formats automatically without 3D modeling and rendering software being installed. The Aspose.3D API lets engineers read, convert, build, alter and control the substance of the 3D document formats.
 
-The API kullanıcı dostudur ve sıfırdan benzer bir çözüm yaratmaktan zaman ve para tasarrufu sağlar.
+API kullanıcı dostudur ve sıfırdan benzer bir çözüm oluşturmaktan zaman ve para tasarrufu sağlar.
 
 {{% /alert %}}
-## **Python via .NET Resources için Aspose.3D**
+##  **Aspose.3D for Python via .NET kaynaklar**
 Fol., görevlerinizi yerine getirmeniz gereken bazı yararlı kaynakların bağlantılarıdır.
 
-- [Python via .NET Online entation ocumentation için Aspose.3D](/3d/tr/python-net/)
-- [Python via .NET Features için Aspose.3D](/3d/tr/python-net/product-overview/#productoverview-richfeatures)
-- [Python via .NET Ltaklitler için Aspose.3D](/3d/tr/python-net/installation/#installation-systemrequirements)
-- [Python via .NET Release Notes için Aspose.3D](https://releases.aspose.com/tr/3d/python-net/release-notes/)
-- [Python via .NET Product Page için Aspose.3D](https://products.aspose.com/3d/python-net/)
-- [Install Aspose.3D Python via .NET NuGet kage ackage için](https://www.nuget.org/packages/Aspose.3D/)
-- [Python via .NET API ference eide Guide için Aspose.3D](https://reference.aspose.com/3d/net)
-- [Python via .NET Free uupport Forum için Aspose.3D](https://forum.aspose.com/c/3d/18)
-- [Python via .NET Pyardım Support Helpdesk için Aspose.3D](https://helpdesk.aspose.com/)
+- [Aspose.3D for Python via .NET çevrimiçi dokümantasyon](/3d/tr/python-net/)
+- [Aspose.3D for Python via .NET özellikleri](/3d/tr/python-net/product-overview/#productoverview-richfeatures)
+- [Aspose.3D for Python via .NET sınırlamalar](/3d/tr/python-net/installation/#installation-systemrequirements)
+- [Aspose.3D for Python via .NET sürüm notları](https://releases.aspose.com/3d/python-net/release-notes/)
+- [Aspose.3D for Python via .NET ürün sayfası](https://products.aspose.com/3d/python-net/)
+- [Install Aspose.3D for Python via .NET NuGet Package](https://www.nuget.org/packages/Aspose.3D/)
+- [Aspose.3D for Python via .NET API referans rehberi](https://reference.aspose.com/3d/net)
+- [Aspose.3D for Python via .NET ücretsiz destek forumu](https://forum.aspose.com/c/3d/18)
+- [Aspose.3D for Python via .NET ücretli destek yardım masası](https://helpdesk.aspose.com/)

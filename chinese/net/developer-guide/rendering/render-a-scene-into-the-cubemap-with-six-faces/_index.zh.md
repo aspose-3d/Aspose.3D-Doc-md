@@ -1,18 +1,18 @@
-﻿---
+---
 title: 用六个面将场景渲染到立方体图中
 type: docs
 weight: 70
 url: /zh/net/render-a-scene-into-the-cubemap-with-six-faces/
-description: 使用Aspose.3D for .NET API，开发人员可以将场景渲染到具有六个面孔的cubemap中，并将所有面孔保存到支持的图像格式中。
+description: 使用 Aspose.3D for .NET API，开发人员可以将具有六个面的场景渲染到cubemap中，并将所有面保存为支持的图像格式。
 ---
 {{% alert color="primary" %}}
 
-使用[Aspose.3D for .NET API](https://products.aspose.com/3d/net/),开发人员可以将场景渲染到具有六个面孔的立方体地图中，并将所有面孔保存到支持的图像格式中。
+使用 [Aspose.3D for .NET API](https://products.aspose.com/3d/net/)，开发人员可以将场景渲染到具有六个面的cubemap中，并将所有面保存为支持的图像格式。
 
 {{% /alert %}}
-## **捕获具有六个面孔的立方体地图**
-在本文中，我们创建了一个相机和两个光对象来捕获cubemap，还创建了带有深度纹理的cubemap渲染目标，创建了一个视口，最后获得cubemap纹理。`ITextureCubema`p类检索cubemap纹理，`CubeFaceData`类允许访问cubemap的面，然后导出为支持的图像格式。
-### **编程示例**
+##  **捕获具有六个面孔的立方体地图**
+在本文中，我们创建了一个相机和两个光对象来捕获立方体贴图，还创建了一个带有深度纹理的立方体贴图渲染目标，创建了一个视口，最后获得了立方体贴图纹理。`ITextureCubema`p类检索立方体贴图纹理，`CubeFaceData` 类允许访问立方体贴图的面，然后导出为支持的图像格式。
+###  **编程示例**
 此代码示例将场景渲染到具有六个面的cubemap中，并导出为图像格式。
 
 **C#**

@@ -1,11 +1,11 @@
-﻿---
-title: Export cencene إلى Cضغط AMF orormat
+---
+title: مشهد التصدير إلى تنسيق مضغوط AMF
 type: docs
 weight: 30
 url: /ar/net/export-scene-to-compressed-amf-format/
-description: Aspose.3D for .NET يقدم فئة ptions mfSaveOالتي تسمح لك بتعيين قيمة bool للضغط وفقا لمتطلباتك. By الافتراضي يتم تعيين القيمة إلى true.
+description: Aspose.3D for .NET يقدم فئة AmfSaveOptions التي تسمح لك بتعيين قيمة الإنتاج للضغط وفقًا لمتطلباتك. افتراضيًا ، يتم تعيين القيمة إلى true.
 ---
-## **Export cencene إلى Cضغط AMF orormat**
-Aspose.3D for .NET يقدم `AmfSaveOptions` الفئة التي تسمح لك لتحديد قيمة بوول للضغط وفقا لمتطلباتك. By الافتراضي يتم تعيين القيمة إلى true. Following رمز قنص يظهر وظائف كاملة لتوليد مضغوط AMF تنسيق الملف:
+##  **مشهد التصدير إلى تنسيق مضغوط AMF**
+Aspose.3D for .NET يقدم فئة `AmfSaveOptions` التي تسمح لك بتحديد قيمة الدفعة للضغط وفقًا لمتطلباتك. افتراضيًا ، يتم تعيين القيمة إلى true. يعرض مقتطف الشفرة التالي وظائف كاملة لإنشاء ملف تنسيق AMF مضغوط:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ExportSceneToCompressedAMF -CompressedAMF.cs" >}}
+{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ExportSceneToCompressedAMF-CompressedAMF.cs" >}}

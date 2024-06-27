@@ -1,12 +1,12 @@
-﻿---
-title: Geometrie in scala di una scena 3D
+---
+title: Geometrie di scala di una scena 3D
 type: docs
 weight: 70
 url: /it/python-net/scale-geometries-of-a-3d-scene/
-description: Gli sviluppatori possono scalare solo le geometrie di un nodo 3D o tutti i nodi della scena 3D. Per raggiungere questo obiettivo, gli sviluppatori possono chiamare più membri Scale dell'istanza della classe PolygonModifier.
+description: Gli sviluppatori possono scalare solo le geometrie di un nodo 3D o di tutti i nodi della scena 3D. Per raggiungere questo obiettivo, gli sviluppatori possono chiamare più membri Scale dell'istanza della classe PolygonModifier.
 ---
-## **Geometrie di scala di un singolo nodo 3D o di tutti i nodi della scena 3D**
-Gli sviluppatori possono scalare solo le geometrie di un nodo 3D o tutti i nodi della scena 3D. Per raggiungere questo obiettivo, gli sviluppatori possono chiamare più membri Scale dell'istanza della classe `PolygonModifier`. Questo è l'esempio di codice per scalare tutti i nodi o singolo nodo:
+##  **Geometrie di scala di un singolo nodo 3D o di tutti i nodi della scena 3D**
+Gli sviluppatori possono scalare solo le geometrie di un nodo 3D o di tutti i nodi della scena 3D. Per raggiungere questo obiettivo, gli sviluppatori possono chiamare più membri Scale dell'istanza della classe `PolygonModifier`. Questo è l'esempio di codice per scalare tutti i nodi o singolo nodo:
 
 
 

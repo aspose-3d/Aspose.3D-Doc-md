@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utvecklarguide
 type: docs
 weight: 20

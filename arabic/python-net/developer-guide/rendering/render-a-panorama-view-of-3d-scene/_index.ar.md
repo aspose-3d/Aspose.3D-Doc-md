@@ -1,19 +1,19 @@
-﻿---
-title: Rأندر وجهة نظر أنوراما من 3D المشهد
+---
+title: تقديم عرض بانورامي لمشهد 3D
 type: docs
 weight: 60
 url: /ar/python-net/render-a-panorama-view-of-3d-scene/
-description: Using Aspose.3D ل Python via .NET API ، يمكن للمطورين تقديم عرض بانوراما من 3D المشهد وحفظ هذا العرض في تنسيقات الصور المدعومة.
+description: Using Aspose.3D for Python via .NET API, developers can render a panorama view of 3D scene and save that view into the supported image formats.
 ---
 {{% alert color="primary" %}}
 
-Uالغناء[Aspose.3D ل Python via .NET API](https:#products.aspose.com/3d/python-net/)، يمكن للمطورين تقديم عرض بانوراما لمشهد 3D وحفظ هذا العرض في تنسيقات الصور المدعومة.
+باستخدام [Aspose.3D for Python via .NET API](https:#products.aspose.com/3d/python-net/) ، يمكن للمطورين عرض صورة بانورامية لمشهد 3D وحفظ هذا العرض في تنسيقات الصور المدعومة.
 
 {{% /alert %}}
-## **Rereate عرض Panorama**
-في هذه المقالة ، نقوم بإنشاء amera Cو اثنين من الأشياء ight ight لالتقاط المشهد ، وأيضا إنشاء هدف تقديم ، وخلق وجهة نظر وتنفيذ الإسقاط equiمستطيل بعد المعالجة مع خريطة مكعب كمدخل وأخيرا حفظ نسيج ananorama. The `execute` طريقة `Renderer` فئة يسمح لتنفيذ تأثير معالجة آخر وحفظ النتيجة لتقديم الهدف.
-### **Pروغرامينغ ple وافرة**
-Tله رمز المثال يجعل عرض ananorama من المشهد 3D وحفظ في تنسيق الصورة.
+##  **Rereate عرض Panorama**
+في هذه المقالة ، نقوم بإنشاء كاميرا وجسمان ضوئيان لالتقاط المشهد ، وكذلك إنشاء هدف عرض ، وإنشاء منفذ عرض وتنفيذ مرحلة ما بعد الإسقاط بشكل متساوي مستطيل مع خريطة مكعبة كمدخل وأخيراً حفظ نسيج بانوراما. تسمح طريقة `execute` لفئة `Renderer` بتنفيذ تأثير معالجة النشر وحفظ النتيجة لتقديم الهدف.
+###  **Pروغرامينغ ple وافرة**
+هذا المثال الخاص بالرمز يعرض صورة بانورامية لمشهد 3D ويحفظ في تنسيق الصورة.
 
 **Python**
 

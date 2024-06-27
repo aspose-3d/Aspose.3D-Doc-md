@@ -1,18 +1,18 @@
-﻿---
-title: Concatenate uuaternions وتطبيق على 3D الكيانات
+---
+title: رباعيات متسلسلة وتقدم الطلب على كيانات 3D
 type: docs
 weight: 50
 url: /ar/python-net/concatenate-quaternions-and-apply-on-3d-entities/
-description: Aspose.3D ل Python via .NET يسمح للمطورين الجمع بين اثنين من التحول دوران إلى واحد ممثلة في كواترنيون.
+description: يسمح Aspose.3D for Python via .NET للمطورين بدمج تحولي دوران إلى تحويل واحد ممثل في رباعي.
 ---
 {{% alert color="primary" %}} 
 
-[Aspose.3D ل Python via .NET](https://www.aspose.com/products/3d)يسمح للمطورين الجمع بين اثنين من التحول دوران إلى واحد ممثلة في quaternion.
+يسمح [Aspose.3D for Python via .NET](https://www.aspose.com/products/3d) للمطورين بدمج تحولي دوران إلى تحويل واحد ممثل في رباعي.
 
 {{% /alert %}} 
-## **Concatenate uuaternions**
-يتم استخدام ateruaternions لتمثيل التوجه في مساحة 3D. The `concat` طريقة يتعرض من قبل فئة [`Quaternion`](https://reference.aspose.com/3d/net/aspose.threed.utilities/quaternion) يمكن استخدامها للجمع بين اثنين من رباعي. في هذا المثال رمز ، ونحن الجمع بين اثنين من رباعي والحصول على الثلث الناتج كواترنيون ، ومن ثم تطبيق هذه الرباعية الثلاثة على ثلاثة اسطوانات.
-### **Pروغرامينغ ple وافرة**
+##  **Concatenate uuaternions**
+تُستخدم كواتيرنيون لتمثيل اتجاه في مساحة 3D. يمكن استخدام طريقة `concat` المعروضة بواسطة فئة [`Quaternion`](https://reference.aspose.com/3d/net/aspose.threed.utilities/quaternion) للجمع بين رباعي. في هذا المثال البرمجي ، ندمج اثنين من رباعي الأيونات ونحصل على رباعي ثالث ناتج ، ثم نطبق هذه الرباعي الثلاثة على ثلاث أسطوانات.
+###  **Pروغرامينغ ple وافرة**
 Tله رمز المثال الجمع بين اثنين من رباتيرفيونس وتطبيقها على اسطوانات مختلفة.
 
 {{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-ConcatenateQuaternions-ConcatenateQuaternions.py" >}}
@@ -20,4 +20,4 @@ Tله رمز المثال الجمع بين اثنين من رباتيرفيون
 
 **Result في 3ds MAX**
 
-![تودو: الصورة_البديل_نص](concatenate-quaternions-and-apply-on-3d-entities_1.png)
+! [Todo: image_ altttext](concatenate-quaternions-and-apply-on-3d-entities_1.png)

@@ -1,18 +1,18 @@
-﻿---
-title: Google Draco File 3D Mesh kodlama
+---
+title: 3D mesh kodlaması Google Draco dosyasında
 type: docs
 weight: 60
 url: /tr/net/encoding-3d-mesh-in-the-google-draco-file/
-description: Aspose.3D for .NET API, geliştiricilerin 3D modelini ithal etmelerini ve daha sonra 076. 481 076. 481 dosyalarında mesh'leri kodlamasını sağlar. Developers ayrıca bir örgü kodlamadan önce konumu, doku koordinatlarını, rengi ve normal bitlerini ve sıkıştırma seviyesini de belirtebilir.
+description: Aspose.3D for .NET API geliştiricilerin bir 3D modelini içe aktarmasına ve daha sonra Google Draco dosyalarında mesh'leri kodlamasına izin verir. Geliştiriciler ayrıca bir örgü kodlamadan önce pozisyonu, doku koordinatlarını, rengi ve normal bitlerini ve sıkıştırma seviyesini de belirtebilirler.
 ---
 {{% alert color="primary" %}}
 
-[Aspose.3D for .NET](https://products.aspose.com/3d/net/)API geliştiricilerin[3D modelini içe aktar](/3d/tr/net/create-and-read-an-existing-3d-scene/#createandreadanexisting3dscene-readinga3dscene)Ve sonra Google Draco dosyalarında kafesleri kodlayın. Developers ayrıca bir örgü kodlamadan önce konumu, doku koordinatlarını, rengi ve normal bitlerini ve sıkıştırma seviyesini de belirtebilir.
+[Aspose.3D for .NET](https://products.aspose.com/3d/net/) API allows developers to [import a 3D model](/3d/net/create-and-read-an-existing-3d-scene/#createandreadanexisting3dscene-readinga3dscene), and then encode meshes in the Google Draco files. Developers can also specify the position, texture coordinates, color and normal bits as well as the compression level before encoding a mesh.
 
 {{% /alert %}}
-## **Retrieve a 3D Mesh ve Encode Google Draco File**
-[`DracoFormat`](https://reference.aspose.com/net/3d/aspose.threed.formats/dracoformat) sınıfı tarafından maruz kalan 07he `Encode` yöntemi, Google Draco dosyasında bir 3d mesh kodlamak için kullanılabilir. It, 076. 481 ve 076. 481 nesnelerini parametreler olarak alır. Draco kaydetme seçeneklerini kaydetme, geliştiriciler ayrıca bir ağ kodlamadan önce konumu, doku koordinatlarını, rengini ve normal bitlerini ve sıkıştırma seviyesini de belirtebilirler.
-### **Programming ample ample**
-Tkod örneği `Sphere` `Mesh` değerini alır ve daha sonra bir sıkıştırma seviyesi belirttikten sonra Google Draco dosyasında kodlanır.
+##  **3D mesh alın ve Google Draco dosyasında kodlayın**
+[`DracoFormat`](https://reference.aspose.com/net/3d/aspose.threed.formats/dracoformat) sınıfı tarafından maruz kalan `Encode` yöntemi, Google Draco dosyasında bir 3d mesh kodlamak için kullanılabilir. Parametreler olarak [`Mesh`](https://reference.aspose.com/net/3d/aspose.threed.entities/mesh) ve [`DracoSaveOptions`](https://reference.aspose.com/net/3d/aspose.threed.formats.draco/dracosaveoptions) nesneleri alır. Draco kaydetme seçeneklerini kullanarak, geliştiriciler bir ağ kodlamadan önce konumu, doku koordinatlarını, rengini ve normal bitlerini ve sıkıştırma seviyesini de belirtebilirler.
+###  **Programming ample ample**
+This code example retrieves a `Mesh` of `Sphere`, and then encode in the Google Draco file after specifying a compression level.
 
 {{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-Encode3DMeshinGoogleDraco-Encode3DMeshinGoogleDraco.cs" >}}

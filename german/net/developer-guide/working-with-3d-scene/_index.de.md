@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit 3D Szene
 type: docs
 weight: 40

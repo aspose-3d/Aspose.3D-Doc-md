@@ -1,30 +1,30 @@
-﻿---
-title: Hangublic API hangمعلقة في Aspose.3D 2.0.0
+---
+title: API العام يتغير بـ Aspose.3D 2.0.0
 type: docs
 weight: 20
 url: /ar/net/public-api-changes-in-aspose-3d-2-0-0/
 ---
 **Contents Sأوماري**
 
-- [Adds Collada تنسيق](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
-- [Adds Aspose.ThreeD](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
-- [Adds Aspose.ThreeD.](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
-- [Adds GetBh9 ingBطريقة ox إلى Aspose.ThreeD.Node الفئة ، Adds فئات جديدة Aspose.ThreeD. tiliتيليتيز. Bh9 ingBox و Aspose.ThreeD. tiliتيليتيز.](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
+- [يضيف تنسيق Collada](#PublicAPIChangesinAspose.3D2.0.0-AddsColladaformat)
+- [يضيف Aspose.ThreeD. Rendertarget. IRenderTexture/irendexwindow/ITextureUnit واجهات و Aspose.ThreeD. Renderuport. Viewport/initializationdisception/renderclasses/type/type](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.IRenderTarget/IRenderTexture/IRenderWindow/ITextureUnitinterfacesandAspose.ThreeD.Render.Viewport/InitializationException/Renderer/TextureType/DriverException/RenderFactory/RenderParametersclasses)
+- [تضيف Aspose.ThreeD.Render.PostProcessing class](#PublicAPIChangesinAspose.3D2.0.0-AddsAspose.ThreeD.Render.PostProcessingclass)
+- [تضيف طريقة GetBoundingBox إلى Aspose.ThreeD.Node class ، وتضيف فئات جديدة Aspose.ThreeD. Uildings. BoundingBox و Aspose.ThreeD. Ulevelvides. Boundingboxdity](#PublicAPIChangesinAspose.3D2.0.0-AddsGetBoundingBoxmethodtoAspose.ThreeD.Nodeclass,AddsnewclassesAspose.ThreeD.Utilities.BoundingBoxandAspose.ThreeD.Utilities.BoundingBoxExtent)
 - [Dering ial-الوقت R](#PublicAPIChangesinAspose.3D2.0.0-Real-timeRendering)
-- [يتم إضافة طرق ddddData إلى Aspose.ThreeD.](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
+- [تتم إضافة طرق AddData إلى Aspose.ThreeD. Enties. Vertexelementuvs class](#PublicAPIChangesinAspose.3D2.0.0-AddDatamethodsareaddedtoAspose.ThreeD.Entities.VertexElementUVclass)
 
 {{% alert color="primary" %}} 
 
-يصف المستند الخاص به التغييرات على Aspose.3D API من الإصدار 1.7.0 إلى 2.0.0 ، والتي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يتضمن It ليس فقط الأساليب العامة الجديدة والمحدثة ، ولكن أيضا وصفا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
+يوضح هذا المستند التغييرات إلى Aspose.3D API من الإصدار 1.7.0 إلى 2.0.0 ، والتي قد تهم مطوري الوحدات/التطبيقات. لا يشمل فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.3D.
 
 {{% /alert %}} 
-### **Adds Collada تنسيق**
-In هذا الإصدار (2.0.0) ، يمكن للمطورين استيراد ملفات Collada 3D ، وبالتالي يتم إضافة خاصية Collada في Aspose.ThreeD. فئة ileFormat.
-### **Adds Aspose.ThreeD**
-Tهو جديد ieiewport و enenderer الطبقات الرئيسية التي تساعد على التقاط وجهات النظر من مشهد 3D وحفظ إلى نسيج أو نافذة. All تفاصيل الطبقات المساعدة الأخرى هي على النحو التالي:
+###  **يضيف تنسيق Collada**
+في هذا الإصدار (2.0.0) ، يمكن للمطورين استيراد ملفات Collada 3D ، وبالتالي تتم إضافة خاصية Collada في فئة Aspose.ThreeD.FileFormat.
+###  **يضيف Aspose.ThreeD. Rendertarget. IRenderTexture/irendexwindow/ITextureUnit واجهات و Aspose.ThreeD. Renderuport. Viewport/initializationdisception/renderclasses/type/type**
+فئات منفذ العرض والعدد الجدد هي الفئات الرئيسية التي تساعد على التقاط مشاهدات لمشهد 3D والحفظ في نسيج أو نافذة. جميع تفاصيل دروس المساعدة الأخرى هي كما يلي:
 
-- **Aspose.ThreeD**-يتم لف الاستثناءات من المستأجر الداخلي كما في وقت لاحق في وقت لاحق.
-- **Aspose.ThreeD. ender اندر. InitializationEفئة xception**-يتم طرح هذا الاستثناء في حين فشل في تهيئة المستأجر ، على سبيل المثال لتهيئته على جهاز كمبيوتر لا يدعم الأجهزة OpenGL 4.0.
+- **Aspose. طبقة استثنائية من ThreeD. Riverclass**-يتم لف الاستثناءات من المستأجر الداخلي كما في وقت لاحق في وقت لاحق.
+- **Aspose. طبقة استثناء ثلاثية. تقديم. Initialization**-يتم طرح هذا الاستثناء في حين فشل في تهيئة العارض ، على سبيل المثال لبدء ذلك على الكمبيوتر الذي ليس لديه دعم الأجهزة من OpenGL 4.0.
 - **Ienواجهة واجهة**-It هو واجهة قاعدة من IenenderTexture/IenenderWindow.
 - **Ienواجهة exture**-It يسمح لتقديم المشهد إلى واحد أو أكثر من القوام (القوام تقع في ذاكرة الفيديو ويمكن نقلها إلى ذاكرة النظام).
 - **Ienواجهة indow**-It يسمح لتقديم المشهد إلى نافذة في الوقت الحقيقي.
@@ -33,7 +33,7 @@ Tهو جديد ieiewport و enenderer الطبقات الرئيسية التي �
 - **الفئة الفنية**-It يساعد في تقديم مشهد للقوام أو نافذة في الوقت الحقيقي.
 - **RenderPأقطار الفئة**-It يحدد المعلمات حول كيفية إنشاء الهدف تقديم مثل بت اللون ، بت عمق ، بت الاستنسل والتخزين المؤقت المزدوج.
 
-**Apapture ieiewport من 3D cenسينا و ender ender إلى نسيج أو نافذة**
+**التقط منافذ العرض لمشهد 3D وترجمه إلى نسيج أو نافذة**
 
 **C#**
 
@@ -124,10 +124,10 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Adds Aspose.ThreeD.**
+###  **تضيف Aspose.ThreeD.Render.PostProcessing class**
 تسمح فئة roostProcessing للمطورين بتطبيق فلتر معالجة الصور في الوقت الحقيقي على الصورة المقدمة. In هذا الإصدار 2.0.0 ، لقد قدمنا 4 المدمج في آثار ما بعد المعالجة. سوف تسمح We للمطورين بالحصول على خوارزمية ما بعد المعالجة المخصصة الخاصة بهم في الإصدار المستقبلي.
 
-**Apply ffisual ffffects على aving aving 3D ieiews**
+**تطبيق تأثيرات بصرية على توفير 3D مشاهدة**
 
 **C#**
 
@@ -254,9 +254,9 @@ using (var renderer = Renderer.CreateRenderer())
 }
 
 {{< /highlight >}}
-### **Adds GetBh9 ingBطريقة ox إلى Aspose.ThreeD.Node الفئة ، Adds فئات جديدة Aspose.ThreeD. tiliتيليتيز. Bh9 ingBox و Aspose.ThreeD. tiliتيليتيز.**
-The oundh9 ingBox و oundh9 ingBoxExالخيمة الطبقات تمثل صندوق الحدود من عقدة 3D. قد إعادة تعيين الكاميرا ، وحساب الارتفاع من صندوق الحدود. Tانه لانهائي أو لاغية صندوق الحدود يعني المشهد ليس لديه هندسية وضبط فقط ارتفاع الكاميرا عندما يكون محدود.
-### **Dering ial-الوقت R**
+###  **تضيف طريقة GetBoundingBox إلى Aspose.ThreeD.Node class ، وتضيف فئات جديدة Aspose.ThreeD. Uildings. BoundingBox و Aspose.ThreeD. Ulevelvides. Boundingboxdity**
+تمثل فئات BoundingBox وفئات Boundingboxday مربع محاط بعقدة 3D. يمكن للمطورين إعادة ضبط الكاميرا ، وحساب الارتفاع من الصندوق المحاصر. يعني المربع اللانهائي أو الفارغ أن المشهد لا يحتوي على أشكال هندسية ولا يضبط ارتفاع الكاميرا إلا عندما يكون محدودًا.
+###  **Dering ial-الوقت R**
 It يسمح للمطورين لأداء تقديم عالية الأداء في الوقت الحقيقي على إطار GUI مثل orinForms ، انها GUindependent إطار مستقل ، وبالتالي فإن الأطر GGGالأخرى يجب أيضا دعم هذا.
-### **يتم إضافة طرق ddddData إلى Aspose.ThreeD.**
+###  **تتم إضافة طرق AddData إلى Aspose.ThreeD. Enties. Vertexelementuvs class**
 لقد تغيرت فئة قاعدة he he erertexEleرقيق V من اللوحة الرئيسية<Vector2>إلى VertexE<Vector4>، فإنه سيتم تخزين فقط Vector4 منذ 2.0.0 ، لذلك تم إضافة طريقتين مساعد للسماح للمستخدم لإضافة قائمة من Vector2 و Vector3 إلى erertexEleentUV ، فإنه سيتم داخليا توسيع Vector2/Vector3 إلى Vector4 وترك بقية المجالات صفر:

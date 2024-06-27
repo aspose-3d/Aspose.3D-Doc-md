@@ -1,4 +1,4 @@
-﻿---
+---
 title: Getting tartarted
 type: docs
 weight: 10

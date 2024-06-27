@@ -1,19 +1,19 @@
-﻿---
-title: C# yılında HTML olarak ave ave 3D cene cene
-linktitle: Save 3D cene cene as HTML
+---
+title: Save 3D Scene as HTML in C#
+linktitle: Save 3D Scene as HTML
 type: docs
 weight: 90
 url: /tr/net/save-3d-scene-as-html/
 ---
-## **Overview**
+##  **Overview**
 
-This makalesi 3D dosyalarını HTML sonra nasıl dönüştürebileceğinizi açıklıyor[Onları cene cene nesnesine yükleme](https://docs.aspose.com/3d/net/create-and-read-an-existing-3d-scene/)C# kullanarak ve çok çeşitli konuları kapsar (dikkate alınarak)[Desteklenen dosya biçimleri](https://docs.aspose.com/3d/net/supported-file-formats/)) Örn.
+This article explains how you can convert 3D files to HTML after [loading them into Scene object](https://docs.aspose.com/3d/net/create-and-read-an-existing-3d-scene/) using C# and covers wide range of topics (considering [supported file formats](https://docs.aspose.com/3d/net/supported-file-formats/)) e.g.
 
-- Convert 3DS HTML C# kullanarak
-- Convert FBX HTML C#
-- Convert STL HTML C#
-- Convert U3D HTML C#
-- Convert OBJ HTML C#
+- Convert 3DS to HTML using C#
+- Convert FBX to HTML in C#
+- Convert STL to HTML in C#
+- Convert U3D to HTML in C#
+- Convert OBJ to HTML in C#
 
 
 {{% alert color="primary" %}} 
@@ -21,8 +21,8 @@ This makalesi 3D dosyalarını HTML sonra nasıl dönüştürebileceğinizi aç�
 This özelliği 19.9 veya daha büyük sürümle desteklenir.
 
 {{% /alert %}} 
-## **Save 3D cene cene as HTML**
-Aspose.3D for .NET, `Html5SaveOptions` olarak 3D sahnesini kaydetmek için `Html5SaveOptions` sınıfı sağlar. Sahne 076481 481 dosyasına ihraç ederseniz, API üç dosya, bir `HTML` dosyası, bir 070734813 Deb eb dosyası (*.**A3dw**) Ve işlenmiş bir 'Javaavacript' dosyası. A3n sipariş sadece a3dw dosyasını ihraç etmek için, Aspose3 Deb eb ihracat türü olarak belirtebilir ve kendi HTML sayfanızda Javacricript dosyasını yeniden kullanabilirsiniz. To C# kod parçacığını takip ederek 3D sahnesini 076481 481 olarak nasıl kaydedeceğinizi gösterir.
+##  **Save 3D Scene as HTML**
+Aspose.3D for .NET provides `Html5SaveOptions` class to save a save 3D scene as HTML. When you export the scene into HTML5 file, API will export three files, an `HTML` file, an Aspose3DWeb file(*.*a3dw**), and a rendered `JavaScript` file. In order to export a3dw file only, you can specify Aspose3DWeb as the export type, and reuse the JavaScript file within your own HTML page. The following C# code snippet shows how to save a 3D scene as HTML. 
 
 
 
@@ -30,7 +30,7 @@ Aspose.3D for .NET, `Html5SaveOptions` olarak 3D sahnesini kaydetmek için `Html
 
 {{% alert color="primary" %}} 
 
-Tarayıcının güvenlik sınırlarına Due, ihraç edilen HTML dosyası doğrudan açılamıyor, bir web sunucusu üzerinden açmanız gerekiyor, eğer python3 yüklü ise, web sunucusunu ihraç edilen dizinde komut satırına başlatabilirsiniz
+Due to the browser's security limits, the exported HTML file cannot be opened directly, you need to open it through a web server, if you have python3 installed, you can start the web server in the command line in the exported directory
 
 {{% /alert %}} 
 

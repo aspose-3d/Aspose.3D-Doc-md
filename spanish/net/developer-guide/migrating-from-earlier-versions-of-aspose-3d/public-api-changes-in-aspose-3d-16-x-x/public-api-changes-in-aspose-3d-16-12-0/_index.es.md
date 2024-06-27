@@ -1,4 +1,4 @@
-﻿---
+---
 title: Público API Cambios en Aspose.3D 16.12.0
 type: docs
 weight: 10
@@ -6,15 +6,15 @@ url: /es/net/public-api-changes-in-aspose-3d-16-12-0/
 ---
 **Resumen de contenidos**
 
-- [Agrega Aspose.ThreeD. Clase medida](#PublicAPIChangesinAspose.3D16.12.0-AddsAspose.ThreeD.MeteredClass)
+- [Agrega la clase Aspose.ThreeD.Metered](#PublicAPIChangesinAspose.3D16.12.0-AddsAspose.ThreeD.MeteredClass)
 - [Importación de archivos DXF](#PublicAPIChangesinAspose.3D16.12.0-ImportingDXFFiles)
 
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.3D API de la versión 16.11.0 a 16.12.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.3D.
+This document describes changes to the Aspose.3D API from version 16.11.0 to 16.12.0, that may be of interest to module/application developers. It includes not only new and updated public methods, but also a description of any changes in the behavior behind the scenes in Aspose.3D.
 
 {{% /alert %}} 
-### **Agrega Aspose.ThreeD. Clase medida**
+###  **Agrega la clase Aspose.ThreeD.Metered**
 Una forma de aplicar una licencia con medida.
 
 **C#**
@@ -32,8 +32,8 @@ metered.SetMeteredKey("your-public-key", "your-private-key");
 //Your other code to use Aspose.3D
 
 {{< /highlight >}}
-### **Importación de archivos DXF**
-Usando la versión reciente (16.12.0) o superior, los desarrolladores pueden importar archivos DXF. La entrada de formato DXF se añade con fines de carga.
+###  **Importación de archivos DXF**
+Con la versión reciente (16.12.0) o superior, los desarrolladores pueden importar archivos DXF. La entrada de formato DXF se agrega para fines de carga.
 
 **C#**
 
