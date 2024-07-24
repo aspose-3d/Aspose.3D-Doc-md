@@ -16,6 +16,10 @@ Aspose.3D for Node.js via Java provides `HtmlSaveOptions` class to save a save
 
 {{< highlight java >}}
 
+var aspose = aspose || {};
+
+aspose.threed = require("aspose.threed");
+
 // Initialize a scene
 var scene = new aspose.threed.Scene();
 

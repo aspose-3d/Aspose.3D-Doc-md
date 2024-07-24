@@ -13,6 +13,10 @@ Aspose.3D for Node.js via Java allows customizing Offset Top of a cylinder. In 
 
 {{< highlight java >}}
 
+var aspose = aspose || {};
+
+aspose.threed = require("aspose.threed");
+
 // Create a scene
 var scene = new aspose.threed.Scene();
 
@@ -45,6 +49,10 @@ Aspose.3D for Node.js via Java allows customizing shear bottom of a cylinder. I
 
 {{< highlight java >}}
 
+var aspose = aspose || {};
+
+aspose.threed = require("aspose.threed");
+
 // Create a scene
 var scene = new aspose.threed.Scene();
 
@@ -76,6 +84,10 @@ The left cylinder has ShearBottom to (0, 0.83) while the right one is an ordinal
 Aspose.3D for Node.js via Java allows creating a fan cylinder. In order to use this functionality, you can `setGenerateFanCylinder()` property of `Cylinder` class to `true`. The following code snippet shows how to use this functionality:
 
 {{< highlight java >}}
+
+var aspose = aspose || {};
+
+aspose.threed = require("aspose.threed");
 
 // Create a scene
 var scene = new aspose.threed.Scene();

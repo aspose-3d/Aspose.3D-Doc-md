@@ -11,6 +11,10 @@ Aspose.3D for Node.js via Java allows working with VRML version 1.0. `VRML` fil
 
 {{< highlight java >}}
 
+var aspose = aspose || {};
+
+aspose.threed = require("aspose.threed");
+
 // initialize a scene
 var scene = new aspose.threed.Scene();
 
