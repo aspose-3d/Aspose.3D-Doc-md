@@ -1,5 +1,6 @@
 ---
 title: "glTF Structural Metadata Example"
+type: docs
 linkTitle: "glTF Structural Metadata"
 description: "This documentation page demonstrates how to read structural metadata from a glTF file using Aspose.3D for .NET."
 weight: 11

@@ -1,5 +1,6 @@
 ---
 title: "glTF Mesh Features Example"
+type: docs
 linkTitle: "glTF Mesh Features"
 description: "This documentation page demonstrates how to create a glTF file with EXT_mesh_features using Aspose.3D for .NET."
 weight: 10
