@@ -1,5 +1,5 @@
 ---
-title:"كيفية تقسيم الشبكة باستخدام HalfSpace في Aspose.3D"
+title: "كيفية تقسيم الشبكة باستخدام HalfSpace في Aspose.3D"
 type: docs
 linkTitle: "Split Mesh by HalfSpace"
 description: "تعلم كيفية تقسيم الشبكات ثلاثية الأبعاد باستخدام مستويات HalfSpace في Aspose.3D"
