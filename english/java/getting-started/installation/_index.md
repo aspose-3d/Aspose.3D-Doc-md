@@ -34,9 +34,28 @@ Then define Aspose.3D for Java API dependency in your pom.xml as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>23.11.0</version>
+        <version>25.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bc-fips</artifactId>
+      <version>2.1.1</version>
     </dependency>
 
+
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <version>${lwjgl.version}</version>
+    </dependency>
+      <artifactId>lwjgl-platform</artifactId>
+      <version>${lwjgl.version}</version>
+      <classifier>natives-windows</classifier>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-vulkan</artifactId>
+      <version>${lwjgl.version}</version>
+    </dependency>
 </dependencies>
 
 {{< /highlight >}}
@@ -51,10 +70,14 @@ If you're using JDK-8, you can use JDK-8 version as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>23.11.0</version>
+        <version>25.9.0</version>
         <classifier>jdk8</classifier>
     </dependency>
-
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bc-fips</artifactId>
+      <version>2.1.1</version>
+    </dependency>
 </dependencies>
 
 {{< /highlight >}}
