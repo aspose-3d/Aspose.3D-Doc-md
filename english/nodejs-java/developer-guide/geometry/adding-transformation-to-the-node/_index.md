@@ -3,7 +3,7 @@ title: Adding Transformation to the Node
 type: docs
 weight: 10
 url: /nodejs-java/adding-transformation-to-the-node/
-description: Aspose.3D for Node.js via Java API has support to rotate objects in 3D space. There are three ways to define object’s rotation in 3D space, Euler angles, Quaternion and Custom Matrix, all of them are supported by the Transform class.
+description: "Aspose.3D for Node.js via Java API has support to rotate objects in 3D space. There are three ways to define object's rotation in 3D space, Euler angles, Quaternion and Custom Matrix, all of them are supported by the Transform class."
 ---
 
 {{% alert color="primary" %}} 
