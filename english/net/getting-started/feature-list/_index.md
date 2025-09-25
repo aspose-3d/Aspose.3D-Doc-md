@@ -16,6 +16,7 @@ Aspose.3D for .NET Features - 3D file manipulation and conversion API built in C
 - Supported .NET Frameworks (2.0, 3.5, 4.0, 4.0_ClientProfile, 4.5.0, 4.5.1, 4.6.0, 4.6.2, 4.7, 4.7.2).
 - 32-bit OS support.
 - 64-bit OS support.
+
 ## **Feature Matrix**
 
 |**Features** |`FBX` | `Collada` | `glTF` | `glTF 2.0` | `U3D` | `PDF` | `STL` | `OBJ` | `PLY` | `3DS` | `ASE` | `X` | `3MF` | `RVM` | `Draco` |
@@ -41,3 +42,38 @@ Aspose.3D for .NET Features - 3D file manipulation and conversion API built in C
 |` `Property animation |![](accept.png) |![](accept.png) | | | | | | | | | | | | | |
 |` `Mesh Compression |![](accept.png) | | | |![](accept.png) |![](accept.png) | | | | | | |![](accept.png) | |![](accept.png) |
 
+## **Supported glTF 2.0 Extensions**
+
+Aspose.3D for .NET provides comprehensive support for key glTF 2.0 extensions:
+
+### Core glTF 2.0 Features
+- Base glTF 2.0 format with JSON-based scene description
+- Binary container format (GLB) for efficient delivery
+- Material system supporting physically based rendering (PBR)
+
+### glTF Extension Support
+
+#### KHR_draco_mesh_compression
+- Enables loading and saving of compressed meshes
+- Reduces file size significantly with minimal performance impact
+- Ideal for web-based applications requiring efficient transmission
+
+#### EXT_mesh_features
+- Supports advanced mesh feature grouping
+- Allows associating feature IDs with geometry elements
+- Enables rich visualization and processing capabilities
+
+#### EXT_structural_metadata
+- Provides access to structured semantic information
+- Supports property tables with typed attributes
+- Allows storage of custom metadata alongside geometry
+
+#### KHR_materials_common
+- Includes common material presets
+- Simplifies creation of standard materials
+- Ensures cross-platform compatibility
+
+#### KHR_materials_pbrSpecularGlossiness
+- Supports legacy PBR material workflows
+- Maintains compatibility with existing content pipelines
+- Provides alternative PBR parameterization

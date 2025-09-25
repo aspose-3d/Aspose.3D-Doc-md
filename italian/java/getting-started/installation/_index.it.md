@@ -1,16 +1,17 @@
 ---
-title: Installation
+title: Installazione
 type: docs
 weight: 50
 url: /it/java/installation/
-description: Aspose ospita tutte le API Java sul repository Aspose. Puoi facilmente utilizzare Aspose.3D for Java API direttamente nei tuoi progetti Maven con semplici configurazioni.
+description: Aspose ospita tutte le API Java su Aspose Repository. Puoi utilizzare facilmente Aspose.3D per Java API direttamente nei tuoi progetti Maven con configurazioni semplici.
 ---
-##  **Installazione di Aspose.3D for Java da Aspose repository**
-Aspose ospita tutte le API Java su [Aspose repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). Puoi facilmente utilizzare Aspose.3D for Java API direttamente nei tuoi progetti Maven con semplici configurazioni.
 
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
+## **Installazione di Aspose.3D per Java dal repository Aspose**
+Aspose ospita tutte le API Java su [Aspose Repository](https://releases.aspose.com/java/repo/com/aspose/aspose-3d/). È possibile utilizzare facilmente l'API Aspose.3D per Java direttamente nei progetti Maven con configurazioni semplici.
 
-{{< highlight "xml" >}}
+Per prima cosa è necessario specificare la configurazione / posizione del repository Aspose nel file `pom.xml` di Maven come mostrato di seguito:
+
+{{< highlight xml >}}
 
  <repositories>
 
@@ -24,38 +25,61 @@ First you need to specify Aspose Repository configuration / location in your Ma
 
 {{< /highlight >}}
 
-Quindi definisci Aspose.3D for Java API dipendenza nel tuo pom.xml come segue:
+Quindi definire la dipendenza dell'API Aspose.3D per Java nel `pom.xml` come segue:
 
-{{< highlight "xml" >}}
+{{< highlight xml >}}
 
  <dependencies>
 
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>23.11.0</version>
+        <version>25.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bc-fips</artifactId>
+      <version>2.1.1</version>
     </dependency>
 
+
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <version>${lwjgl.version}</version>
+    </dependency>
+      <artifactId>lwjgl-platform</artifactId>
+      <version>${lwjgl.version}</version>
+      <classifier>natives-windows</classifier>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-vulkan</artifactId>
+      <version>${lwjgl.version}</version>
+    </dependency>
 </dependencies>
 
 {{< /highlight >}}
 
 
-Se JDK-8 usi, puoi utilizzare JDK-8 versione come segue:
+Se si utilizza JDK‑8, è possibile usare la versione JDK‑8 come segue:
 
-{{< highlight "xml" >}}
+{{< highlight xml >}}
 
  <dependencies>
 
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-3d</artifactId>
-        <version>23.11.0</version>
+        <version>25.9.0</version>
         <classifier>jdk8</classifier>
     </dependency>
-
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bc-fips</artifactId>
+      <version>2.1.1</version>
+    </dependency>
 </dependencies>
 
 {{< /highlight >}}
 
-Congratulazioni! Hai definito con successo la dipendenza Aspose.3D for Java Maven nel tuo progetto Maven.
+Congratulazioni! Hai definito correttamente la dipendenza Maven di Aspose.3D per Java nel tuo progetto Maven.
