@@ -54,6 +54,6 @@ if (wallNode != null)
 
 ## References
 
-* Link to official Aspose.3D IFC Property documentation  
+* [Link to official Aspose.3D IFC documentation](/3d/net/supported-file-formats/ifc)
 * Link to [`Aspose.ThreeD.A3DObject`](https://reference.aspose.com/3d/net/aspose.threed/a3dobject/)
 * IFC specification for `IFCPROPERTYSET` and `IFCELEMENTQUANTITY`
