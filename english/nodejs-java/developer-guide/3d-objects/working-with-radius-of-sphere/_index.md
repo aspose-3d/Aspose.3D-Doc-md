@@ -13,7 +13,7 @@ Using Aspose.3D for Node.js via Java, you can set of get radius of a sphere. In
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
  // initialize a scene
 var scene = new aspose.threed.Scene();

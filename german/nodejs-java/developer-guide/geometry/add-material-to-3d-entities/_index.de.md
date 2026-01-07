@@ -18,7 +18,7 @@ PBR spielt eine Schlüsselrolle für die Visualisierungen der Spiele-Engine, mit
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initialisiere eine Szene
 var scene = new aspose.threed.Scene();

@@ -18,7 +18,7 @@ Please follow these steps to create a 3D Scene with Aspose.3D for Node.js via Ja
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var file="document.fbx";
 

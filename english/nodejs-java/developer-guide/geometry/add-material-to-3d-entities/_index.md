@@ -19,7 +19,7 @@ PBR plays a key role for the game engine visuals, with its efficient and realist
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initialize a scene
 var scene = new aspose.threed.Scene();

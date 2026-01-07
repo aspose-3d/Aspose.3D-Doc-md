@@ -22,7 +22,7 @@ Das Codebeispiel unten wandelt eine Sphäre in ein Mesh um.
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Objekt mit der Klasse Sphäre initialisieren
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ Eine Box beschreibt eine Vielzahl von Behältern und Aufbewahrungsmöglichkeiten
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Objekt mit der Klasse Box initialisieren
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ Eine Ebene erstreckt sich unendlich ohne Dicke. Ein Beispiel für eine Ebene ist
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Objekt mit der Klasse Plane initialisieren
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ Ein Zylinder ist eine der grundlegendsten gekrümmten geometrischen Formen, die 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Objekt mit der Klasse Cylinder initialisieren
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ Ein Torus ist eine Oberfläche der Rotation, die durch die Rotation eines Kreise
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Objekt mit der Klasse Torus initialisieren
 var convertible = new aspose.threed.Torus();

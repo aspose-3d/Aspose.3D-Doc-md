@@ -24,7 +24,7 @@ description: Метаданные — это структурированная 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализируйте 3D-сцену
 var scene = new aspose.threed.Scene();

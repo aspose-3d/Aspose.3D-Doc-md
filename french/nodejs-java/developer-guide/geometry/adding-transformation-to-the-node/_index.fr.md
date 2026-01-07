@@ -26,7 +26,7 @@ TSR (Translation/Scaling/Rotation) sont le plus couramment utilisés dans les sc
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l’objet scène
 var scene = new aspose.threed.Scene();
@@ -55,7 +55,7 @@ Nous pouvons également utiliser Matrix directement :
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l’objet scène
 var scene = new aspose.threed.Scene();

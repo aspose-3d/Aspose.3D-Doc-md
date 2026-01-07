@@ -22,7 +22,7 @@ Exempelkoden nedan konverterar en Sfär till ett nät.
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera objekt med Sfär-klassen
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ En Låda beskriver en mängd olika behållare och uppställningar för permanent
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera objekt med Låda-klassen
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ Ett plan sträcker sig oändligt utan tjocklek. Ett exempel på ett plan är ett
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera objekt med Plan-klassen
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ En cylinder är en av de mest grundläggande krökta geometriska formerna, ytan 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera objekt med Cylinder-klassen
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ En torus är en revolutioneringsyta som genereras genom att rotera en cirkel i t
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera objekt med Torus-klassen
 var convertible = new aspose.threed.Torus();

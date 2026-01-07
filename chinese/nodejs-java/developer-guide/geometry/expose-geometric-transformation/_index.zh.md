@@ -13,7 +13,7 @@ Aspose.3D for Node.js via Java 允许暴露 3D 场景的几何变换。您可以
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化场景对象
 var scene = new aspose.threed.Scene();

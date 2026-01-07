@@ -26,7 +26,7 @@ TSR（平移/缩放/旋转）在 3D 场景中最常用，我们提供了 `Transf
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化场景对象
 var scene = new aspose.threed.Scene();
@@ -55,7 +55,7 @@ scene.save("TransformationToNode.obj");
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化场景对象
 var scene = new aspose.threed.Scene();

@@ -18,7 +18,7 @@ Aspose.3D for Node.js via Java позволяет изменять ориент�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize Scene
 var scene = new aspose.threed.Scene();

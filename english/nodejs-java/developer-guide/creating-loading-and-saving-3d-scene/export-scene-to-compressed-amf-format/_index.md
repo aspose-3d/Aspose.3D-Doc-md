@@ -13,7 +13,7 @@ Aspose.3D for Node.js via Java offers `AmfSaveOptions` class which allows you 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var scene = new aspose.threed.Scene();
 

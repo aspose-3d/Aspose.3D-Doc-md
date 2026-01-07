@@ -36,7 +36,7 @@ Aspose.3D for Java API يدعم استيراد أنواع مختلفة من مس
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة كائن فئة Scene
 var scene = new aspose.threed.Scene();

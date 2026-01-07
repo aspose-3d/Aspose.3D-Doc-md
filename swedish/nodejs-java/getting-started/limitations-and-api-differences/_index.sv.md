@@ -25,7 +25,7 @@ Följande lista (med exempelkodsegment) visar några skillnader mellan Aspose.3D
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 {{< /highlight >}}
 ###  **Att styrka en ny scenp**

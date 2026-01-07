@@ -22,7 +22,7 @@ Aspose.3D для Node.js через Java API поддерживает преоб
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализация объекта классом Sphere
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализация объекта классом Box
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализация объекта классом Plane
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализация объекта классом Cylinder
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализация объекта классом Torus
 var convertible = new aspose.threed.Torus();

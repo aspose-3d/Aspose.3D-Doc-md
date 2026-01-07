@@ -13,7 +13,7 @@ Aspose.3D pour Node.js via Java permet d'exposer la transformation géométrique
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l'objet scène
 var scene = new aspose.threed.Scene();

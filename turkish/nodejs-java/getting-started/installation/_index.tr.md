@@ -19,7 +19,7 @@ Once you finish installing the module, you can use Aspose.3D from your Node.js c
 
 ```py
 var aspose = aspose || {};
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var scene = new aspose.threed.Scene();
 

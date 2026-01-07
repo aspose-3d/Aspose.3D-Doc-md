@@ -24,7 +24,7 @@ description: 元数据是描述、解释、定位信息资源，或使其更容�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化 3D 场景
 var scene = new aspose.threed.Scene();

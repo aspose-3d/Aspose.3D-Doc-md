@@ -13,7 +13,7 @@ Aspose.3D for Node.js عبر Java يوفر فئة `LinearExtrusion` تأخذ ش�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الشكل الأساسي المراد بثه
 // تهيئة المقطع النمطي المراد بثه
@@ -45,7 +45,7 @@ Aspose.3D for Node.js عبر Java يوفر طريقة `setSlices` لفئة `Line
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الشكل الأساسي المراد بثه
 var profile=new aspose.threed.RectangleShape();
@@ -83,7 +83,7 @@ Aspose.3D for Node.js عبر Java يوفر طريقة `setCenter` لفئة `Line
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الشكل الأساسي المراد بثه
 var profile=new aspose.threed.RectangleShape();
@@ -128,7 +128,7 @@ Aspose.3D for Node.js عبر Java يوفر طريقة `setTwist` لفئة `Linea
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الشكل الأساسي المراد بثه
 var profile=new aspose.threed.RectangleShape();

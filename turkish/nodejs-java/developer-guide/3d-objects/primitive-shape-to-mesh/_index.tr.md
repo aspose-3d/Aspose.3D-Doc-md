@@ -22,7 +22,7 @@ Aşağıdaki kod örneği bir Küreyi ağa dönüştürür.
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Nesneyi Küre sınıfı ile başlatın
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ Bir Kutu, kalıcı olarak depolama için veya genellikle içerikleri taşımak i
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Nesneyi Kutu sınıfı ile başlatın
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ Bir düzlem sonsuz olarak kalınlık olmadan uzanır. Bir düzlemin örneği bir
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Nesneyi Düzlem sınıfı ile başlatın
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ Bir silindir, verilen düz bir çizgi olan eksen etrafında dönerek oluşan en 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Nesneyi Silindir sınıfı ile başlatın
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ Bir torus, üç boyutlu uzayda bir dairenin bir eksen etrafında döndürülmesi
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Nesneyi Torus sınıfı ile başlatın
 var convertible = new aspose.threed.Torus();

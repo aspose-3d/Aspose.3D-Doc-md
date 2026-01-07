@@ -20,7 +20,7 @@ Detta kodexempel skapar en scen med primitiva 3D-former och sparar i OBJ-filen.
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisera en 3D-scen
 var scene = new aspose.threed.Scene();

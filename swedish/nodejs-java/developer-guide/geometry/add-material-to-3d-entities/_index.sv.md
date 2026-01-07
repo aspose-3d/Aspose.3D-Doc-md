@@ -18,7 +18,7 @@ PBR spelar en nyckelroll för spelmotorns visuella presentation, med sin effekti
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initialisera en scen
 var scene = new aspose.threed.Scene();

@@ -22,7 +22,7 @@ L'esempio di codice seguente converte una Sfera in mesh.
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto tramite classe Sfera
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ Una Scatola descrive una varietà di contenitori e recipienti per uso permanente
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto tramite classe Scatola
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ Un piano si estende infinitamente senza spessore. Un esempio di piano è un pian
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto tramite classe Piano
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ Un cilindro è una delle forme geometriche curvilinee più basilari, la superfic
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto tramite classe Cilindro
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ Un toro è una superficie di rivoluzione generata facendo ruotare un cerchio nel
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto tramite classe Toro
 var convertible = new aspose.threed.Torus();

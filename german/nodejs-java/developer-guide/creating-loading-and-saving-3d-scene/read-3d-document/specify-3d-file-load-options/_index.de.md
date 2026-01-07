@@ -15,7 +15,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden einer Discreet 3DS-Datei
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadOpts = new aspose.threed.Discreet3dsLoadOptions();
 
@@ -37,7 +37,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden einer 3D-Obj-Datei festg
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadObjOpts  = new aspose.threed.ObjLoadOptions();
 
@@ -56,7 +56,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden einer STL-Datei festgele
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisiere ein Objekt
 var loadSTLOpts   = new aspose.threed.StlLoadOptions();
@@ -73,7 +73,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden einer U3D-Datei festgele
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisiere ein Objekt
 var loadU3DOpts = new aspose.threed.U3dLoadOptions();
@@ -90,7 +90,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden einer glTF-Datei festgel
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Ladeoptionen festlegen
 var loadOpt = new aspose.threed.GltfLoadOptions();
@@ -107,7 +107,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden eines PLY-Modells festge
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisiere Scene-Klassenobjekt
 var scene = new aspose.threed.Scene();
@@ -130,7 +130,7 @@ Der folgende Code zeigt, wie Ladeoptionen vor dem Laden einer DirectX X-Datei fe
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisiere Scene-Klassenobjekt
 var scene = new aspose.threed.Scene();
@@ -152,7 +152,7 @@ scene.open("warrior.x", loadXOpts);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 //Dies gibt alle in GlobalSettings in FBX-Datei definierten Eigenschaften aus.
 var opt = new aspose.threed.FbxLoadOptions();

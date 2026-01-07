@@ -22,7 +22,7 @@ Aspose.3D for Node.js 通过 Java API 支持将任何基本形状转换为网格
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 使用 Sphere 类初始化对象
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 使用 Box 类初始化对象
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 使用 Plane 类初始化对象
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 使用 Cylinder 类初始化对象
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 使用 Torus 类初始化对象
 var convertible = new aspose.threed.Torus();

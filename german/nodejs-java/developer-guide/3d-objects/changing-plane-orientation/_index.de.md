@@ -18,7 +18,7 @@ Aspose.3D for Node.js via Java ermöglicht die Änderung der Ausrichtung einer S
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize Scene
 var scene = new aspose.threed.Scene();

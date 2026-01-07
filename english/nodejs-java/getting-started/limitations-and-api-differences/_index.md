@@ -26,7 +26,7 @@ The following list (with sample code segments) shows some differences between As
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 {{< /highlight >}}
 ### **Instantiating a new Scene**

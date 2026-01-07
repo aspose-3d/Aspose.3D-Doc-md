@@ -36,7 +36,7 @@ Aspose.3D für die Java API unterstützt das Importieren verschiedener Arten von
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisieren eines Klassenobjekts Scene
 var scene = new aspose.threed.Scene();

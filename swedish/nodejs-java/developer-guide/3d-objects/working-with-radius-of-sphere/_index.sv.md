@@ -12,7 +12,7 @@ Med Aspose.3D for Node.js via Java kan du hämta radie av en sfär. För att få
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
  // initialize a scene
 var scene = new aspose.threed.Scene();

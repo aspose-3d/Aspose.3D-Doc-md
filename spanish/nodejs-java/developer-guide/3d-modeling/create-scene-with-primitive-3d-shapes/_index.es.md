@@ -20,7 +20,7 @@ Este ejemplo de código crea una escena con formas 3D primitivas y la guarda en 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inicializar una escena 3D
 var scene = new aspose.threed.Scene();

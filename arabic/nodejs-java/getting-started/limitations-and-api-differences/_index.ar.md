@@ -25,7 +25,7 @@ description: حدود Aspose.3D for Node.js via Java واختلافات api
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 {{< /highlight >}}
 ###  **مستهل مشهد جديد**

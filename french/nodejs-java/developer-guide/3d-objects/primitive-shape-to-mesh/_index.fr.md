@@ -22,7 +22,7 @@ L'exemple de code ci-dessous convertit une Sphère en maille.
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l'objet par la classe Sphère
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ Un Cube décrit une variété de conteneurs et de réceptacles pour un usage per
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l'objet par la classe Cube
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ Un plan s'étend à l'infini sans épaisseur. Un exemple de plan est un plan de 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l'objet par la classe Plan
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ Un cylindre est l'une des formes géométriques courbes les plus basiques, la su
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l'objet par la classe Cylindre
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ Un tore est une surface de révolution générée en faisant tourner un cercle d
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser l'objet par la classe Tore
 var convertible = new aspose.threed.Torus();

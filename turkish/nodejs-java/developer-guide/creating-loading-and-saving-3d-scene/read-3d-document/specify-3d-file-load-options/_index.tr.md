@@ -15,7 +15,7 @@ Aşağıdaki kod, bir Discreet 3DS dosyası yüklemeden önce yükleme seçenekl
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadOpts = new aspose.threed.Discreet3dsLoadOptions();
 
@@ -37,7 +37,7 @@ Aşağıdaki kod, bir 3D Obj dosyası yüklemeden önce yükleme seçeneklerini 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadObjOpts  = new aspose.threed.ObjLoadOptions();
 
@@ -56,7 +56,7 @@ Aşağıdaki kod, bir STL dosyası yüklemeden önce yükleme seçeneklerini aya
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Bir nesne başlat
 var loadSTLOpts   = new aspose.threed.StlLoadOptions();
@@ -73,7 +73,7 @@ Aşağıdaki kod, bir U3D dosyası yüklemeden önce yükleme seçeneklerini aya
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Bir nesne başlat
 var loadU3DOpts = new aspose.threed.U3dLoadOptions();
@@ -90,7 +90,7 @@ Aşağıdaki kod, bir glTF dosyası yüklemeden önce yükleme seçeneklerini ay
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Yükleme seçeneklerini ayarlayın
 var loadOpt = new aspose.threed.GltfLoadOptions();
@@ -107,7 +107,7 @@ Aşağıdaki kod, bir PLY modeli yüklemeden önce yükleme seçeneklerini ayarl
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Scene sınıfı nesnesini başlat
 var scene = new aspose.threed.Scene();
@@ -130,7 +130,7 @@ Aşağıdaki kod, bir DirectX X dosyası yüklemeden önce yükleme seçenekleri
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Scene sınıfı nesnesini başlat
 var scene = new aspose.threed.Scene();
@@ -152,7 +152,7 @@ scene.open("warrior.x", loadXOpts);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Bu, FBX dosyasındaki GlobalSettings'te tanımlanan tüm özellikleri çıktılayacaktır.
 var opt = new aspose.threed.FbxLoadOptions();

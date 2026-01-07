@@ -25,7 +25,7 @@ Aşağıdaki liste (örnek kod segmentleri ile) Aspose arasında bazı farklar g
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 {{< /highlight >}}
 ###  **Yeni bir sahne kurmak**

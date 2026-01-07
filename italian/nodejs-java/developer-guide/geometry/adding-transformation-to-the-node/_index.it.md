@@ -26,7 +26,7 @@ TSR (Traduzione/Scala/Rotazione) sono più comunemente usati in uno scenario 3D,
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto scena
 var scene = new aspose.threed.Scene();
@@ -55,7 +55,7 @@ Possiamo anche usare direttamente una Matrice:
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Inizializza oggetto scena
 var scene = new aspose.threed.Scene();

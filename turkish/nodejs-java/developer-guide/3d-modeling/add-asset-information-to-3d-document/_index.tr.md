@@ -24,7 +24,7 @@ Bu örnekte, sahnenin “Egypt” adlı bir CAD aracı tarafından oluşturuldu�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 3B sahneyi başlatın
 var scene = new aspose.threed.Scene();

@@ -24,7 +24,7 @@ Dans cet exemple, nous supposons que la scène est créée par un outil CAD appe
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialiser une scène 3D
 var scene = new aspose.threed.Scene();

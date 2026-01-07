@@ -13,7 +13,7 @@ Aspose.3D för Node.js via Java tillåter exponering av geometrisk transformatio
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisera scenobjekt
 var scene = new aspose.threed.Scene();

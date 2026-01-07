@@ -25,7 +25,7 @@ description: Aspose.3D for Node.js via Java 限制和api差异
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 {{< /highlight >}}
 ###  **实例化新场景**

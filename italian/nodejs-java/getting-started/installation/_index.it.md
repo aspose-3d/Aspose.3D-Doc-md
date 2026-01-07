@@ -19,7 +19,7 @@ Una volta completata l'installazione del modulo, puoi utilizzare Aspose.3D dal t
 
 ```py
 var aspose = aspose || {};
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var scene = new aspose.threed.Scene();
 

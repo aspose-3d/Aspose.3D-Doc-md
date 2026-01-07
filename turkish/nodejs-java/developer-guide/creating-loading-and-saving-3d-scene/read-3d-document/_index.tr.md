@@ -36,7 +36,7 @@ Aspose.3D for Java API, değişiklik, ekleme ve işleme amaçları için çeşit
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Bir Scene sınıfı nesnesi başlat
 var scene = new aspose.threed.Scene();

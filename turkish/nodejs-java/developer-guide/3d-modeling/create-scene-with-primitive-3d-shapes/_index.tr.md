@@ -20,7 +20,7 @@ Bu kod örneği, temel 3B şekillerle bir sahne oluşturur ve OBJ dosyasında ka
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 3B sahneyi başlat
 var scene = new aspose.threed.Scene();

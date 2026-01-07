@@ -36,7 +36,7 @@ Aspose.3D for Java API 支持导入各种类型的 3D 文档，用于修改、�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化一个 Scene 类对象
 var scene = new aspose.threed.Scene();

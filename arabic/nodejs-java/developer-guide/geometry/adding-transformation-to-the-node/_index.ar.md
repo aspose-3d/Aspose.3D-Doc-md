@@ -26,7 +26,7 @@ TSR (Translation/Scaling/Rotation) هي الأكثر استخدامًا في ا�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize scene object
 var scene = new aspose.threed.Scene();
@@ -55,7 +55,7 @@ scene.save("TransformationToNode.obj");
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize scene object
 var scene = new aspose.threed.Scene();

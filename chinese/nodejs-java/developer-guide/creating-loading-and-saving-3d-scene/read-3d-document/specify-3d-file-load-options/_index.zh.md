@@ -15,7 +15,7 @@ description: 有几个 Scene.open 方法重载或 Scene 类构造函数重载接
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadOpts = new aspose.threed.Discreet3dsLoadOptions();
 
@@ -37,7 +37,7 @@ loadOpts.setGammaCorrectedColor(true);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadObjOpts  = new aspose.threed.ObjLoadOptions();
 
@@ -56,7 +56,7 @@ loadObjOpts.setFlipCoordinateSystem(true);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化一个对象
 var loadSTLOpts   = new aspose.threed.StlLoadOptions();
@@ -73,7 +73,7 @@ loadSTLOpts.setFlipCoordinateSystem(true);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化一个对象
 var loadU3DOpts = new aspose.threed.U3dLoadOptions();
@@ -90,7 +90,7 @@ loadU3DOpts.setFlipCoordinateSystem(true);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 设置加载选项
 var loadOpt = new aspose.threed.GltfLoadOptions();
@@ -107,7 +107,7 @@ loadOpt.setFlipTexCoordV(true);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化 Scene 类对象
 var scene = new aspose.threed.Scene();
@@ -130,7 +130,7 @@ scene.open("vase-v2.ply", loadPLYOpts);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化 Scene 类对象
 var scene = new aspose.threed.Scene();
@@ -152,7 +152,7 @@ scene.open("warrior.x", loadXOpts);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 这将输出 FBX 文件中 GlobalSettings 中定义的全部属性。
 var opt = new aspose.threed.FbxLoadOptions();

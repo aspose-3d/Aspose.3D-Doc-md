@@ -20,7 +20,7 @@ This code example creates a scene with primitive 3D shapes and save in the OBJ f
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize a 3D scene
 var scene = new aspose.threed.Scene();

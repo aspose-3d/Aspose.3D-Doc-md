@@ -19,7 +19,7 @@ PBR 在游戏引擎视觉效果中起着关键作用，它通过衰减亮度以�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化场景
 var scene = new aspose.threed.Scene();

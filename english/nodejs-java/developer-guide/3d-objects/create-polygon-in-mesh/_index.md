@@ -15,7 +15,7 @@ Aspose.3D for Node.js via Java allows creating a polygon in a mesh. In order to 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize Mesh
 var mesh = new aspose.threed.Mesh();

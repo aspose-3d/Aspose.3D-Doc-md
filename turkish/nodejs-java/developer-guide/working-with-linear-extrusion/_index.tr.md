@@ -13,7 +13,7 @@ Aspose.3D for Node.js via Java, `LinearExtrusion` sınıfını sunar ve bu sı
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Temel profili ekstrüzyona başlamak için başlat
 // Temel profili ekstrüzyona başlamak için başlat
@@ -45,7 +45,7 @@ Aspose.3D for Node.js via Java, `LinearExtrusion` sınıfının `setSlices()`
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Temel profili ekstrüzyona başlamak için başlat
 var profile=new aspose.threed.RectangleShape();
@@ -83,7 +83,7 @@ Aspose.3D for Node.js via Java, `LinearExtrusion` sınıfının `setCenter()`
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Temel profili ekstrüzyona başlamak için başlat
 var profile=new aspose.threed.RectangleShape();
@@ -128,7 +128,7 @@ Aspose.3D for Node.js via Java, `LinearExtrusion` sınıfının `setTwist()`�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Temel profili ekstrüzyona başlamak için başlat
 var profile=new aspose.threed.RectangleShape();
@@ -169,7 +169,7 @@ Aspose.3D for Node.js via Java, `setDirection()` metodunu sunar. setDirection()
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Temel profili ekstrüzyona başlamak için başlat
 var profile=new aspose.threed.RectangleShape();

@@ -19,7 +19,7 @@ description: يلعب PBR دورًا رئيسيًا في مرئيات محرك �
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة مشهد
 var scene = new aspose.threed.Scene();

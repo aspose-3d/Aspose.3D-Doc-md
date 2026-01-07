@@ -15,7 +15,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en Discreet 3D
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadOpts = new aspose.threed.Discreet3dsLoadOptions();
 
@@ -37,7 +37,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en 3D Obj fil 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadObjOpts  = new aspose.threed.ObjLoadOptions();
 
@@ -56,7 +56,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en STL fil lä
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera ett objekt
 var loadSTLOpts   = new aspose.threed.StlLoadOptions();
@@ -73,7 +73,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en U3D fil lä
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initiera ett objekt
 var loadU3DOpts = new aspose.threed.U3dLoadOptions();
@@ -90,7 +90,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en glTF fil l�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Ställ in inläsningsalternativ
 var loadOpt = new aspose.threed.GltfLoadOptions();
@@ -107,7 +107,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en PLY modell 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initiera Scene klass objekt
 var scene = new aspose.threed.Scene();
@@ -130,7 +130,7 @@ Koden nedan visar hur man ställer in inläsningsalternativ innan en DirectX X f
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initiera Scene klass objekt
 var scene = new aspose.threed.Scene();
@@ -152,7 +152,7 @@ scene.open("warrior.x", loadXOpts);
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 //Detta kommer att skriva ut alla egenskaper som definierats i GlobalSettings i FBX fil.
 var opt = new aspose.threed.FbxLoadOptions();

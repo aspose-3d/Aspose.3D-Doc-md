@@ -12,7 +12,7 @@ description: Используя Aspose.3D for Node.js via Java, вы может�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
  // initialize a scene
 var scene = new aspose.threed.Scene();

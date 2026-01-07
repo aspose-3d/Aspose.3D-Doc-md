@@ -19,7 +19,7 @@ PBR juega un papel clave para los visuales del motor de juego, con su renderizad
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // inicializar una escena
 var scene = new aspose.threed.Scene();

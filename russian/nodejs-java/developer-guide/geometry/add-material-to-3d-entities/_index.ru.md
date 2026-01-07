@@ -19,7 +19,7 @@ PBR играет ключевую роль в визуализации игро�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // инициализация сцены
 var scene = new aspose.threed.Scene();

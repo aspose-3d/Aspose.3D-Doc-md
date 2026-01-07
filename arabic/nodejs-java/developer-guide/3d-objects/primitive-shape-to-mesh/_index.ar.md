@@ -22,7 +22,7 @@ Aspose.3D لـ Node.js عبر واجهة برمجة تطبيقات Java يدعم
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الكائن باستخدام فئة Sphere
 var convertible = new aspose.threed.Sphere();
@@ -39,7 +39,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الكائن باستخدام فئة Box
 var convertible = new aspose.threed.Box();
@@ -56,7 +56,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الكائن باستخدام فئة Plane
 var convertible = new aspose.threed.Plane();
@@ -73,7 +73,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الكائن باستخدام فئة Cylinder
 var convertible = new aspose.threed.Cylinder();
@@ -90,7 +90,7 @@ var mesh = convertible.toMesh();
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // تهيئة الكائن باستخدام فئة Torus
 var convertible = new aspose.threed.Torus();

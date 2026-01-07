@@ -13,7 +13,7 @@ Aspose.3D für Node.js via Java ermöglicht die Freigabe der geometrischen Trans
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisiere Szenenobjekt
 var scene = new aspose.threed.Scene();

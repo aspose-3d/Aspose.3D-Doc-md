@@ -26,7 +26,7 @@ TSR (Çeviri/Ölçekleme/Döndürme), 3D senaryolarda en yaygın olarak kullanı
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Sahne nesnesini başlat
 var scene = new aspose.threed.Scene();
@@ -55,7 +55,7 @@ Ayrıca Matris'i doğrudan da kullanabiliriz:
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Sahne nesnesini başlat
 var scene = new aspose.threed.Scene();

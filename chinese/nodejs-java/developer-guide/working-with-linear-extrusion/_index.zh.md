@@ -13,7 +13,7 @@ Aspose.3D for Node.js via Java 提供了 `LinearExtrusion` 类，它将 2D 形�
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化要挤压的基础形状
 // 初始化要挤压的基础轮廓
@@ -45,7 +45,7 @@ Aspose.3D for Node.js via Java 提供了 `setSlices()` 方法的 `LinearExtrusio
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化要挤压的基础轮廓
 var profile=new aspose.threed.RectangleShape();
@@ -83,7 +83,7 @@ Aspose.3D for Node.js via Java 提供了 `setCenter()` 方法的 `LinearExtrusio
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化要挤压的基础轮廓
 var profile=new aspose.threed.RectangleShape();
@@ -128,7 +128,7 @@ Aspose.3D for Node.js via Java 提供了 `setTwist()` 方法的 `LinearExtrusion
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化要挤压的基础轮廓
 var profile=new aspose.threed.RectangleShape();
@@ -169,7 +169,7 @@ Aspose.3D for Node.js via Java 提供了 `setTwistOffset()` 方法的 `LinearExt
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化要挤压的基础轮廓
 var profile=new aspose.threed.RectangleShape();
@@ -210,7 +210,7 @@ Aspose.3D for Node.js via Java 提供了 `setDirection()` 方法的 `LinearExtru
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // 初始化要挤压的基础轮廓
 var profile=new aspose.threed.RectangleShape();

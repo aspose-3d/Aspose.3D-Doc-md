@@ -13,7 +13,7 @@ Aspose.3D für Node.js über Java bietet die Klasse `LinearExtrusion`, die eine 
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisieren des Basiskörpers, der extrudiert werden soll
 // Initialisieren des Basiskonturs, der extrudiert werden soll
@@ -45,7 +45,7 @@ Aspose.3D für Node.js über Java bietet die Methode `setSlices` der Klasse `Lin
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisieren des Basiskörpers, der extrudiert werden soll
 var profile=new aspose.threed.RectangleShape();
@@ -83,7 +83,7 @@ Aspose.3D für Node.js über Java bietet die Methode `setCenter` der Klasse `Lin
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisieren des Basiskörpers, der extrudiert werden soll
 var profile=new aspose.threed.RectangleShape();
@@ -128,7 +128,7 @@ Aspose.3D für Node.js über Java bietet die Methode `setTwist` der Klasse `Line
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisieren des Basiskörpers, der extrudiert werden soll
 var profile=new aspose.threed.RectangleShape();
@@ -169,7 +169,7 @@ Aspose.3D für Node.js über Java bietet die Methode `setDirection` der Klasse `
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialisieren des Basiskörpers, der extrudiert werden soll
 var profile=new aspose.threed.RectangleShape();

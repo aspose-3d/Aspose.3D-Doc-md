@@ -13,7 +13,7 @@ Aspose.3D для Node.js через Java предлагает класс `Linear
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализируйте базовую форму для экструзии
 // Инициализируйте базовый профиль для экструзии
@@ -45,7 +45,7 @@ Aspose.3D для Node.js через Java предлагает метод `setSli
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализируйте базовый профиль для экструзии
 var profile=new aspose.threed.RectangleShape();
@@ -83,7 +83,7 @@ Aspose.3D для Node.js через Java предлагает метод `setCen
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализируйте базовый профиль для экструзии
 var profile=new aspose.threed.RectangleShape();
@@ -128,7 +128,7 @@ Aspose.3D для Node.js через Java предлагает метод `setTwi
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализируйте базовый профиль для экструзии
 var profile=new aspose.threed.RectangleShape();
@@ -169,7 +169,7 @@ Aspose.3D для Node.js через Java предлагает метод `setDir
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализируйте базовый профиль для экструзии
 var profile=new aspose.threed.RectangleShape();

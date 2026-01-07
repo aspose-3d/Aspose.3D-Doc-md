@@ -36,7 +36,7 @@ Aspose.3D for Java API has support of importing various types of 3D document for
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize a Scene class object
 var scene = new aspose.threed.Scene();

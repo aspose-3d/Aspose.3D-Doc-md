@@ -13,7 +13,7 @@ Aspose.3D для Node.js через Java позволяет отображать
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Инициализация объекта сцены
 var scene = new aspose.threed.Scene();

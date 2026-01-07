@@ -19,7 +19,7 @@ PBR, oyun motoru görselleri için önemli bir rol oynar; parlaklığın zayıfl
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // bir sahneyi başlat
 var scene = new aspose.threed.Scene();

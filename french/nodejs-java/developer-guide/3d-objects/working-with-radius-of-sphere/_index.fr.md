@@ -12,7 +12,7 @@ En utilisant Aspose.3D for Node.js via Java, vous pouvez définir le rayon get d
 
 var aspose = aspose || {};
 
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
  // initialize a scene
 var scene = new aspose.threed.Scene();
