@@ -86,7 +86,29 @@ Un `Geometry` se compose de points de contrôle et `VertexElement` qui a défini
 
 Vous pouvez créer manuellement un élément de sommet et lui attribuer des données. L'exemple de code suivant montre comment faire ceci:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+
+VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal, MappingMode.ControlPoint, ReferenceMode.Direct) as VertexElementNormal;
+// Copy the data to the vertex element
+elementNormal.Data.AddRange(normals);
+
+{{< /highlight >}}
 
 ### Types de géométrie primitive
 
@@ -110,7 +132,16 @@ En utilisant ces types primitifs prédéfinis dans Aspose.3D, vous pouvez facile
 
 L'exemple de code suivant montre comment créer une sphère avec un rayon spécifié:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}
 
 ### Types d'extrusion
 
@@ -127,7 +158,24 @@ Dans Aspose.3D, nous avons fourni 3 types d'extrusion:
 
 L'exemple de code suivant montre comment créer une extrusion linéaire à partir d'un profil de texte:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-LinearExtrusion-Text.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load font from bytes
+var font = FontFile.Parse(File.ReadAllBytes(@"test-font.otf"));
+// Create a Text profile
+var text = new Text()
+{
+    Font = font,
+    Content = "Hello World",
+    FontSize = 10
+};
+// Extrude the profile to give it a thickness.
+var linear = new LinearExtrusion(text, 10).ToMesh();
+// create a scene from the mesh and save it to stl file
+var scene = new Scene(linear);
+scene.Save(@"test.stl");
+
+{{< /highlight >}}
 
 
 ### Types de courbe
@@ -173,7 +221,23 @@ Avec la prise en charge d'une gamme de types de matériaux et la possibilité de
 
 L'exemple de code suivant montre comment appliquer un matériau PBR à une géométrie:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-ApplyPBRMaterialToBox-ApplyPBRMaterialToBox.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// initialize a scene
+Scene scene = new Scene();
+// initialize PBR material object
+PbrMaterial mat = new PbrMaterial();
+// an almost metal material
+mat.MetallicFactor = 0.9;
+// material surface is very rough
+mat.RoughnessFactor = 0.9;
+// create a box to which the material will be applied
+var boxNode = scene.RootNode.CreateChildNode("box", new Box());
+boxNode.Material = mat;
+// save 3d scene into USDZ format
+scene.Save("PBR_Material_Box_Out.usdz");
+
+{{< /highlight >}}
 
 ## Relation objets d'animation
 Aspose.3D fournit un support d'animation au niveau des données, et le support de calcul est en cours de développement.

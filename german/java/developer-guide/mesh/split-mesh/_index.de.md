@@ -16,10 +16,36 @@ Aspose.3D for Java API bietet Unterstützung für die Aufteilung aller Maschen e
 
 Das folgende Code beispiel teilt alle Maschen einer Szene pro Material auf. Jedes Teil netz teilt die gleichen direkten Daten und unter scheidet sich nur in Indizes.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-mesh-SplitAllMeshesofScenebyMaterial.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + "test.fbx";
+// Load a 3D file
+Scene scene = new Scene(MyDir);
+// Split all meshes
+PolygonModifier.splitMesh(scene, SplitMeshPolicy.CLONE_DATA);
+// Save file
+MyDir = RunExamples.getDataDir() + RunExamples.getOutputFilePath("test-splitted.fbx");
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}
 ##  **Teilen Sie ein Netz, indem Sie das Material angeben**
 Aspose.3D for Java API bietet Unterstützung für die Aufteilung eines Netzes durch manuelle Angabe des Materials. Die Split-Mesh-Option erstellt separate Objekte und jedes Sub-Mesh verwendet nur ein Material.
 ###  **Geteiltes Netz der Box**
 Dieses Hilfe thema erstellt ein Netz der Box, um den Code umfassend und kurz zu halten. Entwickler können ein Netz manuell erstellen, wie in diesem Hilfe thema beschrieben: [Erstellen Sie ein 3D Cube Mesh](https://docs.dynabic.com/display/3djava/Create+3D+Mesh+and+Scene). Darüber hinaus besteht eine Box aus 6 Ebenen und jede Ebene wird zu einem Teilnetz. Das folgende Code beispiel teilt ein primitives Netz, indem Material manuell angegeben wird.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-mesh-SplitMeshbyMaterial.java" >}}
+{{< highlight "java" >}}
+// Create a mesh of box(A box is composed by 6 planes)
+Mesh box = (new Box()).toMesh();
+// Create a material element on this mesh
+VertexElementMaterial mat = (VertexElementMaterial) box.createElement(VertexElementType.MATERIAL, MappingMode.POLYGON, ReferenceMode.INDEX);
+// and specify different material index for each plane
+mat.setIndices(new int[]{0, 1, 2, 3, 4, 5});
+// Now split it into 6 sub meshes, we specified 6 different materials on each plane, each plane will become a sub mesh.
+// We used the CloneData policy, each plane will has the same control point information or control point-based vertex element information.
+Mesh[] planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.CLONE_DATA);
+mat.getIndices().clear();
+mat.setIndices(new int[]{0, 0, 0, 1, 1, 1});
+// Now split it into 2 sub meshes, first mesh will contains 0/1/2 planes, and second mesh will contains the 3/4/5th planes.
+// We used the CompactData policy, each plane will has its own control point information or control point-based vertex element information.
+planes = PolygonModifier.splitMesh(box, SplitMeshPolicy.COMPACT_DATA);
+{{< /highlight >}}

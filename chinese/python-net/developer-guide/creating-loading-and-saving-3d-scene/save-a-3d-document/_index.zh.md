@@ -15,4 +15,16 @@ Aspose.3D API 的 [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/sc
 
 下面的代码示例显示了如何将文档保存到流中。
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-Save3DScene.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+import io
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+                        
+# Load a 3D document into Aspose.3D
+scene = a3d.Scene.from_file("document.fbx")
+
+# Save Scene to a stream
+dstStream = io.BytesIO()
+scene.save(dstStream, a3d.FileFormat.FBX7500ASCII);
+
+{{< /highlight >}}

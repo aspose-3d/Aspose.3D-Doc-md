@@ -18,7 +18,29 @@ Aspose。3D for Java API 支持使用顶点的自定义内存布局将网格转�
 
 
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.java" >}}
+{{< highlight "java" >}}
+// Initialize scene object
+Scene scene = new Scene();
+// Initialize Node class object
+Node cubeNode = new Node("box");
+// Get mesh of the Box
+Mesh box = (new Box()).toMesh();
+// Create a customized vertex layout
+VertexDeclaration vd = new VertexDeclaration();
+VertexField position = vd.addField(VertexFieldDataType.F_VECTOR4, VertexFieldSemantic.POSITION);
+vd.addField(VertexFieldDataType.F_VECTOR3, VertexFieldSemantic.NORMAL);
+// Get a triangle mesh
+TriMesh triMesh = TriMesh.fromMesh(box);
+// ExEnd:ConvertBoxMeshtoTriangleMeshCustomMemoryLayout
+// Point node to the Mesh geometry
+cubeNode.setEntity(box);
+// Add Node to a scene
+scene.getRootNode().getChildNodes().add(cubeNode);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir() + RunExamples.getOutputFilePath("BoxToTriangleMeshCustomMemoryLayoutScene.fbx");
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+{{< /highlight >}}
 ##  **将原始形状转换为网格**
 Aspose.3D for Java API 支持将任何基本形状转换为网格。原始形状包括最基本的和使用过的对象，如长方体、球体、平面、圆柱体和圆环。
 
@@ -31,20 +53,45 @@ Aspose.3D for Java API 支持将任何基本形状转换为网格。原始形状
 球体是三维空间中完美的圆形几何物体，从运动球到太空中的行星无处不在。让我们使用球体原语来创建网格。
 下面的代码示例将球体转换为网格。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertSpherePrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Sphere class
+IMeshConvertible convertible = new Sphere();
+// Convert a Sphere to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **将框转换为网格**
 盒子描述了各种容器和容器，这些容器和容器永久用作存储或临时使用，通常用于运输内容物。让我们使用框原语来创建网格。下面的代码示例将框转换为网格。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertBoxPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Box class
+IMeshConvertible convertible = new Box();
+// Convert a Box to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **将平面转换为网格**
 平面无限延伸而没有厚度。一个平面的例子是坐标平面。让我们使用平面原语创建网格。下面的代码示例将平面转换为网格。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertPlanePrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Plane class
+IMeshConvertible convertible = new Plane();
+// Convert a Plane to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **将圆柱体转换为网格**
 圆柱体是最基本的曲线几何形状之一，由与给定直线 (圆柱体的轴) 相距固定距离的点形成的表面。它可以在许多地方使用，例如作为房屋前面的支柱或汽车驱动轴。让我们使用圆柱原语创建网格。下面的代码示例将圆柱体转换为网格。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertCylinderPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Cylinder class
+IMeshConvertible convertible = new Cylinder();
+// Convert a Cylinder to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **将圆环转换为网格**
 圆环是通过在三维空间中绕与圆共面的轴旋转圆而产生的旋转表面。如果旋转轴不接触圆，则表面呈环形，称为圆环。让我们使用圆环原语来创建网格。下面的代码示例将圆环转换为网格。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertTorusPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Torus class
+IMeshConvertible convertible = new Torus();
+// Convert a Torus to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}

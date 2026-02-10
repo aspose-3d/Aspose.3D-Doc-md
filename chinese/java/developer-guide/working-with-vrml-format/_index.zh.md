@@ -8,4 +8,14 @@ description: Aspose.3D for Java 允许使用 VRML 版本1.0。VRML 文件格式�
 #  **打开 VRML 文件格式**
 Aspose.3D for Java 允许使用 VRML 版本1.0。`VRML` 文件格式已添加到 `FileFormat` 类。Aspose.3D 可以自动检测 `VRML` 格式，因此在Open方法中通常忽略 `FileFormat`。下面的代码片段显示了如何打开 VRML 文件格式。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-workingwithVRML-OpenVRML-OpenVRML.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// initialize a scene
+Scene scene = new Scene();
+// open Virtual Reality Modeling Language (VRML) file format
+scene.open( MyDir + "test.wrl");
+// work with VRML file format...
+
+{{< /highlight >}}

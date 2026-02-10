@@ -18,7 +18,29 @@ Gli sviluppatori possono convertire la mesh in una mesh triangolare perché qual
 
 
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.java" >}}
+{{< highlight "java" >}}
+// Initialize scene object
+Scene scene = new Scene();
+// Initialize Node class object
+Node cubeNode = new Node("box");
+// Get mesh of the Box
+Mesh box = (new Box()).toMesh();
+// Create a customized vertex layout
+VertexDeclaration vd = new VertexDeclaration();
+VertexField position = vd.addField(VertexFieldDataType.F_VECTOR4, VertexFieldSemantic.POSITION);
+vd.addField(VertexFieldDataType.F_VECTOR3, VertexFieldSemantic.NORMAL);
+// Get a triangle mesh
+TriMesh triMesh = TriMesh.fromMesh(box);
+// ExEnd:ConvertBoxMeshtoTriangleMeshCustomMemoryLayout
+// Point node to the Mesh geometry
+cubeNode.setEntity(box);
+// Add Node to a scene
+scene.getRootNode().getChildNodes().add(cubeNode);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir() + RunExamples.getOutputFilePath("BoxToTriangleMeshCustomMemoryLayoutScene.fbx");
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+{{< /highlight >}}
 ##  **Convertire la forma primitiva in mesh**
 Aspose.3D for Java API supporta la conversione di qualsiasi forma primitiva in mesh. Le forme primitive includono oggetti più semplici e usati come scatola, sfera, piano, cilindro e toro.
 
@@ -31,20 +53,45 @@ Qualsiasi classe che implementa un'interfaccia IMeshConvertible può essere conv
 Una sfera è un oggetto geometrico perfettamente rotondo nello spazio tridimensionale che appare ovunque, dalle palle sportive ai pianeti nello spazio. Usiamo la Sfera primitiva per creare una mesh.
 L'esempio di codice seguente converte una sfera in mesh.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertSpherePrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Sphere class
+IMeshConvertible convertible = new Sphere();
+// Convert a Sphere to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Convertire la casella in mesh**
 Una scatola descrive una varietà di contenitori e recipienti per uso permanente come deposito o per uso temporaneo, spesso per il trasporto di contenuti. Usiamo la scatola primitiva per creare una mesh. L'esempio di codice seguente converte un Box in mesh.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertBoxPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Box class
+IMeshConvertible convertible = new Box();
+// Convert a Box to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Convertire un aereo in rete**
 Un piano si estende all'infinito senza spessore. Un esempio di un aereo è un piano di coordinate. Consente di utilizzare il piano primitivo per creare una mesh. L'esempio di codice seguente converte un piano in mesh.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertPlanePrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Plane class
+IMeshConvertible convertible = new Plane();
+// Convert a Plane to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Convertire un cilindro in rete**
 Un cilindro è una delle forme geometriche curvilinee più elementari, la superficie formata dai punti a distanza fissa da una data linea retta, l'asse del cilindro. Può essere utilizzato in molti luoghi, ad esempio come pilastro davanti a una casa o come albero motore per auto. Consente di utilizzare il cilindro primitivo per creare una mesh. L'esempio di codice seguente converte un cilindro in mesh.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertCylinderPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Cylinder class
+IMeshConvertible convertible = new Cylinder();
+// Convert a Cylinder to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Convertire un Torus in Mesh**
 Un toro è una superficie di rivoluzione generata ruotando un cerchio nello spazio tridimensionale attorno a un asse complanare con il cerchio. Se l'asse di rivoluzione non tocca il cerchio, la superficie ha una forma ad anello ed è chiamata toro di rivoluzione. Usiamo il Torus primitivo per creare una mesh. L'esempio di codice seguente converte un Torus in mesh.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertTorusPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Torus class
+IMeshConvertible convertible = new Torus();
+// Convert a Torus to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}

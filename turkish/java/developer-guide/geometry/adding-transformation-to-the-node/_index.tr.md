@@ -25,10 +25,73 @@ The `Mesh` class object is being used in the code. We can [create a Mesh class o
 
 {{% /alert %}} 
 ##  **Qotate by uuaternion**
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddTransformationToNodeByQuaternion.java" >}}
+{{< highlight "java" >}}
+// Initialize scene object
+Scene scene = new Scene();
+// Initialize Node class object
+Node cubeNode = new Node("cube");
+// Call Common class create mesh using polygon builder method to set mesh instance
+Mesh mesh = Common.createMeshUsingPolygonBuilder();
+// Point node to the Mesh geometry
+cubeNode.setEntity(mesh);
+// Set rotation
+cubeNode.getTransform().setRotation(Quaternion.fromRotation(new Vector3(0, 1, 0), new Vector3(0.3, 0.5, 0.1)));
+// Set translation
+cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
+// Add cube to the scene
+scene.getRootNode().getChildNodes().add(cubeNode);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + RunExamples.getOutputFilePath("TransformationToNode.fbx");
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}
 ##  **Eotate by Euler ngngles**
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddTransformationToNodeByEulerAngles.java" >}}
+{{< highlight "java" >}}
+// Initialize scene object
+Scene scene = new Scene();
+// Initialize Node class object
+Node cubeNode = new Node("cube");
+// Call Common class create mesh using polygon builder method to set mesh instance
+Mesh mesh = Common.createMeshUsingPolygonBuilder();
+// Point node to the Mesh geometry
+cubeNode.setEntity(mesh);
+// Euler angles
+cubeNode.getTransform().setEulerAngles(new Vector3(0.3, 0.1, -0.5));
+// Set translation
+cubeNode.getTransform().setTranslation(new Vector3(0, 0, 20));
+// Add cube to the scene
+scene.getRootNode().getChildNodes().add(cubeNode);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + RunExamples.getOutputFilePath("TransformationToNode.fbx");
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}
 ##  **Custom formation ransformation Matrix**
 We ayrıca doğrudan Matrix kullanabilir:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-AddTransformationToNodeByTransformationMatrix.java" >}}
+{{< highlight "java" >}}
+// Initialize scene object
+Scene scene = new Scene();
+// Initialize Node class object
+Node cubeNode = new Node("cube");
+// Call Common class create mesh using polygon builder method to set mesh instance
+Mesh mesh = Common.createMeshUsingPolygonBuilder();
+// Point node to the Mesh geometry
+cubeNode.setEntity(mesh);
+// Set custom translation matrix
+cubeNode.getTransform().setTransformMatrix(new Matrix4(
+    1, -0.3, 0, 0,
+    0.4, 1, 0.3, 0,
+    0, 0, 1, 0,
+    0, 20, 0, 1
+));
+// Add cube to the scene
+scene.getRootNode().addChildNode(cubeNode);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + RunExamples.getOutputFilePath("TransformationToNode.fbx");
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}

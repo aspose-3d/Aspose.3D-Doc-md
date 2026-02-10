@@ -21,7 +21,21 @@ url: /ar/java/how-to-run-aspose-3d-in-docker/
 
 قم بإنشاء تطبيق Java في الكسوف باستخدام الرمز التالي. في هذا المثال ، نستخدم Aspose.3D for Java لإنشاء طائرة في المشهد ثلاثي الأبعاد وتعيين المتجه ثم حفظه بتنسيق obj.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-scene-ChangePlaneOrientation-ChangePlaneOrientation.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Initialize Scene
+Scene scene = new Scene();
+// Initialize Plane
+Plane plane = new Plane();
+// Set Vector
+plane.setUp(new Vector3(1, 1, 3));
+scene.getRootNode().createChildNode(plane);
+//This will generate a plane that has customized orientation
+scene.save(MyDir+"ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+
+{{< /highlight >}}
 
 ### اجعل تطبيق Java في حزمة برطمان
 

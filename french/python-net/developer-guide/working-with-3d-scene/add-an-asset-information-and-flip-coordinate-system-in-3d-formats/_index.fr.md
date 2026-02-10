@@ -19,7 +19,26 @@ Les métadonnées sont des informations structurées qui décrivent, expliquent,
 
 Dans cet exemple, nous supposons que la scène est créée par un outil CAD appelé «Egypt» et qu'elle est conçue par «Manualdesk»:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "AssetInformation-InformationToScene-AddAssetInformationToScene.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize a 3D scene
+scene = Scene()
+#  Set application/tool name
+scene.asset_info.application_name = "Egypt"
+#  Set application/tool vendor name
+scene.asset_info.application_vendor = "Manualdesk"
+#  We use ancient egyption measurement unit Pole
+scene.asset_info.unit_name = "pole"
+#  One Pole equals to 60cm
+scene.asset_info.unit_scale_factor = 0.6
+#  The saved file
+output = "out"  + "InformationToScene.fbx"
+#  Save scene to 3D supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **Retourner le système de coordonnées dans les formats 3D**
 Aspose.3D for Python via .NET API permet aux utilisateurs de retourner le système de coordonnées dans les formats OBJ, 3DS, STL et U3D.
 

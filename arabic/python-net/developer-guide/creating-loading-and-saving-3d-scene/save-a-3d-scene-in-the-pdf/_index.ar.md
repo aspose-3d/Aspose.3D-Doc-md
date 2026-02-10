@@ -19,4 +19,21 @@ description: فئة المشهد لـ Aspose. يمثل 3D API مشهد 3D. يم�
 ##  **Create a 3D PDF with a Cylinder, and Rendered in Shaded Illustration Mode with CAD Optimized Lighting**
 تتيح طريقة التوفير لفئة `Scene` حفظ مشهد 3D بتنسيق PDF. يمكن للمطورين تحميل أي ملف مدعوم بمبلغ 3D أو إنشاء مشهد 3D جديد ، ويمكنهم توفير مشهد 3D بتنسيق PDF كما هو موضح في مثال الرمز هذا:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-Save3DInPdf-Save3DInPdf.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.entities import Cylinder
+from aspose.threed.shading import PhongMaterial
+from aspose.threed.formats import PdfSaveOptions, PdfLightingScheme, PdfRenderMode
+# Create a new scene
+scene = Scene()
+# Create a cylinder child node
+cylinder = scene.root_node.create_child_node("cylinder", Cylinder())
+cylinder.material = PhongMaterial()
+# Set rendering mode and lighting scheme
+opt = PdfSaveOptions()
+opt.lighting_scheme = PdfLightingScheme.CAD
+opt.render_mode = PdfRenderMode.SHADED_ILLUSTRATION
+# Save in the PDF format
+scene.save("output_out.pdf", opt)
+
+{{< /highlight >}}

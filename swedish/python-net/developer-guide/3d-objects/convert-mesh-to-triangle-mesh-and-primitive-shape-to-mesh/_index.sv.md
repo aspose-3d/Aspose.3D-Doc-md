@@ -45,20 +45,65 @@ Any class that implements an interface IMeshConvertible can be converted to mesh
 En sfär är ett perfekt rundt geometriskt objekt i tredimensionellt utrymme som visas överallt från sportbollar till planeter i rymden .. Låt oss använda sfären primitiv för att skapa ett nät.
 Kodexemplet nedan konverterar en sfär till mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Sphere class
+convertible = Sphere()
+#  Convert a Sphere to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertera en 'ruta' till 'Mesh'**
 I rutan beskrivs en mängd olika behållare och behållare för permanent användning som lagring eller för tillfällig användning. ofta för transport av innehåll. Låt oss använda Box primitivet för att skapa ett nät. Exempel på koden nedan omvandlar en ruta till mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Box
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Box class
+convertible = Box()
+#  Convert a Box to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertera en 'Plane' till 'Mesh'**
 Ett plan sträcker sig oändligt utan tjocklek. Ett exempel på ett plan är ett koordinatplan. Låt oss använda planet primitivet för att skapa ett nät. Kodexemplet nedan konverterar ett plan till mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Plane
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Plane class
+convertible = Plane()
+#  Convert a Plane to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertera en 'cylinder' till 'Mesh'**
 En cylinder är en av de mest grundläggande kurvorna geometriska formerna, den yta som bildas av punkterna på ett fast avstånd från en viss rät linje, cylinderns axel. Den kan användas på många ställen, t.ex. som en pelare framför ett hem eller som en bildrivräkt. Låt oss använda Cylinder primitivet för att skapa en mesh. Kodexemplet nedan konverterar en cylinder till mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Cylinder class
+convertible = Cylinder()
+#  Convert a Cylinder to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertera en 'Torus' till 'Mesh'**
 En torus är en yta av revolution som skapas genom att rotera en cirkel i tredimensionellt utrymme om en axel koplanar med cirkeln .. Om revolutionens axel inte rör cirkeln, har ytan en ringform och kallas en torus av revolution. Låt oss använda Torus primitivet för att skapa ett nät. Kodexemplet nedan konverterar en Torus till mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Torus
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Torus class
+convertible = Torus()
+#  Convert a Torus to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}

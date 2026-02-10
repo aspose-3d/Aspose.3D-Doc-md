@@ -26,7 +26,25 @@ Aspose.3D for .NET tillhandahåller klass `Html5SaveOptions` för att spara en 3
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-SaveOptions-HtmlSaveOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize 3D scene
+var scene = new Scene();
+// Create a child node
+var node = scene.RootNode.CreateChildNode(new Cylinder());
+// Set child node properites
+node.Material = new LambertMaterial() { DiffuseColor = new Vector3(Color.Chartreuse) };
+scene.RootNode.CreateChildNode(new Light() { LightType = LightType.Point }).Transform.Translation = new Vector3(10, 0, 10);
+// Create a Html5SaveOptions
+var opt = new Html5SaveOptions();
+//Turn off the grid
+opt.ShowGrid = false;
+//Turn off the user interface
+opt.ShowUI = false; 
+// Save 3D to HTML5
+scene.Save("HtmlSaveOption.html", opt);
+
+{{< /highlight >}}
 
 {{% alert color="primary" %}} 
 

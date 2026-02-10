@@ -17,7 +17,29 @@ Das `Mesh`-Klassen objekt wird im Code verwendet. Wir können [Erstellen Sie ein
 ##  **Normale Vektoren erstellen**
 Um ein gutes visuelles Aussehen der Beleuchtung zu haben, müssen wir Normale Informationen für jeden Scheitel punkt angeben, um bessere Details zu haben, können wir auch normale und diffuse Karte verwenden (sicher, dass Sie Schatten/spekulare Karte verwenden können), um pro Pixel normal/Farbe auszuführen. Eine Pro-Vertex-Information wie Normal-oder Scheitel punkt farbe wird durch Vertex Element erreicht. In Aspose.3D können wir zusätzliche Informationen an Kontroll punkte/Polygon vertex/Polygon/Kante abbilden, ein Beispiel, um Normalen für Scheitel punkt zu definieren:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+
+VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal, MappingMode.ControlPoint, ReferenceMode.Direct) as VertexElementNormal;
+// Copy the data to the vertex element
+elementNormal.Data.AddRange(normals);
+
+{{< /highlight >}}
 
 Die 8 normalen Vektoren werden direkt 8 Kontroll punkten zugeordnet. Im nächsten Beispiel werden wir ein etwas komplexeres Szenario demonstrieren.
 ##  **Erstellen von UV-Koordinaten**
@@ -32,13 +54,88 @@ Die Aspose.3D bietet 5 Mapping-Modi:
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupUVOnCube-SetupUVOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// UVs
+Vector4[] uvs = new Vector4[]
+{
+    new Vector4( 0.0, 1.0,0.0, 1.0),
+    new Vector4( 1.0, 0.0,0.0, 1.0),
+    new Vector4( 0.0, 0.0,0.0, 1.0),
+    new Vector4( 1.0, 1.0,0.0, 1.0)
+};
+
+// Indices of the uvs per each polygon
+int[] uvsId = new int[]
+{
+    0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+
+// Create UVset
+VertexElementUV elementUV = mesh.CreateElementUV(TextureMapping.Diffuse, MappingMode.PolygonVertex, ReferenceMode.IndexToDirect);
+// Copy the data to the UV vertex element 
+elementUV.Data.AddRange(uvs);
+elementUV.Indices.AddRange(uvsId);
+
+{{< /highlight >}}
 ##  **Materialien zu 3D Objekten hinzufügen**
 Aspose.3D for .NET ermöglicht es Entwicklern, Shading-Algorithmus für genaue Schattierung und Highlights zu verwenden. Der Phong verfügt über mehrere Karten eingaben, mit denen wir den Effekt auf den Knoten maskieren können. Physically Based Rendering (PBR) berücksicht igt einige physikalische Eigenschaften von Objekten. Ein solcher Ansatz bietet das Erscheinung sbild von Materialien wie in der realen Welt.
 ###  **Phong Material mit Textur für Würfel**
 Wenn die UV-Koordinaten einsatz bereit sind, können wir eine Textur auf die Oberfläche des Netzes anwenden, indem wir Material verwenden. Nur die Scheitel punkt farbe kann die Details der Oberfläche nicht beschreiben, dafür werden Materialien verwendet. Hier ist ein Beispiel zum Anhängen eines Phong-Materials an den Würfel knoten:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-MaterialToCube-AddMaterialToCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize scene object
+Scene scene = new Scene();
+            
+// Initialize cube node object
+Node cubeNode = new Node("cube");
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+         
+// Point node to the mesh
+cubeNode.Entity = mesh;
+            
+// Add cube to the scene
+scene.RootNode.ChildNodes.Add(cubeNode);
+            
+// Initiallize PhongMaterial object
+PhongMaterial mat = new PhongMaterial();
+            
+// Initiallize Texture object
+Texture diffuse = new Texture();
+            
+// The path to the documents directory.
+            
+// Set local file path
+diffuse.FileName = RunExamples.GetOutputFilePath("surface.dds");
+
+// Set Texture of the material
+mat.SetTexture("DiffuseColor", diffuse);
+
+// Embed raw content data to FBX (only for FBX and optional)
+// Set file name
+diffuse.FileName = "embedded-texture.png";
+// Set binary content
+diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
+
+// Set color
+mat.SpecularColor = new Vector3(Color.Red);
+
+// Set brightness
+mat.Shininess = 100;
+
+// Set material property of the cube object
+cubeNode.Material = mat;
+            
+// Save 3D scene in the supported file formats
+scene.Save("MaterialToCube.fbx");
+
+{{< /highlight >}}
 
 Wir haben die diffuse Textur abbildung und eine spiegele Farbe mit einem Glanz parameter angegeben.
 ###  **Wenden Sie physikalisch basiertes Rendering-Material (PBR) auf eine Box an**

@@ -26,14 +26,79 @@ Developers can access Indices, actual vertices, vertices before merging and tota
 
 Below example converts a Sphere to triangle mesh with custom memory layout.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertSphereMeshtoTriangleMeshCustomMemoryLayout-ConvertSphereMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+[StructLayout(LayoutKind.Sequential)]
+struct MyVertex
+{
+    [Semantic(VertexFieldSemantic.Position)]
+    FVector3 position;
+    [Semantic(VertexFieldSemantic.Normal)]
+    FVector3 normal;
+}
+
+public static void Run()
+{
+    // Initialize scene object
+    Scene scene = new Scene();
+
+    // Initialize Node class object
+    Node cubeNode = new Node("sphere");
+
+    Mesh sphere = (new Sphere()).ToMesh();
+    // Convert any mesh into typed TriMesh
+    var myMesh = TriMesh<MyVertex>.FromMesh(sphere);
+    // Get the vertex data in customized vertex structure.
+    MyVertex[] vertex = myMesh.VerticesToTypedArray();
+    // Get the 32bit and 16bit indices
+    int[] indices32bit;
+    ushort[] indices16bit;
+    myMesh.IndicesToArray(out indices32bit);
+    myMesh.IndicesToArray(out indices16bit);
+    using (MemoryStream ms = new MemoryStream())
+    {
+        // Or we can write the vertex directly into stream like:
+        myMesh.WriteVerticesTo(ms);
+        // The indice data can be directly write to stream, we support 32-bit and 16-bit indice.
+        myMesh.Write16bIndicesTo(ms);
+        myMesh.Write32bIndicesTo(ms);
+    }
+    // Point node to the Mesh geometry
+    cubeNode.Entity = sphere;
+
+    // Add Node to a scene
+    scene.RootNode.ChildNodes.Add(cubeNode);
+
+    // The path to the documents directory.
+    string output = RunExamples.GetOutputFilePath("SphereToTriangleMeshCustomMemoryLayoutScene.fbx");
+
+    // Save 3D scene in the supported file formats
+    scene.Save(output, FileFormat.FBX7400ASCII);
+
+    Console.WriteLine("Indices = {0}, Actual vertices = {1}, vertices before merging = {2}", myMesh.IndicesCount, myMesh.VerticesCount, myMesh.UnmergedVerticesCount);
+    Console.WriteLine("Total bytes of vertices in memory {0}bytes", myMesh.VerticesSizeInBytes);
+    Console.WriteLine("\n Converted a Sphere mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + output);
+}
+
+{{< /highlight >}}
 
 
 
 
 Below example converts a Box to triangle mesh with custom memory layout.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Get mesh of the Box
+Mesh box = (new Box()).ToMesh();
+// Create a customized vertex layout
+VertexDeclaration vd = new VertexDeclaration();
+VertexField position = vd.AddField(VertexFieldDataType.FVector4, VertexFieldSemantic.Position);
+vd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+// Get a triangle mesh
+TriMesh triMesh = TriMesh.FromMesh(box);
+
+{{< /highlight >}}
 ## **Convert the Primitive to a Mesh**
 Using Aspose.3D for .NET, developers can convert any primitive object to a mesh. Primitives include many of the most basic and most used objects like box, sphere, plane, cylinder, and torus.
 
@@ -46,20 +111,59 @@ Any class that implements an interface `IMeshConvertible` can be converted to me
 A sphere is a perfectly round geometrical object in three-dimensional space that appear everywhere from sports balls to planets in space. Let’s use the Sphere primitive to create a mesh.
 The code example below converts a Sphere to mesh.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Sphere class
+IMeshConvertible convertible = new Sphere();
+            
+// Convert a Sphere to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ### **Convert a Box to Mesh**
 A Box describes a variety of containers and receptacles for permanent use as storage, or for temporary use, often for transporting contents. Let’s use the Box primitive to create a mesh. The code example below converts a Box to mesh.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Box class
+IMeshConvertible convertible = new Box();
+// Convert a Box to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ### **Convert a Plane to Mesh**
 A plane extends infinitely without thickness. An example of a plane is a coordinate plane. Lets use the `Plane` primitive to create a mesh. The code example below converts a `Plane` to `Mesh`.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Plane class
+IMeshConvertible convertible = new Plane();
+            
+// Convert a Plane to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ### **Convert a Cylinder to Mesh**
 A cylinder is one of the most basic curvilinear geometric shapes, the surface formed by the points at a fixed distance from a given straight line, the axis of the cylinder. It can be used in many places, for example as a pillar in front of a home or as a car driveshaft. Lets use the Cylinder primitive to create a mesh. The code example below converts a Cylinder to mesh.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Cylinder class
+IMeshConvertible convertible = new Cylinder();
+            
+// Convert a Cylinder to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ### **Convert a Torus to Mesh**
 A torus is a surface of revolution generated by revolving a circle in three-dimensional space about an axis coplanar with the circle. If the axis of revolution does not touch the circle, the surface has a ring shape and is called a torus of revolution. Let’s use the Torus primitive to create a mesh. The code example below converts a Torus to mesh.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Torus class
+IMeshConvertible convertible = new Torus();
+            
+// Convert a Torus to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}

@@ -16,7 +16,15 @@ Please follow these steps to create a 3D Scene document using the Aspose.3D APIs
 #### **Creating a 3D Scene Document: Programming Samples**
 
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-CreateEmpty3DDocument.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+# Create an object of the Scene class
+scene = a3d.Scene()
+# Save 3D scene document
+scene.Save("document.fbx", a3d.FileFormat.FBX7500ASCII)
+{{< /highlight >}}
 ## **Reading a 3D Scene**
 Using Aspose.3D API, developers can load all the supported 3D documents. The available constructors of the **Scene** class allow to do so and they accept a valid file path string. The supported readable file formats are as follows:
 
@@ -45,4 +53,13 @@ Using Aspose.3D API, developers can load all the supported 3D documents. The ava
 
 Constructors of the `Scene` class detect 3D document format internally.
 ### **Reading a 3D Scene: Programming Samples**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-ReadExistingScene.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+
+# Initialize a Scene class object
+scene = Scene()
+# Load an existing 3D document
+scene.open("document.fbx")
+{{< /highlight >}}

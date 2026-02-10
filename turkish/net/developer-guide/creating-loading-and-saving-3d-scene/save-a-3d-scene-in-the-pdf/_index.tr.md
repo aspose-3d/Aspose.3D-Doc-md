@@ -30,4 +30,18 @@ Please note that you cannot instruct Aspose.3D for .NET API to change or remove 
 ##  **Bir silindir ile 3D PDF oluşturun ve CAD optimize edilmiş aydınlatma ile gölgeli illüstrasyon modunda işleyin**
 The Save method of the `Scene` class allows to save a 3D scene in the PDF format. Developers may load any 3D supported file or build a new 3D scene, they can save a 3D scene in the PDF format as shown in this C# code example:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DInPdf-Save3DInPdf.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            // Create a new scene
+            Scene scene = new Scene();
+            // Create a cylinder child node
+            scene.RootNode.CreateChildNode("cylinder", new Cylinder()).Material = new PhongMaterial() { DiffuseColor = new Vector3(Color.DarkCyan) };
+            // Set rendering mode and lighting scheme
+            PdfSaveOptions opt = new PdfSaveOptions();
+            opt.LightingScheme = PdfLightingScheme.CAD;
+            opt.RenderMode = PdfRenderMode.ShadedIllustration;
+            // Save in the PDF format
+            scene.Save("output_out.pdf", opt);
+
+{{< /highlight >}}

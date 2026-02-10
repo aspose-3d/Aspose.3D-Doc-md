@@ -58,11 +58,22 @@ description: Обзор требований Licensing и ограничений
 
 **Пример:**
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingFile.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+license.SetLicense("Aspose._3D.lic");
+
+{{< /highlight >}}
 ###  ` `**Загрузка лицензии из объекта потока**
 В следующем примере показано, как загрузить лицензию из потока.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingStreamObject.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+FileStream myStream = new FileStream("Aspose._3D.lic", FileMode.Open);
+license.SetLicense(myStream);
+
+{{< /highlight >}}
 ##  **Применить лицензию с использованием встроенного ресурса**
 Один из способов применения лицензии-установить ее [Использование файла или объекта потока](). Еще один аккуратный способ упаковать лицензию в ваше приложение и убедиться, что она не будет потеряна,-это включить ее в качестве встроенного ресурса в одну из сборок, вызывающих DLL компонента (входит в Aspose.3D).
 
@@ -75,10 +86,25 @@ description: Обзор требований Licensing и ограничений
 
 Для установки лицензии используется следующий фрагмент кода.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingEmbeddedResource.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Instantiate the License class
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+
+// Pass only the name of the license file embedded in the assembly
+license.SetLicense("Aspose._3D.lic");
+
+{{< /highlight >}}
 ##  **Применить замеренную лицензию**
 Aspose.3D for .NET API позволяет разработчикам применять увеличенную лицензию. Речь идет о новом механизме лицензирования. Новый механизм лицензирования будет использоваться наряду с существующим методом лицензирования. Те клиенты, которые хотят, чтобы им выставлялись счеты на основе использования функций API, могут использовать лицензирование с измерением. Более подробную информацию см. в разделе [Измерено Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered).
 
 Для применения измеренного ключа добавлен новый класс [`Metered`](https://reference.aspose.com/3d/net/aspose.threed/metered). Этот пример кода демонстрирует, как установить измеренные публичные и закрытые ключи:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize a Metered license class object
+Aspose.ThreeD.Metered metered = new Aspose.ThreeD.Metered();
+// Set public and private keys
+metered.SetMeteredKey("your-public-key", "your-private-key");
+
+{{< /highlight >}}

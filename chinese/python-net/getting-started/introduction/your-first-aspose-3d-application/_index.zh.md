@@ -28,10 +28,30 @@ url: /zh/python-net/your-first-aspose-3d-application/
 
 以下示例从头开始创建一个新的 3D 场景文件。首先，创建一个 3D 场景，然后将文件以 FBX 格式保存。
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-CreateEmpty3DDocument.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+# Create an object of the Scene class
+scene = a3d.Scene()
+# Save 3D scene document
+scene.Save("document.fbx", a3d.FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 
 ### **如何打开现有文件**
 
 以下示例打开名为 "document.fbx" 的现有 3D 模板文件。
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-ReadExistingScene.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+
+# Initialize a Scene class object
+scene = Scene()
+# Load an existing 3D document
+scene.open("document.fbx")
+
+
+{{< /highlight >}}

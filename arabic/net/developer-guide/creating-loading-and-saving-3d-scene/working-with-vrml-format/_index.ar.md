@@ -13,4 +13,13 @@ Tويدعم ميزة له من قبل الإصدار 19.4 أو أكبر.
 #  **افتح تنسيق ملف VRML**
 Aspose.3D for .NET يسمح بالعمل مع الإصدار 1.0 VRML. تمت إضافة تنسيق ملف `VRML` إلى فئة `FileFormat`. Aspose.3D يمكنه اكتشاف التنسيق تلقائيًا ، لذلك يتم تجاهل `FileFormat` عادةً في طريقة `Open`. يوضح مقتطف الشفرة التالي كيفية فتح تنسيق ملف VRML.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithVRML-OpenVRML-OpenVRML.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Open Virtual Reality Modeling Language (VRML) file format
+scene.Open("test.wrl");
+// Work with VRML file format...
+
+
+{{< /highlight >}}

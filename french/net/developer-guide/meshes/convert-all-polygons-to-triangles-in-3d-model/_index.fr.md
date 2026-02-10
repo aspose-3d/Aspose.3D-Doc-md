@@ -13,4 +13,13 @@ En utilisant [Aspose.3D for .NET](http://products.aspose.com/3d/net) API, les d�
 ##  **Convertir tous les polygones en Triangles**
 Nous avons ajouté une autre surcharge de la méthode `Triangulate` dans la classe [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) qui prend un objet de classe [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) comme paramètre comme indiqué dans cet exemple de code:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load an existing 3D file
+Scene scene = Scene.FromFile("document.fbx");
+// Triangulate a scene
+PolygonModifier.Triangulate(scene);
+// Save 3D scene
+scene.Save("triangulated_out.fbx");
+
+{{< /highlight >}}

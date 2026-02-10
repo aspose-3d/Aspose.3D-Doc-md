@@ -29,10 +29,34 @@ L'implementazione dei passaggi precedenti è dimostrata negli esempi seguenti.
 
 L'esempio seguente crea un nuovo file di scena 3D da zero. Per prima cosa, crea una scena 3D e poi salva il file in formato FBX.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.Save("document.fbx");
+
+{{< /highlight >}}
 
 ###  **Come aprire un file esistente**
 
 L'esempio seguente apre un file modello esistente di 3D denominato "document.fbx" e quindi salva la scena o il documento 3D in uno streaming in vari formati 3D supportati.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+                        
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+
+// Open an existing 3D scene
+scene.Open("document.fbx");
+
+// Save Scene to a stream
+MemoryStream dstStream = new MemoryStream();
+scene.Save(dstStream, FileFormat.FBX7500ASCII);
+            
+// Save Scene to a local path
+scene.Save("output_out.fbx");
+
+{{< /highlight >}}

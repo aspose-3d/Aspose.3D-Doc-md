@@ -13,4 +13,13 @@ Using [Aspose.3D for .NET](http://products.aspose.com/3d/net) API, developers ca
 ##  **Olyonvert ll ll olyأوليغونز إلى riri**
 لقد أضفنا زيادة كبيرة أخرى على طريقة `Triangulate` في فئة [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) والتي تأخذ كائن فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) كمعلمة كما هو موضح في مثال الرمز هذا:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load an existing 3D file
+Scene scene = Scene.FromFile("document.fbx");
+// Triangulate a scene
+PolygonModifier.Triangulate(scene);
+// Save 3D scene
+scene.Save("triangulated_out.fbx");
+
+{{< /highlight >}}

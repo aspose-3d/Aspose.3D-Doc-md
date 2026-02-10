@@ -13,4 +13,13 @@ Denna funktion stöds av version 19.4 eller större.
 #  **Open VRML File Format**
 Aspose.3D for Python via .NET tillåter att arbeta med VRML version 1.0. `VRML` filformat har lagts till i `FileFormat` klassen. Aspose.3D kan automatiskt detektera formatet, så `FileFormat` ignoreras vanligtvis i `open`-metoden. Följande kodsnutt visar hur öppet VRML filformat.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithVRML-OpenVRML-OpenVRML.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Create a Scene
+scene = Scene()
+#  Open Virtual Reality Modeling Language (VRML) file format
+scene.open("data-dir"  + "test.wrl")
+
+{{< /highlight >}}

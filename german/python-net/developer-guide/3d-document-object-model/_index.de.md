@@ -86,7 +86,22 @@ A `Geometry` besteht aus Kontroll punkten und `VertexElement`, die zusätzliche 
 
 Sie können ein Vertex element manuell erstellen und Daten dafür zuweisen. Das folgende Code beispiel zeigt, wie das geht:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Examples-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.py" >}}
+{{< highlight "python" >}}
+from aspose import pycore
+from aspose.threed.entities import MappingMode, ReferenceMode, VertexElementNormal, VertexElementType
+from aspose.threed.utilities import Vector4
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Raw normal data
+normals = [Vector4(-0.577350258, -0.577350258, 0.577350258, 1.0), Vector4(0.577350258, -0.577350258, 0.577350258, 1.0), Vector4(0.577350258, 0.577350258, 0.577350258, 1.0), Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0), Vector4(-0.577350258, -0.577350258, -0.577350258, 1.0), Vector4(0.577350258, -0.577350258, -0.577350258, 1.0), Vector4(0.577350258, 0.577350258, -0.577350258, 1.0), Vector4(-0.577350258, 0.577350258, -0.577350258, 1.0)]
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+normal = mesh.create_element(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT)
+elementNormal = pycore.as_of(normal, VertexElementNormal) if pycore.is_assignable(normal, VertexElementNormal) else None
+#  Copy the data to the vertex element
+elementNormal.data.extend(normals)
+
+{{< /highlight >}}
 
 ### Primitive Geometrie typen
 
@@ -110,7 +125,21 @@ Wenn Sie diese vordefinierten primitiven Typen in Aspose.3D verwenden, können S
 
 Das folgende Code beispiel zeigt, wie eine Kugel mit einem angegebenen Radius erstellt wird:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Examples-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Create a Scene
+scene = Scene()
+sphere = Sphere()
+sphere.radius = 10 .0
+#  Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.root_node.create_child_node(sphere)
+#  Save scene
+scene.save("data-dir"  + "sphere.obj", FileFormat.WAVEFRONT_OBJ)
+
+{{< /highlight >}}
 
 ### Extrusion typen
 
@@ -127,7 +156,28 @@ In Aspose.3D haben wir 3 Extrusion typen bereit gestellt:
 
 Das folgende Code beispiel zeigt, wie eine lineare Extrusion aus einem Text profil erstellt wird:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Examples-Working-with-LinearExtrusion-Text.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.entities import LinearExtrusion
+from aspose.threed.profiles import FontFile, Text
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Load font from bytes
+font = FontFile.parse(open(r"test-font.otf", "rb").read())
+text = Text()
+text.font = font
+text.content = "Hello World"
+text.font_size = 10
+.0
+#  Create a Text profile
+text = text
+#  Extrude the profile to give it a thickness.
+linear = LinearExtrusion(text, 10).to_mesh()
+#  create a scene from the mesh and save it to stl file
+scene = Scene(linear)
+scene.save(r"test.stl")
+
+{{< /highlight >}}
 
 
 ### Kurven typen
@@ -173,7 +223,27 @@ Mit der Unterstützung für eine Reihe von Material typen und der Möglichkeit, 
 
 Das folgende Code beispiel zeigt, wie ein PBR-Material auf eine Geometrie angewendet wird:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Examples-Geometry-and-Hierarchy-ApplyPBRMaterialToBox-ApplyPBRMaterialToBox.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.entities import Box
+from aspose.threed.shading import PbrMaterial
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  initialize a scene
+scene = Scene()
+#  initialize PBR material object
+mat = PbrMaterial()
+#  an almost metal material
+mat.metallic_factor = 0.9
+#  material surface is very rough
+mat.roughness_factor = 0.9
+#  create a box to which the material will be applied
+boxNode = scene.root_node.create_child_node("box", Box())
+boxNode.material = mat
+#  save 3d scene into USDZ format
+scene.save("out"  + "PBR_Material_Box_Out.usdz")
+
+{{< /highlight >}}
 
 ## Beziehung zu Animations objekten
 Aspose.3D bietet Animations unterstützung auf Daten ebene, und die Berechnungs unterstützung wird derzeit entwickelt.

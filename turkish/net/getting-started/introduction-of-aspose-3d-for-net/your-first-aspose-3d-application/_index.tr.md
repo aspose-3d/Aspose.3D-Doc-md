@@ -29,10 +29,34 @@ Yukarıdaki adımların uygulanması aşağıdaki örneklerde gösterilmiştir.
 
 Aşağıdaki örnek, sıfırdan yeni bir 3D sahne dosyası oluşturur. İlk olarak, 3D sahne oluşturun ve ardından dosyayı FBX formatında kaydedin.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.Save("document.fbx");
+
+{{< /highlight >}}
 
 ###  **Mevcut bir dosya nasıl açılır**
 
 The following example opens an existing 3D template file named "document.fbx" and then saves the 3D scene or document to a stream in various supported 3D formats.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+                        
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+
+// Open an existing 3D scene
+scene.Open("document.fbx");
+
+// Save Scene to a stream
+MemoryStream dstStream = new MemoryStream();
+scene.Save(dstStream, FileFormat.FBX7500ASCII);
+            
+// Save Scene to a local path
+scene.Save("output_out.fbx");
+
+{{< /highlight >}}

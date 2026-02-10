@@ -17,7 +17,29 @@ The `Mesh` class object is being used in the code. We can [create a Mesh class 
 ##  **Create Normal ctors ectors**
 Aydınlatma konusunda iyi bir görsel görünüme sahip olmak için, her vertex için normaller bilgilerini belirtmemiz, daha iyi bir ayrıntıya sahip olmamız gerekiyor, ayrıca normal ve dağınık haritayı da kullanabiliriz (gölge/speküler haritasını kullanabileceğinizden emin olun)-piksel başına normal/renk. Vertexelement tarafından normal veya vertex rengi gibi bir vertex bilgisi elde edilir. Aspose.3D vertex/polygon/edge noktalarını kontrol etmek için ekstra bilgileri haritalayabiliriz, vertex için normalleri tanımlamak için bir örnek:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+
+VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal, MappingMode.ControlPoint, ReferenceMode.Direct) as VertexElementNormal;
+// Copy the data to the vertex element
+elementNormal.Data.AddRange(normals);
+
+{{< /highlight >}}
 
 The 8 normal vektör, 8 kontrol noktasına doğrudan eşleştirilir, bir sonraki örnekte, biraz daha karmaşık bir senaryo göstereceğiz.
 ##  **Create UV ordinoordinates**
@@ -32,13 +54,88 @@ Aspose.3D 5 haritalama modu sağlar:
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupUVOnCube-SetupUVOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// UVs
+Vector4[] uvs = new Vector4[]
+{
+    new Vector4( 0.0, 1.0,0.0, 1.0),
+    new Vector4( 1.0, 0.0,0.0, 1.0),
+    new Vector4( 0.0, 0.0,0.0, 1.0),
+    new Vector4( 1.0, 1.0,0.0, 1.0)
+};
+
+// Indices of the uvs per each polygon
+int[] uvsId = new int[]
+{
+    0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+
+// Create UVset
+VertexElementUV elementUV = mesh.CreateElementUV(TextureMapping.Diffuse, MappingMode.PolygonVertex, ReferenceMode.IndexToDirect);
+// Copy the data to the UV vertex element 
+elementUV.Data.AddRange(uvs);
+elementUV.Indices.AddRange(uvsId);
+
+{{< /highlight >}}
 ##  **Add Materials to 3D Objects**
 Aspose.3D for .NET, geliştiricilerin doğru gölgeleme ve vurgular için gölgeleme algoritmasını kullanmasına izin verir. Phong, düğümün etkisini maskelemek için kullanabileceğimiz birkaç harita girişine sahiptir. Fiziksel olarak dayalı render (pbr) nesnelerin bazı fiziksel özelliklerini dikkate alır, bu tür bir yaklaşım gerçek dünyada olduğu gibi malzemelerin görünümünü sağlar.
 ###  **Cube için Texture ile Phong erial aterial**
 Uhen Ucoordinates koordinatları kullanıma hazır, malzeme kullanarak örgü yüzeyine bir doku uygulayabiliriz. Only vertex rengi, yüzey detaylarını tarif edemez, bu da kullanılan malzemelerdir. Here, küp düğümüne bir Phong malzemesi eklemek için bir örnek:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-MaterialToCube-AddMaterialToCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize scene object
+Scene scene = new Scene();
+            
+// Initialize cube node object
+Node cubeNode = new Node("cube");
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+         
+// Point node to the mesh
+cubeNode.Entity = mesh;
+            
+// Add cube to the scene
+scene.RootNode.ChildNodes.Add(cubeNode);
+            
+// Initiallize PhongMaterial object
+PhongMaterial mat = new PhongMaterial();
+            
+// Initiallize Texture object
+Texture diffuse = new Texture();
+            
+// The path to the documents directory.
+            
+// Set local file path
+diffuse.FileName = RunExamples.GetOutputFilePath("surface.dds");
+
+// Set Texture of the material
+mat.SetTexture("DiffuseColor", diffuse);
+
+// Embed raw content data to FBX (only for FBX and optional)
+// Set file name
+diffuse.FileName = "embedded-texture.png";
+// Set binary content
+diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
+
+// Set color
+mat.SpecularColor = new Vector3(Color.Red);
+
+// Set brightness
+mat.Shininess = 100;
+
+// Set material property of the cube object
+cubeNode.Material = mat;
+            
+// Save 3D scene in the supported file formats
+scene.Save("MaterialToCube.fbx");
+
+{{< /highlight >}}
 
 We dağınık doku haritalama ve parlaklık parametresi ile speküler bir renk belirledi.
 ###  **Hyhycally hysically Based dering en( (PBR) erial aterial to a Box**

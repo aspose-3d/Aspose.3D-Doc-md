@@ -42,25 +42,48 @@ Använd `License.setLicense`-metoden för att licensiera API:erna. Det enklaste 
 ###  **Använd licens med fil eller strömobjekt**
 In this example Aspose.3D will attempt to find the license file in the folder that contain the JARs of your application.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose._3D.lic");
+{{< /highlight >}}
 
 Initierar en licens från en ström.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+try(FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+    license.setLicense(myStream);
+}
+{{< /highlight >}}
 ###  **Inklusive licensfilen som en inbäddad resurs.**
 Du kan helt enkelt kopiera LIC-filen i katalogen `resources` i ditt projekt. Att återuppbygga projektet bör inbädda . Lic-fil till applikations . Burkfil. Därefter kan du ansöka om licens genom att använda koden som nedan:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+{{< highlight "java" >}}
+License lic = new License();
+lic.setLicense(Program.class.getResourceAsStream("Aspose.3D.Java.lic"));
+{{< /highlight >}}
 ###  **Validera licensen**
 Det är möjligt att validera om licensen har satts ordentligt eller inte. Licensklassen har isLicensed-fältet som kommer att returnera true om licensen har satts ordentligt.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose.3D.Java.lic");
+    	  
+if (License.isLicenseSet()) {
+    System.out.println("License is Set!");
+}
+{{< /highlight >}}
 ##  **Använd mätt licens**
 Aspose.3D tillåter utvecklare att använda uppmätta nyckel. Det är en ny licensmekanism. Den nya tillståndsmekanismen kommer att användas tillsammans med befintlig tillståndsmetod. De kunder som vill faktureras baserat på användningen av API-funktionerna kan använda den mättade licensieringen. För mer information, se [Uppmätt Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) avsnittet.
 
 En ny klass `Metered` har introducerats för att tillämpa mättad nyckel. Följande är urvalskoden som visar hur man ställer in öppen och privat nyckel.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+{{< highlight "java" >}}
+// Initialize a Metered license class object
+Metered metered = new Metered();
+// Set public and private keys
+metered.setMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
 ##  **När du ska använda licens**
 Följ dessa enkla regler:
 

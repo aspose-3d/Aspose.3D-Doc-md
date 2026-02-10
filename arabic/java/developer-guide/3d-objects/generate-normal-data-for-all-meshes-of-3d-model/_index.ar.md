@@ -15,4 +15,22 @@ Aspose.3D for Java API يدعم إنشاء بيانات عادية لجميع ش
 ###  **Pروغرامينغ ple وافرة**
 يقوم مثال الرمز هذا بتحميل ملف 3DS ، وزيارة جميع العقد وإنشاء بيانات عادية لجميع الشبكات.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-GenerateDataForMeshes.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
+Scene s = new Scene(MyDir + "camera.3ds");
+// Visit all nodes and create normal data for all meshes
+s.getRootNode().accept(new NodeVisitor() {
+    @Override
+    public boolean call(Node node) {
+        Mesh mesh = (Mesh)node.getEntity();
+        if (mesh != null)
+        {
+            VertexElementNormal normals = PolygonModifier.generateNormal(mesh);
+            mesh.addElement(normals);
+        }
+        return true;
+    }
+});
+{{< /highlight >}}

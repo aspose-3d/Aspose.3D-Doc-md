@@ -42,25 +42,48 @@ description: 您可以轻松地从 Aspose 存储库下载/安装 Aspose.3D for J
 ###  **使用文件或流对象应用许可证**
 在此示例中，Aspose.3D 将尝试在包含应用程序jar的文件夹中查找许可证文件。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose._3D.lic");
+{{< /highlight >}}
 
 从流初始化许可证。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+try(FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+    license.setLicense(myStream);
+}
+{{< /highlight >}}
 ###  **包括许可证文件作为嵌入式资源**
 您可以简单地将LIC文件复制到项目的 `resources` 文件夹中。重建项目应该嵌入.lic文件到应用程序的。jar文件。之后，您可以使用下面的代码申请许可证:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+{{< highlight "java" >}}
+License lic = new License();
+lic.setLicense(Program.class.getResourceAsStream("Aspose.3D.Java.lic"));
+{{< /highlight >}}
 ###  **验证许可证**
 可以验证许可证是否已正确设置。许可证类具有isLicensed字段，如果正确设置了许可证，该字段将返回true。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose.3D.Java.lic");
+    	  
+if (License.isLicenseSet()) {
+    System.out.println("License is Set!");
+}
+{{< /highlight >}}
 ##  **申请计量许可证**
 Aspose.3D 允许开发人员应用计量密钥。这是一种新的许可机制。新的许可机制将与现有的许可方法一起使用。那些希望根据 API 功能的使用情况计费的客户可以使用计量许可。更多详情，请参阅 [计量常见问题 Licensing](https://purchase.aspose.com/faqs/licensing/metered) 部分。
 
 引入了新的类 `Metered` 以应用计量密钥。以下是演示如何设置计量公钥和私钥的示例代码。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+{{< highlight "java" >}}
+// Initialize a Metered license class object
+Metered metered = new Metered();
+// Set public and private keys
+metered.setMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
 ##  **何时申请许可证**
 遵循以下简单规则:
 

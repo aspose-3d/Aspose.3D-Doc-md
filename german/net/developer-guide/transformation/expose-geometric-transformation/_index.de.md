@@ -8,4 +8,15 @@ description: Aspose.3D for .NET ermöglicht die Aufdeckung der geometrischen Tra
 ##  **Ersetzen Sie geometrische Transformation**
 Aspose.3D for .NET ermöglicht die Aufdeckung der geometrischen Transformation einer 3D-Szene. Sie können die globale Transformation mit der `EvaluateGlobalTransform` Methode auswerten. Das folgende Code-Snippet zeigt, wie die geometrische Transformation verfügbar gemacht wird.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-ExposeGeometricTransformation-1.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize node 
+var n = new Node();
+// Get Geometric Translation
+n.Transform.GeometricTranslation = new Vector3(10, 0, 0);
+// The first Console.WriteLine will output the transform matrix that includes the geometric transformation 
+// while the second one will not.
+Console.WriteLine(n.EvaluateGlobalTransform(true));
+Console.WriteLine(n.EvaluateGlobalTransform(false));
+
+{{< /highlight >}}

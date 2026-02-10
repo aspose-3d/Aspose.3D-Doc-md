@@ -45,20 +45,65 @@ Qualsiasi classe che implementa un'interfaccia IMeshConvertible può essere conv
 Una sfera è un oggetto geometrico perfettamente rotondo nello spazio tridimensionale che appare ovunque, dalle palle sportive ai pianeti nello spazio. Usiamo la Sfera primitiva per creare una mesh.
 L'esempio di codice seguente converte una sfera in mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Sphere class
+convertible = Sphere()
+#  Convert a Sphere to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertire una "Pasta" in "Mesh"**
 Una scatola descrive una varietà di contenitori e recipienti per uso permanente come deposito o per uso temporaneo, spesso per il trasporto di contenuti. Usiamo la scatola primitiva per creare una mesh. L'esempio di codice seguente converte un Box in mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Box
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Box class
+convertible = Box()
+#  Convert a Box to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertire un "aereo" in "mesh"**
 Un piano si estende all'infinito senza spessore. Un esempio di un aereo è un piano di coordinate. Consente di utilizzare il piano primitivo per creare una mesh. L'esempio di codice seguente converte un piano in mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Plane
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Plane class
+convertible = Plane()
+#  Convert a Plane to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertire un "cilindro" in "mesh"**
 Un cilindro è una delle forme geometriche curvilinee più elementari, la superficie formata dai punti a distanza fissa da una data linea retta, l'asse del cilindro. Può essere utilizzato in molti luoghi, ad esempio come pilastro davanti a una casa o come albero motore per auto. Consente di utilizzare il cilindro primitivo per creare una mesh. L'esempio di codice seguente converte un cilindro in mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Cylinder class
+convertible = Cylinder()
+#  Convert a Cylinder to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertire un "Torus" in "Mesh"**
 Un toro è una superficie di rivoluzione generata ruotando un cerchio nello spazio tridimensionale attorno a un asse complanare con il cerchio. Se l'asse di rivoluzione non tocca il cerchio, la superficie ha una forma ad anello ed è chiamata toro di rivoluzione. Usiamo il Torus primitivo per creare una mesh. L'esempio di codice seguente converte un Torus in mesh.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Torus
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Torus class
+convertible = Torus()
+#  Convert a Torus to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}

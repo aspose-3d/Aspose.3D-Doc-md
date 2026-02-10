@@ -13,4 +13,13 @@ This özelliği 19.4 veya daha büyük sürümle desteklenir.
 ##  **Sphere Radius ile Work**
 Using Aspose.3D for .NET, you can set of get radius of a sphere. In order to get or set radius, you can use `Radius` property of `Sphere` class. The following is the code sample to set radius of a sphere.  
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

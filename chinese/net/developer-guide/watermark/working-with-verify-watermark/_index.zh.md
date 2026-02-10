@@ -13,12 +13,38 @@ url: /zh/net/working-with-verify-watermark/
 # **创建 3D 场景**
 首先，您需要从 3D 文件创建 3D 场景。以下代码片段展示了如何使用此功能：
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-Create3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string file = "template.3ds";
+Scene scene = Scene.FromFile(file);
+{{< /highlight >}}
 
 # **解码水印**
 Aspose.3D for .NET 使用 `DecodeWatermark` 方法来确认填充密码后 3D 文件的水印。以下代码片段展示了如何使用此功能：
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithVerifyWatermark-DecodeWatermark.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string text = null;
+try
+{
+    scene.RootNode.Accept((Node node) =>
+    {
+        var mesh = node.GetEntity<Mesh>();
+        if (mesh != null)
+        {
+            text = Watermark.DecodeWatermark(mesh, "1234");
+            if (text != null)
+                return false;
+        }
+        return true;
+    });
+}
+catch (UnauthorizedAccessException)
+{
+    return "Password error";
+}
+return text;
+{{< /highlight >}}
 
 # **文档确认**
 对于返回的结果，如果返回结果为 null，则表示 3D 文档中没有添加水印。如果返回文本信息，则为 3D 文件的水印。如果密码输入错误，将返回错误消息。

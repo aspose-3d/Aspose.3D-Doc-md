@@ -19,4 +19,24 @@ Metadata är strukturerad information som beskriver, förklarar, lokaliserar ell
 
 I det här exemplet antar vi att scenen är skapad av ett CAD-verktyg som heter “Egypt” och det är designat av “Manualdesk”:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-AssetInformation-InformationToScene-AddAssetInformationToScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize a 3D scene
+Scene scene = new Scene();
+
+// Set application/tool name
+scene.AssetInfo.ApplicationName = "Egypt";
+
+// Set application/tool vendor name
+scene.AssetInfo.ApplicationVendor = "Manualdesk";
+
+// We use ancient egyption measurement unit Pole
+scene.AssetInfo.UnitName = "pole";
+
+// One Pole equals to 60cm
+scene.AssetInfo.UnitScaleFactor = 0.6;
+
+// Save scene to 3D supported file formats
+scene.Save("InformationToScene.fbx");
+
+{{< /highlight >}}

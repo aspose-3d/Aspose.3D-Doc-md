@@ -19,4 +19,24 @@ description: 元数据是描述、解释、定位或使其更容易检索、使�
 
 在此示例中，我们假设场景是由名为 “Egypt” 的 CAD 工具创建的，并且由 “Manualdesk” 设计:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-AssetInformation-InformationToScene-AddAssetInformationToScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize a 3D scene
+Scene scene = new Scene();
+
+// Set application/tool name
+scene.AssetInfo.ApplicationName = "Egypt";
+
+// Set application/tool vendor name
+scene.AssetInfo.ApplicationVendor = "Manualdesk";
+
+// We use ancient egyption measurement unit Pole
+scene.AssetInfo.UnitName = "pole";
+
+// One Pole equals to 60cm
+scene.AssetInfo.UnitScaleFactor = 0.6;
+
+// Save scene to 3D supported file formats
+scene.Save("InformationToScene.fbx");
+
+{{< /highlight >}}

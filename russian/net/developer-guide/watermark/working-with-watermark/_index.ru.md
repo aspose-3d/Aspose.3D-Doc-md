@@ -13,14 +13,39 @@ url: /ru/net/working-with-watermark/
 # **Создание 3D-сцены**
 Сначала вам нужно создать 3D-сцену из 3D-файла. Следующий фрагмент кода показывает, как использовать эту функциональность:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-Create3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string file = "template.3ds";
+Scene scene = Scene.FromFile(file);
+{{< /highlight >}}
 
 # **Кодирование водяного знака**
 Aspose.3D для .NET добавляет информацию о водяном знаке и пароль водяного знака в 3D-файлы с помощью метода ``EncodeWatermark``. Следующий фрагмент кода показывает, как использовать эту функциональность:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-EncodeWatermark.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+var numMeshes = 0;
+scene.RootNode.Accept((Node node) =>
+{
+    var mesh = node.GetEntity<Mesh>();
+    if (mesh != null)
+    {
+        numMeshes++;
+        mesh = Watermark.EncodeWatermark(mesh, "HelloWorld", "1234");
+        if (mesh != null)
+        {
+            node.Entity = mesh;
+        }
+    }
+    return true;
+});
+{{< /highlight >}}
 
 # **Сохранение документа**
 Вы можете сохранить в любой 3D-формат файла, который вам нужен. Следующий фрагмент кода показывает, как использовать эту функциональность:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-SaveDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string output = "output.fbx";
+scene.Save(output, FileFormat.FBX7400ASCII);
+{{< /highlight >}}

@@ -12,6 +12,20 @@ Using [Aspose.3D for Python via .NET API](https://products.aspose.com/3d/python
 
 {{% /alert %}}
 ## **Load 3D File and Write Meshes in Custom Binary Format Programming Sample**
-`accept` method exposed by the `root_node` member in the [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class allows to visit each sub node. The code snippet below allows to convert meshes only.
+`accept` method exposed by `root_node` member in [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) class allows to visit each sub node. The code snippet below allows to convert meshes only.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DScene-Save3DMeshesInCustomBinaryFormat.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.entities import Box
+from aspose.threed.utilities import Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Load a 3D file into Aspose.3D
+scene = Scene.from_file("document.fbx")
+box = scene.root_node.create_child_node("box", Box()).transform
+box.scale = Vector3(12, 12, 12)
+box.translation = Vector3(10, 0, 0)
+#  Serialize the node into binary file
+with open("out" + "customData", "wb") as output:
+    scene.root_node.accept(output, "3d")
+{{< /highlight >}}

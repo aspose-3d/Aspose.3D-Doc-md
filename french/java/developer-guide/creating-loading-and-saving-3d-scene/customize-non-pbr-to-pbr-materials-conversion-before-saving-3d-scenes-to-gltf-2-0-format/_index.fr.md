@@ -13,4 +13,26 @@ La classe `Scene` de la Aspose.3D for Java API représente une scène 3D et les 
 ##  **Conversion de matériaux non-PBR vers PBR**
 Cet exemple de code montre comment convertir du matériau en matériau PBR, puis enregistre la scène 3D au format GLTF:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Non_PBRtoPBRMaterial.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+/* initialize a new 3D scene */
+Scene s = new Scene();
+Box box = new Box();
+PhongMaterial mat = new PhongMaterial();
+mat.setDiffuseColor(new Vector3(1, 0, 1));
+s.getRootNode().createChildNode("box1", box).setMaterial(mat);
+GLTFSaveOptions opt = new GLTFSaveOptions(FileFormat.GLTF2);
+//Custom material converter to convert PhongMaterial to PbrMaterial
+opt.setMaterialConverter(new MaterialConverter() {
+    @Override
+    public Material call(Material material) {
+        PhongMaterial m = (PhongMaterial) material;
+        PbrMaterial ret = new PbrMaterial();
+        ret.setAlbedo(m.getDiffuseColor());
+        return ret;
+    }
+});
+// save in GLTF 2.0 format
+s.save(MyDir + "Non_PBRtoPBRMaterial_Out.gltf", opt);
+{{< /highlight >}}

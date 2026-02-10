@@ -42,25 +42,48 @@ Use the `License.setLicense` method to license the APIs. Often the easiest way t
 ###  **File Ficense kullanarak File veya Stream Object**
 Bu örnekte Aspose.3D, uygulamanızın kavanozlarını içeren klasördeki lisans dosyasını bulmaya çalışacaktır.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose._3D.lic");
+{{< /highlight >}}
 
 Ibir akımdan bir lisansı nitialize eder.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+try(FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+    license.setLicense(myStream);
+}
+{{< /highlight >}}
 ###  **Bir Embedded Resource olarak License File ncluding**
 Lic dosyasını projenizin `resources` klasöründe kopyalayabilirsiniz. Projenin yeniden inşa edilmesi gerekir. Uygulama içine lic dosyası. Kavanoz dosyası. Bundan sonra aşağıdaki gibi kodu kullanarak lisans uygulayabilirsiniz:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+{{< highlight "java" >}}
+License lic = new License();
+lic.setLicense(Program.class.getResourceAsStream("Aspose.3D.Java.lic"));
+{{< /highlight >}}
 ###  **Lalidate License**
 It, lisansın düzgün ayarlanıp ayarlanmadığını doğrulamak mümkündür. To License sınıfı, lisans düzgün bir şekilde ayarlanmışsa gerçek olacak iscenicensed alanına sahiptir.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose.3D.Java.lic");
+    	  
+if (License.isLicenseSet()) {
+    System.out.println("License is Set!");
+}
+{{< /highlight >}}
 ##  **Atered tered etered License**
 Aspose.3D allows developers to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 Ölçülü anahtarı uygulamak için yeni bir sınıf `Metered` tanıtıldı. Ölçülü kamu ve özel anahtarın nasıl ayarlanacağını gösteren örnek kod aşağıdadır.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+{{< highlight "java" >}}
+// Initialize a Metered license class object
+Metered metered = new Metered();
+// Set public and private keys
+metered.setMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
 ##  **Hen hen Lcenicense**
 Follow bu basit kurallar:
 

@@ -42,25 +42,48 @@ Utilice el método `License.setLicense` para licenciar las API. A menudo, la for
 ###  **Aplicar licencia mediante archivo u objeto Stream**
 En este ejemplo Aspose.3D intentará encontrar el archivo de licencia en la carpeta que contiene los JAR de su aplicación.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose._3D.lic");
+{{< /highlight >}}
 
 Inicializa una licencia de un stream.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+try(FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+    license.setLicense(myStream);
+}
+{{< /highlight >}}
 ###  **Incluyendo el archivo de licencia como recurso incrustado**
 Simplemente puede copiar el archivo LIC en la carpeta `resources` de su proyecto. La reconstrucción del proyecto debe incrustar el. Lic en el archivo de la aplicación. Archivo jar. Después de eso, puede aplicar la licencia utilizando el código que se muestra a continuación:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+{{< highlight "java" >}}
+License lic = new License();
+lic.setLicense(Program.class.getResourceAsStream("Aspose.3D.Java.lic"));
+{{< /highlight >}}
 ###  **Validar la licencia**
 Es posible validar si la licencia se ha configurado correctamente o no. La clase Licencia tiene el campo isLicente que devolverá true si la licencia se ha establecido correctamente.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose.3D.Java.lic");
+    	  
+if (License.isLicenseSet()) {
+    System.out.println("License is Set!");
+}
+{{< /highlight >}}
 ##  **Aplicar Licencia Medida**
 Aspose.3D permite a los desarrolladores aplicar la clave medida. Es un nuevo sistema de licencias. El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que desean que se les facture en función del uso de las características API pueden usar la licencia medida. Para más detalles, por favor refiérase a [Preguntas frecuentes sobre Licensing medido](https://purchase.aspose.com/faqs/licensing/metered) sección.
 
 Se ha introducido una nueva clase `Metered` para aplicar la clave medida. A continuación se muestra el código de ejemplo que demuestra cómo establecer la clave pública y privada medida.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+{{< highlight "java" >}}
+// Initialize a Metered license class object
+Metered metered = new Metered();
+// Set public and private keys
+metered.setMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
 ##  **Cuándo aplicar una licencia**
 Siga estas simples reglas:
 

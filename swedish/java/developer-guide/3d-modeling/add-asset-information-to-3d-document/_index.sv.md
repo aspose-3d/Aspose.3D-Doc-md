@@ -19,4 +19,20 @@ Metadata är strukturerad information som beskriver, förklarar, lokaliserar ell
 
 I det här exemplet antar vi att scenen är skapad av ett CAD-verktyg som heter “Egypt” och det är designat av “Manualdesk”:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-modeling-AddAssetInformationToScene.java" >}}
+{{< highlight "java" >}}
+// Initialize a 3D scene
+Scene scene = new Scene();
+// Set application/tool name
+scene.getAssetInfo().setApplicationName("Egypt");
+// Set application/tool vendor name
+scene.getAssetInfo().setApplicationVendor("Manualdesk");
+// We use ancient egyption measurement unit Pole
+scene.getAssetInfo().setUnitName("pole");
+// One Pole equals to 60cm
+scene.getAssetInfo().setUnitScaleFactor(0.6);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + RunExamples.getOutputFilePath("InformationToScene.fbx");
+// Save scene to 3D supported file formats
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}

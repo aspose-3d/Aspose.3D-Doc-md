@@ -15,15 +15,51 @@ Die [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene)-Klasse de
 ##  **Offene Szene aus einem Passwort geschützt PDF**
 Die `Open`-Methode der `Scene`-Klasse erlaubt es, die 3D-Szene aus einer Eingabe-PDF-Datei zu laden. Entwickler können auch ein Passwort für die geschützten PDFs mit der [`PdfLoadOptions`](https://reference.aspose.com/3d/net/aspose.threed.formats/pdfloadoptions)-Klasse anwenden, wie in diesem C#-Code beispiel gezeigt:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-OpenSceneFromProtectedPdf-OpenSceneFromProtectedPdf.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a new scene
+Scene scene = new Scene();
+// Use loading options and apply password
+PdfLoadOptions opt = new PdfLoadOptions() { Password = Encoding.UTF8.GetBytes("password") };
+// Open scene
+scene.Open("House_Design.pdf", opt);
+
+{{< /highlight >}}
 ##  **Extrahieren Sie alle Roh-3D-Inhalte aus einem PDF**
 Die Extract-Methode der [`PdfFormat`](https://reference.aspose.com/3d/net/aspose.threed.formats/pdfformat)-Klasse ermöglicht es, 3D-Inhalte aus einer PDF-Datei zu extrahieren. Entwickler können die Inhalte durchgehen und sie in den separaten Dateien speichern, wie in diesem Beispiel für C#-Code gezeigt:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-ExtractRaw3DContentsFromPdf-ExtractRaw3DContentsFromPdf.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// The path to the documents directory.
+byte[] password = null;
+// Extract 3D contents
+List<byte[]> contents = FileFormat.PDF.Extract("House_Design.pdf", password);
+int i = 1;
+// Iterate through the contents and in separate 3D files
+foreach (byte[] content in contents)
+{
+    string fileName = "3d-" + (i++);
+    File.WriteAllBytes(fileName, content);
+}
+
+{{< /highlight >}}
 ##  **Extrahieren Sie alle 3D-Szenen und speichern Sie sie in unterstützten 3D-Formaten**
 Die `ExtractScene`-Methode der `PdfFormat`-Klasse ermöglicht es, 3D-Szenen aus einer PDF-Datei zu extrahieren. Entwickler können die Szenen durchgehen und sie in den unterstützten 3D-Dateiformaten speichern, wie in diesem C#-Code beispiel gezeigt:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-ExtractAll3DScenes-ExtractAll3DScenes.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            byte[] password = null;
+            List<Scene> scenes = FileFormat.PDF.ExtractScene("House_Design.pdf", password);
+            int i = 1;
+            // Iterate through the scenes and save in 3D files
+            foreach (Scene scene in scenes)
+            {
+                string fileName = "3d-" + (i++) + ".fbx";
+                scene.Save(RunExamples.GetOutputFilePath(fileName), FileFormat.FBX7400ASCII);
+            }
+
+{{< /highlight >}}
 
 {{% alert color="primary" %}}
 

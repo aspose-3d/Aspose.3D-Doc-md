@@ -25,14 +25,79 @@ Dإيفليرز يمكن الوصول إلى نقاط الاتصال ، vertices
 
 مثال elelow يحول phere إلى شبكة مثلث مع تخطيط ذاكرة مخصص.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertSphereMeshtoTriangleMeshCustomMemoryLayout-ConvertSphereMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+[StructLayout(LayoutKind.Sequential)]
+struct MyVertex
+{
+    [Semantic(VertexFieldSemantic.Position)]
+    FVector3 position;
+    [Semantic(VertexFieldSemantic.Normal)]
+    FVector3 normal;
+}
+
+public static void Run()
+{
+    // Initialize scene object
+    Scene scene = new Scene();
+
+    // Initialize Node class object
+    Node cubeNode = new Node("sphere");
+
+    Mesh sphere = (new Sphere()).ToMesh();
+    // Convert any mesh into typed TriMesh
+    var myMesh = TriMesh<MyVertex>.FromMesh(sphere);
+    // Get the vertex data in customized vertex structure.
+    MyVertex[] vertex = myMesh.VerticesToTypedArray();
+    // Get the 32bit and 16bit indices
+    int[] indices32bit;
+    ushort[] indices16bit;
+    myMesh.IndicesToArray(out indices32bit);
+    myMesh.IndicesToArray(out indices16bit);
+    using (MemoryStream ms = new MemoryStream())
+    {
+        // Or we can write the vertex directly into stream like:
+        myMesh.WriteVerticesTo(ms);
+        // The indice data can be directly write to stream, we support 32-bit and 16-bit indice.
+        myMesh.Write16bIndicesTo(ms);
+        myMesh.Write32bIndicesTo(ms);
+    }
+    // Point node to the Mesh geometry
+    cubeNode.Entity = sphere;
+
+    // Add Node to a scene
+    scene.RootNode.ChildNodes.Add(cubeNode);
+
+    // The path to the documents directory.
+    string output = RunExamples.GetOutputFilePath("SphereToTriangleMeshCustomMemoryLayoutScene.fbx");
+
+    // Save 3D scene in the supported file formats
+    scene.Save(output, FileFormat.FBX7400ASCII);
+
+    Console.WriteLine("Indices = {0}, Actual vertices = {1}, vertices before merging = {2}", myMesh.IndicesCount, myMesh.VerticesCount, myMesh.UnmergedVerticesCount);
+    Console.WriteLine("Total bytes of vertices in memory {0}bytes", myMesh.VerticesSizeInBytes);
+    Console.WriteLine("\n Converted a Sphere mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + output);
+}
+
+{{< /highlight >}}
 
 
 
 
 مثال elelow يحول الثور Bإلى شبكة مثلث مع تخطيط ذاكرة مخصص.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Get mesh of the Box
+Mesh box = (new Box()).ToMesh();
+// Create a customized vertex layout
+VertexDeclaration vd = new VertexDeclaration();
+VertexField position = vd.AddField(VertexFieldDataType.FVector4, VertexFieldSemantic.Position);
+vd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+// Get a triangle mesh
+TriMesh triMesh = TriMesh.FromMesh(box);
+
+{{< /highlight >}}
 ##  **Convert ririmitive إلى Msh**
 باستخدام Aspose.3D for .NET ، يمكن للمطورين تحويل أي كائن بدائي إلى شبكة. تشمل الأوليات العديد من الأشياء الأساسية والأكثر استخدامًا مثل الصندوق والكرة والطائرة والأسطوانة والطوف.
 
@@ -45,20 +110,59 @@ Dإيفليرز يمكن الوصول إلى نقاط الاتصال ، vertices
 A المجال هو كائن هندسي مستدير تماما في الفضاء ثلاثي الأبعاد التي تظهر في كل مكان من الكرات الرياضية إلى الكواكب في الفضاء. استخدام et et priphere بدائية لإنشاء شبكة.
 Tانه رمز المثال أدناه تحويل ere phere إلى شبكة.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Sphere class
+IMeshConvertible convertible = new Sphere();
+            
+// Convert a Sphere to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Convert ox ox إلى Msh**
 يصف ox ox ox مجموعة متنوعة من الحاويات والأوعية للاستخدام الدائم كتخزين ، أو للاستخدام المؤقت ، في كثير من الأحيان لنقل المحتويات. استخدام et et priox بدائية لإنشاء شبكة. Tهو رمز المثال أدناه تحويل الثور Bإلى شبكة.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Box class
+IMeshConvertible convertible = new Box();
+// Convert a Box to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Convert ممر Pإلى Msh**
 طائرة تمتد بلا حدود دون سمك. مثال على الطائرة هو طائرة تنسيق. يتيح استخدام `Plane` البدائي لإنشاء شبكة. يحول مثال الرمز أدناه `Plane` إلى `Mesh`.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Plane class
+IMeshConvertible convertible = new Plane();
+            
+// Convert a Plane to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Convert Cيندر إلى Msh**
 اسطوانة A هي واحدة من الأشكال الهندسية المنحنية الأساسية ، والسطح الذي شكلتها النقاط على مسافة ثابتة من خط مستقيم معين ، محور الاسطوانة. It يمكن استخدامها في العديد من الأماكن ، على سبيل المثال كعمود أمام المنزل أو كسيارة driveshaft. Ets ets استخدام priيليندر بدائية لخلق شبكة. Tهو رمز المثال أدناه تحويل ylinder Cإلى شبكة.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Cylinder class
+IMeshConvertible convertible = new Cylinder();
+            
+// Convert a Cylinder to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Convert Torus إلى Msh**
 A torus هو سطح الثورة الناتجة عن دوار دائرة في الفضاء ثلاثي الأبعاد حول محور متوافق مع الدائرة. If محور الثورة لا تلمس الدائرة ، والسطح لديه شكل حلقة ويسمى توروس الثورة. استخدام et et Torus بدائية لإنشاء شبكة. Tهو رمز المثال أدناه تحويل ororus إلى شبكة.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Torus class
+IMeshConvertible convertible = new Torus();
+            
+// Convert a Torus to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}

@@ -11,4 +11,23 @@ Toutes les méthodes d'ouverture/de sauvegarde auront un paramètre d'annulation
 
 Vous pouvez utiliser `CancellationTokenSource` pour annuler la tâche de sauvegarde/ouverture à tout moment, comme indiqué dans cet exemple de code C# avec la manipulation des formats de fichier C# 3D API:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CancellationToken-CancellationTokenSource.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            CancellationTokenSource cts = new CancellationTokenSource();
+            Scene scene = new Scene();
+            cts.CancelAfter(1000);
+            try
+            {
+                scene.Open("document.fbx" , cts.Token);
+                Console.WriteLine("Import is done within 1000ms");
+            }
+            catch (ImportException e)
+            {
+                if (e.InnerException is OperationCanceledException)
+                {
+                    Console.WriteLine("It takes too long time to import, import has been canceled.");
+                }
+            }
+
+{{< /highlight >}}

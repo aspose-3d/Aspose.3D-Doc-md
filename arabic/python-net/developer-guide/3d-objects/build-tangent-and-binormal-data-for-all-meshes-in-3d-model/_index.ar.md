@@ -13,4 +13,16 @@ description: باستخدام Aspose.3D for Python via .NET API ، يمكن لل
 ##  **Build angangent و Bالبيانات غير الطبيعية ل Msh**
 لقد أضفنا طريقتين buildtanentbinormal في فئة [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier). إحدى الطرق تأخذ كائن فئة [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) كمعلمة والأخرى تأخذ كائن فئة [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) كمعلمة كما هو موضح في مثال الرمز هذا:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-BuildTangentAndBinormalData-BuildTangentAndBinormalData.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import PolygonModifier
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Load an existing 3D file
+scene = Scene("data-dir"  + "document.fbx")
+#  Triangulate a scene
+PolygonModifier.build_tangent_binormal(scene)
+#  Save 3D scene
+scene.save("out"  + "BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII)
+
+{{< /highlight >}}

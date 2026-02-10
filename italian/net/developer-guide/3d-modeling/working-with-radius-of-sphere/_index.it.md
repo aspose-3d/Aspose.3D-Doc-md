@@ -13,4 +13,13 @@ Questa funzione è supportata dalla versione 19.4 o maggiore.
 ##  **Lavoro con il raggio della sfera**
 Utilizzando Aspose.3D for .NET, puoi impostare il raggio di utilizzo di una sfera. Per ottenere o impostare il raggio, puoi utilizzare la proprietà `Radius` della classe `Sphere`. Di seguito è riportato il codice di esempio per impostare il raggio di una sfera.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

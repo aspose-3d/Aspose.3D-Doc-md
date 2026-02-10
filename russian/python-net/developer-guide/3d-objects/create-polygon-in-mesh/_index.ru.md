@@ -13,4 +13,12 @@ description: Aspose.3D for Python via .NET позволяет создать м�
 ##  **Создать многоугольник в сетке**
 Aspose.3D for Python via .NET позволяет создать многоугольник в сетке. Чтобы использовать функциональность, API предлагает метод [`create_polygon`](https://reference.aspose.com/net/3d/aspose.threed.entities/mesh/methods/createpolygon) класса [`Mesh`](https://reference.aspose.com/net/3d/aspose.threed.entities/mesh). Используя метод `create_polygon`, вы можете создать оптимизированный полигон [Треугольник](https://reference.aspose.com/net/3d/aspose.threed.entities/mesh/methods/createpolygon) или [Квад](https://reference.aspose.com/net/3d/aspose.threed.entities.mesh/createpolygon/methods/1) без выделения дополнительной памяти. Следующий фрагмент кода показывает, как использовать эту функциональность.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-CreatePolygonInMesh-1.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Mesh
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+mesh = Mesh()
+mesh.create_polygon([0, 1, 2 ])
+mesh.create_polygon(0, 1, 2)
+
+{{< /highlight >}}

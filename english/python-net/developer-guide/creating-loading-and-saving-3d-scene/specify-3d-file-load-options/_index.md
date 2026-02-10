@@ -11,31 +11,128 @@ There are several [`Scene.open`](https://reference.aspose.com/3d/net/aspose.thre
 ### **Use of the Discreet 3DS Load Options**
 The code below shows how to set load options before loading a Discreet 3DS file.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-Discreet3DSOption.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.formats import Discreet3dsLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+dataDir = "data-dir"
+loadOpts = Discreet3dsLoadOptions()
+#  Sets whether to use transformation defined in the first frame of the animation track.
+loadOpts.apply_animation_transform = True
+#  Flip the coordinate system
+loadOpts.flip_coordinate_system = True
+#  Prefer to use gamma-corrected color if a 3ds file provides both original color and gamma-corrected color.
+loadOpts.gamma_corrected_color = True
+#  Configure look up paths to allow importer to find external dependencies.
+loadOpts.lookup_paths = [[dataDir]]
+{{< /highlight >}}
 ### **Use of the Obj Load Options**
 The code below shows how to set load options before loading an 3D Obj file.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-ObjLoadOption.py" >}}
-### **Use of the STL Load Options**
-The code below shows how to set load options before loading an STL file.
+{{< highlight "python" >}}
+from aspose.threed.formats import ObjLoadOptions
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-STLLoadOption.py" >}}
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+dataDir = "data-dir"
+#  Initialize an object
+loadObjOpts = ObjLoadOptions()
+#  Import materials from external material library file
+loadObjOpts.enable_materials = True
+#  Flip the coordinate system.
+loadObjOpts.flip_coordinate_system = True
+#  Configure the look up paths to allow importer to find external dependencies.
+loadObjOpts.lookup_paths.append(dataDir)
+{{< /highlight >}}
+### **Use of the STL Load Options**
+The code below shows how to set load options before loading a STL file.
+
+{{< highlight "python" >}}
+from aspose.threed.formats import StlLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+dataDir = "data-dir"
+#  Initialize an object
+loadSTLOpts = StlLoadOptions()
+#  Flip to coordinate system.
+loadSTLOpts.flip_coordinate_system = True
+#  Configure look up paths to allow importer to find external dependencies.
+loadSTLOpts.lookup_paths = [[dataDir]]
+{{< /highlight >}}
 ### **Use of the U3D Load Options**
 The code below shows how to set load options before loading a U3D file.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-U3DLoadOption.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.formats import U3dLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+dataDir = "data-dir"
+#  Initialize an object
+loadU3DOpts = U3dLoadOptions()
+#  Flip to coordinate system.
+loadU3DOpts.flip_coordinate_system = True
+#  Configure look up paths to allow importer to find external dependencies.
+loadU3DOpts.lookup_paths = [[dataDir]]
+{{< /highlight >}}
 ### **Use of the glTF Load Options**
 The code below shows how to set load options before loading a glTF file.
-#### **Flip the V/T Texture Coordinate**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-glTFLoadOptions.py" >}}
+#### **Flip to V/T Texture Coordinate**
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.formats import GltfLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+dataDir = "data-dir"
+#  Initialize Scene class object
+scene = Scene()
+#  Set load options
+loadOpt = GltfLoadOptions()
+#  The default value is true, usually we don't need to change it. Aspose.3D will automatically flip to V/T texture coordinate during load and save.
+loadOpt.flip_tex_coord_v = True
+scene.open(dataDir + "Duck.gltf", loadOpt)
+{{< /highlight >}}
 ### **Use of the Ply Load Options**
 The code below shows how to set load options before loading a PLY model.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-PlyLoadOptions.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.formats import PlyLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  path to the documents directory.
+dataDir = "data-dir"
+#  initialize Scene class object
+scene = Scene()
+#  initialize an object
+loadPLYOpts = PlyLoadOptions()
+#  Flip to coordinate system.
+loadPLYOpts.flip_coordinate_system = True
+#  load 3D Ply model
+scene.open("data-dir"  + "vase-v2.ply", loadPLYOpts)
+{{< /highlight >}}
 ### **Use of the DirectX X Load Options**
 The code below shows how to set load options before loading a DirectX X file.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-XLoadOptions.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileContentType, Scene
+from aspose.threed.formats import XLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  path to the documents directory.
+dataDir = "data-dir"
+#  initialize Scene class object
+scene = Scene()
+#  initialize an object
+loadXOpts = XLoadOptions(FileContentType.ASCII)
+#  flip to coordinate system.
+loadXOpts.flip_coordinate_system = True
+#  load 3D X file
+scene.open("data-dir"  + "warrior.x", loadXOpts)
+{{< /highlight >}}
 ### **Use RVM load options**
 **C#**
 
@@ -64,4 +161,18 @@ scene.save("LAD-TOP.obj", a3d.FileFormat.WAVEFRONT_OBJ);
 ```
 
 ### **Using FBX Load Options**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-LoadOptions-FBXLoadOptions.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.formats import FbxLoadOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+dataDir = "data-dir"
+#  This will output all properties defined in GlobalSettings in FBX file.
+scene = Scene()
+options = FbxLoadOptions()
+options.keep_builtin_global_settings = true
+opt = options
+scene.open(dataDir + "test.FBX", opt)
+for property in scene.root_node.asset_info.properties:
+    print(property)
+{{< /highlight >}}

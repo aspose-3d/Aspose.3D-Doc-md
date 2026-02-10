@@ -13,4 +13,13 @@ Esta característica es compatible con la versión 19,4 o superior.
 ##  **Trabajar con Radio de la Esfera**
 Usando Aspose.3D for .NET, puede establecer el radio de obtener de una esfera. Para obtener o establecer el radio, puede usar la propiedad `Radius` de la clase `Sphere`. El siguiente es el ejemplo de código para establecer el radio de una esfera.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

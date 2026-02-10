@@ -45,20 +45,65 @@ description: Aspose.3D for Python via .NET API позволяет разрабо
 Сфера-это идеально круглый геометрический объект в трехмерном пространстве, который появляется повсюду, от спортивных мячей до планет в космосе. Давайте использовать примитив Sphere для создания сетки.
 Пример кода ниже преобразует Сферу в сетку.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Sphere class
+convertible = Sphere()
+#  Convert a Sphere to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Конвертировать «Язо» в «Мешок»**
 Коробка описывает различные контейнеры и емкости для постоянного использования в качестве хранилища или для временного использования, часто для транспортировки содержимого. Давайте использовать примитивный ящик для создания сетки. Пример кода ниже преобразует Box в сетку.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Box
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Box class
+convertible = Box()
+#  Convert a Box to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Конвертировать "Plane" в "Meshe"**
 Плоскость тянется бесконечно без толщины. Примером плоскости является плоскость координат. Давайте использовать примитив Plane для создания сетки. Пример кода ниже преобразует плоскость в сетку.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Plane
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Plane class
+convertible = Plane()
+#  Convert a Plane to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Конвертировать «Цилиндр» в «Мешок»**
 Цилиндр-одна из самых основных криволинейных геометрических форм, поверхность, образованная точками на фиксированном расстоянии от заданной прямой линии, оси цилиндра. Его можно использовать во многих местах, например, в качестве стойки перед домом или в качестве приводного вала автомобиля. Для создания сетки позволяет использовать примитивный цилиндр. Пример кода ниже преобразует цилиндр в сетку.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Cylinder class
+convertible = Cylinder()
+#  Convert a Cylinder to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Конвертировать Torus в Meshe**
 Тор-это поверхность вращения, порожденная вращением окружности в трехмерном пространстве вокруг оси, копланарной окружности. Если ось вращения не касается круга, поверхность имеет форму кольца и называется тор вращения. Давайте использовать примитив Torus для создания сетки. Пример кода ниже преобразует Torus в сетку.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Torus
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Torus class
+convertible = Torus()
+#  Convert a Torus to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}

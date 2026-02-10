@@ -18,7 +18,29 @@ Aspose.3D for Java API поддерживает преобразование с�
 
 
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.java" >}}
+{{< highlight "java" >}}
+// Initialize scene object
+Scene scene = new Scene();
+// Initialize Node class object
+Node cubeNode = new Node("box");
+// Get mesh of the Box
+Mesh box = (new Box()).toMesh();
+// Create a customized vertex layout
+VertexDeclaration vd = new VertexDeclaration();
+VertexField position = vd.addField(VertexFieldDataType.F_VECTOR4, VertexFieldSemantic.POSITION);
+vd.addField(VertexFieldDataType.F_VECTOR3, VertexFieldSemantic.NORMAL);
+// Get a triangle mesh
+TriMesh triMesh = TriMesh.fromMesh(box);
+// ExEnd:ConvertBoxMeshtoTriangleMeshCustomMemoryLayout
+// Point node to the Mesh geometry
+cubeNode.setEntity(box);
+// Add Node to a scene
+scene.getRootNode().getChildNodes().add(cubeNode);
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir() + RunExamples.getOutputFilePath("BoxToTriangleMeshCustomMemoryLayoutScene.fbx");
+// Save 3D scene in the supported file formats
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+{{< /highlight >}}
 ##  **Преобразование примитивной формы в сетку**
 Aspose.3D for Java API поддерживает преобразование любой примитивной фигуры в сетку. Примитивные формы включают в себя самые основные и используемые объекты, такие как коробка, сфера, плоскость, цилиндр и тор.
 
@@ -31,20 +53,45 @@ Aspose.3D for Java API поддерживает преобразование л�
 Сфера-это идеально круглый геометрический объект в трехмерном пространстве, который появляется повсюду, от спортивных мячей до планет в космосе. Давайте использовать примитив Sphere для создания сетки.
 Пример кода ниже преобразует Сферу в сетку.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertSpherePrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Sphere class
+IMeshConvertible convertible = new Sphere();
+// Convert a Sphere to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Конвертировать Box в Mesh**
 Коробка описывает различные контейнеры и емкости для постоянного использования в качестве хранилища или для временного использования, часто для транспортировки содержимого. Давайте использовать примитивный ящик для создания сетки. Пример кода ниже преобразует Box в сетку.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertBoxPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Box class
+IMeshConvertible convertible = new Box();
+// Convert a Box to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Преобразование плоскости в сетку**
 Плоскость тянется бесконечно без толщины. Примером плоскости является плоскость координат. Давайте использовать примитив Plane для создания сетки. Пример кода ниже преобразует плоскость в сетку.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertPlanePrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Plane class
+IMeshConvertible convertible = new Plane();
+// Convert a Plane to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Преобразование цилиндра в сетку**
 Цилиндр-одна из самых основных криволинейных геометрических форм, поверхность, образованная точками на фиксированном расстоянии от заданной прямой линии, оси цилиндра. Его можно использовать во многих местах, например, в качестве стойки перед домом или в качестве приводного вала автомобиля. Для создания сетки позволяет использовать примитивный цилиндр. Пример кода ниже преобразует цилиндр в сетку.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertCylinderPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Cylinder class
+IMeshConvertible convertible = new Cylinder();
+// Convert a Cylinder to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}
 ###  **Конвертировать Torus в Mesh**
 Тор-это поверхность вращения, порожденная вращением окружности в трехмерном пространстве вокруг оси, копланарной окружности. Если ось вращения не касается круга, поверхность имеет форму кольца и называется тор вращения. Давайте использовать примитив Torus для создания сетки. Пример кода ниже преобразует Torus в сетку.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-ConvertTorusPrimitivetoMesh.java" >}}
+{{< highlight "java" >}}
+// Initialize object by Torus class
+IMeshConvertible convertible = new Torus();
+// Convert a Torus to Mesh
+Mesh mesh = convertible.toMesh();
+{{< /highlight >}}

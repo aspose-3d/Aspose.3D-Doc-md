@@ -13,4 +13,16 @@ Genom att använda [Aspose.3D for Python via .NET](http://products.aspose.com/3d
 ##  **Bygg Tangent och Binormal data för mesh**
 Vi har lagt till två BuildTangentBinormal metoder i klassen [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier). En metod tar [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) klassobjektet som en parameter och en annan tar [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) klassobjektet som en parameter som visas i den här co. Exempel:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-BuildTangentAndBinormalData-BuildTangentAndBinormalData.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import PolygonModifier
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Load an existing 3D file
+scene = Scene("data-dir"  + "document.fbx")
+#  Triangulate a scene
+PolygonModifier.build_tangent_binormal(scene)
+#  Save 3D scene
+scene.save("out"  + "BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII)
+
+{{< /highlight >}}

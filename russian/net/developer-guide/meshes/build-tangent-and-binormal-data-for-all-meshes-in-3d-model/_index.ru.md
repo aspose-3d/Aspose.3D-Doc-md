@@ -13,4 +13,13 @@ description: Используя Aspose.3D for .NET API, разработчики
 ##  **Построить Tangent и Binormal данные для Mesh**
 Мы добавили два метода BuildTangentBinormal в класс [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier). Один метод принимает объект класса [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) в качестве параметра, а другой-объект класса [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) в качестве параметра, как показано в этом примере кода:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-BuildTangentAndBinormalData-BuildTangentAndBinormalData.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load an existing 3D file
+Scene scene = new Scene(RunExamples.GetDataFilePath("document.fbx"));
+// Triangulate a scene
+PolygonModifier.BuildTangentBinormal(scene);
+// Save 3D scene
+scene.Save(RunExamples.GetOutputFilePath("BuildTangentAndBinormalData_out.fbx"), FileFormat.FBX7400ASCII);
+
+{{< /highlight >}}

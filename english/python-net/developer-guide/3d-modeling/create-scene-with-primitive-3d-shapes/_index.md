@@ -16,4 +16,19 @@ Modeling is the process of pure creation and Aspose.3D API supports creating a s
 ### **Programming Sample**
 This code example creates a scene with primitive 3D shapes and save in the FBX file.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DModeling-Primitive3DModels-Primitive3DModels.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import Box, Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+#  Initialize a Scene object
+scene = Scene()
+#  Create a Box model
+scene.root_node.create_child_node("box", Box())
+#  Create a Cylinder model
+scene.root_node.create_child_node("cylinder", Cylinder())
+#  Save drawing in the FBX format
+output = "out"  + "test.fbx"
+scene.save(output, FileFormat.FBX7500ASCII)
+{{< /highlight >}}

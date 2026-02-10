@@ -29,10 +29,31 @@ keywords: Java , Aspose.3D for Java , The first application using Aspose.3D for 
 
 Следующий пример создает новый файл сцены 3D с нуля. Сначала создайте сцену 3D, а затем сохраните файл в формате FBX.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-CreateEmpty3DDocument.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + "document.fbx";
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}
 
 ###  **Как открыть существующий файл**
 
 Следующий пример открывает существующий файл шаблона 3D с именем "document.fbx", а затем сохраняет сцену или документ 3D в потоке в различных поддерживаемых форматах 3D.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Save3DScene.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+// Open an existing 3D scene
+scene.open(MyDir + "document.fbx");
+// Save Scene to a stream
+try (MemoryStream dstStream = new MemoryStream()) {
+    scene.save(dstStream, FileFormat.FBX7500ASCII);
+}
+// Save Scene to a local path
+scene.save(MyDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+{{< /highlight >}}

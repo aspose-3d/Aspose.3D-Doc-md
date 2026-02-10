@@ -15,7 +15,16 @@ Aspose. يدعم 3D API إنشاء مشاهد 3D جديدة من نقطة الص
 ####  **إنشاء مستند مشهد 3D: عينات برمجة**
 
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-CreateEmpty3DDocument.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+# Create an object of the Scene class
+scene = a3d.Scene()
+# Save 3D scene document
+scene.Save("document.fbx", a3d.FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **قراءة مشهد 3D**
 باستخدام Aspose.3D API ، يمكن للمطورين تحميل جميع مستندات 3D المدعومة. المنشئات المتاحة من**مشهد**تسمح الفئة بذلك وتقبل سلسلة مسار ملف صالحة. Tكان يدعم تنسيقات الملفات القابلة للقراءة هي كما يلي:
 
@@ -44,4 +53,15 @@ Aspose. يدعم 3D API إنشاء مشاهد 3D جديدة من نقطة الص
 
 تكتشف منشئات فئة `Scene` تنسيق المستند 3D داخليًا.
 ###  **قراءة مشهد 3D: عينات برمجة**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-ReadExistingScene.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+
+# Initialize a Scene class object
+scene = Scene()
+# Load an existing 3D document
+scene.open("document.fbx")
+
+
+{{< /highlight >}}

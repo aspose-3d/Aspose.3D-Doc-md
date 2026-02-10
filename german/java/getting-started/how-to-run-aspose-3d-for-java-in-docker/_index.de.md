@@ -21,7 +21,21 @@ In diesem Beispiel erstellen Sie eine Java-Anwendung, die eine einfache 3D-Datei
 
 Erstellen Sie eine Java-Anwendung in Eclipse mit dem folgenden Code. In diesem Beispiel verwenden wir Aspose.3D for Java, um eine Ebene in der 3D-Szene zu erstellen und den Vektor festzulegen und dann im obj-Format zu speichern.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-scene-ChangePlaneOrientation-ChangePlaneOrientation.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Initialize Scene
+Scene scene = new Scene();
+// Initialize Plane
+Plane plane = new Plane();
+// Set Vector
+plane.setUp(new Vector3(1, 1, 3));
+scene.getRootNode().createChildNode(plane);
+//This will generate a plane that has customized orientation
+scene.save(MyDir+"ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+
+{{< /highlight >}}
 
 ### Machen Sie die Java-Anwendung zu einem Glas paket
 

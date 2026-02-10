@@ -15,7 +15,30 @@ Quaternionen werden verwendet, um eine Orientierung im Raum 3D darzustellen. Die
 ###  **Programmier probe**
 Dieses Code beispiel kombiniert zwei Quaternionen und wendet sie auf verschiedene Zylinder an.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-ConcatenateQuaternions.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+Scene scene = new Scene();
+Quaternion q1 = Quaternion.fromEulerAngle(Math.PI * 0.5, 0, 0);
+Vector3.X_AXIS.x = 3;
+Quaternion q2 = Quaternion.fromAngleAxis(-Math.PI * 0.5, Vector3.X_AXIS);
+// Concatenate q1 and q2. q1 and q2 rotate alone x-axis with same angle but different direction,
+// So the concatenated result will be identity quaternion.
+Quaternion q3 = q1.concat(q2);
+// Create 3 cylinders to represent each quaternion
+Node cylinder = scene.getRootNode().createChildNode("cylinder-q1", new Cylinder(0.1, 1, 2));
+cylinder.getTransform().setRotation(q1);
+cylinder.getTransform().setTranslation(new Vector3(-5, 2, 0));
+cylinder = scene.getRootNode().createChildNode("cylinder-q2", new Cylinder(0.1, 1, 2));
+cylinder.getTransform().setRotation(q2);
+cylinder.getTransform().setTranslation(new Vector3(0, 2, 0));
+cylinder = scene.getRootNode().createChildNode("cylinder-q3", new Cylinder(0.1, 1, 2));
+cylinder.getTransform().setRotation(q3);
+cylinder.getTransform().setTranslation(new Vector3(5, 2, 0));
+MyDir = MyDir + "test_out.fbx";
+// Save to file
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+{{< /highlight >}}
 
 
 

@@ -18,7 +18,21 @@ The `Mesh` class object is being used in the code. We can [create a `Mesh` clas
 ## **Create Normal Vectors**
 To have a good visual look on lighting, we need to specify normals information for each vertex, to have a better details, we can also use normal and diffuse map (sure you can use shadow / specular map) to perform per-pixel normal/color. A per-vertex information like normal or vertex color is achieved by `VertexElement`. In Aspose.3D we can map extra information to control points/polygon vertex/polygon/edge, a sample to define normals for vertex:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.py" >}}
+{{< highlight "python" >}}
+from aspose import pycore
+from aspose.threed.entities import MappingMode, ReferenceMode, VertexElementNormal, VertexElementType
+from aspose.threed.utilities import Vector4
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Raw normal data
+normals = [Vector4(-0.577350258, -0.577350258, 0.577350258, 1.0), Vector4(0.577350258, -0.577350258, 0.577350258, 1.0), Vector4(0.577350258, 0.577350258, 0.577350258, 1.0), Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0), Vector4(-0.577350258, -0.577350258, -0.577350258, 1.0), Vector4(0.577350258, -0.577350258, -0.577350258, 1.0), Vector4(0.577350258, 0.577350258, -0.577350258, 1.0), Vector4(-0.577350258, 0.577350258, -0.577350258, 1.0)]
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+normal = mesh.create_element(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT)
+elementNormal = pycore.as_of(normal, VertexElementNormal) if pycore.is_assignable(normal, VertexElementNormal) else None
+#  Copy the data to the vertex element
+elementNormal.data.extend(normals)
+{{< /highlight >}}
 
 The 8 normal vectors are mapped to 8 control points directly, in the next example, we’ll demonstrate a bit more complex scenario.
 ## **Create UV Coordinates**
@@ -33,13 +47,70 @@ The Aspose.3D provides 5 mapping modes:
 
 
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-SetupUVOnCube-SetupUVOnCube.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import MappingMode, ReferenceMode, TextureMapping
+from aspose.threed.utilities import Vector4
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  UVs
+uvs = [Vector4(0.0, 1.0, 0.0, 1.0), Vector4(1.0, 0.0, 0.0, 1.0), Vector4(0.0, 0.0, 0.0, 1.0), Vector4(1.0, 1.0, 0.0, 1.0)]
+#  Indices of the uvs per each polygon
+uvsId = [    0, 1, 3, 2, 2, 3, 5, 4, 4, 5, 7, 6, 6, 7, 9, 8, 1, 10, 11, 3, 12, 0, 2, 13
+]
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Create UVset
+elementUV = mesh.create_element_uv(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT)
+#  Copy the data to the UV vertex element
+elementUV.data.extend(uvs)
+elementUV.indices.extend(uvsId)
+{{< /highlight >}}
 ## **Add Materials to 3D Objects**
 Aspose.3D for Python via .NET allows developers to use shading algorithm for accurate shading and highlights. The Phong has several map inputs which we can use to mask the effect to the node. Physically Based Rendering (PBR) takes some physical properties of objects into account, such an approach provides the appearance of materials as in the real world.
 ### **Phong Material with Texture for Cube**
 When the UV coordinates are ready to use, we can apply a texture on the surface of mesh by using material. Only vertex color cannot describe the details of surface, that’s what materials used for. Here’s an example to attach a Phong material to the cube node:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-MaterialToCube-AddMaterialToCube.py" >}}
+{{< highlight "python" >}}
+from aspose.pydrawing import Color
+from aspose.threed import FileFormat, Node, Scene
+from aspose.threed.shading import PhongMaterial, Texture
+from aspose.threed.utilities import Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Initialize cube node object
+cubeNode = Node("cube")
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Point node to the mesh
+cubeNode.entity = mesh
+#  Add cube to the scene
+scene.root_node.child_nodes.append(cubeNode)
+#  Initiallize PhongMaterial object
+mat = PhongMaterial()
+#  Initiallize Texture object
+diffuse = Texture()
+#  The path to the documents directory.
+#  Set local file path
+diffuse.file_name = "out"  + "surface.dds"
+#  Set Texture of the material
+mat.set_texture("DiffuseColor", diffuse)
+#  Embed raw content data to FBX (only for FBX and optional)
+#  Set file name
+diffuse.file_name = "embedded-texture.png"
+#  Set binary content
+diffuse.content = open("data-dir"  + "aspose-logo.jpg", "rb").read()
+#  Set color
+mat.specular_color = Vector3(Color.red)
+#  Set brightness
+mat.shininess = 100.0
+#  Set material property of the cube object
+cubeNode.material = mat
+output = "out"  + "MaterialToCube.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7400ASCII)
+{{< /highlight >}}
 
 We specified the diffuse texture mapping, and a specular color with a shininess parameter. 
 ### **Apply Physically Based Rendering (PBR) Material to a Box**

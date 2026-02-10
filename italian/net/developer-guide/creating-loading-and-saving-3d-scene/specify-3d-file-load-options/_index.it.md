@@ -21,31 +21,104 @@ Sono disponibili diversi overload del metodo [`Scene.Open`](https://reference.as
 ###  **Utilizzo delle opzioni di carico discre 3DS**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un file Discreet 3DS.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-Discreet3DSOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
+// Sets wheather to use the transformation defined in the first frame of animation track.
+loadOpts.ApplyAnimationTransform = true;
+// Flip the coordinate system
+loadOpts.FlipCoordinateSystem = true;
+// Prefer to use gamma-corrected color if a 3ds file provides both original color and gamma-corrected color.
+loadOpts.GammaCorrectedColor = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadOpts.LookupPaths = new List<string>(new string[] { "textures" });
+
+{{< /highlight >}}
 ###  **Utilizzo delle opzioni di carico Obj**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un file Obj 3D.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-ObjLoadOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize an object
+ObjLoadOptions loadObjOpts = new ObjLoadOptions();
+// Import materials from external material library file
+loadObjOpts.EnableMaterials = true;
+// Flip the coordinate system.
+loadObjOpts.FlipCoordinateSystem = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadObjOpts.LookupPaths.Add("textures");
+
+{{< /highlight >}}
 ###  **Utilizzo delle opzioni di carico STL**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un file STL.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-STLLoadOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize an object
+StlLoadOptions loadSTLOpts = new StlLoadOptions();
+// Flip the coordinate system.
+loadSTLOpts.FlipCoordinateSystem = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadSTLOpts.LookupPaths = new List<string>(new string[] { "textures" });
+
+{{< /highlight >}}
 ###  **Utilizzo delle opzioni di carico U3D**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un file U3D.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-U3DLoadOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize an object
+U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
+// Flip the coordinate system.
+loadU3DOpts.FlipCoordinateSystem = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadU3DOpts.LookupPaths = new List<string>(new string[] { "textures" });
+
+{{< /highlight >}}
 ###  **Utilizzo delle opzioni di carico glTF**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un file glTF.
 ####  **Capovolgi la Coordinata texture V/T**
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-glTFLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize Scene class object
+Scene scene = new Scene();
+// Set load options
+GltfLoadOptions loadOpt = new GltfLoadOptions();
+// The default value is true, usually we don't need to change it. Aspose.3D will automatically flip the V/T texture coordinate during load and save.       
+loadOpt.FlipTexCoordV = true;
+scene.Open("Duck.gltf", loadOpt);
+
+{{< /highlight >}}
 ###  **Utilizzo delle opzioni di carico Ply**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un modello PLY.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-PlyLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// initialize Scene class object
+Scene scene = new Scene();
+// initialize an object
+PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
+// Flip the coordinate system.
+loadPLYOpts.FlipCoordinateSystem = true;
+// load 3D Ply model
+scene.Open("vase-v2.ply", loadPLYOpts);
+
+{{< /highlight >}}
 ###  **Utilizzo delle opzioni di carico DirectX X**
 Il codice C# di seguito mostra come impostare le opzioni di carico prima di caricare un file DirectX X.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-XLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// initialize Scene class object
+Scene scene = new Scene();
+// initialize an object
+XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
+// flip the coordinate system.
+loadXOpts.FlipCoordinateSystem = true;
+// load 3D X file
+scene.Open("warrior.x", loadXOpts);
+
+{{< /highlight >}}
 ###  **Utilizza RVM opzioni di carico**
 **C#**
 
@@ -79,4 +152,15 @@ scene.Save("LAD-TOP.obj", FileFormat.WavefrontOBJ);
 
 {{< /highlight >}}
 ###  **Utilizzo di FBX opzioni di carico**
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-FBXLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+//This will output all properties defined in GlobalSettings in FBX file.
+Scene scene = new Scene();
+var opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
+scene.Open("test.FBX", opt);
+foreach (Property property in scene.RootNode.AssetInfo.Properties)
+{
+    Console.WriteLine(property);
+}
+
+{{< /highlight >}}

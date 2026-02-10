@@ -25,4 +25,17 @@ Aspose.3D for Java API har stöd för att spara 3D scen i olika typer av 3D doku
 ##  **Exportera 3D dokument**
 Aspose.3D for Java API har stöd för att spara en 3D scen i olika typer av 3D dokument.
 ###  **Spara en 3D Scene: Programmeringsprovning**
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Save3DScene.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+// Open an existing 3D scene
+scene.open(MyDir + "document.fbx");
+// Save Scene to a stream
+try (MemoryStream dstStream = new MemoryStream()) {
+    scene.save(dstStream, FileFormat.FBX7500ASCII);
+}
+// Save Scene to a local path
+scene.save(MyDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+{{< /highlight >}}

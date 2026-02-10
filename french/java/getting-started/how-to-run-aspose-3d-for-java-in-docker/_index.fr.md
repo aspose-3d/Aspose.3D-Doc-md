@@ -21,7 +21,21 @@ Dans cet exemple, vous créez une application Java qui crée un simple fichier 3
 
 Créez une application Java dans Eclipse en utilisant le code suivant. Dans cet exemple, nous utilisons Aspose.3D for Java pour créer un plan dans la scène 3D et définir le vecteur, puis l'enregistrer au format obj.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-scene-ChangePlaneOrientation-ChangePlaneOrientation.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Initialize Scene
+Scene scene = new Scene();
+// Initialize Plane
+Plane plane = new Plane();
+// Set Vector
+plane.setUp(new Vector3(1, 1, 3));
+scene.getRootNode().createChildNode(plane);
+//This will generate a plane that has customized orientation
+scene.save(MyDir+"ChangePlaneOrientation.obj", FileFormat.WAVEFRONTOBJ);
+
+{{< /highlight >}}
 
 ### Faire l'application Java dans un paquet jar
 

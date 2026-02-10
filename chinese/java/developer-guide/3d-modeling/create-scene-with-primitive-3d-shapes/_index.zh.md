@@ -15,4 +15,16 @@ Aspose.3D for Java API 支持基元 3D 形状。所有参数化图元将自动�
 ###  **编程示例**
 此代码示例创建一个包含原始 3D 形状的场景，并将其保存在 FBX 文件中。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-modeling-Primitive3DModels.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Initialize a Scene object
+Scene scene = new Scene();
+// Create a Box model
+scene.getRootNode().createChildNode("box", new Box());
+// Create a Cylinder model
+scene.getRootNode().createChildNode("cylinder", new Cylinder());
+// Save drawing in the FBX format
+MyDir = MyDir + RunExamples.getOutputFilePath("test.fbx");
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}

@@ -25,10 +25,81 @@ TSR (трансляция/масштабирование/ротация) чащ�
 
 {{% /alert %}}
 ##  **Вращать от Quaternion**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TransformationToNodeByQuaternion-AddTransformationToNodeByQuaternion.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Node, Scene
+from aspose.threed.utilities import Quaternion, Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Initialize Node class object
+cubeNode = Node("cube")
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Point node to the Mesh geometry
+cubeNode.entity = mesh
+#  Set rotation
+cubeNode.transform.rotation = Quaternion.from_rotation(Vector3(0, 1, 0), Vector3(0.3, 0.5, 0.1))
+#  Set translation
+cubeNode.transform.translation = Vector3(0, 0, 20)
+#  Add cube to the scene
+scene.root_node.child_nodes.append(cubeNode)
+#  The path to the documents directory.
+output = "out"  + "TransformationToNode.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **Поворот от углов Эйлера**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TransformationToNodeByEulerAngles-AddTransformationToNodeByEulerAngles.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Node, Scene
+from aspose.threed.utilities import Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Initialize Node class object
+cubeNode = Node("cube")
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Point node to the Mesh geometry
+cubeNode.entity = mesh
+#  Euler angles
+cubeNode.transform.euler_angles = Vector3(0.3, 0.1, -0.5)
+#  Set translation
+cubeNode.transform.translation = Vector3(0, 0, 20)
+#  Add cube to the scene
+scene.root_node.child_nodes.append(cubeNode)
+#  The path to the documents directory.
+output = "out"  + "TransformationToNode.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **Пользовательская матрица трансформации**
 Мы также можем использовать Matrix напрямую:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-TransformationToNodeByTransformationMatrix-AddTransformationToNodeByTransformationMatrix.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Node, Scene
+from aspose.threed.utilities import Matrix4
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Initialize Node class object
+cubeNode = Node("cube")
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Point node to the Mesh geometry
+cubeNode.entity = mesh
+#  Set custom translation matrix
+cubeNode.transform.transform_matrix = Matrix4(1, -0.3, 0, 0, 0.4, 1, 0.3, 0, 0, 0, 1, 0, 0, 20, 0, 1
+)
+#  Add cube to the scene
+scene.root_node.child_nodes.append(cubeNode)
+#  The path to the documents directory.
+output = "out"  + "TransformationToNode.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}

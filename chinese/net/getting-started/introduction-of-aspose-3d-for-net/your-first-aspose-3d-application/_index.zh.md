@@ -29,10 +29,34 @@ keywords: C# , Aspose.3D for .NET , The first application using Aspose.3D for .N
 
 下面的示例从头开始创建一个新的 3D 场景文件。首先，创建一个 3D 场景，然后以 FBX 格式保存文件。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.Save("document.fbx");
+
+{{< /highlight >}}
 
 ###  **如何打开现有文件**
 
 下面的示例打开名为 “document.fbx” 的现有 3D 模板文件，然后将 3D 场景或文档以各种支持的 3D 格式保存到流中。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+                        
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+
+// Open an existing 3D scene
+scene.Open("document.fbx");
+
+// Save Scene to a stream
+MemoryStream dstStream = new MemoryStream();
+scene.Save(dstStream, FileFormat.FBX7500ASCII);
+            
+// Save Scene to a local path
+scene.Save("output_out.fbx");
+
+{{< /highlight >}}

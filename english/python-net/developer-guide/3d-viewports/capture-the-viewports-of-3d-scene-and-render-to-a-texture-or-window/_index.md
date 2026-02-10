@@ -16,4 +16,49 @@ The `create_render_texture` and `create_render_window` methods exposed by the [`
 ### **Programming Sample**
 This code example captures a viewport of 3D Scene and renders it in two different ways.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DViewPorts-CaptureViewPort-CaptureViewPort.py" >}}
+{{< highlight "python" >}}
+from aspose import pycore
+from aspose.pydrawing import Color, ImageFormat
+from aspose.threed import Scene
+from aspose.threed.entities import Camera, Light, LightType, ProjectionType, RotationMode
+from aspose.threed.render import ITexture2D, RenderParameters, Renderer
+from aspose.threed.utilities import RelativeRectangle, Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+#  load a scene
+scene = Scene("data-dir"  + "VirtualCity.glb")
+camera = Camera(ProjectionType.PERSPECTIVE)
+camera.near_plane = 0.1
+camera.far_plane = 200.0
+camera.rotation_mode = RotationMode.FIXED_DIRECTION
+#  create a camera for capturing a cube map
+cam = camera
+cam.transform.translation = Vector3(5, 6, 0)
+#  create two lights to illuminate the scene
+light = Light()
+light.light_type = LightType.POINT
+scene.root_node.create_child_node(light).transform.translation = Vector3(-10, 7, -10)
+light2 = Light()
+light2.color = Vector3(Color.cadet_blue)
+scene.root_node.create_child_node(light2).transform.translation = Vector3(49, 0, 49)
+#  create a renderer
+with Renderer.create_renderer() as renderer:
+    #  Create a cube map render target with depth texture, depth is required when rendering a scene.
+    rt = renderer.render_factory.create_cube_render_texture(RenderParameters(False), 512, 512)
+    #  create a 2D texture render target with no depth texture used for image processing
+    final = renderer.render_factory.create_render_texture(RenderParameters(False), 32, 0), 1024 * 3, 1024)
+    #  a viewport is required on a render target
+    rt.create_viewport(cam, RelativeRectangle.from_scale(0, 0, 1, 1))
+    renderer.render(rt)
+    #  execute fisheye projection post-processing with the previous rendered cube map as input
+    fisheye = renderer.get_post_processing("fisheye")
+    #  fisheye can have field of view more than 180 degree, so a cube map with all direction is required.
+    fisheye.find_property("fov").value = 360.0
+    #  Specify the cube map rendered from the scene as this post processing's input
+    fisheye.input = rt.targets[0]
+    #  Execute the post processing effect and save the result to render target final
+    renderer.execute(fisheye, final)
+    #  save the texture into disk
+    pycore.cast(ITexture2D, final.targets[0]).save("out"  + "fisheye.png", ImageFormat.png)
+{{< /highlight >}}

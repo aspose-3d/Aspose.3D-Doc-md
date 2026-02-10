@@ -13,4 +13,13 @@ description: 使用 Aspose.3D for .NET API，开发人员可以为任何受支�
 ##  **为网格构建切线和双正数据**
 我们在 [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) 类中添加了两个BuildTangentBinormal方法。一个方法将 [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) 类对象作为参数，另一个方法将 [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) 类对象作为参数，如下代码示例所示:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-BuildTangentAndBinormalData-BuildTangentAndBinormalData.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load an existing 3D file
+Scene scene = new Scene(RunExamples.GetDataFilePath("document.fbx"));
+// Triangulate a scene
+PolygonModifier.BuildTangentBinormal(scene);
+// Save 3D scene
+scene.Save(RunExamples.GetOutputFilePath("BuildTangentAndBinormalData_out.fbx"), FileFormat.FBX7400ASCII);
+
+{{< /highlight >}}

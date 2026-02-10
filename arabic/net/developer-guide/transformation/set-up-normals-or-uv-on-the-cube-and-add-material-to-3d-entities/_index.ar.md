@@ -17,7 +17,29 @@ Aspose.3D for .NET عروض لإدارة الأمور العادية وفوق ا
 ##  **Create Nأورمال Vectors**
 للحصول على نظرة بصرية جيدة على الإضاءة ، نحتاج إلى تحديد المعلومات العادية لكل قمة ، للحصول على تفاصيل أفضل ، يمكننا أيضًا استخدام خريطة عادية ومنتشرة (تأكد من أنه يمكنك استخدام خريطة ظل/منظر) لأداء كل بكسل عادي/لون. يتم تحقيق معلومات لكل قمة الرأس مثل اللون العادي أو الرأس بواسطة VertexElement. في Aspose.3D يمكننا رسم معلومات إضافية للتحكم في النقاط/الرأس المضلع/المضلع/الحافة ، عينة لتحديد الحالات العادية للقمة:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+
+VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal, MappingMode.ControlPoint, ReferenceMode.Direct) as VertexElementNormal;
+// Copy the data to the vertex element
+elementNormal.Data.AddRange(normals);
+
+{{< /highlight >}}
 
 Tيتم تعيين 8 ناقلات طبيعية إلى نقاط التحكم 8 مباشرة ، في المثال التالي ، سنقوم بعرض سيناريو أكثر تعقيدا بعض الشيء.
 ##  **Ordinreate ordinordinordinالمرؤوسين**
@@ -32,13 +54,88 @@ Ere ere ، قمنا فقط بتحديد 4 إحداثيات V V ، ولكن تط�
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupUVOnCube-SetupUVOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// UVs
+Vector4[] uvs = new Vector4[]
+{
+    new Vector4( 0.0, 1.0,0.0, 1.0),
+    new Vector4( 1.0, 0.0,0.0, 1.0),
+    new Vector4( 0.0, 0.0,0.0, 1.0),
+    new Vector4( 1.0, 1.0,0.0, 1.0)
+};
+
+// Indices of the uvs per each polygon
+int[] uvsId = new int[]
+{
+    0,1,3,2,2,3,5,4,4,5,7,6,6,7,9,8,1,10,11,3,12,0,2,13
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder();
+
+// Create UVset
+VertexElementUV elementUV = mesh.CreateElementUV(TextureMapping.Diffuse, MappingMode.PolygonVertex, ReferenceMode.IndexToDirect);
+// Copy the data to the UV vertex element 
+elementUV.Data.AddRange(uvs);
+elementUV.Indices.AddRange(uvsId);
+
+{{< /highlight >}}
 ##  **إضافة مواد إلى منتجات 3D**
 Aspose.3D for .NET يسمح للمطورين باستخدام خوارزمية التظليل لتظليل وإبراز دقيق. يحتوي الفونج على العديد من مدخلات الخرائط التي يمكننا استخدامها لإخفاء التأثير على العقدة. يأخذ التقديم القائم على أساس مادي (PBR) بعض الخصائص الفيزيائية للأشياء في الاعتبار ، ويوفر هذا النهج مظهر المواد كما هو الحال في العالم الحقيقي.
 ###  **Pهونغ Mالمواد مع إخراج Tل Cube**
 Hen hen coordinates coordinates coordinates جاهزة للاستخدام ، يمكننا تطبيق نسيج على سطح الشبكة باستخدام المواد. Only فيرتكس اللون لا يمكن وصف تفاصيل السطح ، وهذا هو ما المواد المستخدمة ل. Here مثال على إرفاق مادة هونغ Pإلى عقدة مكعب:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-MaterialToCube-AddMaterialToCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize scene object
+Scene scene = new Scene();
+            
+// Initialize cube node object
+Node cubeNode = new Node("cube");
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+         
+// Point node to the mesh
+cubeNode.Entity = mesh;
+            
+// Add cube to the scene
+scene.RootNode.ChildNodes.Add(cubeNode);
+            
+// Initiallize PhongMaterial object
+PhongMaterial mat = new PhongMaterial();
+            
+// Initiallize Texture object
+Texture diffuse = new Texture();
+            
+// The path to the documents directory.
+            
+// Set local file path
+diffuse.FileName = RunExamples.GetOutputFilePath("surface.dds");
+
+// Set Texture of the material
+mat.SetTexture("DiffuseColor", diffuse);
+
+// Embed raw content data to FBX (only for FBX and optional)
+// Set file name
+diffuse.FileName = "embedded-texture.png";
+// Set binary content
+diffuse.Content = File.ReadAllBytes(RunExamples.GetDataFilePath("aspose-logo.jpg"));
+
+// Set color
+mat.SpecularColor = new Vector3(Color.Red);
+
+// Set brightness
+mat.Shininess = 100;
+
+// Set material property of the cube object
+cubeNode.Material = mat;
+            
+// Save 3D scene in the supported file formats
+scene.Save("MaterialToCube.fbx");
+
+{{< /highlight >}}
 
 We حدد رسم الخرائط نسيج منتشر ، ولون براق مع معلمة شينينس.
 ###  **Apply Phyبشكل هيسي ased R( PBR) Mإلى ox ox**

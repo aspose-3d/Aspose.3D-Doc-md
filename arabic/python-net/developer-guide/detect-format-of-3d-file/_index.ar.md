@@ -13,4 +13,12 @@ description: باستخدام Aspose.3D for Python via .NET API ، قد يكتش
 ##  **Detect orormat roقواعد اللغة ple وافرة**
 Tانه يتبع رمز العينة يوضح كيفية الكشف عن تنسيق ملف (باستخدام مسار الملف أو تيار) والتحقق من امتداده.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-DetectFormat-DetectFormat.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# Detect the format of a 3D file
+inputFormat = a3d.FileFormat.detect("document.fbx");
+# Display the file format
+print("File Format: " + str(inputFormat))
+
+{{< /highlight >}}

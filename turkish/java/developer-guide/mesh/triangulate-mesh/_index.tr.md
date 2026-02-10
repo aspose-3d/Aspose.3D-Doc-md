@@ -7,7 +7,29 @@ description: Aspose.3D for Java API, oyun endüstrisi için yararlı olan triang
 ---
 Aspose.3D for Java API, oyun endüstrisi için yararlı olan triangulating mesh desteğine sahiptir, çünkü üçgen, gpu donanımının desteklediği tek desteklenen ilkeldir (üçgen olmayan veriler, sürücü seviyesinde triangulated edilir, bu gerçek zamanlı olarak verimsizdir). Örnek kod:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-TriangulateMesh.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Initialize scene object
+Scene scene = new Scene();
+scene.open(MyDir + "document.fbx");
+scene.getRootNode().accept(new NodeVisitor() {
+    @Override
+    public boolean call(Node node) {
+        Mesh mesh = (Mesh)node.getEntity();
+        if (mesh != null)
+        {
+            // Triangulate the mesh
+            Mesh newMesh = PolygonModifier.triangulate(mesh);
+            // Replace the old mesh
+            node.setEntity(newMesh);
+        }
+        return true;
+    }
+});
+MyDir = MyDir + RunExamples.getOutputFilePath("document.fbx");
+scene.save(MyDir, FileFormat.FBX7400ASCII);
+{{< /highlight >}}
 
 
 

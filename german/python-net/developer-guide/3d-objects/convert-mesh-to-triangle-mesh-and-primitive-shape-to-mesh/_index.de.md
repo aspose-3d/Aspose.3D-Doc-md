@@ -45,20 +45,65 @@ Jede Klasse, die eine Schnitts telle IMesh Convertible implementiert, kann beim 
 Eine Kugel ist ein perfekt rundes geometrisches Objekt im drei dimensionalen Raum, das überall von Sport bällen bis zu Planeten im Weltraum erscheint. Verwenden wir das Sphären primitiv, um ein Netz zu erstellen.
 Das folgende Code beispiel konvertiert eine Sphäre in ein Netz.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Sphere class
+convertible = Sphere()
+#  Convert a Sphere to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Eine "Box" in "Mesh" konvertieren**
 Eine Box beschreibt eine Vielzahl von Behältern und Behältern zur dauerhaften Verwendung als Lagerung oder zur vorübergehen den Verwendung, häufig zum Transport von Inhalten. Verwenden wir das Box-Primitiv, um ein Netz zu erstellen. Das folgende Code beispiel konvertiert eine Box in ein Netz.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Box
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Box class
+convertible = Box()
+#  Convert a Box to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertieren Sie eine "Plane" in "Mesh"**
 Eine Ebene erstreckt sich unendlich ohne Dicke. Ein Beispiel für eine Ebene ist eine Koordinaten ebene. Lassen Sie uns das Flugzeug primitiv verwenden, um ein Netz zu erstellen. Das folgende Code beispiel konvertiert eine Ebene in ein Netz.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Plane
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Plane class
+convertible = Plane()
+#  Convert a Plane to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertieren Sie einen "Zylinder" in "Mesh"**
 Ein Zylinder ist eine der grundlegend sten krumm linigen geometrischen Formen, wobei die Oberfläche von den Punkten in einem festen Abstand von einer bestimmten geraden Linie, der Achse des Zylinders, gebildet wird. Sie ist vieler orts einsetzbar, etwa als Pfeiler vor einem Eigenheim oder als Auto antriebswelle. Lassen Sie uns das Zylinder primitiv verwenden, um ein Netz zu erstellen. Das folgende Code beispiel konvertiert einen Zylinder in ein Netz.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Cylinder class
+convertible = Cylinder()
+#  Convert a Cylinder to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Konvertieren Sie einen "Torus" in "Mesh"**
 Ein Torus ist eine Umdrehung fläche, die durch Drehen eines Kreises im drei dimensionalen Raum um eine mit dem Kreis koplanare Achse erzeugt wird. Wenn die Umdrehung achse den Kreis nicht berührt, hat die Oberfläche eine Ringform und wird als Torus der Revolution bezeichnet. Verwenden wir das Torus-Primitiv, um ein Netz zu erstellen. Das folgende Code beispiel konvertiert einen Torus in ein Netz.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Torus
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Torus class
+convertible = Torus()
+#  Convert a Torus to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}

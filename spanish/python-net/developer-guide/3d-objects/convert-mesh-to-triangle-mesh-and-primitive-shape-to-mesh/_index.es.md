@@ -45,20 +45,65 @@ Cualquier clase que implemente una interfaz IMeshConvertible se puede convertir 
 Una esfera es un objeto geométrico perfectamente redondo en un espacio tridimensional que aparece en todas partes, desde balones deportivos hasta planetas en el espacio. Usemos la Esfera primitiva para crear una malla.
 El ejemplo de código a continuación convierte una esfera en malla.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Sphere class
+convertible = Sphere()
+#  Convert a Sphere to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertir una 'Box' a 'Mesh'**
 Una caja describe una variedad de contenedores y receptáculos para uso permanente como almacenamiento, o para uso temporal, a menudo para transportar contenido. Usemos la caja primitiva para crear una malla. El ejemplo de código a continuación convierte un Box en malla.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Box
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Box class
+convertible = Box()
+#  Convert a Box to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertir un 'Plane' a 'Mesh'**
 Un plano se extiende infinitamente sin espesor. Un ejemplo de un plano es un plano de coordenadas. Permite utilizar la primitiva Plano para crear una malla. El siguiente ejemplo de código convierte un plano a malla.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Plane
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Plane class
+convertible = Plane()
+#  Convert a Plane to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertir un 'Cilindo' a 'Malla'**
 Un cilindro es una de las formas geométricas curvilíneas más básicas, la superficie formada por los puntos a una distancia fija de una línea recta dada, el eje del cilindro. Se puede utilizar en muchos lugares, por ejemplo, como pilar frente a una casa o como eje de transmisión de automóviles. Permite usar el cilindro primitivo para crear una malla. El ejemplo de código a continuación convierte un cilindro en malla.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Cylinder class
+convertible = Cylinder()
+#  Convert a Cylinder to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}
 ###  **Convertir un 'Torus' a 'Mesh'**
 Un toro es una superficie de revolución generada al girar un círculo en un espacio tridimensional alrededor de un eje coplanar con el círculo. Si el eje de revolución no toca el círculo, la superficie tiene forma de anillo y se llama toro de revolución. Usemos el primitivo Torus para crear una malla. El siguiente ejemplo de código convierte un Torus a malla.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import Torus
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize object by Torus class
+convertible = Torus()
+#  Convert a Torus to Mesh
+mesh = convertible.to_mesh()
+
+{{< /highlight >}}

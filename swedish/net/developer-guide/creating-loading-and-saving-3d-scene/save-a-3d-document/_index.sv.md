@@ -24,4 +24,20 @@ The article explains how you can save 3D document in various formats using C# 3D
 
 Nedanstående C# kodprov visar hur en 3D Scen eller dokument ska sparas till en ström i olika format som stöds 3D s.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DScene-Save3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+                        
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+
+// Open an existing 3D scene
+scene.Open("document.fbx");
+
+// Save Scene to a stream
+MemoryStream dstStream = new MemoryStream();
+scene.Save(dstStream, FileFormat.FBX7500ASCII);
+            
+// Save Scene to a local path
+scene.Save("output_out.fbx");
+
+{{< /highlight >}}

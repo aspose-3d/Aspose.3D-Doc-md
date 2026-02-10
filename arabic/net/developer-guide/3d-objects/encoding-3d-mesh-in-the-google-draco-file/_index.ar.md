@@ -15,4 +15,15 @@ description: Aspose.3D for .NET API يسمح للمطورين باستيراد �
 ###  **Pروغرامينغ ple وافرة**
 This code example retrieves a `Mesh` of `Sphere`, and then encode in the Google Draco file after specifying a compression level.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-Encode3DMeshinGoogleDraco-Encode3DMeshinGoogleDraco.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+            
+// Create a sphere
+var sphere = new Sphere();
+// Encode the sphere to Google Draco raw data using optimal compression level.
+var b = FileFormat.Draco.Encode(sphere.ToMesh(), 
+    new DracoSaveOptions() { CompressionLevel = DracoCompressionLevel.Optimal });
+// Save the raw bytes to file
+File.WriteAllBytes(RunExamples.GetOutputFilePath("SphereMeshtoDRC_Out.drc"), b);
+
+{{< /highlight >}}

@@ -13,4 +13,13 @@ description: 使用 Aspose.3D for .NET，您可以设置球体的获取半径。
 ##  **以球体半径工作**
 使用 Aspose.3D for .NET，您可以设置球体的获取半径。为了获取或设置半径，您可以使用 `Sphere` 类的 `Radius` 属性。以下是设置球体半径的代码示例。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

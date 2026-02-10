@@ -15,4 +15,21 @@ Il metodo `GenerateNormal` esposto dalla classe [`PolygonModifier`](https://refe
 ###  **Campione di programmazione**
 Questo esempio di codice carica un file 3DS, visita tutti i nodi e crea dati normali per tutte le mesh.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-GenerateDataForMeshes-GenerateDataForMeshes.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            // Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
+            Scene s = new Scene(RunExamples.GetDataFilePath("camera.3ds"));
+            // Visit all nodes and create normal data for all meshes
+            s.RootNode.Accept(delegate(Node n)
+            {
+                Mesh mesh = n.GetEntity<Mesh>();
+                if (mesh != null)
+                {
+                    VertexElementNormal normals = PolygonModifier.GenerateNormal(mesh);
+                    mesh.VertexElements.Add(normals);
+                }
+                return true;
+            });
+
+{{< /highlight >}}

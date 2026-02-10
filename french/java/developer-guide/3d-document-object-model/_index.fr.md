@@ -86,7 +86,25 @@ Un `Geometry` se compose de points de contrôle et `VertexElement` qui a défini
 
 Vous pouvez créer manuellement un élément de sommet et lui attribuer des données. L'exemple de code suivant montre comment faire ceci:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-SetupNormalsOnCube.java" >}}
+{{< highlight "java" >}}
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+// Call Common class create mesh using polygon builder method to set mesh instance
+Mesh mesh = Common.createMeshUsingPolygonBuilder();
+VertexElementNormal elementNormal = (VertexElementNormal)mesh.createElement(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT);
+// Copy the data to the vertex element
+elementNormal.setData(normals);
+{{< /highlight >}}
 
 ### Types de géométrie primitive
 
@@ -110,7 +128,21 @@ En utilisant ces types primitifs prédéfinis dans Aspose.3D, vous pouvez facile
 
 L'exemple de code suivant montre comment créer une sphère avec un rayon spécifié:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-objects-WorkingWithSphereRadius-WorkingWithSphereRadius.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+
+        // initialize a scene
+        Scene scene = new Scene();
+        // initialize a Sphere
+        Sphere sphere = new Sphere();
+        // set radius
+        sphere.setRadius(10);
+        // add sphere to the scene
+        scene.getRootNode().createChildNode(sphere);
+        // save scene
+        scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
+
+{{< /highlight >}}
 
 
 ### Types d'extrusion
@@ -128,7 +160,22 @@ Dans Aspose.3D, nous avons fourni 3 types d'extrusion:
 
 L'exemple de code suivant montre comment créer une extrusion linéaire à partir d'un profil de texte:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-LinearExtrusion-Text.java" >}}
+{{< highlight "java" >}}
+    // Load font from bytes
+    var font = FontFile.parse(Files.readAllBytes(Paths.get("test-font.otf")));
+    // Create a Text profile
+    var text = new Text();
+    text.setFont(font);
+    text.setContent("Hello World");
+    text.setFontSize(10.0f);
+    // Extrude the profile to give it a thickness.
+    var linear = new LinearExtrusion(text, 10).toMesh();
+    // create a scene from the mesh and save it to stl file
+    var scene = new Scene(linear);
+    scene.save("test.stl");
+
+
+{{< /highlight >}}
 
 
 ### Types de courbe
@@ -174,7 +221,24 @@ Avec la prise en charge d'une gamme de types de matériaux et la possibilité de
 
 L'exemple de code suivant montre comment appliquer un matériau PBR à une géométrie:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-ApplyPBRMaterialToBox.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// initialize a scene
+Scene scene = new Scene();
+// initialize PBR material object
+PbrMaterial mat = new PbrMaterial();
+// an almost metal material
+mat.setMetallicFactor(0.9);
+// material surface is very rough
+mat.setRoughnessFactor(0.9);
+// create a box to which the material will be applied
+Node boxNode = scene.getRootNode().createChildNode("box", new Box());
+boxNode.setMaterial(mat);
+// save 3d scene into USDZ format
+scene.save(MyDir + "PBR_Material_Box_Out.usdz");
+
+{{< /highlight >}}
 
 ## Relation objets d'animation
 Aspose.3D fournit un support d'animation au niveau des données, et le support de calcul est en cours de développement.

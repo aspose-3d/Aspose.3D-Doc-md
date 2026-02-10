@@ -13,4 +13,13 @@ Diese Funktion wird von Version 19.4 oder höher unterstützt.
 ##  **Arbeiten Sie mit Radius of Sphere**
 Mit Aspose.3D for .NET können Sie den Abhol radius einer Kugel festlegen. Um einen Radius zu erhalten oder festzulegen, können Sie die Eigenschaft `Radius` der Klasse `Sphere` verwenden. Das Folgende ist das Code beispiel, um den Radius einer Kugel festzulegen.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

@@ -58,11 +58,22 @@ När du ringer `SetLicense`-metoden, ska licensnamnet som du skickar över vara 
 
 **Exempel:**
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingFile.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+license.SetLicense("Aspose._3D.lic");
+
+{{< /highlight >}}
 ###  ` `**Ladda en licens från ett strömobjekt**
 Följande exempel visar hur man laddar en licens från en ström.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingStreamObject.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+FileStream myStream = new FileStream("Aspose._3D.lic", FileMode.Open);
+license.SetLicense(myStream);
+
+{{< /highlight >}}
 ##  **Använd licens med inbäddad resurs.**
 Ett sätt att tillämpa en licens är att ställa in den [Använder ett fil eller ett strömobjekt](). Ett annat snyggt sätt att förpacka licensen med din ansökan och se till att det inte kommer att förloras är att inkludera den som en inbäddad resurs. in i en av de sammansättningar som kallar komponentens DLL (inklusive i Aspose. 3D)
 
@@ -75,10 +86,25 @@ För att inkludera licensfilen som en inbäddad resurs:
 
 Följande kod snippet används för att ställa in licensen.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingEmbeddedResource.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Instantiate the License class
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+
+// Pass only the name of the license file embedded in the assembly
+license.SetLicense("Aspose._3D.lic");
+
+{{< /highlight >}}
 ##  **Använd mätt licens**
 Aspose.3D for .NET API tillåter utvecklare att applicera uppmätta licens. Det är en ny licensmekanism. Den nya tillståndsmekanismen kommer att användas tillsammans med befintlig tillståndsmetod. De kunder som vill faktureras baserat på användningen av API-funktionerna kan använda den mättade licensieringen. För mer information, se [Uppmätt Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) avsnittet.
 
 En ny klass [`Metered`](https://reference.aspose.com/3d/net/aspose.threed/metered) har lagts till för att applicera uppmätta nyckel. Detta kodexempel visar hur man anger offentliga och privata nycklar:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize a Metered license class object
+Aspose.ThreeD.Metered metered = new Aspose.ThreeD.Metered();
+// Set public and private keys
+metered.SetMeteredKey("your-public-key", "your-private-key");
+
+{{< /highlight >}}

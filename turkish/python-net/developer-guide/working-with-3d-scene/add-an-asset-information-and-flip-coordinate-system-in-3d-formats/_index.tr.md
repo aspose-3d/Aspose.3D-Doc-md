@@ -19,7 +19,26 @@ Meta veriler, bilgi kaynağını açıklayan, açıklayan, açıklayan veya daha
 
 In this example, we assume the scene is created by a CAD tool called “Egypt” and it’s designed by “Manualdesk”:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "AssetInformation-InformationToScene-AddAssetInformationToScene.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize a 3D scene
+scene = Scene()
+#  Set application/tool name
+scene.asset_info.application_name = "Egypt"
+#  Set application/tool vendor name
+scene.asset_info.application_vendor = "Manualdesk"
+#  We use ancient egyption measurement unit Pole
+scene.asset_info.unit_name = "pole"
+#  One Pole equals to 60cm
+scene.asset_info.unit_scale_factor = 0.6
+#  The saved file
+output = "out"  + "InformationToScene.fbx"
+#  Save scene to 3D supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **Koordinat sistemini 3D formatlarında çevir**
 Aspose.3D for Python via .NET API allows users to flip coordinate system in the OBJ, 3DS, STL and U3D formats.
 

@@ -42,25 +42,48 @@ Icيمكن تطبيقها من مواقع مختلفة:
 ###  **Apply Lإيسنس باستخدام ile إيل أو Sترام Oحقن**
 في هذا المثال Aspose. سيحاول 3D العثور على ملف الترخيص في المجلد الذي يحتوي على برطمانات تطبيقك.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingFile.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose._3D.lic");
+{{< /highlight >}}
 
 Iينهي رخصة من تيار.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ApplyLicenseUsingStreamObject.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+try(FileInputStream myStream = new FileInputStream("Aspose._3D.lic")) {
+    license.setLicense(myStream);
+}
+{{< /highlight >}}
 ###  **Inكلادينغ Lإيسنس ile إيلي كما Ebedded Resource**
 يمكنك ببساطة نسخ ملف LIC في المجلد `resources` لمشروعك. يجب إعادة بناء المشروع. ملف lic إلى التطبيق. ملف الجرة. بعد ذلك يمكنك تطبيق الترخيص باستخدام الرمز مثل أدناه:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-FileAsEmbeddedResource.java" >}}
+{{< highlight "java" >}}
+License lic = new License();
+lic.setLicense(Program.class.getResourceAsStream("Aspose.3D.Java.lic"));
+{{< /highlight >}}
 ###  **Valعلى Lإيسنس**
 It من الممكن التحقق من صحة إذا تم تعيين الترخيص بشكل صحيح أم لا. Tانه Lفئة إيسنس لديه حقل إيسينسيد التي سوف يعود صحيح إذا تم تعيين الترخيص بشكل صحيح.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-ValidateLicense.java" >}}
+{{< highlight "java" >}}
+License license = new License();
+license.setLicense("Aspose.3D.Java.lic");
+    	  
+if (License.isLicenseSet()) {
+    System.out.println("License is Set!");
+}
+{{< /highlight >}}
 ##  **Apply tered tered إيسنس**
 Aspose.3D يسمح للمطورين بتطبيق مفتاح مقنن. إنها آلية ترخيص جديدة. سيتم استخدام آلية الترخيص الجديدة إلى جانب طريقة الترخيص الحالية. يمكن للعملاء الذين يرغبون في الحصول على فواتير بناءً على استخدام ميزات API استخدام الترخيص المقنن. لمزيد من التفاصيل ، يرجى الرجوع إلى قسم [مقننة Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered).
 
 تم إدخال فئة جديدة `Metered` لتطبيق المفتاح المقنن. فيما يلي رمز عينة يوضح كيفية تعيين المفتاح العام والخاص المقنن.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-license-PublicAndPrivateKeys.java" >}}
+{{< highlight "java" >}}
+// Initialize a Metered license class object
+Metered metered = new Metered();
+// Set public and private keys
+metered.setMeteredKey("your-public-key", "your-private-key");
+{{< /highlight >}}
 ##  **Hen الدجاجة إلى Apply**
 Follow هذه القواعد البسيطة:
 

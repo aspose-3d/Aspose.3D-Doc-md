@@ -21,31 +21,104 @@ Det finns flera överbelastningar av [`Scene.Open`](https://reference.aspose.com
 ###  **Use of the Discreet 3DS Load Options**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en Diskret 3DS-fil lads.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-Discreet3DSOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Discreet3dsLoadOptions loadOpts = new Discreet3dsLoadOptions();
+// Sets wheather to use the transformation defined in the first frame of animation track.
+loadOpts.ApplyAnimationTransform = true;
+// Flip the coordinate system
+loadOpts.FlipCoordinateSystem = true;
+// Prefer to use gamma-corrected color if a 3ds file provides both original color and gamma-corrected color.
+loadOpts.GammaCorrectedColor = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadOpts.LookupPaths = new List<string>(new string[] { "textures" });
+
+{{< /highlight >}}
 ###  **Användning av Obj-lastalternativ**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en 3D Obj-fil laddas.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-ObjLoadOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize an object
+ObjLoadOptions loadObjOpts = new ObjLoadOptions();
+// Import materials from external material library file
+loadObjOpts.EnableMaterials = true;
+// Flip the coordinate system.
+loadObjOpts.FlipCoordinateSystem = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadObjOpts.LookupPaths.Add("textures");
+
+{{< /highlight >}}
 ###  **Användning av laddandealternativ för STLName**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en STL-fil lads.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-STLLoadOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize an object
+StlLoadOptions loadSTLOpts = new StlLoadOptions();
+// Flip the coordinate system.
+loadSTLOpts.FlipCoordinateSystem = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadSTLOpts.LookupPaths = new List<string>(new string[] { "textures" });
+
+{{< /highlight >}}
 ###  **Användning av laddandealternativ för U3DName**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en U3D-fil laddas.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-U3DLoadOption.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize an object
+U3dLoadOptions loadU3DOpts = new U3dLoadOptions();
+// Flip the coordinate system.
+loadU3DOpts.FlipCoordinateSystem = true;
+// Configure the look up paths to allow importer to find external dependencies.
+loadU3DOpts.LookupPaths = new List<string>(new string[] { "textures" });
+
+{{< /highlight >}}
 ###  **Användning av laddandealternativ för glTFName**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en glTF-fil laddas.
 ####  **Vänd V/T texturkoordinat**
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-glTFLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize Scene class object
+Scene scene = new Scene();
+// Set load options
+GltfLoadOptions loadOpt = new GltfLoadOptions();
+// The default value is true, usually we don't need to change it. Aspose.3D will automatically flip the V/T texture coordinate during load and save.       
+loadOpt.FlipTexCoordV = true;
+scene.Open("Duck.gltf", loadOpt);
+
+{{< /highlight >}}
 ###  **Användning av Ply-lastalternativ**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en PLY-modell lads.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-PlyLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// initialize Scene class object
+Scene scene = new Scene();
+// initialize an object
+PlyLoadOptions loadPLYOpts = new PlyLoadOptions();
+// Flip the coordinate system.
+loadPLYOpts.FlipCoordinateSystem = true;
+// load 3D Ply model
+scene.Open("vase-v2.ply", loadPLYOpts);
+
+{{< /highlight >}}
 ###  **Användning av DirectX X-lastalternativ**
 C#-koden nedan visar hur laddningsalternativ ska ställas innan en DirectX-fil laddas.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-XLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// initialize Scene class object
+Scene scene = new Scene();
+// initialize an object
+XLoadOptions loadXOpts = new XLoadOptions(FileContentType.ASCII);
+// flip the coordinate system.
+loadXOpts.FlipCoordinateSystem = true;
+// load 3D X file
+scene.Open("warrior.x", loadXOpts);
+
+{{< /highlight >}}
 ###  **Use RVM load options**
 **C#**
 
@@ -79,4 +152,15 @@ scene.Save("LAD-TOP.obj", FileFormat.WavefrontOBJ);
 
 {{< /highlight >}}
 ###  **Using FBX Load Options**
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-LoadOptions-FBXLoadOptions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+//This will output all properties defined in GlobalSettings in FBX file.
+Scene scene = new Scene();
+var opt = new FbxLoadOptions() { KeepBuiltinGlobalSettings = true };
+scene.Open("test.FBX", opt);
+foreach (Property property in scene.RootNode.AssetInfo.Properties)
+{
+    Console.WriteLine(property);
+}
+
+{{< /highlight >}}

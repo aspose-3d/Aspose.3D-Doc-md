@@ -14,7 +14,37 @@ Aspose.3D for Python via .NET предлагает построить иерар
 
 В Aspose.3D каждый экземпляр `Node` может иметь несколько дочерних узлов, в этом примере мы создали узел с двумя кубическими узлами, если мы повернем корневой узел, все дочерние узлы также будут затронуты:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-NodeHierarchy-AddNodeHierarchy.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.utilities import Quaternion, Vector3
+import math
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Get a child node object
+top = scene.root_node.create_child_node()
+#  Each cube node has their own translation
+cube1 = top.create_child_node("cube1")
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Point node to the mesh
+cube1.entity = mesh
+#  Set first cube translation
+cube1.transform.translation = Vector3(-10, 0, 0)
+cube2 = top.create_child_node("cube2")
+#  Point node to the mesh
+cube2.entity = mesh
+#  Set second cube translation
+cube2.transform.translation = Vector3(10, 0, 0)
+#  The rotated top node will affect all child nodes
+top.transform.rotation = Quaternion.from_euler_angle(math.pi, 4, 0)
+#  The path to the documents directory.
+output = "out"  + "NodeHierarchy.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **Поделитесь данными геометрии Mesh между несколькими узлами**
 Чтобы уменьшить потребность в памяти, один экземпляр класса [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) может быть привязан к различным экземплярам класса [`Node`](https://reference.aspose.com/3d/net/aspose.threed/node). Предположим, что вам нужна система, в которой все кубики 3D кажутся неразличимыми, но вам требуется большое количество из них. Вы можете сэкономить память, сделав один объект Mesh при старте системы. В этот момент каждый раз, когда вам требуется другая форма, вы делаете другой объект Node, а затем указываете этот узел на одну Mesh. Это называется инстанцирование. Aspose.3D for Python via .NET API позволяют выполнять инстрижку.
 ###  **Пример установки**
@@ -28,6 +58,38 @@ Aspose.3D for Python via .NET предлагает построить иерар
 
 Демонстрация кода примера:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-MeshGeometryData-ShareMeshGeometryData.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Node, Scene
+from aspose.threed.shading import LambertMaterial
+from aspose.threed.utilities import Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Define color vectors
+colors = [Vector3(1, 0, 0), Vector3(0, 1, 0), Vector3(0, 0, 1)]
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+idx = 0
+for color in colors:
+    #  Initialize cube node object
+    cube = Node("cube")
+    cube.entity = mesh
+    mat = LambertMaterial()
+    #  Set color
+    mat.diffuse_color = color
+    #  Set material
+    cube.material = mat
+    #  Set translation
+    cube.transform.translation = Vector3(idx * 20, 0, 0)
+    idx = idx + 1
+    #  Add cube node
+    scene.root_node.child_nodes.append(cube)
+#  The path to the documents directory.
+output = "out"  + "MeshGeometryData.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7400ASCII)
+
+{{< /highlight >}}
 
 В этом примере мы создали 3 кубических узла, которые имеют одну и ту же сетку, каждый из них имеет разный материал с разными цветами.

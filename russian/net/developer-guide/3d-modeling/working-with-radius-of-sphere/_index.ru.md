@@ -13,4 +13,13 @@ description: Используя Aspose.3D for .NET, можно задать ра
 ##  **Работа с радиусом сферы**
 Используя Aspose.3D for .NET, можно задать радиус получения сферы. Чтобы получить или задать радиус, вы можете использовать свойство `Radius` класса `Sphere`. Ниже приведен пример кода для установки радиуса сферы.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

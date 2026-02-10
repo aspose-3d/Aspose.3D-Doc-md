@@ -14,4 +14,11 @@ Using Aspose.3D for .NET API, developers may detect the format of supported 3D f
 ##  **Detect Format rorogramming ample ample**
 Aşağıdaki C# örnek kodu, 3D dosyasının dosya biçimini (dosya yolunu veya akışını kullanarak) nasıl tespit edeceğinizi ve uzantısını kontrol edeceğinizi gösterir.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-DetectFormat-DetectFormat.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Detect the format of a 3D file
+FileFormat inputFormat = FileFormat.Detect("document.fbx");
+// Display the file format
+Console.WriteLine("File Format: " + inputFormat.ToString());
+
+{{< /highlight >}}

@@ -15,7 +15,33 @@ description: Aspose.3D for .NET 允许开发人员将两个旋转转换合并为
 ###  **编程示例**
 此代码示例将两个四元数组合在一起，并将它们应用于不同的圆柱体。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-ConcatenateQuaternions-ConcatenateQuaternions.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            Scene scene = new Scene();
+
+            Quaternion q1 = Quaternion.FromEulerAngle(Math.PI * 0.5, 0, 0);
+            Quaternion q2 = Quaternion.FromAngleAxis(-Math.PI * 0.5, Vector3.XAxis);
+            // Concatenate q1 and q2. q1 and q2 rotate alone x-axis with same angle but different direction,
+            // So the concatenated result will be identity quaternion.
+            Quaternion q3 = q1.Concat(q2);
+
+            // Create 3 cylinders to represent each quaternion
+            Node cylinder = scene.RootNode.CreateChildNode("cylinder-q1", new Cylinder(0.1, 1, 2));
+            cylinder.Transform.Rotation = q1;
+            cylinder.Transform.Translation = new Vector3(-5, 2, 0);
+
+            cylinder = scene.RootNode.CreateChildNode("cylinder-q2", new Cylinder(0.1, 1, 2));
+            cylinder.Transform.Rotation = q2;
+            cylinder.Transform.Translation = new Vector3(0, 2, 0);
+
+            cylinder = scene.RootNode.CreateChildNode("cylinder-q3", new Cylinder(0.1, 1, 2));
+            cylinder.Transform.Rotation = q3;
+            cylinder.Transform.Translation = new Vector3(5, 2, 0);
+            // Save to file
+            scene.Save("test_out.fbx");
+
+{{< /highlight >}}
 
 
 **结果3ds MAX**

@@ -19,4 +19,21 @@ Tieni presente che non puoi istruire Aspose. Diagramma per Python via .NET API p
 ##  **Crea 3D PDF con un cilindro e renderizzato in modalità illustrazione ombreggiata con illuminazione ottimizzata CAD**
 Il metodo Salva della classe `Scene` consente di salvare una scena 3D nel formato PDF. Gli sviluppatori possono caricare qualsiasi file supportato da 3D o creare una nuova scena 3D, possono salvare una scena 3D nel formato PDF come mostrato in questo esempio di codice:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-Save3DInPdf-Save3DInPdf.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+from aspose.threed.entities import Cylinder
+from aspose.threed.shading import PhongMaterial
+from aspose.threed.formats import PdfSaveOptions, PdfLightingScheme, PdfRenderMode
+# Create a new scene
+scene = Scene()
+# Create a cylinder child node
+cylinder = scene.root_node.create_child_node("cylinder", Cylinder())
+cylinder.material = PhongMaterial()
+# Set rendering mode and lighting scheme
+opt = PdfSaveOptions()
+opt.lighting_scheme = PdfLightingScheme.CAD
+opt.render_mode = PdfRenderMode.SHADED_ILLUSTRATION
+# Save in the PDF format
+scene.save("output_out.pdf", opt)
+
+{{< /highlight >}}

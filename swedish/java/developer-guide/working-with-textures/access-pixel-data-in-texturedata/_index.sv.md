@@ -18,10 +18,34 @@ Detta stöds av version 23.4 eller mer.
 Använd följande klass för att definiera texturkodare och texturdekodare:
 
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-TextureData-mapPixel.java" >}}
+{{< highlight "java" >}}
+TextureData tex = new TextureData(128, 128, PixelFormat.A8R8G8B8);
+try (PixelMapping mapping = tex.mapPixels(PixelMapMode.WRITE_ONLY))
+{
+    var pixels = mapping.getData();
+    var p = 0;
+    for(var y = 0; y < 128; y++)
+    {
+        for (var x = 0; x < 128; x++)
+        {
+            pixels[p + 0] = (byte)255;//alpha
+            pixels[p + 1] = (byte)255;//red
+            pixels[p + 2] = 0;//green
+            pixels[p + 3] = 0;//blue
+            p += 4;//next pixel
+        }
+    }
+}
+tex.save("red.png");
+
+{{< /highlight >}}
 
 ##  **Omvandla bildpunktsformatt**
 
 Med transformPixelFormat kan du enkelt ändra texturens pixelformat:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-TextureData-transformPixelFormat.java" >}}
+{{< highlight "java" >}}
+var tex = TextureData.fromFile("test.png");
+tex.transformPixelFormat(PixelFormat.G8);//now the texture data only contains green channel in pixel.
+
+{{< /highlight >}}

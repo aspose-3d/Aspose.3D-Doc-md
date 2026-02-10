@@ -13,4 +13,13 @@ Con Aspose.3D for Java API, gli sviluppatori possono creare dati tangenti e bino
 ##  **Costruisci dati Tangenti e Binormal per Mesh**
 Abbiamo aggiunto due metodi `buildTangentBinormal` nella classe `PolygonModifier`. Un metodo prende l'oggetto della classe `Scene` come parametro e un altro prende l'oggetto della classe `Mesh` come parametro, come mostrato in questo esempio di codice:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-BuildTangentAndBinormalData.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load an existing 3D file
+Scene scene = new Scene( MyDir + "document.fbx");
+// Triangulate a scene
+PolygonModifier.buildTangentBinormal(scene);
+// Save 3D scene
+scene.save(MyDir + "BuildTangentAndBinormalData_out.fbx", FileFormat.FBX7400ASCII);
+{{< /highlight >}}

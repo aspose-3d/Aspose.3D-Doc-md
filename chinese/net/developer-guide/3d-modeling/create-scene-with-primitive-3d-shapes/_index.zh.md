@@ -15,4 +15,17 @@ description: 使用 Aspose.3D for .NET，开发人员可以定义具有原始 3D
 ###  **编程示例**
 此代码示例创建一个包含原始 3D 形状的场景，并将其保存在 FBX 文件中。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DModeling-Primitive3DModels-Primitive3DModels.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+// Initialize a Scene object
+Scene scene = new Scene();
+// Create a Box model
+scene.RootNode.CreateChildNode("box", new Box());
+// Create a Cylinder model
+scene.RootNode.CreateChildNode("cylinder", new Cylinder());
+// Save drawing in the FBX format
+scene.Save("test.fbx");
+
+
+{{< /highlight >}}

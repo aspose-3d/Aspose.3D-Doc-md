@@ -15,4 +15,15 @@ Kodmetoden som exponeras av klassen `DracoFormat` kan användas för att koda en
 ###  **Programmeringsprova**
 Detta kodexempel hämtar Mesh of Sphere, och koda sedan i filen Google Draco efter att en komprimeringsnivå har angetts.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-Encode3DMeshinGoogleDraco.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Create a sphere
+Sphere sphere = new Sphere();
+// Encode the sphere to Google Draco raw data using optimal compression level.
+DracoSaveOptions opt = new DracoSaveOptions();
+opt.setCompressionLevel(DracoCompressionLevel.OPTIMAL);
+byte[] b = FileFormat.DRACO.encode(sphere.toMesh(), opt);
+// Save the raw bytes to file
+Files.write(Paths.get(MyDir, "SphereMeshtoDRC_Out.drc"), b);
+{{< /highlight >}}

@@ -30,4 +30,18 @@ Aspose.3D for .NET directly writes the information about the API and Version Num
 ##  **Create a 3D PDF with a Cylinder, and Rendered in Shaded Illustration Mode with CAD Optimized Lighting**
 تتيح طريقة التوفير لفئة `Scene` حفظ مشهد 3D بتنسيق PDF. يمكن للمطورين تحميل أي ملف مدعوم بمبلغ 3D أو إنشاء مشهد 3D جديد ، ويمكنهم توفير مشهد 3D بتنسيق PDF كما هو موضح في مثال رمز C# هذا:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DInPdf-Save3DInPdf.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            // Create a new scene
+            Scene scene = new Scene();
+            // Create a cylinder child node
+            scene.RootNode.CreateChildNode("cylinder", new Cylinder()).Material = new PhongMaterial() { DiffuseColor = new Vector3(Color.DarkCyan) };
+            // Set rendering mode and lighting scheme
+            PdfSaveOptions opt = new PdfSaveOptions();
+            opt.LightingScheme = PdfLightingScheme.CAD;
+            opt.RenderMode = PdfRenderMode.ShadedIllustration;
+            // Save in the PDF format
+            scene.Save("output_out.pdf", opt);
+
+{{< /highlight >}}

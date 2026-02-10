@@ -15,4 +15,17 @@ description: Используя Aspose.3D for .NET, разработчики м�
 ###  **Образец программирования**
 В этом примере кода создается сцена с примитивными фигурами 3D и сохраняется в файле FBX.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DModeling-Primitive3DModels-Primitive3DModels.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+// Initialize a Scene object
+Scene scene = new Scene();
+// Create a Box model
+scene.RootNode.CreateChildNode("box", new Box());
+// Create a Cylinder model
+scene.RootNode.CreateChildNode("cylinder", new Cylinder());
+// Save drawing in the FBX format
+scene.Save("test.fbx");
+
+
+{{< /highlight >}}

@@ -25,14 +25,79 @@ description: Aspose.3D for .NET API позволяет разработчика�
 
 Ниже примера преобразует Sphere в треугольную сетку с пользовательским макетом памяти.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertSphereMeshtoTriangleMeshCustomMemoryLayout-ConvertSphereMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+[StructLayout(LayoutKind.Sequential)]
+struct MyVertex
+{
+    [Semantic(VertexFieldSemantic.Position)]
+    FVector3 position;
+    [Semantic(VertexFieldSemantic.Normal)]
+    FVector3 normal;
+}
+
+public static void Run()
+{
+    // Initialize scene object
+    Scene scene = new Scene();
+
+    // Initialize Node class object
+    Node cubeNode = new Node("sphere");
+
+    Mesh sphere = (new Sphere()).ToMesh();
+    // Convert any mesh into typed TriMesh
+    var myMesh = TriMesh<MyVertex>.FromMesh(sphere);
+    // Get the vertex data in customized vertex structure.
+    MyVertex[] vertex = myMesh.VerticesToTypedArray();
+    // Get the 32bit and 16bit indices
+    int[] indices32bit;
+    ushort[] indices16bit;
+    myMesh.IndicesToArray(out indices32bit);
+    myMesh.IndicesToArray(out indices16bit);
+    using (MemoryStream ms = new MemoryStream())
+    {
+        // Or we can write the vertex directly into stream like:
+        myMesh.WriteVerticesTo(ms);
+        // The indice data can be directly write to stream, we support 32-bit and 16-bit indice.
+        myMesh.Write16bIndicesTo(ms);
+        myMesh.Write32bIndicesTo(ms);
+    }
+    // Point node to the Mesh geometry
+    cubeNode.Entity = sphere;
+
+    // Add Node to a scene
+    scene.RootNode.ChildNodes.Add(cubeNode);
+
+    // The path to the documents directory.
+    string output = RunExamples.GetOutputFilePath("SphereToTriangleMeshCustomMemoryLayoutScene.fbx");
+
+    // Save 3D scene in the supported file formats
+    scene.Save(output, FileFormat.FBX7400ASCII);
+
+    Console.WriteLine("Indices = {0}, Actual vertices = {1}, vertices before merging = {2}", myMesh.IndicesCount, myMesh.VerticesCount, myMesh.UnmergedVerticesCount);
+    Console.WriteLine("Total bytes of vertices in memory {0}bytes", myMesh.VerticesSizeInBytes);
+    Console.WriteLine("\n Converted a Sphere mesh to triangle mesh with custom memory layout of the vertex successfully.\nFile saved at " + output);
+}
+
+{{< /highlight >}}
 
 
 
 
 Ниже примера преобразует Box в треугольную сетку с пользовательским макетом памяти.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout-ConvertBoxMeshtoTriangleMeshCustomMemoryLayout.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Get mesh of the Box
+Mesh box = (new Box()).ToMesh();
+// Create a customized vertex layout
+VertexDeclaration vd = new VertexDeclaration();
+VertexField position = vd.AddField(VertexFieldDataType.FVector4, VertexFieldSemantic.Position);
+vd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Normal);
+// Get a triangle mesh
+TriMesh triMesh = TriMesh.FromMesh(box);
+
+{{< /highlight >}}
 ##  **Преобразовать примитивный в сетку**
 Используя Aspose.3D for .NET, разработчики могут преобразовать любой примитивный объект в сетку. Примитивы включают в себя многие из самых основных и наиболее часто используемых объектов, таких как коробка, сфера, плоскость, цилиндр и тор.
 
@@ -45,20 +110,59 @@ description: Aspose.3D for .NET API позволяет разработчика�
 Сфера-это идеально круглый геометрический объект в трехмерном пространстве, который появляется повсюду, от спортивных мячей до планет в космосе. Давайте использовать примитив Sphere для создания сетки.
 Пример кода ниже преобразует Сферу в сетку.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertSpherePrimitivetoMesh-ConvertSpherePrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Sphere class
+IMeshConvertible convertible = new Sphere();
+            
+// Convert a Sphere to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Конвертировать коробку в сетку**
 Коробка описывает различные контейнеры и емкости для постоянного использования в качестве хранилища или для временного использования, часто для транспортировки содержимого. Давайте использовать примитивный ящик для создания сетки. Пример кода ниже преобразует Box в сетку.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertBoxPrimitivetoMesh-ConvertBoxPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Box class
+IMeshConvertible convertible = new Box();
+// Convert a Box to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Преобразование плоскости в сетку**
 Плоскость простирается бесконечно без толщины. Примером плоскости является координатная плоскость. Для создания сетки используется примитив `Plane`. Пример кода ниже преобразует `Plane` в `Mesh`.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertPlanePrimitivetoMesh-ConvertPlanePrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Plane class
+IMeshConvertible convertible = new Plane();
+            
+// Convert a Plane to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Преобразование цилиндра в сетку**
 Цилиндр-одна из самых основных криволинейных геометрических форм, поверхность, образованная точками на фиксированном расстоянии от заданной прямой линии, оси цилиндра. Его можно использовать во многих местах, например, в качестве стойки перед домом или в качестве приводного вала автомобиля. Для создания сетки позволяет использовать примитивный цилиндр. Пример кода ниже преобразует цилиндр в сетку.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertCylinderPrimitivetoMesh-ConvertCylinderPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Cylinder class
+IMeshConvertible convertible = new Cylinder();
+            
+// Convert a Cylinder to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}
 ###  **Конвертировать Torus в Mesh**
 Тор-это поверхность вращения, порожденная вращением окружности в трехмерном пространстве вокруг оси, копланарной окружности. Если ось вращения не касается круга, поверхность имеет форму кольца и называется тор вращения. Давайте использовать примитив Torus для создания сетки. Пример кода ниже преобразует Torus в сетку.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-ConvertTorusPrimitivetoMesh-ConvertTorusPrimitivetoMesh.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize object by Torus class
+IMeshConvertible convertible = new Torus();
+            
+// Convert a Torus to Mesh
+Mesh mesh = convertible.ToMesh();
+
+{{< /highlight >}}

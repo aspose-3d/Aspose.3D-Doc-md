@@ -8,4 +8,23 @@ description: Aspose.3D for .NET يقدم فئة AmfSaveOptions التي تسمح
 ##  **مشهد التصدير إلى تنسيق مضغوط AMF**
 Aspose.3D for .NET يقدم فئة `AmfSaveOptions` التي تسمح لك بتحديد قيمة الدفعة للضغط وفقًا لمتطلباتك. افتراضيًا ، يتم تعيين القيمة إلى true. يعرض مقتطف الشفرة التالي وظائف كاملة لإنشاء ملف تنسيق AMF مضغوط:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ExportSceneToCompressedAMF-CompressedAMF.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load a scene
+Scene scene = new Scene();
+var box = new Box();
+var tr = scene.RootNode.CreateChildNode(box).Transform;
+tr.Scale = new Vector3(12, 12, 12);
+tr.Translation = new Vector3(10, 0, 0);
+tr = scene.RootNode.CreateChildNode(box).Transform;
+// Scale transform
+tr.Scale = new Vector3(5, 5, 5);
+// Set Euler Angles
+tr.EulerAngles = new Vector3(50, 10, 0);
+scene.RootNode.CreateChildNode();
+scene.RootNode.CreateChildNode().CreateChildNode(box);
+scene.RootNode.CreateChildNode().CreateChildNode(box);
+// Save compressed AMF file
+scene.Save("Aspose.amf", new AmfSaveOptions() { EnableCompression = false });
+
+{{< /highlight >}}

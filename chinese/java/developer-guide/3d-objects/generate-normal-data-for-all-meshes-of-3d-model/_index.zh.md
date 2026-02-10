@@ -15,4 +15,22 @@ Aspose.3D for Java API 支持为 3D 模型的所有网格生成正常数据 (没
 ###  **编程示例**
 此代码示例加载一个 3DS 文件，访问所有节点并为所有网格创建正常数据。
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-objects-GenerateDataForMeshes.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
+Scene s = new Scene(MyDir + "camera.3ds");
+// Visit all nodes and create normal data for all meshes
+s.getRootNode().accept(new NodeVisitor() {
+    @Override
+    public boolean call(Node node) {
+        Mesh mesh = (Mesh)node.getEntity();
+        if (mesh != null)
+        {
+            VertexElementNormal normals = PolygonModifier.generateNormal(mesh);
+            mesh.addElement(normals);
+        }
+        return true;
+    }
+});
+{{< /highlight >}}

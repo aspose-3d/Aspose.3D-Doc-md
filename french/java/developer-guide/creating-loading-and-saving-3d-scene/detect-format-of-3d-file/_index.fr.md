@@ -13,7 +13,14 @@ Aspose.3D for Java API prend en charge la détection des formats pris en charge 
 ##  **Détecter l'échantillon de programmation de format**
 Ce code source illustre comment détecter le format de fichier (à l'aide du chemin de fichier ou du flux) et vérifier son extension.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-DetectFormat.java" >}}
+{{< highlight "java" >}}
+// the path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// detect format of 3D file
+FileFormat inputFormat = FileFormat.detect(MyDir + "document.fbx");
+// display the file format
+System.out.println("File Format: " + inputFormat.toString());
+{{< /highlight >}}
 
 
 

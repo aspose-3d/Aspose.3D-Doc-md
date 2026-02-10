@@ -58,11 +58,22 @@ Aspose.3D for .NET 的免费评估版可从 Aspose 网站的 “下载” 部分
 
 **示例:**
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingFile.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+license.SetLicense("Aspose._3D.lic");
+
+{{< /highlight >}}
 ###  ` `**从流对象加载许可证**
 下面的示例演示如何从流加载许可证。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingStreamObject.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+FileStream myStream = new FileStream("Aspose._3D.lic", FileMode.Open);
+license.SetLicense(myStream);
+
+{{< /highlight >}}
 ##  **使用嵌入式资源申请许可证**
 应用许可证的一种方法是将其设置为 [使用文件或流对象]()。将许可证与您的应用程序打包并确保它不会丢失的另一种巧妙方法是将其作为嵌入式资源包含到调用组件的DLL的程序集中 (包含在 Aspose.3D 中)。
 
@@ -75,10 +86,25 @@ Aspose.3D for .NET 的免费评估版可从 Aspose 网站的 “下载” 部分
 
 下面的代码片段用于设置许可证。
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-ApplyLicenseUsingEmbeddedResource.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Instantiate the License class
+Aspose.ThreeD.License license = new Aspose.ThreeD.License();
+
+// Pass only the name of the license file embedded in the assembly
+license.SetLicense("Aspose._3D.lic");
+
+{{< /highlight >}}
 ##  **申请计量许可证**
 Aspose.3D for .NET API 允许开发人员应用计量许可证。这是一种新的许可机制。新的许可机制将与现有的许可方法一起使用。那些希望根据 API 功能的使用情况计费的客户可以使用计量许可。详情请参阅 [计量常见问题 Licensing](https://purchase.aspose.com/faqs/licensing/metered) 部分。
 
 添加了新的类 [`Metered`](https://reference.aspose.com/3d/net/aspose.threed/metered) 以应用计量密钥。此代码示例演示如何设置计量公钥和私钥:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-License-ApplyLicense-PublicAndPrivateKeys.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize a Metered license class object
+Aspose.ThreeD.Metered metered = new Aspose.ThreeD.Metered();
+// Set public and private keys
+metered.SetMeteredKey("your-public-key", "your-private-key");
+
+{{< /highlight >}}

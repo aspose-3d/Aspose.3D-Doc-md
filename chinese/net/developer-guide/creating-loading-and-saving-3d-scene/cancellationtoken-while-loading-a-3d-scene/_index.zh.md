@@ -11,4 +11,23 @@ description: 您可以使用CancellationTokenSource取消保存/打开任务在�
 
 您可以随时使用 `CancellationTokenSource` 取消保存/打开任务，如 C# 代码示例所示，其中包含 C# 3D 文件格式操作 API:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CancellationToken-CancellationTokenSource.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            CancellationTokenSource cts = new CancellationTokenSource();
+            Scene scene = new Scene();
+            cts.CancelAfter(1000);
+            try
+            {
+                scene.Open("document.fbx" , cts.Token);
+                Console.WriteLine("Import is done within 1000ms");
+            }
+            catch (ImportException e)
+            {
+                if (e.InnerException is OperationCanceledException)
+                {
+                    Console.WriteLine("It takes too long time to import, import has been canceled.");
+                }
+            }
+
+{{< /highlight >}}

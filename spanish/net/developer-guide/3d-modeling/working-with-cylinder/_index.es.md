@@ -10,7 +10,24 @@ Aspose.3D for .NET permite personalizar Offset Top of a cylinder. Para usar esta
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithCylinder-CustomizedOffsetTopCylinder-1.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a scene
+Scene scene = new Scene();
+// Initialize cylinder
+var cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
+// Set OffsetTop
+cylinder1.OffsetTop = new Vector3(5, 3, 0);
+// Create ChildNode
+scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10, 0, 0);
+// Intialze second cylinder without customized OffsetTop
+var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
+// Create ChildNode
+scene.RootNode.CreateChildNode(cylinder2);
+// Save
+scene.Save("CustomizedOffsetTopCylinder.obj");
+
+{{< /highlight >}}
 
 ¡! [Todo: image_alt_text](working-with-cylinder_1.png)
 
@@ -20,7 +37,25 @@ Aspose.3D for .NET permite personalizar el fondo de corte de un cilindro. Para u
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithCylinder-CustomizedShearBottomCylinder-1.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a scene
+Scene scene = new Scene();
+// Create cylinder 1
+var cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
+// Customized shear bottom for cylinder 1
+cylinder1.ShearBottom = new Vector2(0, 0.83);// shear 47.5deg in xy plane(z-axis)
+// Add cylinder 1 to the scene
+scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10, 0, 0);
+// Create cylinder 2
+var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
+// Add cylinder to without a ShearBottom to the scene
+scene.RootNode.CreateChildNode(cylinder2);
+// Save scene
+scene.Save("CustomizedShearBottomCylinder.obj");
+
+
+{{< /highlight >}}
 
 ¡! [Todo: image_alt_text](working-with-cylinder_2.png)
 
@@ -30,7 +65,25 @@ Aspose.3D for .NET permite crear un cilindro de ventilador. Para utilizar esta f
 
 
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithCylinder-CustomizedShearBottomCylinder-1.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a scene
+Scene scene = new Scene();
+// Create cylinder 1
+var cylinder1 = new Cylinder(2, 2, 10, 20, 1, false);
+// Customized shear bottom for cylinder 1
+cylinder1.ShearBottom = new Vector2(0, 0.83);// shear 47.5deg in xy plane(z-axis)
+// Add cylinder 1 to the scene
+scene.RootNode.CreateChildNode(cylinder1).Transform.Translation = new Vector3(10, 0, 0);
+// Create cylinder 2
+var cylinder2 = new Cylinder(2, 2, 10, 20, 1, false);
+// Add cylinder to without a ShearBottom to the scene
+scene.RootNode.CreateChildNode(cylinder2);
+// Save scene
+scene.Save("CustomizedShearBottomCylinder.obj");
+
+
+{{< /highlight >}}
 
 ¡! [Todo: image_alt_text](working-with-cylinder_3.png)
 

@@ -15,4 +15,16 @@ La modellazione è il processo di pura creazione e Aspose.3D API supporta la cre
 ###  **Campione di programmazione**
 Questo esempio di codice crea una scena con forme primitive di 3D e salva nel file FBX.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-modeling-Primitive3DModels.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Initialize a Scene object
+Scene scene = new Scene();
+// Create a Box model
+scene.getRootNode().createChildNode("box", new Box());
+// Create a Cylinder model
+scene.getRootNode().createChildNode("cylinder", new Cylinder());
+// Save drawing in the FBX format
+MyDir = MyDir + RunExamples.getOutputFilePath("test.fbx");
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}

@@ -16,7 +16,28 @@ Aspose.3D for Java provides `HtmlSaveOptions` class to save a save 3D scene as
 
 
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-loadsave-SaveOptions-html5SaveOption.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+// Initialize a scene
+Scene scene = new Scene();
+// Initialize a node
+Node node = scene.getRootNode().createChildNode(new Cylinder());
+// Set child node properites
+LambertMaterial mat = new LambertMaterial();
+mat.setDiffuseColor(new Vector3(0.34,0.59, 0.41));
+node.setMaterial(mat);
+Light light = new Light();
+light.setLightType(LightType.POINT);
+scene.getRootNode().createChildNode(light).getTransform().setTranslation(10, 0, 10);
+// Initialize HTML5SaveOptions
+HTML5SaveOptions opt = new HTML5SaveOptions();
+// Turn off the grid
+opt.setShowGrid(false);
+//Turn off the user interface
+opt.setShowUI(false);
+scene.save(RunExamples.getDataDir() + "html5SaveOption.html", FileFormat.HTML5);
+
+{{< /highlight >}}
 
 {{% alert color="primary" %}} 
 

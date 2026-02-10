@@ -13,4 +13,13 @@ Cette fonctionnalité est prise en charge par la version 19.4 ou supérieure.
 ##  **Travail avec rayon de sphère**
 En utilisant Aspose.3D for .NET, vous pouvez définir le rayon de get d'une sphère. Pour obtenir ou définir un rayon, vous pouvez utiliser la propriété `Radius` de la classe `Sphere`. Voici l'exemple de code pour définir le rayon d'une sphère.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}

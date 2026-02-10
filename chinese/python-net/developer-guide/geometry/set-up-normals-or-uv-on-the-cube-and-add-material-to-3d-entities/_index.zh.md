@@ -17,7 +17,22 @@ Aspose.3D for Python via .NET 提供管理几何图形上的法线和UV。网格
 ##  **创建正常向量**
 为了在照明上有一个很好的视觉外观，我们需要为每个顶点指定法线信息，为了有更好的细节，我们还可以使用法线和漫反射贴图 (当然你可以使用阴影/镜面贴图) 来执行每像素法线/颜色。每个顶点的信息，如正常或顶点颜色由 `VertexElement` 实现。在 Aspose.3D 中，我们可以将额外的信息映射到控制点/多边形顶点/多边形/边，这是一个为顶点定义法线的示例:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.py" >}}
+{{< highlight "python" >}}
+from aspose import pycore
+from aspose.threed.entities import MappingMode, ReferenceMode, VertexElementNormal, VertexElementType
+from aspose.threed.utilities import Vector4
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Raw normal data
+normals = [Vector4(-0.577350258, -0.577350258, 0.577350258, 1.0), Vector4(0.577350258, -0.577350258, 0.577350258, 1.0), Vector4(0.577350258, 0.577350258, 0.577350258, 1.0), Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0), Vector4(-0.577350258, -0.577350258, -0.577350258, 1.0), Vector4(0.577350258, -0.577350258, -0.577350258, 1.0), Vector4(0.577350258, 0.577350258, -0.577350258, 1.0), Vector4(-0.577350258, 0.577350258, -0.577350258, 1.0)]
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+normal = mesh.create_element(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT)
+elementNormal = pycore.as_of(normal, VertexElementNormal) if pycore.is_assignable(normal, VertexElementNormal) else None
+#  Copy the data to the vertex element
+elementNormal.data.extend(normals)
+
+{{< /highlight >}}
 
 8个法线向量直接映射到8个控制点，在接下来的例子中，我们将演示一个更复杂的场景。
 ##  **创建UV坐标**
@@ -32,13 +47,72 @@ Aspose.3D 提供5种映射模式:
 
 
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-SetupUVOnCube-SetupUVOnCube.py" >}}
+{{< highlight "python" >}}
+from aspose.threed.entities import MappingMode, ReferenceMode, TextureMapping
+from aspose.threed.utilities import Vector4
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  UVs
+uvs = [Vector4(0.0, 1.0, 0.0, 1.0), Vector4(1.0, 0.0, 0.0, 1.0), Vector4(0.0, 0.0, 0.0, 1.0), Vector4(1.0, 1.0, 0.0, 1.0)]
+#  Indices of the uvs per each polygon
+uvsId = [    0, 1, 3, 2, 2, 3, 5, 4, 4, 5, 7, 6, 6, 7, 9, 8, 1, 10, 11, 3, 12, 0, 2, 13
+]
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Create UVset
+elementUV = mesh.create_element_uv(TextureMapping.DIFFUSE, MappingMode.POLYGON_VERTEX, ReferenceMode.INDEX_TO_DIRECT)
+#  Copy the data to the UV vertex element
+elementUV.data.extend(uvs)
+elementUV.indices.extend(uvsId)
+
+{{< /highlight >}}
 ##  **将材质添加到 3D 个对象**
 Aspose.3D for Python via .NET 允许开发人员使用着色算法进行精确的着色和高光。Phong有几个地图输入，我们可以用它来屏蔽节点的效果。基于物理的渲染 (PBR) 考虑了对象的一些物理属性，这种方法提供了真实世界中材质的外观。
 ###  **立方体纹理Phong材料**
 当UV坐标准备使用时，我们可以通过使用材料在网格表面上施加纹理。只有顶点颜色不能描述表面的细节，这就是材料的用途。以下是将Phong材质附加到多维数据集节点的示例:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Geometry-and-Hierarchy-MaterialToCube-AddMaterialToCube.py" >}}
+{{< highlight "python" >}}
+from aspose.pydrawing import Color
+from aspose.threed import FileFormat, Node, Scene
+from aspose.threed.shading import PhongMaterial, Texture
+from aspose.threed.utilities import Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize scene object
+scene = Scene()
+#  Initialize cube node object
+cubeNode = Node("cube")
+#  Call Common class create mesh using polygon builder method to set mesh instance
+mesh = Common.CreateMeshUsingPolygonBuilder()
+#  Point node to the mesh
+cubeNode.entity = mesh
+#  Add cube to the scene
+scene.root_node.child_nodes.append(cubeNode)
+#  Initiallize PhongMaterial object
+mat = PhongMaterial()
+#  Initiallize Texture object
+diffuse = Texture()
+#  The path to the documents directory.
+#  Set local file path
+diffuse.file_name = "out"  + "surface.dds"
+#  Set Texture of the material
+mat.set_texture("DiffuseColor", diffuse)
+#  Embed raw content data to FBX (only for FBX and optional)
+#  Set file name
+diffuse.file_name = "embedded-texture.png"
+#  Set binary content
+diffuse.content = open("data-dir"  + "aspose-logo.jpg", "rb").read()
+#  Set color
+mat.specular_color = Vector3(Color.red)
+#  Set brightness
+mat.shininess = 100.0
+#  Set material property of the cube object
+cubeNode.material = mat
+output = "out"  + "MaterialToCube.fbx"
+#  Save 3D scene in the supported file formats
+scene.save(output, FileFormat.FBX7400ASCII)
+
+{{< /highlight >}}
 
 我们指定了漫射纹理映射和带有光泽参数的镜面颜色。
 ###  **将基于物理的渲染 (PBR) 材料应用于盒子**

@@ -13,4 +13,13 @@ Tويدعم ميزة له من قبل الإصدار 19.4 أو أكبر.
 #  **افتح تنسيق ملف VRML**
 يسمح Aspose.3D for Python via .NET بالعمل مع الإصدار 1.0 VRML. تمت إضافة تنسيق ملف `VRML` إلى فئة `FileFormat`. Aspose. يستطيع 3D اكتشاف التنسيق تلقائيًا ، لذلك يتم تجاهل `FileFormat` عادةً في طريقة `open`. يوضح مقتطف الشفرة التالي كيفية فتح تنسيق ملف VRML.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "WorkingWithVRML-OpenVRML-OpenVRML.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import Scene
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Create a Scene
+scene = Scene()
+#  Open Virtual Reality Modeling Language (VRML) file format
+scene.open("data-dir"  + "test.wrl")
+
+{{< /highlight >}}

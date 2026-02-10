@@ -13,4 +13,18 @@ This özelliği 19.4 veya daha büyük sürümle desteklenir.
 ##  **Sphere Radius ile Work**
 Using Aspose.3D for Python via .NET, you can set of get radius of a sphere. In order to get or set radius, you can use `radius` property of `Sphere` class. The following is the code sample to set radius of a sphere.  
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Create a Scene
+scene = Scene()
+sphere = Sphere()
+sphere.radius = 10 .0
+#  Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.root_node.create_child_node(sphere)
+#  Save scene
+scene.save("data-dir"  + "sphere.obj", FileFormat.WAVEFRONT_OBJ)
+
+{{< /highlight >}}

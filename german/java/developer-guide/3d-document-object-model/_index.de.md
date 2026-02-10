@@ -86,7 +86,25 @@ A `Geometry` besteht aus Kontroll punkten und `VertexElement`, die zusätzliche 
 
 Sie können ein Vertex element manuell erstellen und Daten dafür zuweisen. Das folgende Code beispiel zeigt, wie das geht:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-SetupNormalsOnCube.java" >}}
+{{< highlight "java" >}}
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+// Call Common class create mesh using polygon builder method to set mesh instance
+Mesh mesh = Common.createMeshUsingPolygonBuilder();
+VertexElementNormal elementNormal = (VertexElementNormal)mesh.createElement(VertexElementType.NORMAL, MappingMode.CONTROL_POINT, ReferenceMode.DIRECT);
+// Copy the data to the vertex element
+elementNormal.setData(normals);
+{{< /highlight >}}
 
 ### Primitive Geometrie typen
 
@@ -110,7 +128,21 @@ Wenn Sie diese vordefinierten primitiven Typen in Aspose.3D verwenden, können S
 
 Das folgende Code beispiel zeigt, wie eine Kugel mit einem angegebenen Radius erstellt wird:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-objects-WorkingWithSphereRadius-WorkingWithSphereRadius.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+
+        // initialize a scene
+        Scene scene = new Scene();
+        // initialize a Sphere
+        Sphere sphere = new Sphere();
+        // set radius
+        sphere.setRadius(10);
+        // add sphere to the scene
+        scene.getRootNode().createChildNode(sphere);
+        // save scene
+        scene.save("sphere.obj", FileFormat.WAVEFRONTOBJ);
+
+{{< /highlight >}}
 
 
 ### Extrusion typen
@@ -128,7 +160,22 @@ In Aspose.3D haben wir 3 Extrusion typen bereit gestellt:
 
 Das folgende Code beispiel zeigt, wie eine lineare Extrusion aus einem Text profil erstellt wird:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-LinearExtrusion-Text.java" >}}
+{{< highlight "java" >}}
+    // Load font from bytes
+    var font = FontFile.parse(Files.readAllBytes(Paths.get("test-font.otf")));
+    // Create a Text profile
+    var text = new Text();
+    text.setFont(font);
+    text.setContent("Hello World");
+    text.setFontSize(10.0f);
+    // Extrude the profile to give it a thickness.
+    var linear = new LinearExtrusion(text, 10).toMesh();
+    // create a scene from the mesh and save it to stl file
+    var scene = new Scene(linear);
+    scene.save("test.stl");
+
+
+{{< /highlight >}}
 
 
 ### Kurven typen
@@ -174,7 +221,24 @@ Mit der Unterstützung für eine Reihe von Material typen und der Möglichkeit, 
 
 Das folgende Code beispiel zeigt, wie ein PBR-Material auf eine Geometrie angewendet wird:
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-geometry-ApplyPBRMaterialToBox.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// initialize a scene
+Scene scene = new Scene();
+// initialize PBR material object
+PbrMaterial mat = new PbrMaterial();
+// an almost metal material
+mat.setMetallicFactor(0.9);
+// material surface is very rough
+mat.setRoughnessFactor(0.9);
+// create a box to which the material will be applied
+Node boxNode = scene.getRootNode().createChildNode("box", new Box());
+boxNode.setMaterial(mat);
+// save 3d scene into USDZ format
+scene.save(MyDir + "PBR_Material_Box_Out.usdz");
+
+{{< /highlight >}}
 
 ## Beziehung zu Animations objekten
 Aspose.3D bietet Animations unterstützung auf Daten ebene, und die Berechnungs unterstützung wird derzeit entwickelt.

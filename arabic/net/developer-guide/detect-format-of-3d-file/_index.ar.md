@@ -14,4 +14,11 @@ description: باستخدام Aspose.3D for .NET API ، قد يكتشف المط
 ##  **Detect orormat roقواعد اللغة ple وافرة**
 يوضح رمز عينة C# التالي كيفية اكتشاف تنسيق ملف من ملف 3D (باستخدام مسار الملف أو الدفق) والتحقق من امتداده.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-DetectFormat-DetectFormat.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Detect the format of a 3D file
+FileFormat inputFormat = FileFormat.Detect("document.fbx");
+// Display the file format
+Console.WriteLine("File Format: " + inputFormat.ToString());
+
+{{< /highlight >}}

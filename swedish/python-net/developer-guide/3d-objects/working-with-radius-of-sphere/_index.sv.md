@@ -13,4 +13,18 @@ Denna funktion stöds av version 19.4 eller större.
 ##  **Arbeta med sfärens radie**
 Med Aspose.3D for Python via .NET kan du hämta radie av en sfär. För att få eller ställa in radien kan du använda `radius`-egenskapen i klassen `Sphere`. Nedan följer kodprovet för att ställa in en sfärs radie.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import Sphere
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Create a Scene
+scene = Scene()
+sphere = Sphere()
+sphere.radius = 10 .0
+#  Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.root_node.create_child_node(sphere)
+#  Save scene
+scene.save("data-dir"  + "sphere.obj", FileFormat.WAVEFRONT_OBJ)
+
+{{< /highlight >}}

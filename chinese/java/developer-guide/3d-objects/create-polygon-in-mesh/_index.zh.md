@@ -10,4 +10,15 @@ Aspose.3D for Java 允许在网格中创建多边形。为了使用该功能，A
 
 
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "src-java-examples-objects-CreatePolygonInMesh-1.java" >}}
+{{< highlight "java" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-Java
+// Initialize Mesh
+Mesh mesh = new Mesh();
+//The old CreatePolygon needs to create a temporary array for holding the face indices
+//mesh.createPolygon(new int[] { 0, 1, 2 });
+//The new overloads doesn't need extra allocation, and it's optimized internally.
+mesh.createPolygon(0, 1, 2);
+//Or You can create a polygon using 4 vertices(quad)
+//mesh.CreatePolygon(0, 1, 2, 3);
+
+{{< /highlight >}}

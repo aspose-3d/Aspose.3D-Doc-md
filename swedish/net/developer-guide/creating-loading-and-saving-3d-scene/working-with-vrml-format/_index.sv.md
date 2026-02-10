@@ -13,4 +13,13 @@ Denna funktion stöds av version 19.4 eller större.
 #  **Open VRML File Format**
 Aspose.3D for .NET tillåter arbete med VRML version 1.0. `VRML` filformat har lagts till i `FileFormat` klassen. Aspose.3D kan automatiskt detektera formatet, så `FileFormat` ignoreras vanligtvis i `Open`-metoden. Följande kodsnutt visar hur öppet VRML filformat.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithVRML-OpenVRML-OpenVRML.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Open Virtual Reality Modeling Language (VRML) file format
+scene.Open("test.wrl");
+// Work with VRML file format...
+
+
+{{< /highlight >}}

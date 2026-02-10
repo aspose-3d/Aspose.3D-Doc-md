@@ -13,14 +13,39 @@ url: /ar/net/working-with-watermark/
 # **إنشاء مشهد ثلاثي الأبعاد**
 أولاً، تحتاج إلى إنشاء مشهد ثلاثي الأبعاد من ملف ثلاثي الأبعاد. يوضح المقتطف البرمجي التالي كيفية استخدام هذه الوظيفة:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-Create3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string file = "template.3ds";
+Scene scene = Scene.FromFile(file);
+{{< /highlight >}}
 
 # **ترميز العلامة المائية**
 تضيف واجهة برمجة تطبيقات Aspose.3D لـ .NET معلومات نص العلامة المائية وكلمة مرور العلامة المائية إلى ملفات ثلاثية الأبعاد من خلال طريقة ``EncodeWatermark``. يوضح المقتطف البرمجي التالي كيفية استخدام هذه الوظيفة:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-EncodeWatermark.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+var numMeshes = 0;
+scene.RootNode.Accept((Node node) =>
+{
+    var mesh = node.GetEntity<Mesh>();
+    if (mesh != null)
+    {
+        numMeshes++;
+        mesh = Watermark.EncodeWatermark(mesh, "HelloWorld", "1234");
+        if (mesh != null)
+        {
+            node.Entity = mesh;
+        }
+    }
+    return true;
+});
+{{< /highlight >}}
 
 # **حفظ المستند**
 يمكنك الحفظ بأي تنسيق ملف ثلاثي الأبعاد تريده. يوضح المقتطف البرمجي التالي كيفية استخدام هذه الوظيفة:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-SaveDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string output = "output.fbx";
+scene.Save(output, FileFormat.FBX7400ASCII);
+{{< /highlight >}}

@@ -15,7 +15,34 @@ A sample scene hierarchy looks like:
 
 In Aspose.3D, each `Node` instance can have multiple child nodes, in this example, we created a node with two cube nodes, if we rotate the root node, all child nodes are also get affected:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-NodeHierarchy-AddNodeHierarchy.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize scene object
+Scene scene = new Scene();
+
+// Get a child node object
+Node top = scene.RootNode.CreateChildNode();
+// Each cube node has their own translation
+Node cube1 = top.CreateChildNode("cube1");
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder();            
+// Point node to the mesh
+cube1.Entity = mesh;
+// Set first cube translation
+cube1.Transform.Translation = new Vector3(-10, 0, 0);
+Node cube2 = top.CreateChildNode("cube2");
+// Point node to the mesh
+cube2.Entity = mesh;
+// Set second cube translation
+cube2.Transform.Translation = new Vector3(10, 0, 0);
+
+// The rotated top node will affect all child nodes
+top.Transform.Rotation = Quaternion.FromEulerAngle(Math.PI, 4, 0);
+          
+// Save 3D scene in the supported file formats
+scene.Save("NodeHierarchy.fbx");
+
+{{< /highlight >}}
 ## **Share Mesh’s Geometry Data between Multiple Nodes**
 To diminish memory necessities, a single instance of [`Mesh`](https://reference.aspose.com/3d/net/aspose.threed.entities/mesh) Class can be bound to various instances of [`Node`](https://reference.aspose.com/3d/net/aspose.threed/node) Class. Envision that you require a system where all 3D cubes seemed to be indistinguishable, however you required numerous a large number of them. You could spare memory by making one Mesh object when the system begins up. At that point, each time you required another shape, you make another Node object, then point that node to the one Mesh. This is called instancing. Aspose.3D for .NET APIs allow to do instancing.
 ### **Instancing example**
@@ -29,6 +56,41 @@ The `Mesh` class object is being used in the code. We can [create a Mesh class o
 
 Demonstration of the example code:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-MeshGeometryData-ShareMeshGeometryData.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Initialize scene object
+Scene scene = new Scene();
+
+// Define color vectors
+Vector3[] colors = new Vector3[] {
+new Vector3(1, 0, 0),
+new Vector3(0, 1, 0),
+new Vector3(0, 0, 1)
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+           
+int idx = 0;
+foreach (Vector3 color in colors)
+{
+    // Initialize cube node object
+    Node cube = new Node("cube");
+    cube.Entity = mesh;
+    LambertMaterial mat = new LambertMaterial();
+    // Set color
+    mat.DiffuseColor = color;
+    // Set material
+    cube.Material = mat;
+    // Set translation
+    cube.Transform.Translation = new Vector3(idx++ * 20, 0, 0);
+    // Add cube node
+    scene.RootNode.ChildNodes.Add(cube);
+}
+        
+// Save 3D scene in the supported file formats
+scene.Save("MeshGeometryData.fbx");
+
+{{< /highlight >}}
 
 In this example we created 3 cube nodes share the same mesh, each of them have different material with different colors.

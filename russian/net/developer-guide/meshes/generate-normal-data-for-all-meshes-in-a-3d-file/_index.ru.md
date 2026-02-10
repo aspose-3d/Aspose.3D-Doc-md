@@ -15,4 +15,21 @@ description: Используя Aspose.3D for .NET, разработчики м�
 ###  **Образец программирования**
 Этот пример кода загружает файл 3DS, посещает все узлы и создает нормальные данные для всех ячеек.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-GenerateDataForMeshes-GenerateDataForMeshes.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            // Load a 3ds file, 3ds file doesn't have normal data, but it has smoothing group
+            Scene s = new Scene(RunExamples.GetDataFilePath("camera.3ds"));
+            // Visit all nodes and create normal data for all meshes
+            s.RootNode.Accept(delegate(Node n)
+            {
+                Mesh mesh = n.GetEntity<Mesh>();
+                if (mesh != null)
+                {
+                    VertexElementNormal normals = PolygonModifier.GenerateNormal(mesh);
+                    mesh.VertexElements.Add(normals);
+                }
+                return true;
+            });
+
+{{< /highlight >}}

@@ -13,14 +13,39 @@ url: /zh/net/working-with-watermark/
 # **创建 3D 场景**
 首先，您需要从 3D 文件创建 3D 场景。以下代码片段展示了如何使用此功能：
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-Create3DScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string file = "template.3ds";
+Scene scene = Scene.FromFile(file);
+{{< /highlight >}}
 
 # **编码水印**
 Aspose.3D for .NET 通过 ``EncodeWatermark`` 方法向 3D 文件添加水印文本信息和水印密码。以下代码片段展示了如何使用此功能：
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-EncodeWatermark.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+var numMeshes = 0;
+scene.RootNode.Accept((Node node) =>
+{
+    var mesh = node.GetEntity<Mesh>();
+    if (mesh != null)
+    {
+        numMeshes++;
+        mesh = Watermark.EncodeWatermark(mesh, "HelloWorld", "1234");
+        if (mesh != null)
+        {
+            node.Entity = mesh;
+        }
+    }
+    return true;
+});
+{{< /highlight >}}
 
 # **保存文档**
 您可以保存到您想要的任何 3D 文件格式。以下代码片段展示了如何使用此功能：
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-WorkingWithWatermark-SaveDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+string output = "output.fbx";
+scene.Save(output, FileFormat.FBX7400ASCII);
+{{< /highlight >}}

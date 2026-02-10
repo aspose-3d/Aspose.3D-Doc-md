@@ -13,7 +13,15 @@ Please follow these steps to create a 3D Scene with Aspose.3D for Java API:
 1. Skapa en instans i**Scene**Klass som representerar 3D scen.
 1. Skapa 3D-dokumentet genom att ringa**Spara**Metoden**Scene**Klasseinstans.
 ####  **Skapa en tom 3D Scene: Programmeringsprovning**
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-CreateEmpty3DDocument.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + "document.fbx";
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}
 
 
 

@@ -13,7 +13,14 @@ Aspose. 3D for Java API har stöd för att upptäcka 3D stödda format innan det
 ##  **Detektera formatprogrammeringsprover**
 Denna källkod illustrerar hur man upptäcker filformatet (med hjälp av fil sökvägen eller strömmen) och kontrollera dess tillägg.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-DetectFormat.java" >}}
+{{< highlight "java" >}}
+// the path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// detect format of 3D file
+FileFormat inputFormat = FileFormat.detect(MyDir + "document.fbx");
+// display the file format
+System.out.println("File Format: " + inputFormat.toString());
+{{< /highlight >}}
 
 
 

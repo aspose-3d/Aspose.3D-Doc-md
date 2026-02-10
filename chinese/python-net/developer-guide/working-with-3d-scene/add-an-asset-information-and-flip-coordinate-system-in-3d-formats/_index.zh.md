@@ -19,7 +19,26 @@ description: 元数据是描述、解释、定位或使其更容易检索、使�
 
 在此示例中，我们假设场景是由名为 “Egypt” 的 CAD 工具创建的，并且由 “Manualdesk” 设计:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "AssetInformation-InformationToScene-AddAssetInformationToScene.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize a 3D scene
+scene = Scene()
+#  Set application/tool name
+scene.asset_info.application_name = "Egypt"
+#  Set application/tool vendor name
+scene.asset_info.application_vendor = "Manualdesk"
+#  We use ancient egyption measurement unit Pole
+scene.asset_info.unit_name = "pole"
+#  One Pole equals to 60cm
+scene.asset_info.unit_scale_factor = 0.6
+#  The saved file
+output = "out"  + "InformationToScene.fbx"
+#  Save scene to 3D supported file formats
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **以 3D 格式翻转坐标系**
 Aspose.3D for Python via .NET API 允许用户以 OBJ 、 3DS 、 STL 和 U3D 格式翻转坐标系。
 

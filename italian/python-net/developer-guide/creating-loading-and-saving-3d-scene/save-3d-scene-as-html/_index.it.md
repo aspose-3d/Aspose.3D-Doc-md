@@ -14,7 +14,36 @@ Aspose.3D for Python via .NET offre una classe `Html5SaveOptions` per salvare un
 
 
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-SaveOptions-HtmlSaveOption.py" >}}
+{{< highlight "python" >}}
+from aspose.pydrawing import Color
+from aspose.threed import Scene
+from aspose.threed.entities import Cylinder, Light, LightType
+from aspose.threed.formats import Html5SaveOptions
+from aspose.threed.shading import LambertMaterial
+from aspose.threed.utilities import Vector3
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Initialize 3D scene
+scene = Scene()
+#  Create a child node
+node = scene.root_node.create_child_node(Cylinder())
+material = LambertMaterial()
+material.diffuse_color = Vector3(Color.chartreuse)
+#  Set child node properites
+node.material = material
+light = Light()
+light.light_type = LightType.POINT
+scene.root_node.create_child_node(light).transform.translation = Vector3(10, 0, 10)
+#  Create a Html5SaveOptions
+opt = Html5SaveOptions()
+# Turn off the grid
+opt.show_grid = False
+# Turn off the user interface
+opt.show_ui = False
+#  Save 3D to HTML5
+scene.save("data-dir"  + "D:\\HtmlSaveOption.html", opt)
+
+{{< /highlight >}}
 
 {{% alert color="primary" %}} 
 

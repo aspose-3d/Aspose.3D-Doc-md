@@ -86,7 +86,29 @@ Ett `Geometry` består av kontrollpunkter och `VertexElement` som definierar ext
 
 Du kan manuellt skapa ett vertex element och tilldela data för det. Följande kodexempel visar hur man gör detta:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-SetupNormalsOnCube-SetupNormalsOnCube.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Raw normal data
+Vector4[] normals = new Vector4[]
+{
+    new Vector4(-0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258, 0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258, 0.577350258, 1.0),
+    new Vector4(-0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258,-0.577350258,-0.577350258, 1.0),
+    new Vector4( 0.577350258, 0.577350258,-0.577350258, 1.0),
+    new Vector4(-0.577350258, 0.577350258,-0.577350258, 1.0)
+};
+
+// Call Common class create mesh using polygon builder method to set mesh instance 
+Mesh mesh = Common.CreateMeshUsingPolygonBuilder(); 
+
+VertexElementNormal elementNormal = mesh.CreateElement(VertexElementType.Normal, MappingMode.ControlPoint, ReferenceMode.Direct) as VertexElementNormal;
+// Copy the data to the vertex element
+elementNormal.Data.AddRange(normals);
+
+{{< /highlight >}}
 
 ### Primitiva geometrityper
 
@@ -110,7 +132,16 @@ Genom att använda dessa fördefinierade primitiva typer i Aspose. 3D kan du enk
 
 Följande kodexempel visar hur man skapar en sfär med angiven radie:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-Objects-WorkingWithSphereRadius-WorkingWithSphereRadius.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Create a Scene
+Scene scene = new Scene();
+// Set Sphere Radius (Using Radius property you can get or set radius of Sphere)
+scene.RootNode.CreateChildNode(new Sphere() { Radius = 10 });
+// Save scene
+scene.Save("sphere.obj");
+
+{{< /highlight >}}
 
 ### Extruderingstyper
 
@@ -127,7 +158,24 @@ I Aspose.3D har vi tillhandahållit 3 extruderingstyper:
 
 Följande kodexempel visar hur man skapar en linjär extrusion från en textprofil:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Working-with-LinearExtrusion-Text.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load font from bytes
+var font = FontFile.Parse(File.ReadAllBytes(@"test-font.otf"));
+// Create a Text profile
+var text = new Text()
+{
+    Font = font,
+    Content = "Hello World",
+    FontSize = 10
+};
+// Extrude the profile to give it a thickness.
+var linear = new LinearExtrusion(text, 10).ToMesh();
+// create a scene from the mesh and save it to stl file
+var scene = new Scene(linear);
+scene.Save(@"test.stl");
+
+{{< /highlight >}}
 
 
 ### Kurvtyper
@@ -173,7 +221,23 @@ Med stöd för en rad materialtyper och möjligheten att ansluta texturer, Aspos
 
 Följande kodexempel visar hur ett PBR-material ska tillämpas på en geometri:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Geometry-and-Hierarchy-ApplyPBRMaterialToBox-ApplyPBRMaterialToBox.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// initialize a scene
+Scene scene = new Scene();
+// initialize PBR material object
+PbrMaterial mat = new PbrMaterial();
+// an almost metal material
+mat.MetallicFactor = 0.9;
+// material surface is very rough
+mat.RoughnessFactor = 0.9;
+// create a box to which the material will be applied
+var boxNode = scene.RootNode.CreateChildNode("box", new Box());
+boxNode.Material = mat;
+// save 3d scene into USDZ format
+scene.Save("PBR_Material_Box_Out.usdz");
+
+{{< /highlight >}}
 
 ## Animeringsobjekt
 Aspose.3D tillhandahåller stöd för animation på datanivå, och beräkningsstöd håller för närvarande på att utvecklas.

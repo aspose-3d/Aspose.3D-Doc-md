@@ -13,4 +13,16 @@ En utilisant [Aspose.3D for Python via .NET](http://products.aspose.com/3d/net) 
 ##  **Convertir tous les polygones en Triangles**
 Nous avons ajouté une autre surcharge de la méthode `triangulate` dans la classe [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) qui prend un objet de classe [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) comme paramètre comme indiqué dans cet exemple de code:
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import PolygonModifier
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Load an existing 3D file
+scene = Scene("data-dir"  + "document.fbx")
+#  Triangulate a scene
+PolygonModifier.triangulate(scene)
+#  Save 3D scene
+scene.save("out"  + "triangulated_out.fbx", FileFormat.FBX7400ASCII)
+
+{{< /highlight >}}

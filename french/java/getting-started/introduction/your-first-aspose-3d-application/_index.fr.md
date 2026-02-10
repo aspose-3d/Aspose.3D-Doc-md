@@ -29,10 +29,31 @@ La mise en œuvre des étapes ci-dessus est démontrée dans les exemples ci-des
 
 L'exemple suivant crée un nouveau fichier de scène 3D à partir de zéro. Tout d'abord, créez une scène 3D, puis enregistrez le fichier au format FBX.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-CreateEmpty3DDocument.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+MyDir = MyDir + "document.fbx";
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.save(MyDir, FileFormat.FBX7500ASCII);
+{{< /highlight >}}
 
 ###  **Comment ouvrir un fichier existant**
 
 L'exemple suivant ouvre un fichier de modèle 3D existant nommé "document.fbx", puis enregistre la scène ou le document 3D dans un flux dans divers formats 3D pris en charge.
 
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Save3DScene.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+// Open an existing 3D scene
+scene.open(MyDir + "document.fbx");
+// Save Scene to a stream
+try (MemoryStream dstStream = new MemoryStream()) {
+    scene.save(dstStream, FileFormat.FBX7500ASCII);
+}
+// Save Scene to a local path
+scene.save(MyDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+{{< /highlight >}}

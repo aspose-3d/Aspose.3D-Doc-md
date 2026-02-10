@@ -14,4 +14,11 @@ Using Aspose.3D for Python via .NET API, developers may detect the format of sup
 ## **Detect Format Programming Sample**
 The following sample code illustrates how to detect a file format (using the file path or stream) and check its extension.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-DetectFormat-DetectFormat.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# Detect the format of a 3D file
+inputFormat = a3d.FileFormat.detect("document.fbx");
+# Display the file format
+print("File Format: " + str(inputFormat))
+{{< /highlight >}}

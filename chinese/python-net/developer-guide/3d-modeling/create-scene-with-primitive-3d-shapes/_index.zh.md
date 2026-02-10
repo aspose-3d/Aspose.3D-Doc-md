@@ -15,4 +15,20 @@ description: 使用 Aspose.3D for Python via .NET，开发人员可以定义具�
 ###  **编程示例**
 此代码示例创建一个包含原始 3D 形状的场景，并将其保存在 FBX 文件中。
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "3DModeling-Primitive3DModels-Primitive3DModels.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat, Scene
+from aspose.threed.entities import Box, Cylinder
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  The path to the documents directory.
+#  Initialize a Scene object
+scene = Scene()
+#  Create a Box model
+scene.root_node.create_child_node("box", Box())
+#  Create a Cylinder model
+scene.root_node.create_child_node("cylinder", Cylinder())
+#  Save drawing in the FBX format
+output = "out"  + "test.fbx"
+scene.save(output, FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}

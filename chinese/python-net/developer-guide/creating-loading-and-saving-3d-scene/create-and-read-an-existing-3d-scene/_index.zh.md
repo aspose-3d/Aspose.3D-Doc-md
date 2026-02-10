@@ -15,7 +15,16 @@ Aspose。3D API 支持从头开始创建新的 3D 场景，然后以任何支持
 ####  **创建 3D 场景文档: 编程示例**
 
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-CreateEmpty3DDocument.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+# Create an object of the Scene class
+scene = a3d.Scene()
+# Save 3D scene document
+scene.Save("document.fbx", a3d.FileFormat.FBX7500ASCII)
+
+{{< /highlight >}}
 ##  **正在读取 3D 场景**
 使用 Aspose.3D API，开发人员可以加载所有受支持的 3D 文档。的可用构造函数**场景**类允许这样做，他们接受有效的文件路径字符串。支持的可读文件格式如下:
 
@@ -44,4 +53,15 @@ Aspose。3D API 支持从头开始创建新的 3D 场景，然后以任何支持
 
 `Scene` 类的构造函数在内部检测 3D 文档格式。
 ###  **读取 3D 场景: 编程示例**
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Loading-and-Saving-ReadExistingScene.py" >}}
+{{< highlight "python" >}}
+import aspose.threed as a3d
+# For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+# The path to the documents directory.
+
+# Initialize a Scene class object
+scene = Scene()
+# Load an existing 3D document
+scene.open("document.fbx")
+
+
+{{< /highlight >}}

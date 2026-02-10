@@ -29,8 +29,98 @@ La classe [`GLSLSource`](https://reference.aspose.com/3d/net/aspose.threed.rende
 ###  **Échantillon de programmation pour Shader**
 Cet exemple de code initialise le rendu et le shader pour la grille. Vous pouvez télécharger le projet de travail complet de cet exemple à partir de [Ici](https://github.com/aspose-3d/Aspose.3D-for-.NET/tree/master/HardwareBasedRendering).
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "HardwareBasedRendering-Controls-RenderView-RenderView.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+private void InitRenderer()
+{
+    // Create a default camera, because it's required during the viewport's creation.
+    camera = new Camera();
+    Scene.RootNode.CreateChildNode("camera", camera);
+    // Create the renderer and render window from window's native handle
+    renderer = Renderer.CreateRenderer();
+    // Right now we only support native window handle from Microsoft Windows
+    // We'll support more platform on user's demand.
+    window = renderer.RenderFactory.CreateRenderWindow(new RenderParameters(), Handle);
+    // Create 4 viewports, the viewport's area is meanless here because we'll change it to the right area in the SetViewports later
+    viewports = new[]
+    {
+        window.CreateViewport(camera, Color.Gray, RelativeRectangle.FromScale(0, 0, 1, 1)),
+        window.CreateViewport(camera, Color.Gray, RelativeRectangle.FromScale(0, 0, 1, 1)),
+        window.CreateViewport(camera, Color.Gray, RelativeRectangle.FromScale(0, 0, 1, 1)),
+        window.CreateViewport(camera, Color.Gray, RelativeRectangle.FromScale(0, 0, 1, 1))
+    };
+    SetViewports(1);
+
+
+    //initialize shader for grid
+
+    GLSLSource src = new GLSLSource();
+    src.VertexShader = @"#version 330 core
+    layout (location = 0) in vec3 position;
+    uniform mat4 matWorldViewProj;
+    void main()
+    {
+        gl_Position = matWorldViewProj * vec4(position, 1.0f);
+    }";
+                src.FragmentShader = @"#version 330 core
+    out vec4 color;
+    void main()
+    {
+        color = vec4(1, 1, 1, 1);
+    }";
+    // Define the input format used by GLSL vertex shader the format is struct ControlPoint { FVector3 Position;}
+    VertexDeclaration fd = new VertexDeclaration();
+    fd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+    // Compile shader from GLSL source code and specify the vertex input format
+    gridShader = renderer.RenderFactory.CreateShaderProgram(src, fd);
+    // Connect GLSL uniform to renderer's internal variable
+    gridShader.Variables = new ShaderVariable[]
+    {
+        new ShaderVariable("matWorldViewProj", VariableSemantic.MatrixWorldViewProj)
+    };
+
+    SceneUpdated("");
+}
+
+{{< /highlight >}}
 ###  **Échantillon de programmation pour l'état du tampon et du déposant**
 Cet exemple de code initialise l'état de mémoire tampon et de rendu pour la grille.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "HardwareBasedRendering-Grid-ManualEntity.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+class Grid : ManualEntity
+{
+    public Grid(Renderer renderer, ShaderProgram shader)
+    {
+        // Render state for grid
+        RenderState = renderer.RenderFactory.CreateRenderState();
+        RenderState.DepthTest = true;
+        RenderState.DepthMask = true;
+        this.Shader = shader;
+        // Define the format of the control point to render the line
+        VertexDeclaration vd = new VertexDeclaration();
+        vd.AddField(VertexFieldDataType.FVector3, VertexFieldSemantic.Position);
+        // and create a vertex buffer for storing this kind of data
+        this.VertexBuffer = renderer.RenderFactory.CreateVertexBuffer(vd);
+        // Draw the primitive as lines
+        this.DrawOperation = DrawOperation.Lines;
+        this.RenderGroup = RenderQueueGroupId.Geometries;
+
+        List<FVector3> lines = new List<FVector3>();
+        for (int i = -10; i <= 10; i++)
+        {
+            // Draw - line
+            lines.Add(new FVector3(i, 0, -10));
+            lines.Add(new FVector3(i,0, 10));
+
+
+            // Draw | line
+            lines.Add(new FVector3(-10, 0, i));
+            lines.Add(new FVector3(10, 0, i));
+        }
+        // Put it to vertex buffer
+        VertexBuffer.LoadData(lines.ToArray());
+    }
+}
+
+{{< /highlight >}}

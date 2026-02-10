@@ -13,4 +13,13 @@ description: 使用 Aspose.3D for .NET API，开发人员可以在任何受支�
 ##  **将所有多边形转换为三角形**
 我们在 [`PolygonModifier`](https://reference.aspose.com/3d/net/aspose.threed.entities/polygonmodifier) 类中添加了另一个 `Triangulate` 方法的重载，它将 [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) 类对象作为参数，如下面的代码示例所示:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Polygons-ConvertPolygonsToTriangles-ConvertPolygonsToTriangles.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// Load an existing 3D file
+Scene scene = Scene.FromFile("document.fbx");
+// Triangulate a scene
+PolygonModifier.Triangulate(scene);
+// Save 3D scene
+scene.Save("triangulated_out.fbx");
+
+{{< /highlight >}}

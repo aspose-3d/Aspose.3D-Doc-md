@@ -21,7 +21,15 @@ Siga estos pasos en C# para crear un documento de escena 3D utilizando las API A
 1. Cree una instancia de la clase [`Scene`](https://reference.aspose.com/3d/net/aspose.threed/scene) que represente un documento de escena 3D.
 1. Genere un documento 3D Scene llamando al método [`Save`](https://reference.aspose.com/3d/net/aspose.threed/scene/methods/save) del objeto de clase Scene.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-CreateEmpty3DDocument-CreateEmpty3DDocument.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+// Create an object of the Scene class
+Scene scene = new Scene();
+// Save 3D scene document
+scene.Save("document.fbx");
+
+{{< /highlight >}}
 
 ##  **Leyendo una escena de 3D**
 Con Aspose.3D API, los desarrolladores pueden cargar todos los documentos 3D compatibles. Los constructores disponibles de la clase `Scene` permiten hacerlo y aceptan una cadena de ruta de archivo válida. Los formatos de archivo legibles admitidos son los siguientes:
@@ -50,9 +58,55 @@ Con Aspose.3D API, los desarrolladores pueden cargar todos los documentos 3D com
 
 Los constructores de la clase `Scene` detectan internamente el formato de documento 3D.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-ReadExistingScene-ReadExistingScene.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+// The path to the documents directory.
+
+// Initialize a Scene class object
+Scene scene = new Scene();
+// Load an existing 3D document
+scene.Open("document.fbx");
+
+
+{{< /highlight >}}
 
 ##  **Trabajar con propiedades de escena 3D**
 Aspose.3D API le permite leer las propiedades de la escena 3D utilizando los nodos secundarios de la escena. El siguiente ejemplo de código C# muestra el uso de esta característica.
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-3DScene-ThreeDProperties-ThreeDProperties.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+Scene scene = Scene.FromFile("EmbeddedTexture.fbx");
+Material material = scene.RootNode.ChildNodes[0].Material;
+PropertyCollection props = material.Properties;
+//List all properties using foreach
+foreach (var prop in props)
+{
+    Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
+}
+//or using ordinal for loop
+for (int i = 0; i < props.Count; i++)
+{
+    var prop = props[i];
+    Console.WriteLine("{0} = {1}", prop.Name, prop.Value);
+}
+//Get property value by name
+var diffuse = props["Diffuse"];
+Console.WriteLine(diffuse);
+//modify property value by name
+props["Diffuse"] = new Vector3(1, 0, 1);
+//Get property instance by name
+Property pdiffuse = props.FindProperty("Diffuse");
+Console.WriteLine(pdiffuse);
+//Since Property is also inherited from A3DObject
+//It's possible to get the property of the property
+Console.WriteLine("Property flags = {0}", pdiffuse.GetProperty("flags"));
+//and some properties that only defined in FBX file:
+Console.WriteLine("Label = {0}", pdiffuse.GetProperty("label"));
+Console.WriteLine("Type Name = {0}", pdiffuse.GetProperty("typeName"));
+//so traversal on property's property is possible
+foreach (var pp in pdiffuse.Properties)
+{
+    Console.WriteLine("Diffuse.{0} = {1}", pp.Name, pp.Value);
+}
+
+{{< /highlight >}}

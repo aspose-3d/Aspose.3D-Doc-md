@@ -25,4 +25,17 @@ Aspose.3D for Java API 支持将 3D 场景保存在各种类型的 3D 文档中�
 ##  **导出 3D 文档**
 Aspose.3D for Java API 支持将 3D 场景保存在各种类型的 3D 文档中。
 ###  **保存 3D 场景: 编程示例**
-{{< gist "aspose-3d-gists" "50e7f479a64956c0bf78841c0799ba76" "aspose-3d-src-examples-loadsave-Save3DScene.java" >}}
+{{< highlight "java" >}}
+// The path to the documents directory.
+String MyDir = RunExamples.getDataDir();
+// Load a 3D document into Aspose.3D
+Scene scene = new Scene();
+// Open an existing 3D scene
+scene.open(MyDir + "document.fbx");
+// Save Scene to a stream
+try (MemoryStream dstStream = new MemoryStream()) {
+    scene.save(dstStream, FileFormat.FBX7500ASCII);
+}
+// Save Scene to a local path
+scene.save(MyDir + "output_out.fbx", FileFormat.FBX7500ASCII);
+{{< /highlight >}}

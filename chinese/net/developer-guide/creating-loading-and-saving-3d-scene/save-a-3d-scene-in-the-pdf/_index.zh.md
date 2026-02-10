@@ -30,4 +30,18 @@ Aspose.3D for .NET 直接将 API 和版本号的信息写入输出文档。例�
 ##  **创建带有圆柱体的 3D PDF，并使用 CAD 优化的照明以阴影插图模式渲染**
 `Scene` 类的Save方法允许以 PDF 格式保存 3D 场景。开发人员可以加载任何 3D 支持的文件或构建新的 3D 场景，他们可以以 PDF 格式保存 3D 场景，如以下 C# 代码示例所示:
 
-{{< gist "aspose-3d-gists" "9563193e834f0087b554c83130fcf7c7" "Examples-CSharp-Loading-and-Saving-Save3DInPdf-Save3DInPdf.cs" >}}
+{{< highlight "csharp" >}}
+// For complete examples and data files, please go to https://github.com/aspose-3d/Aspose.3D-for-.NET
+
+            // Create a new scene
+            Scene scene = new Scene();
+            // Create a cylinder child node
+            scene.RootNode.CreateChildNode("cylinder", new Cylinder()).Material = new PhongMaterial() { DiffuseColor = new Vector3(Color.DarkCyan) };
+            // Set rendering mode and lighting scheme
+            PdfSaveOptions opt = new PdfSaveOptions();
+            opt.LightingScheme = PdfLightingScheme.CAD;
+            opt.RenderMode = PdfRenderMode.ShadedIllustration;
+            // Save in the PDF format
+            scene.Save("output_out.pdf", opt);
+
+{{< /highlight >}}

@@ -15,4 +15,20 @@ La méthode `encode` exposée par la classe [`DracoFormat`](https://reference.as
 ###  **Échantillon de programmation**
 Cet exemple de code récupère un maillage de sphère, puis l'encode dans le fichier Google Draco après avoir spécifié un niveau de compression.
 
-{{< gist "aspose-3d-gists" "cfde9f76113134443c76608c1d19453a" "Working-with-Objects-Encode3DMeshinGoogleDraco-Encode3DMeshinGoogleDraco.py" >}}
+{{< highlight "python" >}}
+from aspose.threed import FileFormat
+from aspose.threed.entities import Sphere
+from aspose.threed.formats import DracoCompressionLevel, DracoSaveOptions
+
+#  For complete examples and data files, please go to https:# github.com/aspose-3d/Aspose.3D-for-.NET
+#  Create a sphere
+sphere = Sphere()
+options = DracoSaveOptions()
+options.compression_level = DracoCompressionLevel.OPTIMAL
+#  Encode the sphere to Google Draco raw data using optimal compression level.
+b = FileFormat.DRACO.encode(sphere.to_mesh(), options)
+#  Save the raw bytes to file
+with open("out"  + "SphereMeshtoDRC_Out.drc", "wb") as f:
+    f.write(b)
+
+{{< /highlight >}}
